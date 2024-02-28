@@ -81,6 +81,7 @@ try {
     }
     Write-Host "Generating Traefik TLS certificate..." -ForegroundColor Green
     & $mkcert -install
+    & $mkcert "*.xmcloudpreview.localhost"
     & $mkcert "*.sxastarter.localhost"
     & $mkcert "xmcloudcm.localhost"
 
