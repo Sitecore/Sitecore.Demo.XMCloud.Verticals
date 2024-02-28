@@ -121,13 +121,13 @@ Write-Host "Pushing sitecore API key" -ForegroundColor Green
 
 $envContent = Get-Content .env -Encoding UTF8
 $sitecoreApiKey = ($envContent | Where-Object { $_ -imatch "^SITECORE_API_KEY_xmcloudpreview=.+" }).Split("=")[1]
-
-& docker\build\cm\templates\import-templates.ps1 -RenderingSiteName "xmcloudpreview" -SitecoreApiKey $sitecoreApiKey.ToLower()
+& docker\build\cm\templates\import-templates.ps1 -RenderingSiteName "xmcloudpreview" -SitecoreApiKey $sitecoreApiKey
 
 if ($ClientCredentialsLogin -ne "true") {
     Write-Host "Opening site..." -ForegroundColor Green
     
     Start-Process https://xmcloudcm.localhost/sitecore/
+    Start-Process https://www.sxastarter.localhost/
 }
 
 Write-Host ""
