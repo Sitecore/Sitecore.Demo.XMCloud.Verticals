@@ -34,7 +34,7 @@ if (![string]::IsNullOrWhitespace($nodeVersion)) {
 }
 
 # Double check whether init has been run
-$envCheckVariable = "HOST_LICENSE_FOLDER"
+$envCheckVariable = "SITECORE_ADMIN_PASSWORD"
 $envCheck = $envContent | Where-Object { $_ -imatch "^$envCheckVariable=.+" }
 if (-not $envCheck) {
     # DEMO TEAM CUSTOMIZATION - Auto run init.ps1 if not run.
