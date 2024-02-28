@@ -41,12 +41,6 @@ if (-not $envCheck) {
     if (Test-Path "C:\License") {
         Write-Host "Initializing environment using default values" -ForegroundColor Yellow
         & .\init.ps1 -InitEnv -AdminPassword b -LicenseXmlPath C:\License\license.xml
-        if ($PreRelease) {
-            & .\init-ci.ps1 -PreRelease
-        }
-        else {
-            & .\init-ci.ps1
-        }
     }
     else {
         throw "$envCheckVariable does not have a value. Did you run 'init.ps1 -InitEnv'?"
