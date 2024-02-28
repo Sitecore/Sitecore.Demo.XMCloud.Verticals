@@ -37,7 +37,21 @@ if (![string]::IsNullOrWhitespace($nodeVersion)) {
 $envCheckVariable = "HOST_LICENSE_FOLDER"
 $envCheck = $envContent | Where-Object { $_ -imatch "^$envCheckVariable=.+" }
 if (-not $envCheck) {
-    throw "$envCheckVariable does not have a value. Did you run 'init.ps1 -InitEnv'?"
+    # DEMO TEAM CUSTOMIZATION - Auto run init.ps1 if not run.
+    if (Test-Path "C:\License") {
+        Write-Host "Initializing environment using default values" -ForegroundColor Yellow
+        & .\init.ps1 -InitEnv -AdminPassword b -LicenseXmlPath C:\License\license.xml
+        if ($PreRelease) {
+            & .\init-ci.ps1 -PreRelease
+        }
+        else {
+            & .\init-ci.ps1
+        }
+    }
+    else {
+        throw "$envCheckVariable does not have a value. Did you run 'init.ps1 -InitEnv'?"
+    }
+    # END CUSTOMIZATION
 }
 
 Write-Host "Keeping XM Cloud base image up to date" -ForegroundColor Green
