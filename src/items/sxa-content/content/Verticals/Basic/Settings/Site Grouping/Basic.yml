@@ -16,7 +16,7 @@ SharedFields:
   Value: Basic
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: *basic*
+  Value: "basic-vertical"
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Basic
@@ -47,11 +47,11 @@ Languages:
         sitecore\alexander.doroshenko@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2a5c41c4-9387-40e0-9702-3d563296d0cc"
+      Value: "38752eae-424c-415a-8b09-b1b44681704b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\alexander.doroshenko@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240227T211123Z
+      Value: 20240228T145334Z

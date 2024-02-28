@@ -16,7 +16,7 @@ SharedFields:
   Value: Services
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: *services*
+  Value: "services-vertical"
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Services
@@ -47,11 +47,11 @@ Languages:
         sitecore\alexander.doroshenko@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f0ac55a7-88a6-47df-8595-2f43bcbcf35f"
+      Value: "5122eb8a-5c25-4f02-8ea1-73b28e2a4fd0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\alexander.doroshenko@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240227T211046Z
+      Value: 20240228T145221Z
