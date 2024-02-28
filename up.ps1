@@ -118,7 +118,10 @@ Write-Host "Pushing Default rendering host configuration" -ForegroundColor Green
 dotnet sitecore ser push
 
 Write-Host "Pushing sitecore API key" -ForegroundColor Green
+
+$envContent = Get-Content .env -Encoding UTF8
 $sitecoreApiKey = ($envContent | Where-Object { $_ -imatch "^SITECORE_API_KEY_xmcloudpreview=.+" }).Split("=")[1]
+
 & docker\build\cm\templates\import-templates.ps1 -RenderingSiteName "xmcloudpreview" -SitecoreApiKey $sitecoreApiKey
 
 if ($ClientCredentialsLogin -ne "true") {
