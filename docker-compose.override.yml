@@ -27,6 +27,7 @@ services:
       JSS_EDITING_SECRET: ${JSS_EDITING_SECRET}
       SITECORE_API_KEY: "${SITECORE_API_KEY_xmcloudpreview}"
       DISABLE_SSG_FETCH: ${DISABLE_SSG_FETCH}
+      DEBUG: "sitecore-jss:*"
     depends_on:
       - cm
       - nodejs
