@@ -20,6 +20,10 @@
                 "scope": "descendantsOnly"
             },
             {
+                "name": "powershell-scripts-warmup",
+                "path": "/sitecore/system/Modules/PowerShell/Script Library/PLAY"
+            },
+            {
                 "name": "headless-placeholders",
                 "path": "/sitecore/layout/Placeholder Settings/Foundation/JSS Experience Accelerator/Placeholder Settings"
             },

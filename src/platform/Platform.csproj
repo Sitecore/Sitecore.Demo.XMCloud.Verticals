@@ -44,6 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Spe">
+      <HintPath>lib\Spe.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -72,6 +75,34 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Config\Include\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Utilities\InitializeComponentsLibraryId.aspx.cs">
+      <DependentUpon>InitializeComponentsLibraryId.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\InitializeComponentsLibraryId.aspx.designer.cs">
+      <DependentUpon>InitializeComponentsLibraryId.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\InitializeHostname.aspx.cs">
+      <DependentUpon>InitializeHostname.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\InitializeHostname.aspx.designer.cs">
+      <DependentUpon>InitializeHostname.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ResetComponentsLibraryId.aspx.cs">
+      <DependentUpon>ResetComponentsLibraryId.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\ResetComponentsLibraryId.aspx.designer.cs">
+      <DependentUpon>ResetComponentsLibraryId.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Utilities\InitializeComponentsLibraryId.aspx" />
+    <Content Include="Utilities\InitializeHostname.aspx" />
+    <Content Include="Utilities\ResetComponentsLibraryId.aspx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
