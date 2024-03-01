@@ -24,7 +24,7 @@ namespace XmCloudSXAStarter.Utilities
                         var hostName = $"{name}-{site.ToLower()}.sitecoredemo.com";
                         if (string.IsNullOrEmpty(channel))
                         {
-                            hostName = $"{name}-{uid}-{site}.vercel.app";
+                            hostName = $"{name}-{uid}-{site.ToLower()}.vercel.app";
                         }
 
                         item["HostName"] = hostName;
