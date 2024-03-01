@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace XmCloudSXAStarter.Utilities
 {
@@ -8,23 +9,29 @@ namespace XmCloudSXAStarter.Utilities
         {
             using (new Sitecore.SecurityModel.SecurityDisabler())
             {
-                var site = Request.QueryString["site"];
-                var hostName = Request.QueryString["hostName"];
+                var name = Environment.GetEnvironmentVariable("DEMO_INSTANCE_NAME");
+                var uid = Environment.GetEnvironmentVariable("DEMO_INSTANCE_UID");
+                var channel = Environment.GetEnvironmentVariable("DEMO_VERCEL_CHANNEL");
 
-                if (string.IsNullOrEmpty(site) || string.IsNullOrEmpty(hostName))
+                var sites = new List<string>() { "Basic", "Services", "Financial" };
+
+                foreach (var site in sites)
                 {
-                    Response.Write("The 'site' or 'hostName' is not provided.");
+                    var item = Sitecore.Context.Database.GetItem(
+                        $"/sitecore/content/Verticals/{site}/Settings/Site Grouping/{site}");
+                    using (new Sitecore.Data.Items.EditContext(item))
+                    {
+                        var hostName = $"{name}-{site.ToLower()}.sitecoredemo.com";
+                        if (string.IsNullOrEmpty(channel))
+                        {
+                            hostName = $"{name}-{uid}-{site}.vercel.app";
+                        }
+
+                        item["HostName"] = hostName;
+                    }
+
                 }
 
-                var item = Sitecore.Context.Database.GetItem(
-                    $"/sitecore/content/Verticals/{site}/Settings/Site Grouping/{site}");
-                using (new Sitecore.Data.Items.EditContext(item))
-                {
-                    item["HostName"] = hostName;
-                }
-
-                Response.Write($"Site: {site}");
-                Response.Write($"HostName: {hostName}");
                 Response.Write("Success!");
             }
         }
