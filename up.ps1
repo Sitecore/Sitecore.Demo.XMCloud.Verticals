@@ -10,6 +10,7 @@ $sitecoreDockerRegistry = $envContent | Where-Object { $_ -imatch "^SITECORE_DOC
 $sitecoreVersion = $envContent | Where-Object { $_ -imatch "^SITECORE_VERSION=.+" }
 $ClientCredentialsLogin = $envContent | Where-Object { $_ -imatch "^SITECORE_FedAuth_dot_Auth0_dot_ClientCredentialsLogin=.+" }
 $xmcloudDockerToolsImage = ($envContent | Where-Object { $_ -imatch "^TOOLS_IMAGE=.+" }).Split("=")[1]
+# DEMO TEAM CUSTOMIZATION - Removed reading the dynamic Sitecore API key. We use a static API key.
 
 $xmCloudHost = $xmCloudHost.Split("=")[1]
 $sitecoreDockerRegistry = $sitecoreDockerRegistry.Split("=")[1]
@@ -122,10 +123,6 @@ Write-Host "Pushing Default rendering host configuration" -ForegroundColor Green
 dotnet sitecore ser push
 
 Write-Host "Pushing sitecore API key" -ForegroundColor Green
-
-$envContent = Get-Content .env -Encoding UTF8
-$sitecoreApiKey = ($envContent | Where-Object { $_ -imatch "^SITECORE_API_KEY_xmcloudpreview=.+" }).Split("=")[1]
-& docker\build\cm\templates\import-templates.ps1 -RenderingSiteName "xmcloudpreview" -SitecoreApiKey $sitecoreApiKey
 
 if ($ClientCredentialsLogin -ne "true") {
     Write-Host "Opening site..." -ForegroundColor Green
