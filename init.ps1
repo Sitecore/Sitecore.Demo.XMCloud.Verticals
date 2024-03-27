@@ -114,8 +114,7 @@ Set-EnvFileVariable "JSS_DEPLOYMENT_SECRET_xmcloudpreview" -Value $xmCloudBuild.
 # Generate Sitecore Api Key
 ################################
 
-$sitecoreApiKey = (New-Guid).Guid
-Set-EnvFileVariable "SITECORE_API_KEY_xmcloudpreview" -Value $sitecoreApiKey
+# DEMO TEAM CUSTOMIZATION - Remove generation of the Sitecore API key. We want a fixed key.
 
 ################################
 # Generate JSS_EDITING_SECRET
