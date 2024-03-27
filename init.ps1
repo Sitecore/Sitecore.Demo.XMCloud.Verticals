@@ -103,6 +103,8 @@ Write-Host "Adding Windows hosts file entries..." -ForegroundColor Green
 
 Add-HostsEntry "xmcloudcm.localhost"
 Add-HostsEntry "www.sxastarter.localhost"
+Add-HostsEntry "services.sxastarter.localhost"
+Add-HostsEntry "financial.sxastarter.localhost"
 
 ###############################
 # Generate scjssconfig
