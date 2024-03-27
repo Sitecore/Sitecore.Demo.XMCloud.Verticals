@@ -31,37 +31,94 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{3A962AC9-0A1A-4C81-B2BD-C0C2FE7F7EE5}"
-              s:ds="local:/Data/Text 1"
-              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-              s:ph="headless-header" />
+              uid="{EF41132F-F1A8-4AE4-8126-4BFD5D052FAE}"
+              p:before="*"
+              s:ds="local:/Data/Main Promo"
+              s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B08EF4F00-6FB3-4014-B75C-6486A5BF6AE1%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{73373EA9-DD19-440A-8A8E-9D3E858F01F5}"
+              p:after="r[@uid='{EF41132F-F1A8-4AE4-8126-4BFD5D052FAE}']"
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7B436C37A1-CC36-4176-97C0-F1C48104E601%7D&amp;ColumnWidth2=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7B436C37A1-CC36-4176-97C0-F1C48104E601%7D&amp;ColumnWidth3=%7C%7B436C37A1-CC36-4176-97C0-F1C48104E601%7D&amp;ColumnWidth4=%7C%7B436C37A1-CC36-4176-97C0-F1C48104E601%7D&amp;ColumnWidth5=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=4&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main" />
+            <r
+              uid="{3C11FB52-174A-4958-9A64-9497C7CE7043}"
+              p:after="r[@uid='{73373EA9-DD19-440A-8A8E-9D3E858F01F5}']"
+              s:id="{5F6BF7C9-C80C-4BBD-AD78-8DA749B35206}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=3&amp;EnabledPlaceholders=1%2C2%2C3&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
+              s:ph="headless-main" />
+            <r
+              uid="{E0BD84FD-9AE4-4958-9133-C2BA3981A3A9}"
+              p:after="r[@uid='{3C11FB52-174A-4958-9A64-9497C7CE7043}']"
+              s:ds="local:/Data/Bottom Promo"
+              s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B08EF4F00-6FB3-4014-B75C-6486A5BF6AE1%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=12"
+              s:ph="headless-main" />
+            <r
+              uid="{40F683C0-44F3-4CD3-AB09-986752DF4527}"
+              p:after="r[@uid='{E0BD84FD-9AE4-4958-9133-C2BA3981A3A9}']"
+              s:ds="local:/Data/Image 1"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B406736F9-F24E-4FE6-9CF0-7B9E4587B709%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-main/column-1-2" />
+            <r
+              uid="{F8350A26-7049-4164-8454-7F3FD12B7A34}"
+              p:after="r[@uid='{40F683C0-44F3-4CD3-AB09-986752DF4527}']"
+              s:ds="local:/Data/Image 2"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B406736F9-F24E-4FE6-9CF0-7B9E4587B709%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="/headless-main/column-2-2" />
+            <r
+              uid="{5C6C25AC-F7E1-4B8F-BD6F-EF12E9CF8457}"
+              p:after="r[@uid='{F8350A26-7049-4164-8454-7F3FD12B7A34}']"
+              s:ds="local:/Data/Image 3"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B406736F9-F24E-4FE6-9CF0-7B9E4587B709%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:ph="/headless-main/column-3-2" />
+            <r
+              uid="{25335214-D9C3-4517-8DEC-E1956E10CAAB}"
+              p:after="r[@uid='{5C6C25AC-F7E1-4B8F-BD6F-EF12E9CF8457}']"
+              s:ds="local:/Data/Image 4"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B406736F9-F24E-4FE6-9CF0-7B9E4587B709%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+              s:ph="/headless-main/column-4-2" />
+            <r
+              uid="{4787A78A-4D07-412F-B2C0-BF31A0313D77}"
+              p:after="r[@uid='{25335214-D9C3-4517-8DEC-E1956E10CAAB}']"
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7BF6FDDF61-C60E-46D1-A4A7-978EBDBE9620%7D&amp;ColumnWidth2=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7BF6FDDF61-C60E-46D1-A4A7-978EBDBE9620%7D&amp;ColumnWidth3=%7C%7BF6FDDF61-C60E-46D1-A4A7-978EBDBE9620%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=3&amp;EnabledPlaceholders=1%2C2%2C3&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+              s:ph="/headless-main/row-2-7" />
+            <r
+              uid="{E1894792-D91A-441D-87F2-FA66F562973E}"
+              p:after="r[@uid='{4787A78A-4D07-412F-B2C0-BF31A0313D77}']"
+              s:ds="local:/Data/Image 5"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B406736F9-F24E-4FE6-9CF0-7B9E4587B709%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+              s:ph="/headless-main/row-2-7/column-1-8" />
+            <r
+              uid="{C378E63C-0F18-4DBA-A366-3351F35D8E8B}"
+              p:after="r[@uid='{E1894792-D91A-441D-87F2-FA66F562973E}']"
+              s:ds="local:/Data/Image 6"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B406736F9-F24E-4FE6-9CF0-7B9E4587B709%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
+              s:ph="/headless-main/row-2-7/column-2-8" />
+            <r
+              uid="{BBF7DE9D-E74A-4613-871C-7C489F8E9714}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Image 7"
+              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B406736F9-F24E-4FE6-9CF0-7B9E4587B709%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=11"
+              s:ph="/headless-main/row-2-7/column-3-8" />
           </d>
         </r>
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20240227T211152Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Financial
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\alexander.doroshenko@sitecore.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\alexander.doroshenko@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2c134c6a-e4a1-4fce-bfe4-31e6ce6d5875"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\alexander.doroshenko@sitecore.com
+      Value: "6a1b2ce3-60cd-4541-82f1-9a84b71402da"
     - ID: "ca15ff2f-1966-4a91-81bf-bf2eba17c20c"
       Hint: Title
       Value: Financial
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20240327T225034Z
