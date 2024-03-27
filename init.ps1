@@ -103,6 +103,8 @@ Write-Host "Adding Windows hosts file entries..." -ForegroundColor Green
 
 Add-HostsEntry "xmcloudcm.localhost"
 Add-HostsEntry "www.sxastarter.localhost"
+Add-HostsEntry "services.sxastarter.localhost"
+Add-HostsEntry "financial.sxastarter.localhost"
 
 ###############################
 # Generate scjssconfig
@@ -114,8 +116,7 @@ Set-EnvFileVariable "JSS_DEPLOYMENT_SECRET_xmcloudpreview" -Value $xmCloudBuild.
 # Generate Sitecore Api Key
 ################################
 
-$sitecoreApiKey = (New-Guid).Guid
-Set-EnvFileVariable "SITECORE_API_KEY_xmcloudpreview" -Value $sitecoreApiKey
+# DEMO TEAM CUSTOMIZATION - Remove generation of the Sitecore API key. We want a fixed key.
 
 ################################
 # Generate JSS_EDITING_SECRET
