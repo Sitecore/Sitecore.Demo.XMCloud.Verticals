@@ -5,10 +5,13 @@ Template: "4ad644a8-7cdb-4574-8df1-d01c3bb7b624"
 Path: /sitecore/content/Verticals/Financial/Home
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "4a749557-242b-4372-8a20-b2db9d406301"
+  Hint: __AutoThumbnails
+  Value: 
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{F44FCC18-96F4-4455-9D82-7BD231FE2845}" />
+    <image mediaid="{CBCF5A12-3FCF-4C0F-B219-FA425CAAED97}" />
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
@@ -51,7 +54,7 @@ Languages:
         sitecore\alexander.doroshenko@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "02961476-af51-44d0-b985-c39d94dab5c2"
+      Value: "2c134c6a-e4a1-4fce-bfe4-31e6ce6d5875"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -61,4 +64,4 @@ Languages:
       Value: Financial
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240228T164025Z
+      Value: 20240327T225034Z
