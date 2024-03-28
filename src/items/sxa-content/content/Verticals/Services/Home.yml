@@ -5,10 +5,13 @@ Template: "4ad644a8-7cdb-4574-8df1-d01c3bb7b624"
 Path: /sitecore/content/Verticals/Services/Home
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "4a749557-242b-4372-8a20-b2db9d406301"
+  Hint: __AutoThumbnails
+  Value: 
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{5B1C6F3B-CB57-43CF-8F18-AA112AF8E163}" />
+    <image mediaid="{C0EA0BCD-AD21-41A9-8F73-C7F8D0EC193C}" />
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
@@ -51,7 +54,7 @@ Languages:
         sitecore\alexander.doroshenko@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8e1879f1-f342-4bc0-b8d0-22caa7133259"
+      Value: "9f791b08-9e6f-4d56-8619-58c7b79455a2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -61,4 +64,4 @@ Languages:
       Value: Services
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240228T164127Z
+      Value: 20240327T225050Z

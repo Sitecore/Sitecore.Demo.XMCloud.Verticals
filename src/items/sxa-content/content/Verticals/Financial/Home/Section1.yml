@@ -1,0 +1,24 @@
+﻿---
+ID: "406fd98c-50e4-4f30-90e4-6245498a2d10"
+Parent: "b2a38fb8-2e85-4d58-afe5-c12beccbee3a"
+Template: "4ad644a8-7cdb-4574-8df1-d01c3bb7b624"
+Path: /sitecore/content/Verticals/Financial/Home/Section1
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E09F949D-1878-4E09-B551-BD367907183A}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Section1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bce68087-c7da-4b4d-b624-30d5e7d7b07e"
+    - ID: "ca15ff2f-1966-4a91-81bf-bf2eba17c20c"
+      Hint: Title
+      Value: Section1
