@@ -1,0 +1,13 @@
+﻿---
+ID: "039c0373-d597-4a3d-9a1c-d32511309fbf"
+Parent: "b7fd653e-fb62-4bc2-bb47-98b7ebbfb8c3"
+Template: "f7a45276-87f1-4ea5-bf25-e3c7cb7aa993"
+Path: /sitecore/content/Verticals/Basic/Data/Images
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e2a439ac-ba93-46b1-97ca-c2ed5e893e32"

@@ -1,0 +1,18 @@
+﻿---
+ID: "ed38bf15-e23b-436b-8136-4a0488dc4e13"
+Parent: "204d4f35-0d25-4994-9655-aa8b78501936"
+Template: "c2dc4690-af44-48c7-bb21-90d1ad246732"
+Path: /sitecore/content/Verticals/Services/Settings/Redirects
+BranchID: "50213d5e-83f8-4fa7-a91d-825e61c7b8a2"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{DC338247-8B52-4159-8095-88F00E323E2D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d45ebfb1-f784-4152-af99-9e5b093efd99"

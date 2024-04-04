@@ -1,0 +1,13 @@
+﻿---
+ID: "5301ed80-1946-4894-a441-a609f249eb86"
+Parent: "299c0b68-ef43-49ec-ad80-2ef3077baf6e"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Verticals/Financial/Sitemaps/Financial
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b99ac672-2f21-4d2d-a0ca-ef4210330b22"

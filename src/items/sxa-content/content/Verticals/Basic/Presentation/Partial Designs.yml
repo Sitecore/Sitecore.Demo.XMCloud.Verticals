@@ -1,0 +1,18 @@
+﻿---
+ID: "7a15fc85-ae68-4475-b13c-bafe4a9dcc2d"
+Parent: "08b52fd8-39d6-4b31-ad16-c9f07e7b7520"
+Template: "5dce5575-a107-421a-aefc-d67ea7b846fa"
+Path: /sitecore/content/Verticals/Basic/Presentation/Partial Designs
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{703ABB6D-BE33-4F9D-97FF-EE1571A14C81}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "60018a7f-7321-493d-bb19-0075e461569d"

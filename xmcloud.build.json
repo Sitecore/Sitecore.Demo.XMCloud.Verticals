@@ -1,0 +1,41 @@
+{
+    "renderingHosts": {
+      "xmcloudpreview": {
+        "path": "./src/sxastarter",
+        "nodeVersion": "20.10.0",
+        "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+        "enabled": true,
+        "type": "sxa",
+        "buildCommand": "build",
+        "runCommand": "next:start"
+      }
+    },
+    "postActions": {
+        "actions":{
+          "warmUpCm": {
+            "urls": [
+              "/sitecore/shell",
+              "/sitecore/shell/Applications/Content%20Editor.aspx?sc_bw=1",
+              "/sitecore/client/Applications/Launchpad",
+              "/Utilities/InitializeComponentsLibraryId.aspx",
+              "/Utilities/InitializeHostname.aspx"
+            ]
+          },
+          "populateSchema": {
+            "indexNames": []
+          },
+          "reindex": {
+            "indexNames": []
+          },
+          "publish": {
+            "path": "/sitecore",
+            "languages": [
+              "en"
+            ],
+            "itemIds": [],
+            "targets": ["Edge"],
+            "republish": false
+          }
+        }
+    }
+}

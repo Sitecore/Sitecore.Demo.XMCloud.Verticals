@@ -1,0 +1,21 @@
+﻿---
+ID: "3c94e6b6-addd-4c26-8e74-a1f4f5499f45"
+Parent: "7a5c3953-4056-4164-923d-766add1c4a9f"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Verticals/Basic/Presentation/Partial Designs/Header/Data/Title
+BranchID: "c755de9b-1e44-4c8f-b830-168212b57fe7"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{89F92411-6F78-42D7-A789-5066D7092839}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: <h1>Skate Park</h1>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "29f8ba87-6e47-4ce9-9c94-5c9132315b8f"

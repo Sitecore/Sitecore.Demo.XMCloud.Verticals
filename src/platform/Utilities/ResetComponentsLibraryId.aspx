@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ResetComponentsLibraryId.aspx.cs" Inherits="XmCloudSXAStarter.Utilities.ResetComponentsLibraryId" %>

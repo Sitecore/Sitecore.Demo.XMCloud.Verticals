@@ -1,0 +1,18 @@
+﻿---
+ID: "dadc2e67-05ac-423c-9d2d-a56be6e9f83c"
+Parent: "60be886b-620e-47ea-94c5-f585b2c1afc3"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/Verticals/Services/Presentation/Styles
+BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{47019583-10DF-46B6-BDCC-1741BECC3CDA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9545c554-9a73-4e0c-bf93-e539f21a97d8"

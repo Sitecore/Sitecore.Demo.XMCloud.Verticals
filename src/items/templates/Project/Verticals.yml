@@ -1,0 +1,13 @@
+﻿---
+ID: "8b77b250-9318-47a8-9b33-6d35b27f5897"
+Parent: "825b30b4-b40b-422e-9920-23a1b6bda89c"
+Template: "77157d54-90c8-4014-9b9e-540d24e71d03"
+Path: /sitecore/templates/Project/Verticals
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c7f205b-c9e1-4550-8d5f-48db23eda5e3"

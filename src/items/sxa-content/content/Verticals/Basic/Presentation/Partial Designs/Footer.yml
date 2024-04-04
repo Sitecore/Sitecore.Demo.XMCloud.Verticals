@@ -1,0 +1,50 @@
+﻿---
+ID: "1621ab1e-d876-41d9-8cef-641e3bb72fe5"
+Parent: "7a15fc85-ae68-4475-b13c-bafe4a9dcc2d"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/Verticals/Basic/Presentation/Partial Designs/Footer
+BranchID: "8204a950-cbaa-4d06-878b-11ced5ddc1ad"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{69E63C40-81DE-4D6A-B486-189C88586C2C}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b61A8A0E2-C8E4-4FA0-9E23-BD36554990FF%7d%7c%7b389BD71B-A533-4564-9211-278A732DBF7E%7d%7c%7b3E97E683-A13E-473D-8FEC-1D5A879451FF%7d%7c%7bD2E55BB1-D577-4F9A-80DB-4C69F35BB8FA%7d%7c%7b7987B5D3-212C-49CA-8D6A-804AC1EC6788%7d%7c%7b1B1710C3-D073-4350-A268-7CD8FBF967FD%7d%7c%7b65196873-AD6D-4F77-A45F-B38E6DE2CE8E%7d%7c%7b876A0377-71AC-47C9-9DBC-4B14AC5B864B%7d%7c%7bE6A80581-38A7-4B3E-B983-0A1E28D6AB5B%7d%7c%7bCAAD2455-E1AE-4AE4-BB5C-693175ECA062%7d%7c%7bE3178530-E4A7-4BAB-BC21-31E09D879319%7d%7c%7b28814DB4-CB84-437B-BAA2-71114ABCA9A2%7d%7c%7b13931012-7FE6-4C03-A674-531C147D6A7E%7d%7c%7b69FE2779-17B9-4FA5-BD08-F44B1F1AFFAE%7d%7c%7bC4D7CB8E-BCB8-48E7-B8D8-E18DF859AF42%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{4AA8063F-669E-49FA-B596-D750A79482ED}"
+          p:after="r[@uid='{69E63C40-81DE-4D6A-B486-189C88586C2C}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b6F3722D2-0656-4CF1-BCD6-91294E933565%7d&amp;FieldNames=%7bD4C47A93-AC47-4B3F-B3C4-0177933D926A%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{F7B39588-E376-483B-B099-6E5AA064FC42}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b6F3722D2-0656-4CF1-BCD6-91294E933565%7d&amp;FieldNames=%7bD4C47A93-AC47-4B3F-B3C4-0177933D926A%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDB00EAA-5ACA-4C4D-8B88-3195D992F980}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "802e5ebf-12ee-41d9-b6f3-625d6f7db241"
