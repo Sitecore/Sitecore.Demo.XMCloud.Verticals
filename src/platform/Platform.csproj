@@ -68,14 +68,13 @@
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Sitecore.Demo.Verticals.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
     <None Include="web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Config\Include\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Compile Include="Utilities\InitializeComponentsLibraryId.aspx.cs">
       <DependentUpon>InitializeComponentsLibraryId.aspx</DependentUpon>
