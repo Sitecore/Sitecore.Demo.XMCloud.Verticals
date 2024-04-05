@@ -1,0 +1,13 @@
+﻿---
+ID: "bf157932-cd79-4934-b308-3e8581099058"
+Parent: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: /sitecore/templates/Project/Verticals/Financial/Article Page/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c36eef16-1e1c-4b22-b8b6-f72728bd70e6"

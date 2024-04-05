@@ -1,7 +1,7 @@
 ﻿---
 ID: "b2a38fb8-2e85-4d58-afe5-c12beccbee3a"
 Parent: "08d9417d-5071-46ff-896b-eb76b0790526"
-Template: "4ad644a8-7cdb-4574-8df1-d01c3bb7b624"
+Template: "5282d418-6c18-46eb-85af-9116cde9e6eb"
 Path: /sitecore/content/Verticals/Financial/Home
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
@@ -118,7 +118,7 @@ Languages:
       Value: Financial
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6a1b2ce3-60cd-4541-82f1-9a84b71402da"
-    - ID: "ca15ff2f-1966-4a91-81bf-bf2eba17c20c"
+      Value: "f63013bc-b7de-46ea-924b-6102338c1b18"
+    - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
       Value: Financial

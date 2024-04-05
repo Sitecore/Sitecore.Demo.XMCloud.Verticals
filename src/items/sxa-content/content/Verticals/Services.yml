@@ -5,6 +5,9 @@ Template: "598c1f44-5fd6-4e7b-b77f-d09d2e4090ee"
 Path: /sitecore/content/Verticals/Services
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Apps/32x32/Shop &#40;2&#41;.png
 - ID: "1230d2cb-4948-4d43-8a3b-b39978f6f1b3"
   Hint: Modules
   Value: |
@@ -38,4 +41,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eab0b8bd-83dc-4dce-973f-1c2b6cd3e2d8"
+      Value: "bc2384dc-c0ba-42d9-9aa5-4dd5bb9d7cce"

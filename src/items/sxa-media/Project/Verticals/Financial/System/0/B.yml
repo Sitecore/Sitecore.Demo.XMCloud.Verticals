@@ -1,0 +1,13 @@
+﻿---
+ID: "abfe1977-8b9f-4399-9cd0-e599b31ca421"
+Parent: "7facd73c-ddec-4ee8-8d17-1279a20289f3"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Verticals/Financial/System/0/B
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ac6bd22-b5c1-4cf8-864a-4cc82c820ed4"
