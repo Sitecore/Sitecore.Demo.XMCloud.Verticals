@@ -1,7 +1,7 @@
 ﻿---
 ID: "524f5cd2-4fb9-437d-b733-cf5861b8ced3"
 Parent: "b2a38fb8-2e85-4d58-afe5-c12beccbee3a"
-Template: "4ad644a8-7cdb-4574-8df1-d01c3bb7b624"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
 Path: /sitecore/content/Verticals/Financial/Home/Section3
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
@@ -13,12 +13,12 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Section3
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Section3
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "14d70545-e979-46be-8d81-89e955b1d041"
-    - ID: "ca15ff2f-1966-4a91-81bf-bf2eba17c20c"
-      Hint: Title
-      Value: Section3
+      Value: "2e05e64c-bfe4-49d5-97f7-ba78e4696e20"

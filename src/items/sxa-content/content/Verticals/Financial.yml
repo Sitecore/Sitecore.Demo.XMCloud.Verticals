@@ -5,6 +5,9 @@ Template: "598c1f44-5fd6-4e7b-b77f-d09d2e4090ee"
 Path: /sitecore/content/Verticals/Financial
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Apps/32x32/Invoices.png
 - ID: "1230d2cb-4948-4d43-8a3b-b39978f6f1b3"
   Hint: Modules
   Value: |
@@ -38,4 +41,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d4885e41-7554-4625-a762-ed9da1bc0144"
+      Value: "8fe5f859-0884-48de-ae1a-a7a2d7f35794"
