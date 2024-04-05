@@ -1,0 +1,21 @@
+﻿---
+ID: "8973d2a4-2a8d-4574-9145-ca792b950bba"
+Parent: "ed95dbf0-cd26-40c0-874d-7b6fb1b5c0ea"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/Verticals/Financial/Presentation/Partial Designs/Article Content
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "article-content"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0450FD3F-C2EE-4588-AF07-279D08279B05}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "12de3c06-ee1a-4096-82cf-105abae52e05"

@@ -1,0 +1,21 @@
+﻿---
+ID: "18e3e8af-416f-41fc-957f-90262622e212"
+Parent: "ed95dbf0-cd26-40c0-874d-7b6fb1b5c0ea"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/Verticals/Financial/Presentation/Partial Designs/Page Content
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "page-content"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{18A12E7D-2DEE-46A7-9644-3C7FA1E7E070}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d95da967-96ce-4154-983f-844146a85160"
