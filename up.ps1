@@ -115,14 +115,14 @@ if ($LASTEXITCODE -ne 0) {
     Write-Error "Populating Solr managed schema failed, see errors above."
 }
 
+Write-Host "Pushing Sitecore items" -ForegroundColor Green
+dotnet sitecore ser push
+
+docker compose restart rendering
+
 # Rebuild indexes
 Write-Host "Rebuilding indexes ..." -ForegroundColor Green
 dotnet sitecore index rebuild
-
-Write-Host "Pushing Default rendering host configuration" -ForegroundColor Green
-dotnet sitecore ser push
-
-Write-Host "Pushing sitecore API key" -ForegroundColor Green
 
 if ($ClientCredentialsLogin -ne "true") {
     Write-Host "Opening site..." -ForegroundColor Green
