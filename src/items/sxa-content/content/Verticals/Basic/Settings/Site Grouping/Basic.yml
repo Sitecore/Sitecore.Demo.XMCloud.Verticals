@@ -16,7 +16,7 @@ SharedFields:
   Value: Basic
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: www.sxastarter.localhost
+  Value: basic.sxastarter.localhost
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Basic
@@ -36,4 +36,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "93f81e7c-719c-48c1-a671-871da1aae36b"
+      Value: "e8c328c9-1c7a-4f9b-9b50-d3e466e815d1"
