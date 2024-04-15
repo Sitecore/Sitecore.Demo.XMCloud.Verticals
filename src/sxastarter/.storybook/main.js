@@ -1,18 +1,9 @@
 const path = require('path');
 module.exports = {
-  "stories": ["../src/**/*.stories.@(mdx|js|jsx|ts|tsx)"],
+  "stories": ['../src/**/*.@(mdx|stories.@(js|jsx|ts|tsx))'],
   staticDirs: ['../public'],
   addons: [
-    '@storybook/addon-essentials',
-    // Because we use PostCSS and Tailwind
-    {
-      name: "@storybook/addon-styling",
-      options: {
-        postCss: {
-          implementation: require("postcss"),
-        },
-      },
-    },
+    '@storybook/addon-essentials'
   ],
   webpackFinal: async config => {
     config.resolve.fallback = {

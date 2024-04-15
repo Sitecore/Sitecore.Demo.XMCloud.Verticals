@@ -10,13 +10,17 @@ export default {
 export const Default = {
   args: {
     fields: {
-      text: {
+      Text: {
         value: 'This is a sample Rich Text component',
       },
     },
     rendering: {
       componentName: 'Rendering',
       dataSource: '/AnythingForTheWithDatasourceCheckHocToDisplayTheComponent',
+    },
+    params: {
+      RenderingIdentifier: 'RichText',
+      styles: 'test',
     },
   },
 };
