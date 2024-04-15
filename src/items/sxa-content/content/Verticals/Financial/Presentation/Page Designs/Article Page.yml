@@ -10,7 +10,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{50C6E576-CFF7-400F-A82E-8F8B4498FAF3}" />
+    <image mediaid="{9577FF23-7437-4375-9962-C6FE1D39C171}" />
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "675cb19c-dca0-4dc8-ae94-e79c4e4f21ee"
+      Value: "d266e4d2-5145-421f-ba3f-a981870741ec"
