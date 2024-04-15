@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Financial/Content Page
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Notes &#40;1&#41;.png
+  Value: Apps/32x32/logviewer.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -25,4 +25,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "774019fe-ba84-4341-826d-c6a46ef0011a"
+      Value: "40adcbb2-2891-4b75-a9ab-cd88f9705814"
