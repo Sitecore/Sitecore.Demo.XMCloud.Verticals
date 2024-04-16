@@ -1,0 +1,13 @@
+﻿---
+ID: "321b71a6-169c-4a12-905a-0bf5f5ccd7e3"
+Parent: "ce777cfb-34f8-4d8b-8623-f9d696202e1f"
+Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+Path: /sitecore/templates/Branches/Project/Verticals/Carousel/$name/Item 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5212f02e-2b93-44d5-9161-43caab17dc42"
