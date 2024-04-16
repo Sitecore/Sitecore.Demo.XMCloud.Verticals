@@ -13,6 +13,11 @@ namespace XmCloudSXAStarter.Utilities
                 var uid = Environment.GetEnvironmentVariable("DEMO_INSTANCE_UID");
                 var channel = Environment.GetEnvironmentVariable("DEMO_VERCEL_CHANNEL");
 
+                if(string.IsNullOrEmpty(name)) {
+                    Response.Write("DEMO_INSTANCE_NAME is not configured.");
+                    return;
+                }
+
                 var sites = new List<string>() { "Basic", "Services", "Financial" };
 
                 foreach (var site in sites)
