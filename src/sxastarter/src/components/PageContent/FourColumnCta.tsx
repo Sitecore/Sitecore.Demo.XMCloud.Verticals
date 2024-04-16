@@ -15,7 +15,7 @@ export const Default = (props: RichTextProps): JSX.Element => {
 
   return (
     <div
-      className={`container component three-column ${props.params.styles.trimEnd()}`}
+      className={`container component three-column-cta ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="row">
