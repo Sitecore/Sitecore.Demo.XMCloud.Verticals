@@ -1,15 +1,15 @@
 ﻿---
-ID: "8094185b-4c72-40c8-b005-c6ed91708754"
+ID: "a7343c45-4438-441e-967e-c2cb350dda75"
 Parent: "6630c97b-f037-4f1f-87bc-907c43f167d1"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Verticals/Carousel
+Path: /sitecore/layout/Renderings/Project/Verticals/Article Details
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Carousel
+  Value: ArticleDetails
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Ball.png
+  Value: Apps/32x32/Newspaper.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Branches/Project/Verticals/Carousel
@@ -53,7 +53,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9d3a2a22-7853-4702-bdeb-a8c706237228"
+      Value: "8b7da91c-5669-4681-b9d6-eaf763c049f9"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

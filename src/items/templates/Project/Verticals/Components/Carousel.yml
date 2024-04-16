@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Components/Carousel
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Books.png
+  Value: apps/32x32/ball.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{0A7AA373-5ED1-4E9B-9678-22D3C5FAF6DF}"
@@ -20,4 +20,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1a68c7b9-a1ec-4446-9d02-eb368a3d1925"
+      Value: "e7ab9fbc-627c-41e3-972b-8c3b6ed243bf"
