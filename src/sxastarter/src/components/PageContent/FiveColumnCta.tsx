@@ -1,8 +1,17 @@
 import React from 'react';
-import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  Text: Field<string>;
+  Title1: Field<string>;
+  Image1: ImageField;
+  Title2: Field<string>;
+  Image2: ImageField;
+  Title3: Field<string>;
+  Image3: ImageField;
+  Title4: Field<string>;
+  Image4: ImageField;
+  Title5: Field<string>;
+  Image5: ImageField;
 }
 
 export type RichTextProps = {
@@ -15,24 +24,24 @@ export const Default = (props: RichTextProps): JSX.Element => {
 
   return (
     <div
-      className={`container component five-column-cta ${props.params.styles.trimEnd()}`}
+      className={`container component five-column-cta pb-5 ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="row row-cols-5">
         <div className="col">
-          <img width={'100%'} src="https://placehold.co/600x400" alt="1 of 3"></img>
+          <Image field={props.fields.Image1} className="d-block w-100" height={' '}></Image>
         </div>
         <div className="col">
-          <img width={'100%'} src="https://placehold.co/600x400" alt="1 of 3"></img>
+          <Image field={props.fields.Image2} className="d-block w-100" height={' '}></Image>
         </div>
         <div className="col">
-          <img width={'100%'} src="https://placehold.co/600x400" alt="1 of 3"></img>
+          <Image field={props.fields.Image3} className="d-block w-100" height={' '}></Image>
         </div>
         <div className="col">
-          <img width={'100%'} src="https://placehold.co/600x400" alt="1 of 3"></img>
+          <Image field={props.fields.Image4} className="d-block w-100" height={' '}></Image>
         </div>
         <div className="col">
-          <img width={'100%'} src="https://placehold.co/600x400" alt="1 of 3"></img>
+          <Image field={props.fields.Image5} className="d-block w-100" height={' '}></Image>
         </div>
       </div>
     </div>
