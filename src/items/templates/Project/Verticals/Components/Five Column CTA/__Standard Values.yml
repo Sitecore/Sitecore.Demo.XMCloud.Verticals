@@ -1,0 +1,17 @@
+﻿---
+ID: "de904dac-b6a9-4513-aa79-404b81e73e86"
+Parent: "3b41d9fc-0edf-48e1-966c-e260339ba815"
+Template: "3b41d9fc-0edf-48e1-966c-e260339ba815"
+Path: /sitecore/templates/Project/Verticals/Components/Five Column CTA/__Standard Values
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d8d2e7a4-ff7a-40b7-a749-714eed2eca76"
