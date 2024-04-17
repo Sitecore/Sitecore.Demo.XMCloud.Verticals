@@ -15,7 +15,7 @@ SharedFields:
   Value: Services
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: "services.sxastarter.localhost|localhost"
+  Value: services.sxastarter.localhost
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Services
@@ -35,4 +35,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f97e16e0-38dd-4723-9d1a-079d9f2c4156"
+      Value: "d1a5f17d-8a18-441e-981e-3a82f526b64c"
