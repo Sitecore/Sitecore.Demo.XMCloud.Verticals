@@ -3,7 +3,6 @@ ID: "caf39d4e-d6ee-4714-979d-82f5bf6cf692"
 Parent: "fb2e9334-a081-48c2-9131-743f3044cefc"
 Template: "e46f3af2-39fa-4866-a157-7017c4b2a40c"
 Path: /sitecore/content/Verticals/Services/Settings/Site Grouping/Services
-BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "1ee576af-ba8e-4312-9fbd-2ccf8395baa1"
   Hint: StartItem
@@ -16,7 +15,7 @@ SharedFields:
   Value: Services
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: services.sxastarter.localhost
+  Value: "services.sxastarter.localhost|localhost"
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Services
@@ -36,4 +35,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5005811c-1a2c-4e86-b97a-b1a007c3f1a5"
+      Value: "f97e16e0-38dd-4723-9d1a-079d9f2c4156"
