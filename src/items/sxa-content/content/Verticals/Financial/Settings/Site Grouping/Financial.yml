@@ -3,7 +3,6 @@ ID: "4b2ccfb7-36f5-4fee-af52-50ecfb4dd396"
 Parent: "684ca7e0-423c-4107-8d41-20cabc961d18"
 Template: "e46f3af2-39fa-4866-a157-7017c4b2a40c"
 Path: /sitecore/content/Verticals/Financial/Settings/Site Grouping/Financial
-BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "1ee576af-ba8e-4312-9fbd-2ccf8395baa1"
   Hint: StartItem
@@ -16,7 +15,7 @@ SharedFields:
   Value: Financial
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: www.sxastarter.localhost
+  Value: "www.sxastarter.localhost|localhost"
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Financial
@@ -36,4 +35,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88a84c4a-dbec-4658-89b5-8683edd7905a"
+      Value: "78f288c0-d600-4082-acef-704a6645032a"

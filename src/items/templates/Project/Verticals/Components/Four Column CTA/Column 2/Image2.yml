@@ -1,0 +1,20 @@
+﻿---
+ID: "a98fc4bc-b088-4296-aa32-fba35f964ebd"
+Parent: "773a0333-471a-4d95-be11-77ddb61a5b67"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Verticals/Components/Four Column CTA/Column 2/Image2
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Image
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7ff04786-28cd-486e-8b35-04a498b3b7f6"

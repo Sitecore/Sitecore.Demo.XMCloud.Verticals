@@ -22,6 +22,9 @@ SharedFields:
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{A1ABD5CF-C257-4BB1-9F7A-93E6F3375391}"
+- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
+  Hint: Rendering Contents Resolver
+  Value: "{2F5C334E-5615-423C-8281-9FC180191302}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: "query:$site/*[@@name='Data']/*[@@templatename='Carousel']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Carousel']"
@@ -53,7 +56,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9d3a2a22-7853-4702-bdeb-a8c706237228"
+      Value: "c024270a-5280-4b3a-9bfb-2d1cc00aebd6"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

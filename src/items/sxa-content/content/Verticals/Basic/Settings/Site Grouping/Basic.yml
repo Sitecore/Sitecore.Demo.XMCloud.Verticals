@@ -3,7 +3,6 @@ ID: "be597628-e708-4dc1-95ca-a9c681461f14"
 Parent: "9f1403b2-451d-4e8a-9f90-eb7cf907b700"
 Template: "e46f3af2-39fa-4866-a157-7017c4b2a40c"
 Path: /sitecore/content/Verticals/Basic/Settings/Site Grouping/Basic
-BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "1ee576af-ba8e-4312-9fbd-2ccf8395baa1"
   Hint: StartItem
@@ -36,4 +35,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e8c328c9-1c7a-4f9b-9b50-d3e466e815d1"
+      Value: "8633e0e4-8760-426b-891f-a087fba2e1b6"
