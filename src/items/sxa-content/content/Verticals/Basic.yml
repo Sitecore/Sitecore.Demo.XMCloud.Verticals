@@ -3,7 +3,6 @@ ID: "557b80d0-24d8-4c29-9b87-dfe04c751152"
 Parent: "85664109-9059-459b-a079-f76e3fa09063"
 Template: "598c1f44-5fd6-4e7b-b77f-d09d2e4090ee"
 Path: /sitecore/content/Verticals/Basic
-BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -28,7 +27,7 @@ SharedFields:
     {ED6C4A9B-E3DC-413A-BEF6-337ABB7FD2C7}
 - ID: "2b2fe9fd-78a6-40eb-b9f9-28409d8d3700"
   Hint: SitemapMediaItems
-  Value: "{A97F88D4-54E2-469F-B301-B22D6C1326B9}"
+  Value: 
 - ID: "33d9005e-1f71-415f-b107-53b965c3b037"
   Hint: SiteMediaLibrary
   Value: "{2826BAD7-CA59-4D79-912C-13AEDE733066}"
@@ -42,4 +41,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "50a61daf-662e-4f3a-8da9-7a9c6d2261b9"
+      Value: "34223c2a-30c9-43dc-b220-fb4dfbd867de"

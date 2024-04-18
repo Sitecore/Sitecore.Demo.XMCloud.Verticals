@@ -3,8 +3,10 @@ ID: "a189b217-82d9-4d5d-b415-5a7ba9a4acb6"
 Parent: "6c9392f9-7c16-44e9-b198-6ebe5a47067d"
 Template: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
 Path: /sitecore/content/Verticals/Financial/Settings/Sitemap
-BranchID: "adb13058-5c08-4827-8f30-a269342a2e9e"
 SharedFields:
+- ID: "7f070bc5-5cd4-474f-aa2f-ab2a0a128f00"
+  Hint: GenerateSitemapMediaItems
+  Value: 
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{39E85A50-1AC7-4A65-A7F5-C726259BEC26}"
@@ -15,4 +17,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "91bc05d5-1554-4754-8603-3ca493067c5f"
+      Value: "d64f8808-d350-4f73-9af6-2cee3ec29dd9"
