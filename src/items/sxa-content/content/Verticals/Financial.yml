@@ -3,7 +3,6 @@ ID: "08d9417d-5071-46ff-896b-eb76b0790526"
 Parent: "85664109-9059-459b-a079-f76e3fa09063"
 Template: "598c1f44-5fd6-4e7b-b77f-d09d2e4090ee"
 Path: /sitecore/content/Verticals/Financial
-BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -27,7 +26,7 @@ SharedFields:
     {AC1A27CA-6BF3-4D23-915E-668326D52CF1}
 - ID: "2b2fe9fd-78a6-40eb-b9f9-28409d8d3700"
   Hint: SitemapMediaItems
-  Value: "{293E87F0-386F-479A-973C-63C7D8FA8C5D}"
+  Value: 
 - ID: "33d9005e-1f71-415f-b107-53b965c3b037"
   Hint: SiteMediaLibrary
   Value: "{EEE2C54E-1BC8-4B72-BB26-1EA80C093A30}"
@@ -41,4 +40,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8fe5f859-0884-48de-ae1a-a7a2d7f35794"
+      Value: "f4798603-0134-4864-8ebf-6e567b5324bc"
