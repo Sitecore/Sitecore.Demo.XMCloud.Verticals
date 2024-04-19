@@ -43,7 +43,7 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
   };
 
   return (
-    <section className={`component ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
+    <section className={`component pb-5 ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
       <div className="carousel">
         <ol className="carousel-indicators">
           {props.fields.items.map((_item, i) => (
