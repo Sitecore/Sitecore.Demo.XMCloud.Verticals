@@ -58,15 +58,18 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
         <div className="carousel-inner">
           {props.fields.items.map((item, i) => (
             <div key={i} className={'carousel-item ' + (i == index ? 'active' : '')}>
+              <h1 className="d-md-none p-5">
+                <Text field={item.fields.Title}></Text>
+              </h1>
               <Image
                 field={item.fields.Image}
                 className="object-fit-cover d-block w-100"
                 height={' '}
               ></Image>
-              <div className="side-content col-lg-4 col-md-6 offset-md-4 offset-lg-5 p-5 p-md-0">
-                <h3>
+              <div className="side-content col-lg-4 col-md-6 offset-md-4 offset-lg-5 pt-5 px-5 p-md-0">
+                <h1 className="d-none d-md-block">
                   <Text field={item.fields.Title}></Text>
-                </h3>
+                </h1>
                 <p>
                   <Text field={item.fields.Text}></Text>
                 </p>

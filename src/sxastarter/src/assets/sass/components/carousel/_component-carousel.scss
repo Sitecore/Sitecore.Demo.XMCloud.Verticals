@@ -4,7 +4,6 @@
     right: 0;
     bottom: 10px;
     left: 0;
-    z-index: 15;
     display: flex;
     justify-content: center;
     padding-left: 0; // override <ol> default
@@ -53,9 +52,8 @@
     max-height: 35em;
 
     .side-content {
-      h3 {
+      h1 {
         color: #333333;
-        font-size: 1.5em;
       }
 
       p {
@@ -77,10 +75,6 @@
         left: 15%;
         color: #fff;
         text-align: left;
-
-        h3 {
-            font-size: 2em;
-          }
       }
     }
 
