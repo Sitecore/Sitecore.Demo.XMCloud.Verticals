@@ -18,11 +18,11 @@ Languages:
     - ID: "1d581533-1aa5-4679-9e2a-e7fe765218ba"
       Hint: Link3
       Value: |
-        <link linktype="internal" />
+        <link text=" " linktype="anchor" url="investing-options" anchor="investing-options" title="" class="" />
     - ID: "2490d428-27e2-4daa-8337-4e34f37fc26b"
       Hint: Link2
       Value: |
-        <link linktype="internal" />
+        <link text=" " linktype="anchor" url="mortgage" anchor="mortgage" title="" class="" />
     - ID: "3b0a6484-9ce0-4386-b2b3-5792c0db7b72"
       Hint: Image3
       Value: |
@@ -30,14 +30,14 @@ Languages:
     - ID: "41910271-6970-45e7-8819-3d531826d4a6"
       Hint: Link5
       Value: |
-        <link linktype="internal" />
+        <link text=" " linktype="anchor" url="credit-cards" anchor="credit-cards" title="" class="" />
     - ID: "4301130a-505e-4a6d-ba47-f783d47a1750"
       Hint: Image2
       Value: |
         <image mediaid="{3FE72BF3-5300-452C-BCAA-8FD38FD1D522}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "54062ec8-db4a-4376-bef6-7c6bd3c96c1a"
+      Value: "35fc8d87-d996-4ba5-bb61-df865ee89d95"
     - ID: "8f49a654-7b7f-4c0b-b6df-d3ce2389c1bf"
       Hint: Text2
       Value: Mortgage
@@ -50,11 +50,11 @@ Languages:
     - ID: "b867909f-d20c-4c76-b82f-778d25239cd1"
       Hint: Link1
       Value: |
-        <link linktype="internal" />
+        <link text=" " linktype="anchor" url="get-a-loan" anchor="get-a-loan" title="" class="" />
     - ID: "b8b8fa51-0c41-442e-8757-07b7a59d6d3f"
       Hint: Link4
       Value: |
-        <link linktype="internal" />
+        <link text=" " linktype="anchor" url="small-businesses" anchor="small-businesses" title="" class="" />
     - ID: "c5d0b517-0ed6-4cd4-9354-8adf7a04bc7d"
       Hint: Image4
       Value: |
