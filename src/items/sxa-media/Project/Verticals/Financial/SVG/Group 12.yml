@@ -25,7 +25,7 @@ SharedFields:
   Value: svg
 - ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
   Hint: Height
-  Value: 82
+  Value: 110
 Languages:
 - Language: en
   Versions:
@@ -36,4 +36,4 @@ Languages:
       Value: Credit card image
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "93d1053f-b32f-4776-90ae-08dd35c8544d"
+      Value: "50f6ba01-8c81-41c2-9128-66487f3e2228"
