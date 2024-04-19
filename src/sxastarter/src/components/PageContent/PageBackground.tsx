@@ -16,8 +16,8 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
   const id = props.params?.RenderingIdentifier;
   const backgroundStyle = (props?.fields?.BackgroundImage?.value?.src && {
     backgroundImage: `url('${props.fields.BackgroundImage.value.src}')`,
-    backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
+    backgroundSize: '100% auto;',
   }) as CSSProperties;
 
   return (
@@ -35,12 +35,13 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
         </p>
       </div>
 
-      <div className="">
+      <div>
         <div className="container rounded bg-white">
           <div className="m-5">
             <Placeholder name="background-page-content" rendering={props.rendering} />
           </div>
         </div>
+        <Placeholder name="page-content" rendering={props.rendering} />
       </div>
     </div>
   );
