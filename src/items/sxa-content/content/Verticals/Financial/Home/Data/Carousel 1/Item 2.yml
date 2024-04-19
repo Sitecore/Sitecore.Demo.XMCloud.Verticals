@@ -1,0 +1,22 @@
+﻿---
+ID: "1871df26-48f8-4e5b-ac90-2a36b4c46e9f"
+Parent: "8104bdd2-3404-431d-90a5-daa0e95c7671"
+Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+Path: /sitecore/content/Verticals/Financial/Home/Data/Carousel 1/Item 2
+BranchID: "ce40209e-3961-4d15-871f-d959ef53797e"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{321B71A6-169C-4A12-905A-0BF5F5CCD7E3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c2016122-eff1-42d5-a45d-43cfd0e2ca8e"
+    - ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+      Hint: Image
+      Value: |
+        <image mediaid="{99617DE0-EAD5-448E-BC85-EAE51558631D}" />

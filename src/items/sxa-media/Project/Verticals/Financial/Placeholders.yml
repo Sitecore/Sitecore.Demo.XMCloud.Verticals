@@ -1,0 +1,13 @@
+﻿---
+ID: "1201991a-b76c-494f-afbb-719b4515a18c"
+Parent: "eee2c54e-1bc8-4b72-bb26-1ea80c093a30"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Verticals/Financial/Placeholders
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c6c4ecc9-19fa-4407-8e08-93d697b42bf7"
