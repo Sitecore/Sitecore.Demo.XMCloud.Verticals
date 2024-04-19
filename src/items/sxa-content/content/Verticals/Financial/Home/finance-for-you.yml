@@ -31,32 +31,11 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{6806E4A9-0C49-488A-BC35-EA426E707C53}"
-              p:before="*"
-              s:id="{1F52FB4E-FB4B-40ED-A5D8-F8F9784B36F2}"
-              s:par="CSSStyles"
-              s:ph="headless-main" />
-            <r
-              uid="{039AA897-502B-4BF6-8055-2AB933A761A8}"
-              p:after="r[@uid='{6806E4A9-0C49-488A-BC35-EA426E707C53}']"
-              s:ds="local:/Data/Text 2"
+              uid="{EEDDC98B-BC8C-41EB-97D1-E3A5AB9CC78F}"
+              s:ds="84bd9b8b-6f59-4333-bde7-47053c52a37d"
               s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
-              s:ph="/headless-main/background-page-content-{6806E4A9-0C49-488A-BC35-EA426E707C53}-0" />
-            <r
-              uid="{9086F9E3-FDD4-4D0A-90A3-28341D4DF3F2}"
-              p:after="r[@uid='{039AA897-502B-4BF6-8055-2AB933A761A8}']"
-              s:ds="{AFF2BAAA-BC2C-4C1C-823E-C91F7B1F3E43}"
-              s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
-              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-              s:ph="/headless-main/background-page-content-{6806E4A9-0C49-488A-BC35-EA426E707C53}-0" />
-            <r
-              uid="{63F40FFF-6DD5-432B-80DE-34CEC7CC1F49}"
-              p:after="*[1=2]"
-              s:ds="local:/Data/Text 3"
-              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
-              s:ph="/headless-main/background-page-content-{6806E4A9-0C49-488A-BC35-EA426E707C53}-0" />
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
           </d>
         </r>
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
@@ -70,7 +49,7 @@ Languages:
       Value: Finance for you
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d1b75577-a3e8-468d-97d2-e95069d8749d"
+      Value: "b46646cb-5c25-4d28-a36f-f08320696362"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |

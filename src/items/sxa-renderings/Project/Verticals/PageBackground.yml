@@ -9,7 +9,9 @@ SharedFields:
   Value: PageBackground
 - ID: "069a8361-b1cd-437c-8c32-a3be78941446"
   Hint: Placeholders
-  Value: "{936BBB4A-6772-4DB5-A0EA-FABEE542EBA9}"
+  Value: |
+    {936BBB4A-6772-4DB5-A0EA-FABEE542EBA9}
+    {C9D3A906-3697-4EEE-A431-B8FC8EB5A7F8}
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Apps/32x32/Technology.png
@@ -62,7 +64,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a965113c-afd7-4a7b-8338-802bb628f93c"
+      Value: "5cf7f3ac-5a01-4624-bae5-be1b8040549f"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
