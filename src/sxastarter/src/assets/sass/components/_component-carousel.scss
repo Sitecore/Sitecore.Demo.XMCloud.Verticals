@@ -1,4 +1,6 @@
-.site-financial .carousel {
+@import 'src/assets/sass/abstracts/vars';
+
+.carousel {
   .carousel-indicators {
     position: absolute;
     right: 0;
@@ -61,7 +63,7 @@
       }
 
       a {
-        font-size: 16px;
+        font-size: $font-medium;
         background-color: #ff3c28;
         border-radius: 38px;
         padding: 4px 30px;
