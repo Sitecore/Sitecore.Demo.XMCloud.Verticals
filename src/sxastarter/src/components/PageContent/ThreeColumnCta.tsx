@@ -20,18 +20,20 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`container component four-column-cta pb-5 ${props.params.styles.trimEnd()}`}
+      className={`component four-column-cta pb-5 ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
-      <div className="row">
-        <div className="col-sm-12 col-md-4">
-          <Image field={props.fields.Image1} className="d-block w-100" height={' '}></Image>
-        </div>
-        <div className="col-sm-12 col-md-4">
-          <Image field={props.fields.Image2} className="d-block w-100" height={' '}></Image>
-        </div>
-        <div className="col-sm-12 col-md-4">
-          <Image field={props.fields.Image3} className="d-block w-100" height={' '}></Image>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-md-4">
+            <Image field={props.fields.Image1} className="d-block w-100" height={' '}></Image>
+          </div>
+          <div className="col-sm-12 col-md-4">
+            <Image field={props.fields.Image2} className="d-block w-100" height={' '}></Image>
+          </div>
+          <div className="col-sm-12 col-md-4">
+            <Image field={props.fields.Image3} className="d-block w-100" height={' '}></Image>
+          </div>
         </div>
       </div>
     </div>

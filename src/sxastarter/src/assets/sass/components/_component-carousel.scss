@@ -1,0 +1,89 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.carousel {
+  .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    padding-left: 0; // override <ol> default
+    // Use the .carousel-control's width as margin so we don't overlay those
+    margin-right: $carousel-control-width;
+    margin-left: $carousel-control-width;
+    list-style: none;
+
+    li {
+      position: relative;
+      flex: 0 1 auto;
+      width: $carousel-indicator-width;
+      height: $carousel-indicator-height;
+      margin-right: $carousel-indicator-spacer;
+      margin-left: $carousel-indicator-spacer;
+      text-indent: -999px;
+      background-color: rgba($carousel-indicator-active-bg, 0.5);
+
+      // Use pseudo classes to increase the hit area by 10px on top and bottom.
+      &::before {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        display: inline-block;
+        width: 100%;
+        height: 10px;
+        content: '';
+      }
+      &::after {
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        display: inline-block;
+        width: 100%;
+        height: 10px;
+        content: '';
+      }
+    }
+
+    .active {
+      background-color: $carousel-indicator-active-bg;
+    }
+  }
+
+  .carousel-item {
+    max-height: 35em;
+
+    .side-content {
+      h1 {
+        color: #333333;
+      }
+
+      p {
+        color: #333333;
+      }
+
+      a {
+        font-size: $font-medium;
+        background-color: #ff3c28;
+        border-radius: 38px;
+        padding: 4px 30px;
+      }
+
+      @include media-breakpoint-up(md) {
+        position: absolute;
+        width: 100%;
+        top: 25%;
+        right: 0%;
+        color: #fff;
+        text-align: left;
+      }
+    }
+
+    @include media-breakpoint-up(xl) {
+      top: 35%;
+    }
+
+    bottom: unset;
+    text-align: left;
+  }
+}
