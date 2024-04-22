@@ -17,7 +17,7 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
   const backgroundStyle = (props?.fields?.BackgroundImage?.value?.src && {
     backgroundImage: `url('${props.fields.BackgroundImage.value.src}')`,
     backgroundRepeat: 'no-repeat',
-    backgroundSize: '100% auto;',
+    backgroundSize: '100% auto',
   }) as CSSProperties;
 
   return (
@@ -26,7 +26,9 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
       id={id ? id : undefined}
       style={backgroundStyle}
     >
-      <div className="container">
+      <div className="container pt-5">
+        <Placeholder name="page-navigation" rendering={props.rendering} />
+
         <h1>
           <Text field={props.fields.Title}></Text>
         </h1>
