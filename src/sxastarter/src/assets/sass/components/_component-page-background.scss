@@ -1,0 +1,11 @@
+.page-background {
+  padding-top: 6rem;
+
+  .rounded-corners {
+    border-radius: 16px;
+  }
+
+  .background-content {
+    @extend .bg-white
+  }
+}
