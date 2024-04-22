@@ -32,51 +32,51 @@ export const Default = (props: RichTextProps): JSX.Element => {
       className={`container component five-column-cta pb-5 ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
-      <div className="row row-cols-5">
-        <div className="col">
+      <div className="row row-cols-3 row-cols-md-5 justify-content-center">
+        <div className="col px-4">
           <Link field={props.fields.Link1}>
             <div className="image-container">
-              <Image field={props.fields.Image1} className="d-block w-100" />
+              <Image field={props.fields.Image1} className="d-block w-100 h-100" />
             </div>
           </Link>
           <div className="text-container">
             <Text field={props.fields.Text1} />
           </div>
         </div>
-        <div className="col">
+        <div className="col px-4">
           <Link field={props.fields.Link2}>
             <div className="image-container">
-              <Image field={props.fields.Image2} className="d-block w-100" />
+              <Image field={props.fields.Image2} className="d-block w-100 h-100" />
             </div>
           </Link>
           <div className="text-container">
             <Text field={props.fields.Text2} />
           </div>
         </div>
-        <div className="col">
+        <div className="col px-4">
           <Link field={props.fields.Link3}>
             <div className="image-container">
-              <Image field={props.fields.Image3} className="d-block w-100" />
+              <Image field={props.fields.Image3} className="d-block w-100 h-100" />
             </div>
           </Link>
           <div className="text-container">
             <Text field={props.fields.Text3} />
           </div>
         </div>
-        <div className="col">
+        <div className="col px-4">
           <Link field={props.fields.Link4}>
             <div className="image-container">
-              <Image field={props.fields.Image4} className="d-block w-100" />
+              <Image field={props.fields.Image4} className="d-block w-100 h-100" />
             </div>
           </Link>
           <div className="text-container">
             <Text field={props.fields.Text4} />
           </div>
         </div>
-        <div className="col">
+        <div className="col px-4">
           <Link field={props.fields.Link5}>
             <div className="image-container">
-              <Image field={props.fields.Image5} className="d-block w-100" />
+              <Image field={props.fields.Image5} className="d-block w-100 h-100" />
             </div>
           </Link>
           <div className="text-container">
