@@ -7,9 +7,11 @@
   .level2 a {
     position: relative;
     padding-left: 10px;
-    &:before {
+
+    &::before {
       @include font-size(1.4);
-      @include fa-icon();
+      @include fa-icon;
+
       transform: translateY(-50%) scale(1, -1);
       position: absolute;
       content: $fa-var-share;

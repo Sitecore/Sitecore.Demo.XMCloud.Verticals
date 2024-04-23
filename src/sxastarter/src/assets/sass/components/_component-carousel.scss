@@ -34,6 +34,7 @@
         height: 10px;
         content: '';
       }
+
       &::after {
         position: absolute;
         bottom: -10px;
@@ -55,11 +56,11 @@
 
     .side-content {
       h1 {
-        color: #333333;
+        color: #333;
       }
 
       p {
-        color: #333333;
+        color: #333;
       }
 
       a {
