@@ -3,7 +3,3 @@ ID: "84bd9b8b-6f59-4333-bde7-47053c52a37d"
 Parent: "3064b748-c9ff-49c9-84f4-b97c856f794a"
 Template: "1aecd1bc-9d4c-4749-b91b-d94f1dff103b"
 Path: "/sitecore/content/Verticals/Financial/Home/finance-for-you/Data/Text 3"
-Languages:
-- Language: en
-  Versions:
-  - Version: 1
