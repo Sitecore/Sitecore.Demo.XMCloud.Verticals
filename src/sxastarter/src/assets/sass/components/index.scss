@@ -1,21 +1,16 @@
-@import "component-column-splitter";
-@import "component-container";
-@import "component-image";
-@import "component-navigation";
-@import "component-promo";
-@import "_component-richtext-content";
-
-@import "_component-carousel";
-@import "_component-breadcrumb";
-@import "_component-page-background";
-
-@import "common";
-@import "container";
-@import "layout";
-@import "spacing";
-@import "promo";
-@import "spacing";
-@import "title";
-@import "image";
-@import "link-list";
-@import "rich-text";
+@import 'component-column-splitter';
+@import 'component-container';
+@import 'component-image';
+@import 'component-navigation';
+@import 'component-promo';
+@import '_component-richtext-content';
+@import '_component-carousel';
+@import 'common';
+@import 'container';
+@import 'layout';
+@import 'promo';
+@import 'spacing';
+@import 'title';
+@import 'image';
+@import 'link-list';
+@import 'rich-text';
