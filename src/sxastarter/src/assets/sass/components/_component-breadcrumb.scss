@@ -12,7 +12,10 @@
 
     a,
     span {
-        @extend .d-inline-block;
+      @extend .d-inline-block;
+
+      color: #333;
+      text-decoration: none;
 
       &::before {
         @extend .d-block;
@@ -34,10 +37,29 @@
     &:not(:first-of-type)::before {
       @extend .fw-normal;
       @extend .d-inline;
+      @include fa-icon;
 
-      content: '> ';
-      padding-left: 5px;
-      padding-right: 3px;
+      content: $fa-var-chevron-right;
+      vertical-align: middle;
+      font-size: 1.5em;
+      padding-right: 15px;
+    }
+
+    &:first-of-type::before {
+      @extend .fw-normal;
+      @extend .d-inline;
+      @include fa-icon;
+
+      content: $fa-var-home;
+      vertical-align: middle;
+      font-size: 2em;
+      padding-right: 15px;
+    }
+
+    &:first-of-type {
+      a {
+        display: none !important;
+      }
     }
 
     &:last-child {
