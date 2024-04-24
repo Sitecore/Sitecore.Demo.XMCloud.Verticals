@@ -3,7 +3,6 @@ ID: "3db7d8c4-d4ef-4af1-bd48-a0f25c3d7872"
 Parent: "ed95dbf0-cd26-40c0-874d-7b6fb1b5c0ea"
 Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
 Path: /sitecore/content/Verticals/Financial/Presentation/Partial Designs/Header
-BranchID: "c755de9b-1e44-4c8f-b830-168212b57fe7"
 SharedFields:
 - ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
   Hint: Signature
@@ -43,6 +42,34 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B759A0B9-D915-401D-A4CD-2888C7A5D663}"
+              p:before="*"
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7C%7B1A54259A-C304-4D6E-9B01-7F71301D4380%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-header" />
+            <r
+              uid="{F0E320AC-2866-4B80-9F56-9E9F35675441}"
+              s:par="Styles=%7B91B88E36-80C0-4522-A5DA-9FDC1B38C884%7D&amp;FieldNames=%7BD4C47A93-AC47-4B3F-B3C4-0177933D926A%7D&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B81225C08-5783-4BED-A86A-AB2B87198885%7D"
+              s:ph="/headless-header/container-1" />
+            <r
+              uid="{7C9E1BAD-A136-4711-9220-AB61F227F432}"
+              s:ph="/headless-header/container-1">
+              <p:da
+                name="ds" />
+            </r>
+          </d>
+        </r>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7f9488e2-bee5-45cb-85e7-36b804a26045"
+      Value: "48316f90-38d1-440a-b977-8e82d5cadf47"

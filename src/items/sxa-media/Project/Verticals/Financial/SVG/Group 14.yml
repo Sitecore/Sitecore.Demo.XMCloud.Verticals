@@ -9,7 +9,7 @@ SharedFields:
   Value: "-/media/9718505EA239495CB20A701DECD54C65.ashx?h=16&thn=1&w=16"
 - ID: "22eac599-f13b-4607-a89d-c091763a467d"
   Hint: Width
-  Value: 116
+  Value: 110
 - ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
   Hint: Blob
   BlobID: "c29465e9-a2bf-40aa-8659-17956f1f9976"
@@ -36,4 +36,4 @@ Languages:
       Value: Small businesses image
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "180ece13-1dc3-4bfc-be33-6f7a87fade9b"
+      Value: "fa188352-604b-447c-b157-40e3640b14e8"

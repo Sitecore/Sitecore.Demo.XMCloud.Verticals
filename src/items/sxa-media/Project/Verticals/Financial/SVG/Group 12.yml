@@ -9,7 +9,7 @@ SharedFields:
   Value: "-/media/DBEA34F0D6344A6BA7ED2CFE5AF909AA.ashx?h=16&thn=1&w=16"
 - ID: "22eac599-f13b-4607-a89d-c091763a467d"
   Hint: Width
-  Value: 122
+  Value: 110
 - ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
   Hint: Blob
   BlobID: "e68e1e2e-c68e-4d82-9996-889dcdae3fdc"
@@ -36,4 +36,4 @@ Languages:
       Value: Credit card image
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "50f6ba01-8c81-41c2-9128-66487f3e2228"
+      Value: "c5161dc6-6b98-4fba-99ec-b0b7bcb3d712"

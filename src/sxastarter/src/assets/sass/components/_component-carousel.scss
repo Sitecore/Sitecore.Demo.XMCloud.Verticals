@@ -52,9 +52,12 @@
   }
 
   .carousel-item {
-    max-height: 35em;
+    max-height: 41em;
 
     .side-content {
+      z-index: 1;
+      padding-bottom: 2em;
+
       h1 {
         color: #333;
       }
@@ -73,18 +76,16 @@
       @include media-breakpoint-up(md) {
         position: absolute;
         width: 100%;
-        top: 25%;
+        top: 35%;
         right: 0%;
         color: #fff;
         text-align: left;
       }
     }
 
-    @include media-breakpoint-up(xl) {
-      top: 35%;
-    }
-
     bottom: unset;
     text-align: left;
   }
 }
+
+@import 'src/assets/sass/components/carousel/';

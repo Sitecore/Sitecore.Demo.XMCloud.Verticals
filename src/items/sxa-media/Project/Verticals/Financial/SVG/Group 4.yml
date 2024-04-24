@@ -9,7 +9,7 @@ SharedFields:
   Value: "-/media/2F8318579B124901BB7121080A723266.ashx?h=16&thn=1&w=16"
 - ID: "22eac599-f13b-4607-a89d-c091763a467d"
   Hint: Width
-  Value: 92
+  Value: 110
 - ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
   Hint: Blob
   BlobID: "626ba2a4-cc67-44a1-9cde-8f3aa05e97ee"
@@ -36,4 +36,4 @@ Languages:
       Value: Investing options image
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a6154d2a-dcfc-47b1-a29d-0bccfd6bfb65"
+      Value: "bcec36ed-3f76-49f7-81d2-ab0b9094d2cb"

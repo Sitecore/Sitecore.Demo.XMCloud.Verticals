@@ -9,7 +9,7 @@ SharedFields:
   Value: "-/media/3FE72BF35300452CBCAA8FD38FD1D522.ashx?h=16&thn=1&w=16"
 - ID: "22eac599-f13b-4607-a89d-c091763a467d"
   Hint: Width
-  Value: 122
+  Value: 110
 - ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
   Hint: Blob
   BlobID: "789b8a13-7343-4bb1-9db2-9e77a47f70d4"
@@ -36,4 +36,4 @@ Languages:
       Value: Mortgage image
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "473928cd-ec89-4d47-9975-cb04b61b3338"
+      Value: "a1340e33-46dc-4aed-9655-29856dfaffb3"
