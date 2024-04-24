@@ -15,7 +15,7 @@ SharedFields:
   Value: Basic
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: "chpa-test-5-col-nf1qhuqnqks5t3n7jr3eaw-basic.vercel.app"
+  Value: basic.sxastarter.localhost
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Basic
@@ -35,4 +35,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1b1acad4-9e45-4b52-ae75-40cc52e47201"
+      Value: "8633e0e4-8760-426b-891f-a087fba2e1b6"
