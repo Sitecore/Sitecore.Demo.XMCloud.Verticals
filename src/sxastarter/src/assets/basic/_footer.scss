@@ -1,10 +1,11 @@
-@import "src/assets/sass/abstracts/mixins";
-@import "variables";
+@import 'src/assets/sass/abstracts/mixins';
+@import 'variables';
 
 footer {
   @include respond-to(mobile-large) {
     padding-top: 0;
   }
+
   .container-dark-background {
     background-color: #262626;
   }
@@ -16,7 +17,8 @@ footer {
       color: $text-white;
     }
 
-    p, span {
+    p,
+    span {
       color: $text-white;
     }
   }

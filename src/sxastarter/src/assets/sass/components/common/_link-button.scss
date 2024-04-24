@@ -1,16 +1,20 @@
-@import "src/assets/sass/abstracts/mixins";
+@import 'src/assets/sass/abstracts/mixins';
 
 .link-button {
-    @import "src/assets/sass/base/links/";
+  @import 'src/assets/sass/base/links/';
 }
+
 // Promo button
 .promo.link-button {
-    a {
-        @extend .button-default;
-    }
+  a {
+    @extend .button-default;
+  }
 }
+
 .link.link-button {
-    .is-empty-hint, .field-link span, a {
-        @include default-link-button();
-    }
+  .is-empty-hint,
+  .field-link span,
+  a {
+    @include default-link-button;
+  }
 }
