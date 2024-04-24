@@ -4,8 +4,11 @@
 @import 'component-navigation';
 @import 'component-promo';
 @import '_component-richtext-content';
+
 @import '_component-carousel';
 @import '_component-breadcrumb';
+@import '_component-page-background';
+
 @import 'common';
 @import 'container';
 @import 'layout';
@@ -15,4 +18,5 @@
 @import 'image';
 @import 'link-list';
 @import 'rich-text';
+
 @import "five-column-cta";
