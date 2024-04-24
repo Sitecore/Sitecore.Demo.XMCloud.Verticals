@@ -43,7 +43,7 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
   };
 
   return (
-    <section className={`component pb-5 ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
+    <section className={`component ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
       <div className="carousel">
         <ol className="carousel-indicators">
           {props.fields.items.map((_item, i) => (
@@ -68,7 +68,7 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
               ></Image>
               <div className="side-content">
                 <div className="container">
-                  <div className="col-lg-4 col-md-6 offset-md-6 offset-lg-8 pt-5 px-5 p-md-0">
+                  <div className="col-lg-5 col-md-6 offset-md-6 offset-lg-7 pt-5 px-5 p-md-0">
                     <h1 className="d-none d-md-block">
                       <Text field={item.fields.Title}></Text>
                     </h1>

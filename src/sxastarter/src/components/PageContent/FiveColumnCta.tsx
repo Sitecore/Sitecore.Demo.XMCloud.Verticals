@@ -29,7 +29,7 @@ export const Default = (props: RichTextProps): JSX.Element => {
 
   return (
     <div
-      className={`container component five-column-cta pb-5 ${props.params.styles.trimEnd()}`}
+      className={`container component five-column-cta ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="row row-cols-3 row-cols-md-5 justify-content-center">
