@@ -26,24 +26,26 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
       id={id ? id : undefined}
       style={backgroundStyle}
     >
-      <div className="container">
-        <Placeholder name="page-navigation" rendering={props.rendering} />
+      <div className="wrapper">
+        <div className="container">
+          <Placeholder name="page-navigation" rendering={props.rendering} />
 
-        <h1>
-          <Text field={props.fields.Title}></Text>
-        </h1>
-        <p>
-          <Text field={props.fields.Content}></Text>
-        </p>
-      </div>
-
-      <div>
-        <div className="background-content container rounded-corners">
-          <div className="m-5 pt-5">
-            <Placeholder name="background-page-content" rendering={props.rendering} />
-          </div>
+          <h1>
+            <Text field={props.fields.Title}></Text>
+          </h1>
+          <p>
+            <Text field={props.fields.Content}></Text>
+          </p>
         </div>
-        <Placeholder name="page-content" rendering={props.rendering} />
+
+        <div>
+          <div className="background-content container rounded-corners">
+            <div className="m-5 pt-5">
+              <Placeholder name="background-page-content" rendering={props.rendering} />
+            </div>
+          </div>
+          <Placeholder name="page-content" rendering={props.rendering} />
+        </div>
       </div>
     </div>
   );

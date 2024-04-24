@@ -1,11 +1,13 @@
 .page-background {
-  padding-top: 6rem;
+  .wrapper {
+    padding-top: 5rem;
+  }
 
   .rounded-corners {
     border-radius: 16px;
   }
 
   .background-content {
-    @extend .bg-white
+    background-color: white;
   }
 }
