@@ -83,15 +83,8 @@
         "createdAt": "2023-06-08T09:27:58.572Z",
         "stagedAt": null,
         "publishedAt": "2023-06-08T14:31:06.461Z",
-        "modifiedAt": "2023-06-09T10:17:20.928Z",
-        "modifiedBy": {
-          "id": "62f3ba1cba5df761961e5a78",
-          "name": "Sintija Potaicuka",
-          "email": "sintija.potaicuka@sitecore.com",
-          "picture": "https://s.gravatar.com/avatar/377f12a848dbd6e352920bce2685c063?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fsi.png",
-          "givenName": "Sintija",
-          "familyName": "Potaicuka"
-        },
+        "modifiedAt": "2024-04-23T11:23:50.484Z",
+        "modifiedBy": {},
         "bundles": []
       },
       {
@@ -126,7 +119,7 @@
     "id": "default",
     "name": "Default collection",
     "isDefault": true,
-    "orderIdx": "",
+    "orderIdx": null,
     "createdAt": "2023-06-28T12:45:53.685Z",
     "modifiedAt": "2023-06-28T12:45:53.685Z",
     "components": []

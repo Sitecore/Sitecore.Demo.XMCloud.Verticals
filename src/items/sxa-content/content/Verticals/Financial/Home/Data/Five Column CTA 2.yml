@@ -8,13 +8,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8d714362-1458-47de-8326-4a20382353f8"
-    - ID: "f762ad0b-e486-48ca-acb3-d8523551a990"
-      Hint: Image1
-      Value: |
-        <image mediaid="08b36b47-dc43-4f6b-8ce1-95a195829509" />
+      Value: "71e0ac97-c05d-4693-89cc-16ee1e018d38"
