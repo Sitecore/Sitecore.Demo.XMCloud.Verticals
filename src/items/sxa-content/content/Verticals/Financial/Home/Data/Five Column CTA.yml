@@ -1,0 +1,13 @@
+﻿---
+ID: "b2f566b8-603f-4c07-9541-e338eb46d0bb"
+Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
+Template: "3b41d9fc-0edf-48e1-966c-e260339ba815"
+Path: /sitecore/content/Verticals/Financial/Home/Data/Five Column CTA
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d06abfc7-76f1-4fe2-adcf-fcbcbd604f46"
