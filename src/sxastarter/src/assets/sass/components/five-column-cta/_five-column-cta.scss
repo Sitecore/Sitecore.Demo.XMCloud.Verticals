@@ -1,4 +1,6 @@
-.site-financial .five-column-cta {
+.five-column-cta {
+  font-size: 20px;
+
   div.col {
     text-align: -webkit-center;
   }
@@ -8,15 +10,13 @@
 
   .image-container {
     aspect-ratio: 1 / 1;
-    background-color: #f0f5f7;
+    background-color: var(--bg-main);
     padding: 2em;
-    border-radius: 128px;
+    border-radius: 100%;
     margin-bottom: 20px;
   }
 
   .text-container {
-    color: #333;
-    font-size: 20px;
     font-weight: bold;
     text-align: center;
   }

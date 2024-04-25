@@ -1,11 +1,42 @@
+// Financial
+.site-financial {
+  --text-body: #333;
+  --text-body-inverted: #fff;
+  --text-colored: #034c81;
+  --text-footer: #fff;
+  --text-accent: #a82a39;
+  --bg-body: #fff;
+  --bg-footer: #333;
+  --bg-main: #f0f5f7;
+  --bg-color: #c5e4f3;
+  --bg-saturated: #034c81;
+  --bg-accent: #ff3c28;
+  --border-color: #f0f5f7;
+
+  .dark & {
+    --text-body: #fff;
+    --text-body-inverted: #333;
+    --text-colored: #c5e4f3;
+    --text-footer: #fff;
+    --text-accent: #a82a39;
+    --bg-body: #031827;
+    --bg-footer: #333;
+    --bg-main: #034c81;
+    --bg-color: #034c81;
+    --bg-saturated: #034c81;
+    --bg-accent: #ff3c28;
+    --border-color: #034c81;
+  }
+}
+
 // Backgrounds colors
 $bg-transparent: transparent !default;
-$bg-basic-color: #fff !default;
-$bg-basic-color-active: #ccc !default;
+$bg-basic-color: var(--bg-body) !default;
+$bg-basic-color-active: var(--bg-main) !default;
 $bg-light-gray: #f7f7f7 !default;
 $bg-light-gray-active: #dadada !default;
-$bg-blue: #89c6cc;
-$bg-blue-active: #15909c !default;
+$bg-blue: var(--bg-color);
+$bg-blue-active: var(--bg-saturated) !default;
 $bg-submenu: #edebeb !default;
 $bg-submenu-active: #f6f6f6 !default;
 $bg-black: #000;
@@ -14,22 +45,22 @@ $bg-dark-gray: #262626;
 
 // Text colors
 $text-white: #fff !default;
-$text-heading-color: #222 !default;
-$text-basic: #747474 !default;
+$text-heading-color: var(--text-body) !default;
+$text-basic: var(--text-body) !default;
 $text-basic-active: #878787 !default;
-$text-blue: #89c6cc !default;
-$text-blue-active: #15909c !default;
+$text-blue: var(--bg-color) !default;
+$text-blue-active: var(--bg-saturated) !default;
 $text-submenu-active: #222 !default;
 $text-disabled: #aaa !default;
 $text-black: #000 !default;
-$text-red: #de232f;
+$text-red: var(--text-accent);
 $text-gray: #262626;
 
 // Border colors
 $border-gray: #d2d2d2 !default;
 $border-white: #fff !default;
-$border-basic-color: #89c6cc !default;
-$border-basic-active: #15909c !default;
+$border-basic-color: var(--bg-color) !default;
+$border-basic-active: var(--bg-saturated) !default;
 $border-nav-submenu: #e1e1e1;
 
 // Styles for each component separately
@@ -50,8 +81,8 @@ $breadcrumb-color-active: $text-blue-active;
 // Buttons colors
 $btn-green-light: #a0ce4e;
 $btn-green: #92be43;
-$btn-red-active: #c34e30;
-$btn-red: #bc4526;
+$btn-red-active: var(--text-accent);
+$btn-red: var(--bg-accent);
 
 // Carousel
 $carousel-bg: $bg-basic-color;
@@ -192,8 +223,8 @@ $search-filter: $text-basic;
 $search-filter-border: $border-basic-color;
 
 // Menu colors
-$menu-hover-color: #1b809e;
-$menu-active-color: #176f89;
+$menu-hover-color: var(--text-colored);
+$menu-active-color: var(--text-colored);
 
 // Navigation
 $nav-bg: transparent;
