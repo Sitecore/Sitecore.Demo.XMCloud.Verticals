@@ -54,6 +54,21 @@
   .carousel-item {
     max-height: 41em;
 
+    @include media-breakpoint-up(md) {
+      &::after {
+        width: 100%;
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* stylelint-disable */
+        background: linear-gradient(to left, #FFFFFFA6 0%, rgba(255, 255, 255, 0%) 69%);
+        /* stylelint-enable */
+        height: 100%;
+      }
+    }
+
     .side-content {
       z-index: 1;
       padding-bottom: 2em;
