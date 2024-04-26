@@ -9,9 +9,20 @@
         "buildCommand": "build",
         "runCommand": "next:start"
       }
+    "deployItems": {
+      "modules": [
+        "renderinghost"
+      ]
     },
     "postActions": {
         "actions":{
+          "scsModules": {
+            "modules": [
+              "InitItems",
+              "HeadlessSxaWebsite",
+              "HeadlessSxaWebsite-Content"
+            ]
+          },
           "warmUpCm": {
             "urls": [
               "/sitecore/shell",
