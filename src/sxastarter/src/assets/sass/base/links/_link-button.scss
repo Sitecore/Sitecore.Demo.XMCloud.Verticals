@@ -1,6 +1,39 @@
 @import 'src/assets/sass/abstracts/vars/colors';
 @import 'src/assets/sass/abstracts/mixins';
 
+.site-financial {
+  --button-padding: 10px 50px;
+  --button-roundness: 40px;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: var(--button-roundness);
+  padding: var(--button-padding);
+  transition: all 0.2s ease-in-out;
+}
+
+.button-main {
+  background-color: var(--bg-saturated);
+  color: var(--text-button);
+
+  &:hover {
+    color: var(--text-button);
+    filter: brightness(125%);
+  }
+}
+
+.button-accent {
+  background-color: var(--bg-accent);
+  color: var(--text-button);
+
+  &:hover {
+    color: var(--text-button);
+    filter: brightness(85%);
+  }
+}
+
 .button-default,
 .default {
   @include default-link-button;
