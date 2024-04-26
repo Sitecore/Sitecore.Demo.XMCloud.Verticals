@@ -73,17 +73,9 @@
       z-index: 1;
       padding-bottom: 2em;
 
-      h1 {
-        color: #333;
-      }
-
-      p {
-        color: #333;
-      }
-
       a {
         font-size: $font-medium;
-        background-color: #ff3c28;
+        background-color: var(--bg-accent);
         border-radius: 38px;
         padding: 4px 30px;
       }
@@ -93,7 +85,6 @@
         width: 100%;
         top: 35%;
         right: 0%;
-        color: #fff;
         text-align: left;
       }
     }

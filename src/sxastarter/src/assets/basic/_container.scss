@@ -1,9 +1,10 @@
 @import 'src/assets/sass/abstracts/mixins';
 @import 'variables';
 
-body {
-  font-family: Roboto, sans-serif;
-  color: $main-color;
+.body {
+  font-family: var(--font-family);
+  color: var(--text-body);
+  background-color: var(--bg-body);
 }
 
 @media (width >= 1400px) {

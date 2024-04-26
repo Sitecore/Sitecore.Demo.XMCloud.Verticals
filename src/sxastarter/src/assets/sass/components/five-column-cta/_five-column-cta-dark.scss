@@ -1,14 +1,8 @@
-.site-financial.dark .five-column-cta {
+.dark .five-column-cta {
   .image-container {
-    background-color: #034c81;
-
     img {
       filter: brightness(0) saturate(100%) invert(99%) sepia(100%) saturate(2%) hue-rotate(199deg)
         brightness(103%) contrast(100%);
     }
-  }
-
-  .text-container {
-    color: #fff;
   }
 }
