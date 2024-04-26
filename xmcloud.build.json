@@ -10,19 +10,28 @@
         "runCommand": "next:start"
       }
     },
+    "deployItems": {
+      "modules": [
+        "renderinghost"
+      ]
+    },
     "postActions": {
         "actions":{
+          "populateSchema": {
+            "indexNames": []
+          },
+          "scsModules": {
+            "modules": [
+              "InitItems",
+              "HeadlessSxaWebsite",
+              "HeadlessSxaWebsite-Content"
+            ]
+          },
           "warmUpCm": {
             "urls": [
-              "/sitecore/shell",
-              "/sitecore/shell/Applications/Content%20Editor.aspx?sc_bw=1",
-              "/sitecore/client/Applications/Launchpad",
               "/Utilities/InitializeComponentsLibraryId.aspx",
               "/Utilities/InitializeHostname.aspx"
             ]
-          },
-          "populateSchema": {
-            "indexNames": []
           },
           "reindex": {
             "indexNames": []
