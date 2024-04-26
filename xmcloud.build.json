@@ -8,12 +8,12 @@
         "type": "sxa",
         "buildCommand": "build",
         "runCommand": "next:start"
-      },
-      "deployItems": {
-        "modules": [
-          "renderinghost"
-        ]
       }
+    },
+    "deployItems": {
+      "modules": [
+        "renderinghost"
+      ]
     },
     "postActions": {
         "actions":{
@@ -26,9 +26,6 @@
           },
           "warmUpCm": {
             "urls": [
-              "/sitecore/shell",
-              "/sitecore/shell/Applications/Content%20Editor.aspx?sc_bw=1",
-              "/sitecore/client/Applications/Launchpad",
               "/Utilities/InitializeComponentsLibraryId.aspx",
               "/Utilities/InitializeHostname.aspx"
             ]
