@@ -8,11 +8,12 @@
         "type": "sxa",
         "buildCommand": "build",
         "runCommand": "next:start"
+      },
+      "deployItems": {
+        "modules": [
+          "renderinghost"
+        ]
       }
-    "deployItems": {
-      "modules": [
-        "renderinghost"
-      ]
     },
     "postActions": {
         "actions":{
