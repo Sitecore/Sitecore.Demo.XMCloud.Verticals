@@ -17,6 +17,9 @@
     },
     "postActions": {
         "actions":{
+          "populateSchema": {
+            "indexNames": []
+          },
           "scsModules": {
             "modules": [
               "InitItems",
@@ -29,9 +32,6 @@
               "/Utilities/InitializeComponentsLibraryId.aspx",
               "/Utilities/InitializeHostname.aspx"
             ]
-          },
-          "populateSchema": {
-            "indexNames": []
           },
           "reindex": {
             "indexNames": []
