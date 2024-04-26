@@ -63,7 +63,7 @@
         top: 0;
         left: 0;
         /* stylelint-disable */
-        background: linear-gradient(to left, #FFFFFFA6 0%, rgba(255, 255, 255, 0%) 69%);
+        background: linear-gradient(to left, #ffffffa6 0%, rgba(255, 255, 255, 0%) 69%);
         /* stylelint-enable */
         height: 100%;
       }
@@ -72,13 +72,6 @@
     .side-content {
       z-index: 1;
       padding-bottom: 2em;
-
-      a {
-        font-size: $font-medium;
-        background-color: var(--bg-accent);
-        border-radius: 38px;
-        padding: 4px 30px;
-      }
 
       @include media-breakpoint-up(md) {
         position: absolute;

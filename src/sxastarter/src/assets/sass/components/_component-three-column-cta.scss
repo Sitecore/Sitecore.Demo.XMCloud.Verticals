@@ -1,0 +1,62 @@
+.site-financial {
+  --three-column-cta-roundness: 16px;
+}
+
+$roundness: var(--three-column-cta-roundness);
+
+.three-column-cta {
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+  @include respond-to(all-mobile) {
+    padding: 0 $size-padding;
+  }
+
+  img {
+    width: 100%;
+    border-radius: $roundness;
+    margin-bottom: 1em;
+  }
+
+  .row {
+    @include respond-to(all-mobile) {
+      gap: 3em;
+    }
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  &.bordered {
+    .content-wrapper {
+      border-radius: $roundness;
+      overflow: hidden;
+      align-items: center;
+      text-align: center;
+      border: 5px solid var(--border-color);
+      padding-bottom: 1em;
+    }
+
+    h2,
+    p {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    img {
+      border-radius: 0;
+    }
+
+    .button {
+      margin-top: auto;
+    }
+  }
+}

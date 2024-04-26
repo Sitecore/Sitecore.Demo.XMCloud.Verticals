@@ -75,7 +75,7 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
                     <p>
                       <Text field={item.fields.Text}></Text>
                     </p>
-                    <Link field={item.fields.Link} className="btn btn-danger"></Link>
+                    <Link field={item.fields.Link} className="button button-accent"></Link>
                   </div>
                 </div>
               </div>
