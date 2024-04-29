@@ -1,19 +1,12 @@
 .dark .page-background {
-  .wrapper {
-    color: white;
-    /* stylelint-disable */
-    background: linear-gradient(to right, #031827 0%, rgba(255, 255, 255, 0%) 80%);
-    /* stylelint-enable */
+  .background-content {
+    background-color: #031827;
 
-    div.background-content {
-      background-color: #031827;
+    .rich-text {
+      color: white !important;
 
-      .rich-text {
+      span {
         color: white !important;
-
-        span {
-          color: white !important;
-        }
       }
     }
   }
