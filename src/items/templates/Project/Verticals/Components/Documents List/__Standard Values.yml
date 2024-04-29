@@ -1,0 +1,20 @@
+﻿---
+ID: "4085d358-bd08-4247-8066-0b9865fb0cd0"
+Parent: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+Template: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+Path: /sitecore/templates/Project/Verticals/Components/Documents List/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: apps/32x32/Folder.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0335c373-bf20-45e4-856f-7efc23aa4be6"
