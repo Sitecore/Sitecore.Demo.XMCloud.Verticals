@@ -1,15 +1,15 @@
 ﻿---
-ID: "742e047d-3a1f-4643-ae1e-c78847a8b700"
-Parent: "6dceb1be-9751-40aa-bd25-a711805f26bc"
+ID: "95989e20-ee37-47bf-bae1-1dedf4d57a1a"
+Parent: "ffbda6bc-7000-40f7-96d6-119715680d32"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/Verticals/Components/Documents List/Column 1/Subtitle1
+Path: /sitecore/templates/Project/Verticals/Components/Documents List/Item 4/Link4
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 150
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -17,4 +17,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4589a3e3-8874-4fd5-a8e0-ce398e9d83b5"
+      Value: "dfe116bd-861c-4aea-bc9b-f283ad00b00b"

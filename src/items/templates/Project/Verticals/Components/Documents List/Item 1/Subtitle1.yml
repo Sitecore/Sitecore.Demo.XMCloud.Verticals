@@ -1,8 +1,8 @@
 ﻿---
-ID: "67fdca76-8a62-4424-a499-236787bd226c"
-Parent: "58176c88-1ab5-4057-a7f4-f8638f378c00"
+ID: "742e047d-3a1f-4643-ae1e-c78847a8b700"
+Parent: "6dceb1be-9751-40aa-bd25-a711805f26bc"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/Verticals/Components/Documents List/Column 2/Subtitle2
+Path: /sitecore/templates/Project/Verticals/Components/Documents List/Item 1/Subtitle1
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
@@ -17,4 +17,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eadc2b89-fd96-4aaf-a916-b67aff06d0ca"
+      Value: "4589a3e3-8874-4fd5-a8e0-ce398e9d83b5"

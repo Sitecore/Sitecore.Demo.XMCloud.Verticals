@@ -15,6 +15,53 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0bba1dd8-0978-4359-b817-15b65886ba06"
+      Hint: Image2
+      Value: |
+        <image mediaid="{3463CD0F-C755-4F99-9377-5BA5BCAF9FEF}" />
+    - ID: "1a120861-bc28-4699-adef-abbdfb67bf05"
+      Hint: Image1
+      Value: |
+        <image mediaid="{3463CD0F-C755-4F99-9377-5BA5BCAF9FEF}" />
+    - ID: "22ed4827-cc6b-4a00-a358-0ccfadbea4eb"
+      Hint: Link3
+      Value: |
+        <link text="Information Regarding Processing Personal Data of DSK Bank Shareholders" linktype="anchor" url="shareholders" anchor="shareholders" title="" class="" />
+    - ID: "67fdca76-8a62-4424-a499-236787bd226c"
+      Hint: Subtitle2
+      Value: PDF file
+    - ID: "742e047d-3a1f-4643-ae1e-c78847a8b700"
+      Hint: Subtitle1
+      Value: PDF file
+    - ID: "8afcdc7d-211b-4136-94f5-f158a0fd0fd9"
+      Hint: Image3
+      Value: |
+        <image mediaid="{3463CD0F-C755-4F99-9377-5BA5BCAF9FEF}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0335c373-bf20-45e4-856f-7efc23aa4be6"
+      Value: "cdaa3c38-7dd9-4b1c-bd61-6647f5205600"
+    - ID: "926c0ca9-eaa5-468e-919e-de8c15876439"
+      Hint: Subtitle3
+      Value: PDF file
+    - ID: "95989e20-ee37-47bf-bae1-1dedf4d57a1a"
+      Hint: Link4
+      Value: |
+        <link text="Play! Finance Natural Persons Data Protection" linktype="anchor" url="data-protection" anchor="data-protection" title="" class="" />
+    - ID: "b2d03f41-06ad-4238-bcf2-7055674ea2a6"
+      Hint: Subtitle4
+      Value: PDF file
+    - ID: "b39d2c2c-ff8b-49f4-9856-03c1d163decf"
+      Hint: Link2
+      Value: |
+        <link text="Bank Reference - Template" linktype="anchor" url="bank" anchor="bank" title="" class="" />
+    - ID: "be4d4a97-19b9-4d92-a28e-38e5b09c2bc4"
+      Hint: Link1
+      Value: |
+        <link text="Application Form for the Exercise of a Right Under the General Data Protection Regulation" linktype="anchor" url="gdpr" anchor="gdpr" title="" class="" />
+    - ID: "c02be9a2-0c6f-47a8-b6c8-2c35f1946946"
+      Hint: Title
+      Value: Documents
+    - ID: "c6019204-c52e-4650-8875-b19e2482cd76"
+      Hint: Image4
+      Value: |
+        <image mediaid="{3463CD0F-C755-4F99-9377-5BA5BCAF9FEF}" />
