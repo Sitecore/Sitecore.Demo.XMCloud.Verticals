@@ -1,6 +1,8 @@
 @import 'src/assets/sass/abstracts/vars';
 
 .carousel {
+  padding: 0;
+
   .carousel-indicators {
     position: absolute;
     right: 0;
@@ -13,6 +15,7 @@
     margin-right: $carousel-control-width;
     margin-left: $carousel-control-width;
     list-style: none;
+    z-index: 0;
 
     li {
       position: relative;
