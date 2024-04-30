@@ -1,6 +1,23 @@
 .page-background {
-  .wrapper {
-    padding-top: 5rem;
+  padding: 0;
+
+  div {
+    position: relative;
+  }
+
+  .background-image {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    /* stylelint-disable */
+    mask-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 20%) 0%,
+      rgba(255, 255, 255, 100%) 80%
+    );
+    /* stylelint-enable */
   }
 
   .rounded-corners {
