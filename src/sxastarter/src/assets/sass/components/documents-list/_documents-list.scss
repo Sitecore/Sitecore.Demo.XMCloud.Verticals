@@ -1,0 +1,48 @@
+.documents-list {
+  .title {
+    font-size: 42px;
+    font-weight: bold;
+    color: var(--text-body);
+    margin-bottom: 0.5em;
+  }
+
+  .documents-container {
+    margin-bottom: 3em;
+    padding: 3em 3em 2em 3em;
+    border: 5px solid var(--bg-main);
+    border-radius: 16px;
+
+    .item {
+      display: flex;
+      gap: 1em;
+      text-align: start;
+      margin-bottom: 1em;
+
+      img {
+        filter: brightness(0) saturate(100%) invert(13%) sepia(63%) saturate(4790%)
+          hue-rotate(192deg) brightness(96%) contrast(97%);
+        aspect-ratio: 1 / 1;
+        max-width: 38px;
+        max-height: 38px;
+      }
+
+      .text-container {
+        display: flex;
+        flex-direction: column;
+
+        a {
+          color: var(--text-colored);
+          font-weight: bold;
+          font-size: 18px;
+          text-decoration: none;
+        }
+
+        .subtitle {
+          color: var(--text-body);
+          font-style: italic;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
