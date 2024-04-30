@@ -2,7 +2,7 @@
 ID: "c02be9a2-0c6f-47a8-b6c8-2c35f1946946"
 Parent: "3f8442e4-d644-4bef-aa38-ab50e8bfad81"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/Verticals/Components/Documents List/Title/Title
+Path: /sitecore/templates/Project/Verticals/Components/Documents List/Title/Title1
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
