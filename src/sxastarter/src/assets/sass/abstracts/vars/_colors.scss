@@ -31,6 +31,39 @@
   }
 }
 
+// Services
+.site-services {
+  --text-body: #333;
+  --text-body-inverted: #fff;
+  --text-colored: #034c81;
+  --text-footer: #fff;
+  --text-button: #fff;
+  --text-accent: #a82a39;
+  --bg-body: #fff;
+  --bg-footer: #333;
+  --bg-main: #f0f5f7;
+  --bg-color: #c5e4f3;
+  --bg-saturated: #034c81;
+  --bg-accent: #ff3c28;
+  --border-color: #f0f5f7;
+
+  .dark & {
+    --text-body: #fff;
+    --text-body-inverted: #333;
+    --text-colored: #c5e4f3;
+    --text-footer: #fff;
+    --text-button: #fff;
+    --text-accent: #a82a39;
+    --bg-body: #031827;
+    --bg-footer: #333;
+    --bg-main: #034c81;
+    --bg-color: #034c81;
+    --bg-saturated: #034c81;
+    --bg-accent: #ff3c28;
+    --border-color: #034c81;
+  }
+}
+
 // Backgrounds colors
 $bg-transparent: transparent !default;
 $bg-basic-color: var(--bg-body) !default;
