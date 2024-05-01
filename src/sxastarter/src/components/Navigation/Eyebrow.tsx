@@ -15,7 +15,9 @@ export const Default = (props: ComponentProps): JSX.Element => {
           <div className="col"></div>
           <div className="col-auto">
             <Placeholder name="eyebrow-right" rendering={props.rendering} />
-            &nbsp;&nbsp;&nbsp; English
+            <span style={{ paddingLeft: 40 }}>
+              English <i className="fa fa-angle-up"></i>
+            </span>
           </div>
         </div>
       </div>
