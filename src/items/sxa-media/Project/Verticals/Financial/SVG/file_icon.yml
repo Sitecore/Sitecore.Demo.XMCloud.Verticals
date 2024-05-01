@@ -9,7 +9,7 @@ SharedFields:
   Value: "-/media/C68E680C63304E4FB0BD90CD8FA36403.ashx?h=16&thn=1&w=16"
 - ID: "22eac599-f13b-4607-a89d-c091763a467d"
   Hint: Width
-  Value: 38
+  Value: 30
 - ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
   Hint: Blob
   BlobID: "edd3143c-5d6c-4caa-97ad-09dccc150a1e"
@@ -36,4 +36,4 @@ Languages:
       Value: file_icon
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "519c523f-50fb-4fc0-822b-e0fb088ca63c"
+      Value: "58746245-cdef-4e6a-aebf-718cdc29ea5b"
