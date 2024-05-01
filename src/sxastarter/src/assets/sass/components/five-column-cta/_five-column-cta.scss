@@ -1,0 +1,23 @@
+.five-column-cta {
+  font-size: 20px;
+
+  div.col {
+    text-align: -webkit-center;
+  }
+
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+  .image-container {
+    aspect-ratio: 1 / 1;
+    background-color: var(--bg-main);
+    padding: 2em;
+    border-radius: 100%;
+    margin-bottom: 20px;
+  }
+
+  .text-container {
+    font-weight: bold;
+    text-align: center;
+  }
+}

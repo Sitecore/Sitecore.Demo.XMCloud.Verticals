@@ -2,20 +2,22 @@ html {
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   height: auto !important;
 }
 
 body {
-  @include opensans-font-stack();
+  @include opensans-font-stack;
+
   position: relative;
   overflow: auto;
   color: $text-basic;
   font-size: 16px;
   line-height: 1.5;
   background: $page-bg;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
   height: auto !important;
+
   &.on-page-editor {
     background: $page-bg-editor !important;
   }
@@ -24,7 +26,7 @@ body {
 a {
   color: $text-basic;
   cursor: pointer;
-  font-size: 0.85em;
+
   &:hover {
     color: $text-basic-active;
   }
@@ -68,26 +70,30 @@ ul li {
 }
 
 .xa-variable {
-  border: 0px;
+  border: 0;
   padding: 1px;
-  margin: 0px;
+  margin: 0;
   background-color: #ebebe4;
   color: #545454;
   user-select: none;
   pointer-events: none;
 }
 
-//Navigation Bar fix
+// Navigation Bar fix
+/* stylelint-disable-next-line selector-id-pattern */
 #breadcrumbMenuSubcontrol_context_menu * {
   box-sizing: initial;
 }
 
-//End navigation bar fix
+// End navigation bar fix
 .menu-mobile-navigate {
   display: none;
 }
 
-#header, #content, #footer, .sc-jss-empty-placeholder {
+#header,
+#content,
+#footer,
+.sc-jss-empty-placeholder {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -95,9 +101,9 @@ ul li {
 }
 
 .sc-jss-placeholder-error {
-  background: #ff0000;
+  background: #f00;
   outline: 5px solid #e36565;
   padding: 10px;
-  color:#fff;
+  color: #fff;
   max-width: 500px;
 }

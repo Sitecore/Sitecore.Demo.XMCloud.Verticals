@@ -1,13 +1,13 @@
-@import "src/assets/sass/abstracts/mixins";
-@import "variables";
+@import 'src/assets/sass/abstracts/mixins';
+@import 'variables';
 
-body {
-  font-family: Roboto;
-  color: $main-color;
+.body {
+  font-family: var(--font-family);
+  color: var(--text-body);
+  background-color: var(--bg-body);
 }
 
-
-@media (min-width: 1400px) {
+@media (width >= 1400px) {
   .container {
     max-width: 1250px;
   }
@@ -50,7 +50,7 @@ main {
         line-height: 32px;
       }
     }
-    
+
     .main-news-header {
       padding-bottom: 35px;
 

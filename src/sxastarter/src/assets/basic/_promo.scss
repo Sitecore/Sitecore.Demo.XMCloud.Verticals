@@ -1,6 +1,7 @@
-@import "src/assets/sass/abstracts/vars";
-@import "src/assets/sass/abstracts/mixins";
-/**PROMO**/
+@import 'src/assets/sass/abstracts/vars';
+@import 'src/assets/sass/abstracts/mixins';
+
+/**  PROMO  **/
 
 .promo {
   &.main-promo-no-border {
@@ -13,7 +14,7 @@
       margin-bottom: 0;
     }
 
-    >.component-content {
+    > .component-content {
       border: 0;
       max-width: 583px;
       margin-right: 50px;
@@ -26,7 +27,7 @@
         max-width: 100%;
         margin-right: 0;
       }
-      
+
       .promo-text {
         .field-promotext {
           font-size: 14px;
@@ -39,18 +40,20 @@
               margin: 10px 0;
             }
           }
+
           p {
             margin: 10px 0;
           }
         }
       }
+
       @include respond-to(mobile-large) {
         > div {
           padding: 0;
         }
-  
+
         .promo-text {
-          padding: 15px 30px 5px 30px;
+          padding: 15px 30px 5px;
         }
       }
     }

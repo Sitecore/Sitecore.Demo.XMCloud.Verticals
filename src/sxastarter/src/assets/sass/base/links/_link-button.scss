@@ -1,26 +1,69 @@
-@import "src/assets/sass/abstracts/vars/colors";
-@import "src/assets/sass/abstracts/mixins";
+@import 'src/assets/sass/abstracts/vars/colors';
+@import 'src/assets/sass/abstracts/mixins';
 
-.button-default, .default {
-    @include default-link-button();
-    background: #f6f6f6;
-    color: $text-basic;
+.site-financial {
+  --button-padding: 10px 50px;
+  --button-roundness: 40px;
 }
-.button-success, .success {
-    @include default-link-button();
-    background: $btn-green-light;
-    color: $text-white;
-    &:hover {
-        color: $text-white;
-        background: $btn-green;
-    }
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: var(--button-roundness);
+  padding: var(--button-padding);
+  transition: all 0.2s ease-in-out;
 }
-.button-warning, .warning {
-    @include default-link-button();
-    background: $btn-red;
+
+.button-main {
+  background-color: var(--bg-saturated);
+  color: var(--text-button);
+
+  &:hover {
+    color: var(--text-button);
+    filter: brightness(125%);
+  }
+}
+
+.button-accent {
+  background-color: var(--bg-accent);
+  color: var(--text-button);
+
+  &:hover {
+    color: var(--text-button);
+    filter: brightness(85%);
+  }
+}
+
+.button-default,
+.default {
+  @include default-link-button;
+
+  background: #f6f6f6;
+  color: $text-basic;
+}
+
+.button-success,
+.success {
+  @include default-link-button;
+
+  background: $btn-green-light;
+  color: $text-white;
+
+  &:hover {
     color: $text-white;
-    &:hover {
-        color: $text-white;
-        background: $btn-red-active;
-    }
+    background: $btn-green;
+  }
+}
+
+.button-warning,
+.warning {
+  @include default-link-button;
+
+  background: $btn-red;
+  color: $text-white;
+
+  &:hover {
+    color: $text-white;
+    background: $btn-red-active;
+  }
 }

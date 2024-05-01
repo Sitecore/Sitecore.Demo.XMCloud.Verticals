@@ -1,6 +1,7 @@
 @import 'src/assets/sass/abstracts/mixins';
 
 $size-padding: 8px;
+
 .container-wrapper {
   width: 100%;
 }
@@ -22,6 +23,6 @@ $size-padding: 8px;
   }
 
   .component-content {
-    @include clearfix();
+    @include clearfix;
   }
 }

@@ -1,13 +1,19 @@
 import React from 'react';
-import { Field, ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, ImageField, Image, Text, LinkField, Link } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  Title1: Field<string>;
+  Text1: Field<string>;
+  SubText1: Field<string>;
   Image1: ImageField;
-  Title2: Field<string>;
+  Link1: LinkField;
+  Text2: Field<string>;
+  SubText2: Field<string>;
   Image2: ImageField;
-  Title3: Field<string>;
+  Link2: LinkField;
+  Text3: Field<string>;
+  SubText3: Field<string>;
   Image3: ImageField;
+  Link3: LinkField;
 }
 
 export type ThreeColumnCtaProps = {
@@ -20,19 +26,98 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`component four-column-cta pb-5 ${props.params.styles.trimEnd()}`}
+      className={`component three-column-cta ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-md-4">
-            <Image field={props.fields.Image1} className="d-block w-100" height={' '}></Image>
+          <div className="col-sm-12 col-lg-4">
+            <div className="content-wrapper">
+              <Image field={props.fields.Image1} height={' '} />
+              <h2>
+                <Text field={props.fields.Text1} />
+              </h2>
+              <p>
+                <Text field={props.fields.SubText1} />
+              </p>
+              <Link field={props.fields.Link1} className="button button-main" />
+            </div>
           </div>
-          <div className="col-sm-12 col-md-4">
-            <Image field={props.fields.Image2} className="d-block w-100" height={' '}></Image>
+          <div className="col-sm-12 col-lg-4">
+            <div className="content-wrapper">
+              <Image field={props.fields.Image2} height={' '} />
+              <h2>
+                <Text field={props.fields.Text2} />
+              </h2>
+              <p>
+                <Text field={props.fields.SubText2} />
+              </p>
+              <Link field={props.fields.Link2} className="button button-main" />
+            </div>
           </div>
-          <div className="col-sm-12 col-md-4">
-            <Image field={props.fields.Image3} className="d-block w-100" height={' '}></Image>
+          <div className="col-sm-12 col-lg-4">
+            <div className="content-wrapper">
+              <Image field={props.fields.Image3} height={' '} />
+              <h2>
+                <Text field={props.fields.Text3} />
+              </h2>
+              <p>
+                <Text field={props.fields.SubText3} />
+              </p>
+              <Link field={props.fields.Link3} className="button button-main" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const Bordered = (props: ThreeColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+
+  return (
+    <div
+      className={`component bordered three-column-cta ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-lg-4">
+            <div className="content-wrapper">
+              <Image field={props.fields.Image1} height={' '} />
+              <h2>
+                <Text field={props.fields.Text1} />
+              </h2>
+              <p>
+                <Text field={props.fields.SubText1} />
+              </p>
+              <Link field={props.fields.Link1} className="button button-main" />
+            </div>
+          </div>
+          <div className="col-sm-12 col-lg-4">
+            <div className="content-wrapper">
+              <Image field={props.fields.Image2} height={' '} />
+              <h2>
+                <Text field={props.fields.Text2} />
+              </h2>
+              <p>
+                <Text field={props.fields.SubText2} />
+              </p>
+              <Link field={props.fields.Link2} className="button button-main" />
+            </div>
+          </div>
+          <div className="col-sm-12 col-lg-4">
+            <div className="content-wrapper">
+              <Image field={props.fields.Image3} height={' '} />
+              <h2>
+                <Text field={props.fields.Text3} />
+              </h2>
+              <p>
+                <Text field={props.fields.SubText3} />
+              </p>
+              <Link field={props.fields.Link3} className="button button-main" />
+            </div>
           </div>
         </div>
       </div>

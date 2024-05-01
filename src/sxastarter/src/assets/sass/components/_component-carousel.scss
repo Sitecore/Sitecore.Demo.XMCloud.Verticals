@@ -1,6 +1,8 @@
 @import 'src/assets/sass/abstracts/vars';
 
 .carousel {
+  padding: 0;
+
   .carousel-indicators {
     position: absolute;
     right: 0;
@@ -13,6 +15,7 @@
     margin-right: $carousel-control-width;
     margin-left: $carousel-control-width;
     list-style: none;
+    z-index: 0;
 
     li {
       position: relative;
@@ -34,6 +37,7 @@
         height: 10px;
         content: '';
       }
+
       &::after {
         position: absolute;
         bottom: -10px;
@@ -51,39 +55,44 @@
   }
 
   .carousel-item {
-    max-height: 35em;
+    max-height: 41em;
+
+    @include media-breakpoint-up(md) {
+      &::after {
+        width: 100%;
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* stylelint-disable */
+        background: linear-gradient(to left, #ffffffa6 0%, rgba(255, 255, 255, 0%) 69%);
+        /* stylelint-enable */
+        height: 100%;
+      }
+    }
 
     .side-content {
-      h1 {
-        color: #333333;
-      }
-
-      p {
-        color: #333333;
-      }
-
-      a {
-        font-size: $font-medium;
-        background-color: #ff3c28;
-        border-radius: 38px;
-        padding: 4px 30px;
-      }
+      z-index: 1;
+      padding-bottom: 2em;
 
       @include media-breakpoint-up(md) {
         position: absolute;
         width: 100%;
-        top: 25%;
+        top: 35%;
         right: 0%;
-        color: #fff;
         text-align: left;
       }
-    }
 
-    @include media-breakpoint-up(xl) {
-      top: 35%;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
     }
 
     bottom: unset;
     text-align: left;
   }
 }
+
+@import 'src/assets/sass/components/carousel/';

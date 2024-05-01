@@ -5,7 +5,8 @@
 
 .navigation.navigation-fat {
   background: $bg-basic-color;
-  @include border-basic();
+
+  @include border-basic;
 
   a {
     text-decoration: none;
@@ -25,8 +26,10 @@
 
     &.submenu ul a {
       position: relative;
-      &:before {
-        @include fa-icon();
+
+      &::before {
+        @include fa-icon;
+
         transform: translateY(-50%);
         position: absolute;
         content: $fa-var-chevron-right;
@@ -35,24 +38,28 @@
         font-size: 10px;
       }
     }
+
     > .navigation-title > a {
       @include border-basic(top, $border-basic-color, 2px);
+
       border-bottom: 0;
       background: $nav-bg-root;
       padding: 5px 10px;
       display: block;
       width: auto;
+
       &:hover {
         border-color: $menu-hover-color;
       }
     }
+
     > ul {
       padding: 0;
     }
   }
+
   .rel-level2 {
     padding-left: $small-margin;
     display: block;
   }
 }
-

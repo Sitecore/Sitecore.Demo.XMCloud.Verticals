@@ -1,5 +1,12 @@
-import React, { CSSProperties } from 'react';
-import { Field, ImageField, Placeholder, Text, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import React from 'react';
+import {
+  Field,
+  ImageField,
+  Placeholder,
+  Text,
+  TextField,
+  Image,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 
 interface Fields {
@@ -14,19 +21,16 @@ export type PageBackgroundProps = ComponentProps & {
 
 export const Default = (props: PageBackgroundProps): JSX.Element => {
   const id = props.params?.RenderingIdentifier;
-  const backgroundStyle = (props?.fields?.BackgroundImage?.value?.src && {
-    backgroundImage: `url('${props.fields.BackgroundImage.value.src}')`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: '100% auto;',
-  }) as CSSProperties;
-
   return (
     <div
       className={`component page-background col-12 ${props.params?.styles?.trimEnd()}`}
       id={id ? id : undefined}
-      style={backgroundStyle}
     >
+      <Image field={props.fields.BackgroundImage} className="background-image"></Image>
+
       <div className="container">
+        <Placeholder name="page-navigation" rendering={props.rendering} />
+
         <h1>
           <Text field={props.fields.Title}></Text>
         </h1>
@@ -36,8 +40,8 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
       </div>
 
       <div>
-        <div className="container rounded bg-white">
-          <div className="m-5">
+        <div className="background-content container rounded-corners">
+          <div className="m-5 pt-5">
             <Placeholder name="background-page-content" rendering={props.rendering} />
           </div>
         </div>

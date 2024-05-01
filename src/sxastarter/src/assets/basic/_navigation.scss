@@ -1,5 +1,5 @@
-@import "src/assets/sass/abstracts/vars";
-@import "variables";
+@import 'src/assets/sass/abstracts/vars';
+@import 'variables';
 
 $hamburger-width: 28px;
 $hamburger-height: 18px;
@@ -14,13 +14,12 @@ $hamburger-margin: 18px;
 
 .navigation.navigation-horizontal {
   width: 100%;
-  padding-right: 70px;
-  margin-top: -15px;
+  padding-top: 25px;
 
   .menu-mobile-navigate {
     display: none;
   }
-  
+
   @include respond-to(mobile-large) {
     padding-right: 0;
   }
@@ -31,20 +30,22 @@ $hamburger-margin: 18px;
     @include respond-to(mobile-large) {
       display: none;
     }
-    
+
     ul.clearfix {
       list-style: none;
     }
+
     .level0 {
       display: flex;
     }
-  
-    .level0, .level1 {
+
+    .level0,
+    .level1 {
       float: left;
       margin-left: 30px;
 
-      >.navigation-title {
-        >a {
+      > .navigation-title {
+        > a {
           border-width: 0;
           font-size: $text-size-14;
           font-weight: 400;
@@ -57,10 +58,7 @@ $hamburger-margin: 18px;
     .component-content {
       display: none;
       position: fixed;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
+      inset: 0;
       background-color: $bg-black-active;
       z-index: 1;
 
@@ -70,25 +68,28 @@ $hamburger-margin: 18px;
 
       nav {
         padding-top: 110px;
-        
+
         .level0 {
           display: block;
         }
       }
-      
+
       ul {
         margin: 0;
         padding: 0;
       }
 
-      .level0, .level1 {
+      .level0,
+      .level1 {
         float: unset;
         margin-left: 0;
-        >.navigation-title {
-          >a {
+
+        > .navigation-title {
+          > a {
             font-size: $text-size-30;
             line-height: 90px;
-            >span {
+
+            > span {
               color: $text-white;
             }
           }
@@ -110,7 +111,7 @@ $hamburger-margin: 18px;
         &:checked ~ {
           .menu-humburger {
             &::before {
-              content: "\00d7";
+              content: '\00d7';
               color: $text-basic-active;
               font-size: $text-size-48;
               position: fixed;
@@ -132,7 +133,7 @@ $hamburger-margin: 18px;
 
       .menu-humburger {
         &::before {
-          content: "";
+          content: '';
           width: $hamburger-width;
           height: $hamburger-height;
           margin-right: $hamburger-margin;

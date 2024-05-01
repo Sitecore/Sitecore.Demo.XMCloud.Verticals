@@ -28,11 +28,18 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{F39C9DFB-59AB-406C-AD95-288433403A23}"
+              p:before="*"
               s:id="{1F52FB4E-FB4B-40ED-A5D8-F8F9784B36F2}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
               s:ph="headless-main" />
+            <r
+              uid="{7374FDB5-04BF-4C88-AAC7-754E57F7082C}"
+              p:after="*[1=2]"
+              s:id="{613A1798-71DD-4A5C-A183-A3BAB92289C4}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="/headless-main/page-navigation-0-1" />
           </d>
         </r>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c27b970e-ea72-4401-8e3a-5d505ff02535"
+      Value: "0b9e9bce-1686-445e-8d15-6a7f44a20274"
