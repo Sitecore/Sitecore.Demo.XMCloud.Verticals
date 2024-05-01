@@ -18,6 +18,11 @@
   background-color: var(--bg-saturated);
   color: var(--text-button);
 
+  a {
+    color: var(--text-button);
+    text-decoration: none;
+  }
+
   &:hover {
     color: var(--text-button);
     filter: brightness(125%);
