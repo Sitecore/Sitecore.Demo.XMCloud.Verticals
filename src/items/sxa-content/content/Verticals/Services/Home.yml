@@ -31,37 +31,27 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{F46B4963-0354-428E-8BC6-C262E44C68CE}"
-              s:ds="local:/Data/Text 1"
-              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BAC2C499C-3D24-4AE9-B436-811F89D71989%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-              s:ph="headless-header" />
+              uid="{819134A8-311A-483D-A1E9-3DB4CF5020E7}"
+              p:before="*"
+              s:ds="local:/Data/Three Column CTA 1"
+              s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main" />
+            <r
+              uid="{8C90B463-28D5-4D57-97D9-C73120BD670F}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/App Promo 1"
+              s:id="{F9905F68-21E8-4C6F-8B89-56BB99020D31}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
           </d>
         </r>
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20240227T211037Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Services
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\alexander.doroshenko@sitecore.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\alexander.doroshenko@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9f791b08-9e6f-4d56-8619-58c7b79455a2"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\alexander.doroshenko@sitecore.com
+      Value: "49d08808-daa3-4265-9bde-8128d7d060d9"
     - ID: "ca15ff2f-1966-4a91-81bf-bf2eba17c20c"
       Hint: Title
       Value: Services
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20240327T225050Z
