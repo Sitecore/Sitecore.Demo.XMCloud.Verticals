@@ -18,11 +18,11 @@ Languages:
     - ID: "0bba1dd8-0978-4359-b817-15b65886ba06"
       Hint: Image2
       Value: |
-        <image mediaid="{3463CD0F-C755-4F99-9377-5BA5BCAF9FEF}" />
+        <image mediaid="{C68E680C-6330-4E4F-B0BD-90CD8FA36403}" />
     - ID: "1a120861-bc28-4699-adef-abbdfb67bf05"
       Hint: Image1
       Value: |
-        <image mediaid="{3463CD0F-C755-4F99-9377-5BA5BCAF9FEF}" />
+        <image mediaid="{C68E680C-6330-4E4F-B0BD-90CD8FA36403}" />
     - ID: "22ed4827-cc6b-4a00-a358-0ccfadbea4eb"
       Hint: Link3
       Value: |
@@ -36,10 +36,10 @@ Languages:
     - ID: "8afcdc7d-211b-4136-94f5-f158a0fd0fd9"
       Hint: Image3
       Value: |
-        <image mediaid="{3463CD0F-C755-4F99-9377-5BA5BCAF9FEF}" />
+        <image mediaid="{C68E680C-6330-4E4F-B0BD-90CD8FA36403}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cdaa3c38-7dd9-4b1c-bd61-6647f5205600"
+      Value: "12f74919-98ff-4ab9-bd50-d7d364ab3c77"
     - ID: "926c0ca9-eaa5-468e-919e-de8c15876439"
       Hint: Subtitle3
       Value: PDF file
@@ -59,9 +59,9 @@ Languages:
       Value: |
         <link text="Application Form for the Exercise of a Right Under the General Data Protection Regulation" linktype="anchor" url="gdpr" anchor="gdpr" title="" class="" />
     - ID: "c02be9a2-0c6f-47a8-b6c8-2c35f1946946"
-      Hint: Title
+      Hint: Title1
       Value: Documents
     - ID: "c6019204-c52e-4650-8875-b19e2482cd76"
       Hint: Image4
       Value: |
-        <image mediaid="{3463CD0F-C755-4F99-9377-5BA5BCAF9FEF}" />
+        <image mediaid="{C68E680C-6330-4E4F-B0BD-90CD8FA36403}" />
