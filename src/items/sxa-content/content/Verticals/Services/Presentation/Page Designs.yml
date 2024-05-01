@@ -5,6 +5,9 @@ Template: "609a79ac-e186-41e2-a3fa-771e95c26815"
 Path: /sitecore/content/Verticals/Services/Presentation/Page Designs
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b4AD644A8-7CDB-4574-8DF1-D01C3BB7B624%7d%3d%257B30B6C8FC-6FE0-4348-83D0-5E52E622B063%257D"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
@@ -15,4 +18,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "156d59ff-8758-4d27-aa11-36e634fe10a0"
+      Value: "7d3b5fce-2bba-4fb5-96d2-3dd35fa1a322"
