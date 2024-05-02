@@ -20,3 +20,15 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "e954b578-d9ea-40e2-adf4-1723668450c3"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <a href="/"><h1>
+        PLAY!&nbsp;Financier</h1></a>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f32f84a-1a97-4b06-a846-6c8847d41086"
