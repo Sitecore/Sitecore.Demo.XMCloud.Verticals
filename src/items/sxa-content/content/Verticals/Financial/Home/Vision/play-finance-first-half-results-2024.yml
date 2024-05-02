@@ -4,6 +4,9 @@ Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
 Path: "/sitecore/content/Verticals/Financial/Home/Vision/play-finance-first-half-results-2024"
 SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: 
@@ -30,7 +33,7 @@ Languages:
       Value: Article 1
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "129e7e6d-5b2d-400c-8db4-d3221a9802d0"
+      Value: "7745b505-5c74-4540-a17c-1d2f1d352ffd"
     - ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
       Hint: Thumbnail
       Value: |
