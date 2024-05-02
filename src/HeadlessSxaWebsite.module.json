@@ -40,6 +40,10 @@
                 "name": "branches",
                 "path": "/sitecore/templates/Branches/Project",
                 "scope": "descendantsOnly"
+            },
+            {
+                "name": "enable-language-fallback-default",
+                "path": "/sitecore/templates/System/Templates/Sections/Advanced/Advanced/__Enable item fallback"
             }
         ]
     }
