@@ -1,0 +1,34 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.article-list {
+  .title {
+    font-size: 42px;
+    font-weight: bold;
+    color: var(--text-body);
+    margin-bottom: 0.5em;
+  }
+
+  .learn-more {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-body);
+  }
+
+  hr {
+    width:100%;
+    height:5px;
+    background:#FFF;
+    color:#FFF;
+    opacity: 1;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--text-colored);
+    font-weight: bold;
+  }
+
+  .background {
+    background-color: var(--bg-main);
+  }
+}
