@@ -9,8 +9,7 @@ SharedFields:
   Value: 700
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
-  Value: |
-    <image mediaid="{5C439880-ACEF-47F8-804D-3E589A13C68A}" />
+  Value: 
 Languages:
 - Language: en
   Fields:
@@ -28,4 +27,17 @@ Languages:
       Value: Get a loan
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d2bff327-6a38-400e-9821-74c910522822"
+      Value: "434f2f52-bc30-460c-a7fa-304ba123ed3e"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Obtenir un prêt
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Obtenir un prêt
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1be72a6f-2e50-477b-9030-3783ce5fa188"
