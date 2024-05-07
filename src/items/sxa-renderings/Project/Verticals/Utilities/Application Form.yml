@@ -1,39 +1,39 @@
 ﻿---
-ID: "8094185b-4c72-40c8-b005-c6ed91708754"
-Parent: "6630c97b-f037-4f1f-87bc-907c43f167d1"
+ID: "e4b51f7c-ef5d-4621-a05b-a0080826e54d"
+Parent: "72301857-f98f-4c76-90ab-4e2b0dd19fb3"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Verticals/Carousel
+Path: /sitecore/layout/Renderings/Project/Verticals/Utilities/Application Form
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Carousel
+  Value: ApplicationForm
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Ball.png
+  Value: Apps/32x32/ListManagement.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Branches/Project/Verticals/Carousel
+  Value: 
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 0
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{A1ABD5CF-C257-4BB1-9F7A-93E6F3375391}"
-- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
-  Hint: Rendering Contents Resolver
-  Value: "{2F5C334E-5615-423C-8281-9FC180191302}"
+  Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Carousel']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Carousel']"
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
   Value: 
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
-  Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
+  Value: 
 Languages:
 - Language: "de-DE"
   Fields:
@@ -56,7 +56,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c024270a-5280-4b3a-9bfb-2d1cc00aebd6"
+      Value: "523adc2e-845d-415d-b1bc-d40d2109706f"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

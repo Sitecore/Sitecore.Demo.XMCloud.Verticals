@@ -1,26 +1,18 @@
 ﻿---
-ID: "81317d3b-f929-426a-83ec-421982f8f1e6"
-Parent: "6630c97b-f037-4f1f-87bc-907c43f167d1"
+ID: "ad385021-ce2b-4fc1-89aa-207d408034a8"
+Parent: "41452cad-79a8-4389-bd0f-52e1ebe7a8f9"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Verticals/Header
+Path: /sitecore/layout/Renderings/Project/Verticals/Page Content/Three Column CTA
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Header
-- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
-  Hint: Placeholders
-  Value: |
-    {7F3A1598-C7AF-4962-B3E9-4A2FA9BA6156}
-    {BF51BE21-1DF2-43FC-8319-10663C28355C}
+  Value: ThreeColumnCta
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Routes.png
+  Value: Apps/32x32/Paint.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: 
-- ID: "592a1ce7-abe0-4986-9783-0a34f3961dc0"
-  Hint: Placeholder
-  Value: 
+  Value: /sitecore/templates/Project/Verticals/Components/Three Column CTA
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -30,18 +22,15 @@ SharedFields:
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
-- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
-  Hint: Rendering Contents Resolver
-  Value: 
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: 
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Three Column CTA']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Three Column CTA']"
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
   Value: 
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
-  Value: 
+  Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
 Languages:
 - Language: "de-DE"
   Fields:
@@ -64,7 +53,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "080a956b-fca9-4363-b1a2-e50d77683cf1"
+      Value: "fd89ae94-a537-4c71-8d14-3c2b10929c6b"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

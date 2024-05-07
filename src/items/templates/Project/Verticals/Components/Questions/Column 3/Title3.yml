@@ -1,0 +1,20 @@
+﻿---
+ID: "de92090b-5759-43c0-b868-96cdc596d3b9"
+Parent: "50ebf0cb-f520-4c7e-8d3b-60e3aaea46b9"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Verticals/Components/Questions/Column 3/Title3
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1a138c51-ad6d-4e2b-b3a6-853795fb6bd2"

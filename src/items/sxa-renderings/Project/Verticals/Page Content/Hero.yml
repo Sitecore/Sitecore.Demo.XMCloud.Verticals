@@ -1,30 +1,30 @@
 ﻿---
-ID: "20e5ea95-6b50-49cd-8852-433b7c565f06"
-Parent: "6630c97b-f037-4f1f-87bc-907c43f167d1"
+ID: "b7cdf75e-716a-4c59-b9b1-cd970ae0a4ae"
+Parent: "41452cad-79a8-4389-bd0f-52e1ebe7a8f9"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Verticals/Comparison
+Path: /sitecore/layout/Renderings/Project/Verticals/Page Content/Hero
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Comparison
+  Value: Hero
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: applications/32x32/navigate_right.png
+  Value: Apps/32x32/Medal.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/Verticals/Components/Comparison
+  Value: /sitecore/templates/Project/Verticals/Components/App Promo
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 0
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Comparison']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Comparison']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='App Promo']|query:$sharedSites/*[@@name='Data']/*[@@templatename='App Promo']"
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
   Value: 
@@ -53,7 +53,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4d3e0a5d-eba4-4fff-98f3-daf10faea548"
+      Value: "8b9c8638-02fa-4bf2-aa8a-14ca368bef71"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

@@ -1,18 +1,18 @@
 ﻿---
-ID: "b7cdf75e-716a-4c59-b9b1-cd970ae0a4ae"
-Parent: "6630c97b-f037-4f1f-87bc-907c43f167d1"
+ID: "3a9a9d22-c092-4b54-9511-eb202ceabe8d"
+Parent: "41452cad-79a8-4389-bd0f-52e1ebe7a8f9"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Verticals/Hero
+Path: /sitecore/layout/Renderings/Project/Verticals/Page Content/Two Column CTA
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Hero
+  Value: TwoColumnCta
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Medal.png
+  Value: Apps/32x32/Portfolio.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/Verticals/Components/App Promo
+  Value: /sitecore/templates/Project/Verticals/Components/Two Column CTA
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -24,7 +24,7 @@ SharedFields:
   Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='App Promo']|query:$sharedSites/*[@@name='Data']/*[@@templatename='App Promo']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Two Column CTA']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Two Column CTA']"
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
   Value: 
@@ -53,7 +53,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8b9c8638-02fa-4bf2-aa8a-14ca368bef71"
+      Value: "5eb60273-486c-47ba-a3da-6ffad2fee083"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

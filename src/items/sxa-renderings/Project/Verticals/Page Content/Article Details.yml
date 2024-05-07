@@ -1,18 +1,18 @@
 ﻿---
-ID: "333def3e-c272-4ad9-a493-8d5ccae08312"
-Parent: "6630c97b-f037-4f1f-87bc-907c43f167d1"
+ID: "a7343c45-4438-441e-967e-c2cb350dda75"
+Parent: "41452cad-79a8-4389-bd0f-52e1ebe7a8f9"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Verticals/Five Column CTA
+Path: /sitecore/layout/Renderings/Project/Verticals/Page Content/Article Details
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: FiveColumnCta
+  Value: ArticleDetails
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: apps/32x32/limit.png
+  Value: Apps/32x32/Newspaper.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/Verticals/Components/Five Column CTA
+  Value: /sitecore/templates/Branches/Project/Verticals/Carousel
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -21,10 +21,10 @@ SharedFields:
   Value: 0
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
+  Value: "{A1ABD5CF-C257-4BB1-9F7A-93E6F3375391}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Five Column CTA']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Five Column CTA']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Carousel']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Carousel']"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
@@ -56,7 +56,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "357acaba-730d-48f9-9351-b009be9763e7"
+      Value: "956670df-c487-4afd-9d5f-85ee638d06ff"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
