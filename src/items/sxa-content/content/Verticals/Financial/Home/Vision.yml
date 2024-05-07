@@ -23,7 +23,11 @@ Languages:
       Value: Vision
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cb485e88-e970-42af-82fe-9f6f97112af8"
+      Value: "c5b3ecd5-1d69-45c9-805e-534f2efdb1eb"
+    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{150A83BB-D038-4CEE-B893-C07B68BA1D8B}" />
 - Language: "fr-CA"
   Versions:
   - Version: 1

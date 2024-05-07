@@ -21,13 +21,20 @@ Languages:
     Fields:
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
       Hint: Title
-      Value: Get a loan
+      Value: Consumer Loan Online
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: For all your wishes – we have the right solution
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Get a loan
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "434f2f52-bc30-460c-a7fa-304ba123ed3e"
+      Value: "c6ea5cbb-cd16-4c02-b17a-6d88bb1fd916"
+    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{7ED35C53-B0C3-4508-8561-EDEC520BB63A}" />
 - Language: "fr-CA"
   Versions:
   - Version: 1
