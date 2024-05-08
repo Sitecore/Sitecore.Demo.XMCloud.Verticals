@@ -1,0 +1,37 @@
+﻿---
+ID: "d5daa73a-8f68-43cb-bf49-c6e8e49ac88c"
+Parent: "7faf91b5-cc4f-4e91-a907-243566632cbd"
+Template: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+Path: /sitecore/content/Verticals/Financial/Home/Vision/Data/Three Column CTA 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
+      Hint: Text2
+      Value: Exploring the Rise of Cryptocurrency in Banking
+    - ID: "39b3d592-0895-4f30-9c17-454b171f0b2e"
+      Hint: Image3
+      Value: |
+        <image mediaid="233f19e1-95e3-4c06-adfa-79a80a9e1371" />
+    - ID: "39fe4fb3-3794-4b9a-a584-ff877e93e33b"
+      Hint: Image2
+      Value: |
+        <image mediaid="d3320f0a-eae0-4b0f-b74d-1f4819d3fb9c" />
+    - ID: "5264d7eb-64cd-4203-98e5-a4d0380f57e6"
+      Hint: Text1
+      Value: How Economic Indicators Shape Consumer Behavior
+    - ID: "5eb6058f-3f45-4dd4-8153-8c74390859f4"
+      Hint: Text3
+      Value: "An important announcement for the clients of PLAY! Finance"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0944bfc8-e544-4c64-b887-c3be47572108"
+    - ID: "c511247c-fec1-4690-81d6-ce791da18d4a"
+      Hint: Image1
+      Value: |
+        <image mediaid="aeb23d9e-cc27-44a9-9fde-df58f8c10fb8" />

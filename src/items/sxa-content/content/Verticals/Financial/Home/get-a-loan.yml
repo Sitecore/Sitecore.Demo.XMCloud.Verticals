@@ -24,8 +24,50 @@ SharedFields:
           s:par="ColumnWidth1=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D&amp;ColumnWidth2=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
         <r
-          uid="{E22FB733-ACCD-4CB7-A565-896E4CEACC38}"
+          uid="{D22DCAE1-830B-4074-A7C3-11A90156340B}"
           p:after="r[@uid='{10D59E48-538D-4B52-81C7-7EF2D06444AE}']"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{EAD5A350-5150-413A-B1E7-41DDC96DE838}"
+          p:after="r[@uid='{D22DCAE1-830B-4074-A7C3-11A90156340B}']"
+          s:ds="local:/Data/Three Column CTA 1"
+          s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{B70497A9-F3A8-4C8D-A1D9-B7E0D15BE26B}"
+          p:after="r[@uid='{EAD5A350-5150-413A-B1E7-41DDC96DE838}']"
+          s:ds="local:/Data/Text 2"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{B674EFA0-1F20-4014-94BB-4C482FF011E0}"
+          p:after="r[@uid='{B70497A9-F3A8-4C8D-A1D9-B7E0D15BE26B}']"
+          s:ds="local:/Data/Two Column CTA 1"
+          s:id="{3A9A9D22-C092-4B54-9511-EB202CEABE8D}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{5782A059-6907-4BAD-992A-41905C1F610E}"
+          p:after="r[@uid='{B674EFA0-1F20-4014-94BB-4C482FF011E0}']"
+          s:ds="local:/Data/Text 3"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{67C983BE-8757-409C-A161-8EC3C22174F2}"
+          p:after="r[@uid='{5782A059-6907-4BAD-992A-41905C1F610E}']"
+          s:ds="local:/Data/Questions 1"
+          s:id="{75464A5E-CBB7-4F96-BBBC-104AFE57923A}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{E22FB733-ACCD-4CB7-A565-896E4CEACC38}"
+          p:after="r[@uid='{67C983BE-8757-409C-A161-8EC3C22174F2}']"
           s:id="{A9598B40-14D5-47FC-B183-0B9FF10B90D3}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1/column-1-1" />
@@ -60,7 +102,7 @@ Languages:
       Value: Get a loan
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "62450794-8d5a-4386-a475-bdfbe91beb7c"
+      Value: "2b9a52f6-8967-4f7b-9f17-3ba01632bc53"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |

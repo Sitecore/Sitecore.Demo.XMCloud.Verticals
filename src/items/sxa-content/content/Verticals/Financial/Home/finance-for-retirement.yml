@@ -19,9 +19,17 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
           uid="{94A88A3A-A21A-43C2-98CD-887881BE53CC}"
+          p:before="*"
           s:ds="local:/Data/Text 1"
           s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{8C44D0D5-9A9C-45DB-A145-A80F65F9B4E1}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Four Column CTA 1"
+          s:id="{35075000-760E-4FF3-BD1C-F2EEBA251DCB}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
       </d>
     </r>
@@ -48,7 +56,7 @@ Languages:
       Value: Finance for retirement
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9f38cadc-9e3b-4a30-8c35-3a439918c371"
+      Value: "d1b23269-286b-4ad0-8201-a035f5d6bbb8"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |

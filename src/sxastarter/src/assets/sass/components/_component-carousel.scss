@@ -57,19 +57,10 @@
   .carousel-item {
     max-height: 41em;
 
-    @include media-breakpoint-up(md) {
-      &::after {
-        width: 100%;
-        content: '';
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
+    img {
         /* stylelint-disable */
-        background: linear-gradient(to left, #ffffffa6 0%, rgba(255, 255, 255, 0%) 69%);
+        mask-image: linear-gradient(to left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 1) 69%);
         /* stylelint-enable */
-        height: 100%;
-      }
     }
 
     .side-content {

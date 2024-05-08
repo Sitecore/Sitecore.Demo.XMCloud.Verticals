@@ -11,11 +11,28 @@ SharedFields:
   Hint: __Thumbnail
   Value: |
     <image mediaid="{9140A734-31D0-4FF3-8921-84BEEDBA4B4E}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F59395FE-244D-4421-84E9-B681C40B8633}"
+          s:id="{A7343C45-4438-441E-967E-C2CB350DDA75}"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9da90c09-9d3e-4f45-8b4c-1babd4b7f19a"
+      Value: "21801788-1352-4cfb-bfa8-13120d483dd5"
