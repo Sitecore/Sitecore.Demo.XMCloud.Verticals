@@ -1,0 +1,23 @@
+﻿---
+ID: "8caa4c13-d255-4693-b787-99c2ca648ce4"
+Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: /sitecore/content/Verticals/Financial/Home/Data/Promo CTA 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Unlock checking that grows with you
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d23673e-9448-4697-bb10-85675fc871fd"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: "The higher your balances, the more benefits and services you can enjoy fromPLAY! Finance."
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{7E3DF442-576B-4D52-8BC9-214434893E63}" />

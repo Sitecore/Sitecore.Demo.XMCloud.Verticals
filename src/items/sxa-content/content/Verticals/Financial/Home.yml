@@ -46,8 +46,22 @@ SharedFields:
           s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=17"
           s:ph="headless-main" />
         <r
-          uid="{B7E1B8A3-7BCC-4B76-9287-E73781AEB41B}"
+          uid="{633506E7-54D0-4410-9051-72FB4C9FECB4}"
           p:after="r[@uid='{D54D53B4-1AA4-4998-9BDF-EB934C32CFB6}']"
+          s:ds="local:/Data/Promo CTA 1"
+          s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=25"
+          s:ph="headless-main" />
+        <r
+          uid="{1A516B9B-CC7B-49C9-A8EB-5BE281A98612}"
+          p:after="r[@uid='{633506E7-54D0-4410-9051-72FB4C9FECB4}']"
+          s:ds="local:/Data/Promo CTA 2"
+          s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=26"
+          s:ph="headless-main" />
+        <r
+          uid="{B7E1B8A3-7BCC-4B76-9287-E73781AEB41B}"
+          p:after="r[@uid='{1A516B9B-CC7B-49C9-A8EB-5BE281A98612}']"
           s:ds="31cdad95-f0f4-4ea5-8ec8-013e82262e04"
           s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
           s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=19"
@@ -91,7 +105,7 @@ Languages:
       Value: Financial
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4a92051a-34cf-4472-9631-553c1999705f"
+      Value: "4554bcf0-10e9-4fb0-aeea-7bebc6296239"
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
       Value: Financial

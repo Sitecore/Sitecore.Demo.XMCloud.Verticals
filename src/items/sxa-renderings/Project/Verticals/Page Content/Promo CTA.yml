@@ -6,7 +6,7 @@ Path: /sitecore/layout/Renderings/Project/Verticals/Page Content/Promo CTA
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: PromoCTA
+  Value: PromoCta
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: "Apps/32x32/Direction-1.png"
@@ -53,7 +53,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5469bf80-d87d-46ad-b2fc-6f90ec28d97a"
+      Value: "54d24331-82c2-4057-9410-2982fbc2accd"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
