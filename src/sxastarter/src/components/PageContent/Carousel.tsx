@@ -10,6 +10,7 @@ import {
   Text,
   Link,
   RichText,
+  useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -34,6 +35,8 @@ interface CarouselComponentProps {
 export const Default = (props: CarouselComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const [index, setIndex] = useState(0);
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
 
   const handleNext = () => {
     setIndex((prevIndex) => (prevIndex < props.fields.items.length - 1 ? prevIndex + 1 : 0));
@@ -66,7 +69,9 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
                     <Text field={item.fields.Title}></Text>
                   </h1>
                   <RichText field={item.fields.Text}></RichText>
-                  <Link field={item.fields.Link} className="button button-accent"></Link>
+                  {!isPageEditing && item.fields?.Link?.value?.href && (
+                    <Link field={item.fields.Link} className="button button-accent"></Link>
+                  )}
                 </div>
               </div>
             </div>
