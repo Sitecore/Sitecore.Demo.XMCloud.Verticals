@@ -32,7 +32,7 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`container component three-column-cta pb-5 ${props.params.styles.trimEnd()}`}
+      className={`component three-column-cta pb-5 ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container">

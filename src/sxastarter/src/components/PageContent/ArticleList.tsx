@@ -6,6 +6,7 @@ import {
   ImageField,
   Image,
   Text,
+  withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
@@ -29,9 +30,9 @@ interface ArticleListComponentProps {
   };
 }
 
-export const Default = (props: ArticleListComponentProps): JSX.Element => {
+const ArticleList = (props: ArticleListComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const newsItems = props.fields.items.filter((item) => item.name !== 'Data');
+  const newsItems = props.fields?.items?.filter((item) => item.name !== 'Data');
 
   return (
     <div
@@ -51,7 +52,7 @@ export const Default = (props: ArticleListComponentProps): JSX.Element => {
         </div>
 
         <div className="background px-5 pt-5 pb-3 rounded-5">
-          {newsItems.map((item, i) => (
+          {newsItems?.map((item, i) => (
             <div className="row align-items-center" key={i}>
               <div className="col-md-4 mb-4">
                 <div className="py-3">
@@ -76,3 +77,5 @@ export const Default = (props: ArticleListComponentProps): JSX.Element => {
     </div>
   );
 };
+
+export default withDatasourceCheck()<ArticleListComponentProps>(ArticleList);

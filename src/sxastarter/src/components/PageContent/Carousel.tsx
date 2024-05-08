@@ -9,6 +9,7 @@ import {
   LinkField,
   Text,
   Link,
+  RichText,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -64,9 +65,7 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
                   <h1 className="d-none d-md-block">
                     <Text field={item.fields.Title}></Text>
                   </h1>
-                  <p>
-                    <Text field={item.fields.Text}></Text>
-                  </p>
+                  <RichText field={item.fields.Text}></RichText>
                   <Link field={item.fields.Link} className="button button-accent"></Link>
                 </div>
               </div>
