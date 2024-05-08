@@ -5,8 +5,8 @@
 $roundness: var(--three-column-cta-roundness);
 
 .three-column-cta {
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 
   @include respond-to(all-mobile) {
     padding: 0 $size-padding;

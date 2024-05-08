@@ -7,6 +7,7 @@ import {
   Image,
   Text,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import Link from 'next/link';
 
 interface Fields {
   Title: Field<string>;
@@ -16,6 +17,8 @@ interface Fields {
 
 export type ArticleListItemProps = {
   fields: Fields;
+  name: string;
+  url: string;
 };
 
 interface ArticleListComponentProps {
@@ -28,6 +31,7 @@ interface ArticleListComponentProps {
 
 export const Default = (props: ArticleListComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
+  const newsItems = props.fields.items.filter((item) => item.name !== 'Data');
 
   return (
     <div
@@ -47,7 +51,7 @@ export const Default = (props: ArticleListComponentProps): JSX.Element => {
         </div>
 
         <div className="background px-5 pt-5 pb-3 rounded-5">
-          {props.fields.items.map((item, i) => (
+          {newsItems.map((item, i) => (
             <div className="row align-items-center" key={i}>
               <div className="col-md-4 mb-4">
                 <div className="py-3">
@@ -62,9 +66,9 @@ export const Default = (props: ArticleListComponentProps): JSX.Element => {
                 <p>
                   <Text field={item.fields.Excerpt}></Text>
                 </p>
-                <a href="#">Read more</a>
+                <Link href={item.url}>Read more</Link>
               </div>
-              {i === props.fields.items.length - 1 ? <></> : <hr />}
+              {i === newsItems.length - 1 ? <></> : <hr />}
             </div>
           ))}
         </div>

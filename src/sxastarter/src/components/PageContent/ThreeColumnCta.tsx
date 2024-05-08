@@ -1,5 +1,13 @@
 import React from 'react';
-import { Field, ImageField, Image, Text, LinkField, Link } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Field,
+  ImageField,
+  Image,
+  Text,
+  LinkField,
+  Link,
+  useSitecoreContext,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Text1: Field<string>;
@@ -23,6 +31,8 @@ export type ThreeColumnCtaProps = {
 
 export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
 
   return (
     <div
@@ -40,7 +50,9 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
               <p>
                 <Text field={props.fields.SubText1} />
               </p>
-              <Link field={props.fields.Link1} className="button button-main" />
+              {!isPageEditing && props.fields?.Link1?.value?.href && (
+                <Link field={props.fields.Link1} className="button button-main" />
+              )}
             </div>
           </div>
           <div className="col-sm-12 col-lg-4">
@@ -52,7 +64,9 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
               <p>
                 <Text field={props.fields.SubText2} />
               </p>
-              <Link field={props.fields.Link2} className="button button-main" />
+              {!isPageEditing && props.fields?.Link1?.value?.href && (
+                <Link field={props.fields.Link2} className="button button-main" />
+              )}
             </div>
           </div>
           <div className="col-sm-12 col-lg-4">
@@ -64,7 +78,9 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
               <p>
                 <Text field={props.fields.SubText3} />
               </p>
-              <Link field={props.fields.Link3} className="button button-main" />
+              {!isPageEditing && props.fields?.Link1?.value?.href && (
+                <Link field={props.fields.Link3} className="button button-main" />
+              )}
             </div>
           </div>
         </div>
