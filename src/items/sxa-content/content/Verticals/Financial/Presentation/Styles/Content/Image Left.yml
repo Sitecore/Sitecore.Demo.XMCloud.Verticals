@@ -1,8 +1,8 @@
 ﻿---
 ID: "1dbcf754-45c2-461e-99b5-63e4e26f6be2"
-Parent: "c77cc60a-9987-4721-95ff-4aa6bb3e0c8b"
+Parent: "680eb0ae-42e4-4357-9434-6c7a2a772eeb"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
-Path: /sitecore/content/Verticals/Financial/Presentation/Styles/Promo/Reverse
+Path: /sitecore/content/Verticals/Financial/Presentation/Styles/Content/Image Left
 SharedFields:
 - ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
   Hint: Value
