@@ -6,7 +6,7 @@ Path: /sitecore/layout/Renderings/Project/Verticals/Page Content/Questions
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: TwoColumnCta
+  Value: Questions
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Apps/32x32/Question mark.png
@@ -53,7 +53,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "960be8e7-71a0-4e56-a615-b1ce65d6c17e"
+      Value: "e20e1e7a-5f68-4505-bcd1-f3ed83abb3e7"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

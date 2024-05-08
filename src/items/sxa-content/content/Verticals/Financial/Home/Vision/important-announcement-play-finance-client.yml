@@ -30,7 +30,11 @@ Languages:
       Value: Article2
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3be0f37a-0420-400e-a6f4-9ebd385bd2ee"
+      Value: "ce992ad0-936e-4df9-8b12-62fc8c45db2f"
+    - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{150A83BB-D038-4CEE-B893-C07B68BA1D8B}" />
     - ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
       Hint: Thumbnail
       Value: |
