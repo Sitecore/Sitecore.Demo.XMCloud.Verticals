@@ -48,7 +48,11 @@ Languages:
       Value: Finance for retirement
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "65fe1b3c-9f69-4215-a28f-2af50e21a88b"
+      Value: "9f38cadc-9e3b-4a30-8c35-3a439918c371"
+    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{150A83BB-D038-4CEE-B893-C07B68BA1D8B}" />
 - Language: "fr-CA"
   Versions:
   - Version: 1
