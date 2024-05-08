@@ -30,7 +30,7 @@ SharedFields:
   Value: "{2F5C334E-5615-423C-8281-9FC180191302}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: 
+  Value: "query:$site/*"
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
   Value: 
@@ -59,7 +59,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "91e1a562-49f0-44a6-ba13-d0a2254f185a"
+      Value: "13ea7bf9-e472-4006-9227-08b98a6db012"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
