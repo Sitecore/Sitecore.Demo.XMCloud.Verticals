@@ -24,11 +24,11 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`component app-promo ${props.params.styles.trimEnd()}`}
+      className={`component promo-cta ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container col-xl-12 pt-5">
-        <div className="row align-items-center g-lg-5 pt-5">
+        <div className="row content align-items-center g-lg-5 pt-5">
           <div className="col-lg-6 text-center text-lg-start ">
             <h1 className="display-4 fw-bold lh-1 mb-3">
               <Text field={props.fields.Title} />
