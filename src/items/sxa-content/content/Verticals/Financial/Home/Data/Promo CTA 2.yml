@@ -11,9 +11,13 @@ Languages:
     - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
       Hint: Title
       Value: Unlock checking that grows with you
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link text="Learn More" linktype="external" url="http://www.sitecore.com" anchor="" target="_blank" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4d23673e-9448-4697-bb10-85675fc871fd"
+      Value: "10f270db-0c85-47f8-9ac2-34f3b908ebe2"
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: "The higher your balances, the more benefits and services you can enjoy fromPLAY! Finance."
