@@ -1,0 +1,49 @@
+﻿---
+ID: "1df23e4f-432f-4aff-863b-4d1d7e3925fd"
+Parent: "5a737b43-b61a-431b-965e-29f28fc81962"
+Template: "fae81bf9-1117-4f97-9133-00e752f41772"
+Path: "/sitecore/content/Verticals/Financial/Home/get-a-loan/Data/Questions 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e6a7bc2-c209-4bbc-b0db-b7c282bb20b0"
+      Hint: Text6
+      Value:  The approval process timeline can vary depending on factors such as the type of loan, completeness of your application, and the lender's review process. In many cases, you can receive a decision within a few business days.
+    - ID: "0efc57f1-9731-43bf-97ec-3d4444015687"
+      Hint: Title2
+      Value: "Do you require collateral for loans?"
+    - ID: "39bc2782-8f90-4c3e-a667-5683f196d3e7"
+      Hint: Text4
+      Value: Loan amounts vary depending on factors such as your creditworthiness, income, and the type of loan you're applying for. During the application process, you'll have the opportunity to specify the amount you need, and we'll work with you to determine the appropriate loan amount.
+    - ID: "434374ac-32ef-40d7-9720-5dbf7564006b"
+      Hint: Text5
+      Value:  Interest rates and repayment terms can vary based on the type of loan, loan amount, and your individual financial profile. We offer competitive rates and flexible repayment options designed to fit your budget. Specific details will be provided to you as part of the loan offer. 
+    - ID: "44916e48-5ce0-4cc4-8cde-634314e3c6fe"
+      Hint: Text2
+      Value: Collateral requirements vary depending on the type of loan. Some loans, such as secured loans, may require collateral such as a vehicle or property. 
+    - ID: "4ce8a22c-4146-49f8-af88-4bd659fc1dd1"
+      Hint: Title1
+      Value: "What types of loans do you offer?"
+    - ID: "6cd4969d-34ed-4772-b22d-dd119efaa34e"
+      Hint: Title4
+      Value: " How much can I borrow? "
+    - ID: "74609a2e-bab0-4efd-8137-bb916b0ee3ae"
+      Hint: Text1
+      Value: We offer a variety of loans to suit your needs, including personal loans, business loans, car loans, home loans, and more. Whether you need funds for personal expenses or business ventures, we have options available.  
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e12107ef-8970-4de0-9e4f-874bdc561ef4"
+    - ID: "a030ca0c-e9d1-46a5-b02a-e9f4802765e5"
+      Hint: Title5
+      Value: "What are the interest rates and repayment terms?"
+    - ID: "a696f8d0-80ad-468f-9e69-f8c929a3e4ff"
+      Hint: Title6
+      Value: "What documents do I need to apply for a loan?"
+    - ID: "de92090b-5759-43c0-b868-96cdc596d3b9"
+      Hint: Title3
+      Value: "What are the eligibility requirements for obtaining a loan?"
+    - ID: "fa9870bc-9d4c-48d1-8a9b-15ebb8d37111"
+      Hint: Text3
+      Value: "Eligibility requirements may vary depending on the type of loan you're interested in. Generally, factors such as credit score, income, employment status, and debt-to-income ratio are considered. Specific eligibility criteria will be outlined during the application process."

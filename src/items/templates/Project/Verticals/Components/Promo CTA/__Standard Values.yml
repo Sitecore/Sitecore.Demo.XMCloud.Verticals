@@ -1,0 +1,17 @@
+﻿---
+ID: "29534f60-9266-44a9-8ad4-3362972a2aae"
+Parent: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: /sitecore/templates/Project/Verticals/Components/Promo CTA/__Standard Values
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7a0010cd-e0d3-4c4a-8ad4-4f7ee7a741d7"

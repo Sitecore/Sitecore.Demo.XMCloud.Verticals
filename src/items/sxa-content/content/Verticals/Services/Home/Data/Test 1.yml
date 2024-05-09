@@ -1,0 +1,27 @@
+﻿---
+ID: "c2cacf67-69cc-4573-a05e-9a5c361e8c38"
+Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
+Template: "bbcccd48-218c-4f19-a1d4-bb3dbf1f4d89"
+Path: /sitecore/content/Verticals/Services/Home/Data/Test 1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-300"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19611527-1e31-4490-8042-482e61e3ce84"
+      Hint: Text
+      Value: <p>Beyond the Image, Beyond Imagination</p>
+    - ID: "1f0455dc-9254-4487-b94d-6c66f103e7bf"
+      Hint: Title
+      Value: Sitecore Experience <br/> Awards 2024
+    - ID: "23fec4a6-1e53-4d30-8bb4-1a08632f3545"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1F5F3B-03CA-4E40-94DB-96CA50A2D186}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "40551eab-6a25-48f8-b982-b393f3e47b04"

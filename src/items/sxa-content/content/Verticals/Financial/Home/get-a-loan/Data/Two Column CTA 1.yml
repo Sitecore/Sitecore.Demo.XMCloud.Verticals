@@ -1,0 +1,27 @@
+﻿---
+ID: "f570900c-5ec8-4b54-a7fa-ab48a9b1ba43"
+Parent: "5a737b43-b61a-431b-965e-29f28fc81962"
+Template: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+Path: "/sitecore/content/Verticals/Financial/Home/get-a-loan/Data/Two Column CTA 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "168fed07-0f41-44f5-a14e-f134e16b1477"
+      Hint: Image1
+      Value: |
+        <image mediaid="{A4CE3822-1BFC-4876-9353-0D43914FDDC9}" />
+    - ID: "41c85ac6-5f19-48ac-9dfb-e81d5f1450f6"
+      Hint: Image2
+      Value: |
+        <image mediaid="{F64C8C16-8C71-44E1-A658-B3070574B89E}" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: Amount
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: Duration
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38217926-14c9-489d-af91-e0ba72ae3e14"

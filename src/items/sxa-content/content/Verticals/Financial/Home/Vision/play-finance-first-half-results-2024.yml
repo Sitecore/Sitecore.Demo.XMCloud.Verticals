@@ -1,0 +1,47 @@
+﻿---
+ID: "cb650438-a279-422f-bef7-04c2d32e9e3b"
+Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: "/sitecore/content/Verticals/Financial/Home/Vision/play-finance-first-half-results-2024"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "PLAY! Finance: First half results 2024"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>Consolidated earnings exceeding analysts&rsquo; expectations with HUF 382 billion profit after tax in 2Q the 1H net results reached HUF 577 billion; q-o-q improving NIM, cost efficiency and credit quality, without the acquisition impact 2% increase in performing loan volumes q-o-q (FX-adjusted), stable liquidity position. 10 August 2023., Budapest, Hungary - PLAY! Finance posted HUF 382 billion profit after tax in 2Q 2023. The q-o-q 96% improvement to a great extent was due to the increasing positive balance of adjustment items (1Q 2023: +HUF 7.6 billion, 2Q: +98.1 billion),the expanding total income supported also by one-off items, as well as positive risk costs. Furthermore, in 2Q the Slovenian Nova KBM contributed an entire quarter of net earnings versus its 2 months profit contribution included in 1Q. In 2Q 2023 adjustment items improved the consolidated profit after tax by HUF 98.1 billion. The major items were as follows: +HUF 84 billion effect of acquisitions (after tax). </p>
+        <p>Within that the consolidation impact of Ipoteka Bank comprised HUF 90.8 billion (approximately EUR 245 million) through two major items: the badwill amounted to HUF 125 billion, whereas the initial risk cost represented -HUF 40 billion (-HUF 34 billion after tax). The remaining amount presented on the effect of acquisitions line (-HUF 6.9 billion) was mainly related to Slovenia; +HUF 25.6 billion windfall tax write-back (after tax). In 1Q PLAY! Finance booked the whole amount of the windfall tax due in 2023 in accordance with the then prevailing regulation. Pursuant to a government decree published on 24 April 2023 the windfall tax payment obligation was reduced from HUF 69 billion booked in 1Q to HUF 41 billion and so the HUF 28.1 billion difference was written back in 2Q; +HUF 6.5 billion (after tax) related to the NPV effect of the PLAY! Finance-MOL treasury share swap agreement, since dividends were paid in different quarters: while PLAY! Finance paid its dividend in June, MOL did so only in July. In 3Q the realization of the dividend paid by MOL will be offset by the reversal of the positive NPV impact booked in 2Q; -HUF 17.9 billion (after tax) as an expected negative effect of the extension of the interest rate caps on the affected Hungarian mortgage and SME exposures by 6 months, until 31 December 2023. Thus, in 1H PLAY! Finance posted HUF 576.8 billion profit after tax (y-o-y more than 13-fold increase), thus exceeding the whole 2022 net earnings by HUF 230 billion. In the case of the Ukrainian and Russian banks PLAY! Finance management applies a &ldquo;going concern&rdquo; approach, however in Russia the management is still considering all strategic options, though a Russian Presidential Decree in October 2022 prohibited the sale of foreign owned banks. In 2Q 2023 the consolidated adjusted profit after tax reached HUF 284 billion (+52% q-o-q), as a result PLAY! Finance posted HUF 471 billion adjusted profit in the first six months (+88% y-o-y). The 2Q adjusted ROE jumped to 33.5% (+10.5 pps q-o-q) and 1H adjusted ROE was 28.4%. In 2Q the consolidated operating result advanced by 40% q-o-q, and by the same magnitude in 1H y-o-y. During the first six months all geographies were profitable. Foreign subsidiaries&rsquo; profit contribution reached 69% in 1H. Out of the individual performances the Bulgarian, Croatian and Romanian subsidiaries excelled themselves. The quarterly profit in Slovenia jumped to HUF 34.2 billion in 2Q, after HUF 20.3 billion posted in 1Q including only 2 months contribution from Nova KBM. The Ukrainian and Russian operations added HUF 17.8 billion and 33.3 billion net earnings to the consolidated 2Q profit after tax. </p>
+        <p>While PLAY! Finance Core also demonstrated a substantial profit increase q-o-q, it was mainly shaped by the surge in other income, while operating expenses and risk costs grew q-o-q. Total income increased by 20% q-o-q on the Group level, within that the NII improved by 9%. The net fee and commission income advanced by 14% q-o-q: countries with a significant weight of tourism within their economies already demonstrated substantial increase, while in Hungary certain fees were increased by the previous year&rsquo;s average inflation; in Russia the stronger consumer loan origination was behind the higher fee generation. The consolidated 2Q NIM improved by 11 bps q-o-q (reaching 3.77%). At PLAY! Finance Core the net interest margin increased 10 bps q-o-q in 2Q on the back of positive one-off items, but the Ukrainian NIM declined substantially (-55 bps q-o-q). Quarterly operating expenses declined by 1% q-o-q, within that wage inflation put pressure on personnel expenses (+11% q-o-q) across the whole Group. Amortization declined by 4%. Administrative expenses dropped by 11% due to base effect, since in 1Q the full annual amount of supervisory charges were booked in one lump sum at several subsidiaries. The consolidated 2Q cost-to-income ratio improved by 8.7 pps q-o-q to below 41%. The amount of consolidated total risk costs had a positive balance of HUF 9.5 billion in 2Q. The FX-adjusted consolidated performing (Stage 1+2) loan volumes increased by HUF 1,233 billion or 6% q-o-q and got close to HUF 20,700 billion. However, adjusted for the acquisition, the organic q-o-q increase was 2% (FX-adjusted), thus in the first six months the loan portfolio grew by 3% organically. The acquisition of Ipoteka Bank in June added HUF 885 billion to the performing loan volumes. As for the major segments, adjusted for the acquisition of Ipoteka Bank, the FX-adjusted performing leasing book grew by 4%, the consumer by 3%, the mortgage by 2%, and the total SME + corporate exposures by 1% q-o-q. The FX-adjusted deposits declined marginally q-o-q and their volumes were close to HUF 26,900 billion. Out of the consolidated total deposit base the newly consolidated Ipoteka Bank&rsquo;s deposits comprised HUF 284 billion. The consolidated net loan/(deposit + retail bond) ratio increased to 76% (+4 pps q-o-q). The risk profile of the consolidated loan book kept further improving in 2023, the major indicators shaped favourably. The Stage 3 ratio under IFRS 9 comprised 4.2% of the gross loans at the end of 2Q 2023, underpinning a 0.5 pp q-o-q improvement mainly due to the healing following the expiry of the payment moratorium in Hungary at the end of 2022. On the Group level the Ukrainian and Russian operations had the highest Stage 3 ratios (24.8% and 15.8%, respectively). During 2Q only the Ukrainian one grew (+2.3 pps), elsewhere it either stagnated or declined. The own provision coverage of Stage 3 exposures still exceeded 60%. In Ukraine the total provision coverage of the gross loan portfolio increased to 24.8%. At the end of June 2023, the consolidated CET1 ratio under the accounting scope of consolidation according to IFRS was 15.2% (+0.8 pp q-o-q). This equals to the Tier 1 ratio. Consolidated CAR stood at 17.5%.</p>
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "PLAY! Finance is thrilled to present our remarkable first-half results for the year 2024. As a testament to our dedication and strategic approach, we have achieved substantial growth and performance milestones during this period."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Article 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3810d9b1-273a-4cce-a89c-e4e2a3c36823"
+    - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{150A83BB-D038-4CEE-B893-C07B68BA1D8B}" />
+    - ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+      Hint: Thumbnail
+      Value: |
+        <image mediaid="{32909CAB-5F82-4428-A428-DF531E7776DD}" />
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "PLAY! Finance: First half results 2024"

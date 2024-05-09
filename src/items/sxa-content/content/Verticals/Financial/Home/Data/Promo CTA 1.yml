@@ -1,0 +1,23 @@
+﻿---
+ID: "6b8e8ac0-4114-413b-b961-a86d53421b90"
+Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: /sitecore/content/Verticals/Financial/Home/Data/Promo CTA 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Closing the Racial Wealth Gap
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6fb07a67-c777-441e-b089-a4c6d6669931"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: These are some keys to help create equitable pathways to income growth.
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{FC78C30D-DE27-4D68-AEF8-A4F389FEEA4D}" />
