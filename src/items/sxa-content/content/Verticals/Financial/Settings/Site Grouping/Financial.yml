@@ -21,7 +21,7 @@ SharedFields:
   Value: 1
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: "www.sxastarter.localhost|localhost|verticals-development-financial.vercel.app"
+  Value: "www.sxastarter.localhost|localhost|verticals-development-financial.vercel.app|verticals-staging-financial.vercel.app"
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Financial
@@ -41,4 +41,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f183d481-c51a-4d96-be5d-b9bef67dafd9"
+      Value: "09c02093-90ce-400e-8df5-5e133ff0cd83"
