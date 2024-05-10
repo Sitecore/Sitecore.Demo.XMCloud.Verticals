@@ -12,10 +12,23 @@ $roundness: var(--three-column-cta-roundness);
     padding: 0 $size-padding;
   }
 
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: unset;
+
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+
   img {
     width: 100%;
     border-radius: $roundness $roundness 0 0;
     overflow: hidden;
+    transition: all 0.5s ease-in-out;
   }
 
   .row {
@@ -30,6 +43,8 @@ $roundness: var(--three-column-cta-roundness);
     align-items: center;
     height: 100%;
     text-align: center;
+    border-radius: $roundness;
+    overflow: hidden;
   }
 
   .text-wrapper {
