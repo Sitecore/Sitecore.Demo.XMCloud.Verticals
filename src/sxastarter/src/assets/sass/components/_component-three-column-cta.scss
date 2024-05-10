@@ -8,7 +8,7 @@ $roundness: var(--three-column-cta-roundness);
   margin-top: 2em;
   margin-bottom: 2em;
 
-  @include respond-to(all-mobile) {
+  @include respond-to(mobile-large) {
     padding: 0 $size-padding;
   }
 
@@ -19,7 +19,7 @@ $roundness: var(--three-column-cta-roundness);
   }
 
   .row {
-    @include respond-to(all-mobile) {
+    @include respond-to(mobile-large) {
       gap: 3em;
     }
   }
