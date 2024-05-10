@@ -9,6 +9,7 @@ import {
   withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
+import { useI18n } from 'next-localization';
 
 interface Fields {
   Title: Field<string>;
@@ -33,6 +34,7 @@ interface ArticleListComponentProps {
 const ArticleList = (props: ArticleListComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const newsItems = props.fields?.items?.filter((item) => item.name !== 'Data');
+  const { t } = useI18n();
 
   return (
     <div
@@ -42,12 +44,12 @@ const ArticleList = (props: ArticleListComponentProps): JSX.Element => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col">
-            <div className="title">News</div>
+            <div className="title">{t('News') || 'News'}</div>
           </div>
           <div className="col-auto learn-more">
-            <a href="#">
-              See all <i className="fa fa-angle-right"></i>
-            </a>
+            <Link href="/vision">
+              {t('See all') || 'See all'} <i className="fa fa-angle-right"></i>
+            </Link>
           </div>
         </div>
 
@@ -67,7 +69,7 @@ const ArticleList = (props: ArticleListComponentProps): JSX.Element => {
                 <p>
                   <Text field={item.fields.Excerpt}></Text>
                 </p>
-                <Link href={item.url}>Read more</Link>
+                <Link href={item.url}>{t('Read more') || 'Read more'}</Link>
               </div>
               {i === newsItems.length - 1 ? <></> : <hr />}
             </div>
