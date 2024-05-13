@@ -34,44 +34,46 @@ export const Default = (props: RichTextProps): JSX.Element => {
         <div className="title display-6">
           <Text field={props.fields?.Title1} />
         </div>
-        <div className="row row-cols-1 row-cols-xl-2 justify-content-center documents-container">
-          <div className="col px-4">
-            <div className="item">
-              <Image field={props.fields?.Image1} />
-              <div className="text-container">
-                <Link field={props.fields?.Link1} />
-                <span className="subtitle">
-                  <Text field={props.fields?.Subtitle1} />
-                </span>
+        <div className="documents-container">
+          <div className="row row-cols-1 row-cols-xl-2 justify-content-center">
+            <div className="col px-4">
+              <div className="item">
+                <Image field={props.fields?.Image1} />
+                <div className="text-container">
+                  <Link field={props.fields?.Link1} />
+                  <span className="subtitle">
+                    <Text field={props.fields?.Subtitle1} />
+                  </span>
+                </div>
+              </div>
+              <div className="item">
+                <Image field={props.fields?.Image2} />
+                <div className="text-container">
+                  <Link field={props.fields?.Link2} />
+                  <span className="subtitle">
+                    <Text field={props.fields?.Subtitle2} />
+                  </span>
+                </div>
               </div>
             </div>
-            <div className="item">
-              <Image field={props.fields?.Image2} />
-              <div className="text-container">
-                <Link field={props.fields?.Link2} />
-                <span className="subtitle">
-                  <Text field={props.fields?.Subtitle2} />
-                </span>
+            <div className="col px-4">
+              <div className="item">
+                <Image field={props.fields?.Image3} />
+                <div className="text-container">
+                  <Link field={props.fields?.Link3} />
+                  <span className="subtitle">
+                    <Text field={props.fields?.Subtitle3} />
+                  </span>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className="col px-4">
-            <div className="item">
-              <Image field={props.fields?.Image3} />
-              <div className="text-container">
-                <Link field={props.fields?.Link3} />
-                <span className="subtitle">
-                  <Text field={props.fields?.Subtitle3} />
-                </span>
-              </div>
-            </div>
-            <div className="item">
-              <Image field={props.fields?.Image4} />
-              <div className="text-container">
-                <Link field={props.fields?.Link4} />
-                <span className="subtitle">
-                  <Text field={props.fields?.Subtitle4} />
-                </span>
+              <div className="item">
+                <Image field={props.fields?.Image4} />
+                <div className="text-container">
+                  <Link field={props.fields?.Link4} />
+                  <span className="subtitle">
+                    <Text field={props.fields?.Subtitle4} />
+                  </span>
+                </div>
               </div>
             </div>
           </div>

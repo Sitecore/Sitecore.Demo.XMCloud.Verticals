@@ -2,9 +2,7 @@
 
 .article-list {
   .title {
-    font-size: 42px;
     font-weight: bold;
-    color: var(--text-body);
     margin-bottom: 0.5em;
   }
 
@@ -12,13 +10,17 @@
     font-size: 20px;
     font-weight: bold;
     color: var(--text-body);
+
+    i {
+      padding-left: 0.5rem;
+      vertical-align: top;
+    }
   }
 
   hr {
-    width:100%;
-    height:5px;
-    background:#FFF;
-    color:#FFF;
+    width: 100%;
+    border-top: 5px solid var(--text-button);
+    border-radius: var(--roundness);
     opacity: 1;
   }
 

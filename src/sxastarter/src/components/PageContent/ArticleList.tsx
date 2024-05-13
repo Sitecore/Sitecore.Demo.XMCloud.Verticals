@@ -38,17 +38,17 @@ const ArticleList = (props: ArticleListComponentProps): JSX.Element => {
 
   return (
     <div
-      className={`component article-list ${props.params.styles.trimEnd()}`}
+      className={`component component-spaced article-list ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container">
         <div className="row align-items-center">
           <div className="col">
-            <div className="title">{t('News') || 'News'}</div>
+            <div className="title display-6">{t('News') || 'News'}</div>
           </div>
           <div className="col-auto learn-more">
             <Link href="/vision">
-              {t('See all') || 'See all'} <i className="fa fa-angle-right"></i>
+              {t('See all') || 'See all'} <i className="fa fa-angle-right fs-3"></i>
             </Link>
           </div>
         </div>

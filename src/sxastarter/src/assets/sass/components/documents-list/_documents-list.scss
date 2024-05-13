@@ -1,4 +1,8 @@
 .documents-list {
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
+  }
+
   .title {
     font-weight: bold;
     color: var(--text-body);
@@ -9,6 +13,10 @@
     padding: 3em 3em 2em;
     border: 5px solid var(--bg-main);
     border-radius: 16px;
+
+    @include respond-to(mobile-large) {
+      padding: 2em 0 1em;
+    }
 
     .item {
       display: flex;

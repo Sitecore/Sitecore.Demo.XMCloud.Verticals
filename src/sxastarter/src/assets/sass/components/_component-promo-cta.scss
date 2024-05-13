@@ -1,9 +1,3 @@
-.site-financial {
-  --three-column-cta-roundness: 16px;
-}
-
-$roundness: var(--three-column-cta-roundness);
-
 .promo-cta {
   background-color: var(--bg-main);
   padding-top: $component-margin * 2;
@@ -20,7 +14,7 @@ $roundness: var(--three-column-cta-roundness);
   }
 
   img {
-    border-radius: $roundness;
+    border-radius: var(--roundness);
     overflow: hidden;
   }
 
