@@ -1,15 +1,11 @@
 .documents-list {
-  padding-top: 2em;
-
   .title {
-    font-size: 42px;
     font-weight: bold;
     color: var(--text-body);
     margin-bottom: 0.5em;
   }
 
   .documents-container {
-    margin-bottom: 3em;
     padding: 3em 3em 2em;
     border: 5px solid var(--bg-main);
     border-radius: 16px;

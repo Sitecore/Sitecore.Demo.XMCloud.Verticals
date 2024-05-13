@@ -5,9 +5,6 @@
 $roundness: var(--three-column-cta-roundness);
 
 .four-column-cta {
-  margin-top: 2em;
-  margin-bottom: 2em;
-
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
   }

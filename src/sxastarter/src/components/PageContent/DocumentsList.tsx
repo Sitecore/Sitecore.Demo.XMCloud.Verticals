@@ -27,11 +27,11 @@ export const Default = (props: RichTextProps): JSX.Element => {
 
   return (
     <div
-      className={`component documents-list ${props.params.styles.trimEnd()}`}
+      className={`component component-spaced documents-list ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container">
-        <div className="title">
+        <div className="title display-6">
           <Text field={props.fields?.Title1} />
         </div>
         <div className="row row-cols-1 row-cols-xl-2 justify-content-center documents-container">
