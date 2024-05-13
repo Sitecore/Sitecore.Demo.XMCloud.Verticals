@@ -1,12 +1,18 @@
 .page-background {
   padding: 0;
 
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
+  }
+
   div {
     position: relative;
   }
 
   .background-image {
     position: absolute;
+    left: 0;
+    top: 0;
     width: 100%;
     max-height: 100%;
     object-fit: cover;
@@ -20,10 +26,16 @@
   }
 
   .rounded-corners {
-    border-radius: 16px;
+    border-radius: var(--roundness);
   }
 
   .background-content {
-    background-color: white;
+    background-color: var(--bg-main);
+  }
+
+  &.spaced-top {
+    img + .container {
+      margin-top: 30vh;
+    }
   }
 }

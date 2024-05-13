@@ -1,6 +1,10 @@
 @import 'src/assets/sass/abstracts/vars';
 
 .article-list {
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
+  }
+
   .title {
     font-weight: bold;
     margin-bottom: 0.5em;
@@ -22,6 +26,7 @@
     border-top: 5px solid var(--text-button);
     border-radius: var(--roundness);
     opacity: 1;
+    margin: 2rem 0;
   }
 
   a {
@@ -32,5 +37,10 @@
 
   .background {
     background-color: var(--bg-main);
+    border-radius: var(--roundness);
+
+    img {
+      border-radius: var(--roundness);
+    }
   }
 }
