@@ -19,6 +19,11 @@
   }
 }
 
+.component-spaced {
+  margin-top: $component-margin;
+  margin-bottom: $component-margin;
+}
+
 .hero-banner {
   .component-content {
     background-position: center;

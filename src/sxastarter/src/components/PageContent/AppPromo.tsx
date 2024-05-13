@@ -27,17 +27,17 @@ export const Default = (props: AppPromoProps): JSX.Element => {
       className={`component app-promo ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
-      <div className="container col-xl-12 pt-5">
-        <div className="row align-items-center g-lg-5 pt-5">
-          <div className="col-lg-6 text-center text-lg-start ">
-            <h1 className="display-4 fw-bold lh-1 mb-3">
+      <div className="container">
+        <div className="row row-gap-5 align-items-center g-5">
+          <div className="col-lg-6 text-center text-lg-start">
+            <h1 className="display-6 fw-bold mb-3">
               <Text field={props.fields.Title} />
             </h1>
-            <div className="col-lg-10 fs-4 ">
+            <div className="col-lg-10 fs-5">
               <RichText field={props.fields.Text} />
             </div>
           </div>
-          <div className="col-md-10 mx-0 px-0 col-lg-6 image-wrapper">
+          <div className="col-md-10 mx-auto col-lg-6 image-wrapper">
             <Image field={props.fields.Image} className="d-block mx-lg-auto img-fluid"></Image>
           </div>
         </div>

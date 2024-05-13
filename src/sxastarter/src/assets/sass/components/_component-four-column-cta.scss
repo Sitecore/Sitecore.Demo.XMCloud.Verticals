@@ -1,13 +1,4 @@
-.site-financial {
-  --four-column-cta-roundness: 16px;
-}
-
-$roundness: var(--three-column-cta-roundness);
-
 .four-column-cta {
-  margin-top: 2em;
-  margin-bottom: 2em;
-
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
   }
@@ -26,7 +17,7 @@ $roundness: var(--three-column-cta-roundness);
 
   img {
     width: 100%;
-    border-radius: $roundness $roundness 0 0;
+    border-radius: var(--roundness) var(--roundness) 0 0;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
   }
@@ -43,7 +34,7 @@ $roundness: var(--three-column-cta-roundness);
     align-items: center;
     height: 100%;
     text-align: center;
-    border-radius: $roundness;
+    border-radius: var(--roundness);
     overflow: hidden;
   }
 
@@ -52,7 +43,7 @@ $roundness: var(--three-column-cta-roundness);
     flex-grow: 1;
     background-color: var(--bg-main);
     padding: 1em;
-    border-radius: 0 0 $roundness $roundness;
+    border-radius: 0 0 var(--roundness) var(--roundness);
   }
 
   &.bordered {

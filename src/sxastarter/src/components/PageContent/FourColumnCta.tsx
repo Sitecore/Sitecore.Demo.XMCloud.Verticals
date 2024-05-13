@@ -30,7 +30,7 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`component four-column-cta ${props.params.styles.trimEnd()}`}
+      className={`component component-spaced four-column-cta ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container">
