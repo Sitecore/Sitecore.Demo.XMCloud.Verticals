@@ -1,20 +1,15 @@
 ﻿---
-ID: "939cbd3c-08fa-4188-b8d7-55eef3f3e028"
+ID: "52697a9e-3d2d-4185-97a9-7422b6c0dfaa"
 Parent: "aef71d24-a81f-4be5-abda-df88e5497f07"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
-Path: /sitecore/content/Verticals/Financial/Presentation/Styles/Theming/Bordered
+Path: /sitecore/content/Verticals/Financial/Presentation/Styles/Theming/Spaced top
 SharedFields:
 - ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
   Hint: Value
-  Value: bordered
+  Value: "spaced-top"
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
-  Value: |
-    {AD385021-CE2B-4FC1-89AA-207D408034A8}
-    {35075000-760E-4FF3-BD1C-F2EEBA251DCB}
-- ID: "95579875-484e-41f0-b9c2-804eafaf3ccc"
-  Hint: IsVerifiedStyle
-  Value: 1
+  Value: "{1F52FB4E-FB4B-40ED-A5D8-F8F9784B36F2}"
 Languages:
 - Language: en
   Versions:
@@ -22,4 +17,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "641d83ea-3c36-4588-beb3-718b1b4455dc"
+      Value: "e6f22d73-0892-4388-a5b1-989dabe22bf6"

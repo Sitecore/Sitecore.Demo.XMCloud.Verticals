@@ -1,25 +1,16 @@
-.site-financial {
-  --three-column-cta-roundness: 16px;
-}
-
-$roundness: var(--three-column-cta-roundness);
-
 .three-column-cta {
-  margin-top: 2em;
-  margin-bottom: 2em;
-
-  @include respond-to(all-mobile) {
+  @include respond-to(mobile-large) {
     padding: 0 $size-padding;
   }
 
   img {
     width: 100%;
-    border-radius: $roundness;
+    border-radius: var(--roundness);
     margin-bottom: 1em;
   }
 
   .row {
-    @include respond-to(all-mobile) {
+    @include respond-to(mobile-large) {
       gap: 3em;
     }
   }
@@ -37,7 +28,7 @@ $roundness: var(--three-column-cta-roundness);
 
   &.bordered {
     .content-wrapper {
-      border-radius: $roundness;
+      border-radius: var(--roundness);
       overflow: hidden;
       align-items: center;
       text-align: center;
