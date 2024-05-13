@@ -1,5 +1,29 @@
-@import 'src/assets/sass/abstracts/vars';
+.site-financial {
+  --three-column-cta-roundness: 16px;
+}
+
+$roundness: var(--three-column-cta-roundness);
 
 .promo-cta {
   background-color: var(--bg-main);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  @include respond-to(mobile-large) {
+    padding: 3rem $size-padding;
+  }
+
+  .main-content {
+    --bs-gutter-x: 8rem;
+    --bs-gutter-y: 3rem;
+  }
+
+  img {
+    border-radius: $roundness;
+    overflow: hidden;
+  }
+
+  .dark & {
+    background-color: var(--bg-body);
+  }
 }
