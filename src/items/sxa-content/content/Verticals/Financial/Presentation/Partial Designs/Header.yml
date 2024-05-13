@@ -64,4 +64,11 @@ Languages:
       Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "622b467a-9e7d-415f-bb25-cc4fba164405"
+      Value: "903991ea-527d-45c5-b242-58aca824ff52"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9dadd748-37ee-4ed7-9828-ab53d02c2dc7"

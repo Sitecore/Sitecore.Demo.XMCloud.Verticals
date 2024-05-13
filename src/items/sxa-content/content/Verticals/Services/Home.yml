@@ -12,6 +12,36 @@ SharedFields:
   Hint: __Thumbnail
   Value: |
     <image mediaid="{C0EA0BCD-AD21-41A9-8F73-C7F8D0EC193C}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{7F38ABAE-D763-4F80-BB3C-E50363A9C24E}"
+          p:before="*"
+          s:ds="local:/Data/Test 1"
+          s:id="{B7CDF75E-716A-4C59-B9B1-CD970AE0A4AE}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main" />
+        <r
+          uid="{9169BF45-0077-452F-A400-6F1226709642}"
+          p:after="r[@uid='{7F38ABAE-D763-4F80-BB3C-E50363A9C24E}']"
+          s:ds="local:/Data/Test 2"
+          s:id="{B7CDF75E-716A-4C59-B9B1-CD970AE0A4AE}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles=%7B8C0F4F53-A3E4-4B4F-9C50-4FD9C745E7A3%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="headless-main" />
+        <r
+          uid="{5FC48185-4532-4202-A803-1C2E7C4093AC}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Test 3"
+          s:id="{B7CDF75E-716A-4C59-B9B1-CD970AE0A4AE}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="headless-main" />
+      </d>
+    </r>
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
@@ -23,35 +53,12 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
-    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
-      Hint: __Final Renderings
-      Value: |
-        <r xmlns:p="p" xmlns:s="s"
-          p:p="1">
-          <d
-            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r
-              uid="{819134A8-311A-483D-A1E9-3DB4CF5020E7}"
-              p:before="*"
-              s:ds="local:/Data/Three Column CTA 1"
-              s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
-              s:ph="headless-main" />
-            <r
-              uid="{8C90B463-28D5-4D57-97D9-C73120BD670F}"
-              p:after="*[1=2]"
-              s:ds="local:/Data/App Promo 1"
-              s:id="{F9905F68-21E8-4C6F-8B89-56BB99020D31}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-              s:ph="headless-main" />
-          </d>
-        </r>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Services
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "49d08808-daa3-4265-9bde-8128d7d060d9"
+      Value: "bca26e71-89e6-4aee-b195-695b54189523"
     - ID: "ca15ff2f-1966-4a91-81bf-bf2eba17c20c"
       Hint: Title
       Value: Services

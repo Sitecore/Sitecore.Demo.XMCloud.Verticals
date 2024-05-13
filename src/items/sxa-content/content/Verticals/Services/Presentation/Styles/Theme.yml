@@ -1,0 +1,13 @@
+﻿---
+ID: "0660671b-a1eb-4149-9970-4ca0c5591d68"
+Parent: "dadc2e67-05ac-423c-9d2d-a56be6e9f83c"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/Verticals/Services/Presentation/Styles/Theme
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "054fa332-f2eb-4a41-9666-fec9f98dfa00"
