@@ -4,6 +4,9 @@ Parent: "b2a38fb8-2e85-4d58-afe5-c12beccbee3a"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
 Path: "/sitecore/content/Verticals/Financial/Home/get-a-loan"
 SharedFields:
+- ID: "0d83e59a-c3f1-41be-81b2-762d35e0799f"
+  Hint: NavigationClass
+  Value: "{367BA3F8-234E-4964-AD4F-63C46CD259A5}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 700
@@ -102,7 +105,7 @@ Languages:
       Value: Get a loan
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2b9a52f6-8967-4f7b-9f17-3ba01632bc53"
+      Value: "5e9754ca-d8e6-4d37-9ef4-61ee9b088f19"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |
