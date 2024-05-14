@@ -2,4 +2,44 @@
 
 .header {
   width: 100%;
+  padding: 1.5rem 0;
+}
+
+// PLAY! finance specific styles
+.site-financial .header {
+  .rich-text {
+    padding: 0 !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+    line-height: 1 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    text-align: left;
+
+    @media (width < 1200px) {
+      flex-direction: column;
+    }
+
+    @include respond-to(mobile-large) {
+      flex-direction: row;
+    }
+
+    .play {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #255be3;
+
+      .dark & {
+        color: #fff;
+      }
+    }
+
+    .finance {
+      color: var(--bg-accent);
+      font-weight: 300;
+    }
+  }
 }
