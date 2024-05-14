@@ -1,18 +1,22 @@
 .documents-list {
-  padding-top: 2em;
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
+  }
 
   .title {
-    font-size: 42px;
     font-weight: bold;
     color: var(--text-body);
     margin-bottom: 0.5em;
   }
 
   .documents-container {
-    margin-bottom: 3em;
     padding: 3em 3em 2em;
     border: 5px solid var(--bg-main);
     border-radius: 16px;
+
+    @include respond-to(mobile-large) {
+      padding: 2em 0 1em;
+    }
 
     .item {
       display: flex;

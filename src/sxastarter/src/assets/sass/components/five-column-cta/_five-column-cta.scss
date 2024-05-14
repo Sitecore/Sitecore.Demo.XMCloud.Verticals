@@ -1,12 +1,20 @@
 .five-column-cta {
   font-size: 20px;
 
-  div.col {
-    text-align: -webkit-center;
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
   }
 
-  padding-top: 3em;
-  padding-bottom: 3em;
+  div.row {
+    margin-right: calc(var(--bs-gutter-x) * -0.5);
+    margin-left: calc(var(--bs-gutter-x) * -0.5);
+  }
+
+  div.col {
+    text-align: center;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
 
   .image-container {
     aspect-ratio: 1 / 1;

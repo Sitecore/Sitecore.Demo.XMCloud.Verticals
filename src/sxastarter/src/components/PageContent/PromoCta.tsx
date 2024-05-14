@@ -33,13 +33,13 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
       className={`component promo-cta ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
-      <div className="container col-xl-12 py-5">
-        <div className="row main-content align-items-center g-lg-5">
-          <div className="col-lg-6 text-center text-lg-start px-5">
-            <h1 className="display-4 fw-bold lh-1 mb-3">
+      <div className="container">
+        <div className="row row-gap-4 main-content align-items-center">
+          <div className="col-lg-5 text-center text-lg-start">
+            <h1 className="display-6 fw-bold mb-3">
               <Text field={props.fields.Title} />
             </h1>
-            <div className="col-lg-10 fs-4 ">
+            <div className="fs-5">
               <RichText field={props.fields.Text} />
 
               {!isPageEditing && props.fields?.Link?.value?.href && (
@@ -47,8 +47,8 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
               )}
             </div>
           </div>
-          <div className="col-md-10 mx-0 px-0 col-lg-6 image-wrapper">
-            <Image field={props.fields.Image} className="d-block mx-lg-auto img-fluid"></Image>
+          <div className="col-md-10 mx-auto col-lg-7 mx-lg-0 image-wrapper">
+            <Image field={props.fields.Image} className="d-block  mx-lg-auto img-fluid"></Image>
           </div>
         </div>
       </div>

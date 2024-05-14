@@ -1,5 +1,24 @@
-@import 'src/assets/sass/abstracts/vars';
-
 .promo-cta {
   background-color: var(--bg-main);
+  padding-top: $component-margin * 2;
+  padding-bottom: $component-margin * 2;
+
+  @include respond-to(mobile-large) {
+    padding-left: $size-padding;
+    padding-right: $size-padding;
+  }
+
+  .main-content {
+    --bs-gutter-x: 8rem;
+    --bs-gutter-y: 3rem;
+  }
+
+  img {
+    border-radius: var(--roundness);
+    overflow: hidden;
+  }
+
+  .dark & {
+    background-color: var(--bg-body);
+  }
 }

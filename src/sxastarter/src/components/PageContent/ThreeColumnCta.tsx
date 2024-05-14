@@ -36,7 +36,7 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`component three-column-cta ${props.params.styles.trimEnd()}`}
+      className={`component component-spaced three-column-cta ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container">

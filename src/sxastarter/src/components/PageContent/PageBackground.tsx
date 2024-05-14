@@ -31,7 +31,7 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
       <div className="container">
         <Placeholder name="page-navigation" rendering={props.rendering} />
 
-        <h1>
+        <h1 className="display-6 fw-bold">
           <Text field={props.fields.Title}></Text>
         </h1>
         <p>
@@ -40,8 +40,8 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
       </div>
 
       <div>
-        <div className="background-content container rounded-corners">
-          <div className="m-5 pt-5">
+        <div className="background-content component-spaced container rounded-corners">
+          <div className="p-3 p-sm-5">
             <Placeholder name="background-page-content" rendering={props.rendering} />
           </div>
         </div>

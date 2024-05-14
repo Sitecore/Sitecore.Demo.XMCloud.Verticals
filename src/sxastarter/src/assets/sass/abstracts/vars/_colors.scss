@@ -13,6 +13,7 @@
   --bg-saturated: #034c81;
   --bg-accent: #ff3c28;
   --border-color: #f0f5f7;
+  --roundness: 1rem;
 
   .dark & {
     --text-body: #fff;
@@ -28,6 +29,7 @@
     --bg-saturated: #034c81;
     --bg-accent: #ff3c28;
     --border-color: #034c81;
+    --roundness: 1rem;
   }
 }
 
