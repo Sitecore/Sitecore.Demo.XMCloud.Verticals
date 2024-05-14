@@ -46,4 +46,4 @@ This will work only on Windows and deploy all Content Management roles and inter
 
 Go to the `src\sxastarter\src\assets\sass\abstracts\vars` and update the colors in the `_colors.scss` file. Note, that each site has it's own color set for both light and dark theme.
 
-Note, that each site has a special `site-*` class applied, this allows to apply custom CSS to each of the sites.
+Note, that each site has a special `site-*` class, this allows to apply custom CSS the specific site(s).
