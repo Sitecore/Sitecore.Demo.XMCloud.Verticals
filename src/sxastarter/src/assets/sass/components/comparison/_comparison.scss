@@ -1,0 +1,49 @@
+.comparison {
+  max-width: fit-content;
+  background-color: var(--bg-main);
+  border-radius: 16px;
+  filter: drop-shadow(0px 3px 6px #00000029);
+  margin-bottom: 5rem;
+  padding: 2rem 5rem;
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-colored);
+    text-align: center;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .value {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+
+      .amount {
+        color: var(--text-body);
+      }
+
+      .currency {
+        color: var(--text-colored);
+      }
+    }
+
+    .subtitle {
+      max-width: 160px;
+      font-size: 18px;
+      color: #707070;
+      text-align: center;
+    }
+  }
+
+  .operator {
+    font-size: 122px;
+    font-weight: lighter;
+    color: var(--text-colored);
+    padding: 0 1.5rem;
+  }
+}

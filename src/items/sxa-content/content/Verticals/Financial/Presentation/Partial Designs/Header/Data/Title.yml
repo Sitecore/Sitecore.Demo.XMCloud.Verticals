@@ -15,11 +15,13 @@ Languages:
     - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
       Hint: Text
       Value: |
-        <a href="/"><h1>
-        <span style="color:blue">PLAY!</span>&nbsp;<span style="color:red">Finance</span></h1></a>
+        <a href="/">
+        <h1>
+        <span class="play">PLAY!</span><span class="finance">finance</span></h1>
+        </a>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f03ae0c2-f8e4-42e6-b8b9-8f411308923e"
+      Value: "00fb33a2-13e8-409e-ae2d-078e327f32a0"
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -27,8 +29,10 @@ Languages:
     - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
       Hint: Text
       Value: |
-        <a href="/"><h1>
-        PLAY!&nbsp;Financier</h1></a>
+        <a href="/">
+        <h1>
+        <span class="play">PLAY!</span><span class="finance">financier</span></h1>
+        </a>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2f32f84a-1a97-4b06-a846-6c8847d41086"
+      Value: "0e47bc13-1943-4b1d-9908-d777270128f6"

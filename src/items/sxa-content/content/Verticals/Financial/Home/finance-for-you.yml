@@ -26,10 +26,17 @@ SharedFields:
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
         <r
           uid="{3BD96A91-2F8A-4B1D-8F0E-2659B66912BD}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{2CFCE38E-36F8-4731-AC70-78541826A617}']"
           s:ds="local:/Data/Comparison 1"
           s:id="{20E5EA95-6B50-49CD-8852-433B7C565F06}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/sxa-page-content/page-content-0-1" />
+        <r
+          uid="{1175B340-E33F-4189-BF3E-4D4E791C14E4}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Comparison 3"
+          s:id="{20E5EA95-6B50-49CD-8852-433B7C565F06}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
           s:ph="/headless-main/sxa-page-content/page-content-0-1" />
       </d>
     </r>
@@ -59,7 +66,7 @@ Languages:
       Value: Finance for you
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "08c95927-2e3e-4b38-a280-4a0e86243a59"
+      Value: "4d53aa0d-0d24-4d16-b39c-cc1db48a935e"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |

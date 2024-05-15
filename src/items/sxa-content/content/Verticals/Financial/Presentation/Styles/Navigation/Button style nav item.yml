@@ -1,0 +1,17 @@
+﻿---
+ID: "367ba3f8-234e-4964-ad4f-63c46cd259a5"
+Parent: "5606946c-1d07-4e0b-b264-85956e6828ad"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/Verticals/Financial/Presentation/Styles/Navigation/Button style nav item
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "button button-main"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "605f6bfa-3860-4a20-9d08-ec318b5d5f90"

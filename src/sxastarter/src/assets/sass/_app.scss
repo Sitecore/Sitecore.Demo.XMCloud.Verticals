@@ -10,6 +10,7 @@ body {
 
   position: relative;
   overflow: auto;
+  overflow-x: hidden;
   color: $text-basic;
   font-size: inherit;
   line-height: 1.5;
