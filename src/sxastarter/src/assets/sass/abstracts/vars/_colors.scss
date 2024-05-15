@@ -9,6 +9,7 @@
   --bg-body: #fff;
   --bg-footer: #333;
   --bg-main: #f0f5f7;
+  --bg-main-alt: #f0f5f7;
   --bg-color: #c5e4f3;
   --bg-saturated: #034c81;
   --bg-accent: #ff3c28;
@@ -25,6 +26,7 @@
     --bg-body: #031827;
     --bg-footer: #333;
     --bg-main: #034c81;
+    --bg-main-alt: #031827;
     --bg-color: #034c81;
     --bg-saturated: #034c81;
     --bg-accent: #ff3c28;
@@ -126,6 +128,7 @@ $carousel-bg: $bg-basic-color;
 $carousel-nav: $text-black;
 $carousel-nav-active: $text-basic-active;
 $carousel-nav-border: $border-basic-color;
+$carousel-indicator-active-bg: var(--text-colored);
 
 // Container component
 $container-title-row-bg: $bg-light-gray;
