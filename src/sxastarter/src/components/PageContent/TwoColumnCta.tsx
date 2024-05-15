@@ -22,12 +22,12 @@ interface Fields {
   Link2: LinkField;
 }
 
-export type FourColumnCtaProps = ComponentProps & {
+export type TwoColumnCtaProps = ComponentProps & {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-export const Default = (props: FourColumnCtaProps): JSX.Element => {
+export const Default = (props: TwoColumnCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { sitecoreContext } = useSitecoreContext();
   const isPageEditing = sitecoreContext.pageEditing;
