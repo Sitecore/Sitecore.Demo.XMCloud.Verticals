@@ -33,7 +33,7 @@ export const Default = (props: RichTextProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="container">
-        <div className="row row-cols-2 row-cols-sm-3 row-cols-lg-5 row-gap-5 gx-5 justify-content-center">
+        <div className="row row-cols-2 row-cols-sm-3 row-cols-lg-5 row-gap-3 gx-5 justify-content-center">
           <div className="col">
             <Link field={props.fields.Link1}>
               <div className="image-container">

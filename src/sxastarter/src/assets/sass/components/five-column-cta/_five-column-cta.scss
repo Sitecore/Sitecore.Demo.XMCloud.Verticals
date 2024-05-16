@@ -6,14 +6,17 @@
   }
 
   div.row {
-    margin-right: calc(var(--bs-gutter-x) * -0.5);
-    margin-left: calc(var(--bs-gutter-x) * -0.5);
+    @include respond-to(mobile-large) {
+      margin: 0 calc(-1 * $size-padding);
+    }
   }
 
   div.col {
     text-align: center;
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
+
+    @include respond-to(mobile-large) {
+      padding: 0 $size-padding;
+    }
   }
 
   .image-container {
