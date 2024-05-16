@@ -54,18 +54,15 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
       <div className="carousel-inner">
         {props.fields.items.map((item, i) => (
           <div key={i} className={'carousel-item ' + (i == index ? 'active' : '')}>
-            <h1 className="d-md-none p-5 display-6 fw-bold">
-              <Text field={item.fields.Title}></Text>
-            </h1>
             <Image
               field={item.fields.Image}
-              className="object-fit-cover d-block w-100"
+              className="object-fit-cover d-block w-100 h-100"
               height={' '}
             ></Image>
             <div className="side-content">
               <div className="container">
-                <div className="col-lg-5 col-md-6 offset-md-6 offset-lg-7 pt-5 px-5 p-md-0">
-                  <h1 className="d-none d-md-block display-6 fw-bold">
+                <div className="col-lg-5 col-md-6 offset-md-6 offset-lg-7">
+                  <h1 className="display-6 fw-bold">
                     <Text field={item.fields.Title}></Text>
                   </h1>
                   <RichText field={item.fields.Text}></RichText>
@@ -95,7 +92,11 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
         data-bs-slide="prev"
         onClick={handlePrev}
       >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="carousel-control-prev-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+          </svg>
+        </span>
         <span className="visually-hidden">Previous</span>
       </button>
       <button
@@ -105,7 +106,11 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
         data-bs-slide="next"
         onClick={handleNext}
       >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="carousel-control-next-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </span>
         <span className="visually-hidden">Next</span>
       </button>
     </section>
