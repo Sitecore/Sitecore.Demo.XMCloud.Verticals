@@ -3,17 +3,21 @@
 .carousel {
   padding: 0;
 
+  @include media-breakpoint-down(md) {
+    background-color: var(--bg-main-alt);
+  }
+
   .carousel-indicators {
     position: absolute;
     right: 0;
-    bottom: 10px;
+    bottom: 0;
     left: 0;
     display: flex;
     justify-content: center;
     padding-left: 0; // override <ol> default
     // Use the .carousel-control's width as margin so we don't overlay those
-    margin-right: $carousel-control-width;
-    margin-left: $carousel-control-width;
+    margin-right: 3rem;
+    margin-left: 3rem;
     list-style: none;
     z-index: 0;
     cursor: pointer;
@@ -26,7 +30,8 @@
       margin-right: $carousel-indicator-spacer;
       margin-left: $carousel-indicator-spacer;
       text-indent: -999px;
-      background-color: rgba($carousel-indicator-active-bg, 0.5);
+      background-color: $carousel-indicator-active-bg;
+      opacity: 0.5;
 
       // Use pseudo classes to increase the hit area by 10px on top and bottom.
       &::before {
@@ -51,39 +56,60 @@
     }
 
     .active {
-      background-color: $carousel-indicator-active-bg;
+      opacity: 1;
     }
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 3rem;
+
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    color: $carousel-indicator-active-bg;
+    background-image: none;
   }
 
   .carousel-item {
     max-height: 41em;
+    bottom: unset;
+    text-align: left;
 
-    img {
+    @include media-breakpoint-up(md) {
+      img {
         /* stylelint-disable */
-        mask-image: linear-gradient(to left, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 1) 69%);
+        mask-image: linear-gradient(
+          to left,
+          rgba(255, 255, 255, 0.2) 10%,
+          rgba(255, 255, 255, 1) 100%
+        );
         /* stylelint-enable */
+      }
     }
 
     .side-content {
       z-index: 1;
-      padding-bottom: 2em;
+      padding: 2rem $size-padding 3rem;
 
       @include media-breakpoint-up(md) {
         position: absolute;
         width: 100%;
-        top: 35%;
-        right: 0%;
+        inset: 0;
         text-align: left;
+        display: flex;
+        align-items: center;
+        padding: 2rem 0;
       }
 
       a {
         text-decoration: none;
-        color: #fff;
       }
     }
-
-    bottom: unset;
-    text-align: left;
   }
 }
 
