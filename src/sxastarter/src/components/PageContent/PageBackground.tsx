@@ -34,7 +34,7 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
         <h1 className="display-6 fw-bold">
           <Text field={props.fields.Title}></Text>
         </h1>
-        <p>
+        <p className="fs-2">
           <Text field={props.fields.Content}></Text>
         </p>
       </div>
