@@ -1,5 +1,5 @@
 .promo-cta {
-  background-color: var(--bg-main);
+  background-color: var(--bg-main-alt);
   padding-top: $component-margin * 2;
   padding-bottom: $component-margin * 2;
 
@@ -16,9 +16,5 @@
   img {
     border-radius: var(--roundness);
     overflow: hidden;
-  }
-
-  .dark & {
-    background-color: var(--bg-body);
   }
 }

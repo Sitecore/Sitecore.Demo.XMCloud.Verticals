@@ -7,7 +7,9 @@ import {
   Text,
   Link,
   useSitecoreContext,
+  Placeholder,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentProps } from 'lib/component-props';
 
 interface Fields {
   Title1: Field<string>;
@@ -20,19 +22,19 @@ interface Fields {
   Link2: LinkField;
 }
 
-export type FourColumnCtaProps = {
+export type TwoColumnCtaProps = ComponentProps & {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-export const Default = (props: FourColumnCtaProps): JSX.Element => {
+export const Default = (props: TwoColumnCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { sitecoreContext } = useSitecoreContext();
   const isPageEditing = sitecoreContext.pageEditing;
 
   return (
     <div
-      className={`component three-column-cta pb-5 ${props.params.styles.trimEnd()}`}
+      className={`component two-column-cta pb-5 ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container">
@@ -49,6 +51,7 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
               {!isPageEditing && props.fields?.Link1?.value?.href && (
                 <Link field={props.fields.Link1} className="button button-main" />
               )}
+              <Placeholder name="col-placeholder-2" rendering={props.rendering} />
             </div>
           </div>
           <div className="col-sm-12 col-lg-6">
@@ -63,6 +66,7 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
               {!isPageEditing && props.fields?.Link2?.value?.href && (
                 <Link field={props.fields.Link2} className="button button-main" />
               )}
+              <Placeholder name="col-placeholder-2" rendering={props.rendering} />
             </div>
           </div>
         </div>

@@ -41,4 +41,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "09c02093-90ce-400e-8df5-5e133ff0cd83"
+      Value: "80fd6ca6-f6dd-433c-889c-e9034a00c068"
+    - ID: "96cffc48-0bd5-4f70-9b36-d49c844d51ef"
+      Hint: Theme
+      Value: Financial

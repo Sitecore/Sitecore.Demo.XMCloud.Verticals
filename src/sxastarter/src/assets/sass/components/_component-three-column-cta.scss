@@ -50,4 +50,37 @@
       margin-top: auto;
     }
   }
+
+  &.colored {
+    img {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    .content-wrapper {
+      background-color: var(--bg-main);
+      border-radius: var(--roundness);
+      overflow: hidden;
+      align-items: center;
+      text-align: center;
+      padding-bottom: 1em;
+    }
+
+    h2,
+    p {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .dark & {
+      .button {
+        background-color: var(--text-body);
+        color: var(--bg-body);
+
+        &:hover {
+          filter: brightness(85%);
+        }
+      }
+    }
+  }
 }

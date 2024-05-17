@@ -14,7 +14,7 @@
     span {
       @extend .d-inline-block;
 
-      color: #333;
+      color: var(--text-colored);
       text-decoration: none;
 
       &::before {
