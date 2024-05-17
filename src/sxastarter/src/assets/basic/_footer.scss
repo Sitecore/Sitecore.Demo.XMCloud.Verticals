@@ -33,15 +33,12 @@ footer {
 
       .p-svg {
         display: block;
-        max-height: 182px;
-        max-width: 218px;
         filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
           hue-rotate(288deg) brightness(102%) contrast(102%);
       }
 
       .dot-svg {
         display: block;
-        max-height: 85px;
         margin-top: 1rem;
         filter: brightness(0) saturate(100%) invert(28%) sepia(63%) saturate(4938%) hue-rotate(9deg)
           brightness(106%) contrast(108%);
