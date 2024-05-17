@@ -45,7 +45,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
 
   return (
     <div className={`component eyebrow	${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col"></div>
           <div className="col-auto">
