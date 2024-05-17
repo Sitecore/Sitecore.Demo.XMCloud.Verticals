@@ -40,7 +40,8 @@
           "publish": {
             "path": "/sitecore",
             "languages": [
-              "en"
+              "en",
+              "fr-CA"
             ],
             "itemIds": [],
             "targets": ["Edge"],
