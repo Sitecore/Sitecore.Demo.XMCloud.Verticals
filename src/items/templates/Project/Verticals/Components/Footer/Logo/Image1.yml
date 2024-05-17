@@ -1,0 +1,20 @@
+﻿---
+ID: "edf38721-e3f4-4a5f-b94b-44b9749ef0fb"
+Parent: "5d52ab88-be9c-4f11-9c3f-11ad9dd08a25"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Verticals/Components/Footer/Logo/Image1
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Image
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ae16797-53ed-4b7f-843e-44faba534560"

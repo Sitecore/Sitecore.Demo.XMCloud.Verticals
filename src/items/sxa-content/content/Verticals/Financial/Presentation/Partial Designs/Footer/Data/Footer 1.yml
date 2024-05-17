@@ -1,0 +1,13 @@
+﻿---
+ID: "8f85a815-26fe-4985-910e-da5cf14e5eeb"
+Parent: "e9e1dd13-15f8-47fd-8f02-29bb043faf57"
+Template: "947db8f8-dc76-453f-aca1-a27babfe633b"
+Path: /sitecore/content/Verticals/Financial/Presentation/Partial Designs/Footer/Data/Footer 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "63aea611-e716-498f-9ec2-5491d1dbf484"
