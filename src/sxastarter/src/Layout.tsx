@@ -26,7 +26,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
-  const contextSiteClass = `site-${layoutData.sitecore.context.site?.name?.toLowerCase()}`;
+  const theme = layoutData.sitecore.context.theme as string;
+  const contextSiteClass = `site-${theme?.toLowerCase()}`;
 
   return (
     <>

@@ -44,6 +44,10 @@
             {
                 "name": "enable-language-fallback-default",
                 "path": "/sitecore/templates/System/Templates/Sections/Advanced/Advanced/__Enable item fallback"
+            },
+            {
+                "name": "added-site-theme-field-to-sxa",
+                "path": "/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/Theme"
             }
         ]
     }
