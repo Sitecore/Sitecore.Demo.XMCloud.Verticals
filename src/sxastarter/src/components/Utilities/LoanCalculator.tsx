@@ -5,7 +5,6 @@ interface Fields {
   BankFee: Field<number>;
   Currency: Field<string>;
   InterestRate: Field<number>;
-  InverseCurrency: Field<number>;
   MaxAmount: Field<number>;
   MaxTerm: Field<number>;
   MinAmount: Field<number>;
