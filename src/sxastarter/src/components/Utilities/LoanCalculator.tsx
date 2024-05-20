@@ -1,8 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
+import React, { useState, useEffect, ReactNode } from 'react';
+import { Field, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  Text: Field<string>;
+  BankFee: Field<number>;
+  Currency: Field<string>;
+  InterestRate: Field<number>;
+  InverseCurrency: Field<number>;
+  MaxAmount: Field<number>;
+  MaxTerm: Field<number>;
+  MinAmount: Field<number>;
+  MinTerm: Field<number>;
+  TermName: Field<string>;
 }
 
 export type LoanCalculatorProps = {
@@ -10,7 +18,7 @@ export type LoanCalculatorProps = {
   fields: Fields;
 };
 
-const ResultLine = ({ left, right }: { left: string; right: string }) => {
+const ResultLine = ({ left, right }: { left: ReactNode; right: ReactNode }) => {
   return (
     <div className="row align-items-center justify-content-between">
       <div className="col-auto">
@@ -24,32 +32,24 @@ const ResultLine = ({ left, right }: { left: string; right: string }) => {
 };
 
 export const Default = (props: LoanCalculatorProps): JSX.Element => {
+  console.log(props.fields);
   const id = props.params.RenderingIdentifier;
 
-  const MOCK_DATA = {
-    minAmount: 1000,
-    maxAmount: 80000,
-    minTerm: 12,
-    maxTerm: 120,
-    interestRate: 6.95,
-    bankFee: 499.99,
-    currency: 'euro',
-    termType: 'mo.',
-  };
-
   const [loanAmount, setLoanAmount] = useState(
-    Math.round((MOCK_DATA.minAmount + MOCK_DATA.maxAmount) / 2)
+    Math.round((props.fields.MinAmount.value + props.fields.MaxAmount.value) / 2)
   );
-  const [loanTerm, setLoanTerm] = useState(Math.round((MOCK_DATA.minTerm + MOCK_DATA.maxTerm) / 2));
+  const [loanTerm, setLoanTerm] = useState(
+    Math.round((props.fields.MinTerm.value + props.fields.MaxTerm.value) / 2)
+  );
   const [monthlyPayment, setMonthlyPayment] = useState(0);
   const [totalDebt, setTotalDebt] = useState(0);
   const [apr, setApr] = useState(0);
 
   useEffect(() => {
-    const monthlyInterestRate = MOCK_DATA.interestRate / 100 / 12;
+    const monthlyInterestRate = props.fields.InterestRate.value / 100 / 12;
 
     const totalDebtCalculation =
-      loanAmount * (1 + monthlyInterestRate * loanTerm) + MOCK_DATA.bankFee;
+      loanAmount * (1 + monthlyInterestRate * loanTerm) + props.fields.BankFee.value;
     setTotalDebt(totalDebtCalculation);
 
     const monthlyPaymentCalculation = totalDebtCalculation / loanTerm;
@@ -58,7 +58,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
     const aprCalculation =
       ((totalDebtCalculation - loanAmount) / loanAmount / (loanTerm * 30.4)) * 365 * 100;
     setApr(parseFloat(aprCalculation.toFixed(2)));
-  }, [loanAmount, loanTerm, MOCK_DATA.interestRate, MOCK_DATA.bankFee]);
+  }, [loanAmount, loanTerm, props.fields.InterestRate.value, props.fields.BankFee.value]);
 
   return (
     <div
@@ -85,12 +85,14 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                 type="number"
                 id="loan-amount"
                 name="loan-amount"
-                min={MOCK_DATA.minAmount}
-                max={MOCK_DATA.maxAmount}
+                min={props.fields.MinAmount.value}
+                max={props.fields.MaxAmount.value}
                 value={loanAmount}
                 onChange={(e) => setLoanAmount(parseInt(e.target.value))}
               />
-              <span className="fw-bold">{MOCK_DATA.currency}</span>
+              <span className="fw-bold">
+                <Text field={props.fields.Currency} />
+              </span>
             </div>
           </div>
         </div>
@@ -101,14 +103,14 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                 type="range"
                 id="loan-amount-range"
                 name="loan-amount-range"
-                min={MOCK_DATA.minAmount}
-                max={MOCK_DATA.maxAmount}
+                min={props.fields.MinAmount.value}
+                max={props.fields.MaxAmount.value}
                 value={loanAmount}
                 onChange={(e) => setLoanAmount(parseInt(e.target.value))}
                 style={{
                   backgroundSize: `${
-                    ((loanAmount - MOCK_DATA.minAmount) * 100) /
-                    (MOCK_DATA.maxAmount - MOCK_DATA.minAmount)
+                    ((loanAmount - props.fields.MinAmount.value) * 100) /
+                    (props.fields.MaxAmount.value - props.fields.MinAmount.value)
                   }% 100%`,
                 }}
               />
@@ -118,12 +120,12 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
         <div className="row justify-content-between">
           <div className="col-auto">
             <span>
-              {MOCK_DATA.minAmount} {MOCK_DATA.currency}
+              <Text field={props.fields.MinAmount} /> <Text field={props.fields.Currency} />
             </span>
           </div>
           <div className="col-auto">
             <span>
-              {MOCK_DATA.maxAmount} {MOCK_DATA.currency}
+              <Text field={props.fields.MaxAmount} /> <Text field={props.fields.Currency} />
             </span>
           </div>
         </div>
@@ -149,12 +151,14 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                 type="number"
                 id="loan-term"
                 name="loan-term"
-                min={MOCK_DATA.minTerm}
-                max={MOCK_DATA.maxTerm}
+                min={props.fields.MinTerm.value}
+                max={props.fields.MaxTerm.value}
                 value={loanTerm}
                 onChange={(e) => setLoanTerm(parseInt(e.target.value))}
               />
-              <span className="fw-bold">{MOCK_DATA.termType}</span>
+              <span className="fw-bold">
+                <Text field={props.fields.TermName} />
+              </span>
             </div>
           </div>
         </div>
@@ -165,13 +169,14 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                 type="range"
                 id="loan-term-range"
                 name="loan-term-range"
-                min={MOCK_DATA.minTerm}
-                max={MOCK_DATA.maxTerm}
+                min={props.fields.MinTerm.value}
+                max={props.fields.MaxTerm.value}
                 value={loanTerm}
                 onChange={(e) => setLoanTerm(parseInt(e.target.value))}
                 style={{
                   backgroundSize: `${
-                    ((loanTerm - MOCK_DATA.minTerm) * 100) / (MOCK_DATA.maxTerm - MOCK_DATA.minTerm)
+                    ((loanTerm - props.fields.MinTerm.value) * 100) /
+                    (props.fields.MaxTerm.value - props.fields.MinTerm.value)
                   }% 100%`,
                 }}
               />
@@ -181,12 +186,12 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
         <div className="row justify-content-between">
           <div className="col-auto">
             <span>
-              {MOCK_DATA.minTerm} {MOCK_DATA.termType}
+              <Text field={props.fields.MinTerm} /> <Text field={props.fields.TermName} />
             </span>
           </div>
           <div className="col-auto">
             <span>
-              {MOCK_DATA.maxTerm} {MOCK_DATA.termType}
+              <Text field={props.fields.MaxTerm} /> <Text field={props.fields.TermName} />
             </span>
           </div>
         </div>
@@ -196,13 +201,38 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
         <div className="loan-calculator-monthly-payment">
           <ResultLine
             left="Monthly payment"
-            right={`${monthlyPayment.toFixed(2)} ${MOCK_DATA.currency}`}
+            right={
+              <>
+                {monthlyPayment.toFixed(2)} <Text field={props.fields.Currency} />
+              </>
+            }
           />
         </div>
-        <ResultLine left="Interest rate" right={`${MOCK_DATA.interestRate}%`} />
-        <ResultLine left="Bank package fee" right={`${MOCK_DATA.bankFee} ${MOCK_DATA.currency}`} />
+        <ResultLine
+          left="Interest rate"
+          right={
+            <>
+              <Text field={props.fields.InterestRate} />%
+            </>
+          }
+        />
+        <ResultLine
+          left="Bank package fee"
+          right={
+            <>
+              <Text field={props.fields.BankFee} /> <Text field={props.fields.Currency} />
+            </>
+          }
+        />
         <ResultLine left="APR%" right={`${apr}%`} />
-        <ResultLine left="Total debt" right={`${totalDebt.toFixed(2)} ${MOCK_DATA.currency}`} />
+        <ResultLine
+          left="Total debt"
+          right={
+            <>
+              {totalDebt.toFixed(2)} <Text field={props.fields.Currency} />
+            </>
+          }
+        />
       </div>
     </div>
   );

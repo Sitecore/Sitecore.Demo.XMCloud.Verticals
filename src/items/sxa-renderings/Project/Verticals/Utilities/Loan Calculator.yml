@@ -12,7 +12,7 @@ SharedFields:
   Value: "Apps/32x32/Cash-Register.png"
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: 
+  Value: /sitecore/templates/Project/Verticals/Components/Loan Calculator
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -24,7 +24,7 @@ SharedFields:
   Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: 
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Loan Calculator']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Loan Calculator']"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 400
@@ -56,7 +56,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "707a6e75-ee60-4216-bb84-7fc4d6412e88"
+      Value: "9af8e3a1-6036-4a72-9da1-ad2f53398de4"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
