@@ -7,6 +7,11 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: TwoColumnCta
+- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
+  Hint: Placeholders
+  Value: |
+    {0F881398-2A8E-4651-94FF-3B6D374BF674}
+    {710850E7-D2EE-4740-9F33-3F233ACDE526}
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Apps/32x32/Portfolio.png
@@ -53,7 +58,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5eb60273-486c-47ba-a3da-6ffad2fee083"
+      Value: "be4922b7-ccc2-406a-bb69-751fecd93d7d"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

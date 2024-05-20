@@ -51,7 +51,7 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
               {!isPageEditing && props.fields?.Link1?.value?.href && (
                 <Link field={props.fields.Link1} className="button button-main" />
               )}
-              <Placeholder name="col-placeholder-2" rendering={props.rendering} />
+              <Placeholder name="two-col-placeholder-left" rendering={props.rendering} />
             </div>
           </div>
           <div className="col-sm-12 col-lg-6">
@@ -66,7 +66,7 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
               {!isPageEditing && props.fields?.Link2?.value?.href && (
                 <Link field={props.fields.Link2} className="button button-main" />
               )}
-              <Placeholder name="col-placeholder-2" rendering={props.rendering} />
+              <Placeholder name="two-col-placeholder-right" rendering={props.rendering} />
             </div>
           </div>
         </div>
