@@ -112,21 +112,19 @@
     font-size: 1.25rem;
     background-color: var(--calc-bg-box);
     border-radius: var(--roundness);
-    padding: 0 1rem 1rem;
+    padding: 2rem 1rem 1rem;
+    clip-path: polygon(
+      0 0,
+      calc(50% - 20px) 0,
+      50% 20px,
+      calc(50% + 20px) 0,
+      100% 0,
+      100% 100%,
+      0 100%
+    );
 
     > .row {
       align-self: stretch;
-    }
-
-    &::before {
-      content: '';
-      display: inline-block;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 0 18px 20px;
-      border-color: transparent transparent var(--calc-bg-main);
-      transform: rotate(180deg);
     }
 
     .fw-bold {
