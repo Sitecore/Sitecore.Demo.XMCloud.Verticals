@@ -1,0 +1,13 @@
+﻿---
+ID: "b259f9f6-4d08-40ed-9ea0-feeed355e3ab"
+Parent: "5a737b43-b61a-431b-965e-29f28fc81962"
+Template: "32f00428-21ac-4dc0-aa2b-f2e31ca3e97e"
+Path: "/sitecore/content/Verticals/Financial/Home/get-a-loan/Data/Comparison Amount"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "746c8f2b-1204-4143-8382-9e0f777cbbb5"
