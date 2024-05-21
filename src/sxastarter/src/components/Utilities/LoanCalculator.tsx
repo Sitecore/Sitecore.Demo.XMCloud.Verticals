@@ -108,8 +108,12 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                 onChange={(e) => setLoanAmount(parseInt(e.target.value))}
                 style={{
                   backgroundSize: `${
-                    ((loanAmount - props.fields.MinAmount.value) * 100) /
-                    (props.fields.MaxAmount.value - props.fields.MinAmount.value)
+                    loanAmount < props.fields.MinAmount.value
+                      ? '0'
+                      : loanAmount > props.fields.MaxAmount.value
+                      ? '100'
+                      : ((loanAmount - props.fields.MinAmount.value) * 100) /
+                        (props.fields.MaxAmount.value - props.fields.MinAmount.value)
                   }% 100%`,
                 }}
               />
@@ -174,8 +178,12 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                 onChange={(e) => setLoanTerm(parseInt(e.target.value))}
                 style={{
                   backgroundSize: `${
-                    ((loanTerm - props.fields.MinTerm.value) * 100) /
-                    (props.fields.MaxTerm.value - props.fields.MinTerm.value)
+                    loanTerm < props.fields.MinTerm.value
+                      ? '0'
+                      : loanTerm > props.fields.MaxTerm.value
+                      ? '100'
+                      : ((loanTerm - props.fields.MinTerm.value) * 100) /
+                        (props.fields.MaxTerm.value - props.fields.MinTerm.value)
                   }% 100%`,
                 }}
               />
