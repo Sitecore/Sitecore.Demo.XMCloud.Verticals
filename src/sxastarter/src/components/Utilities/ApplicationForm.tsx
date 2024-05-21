@@ -32,37 +32,39 @@ export const Default = (props: ApplicationFormProps): JSX.Element => {
       className={`component application-form ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
-      <div className="container">
-        <div className="title">
-          <Text field={props.fields?.Title} />
+      <div className="application-form-inner">
+        <div className="container">
+          <div className="title">
+            <Text field={props.fields?.Title} />
+          </div>
+          <div className="subtitle">
+            <RichText field={props.fields?.Subtitle} />
+          </div>
+          <input
+            className="input-field"
+            defaultValue={props.fields?.FullName?.value}
+            placeholder="First and Last name"
+          />
+          <input
+            className="input-field"
+            defaultValue={props.fields?.IDNumber?.value}
+            placeholder="ID number"
+          />
+          <input
+            className="input-field"
+            defaultValue={props.fields?.Email?.value}
+            placeholder="Email"
+          />
+          <input
+            className="input-field"
+            defaultValue={props.fields?.MobileNumber?.value}
+            placeholder="Mobile number"
+          />
+          <div className="footnote">
+            <RichText field={props.fields?.Footnote} />
+          </div>
+          <Link field={props.fields.SubmitButton} className="button button-main submit-button" />
         </div>
-        <div className="subtitle">
-          <RichText field={props.fields?.Subtitle} />
-        </div>
-        <input
-          className="input-field"
-          defaultValue={props.fields?.FullName?.value}
-          placeholder="First and Last name"
-        />
-        <input
-          className="input-field"
-          defaultValue={props.fields?.IDNumber?.value}
-          placeholder="ID number"
-        />
-        <input
-          className="input-field"
-          defaultValue={props.fields?.Email?.value}
-          placeholder="Email"
-        />
-        <input
-          className="input-field"
-          defaultValue={props.fields?.MobileNumber?.value}
-          placeholder="Mobile number"
-        />
-        <div className="footnote">
-          <RichText field={props.fields?.Footnote} />
-        </div>
-        <Link field={props.fields.SubmitButton} className="button button-main submit-button" />
       </div>
     </div>
   );
