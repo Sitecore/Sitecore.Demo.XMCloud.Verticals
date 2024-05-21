@@ -18,10 +18,10 @@ Languages:
         <image mediaid="{F64C8C16-8C71-44E1-A658-B3070574B89E}" />
     - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
       Hint: Title1
-      Value: Amount
+      Value: 
     - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
       Hint: Title2
-      Value: Duration
+      Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "38217926-14c9-489d-af91-e0ba72ae3e14"
+      Value: "73fac625-6b8c-4beb-81f8-48c0d5d3023a"
