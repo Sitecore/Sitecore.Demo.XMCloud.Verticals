@@ -82,6 +82,7 @@
 
     @include media-breakpoint-up(md) {
       img {
+        min-height: 25rem;
         /* stylelint-disable */
         mask-image: linear-gradient(
           to left,
