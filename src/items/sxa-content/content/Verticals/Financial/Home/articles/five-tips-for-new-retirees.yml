@@ -1,0 +1,69 @@
+﻿---
+ID: "f48cfb42-d442-489f-8d2e-31927382366b"
+Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: "/sitecore/content/Verticals/Financial/Home/articles/five-tips-for-new-retirees"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 5 tips for new retirees
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>Retirement marks the beginning of a new chapter in life&mdash;one filled with freedom, opportunities, and new adventures. As you embark on this exciting journey, it's important to be prepared and equipped with the knowledge and resources to make the most of your retirement years.
+        </p>
+        <p><strong>1. Financial Planning</strong>
+        </p>
+        <p>One of the first steps in preparing for retirement is to create a comprehensive financial plan. Evaluate your retirement savings, investments, and sources of income, and determine a budget that aligns with your lifestyle and goals. Consider consulting with a financial advisor to ensure that your retirement plan is robust and sustainable for the long term.</p>
+        <p>
+        <strong>2. Health Care Coverage</strong>
+        </p>
+        <p>Health care costs can be a significant expense in retirement, so it's essential to understand your health care coverage options. If you're eligible for Medicare, familiarize yourself with the different parts and coverage options available to you. Consider supplemental insurance plans to fill any gaps in coverage and protect yourself against unexpected medical expenses.</p>
+        <p><strong>3. Social Security Benefits</strong></p>
+        <p>Make sure you understand how Social Security benefits work and when is the best time to start claiming them. While you can begin receiving benefits as early as age 62, delaying retirement can increase your monthly benefit amount. Consider your financial situation and retirement goals carefully before making a decision about when to start claiming Social Security.</p>
+        <p>
+        <strong>4. Lifestyle Adjustments</strong></p>
+        <p>Retirement often involves significant lifestyle changes, both in terms of how you spend your time and how you manage your finances. Take the time to assess your priorities, interests, and goals for retirement, and adjust your lifestyle accordingly. Explore new hobbies, travel opportunities, and ways to stay active and engaged in your community.</p>
+        <p>
+        <strong>5. Estate Planning</strong></p>
+        <p>Estate planning is an essential aspect of retirement planning that many people overlook. Review your estate plan, including your will, trusts, and powers of attorney, to ensure that your wishes are documented and your assets are protected. Consider updating your beneficiaries and designating someone to make financial and medical decisions on your behalf if necessary.</p>
+        <p>
+        <strong>Conclusion</strong></p>
+        <p>Retirement is an exciting milestone that offers the opportunity to embrace new experiences and enjoy the fruits of your labor. By taking the time to plan and prepare for retirement, you can ensure a smooth transition and set yourself up for a fulfilling and financially secure future. Remember to stay informed, stay engaged, and make the most of every moment as you embark on this new chapter of your life.
+        </p>
+        <p><strong><em>Are you ready to start your retirement journey? Contact us today to learn more about how we can help you plan for a successful retirement.</em></strong></p>
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: Whether you're just starting to plan for retirement or have recently retired, here are some essential tips to help you navigate this transition with confidence and peace of mind.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 5 tips for new retirees
+    - ID: "763ba4d3-0fdf-40cb-bb42-8c415556f14e"
+      Hint: Name
+      Value: Shaun Stopka
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c6f89d49-ee40-49be-a955-9e9eda047159"
+    - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{150A83BB-D038-4CEE-B893-C07B68BA1D8B}" alt="Woman looking at paper - background image" height="" width="" hspace="" vspace="" />
+    - ID: "af557208-36e5-49e6-9382-5a3afd0df089"
+      Hint: Position
+      Value: Lorem Ipsum
+    - ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+      Hint: Thumbnail
+      Value: |
+        <image mediaid="{ED89F2D3-E214-499F-9EFE-26A24D0792D3}" alt="People sitting on a bench" height="" width="" hspace="" vspace="" />
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "Starting your retirement journey: 5 tips for new retirees"

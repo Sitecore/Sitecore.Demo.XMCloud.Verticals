@@ -2,8 +2,11 @@
 ID: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Parent: "b2a38fb8-2e85-4d58-afe5-c12beccbee3a"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
-Path: /sitecore/content/Verticals/Financial/Home/Vision
+Path: /sitecore/content/Verticals/Financial/Home/articles
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{F83CCEFD-FC41-4A60-9882-8F7EA5CF41A8}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 600
@@ -42,6 +45,10 @@ SharedFields:
     </r>
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Articles
   Versions:
   - Version: 1
     Fields:
@@ -66,13 +73,13 @@ Languages:
         </r>
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
       Hint: Title
-      Value: Vision
+      Value: Articles
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Vision
+      Value: Articles
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b4b54d32-68dd-4bd0-b9bb-b0df93c29b6f"
+      Value: "3d74720b-2810-4b28-a00f-7dc1d58e24f8"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |

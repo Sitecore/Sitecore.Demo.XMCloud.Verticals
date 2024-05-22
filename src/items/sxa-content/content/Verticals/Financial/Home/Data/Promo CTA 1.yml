@@ -10,17 +10,17 @@ Languages:
     Fields:
     - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
       Hint: Title
-      Value: Closing the Racial Wealth Gap
+      Value: Closing the wealth gap
     - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
       Hint: Link
       Value: |
-        <link text="Learn More" linktype="external" url="http://www.sitecore.com" anchor="" target="_blank" />
+        <link text="Learn more" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FB9B938E-DF02-46E7-9354-613D29E0B4AC}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "53223972-32c9-4a3a-8618-36823d0726de"
+      Value: "a12022aa-88e0-4cce-8a94-a5b40c31f2dd"
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
-      Value: These are some keys to help create equitable pathways to income growth.
+      Value: Actionable advice to help create equitable pathways for income growth.
     - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
       Hint: Image
       Value: |

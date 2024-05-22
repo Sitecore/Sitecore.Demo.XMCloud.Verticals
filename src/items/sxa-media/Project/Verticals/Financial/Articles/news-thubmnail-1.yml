@@ -1,8 +1,8 @@
 ﻿---
 ID: "32909cab-5f82-4428-a428-df531e7776dd"
-Parent: "66cc7dbc-efea-46b5-8e9e-97ca56f1fd02"
+Parent: "23e0641c-4178-456e-8123-930de612c703"
 Template: "daf085e8-602e-43a6-8299-038ff171349f"
-Path: "/sitecore/media library/Project/Verticals/Financial/Mockups/news-thubmnail-1"
+Path: "/sitecore/media library/Project/Verticals/Financial/Articles/news-thubmnail-1"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon

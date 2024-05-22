@@ -2,7 +2,7 @@
 ID: "cb650438-a279-422f-bef7-04c2d32e9e3b"
 Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
-Path: "/sitecore/content/Verticals/Financial/Home/Vision/play-finance-first-half-results-2024"
+Path: "/sitecore/content/Verticals/Financial/Home/articles/play-finance-first-half-results-2024"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
