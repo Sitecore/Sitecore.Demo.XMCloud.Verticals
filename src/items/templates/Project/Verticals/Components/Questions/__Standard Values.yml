@@ -4,6 +4,9 @@ Parent: "fae81bf9-1117-4f97-9133-00e752f41772"
 Template: "fae81bf9-1117-4f97-9133-00e752f41772"
 Path: /sitecore/templates/Project/Verticals/Components/Questions/__Standard Values
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{2DC7A13E-6753-47EF-805A-1CDE39012EEC}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
@@ -14,4 +17,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c77a0d7c-9ebb-44f1-becc-455586ae53c0"
+      Value: "f0a618f7-9c93-46dd-abba-751d1a8221ad"

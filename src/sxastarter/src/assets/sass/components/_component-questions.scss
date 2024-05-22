@@ -1,0 +1,29 @@
+.questions {
+  .question-item {
+    margin-bottom: 1em;
+  }
+
+  button {
+    appearance: none;
+    border: none;
+    background-color: unset;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    text-align: left;
+    color: var(--text-colored);
+
+    svg {
+      flex-shrink: 0;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    &.expanded {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

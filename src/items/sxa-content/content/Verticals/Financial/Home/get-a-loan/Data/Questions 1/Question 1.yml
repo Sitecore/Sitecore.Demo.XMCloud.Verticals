@@ -1,0 +1,19 @@
+﻿---
+ID: "2f527452-aa79-4c1e-ac77-64680c45ac94"
+Parent: "1df23e4f-432f-4aff-863b-4d1d7e3925fd"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: "/sitecore/content/Verticals/Financial/Home/get-a-loan/Data/Questions 1/Question 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a3aad80-bf19-4e3b-97b2-89c9ece7b802"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "What types of loans do you offer?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: We offer a variety of loans to suit your needs, including personal loans, business loans, car loans, home loans, and more. Whether you need funds for personal expenses or business ventures, we have options available.
