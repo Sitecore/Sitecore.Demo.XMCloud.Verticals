@@ -10,6 +10,12 @@
         "runCommand": "next:start"
       }
     },
+    "transforms": [
+        {
+            "xdtPath": "/xdts/",
+            "targetPath": "/"
+        }
+    ],
     "deployItems": {
       "modules": [
         "renderinghost",
