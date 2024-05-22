@@ -37,6 +37,10 @@
                 "scope": "descendantsOnly"
             },
             {
+                "name": "cmp-config",
+                "path": "/sitecore/system/Modules/CMP/Config"
+            },
+            {
                 "name": "branches",
                 "path": "/sitecore/templates/Branches/Project",
                 "scope": "descendantsOnly"
