@@ -36,10 +36,6 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
 
       <div className="container">
         <Placeholder name="page-navigation" rendering={props.rendering} />
-
-        <h1 className="display-6 fw-bold">
-          <Text field={props.fields.Title}></Text>
-        </h1>
       </div>
 
       <div>
