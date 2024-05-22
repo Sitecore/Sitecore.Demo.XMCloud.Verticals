@@ -1,8 +1,8 @@
 ﻿---
 ID: "7c9add95-cf1d-4db0-823f-c00e876b03ed"
-Parent: "66cc7dbc-efea-46b5-8e9e-97ca56f1fd02"
+Parent: "23e0641c-4178-456e-8123-930de612c703"
 Template: "daf085e8-602e-43a6-8299-038ff171349f"
-Path: "/sitecore/media library/Project/Verticals/Financial/Mockups/news-thumbnail-2"
+Path: "/sitecore/media library/Project/Verticals/Financial/Articles/news-thumbnail-2"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -36,7 +36,7 @@ Languages:
     Fields:
     - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
       Hint: Alt
-      Value: Document
+      Value: People looking at paper document
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4a23a2cb-c510-4d0c-9d45-da7b74f76763"
+      Value: "a7fc9d66-db79-4371-8425-e2767f0f464b"

@@ -1,0 +1,70 @@
+﻿---
+ID: "bfcff490-4d41-4b86-907b-7760788d38e6"
+Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: "/sitecore/content/Verticals/Financial/Home/articles/important-announcement-play-finance-client"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: An important announcement for our clients
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>PLAY! Finance, a leading provider of cutting-edge financial services, is pleased to share an exciting update with its valued clients.
+        <br />
+        <br />
+        Arthur Spannos, CEO at PLAY! Finance, expressed, "<strong><em>We're thrilled to announce a significant milestone in our ongoing commitment to empowering our clients to achieve financial wellness.</em></strong>"
+        Key highlights of the announcement include:</p>
+        <ul>
+            <li>
+            <strong>Enhanced User Experience:</strong> Introducing new features and improvements to streamline the user experience and make managing finances even more intuitive and convenient.</li>
+            <li><strong>Expanded Product Offerings:</strong> Introducing new financial products and services to address the evolving needs of our clients and provide them with even more ways to achieve their financial goals.</li>
+            <li><strong>Continued Focus on Security:</strong> Maintaining the highest standards of security and privacy to ensure that our clients can trust us with their sensitive financial information.</li>
+            <li><strong>Commitment to Customer Satisfaction:</strong> Redoubling our efforts to provide exceptional customer service and support, ensuring that our clients receive the assistance they need, whenever they need it.</li>
+        </ul>
+        <p>"<strong><em>We're dedicated to our clients' success, and this announcement represents our ongoing commitment to delivering innovative solutions that empower them to take control of their financial futures</em></strong>.", added Arthur Spannos.</p>
+        <p>For more information about these exciting updates and how they will benefit PLAY! Finance clients, visit the PLAY! Finance website or your local branch.</p>
+        <p><strong>About PLAY! Finance</strong><br />
+        PLAY! Finance is a leading provider of innovative financial solutions, dedicated to empowering individuals to achieve financial wellness. Through advanced technology and personalized tools, PLAY! Finance is redefining the way consumers engage with their finances, making financial management accessible, engaging, and rewarding for all.</p>
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "PLAY! Finance announces a series of enhancements and expansions aimed at optimizing the client experience and furthering financial empowerment."
+    - ID: "461b3c7a-eb09-496b-a2f2-73d44aba3bdb"
+      Hint: Photo
+      Value: |
+        <image mediaid="{8C1F5F3B-03CA-4E40-94DB-96CA50A2D186}" />
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: An important announcement for our clients
+    - ID: "763ba4d3-0fdf-40cb-bb42-8c415556f14e"
+      Hint: Name
+      Value: Jane Doe
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32c22afe-ba7f-4c92-810d-6f000c439ede"
+    - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{150A83BB-D038-4CEE-B893-C07B68BA1D8B}" alt="Woman looking at paper - background image" height="" width="" hspace="" vspace="" />
+    - ID: "af557208-36e5-49e6-9382-5a3afd0df089"
+      Hint: Position
+      Value: Assistant placeholder
+    - ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+      Hint: Thumbnail
+      Value: |
+        <image mediaid="{7C9ADD95-CF1D-4DB0-823F-C00E876B03ED}" />
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: An important announcement for our clients
