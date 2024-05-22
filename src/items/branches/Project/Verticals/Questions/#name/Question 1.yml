@@ -1,0 +1,13 @@
+﻿---
+ID: "fe577ad4-c2f1-4056-91a9-c864c8d2199d"
+Parent: "c018cf92-1701-4c31-b9bb-a6b245852225"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: /sitecore/templates/Branches/Project/Verticals/Questions/$name/Question 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "310da470-7c9a-41cf-a740-303ffc519bc5"
