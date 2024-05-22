@@ -1,8 +1,8 @@
 ﻿---
 ID: "aeb23d9e-cc27-44a9-9fde-df58f8c10fb8"
-Parent: "66cc7dbc-efea-46b5-8e9e-97ca56f1fd02"
+Parent: "23e0641c-4178-456e-8123-930de612c703"
 Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
-Path: "/sitecore/media library/Project/Verticals/Financial/Mockups/map-world-with-money-magnifying-glass"
+Path: "/sitecore/media library/Project/Verticals/Financial/Articles/article-solutions"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -36,7 +36,7 @@ Languages:
     Fields:
     - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
       Hint: Alt
-      Value: "map-world-with-money-magnifying-glass"
+      Value: World map with magnifying glass
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6a2ad641-45b4-42fc-8d7b-309faa76451a"
+      Value: "ccebaeb4-1702-4fcc-8988-da309d4828c1"
