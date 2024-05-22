@@ -1,0 +1,19 @@
+﻿---
+ID: "df0160a8-eeb8-49f2-9ff8-8b090f6ac0ed"
+Parent: "1df23e4f-432f-4aff-863b-4d1d7e3925fd"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: "/sitecore/content/Verticals/Financial/Home/get-a-loan/Data/Questions 1/Question 4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "981d296a-dc24-421d-9abe-8720c529ec4f"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "How much can I borrow?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Loan amounts vary depending on factors such as your creditworthiness, income, and the type of loan you're applying for. During the application process, you'll have the opportunity to specify the amount you need, and we'll work with you to determine the appropriate loan amount.
