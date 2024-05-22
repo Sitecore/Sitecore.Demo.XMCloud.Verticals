@@ -42,7 +42,7 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
             <div className="fs-5">
               <RichText field={props.fields.Text} />
 
-              {!isPageEditing && props.fields?.Link?.value?.href && (
+              {(isPageEditing || props.fields?.Link?.value?.href) && (
                 <Link field={props.fields.Link} className="button button-main mt-3" />
               )}
             </div>

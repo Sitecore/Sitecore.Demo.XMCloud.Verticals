@@ -50,7 +50,7 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
               <p>
                 <Text field={props.fields.SubText1} />
               </p>
-              {!isPageEditing && props.fields?.Link1?.value?.href && (
+              {(isPageEditing || props.fields?.Link1?.value?.href) && (
                 <Link field={props.fields.Link1} className="button button-main" />
               )}
             </div>
@@ -64,7 +64,7 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
               <p>
                 <Text field={props.fields.SubText2} />
               </p>
-              {!isPageEditing && props.fields?.Link1?.value?.href && (
+              {(isPageEditing || props.fields?.Link1?.value?.href) && (
                 <Link field={props.fields.Link2} className="button button-main" />
               )}
             </div>
@@ -78,7 +78,7 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
               <p>
                 <Text field={props.fields.SubText3} />
               </p>
-              {!isPageEditing && props.fields?.Link1?.value?.href && (
+              {(isPageEditing || props.fields?.Link1?.value?.href) && (
                 <Link field={props.fields.Link3} className="button button-main" />
               )}
             </div>
