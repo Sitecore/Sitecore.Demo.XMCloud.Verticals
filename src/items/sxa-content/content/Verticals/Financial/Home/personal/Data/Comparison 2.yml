@@ -1,8 +1,8 @@
 ﻿---
-ID: "848422d4-8962-4404-a7bc-e6c637cc3d95"
+ID: "c1b10ea1-5302-400f-8444-ae18981fc289"
 Parent: "3064b748-c9ff-49c9-84f4-b97c856f794a"
 Template: "32f00428-21ac-4dc0-aa2b-f2e31ca3e97e"
-Path: "/sitecore/content/Verticals/Financial/Home/finance-for-you/Data/Comparison 1"
+Path: /sitecore/content/Verticals/Financial/Home/personal/Data/Comparison 2
 Languages:
 - Language: en
   Versions:
@@ -10,4 +10,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ded4ec71-4daf-41ab-b81a-d131fe3418a4"
+      Value: "bbe9213d-078e-4b57-9b6c-be9bbf1eb43d"

@@ -7,21 +7,6 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
-- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
-  Hint: __Renderings
-  Value: |
-    <r xmlns:p="p" xmlns:s="s"
-      p:p="1">
-      <d
-        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-        <r
-          uid="{CA5B2973-454C-4C53-B91D-1A0CDD363DB0}"
-          s:ds="50f7c322-1c9f-4f58-a93b-2157be20bf50"
-          s:id="{9D7DE58D-9DA4-43D8-8371-3C728A582ADC}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-          s:ph="/headless-main/sxa-article-content/article-meta-0-1" />
-      </d>
-    </r>
 Languages:
 - Language: en
   Fields:
@@ -64,7 +49,7 @@ Languages:
       Value: "Introducing MOBILE! Finance"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a628d2eb-15c5-46d6-abd8-42e56bf5fd79"
+      Value: "8cf7619b-7dd2-4654-93ae-5bf71b63d1c9"
     - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
       Hint: BackgroundImage
       Value: |

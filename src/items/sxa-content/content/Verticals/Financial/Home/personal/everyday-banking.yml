@@ -2,23 +2,30 @@
 ID: "944b4714-233c-4bc7-8e24-604e758c0f85"
 Parent: "406fd98c-50e4-4f30-90e4-6245498a2d10"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
-Path: "/sitecore/content/Verticals/Financial/Home/finance-for-you/Subpage1"
+Path: "/sitecore/content/Verticals/Financial/Home/personal/everyday-banking"
 SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
     <image mediaid="{05E4C49F-19BC-42DE-BBFF-091D77C4B0B3}" />
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Everyday banking
   Versions:
   - Version: 1
     Fields:
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
       Hint: Title
-      Value: Subpage1
+      Value: Everyday banking
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Subpage1
+      Value: Everyday banking
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88f75153-7c99-4e13-be99-6d997ce8fd2b"
+      Value: "ccadc43f-c2d7-4ee5-a8a0-8418ced80c85"

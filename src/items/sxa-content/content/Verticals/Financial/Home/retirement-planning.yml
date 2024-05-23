@@ -2,7 +2,7 @@
 ID: "524f5cd2-4fb9-437d-b733-cf5861b8ced3"
 Parent: "b2a38fb8-2e85-4d58-afe5-c12beccbee3a"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
-Path: "/sitecore/content/Verticals/Financial/Home/finance-for-retirement"
+Path: "/sitecore/content/Verticals/Financial/Home/retirement-planning"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
@@ -38,7 +38,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Finance for retirement
+    Value: Retirement planning
   Versions:
   - Version: 1
     Fields:
@@ -50,13 +50,13 @@ Languages:
       Value: 
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
       Hint: Title
-      Value: Finance for retirement
+      Value: Retirement planning
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Finance for retirement
+      Value: Retirement planning
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d1b23269-286b-4ad0-8201-a035f5d6bbb8"
+      Value: "d760e708-dfc1-4061-90db-f2dec7a9c5fd"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |
