@@ -1,12 +1,12 @@
 ﻿---
-ID: "8973d2a4-2a8d-4574-9145-ca792b950bba"
+ID: "0a960855-c92c-4666-8ff8-a6ec784a6e55"
 Parent: "ed95dbf0-cd26-40c0-874d-7b6fb1b5c0ea"
 Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
-Path: /sitecore/content/Verticals/Financial/Presentation/Partial Designs/Article Content
+Path: /sitecore/content/Verticals/Financial/Presentation/Partial Designs/Author Content
 SharedFields:
 - ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
   Hint: Signature
-  Value: "article-content"
+  Value: "author-content"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -21,7 +21,7 @@ SharedFields:
         <r
           uid="{F59395FE-244D-4421-84E9-B681C40B8633}"
           p:before="*"
-          s:id="{A7343C45-4438-441E-967E-C2CB350DDA75}"
+          s:id="{F7BB574A-E5C1-4475-A07E-0EBF590CC50E}"
           s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1"
           s:ph="headless-main" />
         <r
@@ -37,9 +37,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "292e3c7c-004c-418a-881e-ebfdb76c5ae1"
+      Value: "169023b0-ee0f-40d6-81ce-76716d016425"
