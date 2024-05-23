@@ -38,7 +38,9 @@ interface ArticleListComponentProps {
 }
 
 const getNewsItems = (items: ArticleListItemProps[], numOfItems: number) => {
-  return items?.filter((item) => item.name !== 'Data').slice(0, numOfItems || undefined);
+  return items
+    ?.filter((item) => item.name !== 'Data' && item.name !== 'Authors')
+    .slice(0, numOfItems || undefined);
 };
 
 const getAllArticlesPageHref = (items: ArticleListItemProps[]) => {
