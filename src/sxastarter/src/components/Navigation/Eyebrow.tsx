@@ -9,8 +9,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
     <div className={`component eyebrow	${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
       <div className="container">
         <div className="row">
-          <div className="col"></div>
-          <div className="col-auto">
+          <div className="col col-placeholder">
             <Placeholder name="eyebrow-left" rendering={props.rendering} />
             <Placeholder name="eyebrow-right" rendering={props.rendering} />
           </div>

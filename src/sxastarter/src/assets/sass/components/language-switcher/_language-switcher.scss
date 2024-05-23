@@ -1,32 +1,38 @@
 .language-switcher {
+  position: relative;
   display: inline-block;
-  background-color: #333;
-  color: #fff;
+  color: inherit;
   border: none;
-  margin-left: 2.5rem;
+  margin: 10px 0;
+  cursor: pointer;
 
   .selected-language {
-    cursor: pointer;
     margin-right: 1.25rem;
   }
 
-  .chevron-down-icon,
-  .chevron-up-icon {
-    cursor: pointer;
-    height: 0.75rem;
-    width: 1.25rem;
-    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(189deg) brightness(108%) contrast(101%);
+  .chevron-icon {
+    position: relative;
+    top: -2px;
+    transition: transform 0.3s ease-in-out;
   }
 
   .language-dropdown {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    position: absolute;
-    top: 2.5rem;
-    background-color: #333;
     padding: 1rem;
+    position: absolute;
+    top: calc(100% + 1rem);
+    right: 0;
+    background-color: var(--bg-footer);
+    border-radius: var(--roundness);
+    white-space: nowrap;
     z-index: 50;
-    cursor: pointer;
+  }
+
+  &.expanded {
+    .chevron-icon {
+      transform: rotate(180deg);
+    }
   }
 }
