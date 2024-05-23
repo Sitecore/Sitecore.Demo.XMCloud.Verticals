@@ -1,0 +1,23 @@
+﻿---
+ID: "d0e2f5f1-e984-4ddd-9a32-be0d90674e6c"
+Parent: "20e4c662-eba3-462d-b031-87822855a4ff"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Path: "/sitecore/content/Verticals/Financial/Home/personal/borrowing/credit-cards"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Credit cards
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Credit cards
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Credit cards
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5fe4f265-40d8-4606-ad42-790382086913"

@@ -1,0 +1,37 @@
+﻿---
+ID: "c1c0e8d1-c156-4bb3-b0f8-a2d5453c65f5"
+Parent: "3064b748-c9ff-49c9-84f4-b97c856f794a"
+Template: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+Path: /sitecore/content/Verticals/Financial/Home/personal/Data/Three Column CTA 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0a10d09c-166b-464e-99cb-4401b527f3f2"
+      Hint: Link2
+      Value: |
+        <link linktype="internal" id="b6d8ef4d-8137-4081-b939-7058c1fd944a" anchor="" querystring="" target="" class="" text="Learn more" title=""/>
+    - ID: "277e3acc-b359-4c11-88b9-4016574419dc"
+      Hint: Link3
+      Value: |
+        <link linktype="internal" id="20e4c662-eba3-462d-b031-87822855a4ff" anchor="" querystring="" target="" class="" text="Learn more" title=""/>
+    - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
+      Hint: Text2
+      Value: Investing
+    - ID: "5264d7eb-64cd-4203-98e5-a4d0380f57e6"
+      Hint: Text1
+      Value: Everyday banking
+    - ID: "5eb6058f-3f45-4dd4-8153-8c74390859f4"
+      Hint: Text3
+      Value: Borrowing
+    - ID: "63e1abec-67cb-4aea-ab72-8b5b60b69473"
+      Hint: Link1
+      Value: |
+        <link linktype="internal" id="406fd98c-50e4-4f30-90e4-6245498a2d10" anchor="" querystring="" target="" class="" text="Learn more" title=""/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7bd2a89-7a0b-4eb8-9b63-be92ef050804"

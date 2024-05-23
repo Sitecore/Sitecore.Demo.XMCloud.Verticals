@@ -2,7 +2,11 @@
 ID: "3064b748-c9ff-49c9-84f4-b97c856f794a"
 Parent: "406fd98c-50e4-4f30-90e4-6245498a2d10"
 Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
-Path: "/sitecore/content/Verticals/Financial/Home/finance-for-you/Data"
+Path: /sitecore/content/Verticals/Financial/Home/personal/Data
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -10,4 +14,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "14b53e39-5996-4cba-8756-0c8a1486f114"
+      Value: "02e8b59a-d4b3-486c-8bf9-9f95eb606ee5"
