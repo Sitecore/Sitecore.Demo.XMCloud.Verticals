@@ -3,7 +3,6 @@ import {
   Field,
   ImageField,
   Image,
-  RichTextField,
   Text,
   RichText,
   withDatasourceCheck,
