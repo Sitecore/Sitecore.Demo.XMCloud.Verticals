@@ -42,16 +42,9 @@ Languages:
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: "We understand that financial literacy is key to unlocking opportunities and achieving long-term goals. We've developed a comprehensive program designed specifically for young adults, providing them with the tools, resources, and knowledge they need to succeed in today's financial landscape."
-    - ID: "461b3c7a-eb09-496b-a2f2-73d44aba3bdb"
-      Hint: Photo
-      Value: |
-        <image mediaid="{8C1F5F3B-03CA-4E40-94DB-96CA50A2D186}" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Empowering young adults
-    - ID: "763ba4d3-0fdf-40cb-bb42-8c415556f14e"
-      Hint: Name
-      Value: Jane Doe
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "c2ef0824-7c3d-4019-a28f-b9cc500220db"
@@ -59,9 +52,6 @@ Languages:
       Hint: BackgroundImage
       Value: |
         <image mediaid="{150A83BB-D038-4CEE-B893-C07B68BA1D8B}" alt="Woman looking at paper - background image" height="" width="" hspace="" vspace="" />
-    - ID: "af557208-36e5-49e6-9382-5a3afd0df089"
-      Hint: Position
-      Value: Assistant placeholder
     - ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
       Hint: Thumbnail
       Value: |

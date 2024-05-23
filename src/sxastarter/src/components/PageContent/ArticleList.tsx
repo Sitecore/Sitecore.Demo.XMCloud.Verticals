@@ -10,7 +10,6 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 import { useI18n } from 'next-localization';
-import { AuthorCard } from 'components/NonSitecore/AuthorCard';
 
 interface Fields {
   Title: Field<string>;
@@ -78,7 +77,6 @@ export const Default = (props: ArticleListComponentProps): JSX.Element => {
                     <Text field={item.fields.Excerpt}></Text>
                   </p>
                   <div className="d-flex flex-wrap gap-3 justify-content-between align-items-center">
-                    <AuthorCard {...item} />
                     <Link href={item.url} className="button button-secondary">
                       {t('Read more') || 'Read more'}
                     </Link>
@@ -118,7 +116,6 @@ export const ThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
                 <h3 className="fs-4 mt-3">
                   <Text field={item.fields.Title}></Text>
                 </h3>
-                <AuthorCard {...item} />
               </Link>
             </div>
           ))}

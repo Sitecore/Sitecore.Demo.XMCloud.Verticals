@@ -4,7 +4,6 @@ import {
   ImageField,
   Image,
   Text,
-  RichText,
   withDatasourceCheck,
   ComponentParams,
   ComponentRendering,
@@ -32,14 +31,14 @@ const AuthorWidget = (props: AuthorWidgetProps): JSX.Element => {
     >
       <div className="author-card row g-0">
         <div className="col-auto">
-          <Image field={props.fields.Photo} />
+          <Image field={props.fields.Photo} className="author-img" />
         </div>
         <div className="col">
           <h6 className="author-name">
             <Text field={props.fields.Name} />
           </h6>
           <p className="author-position">
-            <RichText field={props.fields.Position} />
+            <Text field={props.fields.Position} />
           </p>
         </div>
       </div>

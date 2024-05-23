@@ -9,7 +9,6 @@ import {
   RichTextField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
-import { AuthorCard } from 'components/NonSitecore/AuthorCard';
 
 interface Fields {
   Title: Field<string>;
@@ -48,7 +47,7 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
                   <Image field={props.fields.Thumbnail} className="article-img img-fluid" />
                 </div>
                 <div className="col-12 col-lg-6">
-                  <AuthorCard {...props} />
+                  <Placeholder name="article-meta" rendering={props.rendering} />
                   <h1 className="article-title">
                     <Text field={props.fields.Title} />
                   </h1>
