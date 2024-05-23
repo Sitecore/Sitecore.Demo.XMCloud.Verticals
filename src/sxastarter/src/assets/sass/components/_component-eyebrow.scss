@@ -4,4 +4,11 @@
   color: var(--text-footer);
   background-color: var(--bg-footer);
   width: 100%;
+
+  .col-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
 }
