@@ -6,15 +6,21 @@ import {
   ImageField,
   Image,
   Text,
-  withDatasourceCheck,
+  RichTextField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 import { useI18n } from 'next-localization';
+import { AuthorCard } from 'components/NonSitecore/AuthorCard';
 
 interface Fields {
   Title: Field<string>;
   Excerpt: Field<string>;
+  Content: RichTextField;
   Thumbnail: ImageField;
+  BackgroundImage: ImageField;
+  Name: Field<string>;
+  Photo: ImageField;
+  Position: Field<string>;
 }
 
 export type ArticleListItemProps = {
@@ -31,9 +37,99 @@ interface ArticleListComponentProps {
   };
 }
 
-const ArticleList = (props: ArticleListComponentProps): JSX.Element => {
+const getNewsItems = (items: ArticleListItemProps[], numOfItems: number) => {
+  return items?.filter((item) => item.name !== 'Data').slice(0, numOfItems || undefined);
+};
+
+const getAllArticlesPageHref = (items: ArticleListItemProps[]) => {
+  return items?.find((item) => item.name === 'Data')?.url.replace(/\/Data$/, '') || '#';
+};
+
+export const Default = (props: ArticleListComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const newsItems = props.fields?.items?.filter((item) => item.name !== 'Data');
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params.NumberOfItems));
+  const { t } = useI18n();
+
+  return (
+    <div
+      className={`component article-list ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="background p-3 p-sm-5">
+          {newsItems?.map((item, i) => (
+            <React.Fragment key={item.url}>
+              <div
+                className={`row gx-5 row-gap-3 align-items-center ${
+                  i % 2 !== 0 ? 'flex-row-reverse' : ''
+                }`}
+              >
+                <div className="col-lg-4">
+                  <Image field={item.fields.Thumbnail} />
+                </div>
+
+                <div className="col-lg-8">
+                  <h3 className="fs-4">
+                    <Text field={item.fields.Title}></Text>
+                  </h3>
+                  <p className="article-excerpt fs-5">
+                    <Text field={item.fields.Excerpt}></Text>
+                  </p>
+                  <div className="d-flex flex-wrap gap-3 justify-content-between align-items-center">
+                    <AuthorCard {...item} />
+                    <Link href={item.url} className="button button-secondary">
+                      {t('Read more') || 'Read more'}
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              {i === newsItems.length - 1 ? <></> : <hr />}
+            </React.Fragment>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const ThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params.NumberOfItems));
+  const { t } = useI18n();
+
+  return (
+    <div
+      className={`component component-spaced article-list ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <div className="title display-6">{t('More News') || 'More News'}</div>
+          </div>
+        </div>
+        <div className="row row-gap-3">
+          {newsItems?.map((item) => (
+            <div className="col-lg-4" key={item.url}>
+              <Link href={item.url} className="wrapper-link">
+                <Image field={item.fields.Thumbnail} />
+                <h3 className="fs-4 mt-3">
+                  <Text field={item.fields.Title}></Text>
+                </h3>
+                <AuthorCard {...item} />
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const Simplified = (props: ArticleListComponentProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params.NumberOfItems));
+  const allArticlesPageHref = getAllArticlesPageHref(props.fields?.items);
   const { t } = useI18n();
 
   return (
@@ -47,18 +143,18 @@ const ArticleList = (props: ArticleListComponentProps): JSX.Element => {
             <div className="title display-6">{t('News') || 'News'}</div>
           </div>
           <div className="col-auto learn-more">
-            <Link href="/vision">
-              {t('See all') || 'See all'} <i className="fa fa-angle-right fs-3"></i>
+            <Link href={allArticlesPageHref} className="button button-simple">
+              {t('See all') || 'See all'} <i className="fa fa-angle-right fs-4" />
             </Link>
           </div>
         </div>
 
         <div className="background p-3 p-sm-5">
           {newsItems?.map((item, i) => (
-            <>
-              <div className="row gx-5 row-gap-3 align-items-center" key={item.url}>
+            <React.Fragment key={item.url}>
+              <div className="row gx-5 row-gap-3 align-items-center">
                 <div className="col-lg-4">
-                  <Image field={item.fields.Thumbnail} className="mw-100 h-auto" />
+                  <Image field={item.fields.Thumbnail} />
                 </div>
 
                 <div className="col-lg-6">
@@ -68,16 +164,16 @@ const ArticleList = (props: ArticleListComponentProps): JSX.Element => {
                   <p>
                     <Text field={item.fields.Excerpt}></Text>
                   </p>
-                  <Link href={item.url}>{t('Read more') || 'Read more'}</Link>
+                  <Link href={item.url} className="button button-simple">
+                    {t('Read more') || 'Read more'}
+                  </Link>
                 </div>
               </div>
               {i === newsItems.length - 1 ? <></> : <hr />}
-            </>
+            </React.Fragment>
           ))}
         </div>
       </div>
     </div>
   );
 };
-
-export default withDatasourceCheck()<ArticleListComponentProps>(ArticleList);
