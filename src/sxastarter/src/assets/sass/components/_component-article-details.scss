@@ -1,9 +1,13 @@
 .article-details {
   .article-content {
-    img {
+    .article-img {
       border-radius: var(--roundness);
       width: 100%;
       height: auto;
+    }
+
+    .author-card {
+      margin-bottom: 1.5rem;
     }
 
     .article-title {
@@ -19,6 +23,8 @@
 
     .article-content-body {
       font-size: 125%;
+      max-width: 50rem;
+      margin: 0 auto;
 
       a {
         color: var(--text-colored);
@@ -28,29 +34,28 @@
         list-style-type: unset;
       }
     }
+  }
+}
 
-    .author-card {
-      margin-bottom: 1.5rem;
-      align-items: center;
+.author-card {
+  align-items: center;
 
-      img {
-        width: 3rem;
-        height: 3rem;
-        object-fit: cover;
-        border-radius: 100%;
-        margin-right: 1rem;
-      }
+  .author-img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 1rem;
+  }
 
-      .author-name {
-        font-size: 1rem;
-        color: var(--text-colored);
-        margin-bottom: 0;
-      }
+  .author-name {
+    font-size: 1rem;
+    color: var(--text-colored);
+    margin-bottom: 0;
+  }
 
-      .author-position {
-        font-weight: bold;
-        margin-bottom: 0;
-      }
-    }
+  .author-position {
+    font-weight: bold;
+    margin-bottom: 0;
   }
 }
