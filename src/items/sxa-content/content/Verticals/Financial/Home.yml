@@ -71,7 +71,7 @@ SharedFields:
           p:after="r[@uid='{B7E1B8A3-7BCC-4B76-9287-E73781AEB41B}']"
           s:ds="{0B45C71D-61AE-44F3-9F7D-6C88185F0B15}"
           s:id="{52733592-6F5D-4FB4-8003-9B8223C5BC76}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BA9694CA0-7FA0-49E4-93F3-7203FAA83455%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=24"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BA9694CA0-7FA0-49E4-93F3-7203FAA83455%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=24&amp;NumberOfItems=2"
           s:ph="headless-main" />
         <r
           uid="{251B0936-4659-4127-9952-52CA5140D803}"
@@ -126,7 +126,7 @@ Languages:
       Value: Financial
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eff973b2-05a2-4885-b4c3-db8c1750f78a"
+      Value: "4b4f97f3-1872-43bf-94ed-321afbad331c"
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
       Value: Financial

@@ -37,9 +37,17 @@ interface ArticleListComponentProps {
   };
 }
 
+const getNewsItems = (items: ArticleListItemProps[], numOfItems: number) => {
+  return items?.filter((item) => item.name !== 'Data').slice(0, numOfItems || undefined);
+};
+
+const getAllArticlesPageHref = (items: ArticleListItemProps[]) => {
+  return items?.find((item) => item.name === 'Data')?.url.replace(/\/Data$/, '') || '#';
+};
+
 export const Default = (props: ArticleListComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const newsItems = props.fields?.items?.filter((item) => item.name !== 'Data');
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params.NumberOfItems));
   const { t } = useI18n();
 
   return (
@@ -50,12 +58,11 @@ export const Default = (props: ArticleListComponentProps): JSX.Element => {
       <div className="container">
         <div className="background p-3 p-sm-5">
           {newsItems?.map((item, i) => (
-            <>
+            <React.Fragment key={item.url}>
               <div
                 className={`row gx-5 row-gap-3 align-items-center ${
                   i % 2 !== 0 ? 'flex-row-reverse' : ''
                 }`}
-                key={item.url}
               >
                 <div className="col-lg-4">
                   <Image field={item.fields.Thumbnail} />
@@ -77,7 +84,7 @@ export const Default = (props: ArticleListComponentProps): JSX.Element => {
                 </div>
               </div>
               {i === newsItems.length - 1 ? <></> : <hr />}
-            </>
+            </React.Fragment>
           ))}
         </div>
       </div>
@@ -87,7 +94,7 @@ export const Default = (props: ArticleListComponentProps): JSX.Element => {
 
 export const ThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const newsItems = props.fields?.items?.filter((item) => item.name !== 'Data').slice(0, 3);
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params.NumberOfItems));
   const { t } = useI18n();
 
   return (
@@ -121,7 +128,8 @@ export const ThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
 
 export const Simplified = (props: ArticleListComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const newsItems = props.fields?.items?.filter((item) => item.name !== 'Data').slice(0, 2);
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params.NumberOfItems));
+  const allArticlesPageHref = getAllArticlesPageHref(props.fields?.items);
   const { t } = useI18n();
 
   return (
@@ -135,16 +143,16 @@ export const Simplified = (props: ArticleListComponentProps): JSX.Element => {
             <div className="title display-6">{t('News') || 'News'}</div>
           </div>
           <div className="col-auto learn-more">
-            <Link href="/vision" className="button-simple">
-              {t('See all') || 'See all'} <i className="fa fa-angle-right fs-3"></i>
+            <Link href={allArticlesPageHref} className="button button-simple">
+              {t('See all') || 'See all'} <i className="fa fa-angle-right fs-4" />
             </Link>
           </div>
         </div>
 
         <div className="background p-3 p-sm-5">
           {newsItems?.map((item, i) => (
-            <>
-              <div className="row gx-5 row-gap-3 align-items-center" key={item.url}>
+            <React.Fragment key={item.url}>
+              <div className="row gx-5 row-gap-3 align-items-center">
                 <div className="col-lg-4">
                   <Image field={item.fields.Thumbnail} />
                 </div>
@@ -156,13 +164,13 @@ export const Simplified = (props: ArticleListComponentProps): JSX.Element => {
                   <p>
                     <Text field={item.fields.Excerpt}></Text>
                   </p>
-                  <Link href={item.url} className="button-simple">
+                  <Link href={item.url} className="button button-simple">
                     {t('Read more') || 'Read more'}
                   </Link>
                 </div>
               </div>
               {i === newsItems.length - 1 ? <></> : <hr />}
-            </>
+            </React.Fragment>
           ))}
         </div>
       </div>
