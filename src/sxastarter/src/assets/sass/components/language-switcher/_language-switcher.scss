@@ -1,0 +1,32 @@
+.language-switcher {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  margin-left: 2.5rem;
+
+  .selected-language {
+    cursor: pointer;
+    margin-right: 1.25rem;
+  }
+
+  .chevron-down-icon,
+  .chevron-up-icon {
+    cursor: pointer;
+    height: 0.75rem;
+    width: 1.25rem;
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(189deg) brightness(108%) contrast(101%);
+  }
+
+  .language-dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 2.5rem;
+    background-color: #333;
+    padding: 1rem;
+    z-index: 50;
+    cursor: pointer;
+  }
+}
