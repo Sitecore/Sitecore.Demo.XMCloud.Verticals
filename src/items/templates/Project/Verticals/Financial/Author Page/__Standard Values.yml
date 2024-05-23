@@ -1,0 +1,27 @@
+﻿---
+ID: "e3cc065a-be56-4795-9702-4ae503fb39a7"
+Parent: "aad350f5-9331-4d71-a942-e3643653c028"
+Template: "aad350f5-9331-4d71-a942-e3643653c028"
+Path: /sitecore/templates/Project/Verticals/Financial/Author Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {1226C3C7-2D1F-48F5-87B4-C1DA459F05E5}
+    {F83CCEFD-FC41-4A60-9882-8F7EA5CF41A8}
+    {14431DCE-508D-4D54-9D04-C22ABBDC8F83}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7acc13b1-acc2-45e9-b804-aaf9bd5082d3"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "91889b80-7f8d-48e6-855b-775dfeb0373f"
