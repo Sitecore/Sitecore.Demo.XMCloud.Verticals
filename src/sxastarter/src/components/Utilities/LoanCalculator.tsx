@@ -41,21 +41,20 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
   );
   const [monthlyPayment, setMonthlyPayment] = useState(0);
   const [totalDebt, setTotalDebt] = useState(0);
-  const [apr, setApr] = useState(0);
+  const [totalInterest, setTotalInterest] = useState(0);
 
   useEffect(() => {
     const monthlyInterestRate = props.fields.InterestRate.value / 100 / 12;
 
-    const totalDebtCalculation =
-      loanAmount * (1 + monthlyInterestRate * loanTerm) + props.fields.BankFee.value;
-    setTotalDebt(totalDebtCalculation);
-
-    const monthlyPaymentCalculation = totalDebtCalculation / loanTerm;
+    const monthlyPaymentCalculation =
+      (loanAmount * monthlyInterestRate) / (1 - Math.pow(1 + monthlyInterestRate, -loanTerm));
     setMonthlyPayment(monthlyPaymentCalculation);
 
-    const aprCalculation =
-      ((totalDebtCalculation - loanAmount) / loanAmount / (loanTerm * 30.4)) * 365 * 100;
-    setApr(parseFloat(aprCalculation.toFixed(2)));
+    const totalDebtCalculation = monthlyPaymentCalculation * loanTerm + props.fields.BankFee.value;
+    setTotalDebt(totalDebtCalculation);
+
+    const totalInterestCalculation = totalDebtCalculation - loanAmount - props.fields.BankFee.value;
+    setTotalInterest(parseFloat(totalInterestCalculation.toFixed(2)));
   }, [loanAmount, loanTerm, props.fields.InterestRate.value, props.fields.BankFee.value]);
 
   return (
@@ -230,7 +229,14 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
             </>
           }
         />
-        <ResultLine left="APR%" right={`${apr}%`} />
+        <ResultLine
+          left="Total interest"
+          right={
+            <>
+              {totalInterest.toFixed(2)} <Text field={props.fields.Currency} />
+            </>
+          }
+        />
         <ResultLine
           left="Total debt"
           right={
