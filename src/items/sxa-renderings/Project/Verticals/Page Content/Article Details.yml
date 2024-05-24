@@ -13,6 +13,7 @@ SharedFields:
     {C9D3A906-3697-4EEE-A431-B8FC8EB5A7F8}
     {9953B06F-4247-4888-B2EF-9BF0CDC0B7A9}
     {936BBB4A-6772-4DB5-A0EA-FABEE542EBA9}
+    {E390A922-CE56-4892-A8E7-4BE5592E6AD1}
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Apps/32x32/Newspaper.png
@@ -27,7 +28,7 @@ SharedFields:
   Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{A1ABD5CF-C257-4BB1-9F7A-93E6F3375391}"
+  Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
 - ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
   Hint: Rendering Contents Resolver
   Value: "{6CCCBCDE-5E95-44E4-AE66-CFE7D3A0589E}"
@@ -65,7 +66,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f8d7e5a7-f30c-4b29-b07b-01aa6724e64d"
+      Value: "223942c1-e8dc-4cb2-96ac-63311d949e4c"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

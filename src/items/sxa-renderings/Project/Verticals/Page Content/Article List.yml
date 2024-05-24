@@ -24,7 +24,7 @@ SharedFields:
   Value: 1
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
+  Value: "{175A5B0F-A181-446D-A0EA-4B8F5EE42DB2}"
 - ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
   Hint: Rendering Contents Resolver
   Value: "{2F5C334E-5615-423C-8281-9FC180191302}"
@@ -59,7 +59,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "13ea7bf9-e472-4006-9227-08b98a6db012"
+      Value: "58be9265-a803-499a-b67b-44eda386d255"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

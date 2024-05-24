@@ -25,7 +25,7 @@ SharedFields:
           p:before="*"
           s:ds="{0B45C71D-61AE-44F3-9F7D-6C88185F0B15}"
           s:id="{52733592-6F5D-4FB4-8003-9B8223C5BC76}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B96BD1766-274B-433A-81E0-6451C55247A2%7D&amp;Styles=%7C%7B7B072563-1F10-4500-8963-F2FE013CF51A%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1&amp;NumberOfItems"
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
         <r
           uid="{3C8457FB-D67F-4FF9-AC94-677DE25A8894}"
@@ -79,7 +79,7 @@ Languages:
       Value: Articles
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3d74720b-2810-4b28-a00f-7dc1d58e24f8"
+      Value: "72897921-bf95-415d-8f65-7e604046f8c7"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |

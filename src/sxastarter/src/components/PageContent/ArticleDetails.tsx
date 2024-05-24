@@ -44,22 +44,10 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
             <div className="article-content">
               <div className="row row-gap-4 gx-5">
                 <div className="col-12 col-lg-6">
-                  <Image field={props.fields.Thumbnail} className="img-fluid" />
+                  <Image field={props.fields.Thumbnail} className="article-img img-fluid" />
                 </div>
                 <div className="col-12 col-lg-6">
-                  <div className="author-card row g-0">
-                    <div className="col-auto">
-                      <Image field={props.fields.Photo} />
-                    </div>
-                    <div className="col">
-                      <h6 className="author-name">
-                        <Text field={props.fields.Name} />
-                      </h6>
-                      <p className="author-position">
-                        <Text field={props.fields.Position} />
-                      </p>
-                    </div>
-                  </div>
+                  <Placeholder name="article-meta" rendering={props.rendering} />
                   <h1 className="article-title">
                     <Text field={props.fields.Title} />
                   </h1>

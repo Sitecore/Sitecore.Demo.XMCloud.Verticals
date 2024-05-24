@@ -22,7 +22,7 @@ SharedFields:
           uid="{F59395FE-244D-4421-84E9-B681C40B8633}"
           p:before="*"
           s:id="{A7343C45-4438-441E-967E-C2CB350DDA75}"
-          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1"
           s:ph="headless-main" />
         <r
           uid="{4E94E9C6-404D-4A6D-B2C9-8228624577AC}"
@@ -42,4 +42,4 @@ Languages:
       Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "671679c7-581b-477b-9dec-4d5242eeb14c"
+      Value: "292e3c7c-004c-418a-881e-ebfdb76c5ae1"

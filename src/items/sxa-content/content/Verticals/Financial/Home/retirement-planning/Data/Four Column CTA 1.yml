@@ -1,0 +1,53 @@
+﻿---
+ID: "f515a7ac-6b68-4689-ac5c-fd05f29efb25"
+Parent: "643110e7-68af-400c-8538-a2e22974c29e"
+Template: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+Path: "/sitecore/content/Verticals/Financial/Home/retirement-planning/Data/Four Column CTA 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07f3e30f-8075-4c1b-912e-e27fffeda904"
+      Hint: Text1
+      Value: We will get in touch with you
+    - ID: "23f621dd-d403-49df-93f6-391a1757feb3"
+      Hint: Image4
+      Value: |
+        <image mediaid="{EF4C0417-CC75-4483-BA8E-1DBE32DD7487}" />
+    - ID: "256528b0-4d93-44a1-85c9-0cd544091a3f"
+      Hint: Text4
+      Value: 0700 11 333 2375
+    - ID: "34f50b54-e781-493a-85c0-8e9af1969d64"
+      Hint: Title3
+      Value: Feedback
+    - ID: "4e62adbe-4082-45fe-9e77-66ef0945fb18"
+      Hint: Title4
+      Value: Call us
+    - ID: "84c2cd69-b897-4e4a-a336-66d3222fe1b5"
+      Hint: Image1
+      Value: |
+        <image mediaid="{4986F57F-1293-4B48-86BB-1281B6A31573}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a3c8445f-3c45-41f1-b7ea-2a6d4490dd05"
+    - ID: "8f23bb30-a050-47b3-bc66-6ca478213eef"
+      Hint: Text3
+      Value: For evaluation and recommendations
+    - ID: "94e8b735-889e-44f3-a980-c7c8143bae19"
+      Hint: Title2
+      Value: Find a location
+    - ID: "954a7e15-cdad-4e9c-8949-ab0ee63200c6"
+      Hint: Image3
+      Value: |
+        <image mediaid="{A66B93B7-7A89-47A4-A44F-492C4381B75E}" />
+    - ID: "a98fc4bc-b088-4296-aa32-fba35f964ebd"
+      Hint: Image2
+      Value: |
+        <image mediaid="{032B60ED-5AA8-4DA5-A142-C96693C88D17}" />
+    - ID: "be5597c5-a55d-4a6a-bf53-7fe1a7bf4bdc"
+      Hint: Title1
+      Value: Customer support
+    - ID: "c24d6ca7-49ab-4f08-9dae-e5a844d79139"
+      Hint: Text2
+      Value: Explore our network of branch offices and ATMs

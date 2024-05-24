@@ -13,6 +13,8 @@
 
 .button {
   display: inline-block;
+  font-weight: 500;
+  font-size: 1.125rem;
   text-decoration: none;
   border-radius: var(--button-roundness);
   padding: var(--button-padding);
@@ -34,6 +36,21 @@
   }
 }
 
+.button-secondary {
+  border: 2px solid var(--text-colored);
+  color: var(--text-colored);
+
+  a {
+    color: var(--text-colored);
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: var(--text-colored);
+    filter: brightness(125%);
+  }
+}
+
 .button-accent {
   background-color: var(--bg-accent);
   color: var(--text-button);
@@ -41,6 +58,26 @@
   &:hover {
     color: var(--text-button);
     filter: brightness(85%);
+  }
+}
+
+.button-simple {
+  padding: 0;
+  border-radius: 0;
+  text-decoration: none;
+  color: var(--text-colored);
+  font-weight: bold;
+}
+
+// Sort of a style reset for <a> when we want to use it as a wrapper element
+// e.g. when the whole card is a link
+.wrapper-link {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: inherit;
+    text-decoration: none;
   }
 }
 
