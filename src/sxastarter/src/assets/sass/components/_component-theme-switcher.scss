@@ -26,7 +26,7 @@
     position: absolute;
     inset: 0;
     border-radius: calc(var(--roundness) * 2.125);
-    background-color: #f0f5f7;
+    background-color: var(--bg-main);
     transition: 0.4s;
     cursor: pointer;
 
