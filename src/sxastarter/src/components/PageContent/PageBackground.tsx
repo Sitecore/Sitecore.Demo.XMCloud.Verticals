@@ -5,10 +5,10 @@ import {
   RichText,
   Placeholder,
   Text,
-  Image,
   RichTextField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
+import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
 
 interface Fields {
   Title: Field<string>;
@@ -22,12 +22,13 @@ export type PageBackgroundProps = ComponentProps & {
 
 export const Default = (props: PageBackgroundProps): JSX.Element => {
   const id = props.params?.RenderingIdentifier;
+
   return (
     <div
       className={`component page-background col-12 ${props.params?.styles?.trimEnd()}`}
       id={id ? id : undefined}
     >
-      <Image field={props.fields.BackgroundImage} className="background-image"></Image>
+      <ParallaxBackgroundImage BackgroundImage={props.fields.BackgroundImage} />
 
       <div className="container">
         <Placeholder name="page-navigation" rendering={props.rendering} />
@@ -40,7 +41,7 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
         </div>
       </div>
 
-      <div>
+      <div className="background-content-wrapper">
         <div className="background-content component-spaced container rounded-corners">
           <div className="p-3 p-sm-5">
             <Placeholder name="background-page-content" rendering={props.rendering} />

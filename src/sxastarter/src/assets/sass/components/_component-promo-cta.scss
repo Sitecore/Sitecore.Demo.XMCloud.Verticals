@@ -26,4 +26,30 @@
     margin-top: $component-margin;
     margin-bottom: $component-margin;
   }
+
+  &.with-background-image {
+    display: flex;
+    align-items: center;
+    background-color: $bg-transparent !important;
+    min-height: 70vh;
+
+    .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .parallax-background-image,
+    .background-image {
+      position: absolute !important;
+      inset: 0;
+      z-index: 1;
+      /* stylelint-disable */
+      mask-image: radial-gradient(
+        ellipse,
+        rgba(255, 255, 255, 0.2) 10%,
+        rgba(255, 255, 255, 0.7) 100%
+      );
+      /* stylelint-enable */
+    }
+  }
 }
