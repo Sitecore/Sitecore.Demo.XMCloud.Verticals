@@ -1,7 +1,7 @@
 import React from 'react';
 import { Field, ImageField, Placeholder, Text, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
-import { ParallaxImage } from 'components/NonSitecore/ParallaxBackgroundImage';
+import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
 
 interface Fields {
   Title: Field<string>;
@@ -21,7 +21,7 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
       className={`component page-background col-12 ${props.params?.styles?.trimEnd()}`}
       id={id ? id : undefined}
     >
-      <ParallaxImage BackgroundImage={props.fields.BackgroundImage} />
+      <ParallaxBackgroundImage BackgroundImage={props.fields.BackgroundImage} />
 
       <div className="container">
         <Placeholder name="page-navigation" rendering={props.rendering} />
