@@ -45,17 +45,17 @@ export const Default = (props: AppPromoProps): JSX.Element => {
             </div>
           </div>
           <div className="col-md-10 mx-auto col-lg-6 image-wrapper">
-            {isPageEditing ? (
-              <Image field={props.fields.Image} className="d-block mx-lg-auto img-fluid"></Image>
-            ) : (
-              <img
-                src={props.fields.Image.value?.src}
-                alt={props.fields.Image.value?.alt as string}
-                ref={parallaxImg.ref}
-                className="d-block mx-lg-auto img-fluid"
-                style={{ transformOrigin: 'bottom' }}
-              ></img>
-            )}
+            <Image
+              field={props.fields.Image}
+              className={`${isPageEditing ? 'd-block' : 'd-none'} mx-lg-auto img-fluid`}
+            ></Image>
+            <img
+              src={props.fields.Image.value?.src}
+              alt={props.fields.Image.value?.alt as string}
+              ref={parallaxImg.ref}
+              className={`${isPageEditing ? 'd-none' : 'd-block'} mx-lg-auto img-fluid`}
+              style={{ transformOrigin: 'bottom' }}
+            ></img>
           </div>
         </div>
       </div>
