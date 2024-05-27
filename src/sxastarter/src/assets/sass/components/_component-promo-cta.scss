@@ -17,4 +17,12 @@
     border-radius: var(--roundness);
     overflow: hidden;
   }
+
+  &.no-background {
+    background-color: $bg-transparent !important;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: $component-margin;
+    margin-bottom: $component-margin;
+  }
 }
