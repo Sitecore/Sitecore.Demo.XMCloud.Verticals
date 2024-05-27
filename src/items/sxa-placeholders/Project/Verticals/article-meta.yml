@@ -9,7 +9,7 @@ SharedFields:
   Value: "article-meta"
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
-  Value: "{9D7DE58D-9DA4-43D8-8371-3C728A582ADC}"
+  Value: 
 Languages:
 - Language: en
   Versions:
@@ -17,4 +17,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ff60b0ea-8a93-4073-841d-e11598e791f6"
+      Value: "a209a826-0f27-42cc-b4f3-c4d687d33805"
