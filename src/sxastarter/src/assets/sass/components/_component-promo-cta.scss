@@ -18,7 +18,8 @@
     overflow: hidden;
   }
 
-  &.no-background {
+  &.no-background,
+  .page-background .background-content & {
     background-color: $bg-transparent !important;
     padding-top: 0;
     padding-bottom: 0;
