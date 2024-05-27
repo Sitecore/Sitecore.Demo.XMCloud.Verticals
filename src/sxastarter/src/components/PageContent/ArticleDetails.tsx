@@ -48,7 +48,9 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
                   <Image field={props.fields.Thumbnail} className="article-img img-fluid" />
                 </div>
                 <div className="col-12 col-lg-6">
-                  <Placeholder name="article-meta" rendering={props.rendering} />
+                  <div className="row">
+                    <Placeholder name="article-meta" rendering={props.rendering} />
+                  </div>
                   <h1 className="article-title">
                     <Text field={props.fields.Title} />
                   </h1>

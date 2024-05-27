@@ -1,11 +1,18 @@
 import React from 'react';
-import { Field, ImageField, Placeholder, Text, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Field,
+  ImageField,
+  RichText,
+  Placeholder,
+  Text,
+  RichTextField,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
 
 interface Fields {
   Title: Field<string>;
-  Content: TextField;
+  Content: RichTextField;
   BackgroundImage: ImageField;
 }
 
@@ -29,9 +36,9 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
         <h1 className="display-6 fw-bold">
           <Text field={props.fields.Title}></Text>
         </h1>
-        <p className="fs-2">
-          <Text field={props.fields.Content}></Text>
-        </p>
+        <div className="fs-2">
+          <RichText field={props.fields.Content}></RichText>
+        </div>
       </div>
 
       <div className="background-content-wrapper">
