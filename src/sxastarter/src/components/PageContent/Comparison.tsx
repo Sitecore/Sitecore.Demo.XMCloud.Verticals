@@ -1,5 +1,6 @@
 import React from 'react';
-import { Field, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, Text, useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
+import { CountUp } from 'components/NonSitecore/CountUp';
 
 interface Fields {
   Title1: Field<string>;
@@ -19,6 +20,8 @@ export type RichTextProps = {
 
 export const Default = (props: RichTextProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
 
   return (
     <div
@@ -32,7 +35,11 @@ export const Default = (props: RichTextProps): JSX.Element => {
         <div className="item">
           <div className="value">
             <span className="amount">
-              <Text field={props.fields?.Amount1} />
+              {isPageEditing ? (
+                <Text field={props.fields?.Amount1} />
+              ) : (
+                <CountUp value={parseInt(props.fields?.Amount1.value)} />
+              )}
             </span>{' '}
             <span className="currency">
               <Text field={props.fields?.Currency1} />
@@ -48,7 +55,11 @@ export const Default = (props: RichTextProps): JSX.Element => {
         <div className="item">
           <div className="value">
             <span className="amount">
-              <Text field={props.fields?.Amount2} />
+              {isPageEditing ? (
+                <Text field={props.fields?.Amount2} />
+              ) : (
+                <CountUp value={parseInt(props.fields?.Amount2.value)} />
+              )}
             </span>{' '}
             <span className="currency">
               <Text field={props.fields?.Currency2} />
