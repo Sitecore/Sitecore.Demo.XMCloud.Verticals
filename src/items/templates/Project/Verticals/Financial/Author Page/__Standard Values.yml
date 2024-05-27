@@ -15,9 +15,13 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "2404bb97-b42a-439a-be76-de66213cb281"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7acc13b1-acc2-45e9-b804-aaf9bd5082d3"
+      Value: "836e75c7-bf76-4439-b0eb-5494b69927f5"
 - Language: "fr-CA"
   Versions:
   - Version: 1
