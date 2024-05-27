@@ -1,0 +1,27 @@
+.author-details {
+  .author-img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--roundness);
+  }
+
+  .author-name {
+    margin-bottom: 0;
+  }
+
+  .author-position {
+    color: var(--text-colored);
+  }
+
+  hr {
+    width: 100%;
+    border-top: 5px solid var(--text-button);
+    border-radius: var(--roundness);
+    opacity: 0.7;
+    margin: 2rem 0;
+  }
+
+  .author-bio {
+    font-size: 125%;
+  }
+}
