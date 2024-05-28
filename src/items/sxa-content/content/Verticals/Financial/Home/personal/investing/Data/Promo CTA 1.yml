@@ -1,0 +1,23 @@
+﻿---
+ID: "693069fb-f24b-442f-bf28-e602762099d9"
+Parent: "6a4de0f3-8048-427a-884b-da146da7f4e0"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: /sitecore/content/Verticals/Financial/Home/personal/investing/Data/Promo CTA 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Grow Your Wealth with Confidence
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce4b3280-537d-4b40-8d0b-8e6019c38bc2"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: "<p>Take the first step towards a brighter financial future today with our online services or in-person experts.</p>"
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{88C60C4B-F232-4697-8EB2-C39A6E6DB9D0}" alt="Person reading newspaper with investments on laptop screen" height="" width="" hspace="" vspace="" />

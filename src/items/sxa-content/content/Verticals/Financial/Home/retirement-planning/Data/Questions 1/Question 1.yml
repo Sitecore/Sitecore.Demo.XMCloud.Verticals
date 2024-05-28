@@ -1,0 +1,27 @@
+﻿---
+ID: "1a12b091-e18c-4d10-94f6-fe544b2a4d1c"
+Parent: "d5d73d45-0f16-4b32-ba70-9241370c8ce8"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: "/sitecore/content/Verticals/Financial/Home/retirement-planning/Data/Questions 1/Question 1"
+BranchID: "bba2c8f4-b940-4820-bf71-1b089bc5f86a"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FE577AD4-C2F1-4056-91A9-C864C8D2199D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba599512-a33b-47b7-b666-62d422528dfb"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "How easy is it to transfer from an existing organization?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: |
+        No problem! We do it all the time.
+        
+        To transfer an existing retirement plan, send a termination notice to us and your current provider. We'll coordinate the rest and keep you updated throughout the entire process.
