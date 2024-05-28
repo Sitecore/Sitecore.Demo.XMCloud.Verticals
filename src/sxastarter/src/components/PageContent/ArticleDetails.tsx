@@ -63,8 +63,9 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
                 <RichText field={props.fields.Content} />
               </div>
             </div>
-
-            <Placeholder name="background-page-content" rendering={props.rendering} />
+            <div className="row">
+              <Placeholder name="background-page-content" rendering={props.rendering} />
+            </div>
           </div>
         </div>
         <Placeholder name="page-content" rendering={props.rendering} />
