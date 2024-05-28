@@ -25,8 +25,15 @@ SharedFields:
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
         <r
-          uid="{3BD96A91-2F8A-4B1D-8F0E-2659B66912BD}"
+          uid="{E443634E-3C55-4179-8077-F02ED336EB32}"
           p:after="r[@uid='{2CFCE38E-36F8-4731-AC70-78541826A617}']"
+          s:ds="local:/Data/Parallax Banner 1"
+          s:id="{200920AD-9645-4CB2-B72A-C7D8278E709F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="/headless-main/sxa-page-content/page-content-0-1" />
+        <r
+          uid="{3BD96A91-2F8A-4B1D-8F0E-2659B66912BD}"
+          p:after="r[@uid='{E443634E-3C55-4179-8077-F02ED336EB32}']"
           s:ds="local:/Data/Comparison 1"
           s:id="{20E5EA95-6B50-49CD-8852-433B7C565F06}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
@@ -73,13 +80,13 @@ Languages:
       Value: Personal
     - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
       Hint: Content
-      Value: There is only one perfect home. Yours.
+      Value: <p>There is only one perfect home. Yours.</p>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Personal
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1b4688c8-600a-4ed0-8d8d-cf3759e3afc8"
+      Value: "403e3021-365e-45c4-b06e-c82c09f1d854"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |
