@@ -1,0 +1,23 @@
+﻿---
+ID: "3c63e925-1ad2-4ed8-8ffd-ad9f2253b47f"
+Parent: "7c636d37-263c-4134-8f97-1fa3124285fd"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: /sitecore/content/Verticals/Financial/Home/personal/borrowing/Data/Promo CTA 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Smart borrowing to build a strong financial foundation
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ebfe735e-01da-46fd-91f1-529141da9d06"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: <p>Make every borrowing decision count by prioritizing responsible practices and securing your financial future.</p>
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{5FFAC568-2839-444E-B2E6-8A0BBE8E2785}" alt="Wallet with credit cards" height="" width="" hspace="" vspace="" />

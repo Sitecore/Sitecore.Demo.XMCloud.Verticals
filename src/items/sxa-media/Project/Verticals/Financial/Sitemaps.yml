@@ -3,6 +3,10 @@ ID: "299c0b68-ef43-49ec-ad80-2ef3077baf6e"
 Parent: "eee2c54e-1bc8-4b72-bb26-1ea80c093a30"
 Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
 Path: /sitecore/media library/Project/Verticals/Financial/Sitemaps
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1000
 Languages:
 - Language: en
   Versions:
@@ -10,4 +14,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "69fa75bb-d6b6-4f88-a377-eb486f102874"
+      Value: "80caad6b-c26a-4158-8d41-2770cc885602"

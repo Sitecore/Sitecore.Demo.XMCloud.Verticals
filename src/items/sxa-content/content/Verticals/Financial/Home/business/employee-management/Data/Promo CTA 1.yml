@@ -1,0 +1,23 @@
+﻿---
+ID: "a5a12fa2-8a7a-406d-b0e1-2543fc7893a0"
+Parent: "786662e0-39cf-4203-9bd1-009f2101639a"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: "/sitecore/content/Verticals/Financial/Home/business/employee-management/Data/Promo CTA 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Effective employee management to nurture your talent
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "adecfe75-58e6-4e38-ae4a-80a6205ba526"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: "<p>Supercharge your workforce with our comprehensive employee management strategies, designed to foster engagement, productivity, and long-term success.</p>"
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{9D636D57-CEC7-42EC-9943-EE33DD83915D}" alt="Man typing on a laptop" height="" width="" hspace="" vspace="" />

@@ -28,19 +28,12 @@ SharedFields:
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B96BD1766-274B-433A-81E0-6451C55247A2%7D&amp;Styles=%7C%7B7B072563-1F10-4500-8963-F2FE013CF51A%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1&amp;NumberOfItems"
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
         <r
-          uid="{3C8457FB-D67F-4FF9-AC94-677DE25A8894}"
-          p:after="r[@uid='{74943A80-DF91-4E0A-AB7D-649B880E0F72}']"
-          s:ds="local:/Data/Text 1"
-          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
-          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
-        <r
-          uid="{0549A745-3A14-4B60-B18C-2EE4405DC877}"
+          uid="{6A37C3CA-A2AD-42A3-8498-E946B373FEC3}"
           p:after="*[1=2]"
-          s:ds="local:/Data/Three Column CTA 1"
-          s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
-          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+          s:ds="ee12ee55-11a8-495f-bcc5-9ac98583b175"
+          s:id="{35075000-760E-4FF3-BD1C-F2EEBA251DCB}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/sxa-page-content/page-content-0-1" />
       </d>
     </r>
 Languages:
@@ -55,35 +48,22 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
-    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
-      Hint: __Final Renderings
-      Value: |
-        <r xmlns:p="p" xmlns:s="s"
-          p:p="1">
-          <d
-            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r
-              uid="{76F78347-9114-4011-95A3-F3471BDBF318}"
-              p:after="*[1=2]"
-              s:ds="ee12ee55-11a8-495f-bcc5-9ac98583b175"
-              s:id="{35075000-760E-4FF3-BD1C-F2EEBA251DCB}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
-              s:ph="/headless-main/sxa-page-content/page-content-0-1" />
-          </d>
-        </r>
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
       Hint: Title
       Value: Articles
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: "Keep up-to-date with our industry experts"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Articles
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "72897921-bf95-415d-8f65-7e604046f8c7"
+      Value: "0f6cafb3-321f-481c-a8ae-6f669a128c87"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |
-        <image mediaid="{150A83BB-D038-4CEE-B893-C07B68BA1D8B}" />
+        <image mediaid="{10CB9C1E-EDEB-45AE-9598-EAD7CF3B3204}" alt="Blurred background image - fountain pen on notebook" height="" width="" hspace="" vspace="" />
 - Language: "fr-CA"
   Versions:
   - Version: 1

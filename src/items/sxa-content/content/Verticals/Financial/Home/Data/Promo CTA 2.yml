@@ -8,16 +8,19 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
       Hint: Title
       Value: Unlock checking that grows with you
     - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
       Hint: Link
       Value: |
-        <link text="Learn More" linktype="external" url="http://www.sitecore.com" anchor="" target="_blank" />
+        <link linktype="internal" id="944b4714-233c-4bc7-8e24-604e758c0f85" anchor="" querystring="" target="" class="" text="Get started" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "df662767-536b-4255-8440-3439971d628c"
+      Value: "74662de5-974b-4af9-b4e2-56e7c9029ef3"
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: "As your finances grow, you will unlock more benefits and services from PLAY! Finance."

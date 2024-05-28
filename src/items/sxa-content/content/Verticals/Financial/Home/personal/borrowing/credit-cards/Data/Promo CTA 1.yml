@@ -1,0 +1,23 @@
+﻿---
+ID: "207aae0b-15d2-4710-a0e6-d2017998b5cc"
+Parent: "54df39b5-4d04-492e-9e2c-de961c914209"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: "/sitecore/content/Verticals/Financial/Home/personal/borrowing/credit-cards/Data/Promo CTA 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Apply for a premium credit card today
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "69cbc739-c7f8-4756-a60b-40230bc81d03"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: <p>Enjoy competitive rates and flexible payment options to help manage your financial wellbeing.</p>
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA22A1C0-B2E0-4D9E-A67E-F1CE8CB37ACD}" alt="Person holding a credit card in front of a laptop" height="" width="" hspace="" vspace="" />

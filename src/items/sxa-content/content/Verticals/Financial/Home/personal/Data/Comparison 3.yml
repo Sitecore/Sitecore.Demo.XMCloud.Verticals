@@ -3,6 +3,10 @@ ID: "c35b7f4c-74ef-4c31-abfb-87a34fd74eff"
 Parent: "3064b748-c9ff-49c9-84f4-b97c856f794a"
 Template: "32f00428-21ac-4dc0-aa2b-f2e31ca3e97e"
 Path: /sitecore/content/Verticals/Financial/Home/personal/Data/Comparison 3
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -28,7 +32,7 @@ Languages:
       Value: Term
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0aace75a-8dcb-4473-8afc-9f1264de3a15"
+      Value: "4e9aef34-1289-4fb8-a931-8540b56a58f0"
     - ID: "bd2c7af4-8f8f-4518-8d5d-2c1006bce654"
       Hint: Subtitle2
       Value: Maximum repayment period
