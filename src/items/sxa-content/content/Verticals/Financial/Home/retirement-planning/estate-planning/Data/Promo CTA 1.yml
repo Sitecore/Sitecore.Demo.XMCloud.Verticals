@@ -1,0 +1,23 @@
+﻿---
+ID: "652b3f59-ceb4-428a-b134-a37795c13437"
+Parent: "bd0edfa4-e4d8-40de-9e5f-886c4e38a968"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: "/sitecore/content/Verticals/Financial/Home/retirement-planning/estate-planning/Data/Promo CTA 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Plan for peace of mind
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a4b49965-32f0-4157-9848-8fcea9ac8039"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: <p>Learn about our comprehensive estate planning services, designed to protect your assets and provide for your loved ones.</p>
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{E1825932-3C06-4740-AD0E-CC73B6506C4F}" />

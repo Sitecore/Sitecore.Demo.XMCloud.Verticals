@@ -37,6 +37,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: People in a meeting room with two people shaking hands
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1245ff82-3312-4f38-bce4-c32da3b17967"
+      Value: "98a761fb-edbe-462e-8a71-e2f809fbe54e"

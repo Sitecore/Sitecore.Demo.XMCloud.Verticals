@@ -1,0 +1,20 @@
+﻿---
+ID: "111bb8ae-0a16-45f9-a0e7-b5153380978a"
+Parent: "4ff8991d-72fb-4a9c-83f0-6f74f6bd13dc"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/Verticals/Financial/Home/personal/everyday-banking/Data/Rich Text"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Checking accounts</h2><p> Sometimes a one-size-fits-all approach doesn’t fit your unique needs. That’s why, when it comes to personal checking, we love the term "options". You will discover the right option with all the right features to fit your banking needs.  Getting the most out of your money takes smart solutions. In addition to a full range of checking account benefits, you may also qualify to earn monthly interest rewards. </p><h2>Preferred checking</h2><p>Preferred checking comes with all the bells and whistles. Searching for a competitive rate shouldn’t require endless shopping around. As one of our most valued customers, you’ll qualify for it instantly when you open a PLAY! Finance Preferred Checking account. You’ll combine all of the smart features of our regular checking account and enjoy exclusive benefits such as better rates, increased services, and a dedicated account executive. Plus, you can earn a higher interest rate by keeping a higher balance in your account. That’s a win-win relationship you can bank on.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "37b3c389-3ae2-40b4-80de-f7ec164ef1b0"

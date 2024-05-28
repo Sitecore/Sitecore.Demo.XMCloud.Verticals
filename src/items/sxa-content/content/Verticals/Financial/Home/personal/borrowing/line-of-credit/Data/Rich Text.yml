@@ -1,0 +1,27 @@
+﻿---
+ID: "73cfc1f5-01ba-4e41-a02a-cf5972f93567"
+Parent: "e34d127c-d069-4707-911f-428a1c3c3f48"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/Verticals/Financial/Home/personal/borrowing/line-of-credit/Data/Rich Text"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Your flexible financial lifeline</h2>
+        <p>A line of credit is a versatile financial tool that provides you with access to funds on an as-needed basis, offering flexibility and convenience for managing your finances. Unlike a traditional loan, which provides a lump sum of money upfront, a line of credit allows you to borrow funds up to a predetermined credit limit and repay them over time, with interest only charged on the amount borrowed.</p>
+        <p>One of the primary advantages of a line of credit is its flexibility. Whether you're facing unexpected expenses, funding home renovations, or covering seasonal cash flow fluctuations in your business, a line of credit can provide you with the financial cushion you need to navigate life's ups and downs without the need to reapply for a new loan each time.</p>
+        <p>Another benefit of a line of credit is its revolving nature. As you repay the borrowed amount, the available credit replenishes, giving you ongoing access to funds whenever you need them. This revolving feature makes a line of credit an excellent choice for ongoing or unpredictable expenses, offering peace of mind and financial stability.</p>
+        <h2>Understanding line of credit</h2>
+        <p>When considering a line of credit, it's essential to understand the terms and conditions associated with the credit agreement, including the interest rate, repayment terms, and any fees or charges. By carefully reviewing these details and assessing your financial needs, you can determine whether a line of credit is the right solution for you and your unique circumstances.</p>
+        <p>Whether you're looking to cover short-term expenses, seize investment opportunities, or manage cash flow in your business, a line of credit can be a valuable financial tool to have in your arsenal. With its flexibility, convenience, and ongoing access to funds, a line of credit offers the freedom and peace of mind you need to navigate life's financial challenges with confidence.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "61b261d7-c1c2-4c3e-a181-82492e4f5f76"

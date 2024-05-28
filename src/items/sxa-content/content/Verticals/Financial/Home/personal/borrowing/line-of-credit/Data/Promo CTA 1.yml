@@ -1,0 +1,23 @@
+﻿---
+ID: "449c5e9c-9d99-421d-af21-87dc12421c03"
+Parent: "e34d127c-d069-4707-911f-428a1c3c3f48"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: "/sitecore/content/Verticals/Financial/Home/personal/borrowing/line-of-credit/Data/Promo CTA 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Embrace the power of a line of credit
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ff9c325-6089-4d0e-85e2-5124b7cd19c0"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: <p>Gain financial flexibility and peace of mind with our line of credit products, providing you with ongoing access to funds whenever you need them.</p>
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{70908EDF-2B69-463F-9C23-3B8FAF246A0B}" alt="Persona writing on a paper with pen" height="" width="" hspace="" vspace="" />
