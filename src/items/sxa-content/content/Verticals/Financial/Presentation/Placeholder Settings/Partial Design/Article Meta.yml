@@ -6,7 +6,7 @@ Path: /sitecore/content/Verticals/Financial/Presentation/Placeholder Settings/Pa
 SharedFields:
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
   Hint: Placeholder Key
-  Value: "article-meta"
+  Value: "article-meta-{*}"
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
   Value: "{9D7DE58D-9DA4-43D8-8371-3C728A582ADC}"
@@ -17,4 +17,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8bef6924-d258-468d-8dc4-247a44dcc0d9"
+      Value: "5871e0d2-2a7d-40c1-b658-7604a438a331"

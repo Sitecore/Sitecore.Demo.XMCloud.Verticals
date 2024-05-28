@@ -1,0 +1,30 @@
+﻿---
+ID: "16d054f3-7ce2-4432-b822-c05fd5e5c86a"
+Parent: "5cb426f0-740b-43ad-80b3-9d6043ee4926"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: /sitecore/content/Verticals/Financial/Home/business/Data/Promo CTA 2
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 275
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: "Not-for-Profit financial services"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "91acc9d9-b785-4f19-903d-936e5c3ecad6"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: "<p>We offer specialized financial solutions to  not-for-profit organizations.</p>"
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{E2E228A6-F710-42EC-A6ED-49668C2743BA}" alt="Forms on a surface beside pencils" height="" width="" hspace="" vspace="" />

@@ -3,6 +3,10 @@ ID: "2a3dbf56-ac6b-43b2-9cfc-7f0ae30ee272"
 Parent: "eee2c54e-1bc8-4b72-bb26-1ea80c093a30"
 Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
 Path: /sitecore/media library/Project/Verticals/Financial/SVG
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
 Languages:
 - Language: en
   Versions:
@@ -10,4 +14,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4cba86a2-4e81-4837-a154-a5c4296c7f2d"
+      Value: "d8318a5c-5dac-45ef-9f0b-b014a1b44efb"

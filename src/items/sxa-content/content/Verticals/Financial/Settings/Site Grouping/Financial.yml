@@ -7,6 +7,9 @@ SharedFields:
 - ID: "1ee576af-ba8e-4312-9fbd-2ccf8395baa1"
   Hint: StartItem
   Value: "{B2A38FB8-2E85-4D58-AFE5-C12BECCBEE3A}"
+- ID: "4e9e2ae5-36db-4955-9af1-5a1934a27c7d"
+  Hint: Language Embedding
+  Value: 1
 - ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
   Hint: ThumbnailsRootPath
   Value: /sitecore/media library/Project/Verticals/Financial
@@ -41,7 +44,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "80fd6ca6-f6dd-433c-889c-e9034a00c068"
+      Value: "6d93c5cd-2bae-4df1-9c70-746662156173"
     - ID: "96cffc48-0bd5-4f70-9b36-d49c844d51ef"
       Hint: Theme
       Value: Financial

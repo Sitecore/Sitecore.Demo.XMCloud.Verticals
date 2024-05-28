@@ -1,0 +1,24 @@
+﻿---
+ID: "36e283c1-b294-4083-9131-cb021db8b49c"
+Parent: "e6379828-bae3-4d2d-94d7-762a6397b9dc"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: /sitecore/content/Verticals/Financial/Home/personal/Data/Questions 1/Question 2
+BranchID: "bba2c8f4-b940-4820-bf71-1b089bc5f86a"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{1B3E2AF0-8A50-401D-B32C-5F3C293EFBCE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc74dc9f-a021-4da9-ac55-b815c63708e9"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "What types of accounts do you offer, and which one is best suited for my financial goals?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: "We offer a variety of accounts tailored to different financial needs, including savings accounts, checking accounts, money market accounts, and more. The best account for you depends on factors such as your short-term and long-term financial goals, your spending habits, and your preferences for accessibility and interest rates. Our team can help you find the account that aligns with your objectives."

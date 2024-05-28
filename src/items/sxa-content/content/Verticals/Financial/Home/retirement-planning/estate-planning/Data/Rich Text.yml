@@ -1,0 +1,24 @@
+﻿---
+ID: "332ee56d-3818-45df-b4a5-71846f57ce8c"
+Parent: "bd0edfa4-e4d8-40de-9e5f-886c4e38a968"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/Verticals/Financial/Home/retirement-planning/estate-planning/Data/Rich Text"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Securing Your Legacy for Future Generations</h2>
+        <p>Estate planning is a vital component of financial planning that involves arranging for the transfer of your assets and wealth to your heirs and beneficiaries upon your death.</p>
+        <p>One of the primary goals of estate planning is to ensure that your assets are distributed according to your wishes and that your loved ones are provided for after you're gone. Estate planning allows you to designate beneficiaries for your assets, such as bank accounts, retirement accounts, life insurance policies, and real estate properties.</p>
+        <h2>Plan to plan</h2>
+        <p>Estate planning enables you to minimize estate taxes and probate costs, allowing more of your assets to pass to your beneficiaries rather than being consumed by taxes and legal fees.</p>
+        <p>Estate planning provides the opportunity to establish trusts to manage and distribute assets according to specific instructions and timelines, such as providing for minor children or charitable organizations. Estate planning allows you to appoint guardians for minor children and designate healthcare proxies and power of attorney agents to make medical and financial decisions on your behalf if you become incapacitated.</p>
+        <p>Staying organized and keeping your estate plan up to date is essential for ensuring that it accurately reflects your current wishes and circumstances.</p>
+        <p>Ultimately, estate planning is not just about distributing your assets; it's about creating a lasting legacy and providing peace of mind for yourself and your loved ones.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92e64dcb-25bb-4883-ba73-f10ae9d169d7"

@@ -34,6 +34,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Top view of a person writing in notebook
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ab92ff0c-2ff5-4071-82e7-5267566cd4fc"
+      Value: "44ed0dbd-5344-4ffb-b2cb-c959883a6081"

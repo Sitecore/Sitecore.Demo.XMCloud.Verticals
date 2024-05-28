@@ -1,0 +1,23 @@
+﻿---
+ID: "2fe05e98-0b90-44a9-8058-c5c761c43c3b"
+Parent: "3672db17-4154-4101-8433-9195780a88e6"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: "/sitecore/content/Verticals/Financial/Home/business/small-business-loans/Data/Promo CTA 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: A small business loan on your terms
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "461d7a01-287b-44ff-9eac-6f2f0ecba707"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: <p>Unlock the potential of your business with our range of small business loans, designed to provide financing solutions tailored for your needs.</p>
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{C5C6A164-300C-4E4F-BDA9-B0D0ACF8F6AB}" alt="Woman handing coffee at coffee shop" height="" width="" hspace="" vspace="" />

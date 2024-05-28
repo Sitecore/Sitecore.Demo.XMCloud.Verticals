@@ -1,0 +1,27 @@
+﻿---
+ID: "554305e5-c5fd-40a0-8c33-bb2f75d5f505"
+Parent: "54df39b5-4d04-492e-9e2c-de961c914209"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/Verticals/Financial/Home/personal/borrowing/credit-cards/Data/Rich Text"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Understanding which credit card are right for you</h2>
+        <p>When it comes to managing your finances, having a credit card can be a valuable tool for convenience, security, and building credit. Understanding how credit cards work and the various features they offer is essential for making informed decisions about your financial well-being.</p>
+        <p>At its core, a credit card is a revolving line of credit that allows you to borrow money from a financial institution to make purchases, with the promise of repaying the borrowed amount at a later date. Unlike debit cards, which draw funds directly from your bank account, credit cards provide you with a temporary loan that must be paid back according to the terms of your agreement with the card issuer.</p>
+        <p>One of the key benefits of using a credit card is the ability to build and improve your credit score. By making timely payments and keeping your credit utilization low, you can demonstrate responsible borrowing behavior to credit reporting agencies, which can positively impact your creditworthiness over time. A higher credit score can lead to better loan terms, lower interest rates, and access to more favorable financial products in the future.</p>
+        <h2>Responsible credit card habits</h2>
+        <p>It's important to use credit cards responsibly and avoid falling into debt. Carrying a balance from month to month can result in hefty interest charges, potentially negating any rewards or benefits you may receive from using the card. Creating a budget, paying your balance in full each month, and only charging what you can afford are crucial steps to maintaining healthy financial habits and maximizing the benefits of your credit card.</p>
+        <p>With a wide array of credit cards available on the market, it's essential to compare your options carefully and choose a card that aligns with your spending habits, financial goals, and lifestyle preferences. Whether you're interested in earning cashback rewards, travel perks, or building credit, there's a credit card out there to suit your needs. Take the time to research and explore your options, and remember to read the fine print to fully understand the terms and conditions associated with each card.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2aa1ee0b-7491-4cec-ab1c-f7eeae9f73f7"

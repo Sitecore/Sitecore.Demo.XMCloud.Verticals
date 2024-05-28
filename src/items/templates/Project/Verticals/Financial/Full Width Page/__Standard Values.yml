@@ -9,7 +9,6 @@ SharedFields:
   Value: |
     {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
     {5282D418-6C18-46EB-85AF-9116CDE9E6EB}
-    {F83CCEFD-FC41-4A60-9882-8F7EA5CF41A8}
     {1226C3C7-2D1F-48F5-87B4-C1DA459F05E5}
     {14431DCE-508D-4D54-9D04-C22ABBDC8F83}
 Languages:
@@ -19,7 +18,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "28a513a5-f712-4bbf-8dcd-5d33a66747b3"
+      Value: "e9c296af-41be-495e-a971-92c25a7fa71d"
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
       Value: $name
