@@ -9,6 +9,7 @@ import {
   RichTextField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
+import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
 
 interface Fields {
   Name: Field<string>;
@@ -29,7 +30,7 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
       className={`component author-details page-background col-12 ${props.params?.styles?.trimEnd()}`}
       id={id ? id : undefined}
     >
-      <Image field={props.fields.BackgroundImage} className="background-image"></Image>
+      <ParallaxBackgroundImage BackgroundImage={props.fields.BackgroundImage} />
 
       <div className="container">
         <Placeholder name="page-navigation" rendering={props.rendering} />
@@ -57,8 +58,9 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
                 </div>
               </div>
             </div>
-
-            <Placeholder name="background-page-content" rendering={props.rendering} />
+            <div className="row">
+              <Placeholder name="background-page-content" rendering={props.rendering} />
+            </div>
           </div>
         </div>
         <Placeholder name="page-content" rendering={props.rendering} />
