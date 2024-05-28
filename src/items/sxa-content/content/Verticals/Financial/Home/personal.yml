@@ -39,6 +39,13 @@ SharedFields:
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B1DBCF754-45C2-461E-99B5-63E4E26F6BE2%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
         <r
+          uid="{E443634E-3C55-4179-8077-F02ED336EB32}"
+          p:after="r[@uid='{2CFCE38E-36F8-4731-AC70-78541826A617}']"
+          s:ds="local:/Data/Parallax Banner 1"
+          s:id="{200920AD-9645-4CB2-B72A-C7D8278E709F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="/headless-main/sxa-page-content/page-content-0-1" />
+        <r
           uid="{63DF3333-CECD-4865-B2BA-A97063A9718E}"
           p:after="r[@uid='{2F983DB6-9A36-4A3E-90B6-86E5BF533E37}']"
           s:ds="local:/Data/Questions 1"
