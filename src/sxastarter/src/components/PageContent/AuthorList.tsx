@@ -35,35 +35,42 @@ interface AuthorListComponentProps {
 
 const AuthorList = (props: AuthorListComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const newsItems = props.fields?.items?.filter((item) => item.name !== 'Data');
+  const authors = props.fields?.items?.filter((item) => item.name !== 'Data');
   const { t } = useI18n();
 
   return (
     <div
-      className={`component component-spaced article-list ${props.params.styles.trimEnd()}`}
+      className={`component component-spaced author-list ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container">
         <div className="background p-3 p-sm-5">
-          {newsItems?.map((item, i) => (
-            <>
-              <div className="row gx-5 row-gap-3 align-items-center" key={item.url}>
+          {authors?.map((author, i) => (
+            <React.Fragment key={author.url}>
+              <div
+                className={`row gx-5 row-gap-3 align-items-center ${
+                  i % 2 !== 0 ? 'flex-row-reverse' : ''
+                }`}
+              >
                 <div className="col-lg-4">
-                  <Image field={item.fields.Photo} className="mw-100 h-auto" />
+                  <Image field={author.fields.Photo} />
                 </div>
-
-                <div className="col-lg-6">
+                <div className="col-lg-8">
                   <h3 className="fs-4">
-                    <Text field={item.fields.Name}></Text>
+                    <Text field={author.fields.Name}></Text>
                   </h3>
-                  <p>
-                    <RichText field={item.fields.Bio}></RichText>
-                  </p>
-                  <Link href={item.url}>{t('Read more') || 'Read more'}</Link>
+                  <div className="bio fs-5">
+                    <RichText field={author.fields.Bio}></RichText>
+                  </div>
+                  <div className="d-flex flex-wrap gap-3 justify-content-between align-items-center">
+                    <Link href={author.url} className="button button-secondary">
+                      {t('Read more') || 'Read more'}
+                    </Link>
+                  </div>
                 </div>
               </div>
-              {i === newsItems.length - 1 ? <></> : <hr />}
-            </>
+              {i === authors.length - 1 ? <></> : <hr />}
+            </React.Fragment>
           ))}
         </div>
       </div>
