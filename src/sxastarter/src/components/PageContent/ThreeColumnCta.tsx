@@ -8,6 +8,7 @@ import {
   Link,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import useVisibility from 'src/hooks/useVisibility';
 
 interface Fields {
   Text1: Field<string>;
@@ -34,6 +35,43 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const isPageEditing = sitecoreContext.pageEditing;
 
+  const Column = ({
+    image,
+    text,
+    subText,
+    link,
+    delay,
+  }: {
+    image: ImageField;
+    text: Field<string>;
+    subText: Field<string>;
+    link: LinkField;
+    delay?: number;
+  }) => {
+    const [isVisible, domRef] = useVisibility(delay);
+    return (
+      <div
+        className={`col-sm-12 col-lg-4 ${
+          !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
+        } `}
+        ref={domRef}
+      >
+        <div className="content-wrapper">
+          <Image field={image} height={' '} />
+          <h2>
+            <Text field={text} />
+          </h2>
+          <p>
+            <Text field={subText} />
+          </p>
+          {(isPageEditing || link?.value?.href) && (
+            <Link field={link} className="button button-main" />
+          )}
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div
       className={`component component-spaced three-column-cta ${props.params.styles.trimEnd()}`}
@@ -41,48 +79,26 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-lg-4">
-            <div className="content-wrapper">
-              <Image field={props.fields.Image1} height={' '} />
-              <h2>
-                <Text field={props.fields.Text1} />
-              </h2>
-              <p>
-                <Text field={props.fields.SubText1} />
-              </p>
-              {(isPageEditing || props.fields?.Link1?.value?.href) && (
-                <Link field={props.fields.Link1} className="button button-main" />
-              )}
-            </div>
-          </div>
-          <div className="col-sm-12 col-lg-4">
-            <div className="content-wrapper">
-              <Image field={props.fields.Image2} height={' '} />
-              <h2>
-                <Text field={props.fields.Text2} />
-              </h2>
-              <p>
-                <Text field={props.fields.SubText2} />
-              </p>
-              {(isPageEditing || props.fields?.Link1?.value?.href) && (
-                <Link field={props.fields.Link2} className="button button-main" />
-              )}
-            </div>
-          </div>
-          <div className="col-sm-12 col-lg-4">
-            <div className="content-wrapper">
-              <Image field={props.fields.Image3} height={' '} />
-              <h2>
-                <Text field={props.fields.Text3} />
-              </h2>
-              <p>
-                <Text field={props.fields.SubText3} />
-              </p>
-              {(isPageEditing || props.fields?.Link1?.value?.href) && (
-                <Link field={props.fields.Link3} className="button button-main" />
-              )}
-            </div>
-          </div>
+          <Column
+            image={props.fields.Image1}
+            text={props.fields.Text1}
+            subText={props.fields.SubText1}
+            link={props.fields.Link1}
+          />
+          <Column
+            image={props.fields.Image2}
+            text={props.fields.Text2}
+            subText={props.fields.SubText2}
+            link={props.fields.Link2}
+            delay={500}
+          />
+          <Column
+            image={props.fields.Image3}
+            text={props.fields.Text3}
+            subText={props.fields.SubText3}
+            link={props.fields.Link3}
+            delay={1000}
+          />
         </div>
       </div>
     </div>

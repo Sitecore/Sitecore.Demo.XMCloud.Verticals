@@ -1,5 +1,14 @@
 import React from 'react';
-import { Field, ImageField, Image, LinkField, Link, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Field,
+  ImageField,
+  Image,
+  LinkField,
+  Link,
+  Text,
+  useSitecoreContext,
+} from '@sitecore-jss/sitecore-jss-nextjs';
+import useVisibility from 'src/hooks/useVisibility';
 
 interface Fields {
   Title1: Field<string>;
@@ -17,13 +26,45 @@ interface Fields {
   Link4: LinkField;
 }
 
-export type RichTextProps = {
+export type DocumentsListProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-export const Default = (props: RichTextProps): JSX.Element => {
+export const Default = (props: DocumentsListProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
+
+  const DocumentItem = ({
+    image,
+    subtitle,
+    link,
+    delay,
+  }: {
+    image: ImageField;
+    subtitle: Field<string>;
+    link: LinkField;
+    delay?: number;
+  }) => {
+    const [isVisible, domRef] = useVisibility(delay);
+    return (
+      <div
+        className={`col  ${!isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''}`}
+        ref={domRef}
+      >
+        <div className="item">
+          <Image field={image} />
+          <div className="text-container">
+            <Link field={link} />
+            <span className="subtitle">
+              <Text field={subtitle} />
+            </span>
+          </div>
+        </div>
+      </div>
+    );
+  };
 
   return (
     <div
@@ -35,47 +76,31 @@ export const Default = (props: RichTextProps): JSX.Element => {
           <Text field={props.fields?.Title1} />
         </div>
         <div className="documents-container">
-          <div className="row row-cols-1 row-cols-xl-2 justify-content-center">
-            <div className="col px-4">
-              <div className="item">
-                <Image field={props.fields?.Image1} />
-                <div className="text-container">
-                  <Link field={props.fields?.Link1} />
-                  <span className="subtitle">
-                    <Text field={props.fields?.Subtitle1} />
-                  </span>
-                </div>
-              </div>
-              <div className="item">
-                <Image field={props.fields?.Image2} />
-                <div className="text-container">
-                  <Link field={props.fields?.Link2} />
-                  <span className="subtitle">
-                    <Text field={props.fields?.Subtitle2} />
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col px-4">
-              <div className="item">
-                <Image field={props.fields?.Image3} />
-                <div className="text-container">
-                  <Link field={props.fields?.Link3} />
-                  <span className="subtitle">
-                    <Text field={props.fields?.Subtitle3} />
-                  </span>
-                </div>
-              </div>
-              <div className="item">
-                <Image field={props.fields?.Image4} />
-                <div className="text-container">
-                  <Link field={props.fields?.Link4} />
-                  <span className="subtitle">
-                    <Text field={props.fields?.Subtitle4} />
-                  </span>
-                </div>
-              </div>
-            </div>
+          <div className="row row-cols-1 row-cols-xl-2 gx-4 justify-content-center">
+            <DocumentItem
+              image={props.fields?.Image1}
+              subtitle={props.fields?.Subtitle1}
+              link={props.fields?.Link1}
+              delay={0}
+            />
+            <DocumentItem
+              image={props.fields?.Image2}
+              subtitle={props.fields?.Subtitle2}
+              link={props.fields?.Link2}
+              delay={500}
+            />
+            <DocumentItem
+              image={props.fields?.Image3}
+              subtitle={props.fields?.Subtitle3}
+              link={props.fields?.Link3}
+              delay={1000}
+            />
+            <DocumentItem
+              image={props.fields?.Image4}
+              subtitle={props.fields?.Subtitle4}
+              link={props.fields?.Link4}
+              delay={1500}
+            />
           </div>
         </div>
       </div>

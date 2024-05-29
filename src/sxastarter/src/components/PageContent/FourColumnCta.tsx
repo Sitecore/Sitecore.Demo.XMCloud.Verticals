@@ -1,5 +1,14 @@
 import React from 'react';
-import { Field, ImageField, LinkField, Image, Text, Link } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Field,
+  ImageField,
+  LinkField,
+  Image,
+  Text,
+  Link,
+  useSitecoreContext,
+} from '@sitecore-jss/sitecore-jss-nextjs';
+import useVisibility from 'src/hooks/useVisibility';
 
 interface Fields {
   Title1: Field<string>;
@@ -27,6 +36,46 @@ export type FourColumnCtaProps = {
 
 export const Default = (props: FourColumnCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
+
+  const Column = ({
+    image,
+    title,
+    text,
+    link,
+    delay,
+  }: {
+    image: ImageField;
+    title: Field<string>;
+    text: Field<string>;
+    link: LinkField;
+    delay?: number;
+  }) => {
+    const [isVisible, domRef] = useVisibility(delay);
+    return (
+      <div
+        className={`col-sm-12 col-lg-3 ${
+          !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
+        }`}
+        ref={domRef}
+      >
+        <Link field={link}>
+          <div className="content-wrapper">
+            <Image field={image} height={' '} />
+            <div className="text-wrapper">
+              <h2>
+                <Text field={title} />
+              </h2>
+              <p>
+                <Text field={text} />
+              </p>
+            </div>
+          </div>
+        </Link>
+      </div>
+    );
+  };
 
   return (
     <div
@@ -35,66 +84,33 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-lg-3">
-            <Link field={props.fields.Link1}>
-              <div className="content-wrapper">
-                <Image field={props.fields.Image1} height={' '} />
-                <div className="text-wrapper">
-                  <h2>
-                    <Text field={props.fields.Title1} />
-                  </h2>
-                  <p>
-                    <Text field={props.fields.Text1} />
-                  </p>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div className="col-sm-12 col-lg-3">
-            <Link field={props.fields.Link2}>
-              <div className="content-wrapper">
-                <Image field={props.fields.Image2} height={' '} />
-                <div className="text-wrapper">
-                  <h2>
-                    <Text field={props.fields.Title2} />
-                  </h2>
-                  <p>
-                    <Text field={props.fields.Text2} />
-                  </p>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div className="col-sm-12 col-lg-3">
-            <Link field={props.fields.Link3}>
-              <div className="content-wrapper">
-                <Image field={props.fields.Image3} height={' '} />
-                <div className="text-wrapper">
-                  <h2>
-                    <Text field={props.fields.Title3} />
-                  </h2>
-                  <p>
-                    <Text field={props.fields.Text3} />
-                  </p>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div className="col-sm-12 col-lg-3">
-            <Link field={props.fields.Link4}>
-              <div className="content-wrapper">
-                <Image field={props.fields.Image4} height={' '} />
-                <div className="text-wrapper">
-                  <h2>
-                    <Text field={props.fields.Title4} />
-                  </h2>
-                  <p>
-                    <Text field={props.fields.Text4} />
-                  </p>
-                </div>
-              </div>
-            </Link>
-          </div>
+          <Column
+            image={props.fields.Image1}
+            title={props.fields.Title1}
+            text={props.fields.Text1}
+            link={props.fields.Link1}
+          />
+          <Column
+            image={props.fields.Image2}
+            title={props.fields.Title2}
+            text={props.fields.Text2}
+            link={props.fields.Link2}
+            delay={500}
+          />
+          <Column
+            image={props.fields.Image3}
+            title={props.fields.Title3}
+            text={props.fields.Text3}
+            link={props.fields.Link3}
+            delay={1000}
+          />
+          <Column
+            image={props.fields.Image4}
+            title={props.fields.Title4}
+            text={props.fields.Text4}
+            link={props.fields.Link4}
+            delay={1500}
+          />
         </div>
       </div>
     </div>

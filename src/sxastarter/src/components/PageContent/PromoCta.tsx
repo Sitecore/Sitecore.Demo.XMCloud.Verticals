@@ -11,6 +11,7 @@ import {
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
+import useVisibility from 'src/hooks/useVisibility';
 
 interface Fields {
   Title: Field<string>;
@@ -28,11 +29,13 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { sitecoreContext } = useSitecoreContext();
   const isPageEditing = sitecoreContext.pageEditing;
+  const [isVisible, domRef] = useVisibility();
 
   return (
     <div
       className={`component promo-cta ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
+      ref={domRef}
     >
       <div className="container">
         <div className="row row-gap-4 main-content align-items-center">
@@ -49,7 +52,12 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
             </div>
           </div>
           <div className="col-md-10 mx-auto col-lg-7 mx-lg-0 image-wrapper">
-            <Image field={props.fields.Image} className="d-block  mx-lg-auto img-fluid"></Image>
+            <Image
+              field={props.fields.Image}
+              className={`d-block mx-lg-auto img-fluid ${
+                !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
+              }`}
+            ></Image>
           </div>
         </div>
       </div>
