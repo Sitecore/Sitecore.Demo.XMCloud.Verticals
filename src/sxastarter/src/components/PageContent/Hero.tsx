@@ -6,12 +6,16 @@ import {
   RichTextField,
   Text,
   RichText,
+  useSitecoreContext,
+  Link,
+  LinkField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: Field<string>;
   Text: RichTextField;
   Image: ImageField;
+  Link: LinkField;
 }
 
 export type AppPromoProps = {
@@ -21,6 +25,8 @@ export type AppPromoProps = {
 
 export const Default = (props: AppPromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
 
   return (
     <div className={`component hero ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
@@ -38,9 +44,9 @@ export const Default = (props: AppPromoProps): JSX.Element => {
         </div>
         <div className="bottom-layout">
           <div className="btn-array">
-            <a href="#" className="button" title="">
-              Learn more
-            </a>
+            {(isPageEditing || props.fields?.Link?.value?.href) && (
+              <Link field={props.fields.Link} className="button button-main mt-3" />
+            )}
           </div>
         </div>
       </div>
