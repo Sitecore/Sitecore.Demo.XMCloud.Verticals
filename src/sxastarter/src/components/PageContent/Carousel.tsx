@@ -55,7 +55,7 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
       <div className="carousel-inner">
         {props.fields.items.map((item, i) => (
           <div key={i} className={'carousel-item ' + (i == index ? 'active' : '')}>
-            {!isPageEditing && item.fields?.Video?.value ? (
+            {!isPageEditing && item.fields?.Video?.value?.src ? (
               <video
                 className="object-fit-cover d-block w-100 h-100"
                 autoPlay={true}
