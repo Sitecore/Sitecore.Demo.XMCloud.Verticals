@@ -10,6 +10,7 @@ import {
   Placeholder,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
+import useVisibility from 'src/hooks/useVisibility';
 
 interface Fields {
   Title1: Field<string>;
@@ -32,6 +33,50 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const isPageEditing = sitecoreContext.pageEditing;
 
+  const Column = ({
+    image,
+    title,
+    text,
+    link,
+    placeholder,
+    delay,
+  }: {
+    image: ImageField;
+    title: Field<string>;
+    text: Field<string>;
+    link: LinkField;
+    placeholder: string;
+    delay?: number;
+  }) => {
+    const [isVisible, domRef] = useVisibility(delay);
+    return (
+      <div
+        className={`col-sm-12 col-lg-6 ${
+          !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
+        }`}
+        ref={domRef}
+      >
+        <div className="content-wrapper">
+          <Image field={image} height={' '} />
+          {(isPageEditing || title?.value) && (
+            <h2>
+              <Text field={title} />
+            </h2>
+          )}
+          {(isPageEditing || text?.value) && (
+            <p>
+              <Text field={text} />
+            </p>
+          )}
+          {(isPageEditing || link?.value?.href) && (
+            <Link field={link} className="button button-main" />
+          )}
+          <Placeholder name={placeholder} rendering={props.rendering} />
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div
       className={`component two-column-cta pb-5 ${props.params.styles.trimEnd()}`}
@@ -39,44 +84,22 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-lg-6">
-            <div className="content-wrapper">
-              <Image field={props.fields.Image1} height={' '} />
-              {(isPageEditing || props.fields?.Title1?.value) && (
-                <h2>
-                  <Text field={props.fields.Title1} />
-                </h2>
-              )}
-              {(isPageEditing || props.fields?.Text1?.value) && (
-                <p>
-                  <Text field={props.fields.Text1} />
-                </p>
-              )}
-              {(isPageEditing || props.fields?.Link1?.value?.href) && (
-                <Link field={props.fields.Link1} className="button button-main" />
-              )}
-              <Placeholder name="two-col-placeholder-left" rendering={props.rendering} />
-            </div>
-          </div>
-          <div className="col-sm-12 col-lg-6">
-            <div className="content-wrapper">
-              <Image field={props.fields.Image2} height={' '} />
-              {(isPageEditing || props.fields?.Title2?.value) && (
-                <h2>
-                  <Text field={props.fields.Title2} />
-                </h2>
-              )}
-              {(isPageEditing || props.fields?.Text2?.value) && (
-                <p>
-                  <Text field={props.fields.Text2} />
-                </p>
-              )}
-              {(isPageEditing || props.fields?.Link2?.value?.href) && (
-                <Link field={props.fields.Link2} className="button button-main" />
-              )}
-              <Placeholder name="two-col-placeholder-right" rendering={props.rendering} />
-            </div>
-          </div>
+          <Column
+            image={props.fields.Image1}
+            title={props.fields.Title1}
+            text={props.fields.Text1}
+            link={props.fields.Link1}
+            placeholder="two-col-placeholder-left"
+            delay={0}
+          />
+          <Column
+            image={props.fields.Image2}
+            title={props.fields.Title2}
+            text={props.fields.Text2}
+            link={props.fields.Link2}
+            placeholder="two-col-placeholder-right"
+            delay={500}
+          />
         </div>
       </div>
     </div>
