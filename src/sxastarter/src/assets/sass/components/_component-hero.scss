@@ -25,6 +25,12 @@
     object-fit: cover;
   }
 
+  &.rounded-corners {
+    img {
+      border-radius: var(--roundness);
+    }
+  }
+
   .content-container {
     height: 100%;
     justify-content: space-between;

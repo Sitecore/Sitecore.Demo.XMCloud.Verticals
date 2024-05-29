@@ -1,5 +1,14 @@
 import React from 'react';
-import { Field, ImageField, Image, LinkField, Link, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Field,
+  ImageField,
+  Image,
+  LinkField,
+  Link,
+  Text,
+  useSitecoreContext,
+} from '@sitecore-jss/sitecore-jss-nextjs';
+import useVisibility from 'src/hooks/useVisibility';
 
 interface Fields {
   Text1: Field<string>;
@@ -19,13 +28,44 @@ interface Fields {
   Link5: LinkField;
 }
 
-export type RichTextProps = {
+export type FiveColumnCtaProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-export const Default = (props: RichTextProps): JSX.Element => {
+export const Default = (props: FiveColumnCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
+
+  const Column = ({
+    image,
+    text,
+    link,
+    delay,
+  }: {
+    image: ImageField;
+    text: Field<string>;
+    link: LinkField;
+    delay?: number;
+  }) => {
+    const [isVisible, domRef] = useVisibility(delay);
+    return (
+      <div
+        className={`col ${!isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''} `}
+        ref={domRef}
+      >
+        <Link field={link}>
+          <div className="image-container">
+            <Image field={image} className="d-block w-100 h-100" />
+          </div>
+        </Link>
+        <div className="text-container">
+          <Text field={text} />
+        </div>
+      </div>
+    );
+  };
 
   return (
     <div
@@ -34,56 +74,31 @@ export const Default = (props: RichTextProps): JSX.Element => {
     >
       <div className="container">
         <div className="row row-cols-2 row-cols-sm-3 row-cols-lg-5 row-gap-3 gx-5 justify-content-center">
-          <div className="col">
-            <Link field={props.fields.Link1}>
-              <div className="image-container">
-                <Image field={props.fields.Image1} className="d-block w-100 h-100" />
-              </div>
-            </Link>
-            <div className="text-container">
-              <Text field={props.fields.Text1} />
-            </div>
-          </div>
-          <div className="col">
-            <Link field={props.fields.Link2}>
-              <div className="image-container">
-                <Image field={props.fields.Image2} className="d-block w-100 h-100" />
-              </div>
-            </Link>
-            <div className="text-container">
-              <Text field={props.fields.Text2} />
-            </div>
-          </div>
-          <div className="col">
-            <Link field={props.fields.Link3}>
-              <div className="image-container">
-                <Image field={props.fields.Image3} className="d-block w-100 h-100" />
-              </div>
-            </Link>
-            <div className="text-container">
-              <Text field={props.fields.Text3} />
-            </div>
-          </div>
-          <div className="col">
-            <Link field={props.fields.Link4}>
-              <div className="image-container">
-                <Image field={props.fields.Image4} className="d-block w-100 h-100" />
-              </div>
-            </Link>
-            <div className="text-container">
-              <Text field={props.fields.Text4} />
-            </div>
-          </div>
-          <div className="col">
-            <Link field={props.fields.Link5}>
-              <div className="image-container">
-                <Image field={props.fields.Image5} className="d-block w-100 h-100" />
-              </div>
-            </Link>
-            <div className="text-container">
-              <Text field={props.fields.Text5} />
-            </div>
-          </div>
+          <Column image={props.fields.Image1} text={props.fields.Text1} link={props.fields.Link1} />
+          <Column
+            image={props.fields.Image2}
+            text={props.fields.Text2}
+            link={props.fields.Link2}
+            delay={500}
+          />
+          <Column
+            image={props.fields.Image3}
+            text={props.fields.Text3}
+            link={props.fields.Link3}
+            delay={1000}
+          />
+          <Column
+            image={props.fields.Image4}
+            text={props.fields.Text4}
+            link={props.fields.Link4}
+            delay={1500}
+          />
+          <Column
+            image={props.fields.Image5}
+            text={props.fields.Text5}
+            link={props.fields.Link5}
+            delay={2000}
+          />
         </div>
       </div>
     </div>
