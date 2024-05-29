@@ -18,6 +18,7 @@ interface Fields {
   Text: RichTextField;
   Image: ImageField;
   Link: LinkField;
+  Video: ImageField;
 }
 
 export type CarouselItemProps = {
@@ -54,11 +55,25 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
       <div className="carousel-inner">
         {props.fields.items.map((item, i) => (
           <div key={i} className={'carousel-item ' + (i == index ? 'active' : '')}>
-            <Image
-              field={item.fields.Image}
-              className="object-fit-cover d-block w-100 h-100"
-              height={' '}
-            ></Image>
+            {!isPageEditing && item.fields?.Video?.value?.src ? (
+              <video
+                className="object-fit-cover d-block w-100 h-100"
+                autoPlay={true}
+                loop={true}
+                muted
+                playsInline
+                poster={item.fields.Image?.value?.src}
+              >
+                <source src={item.fields.Video.value.src} type="video/webm" />
+              </video>
+            ) : (
+              <Image
+                field={item.fields.Image}
+                className="object-fit-cover d-block w-100 h-100"
+                height={' '}
+              ></Image>
+            )}
+
             <div className="side-content">
               <div className="container">
                 <div className="col-lg-5 col-md-6 offset-md-6 offset-lg-7">
