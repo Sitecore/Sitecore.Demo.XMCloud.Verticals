@@ -1,0 +1,24 @@
+﻿---
+ID: "72b6836a-f707-4fae-8635-96e99139844f"
+Parent: "d5d73d45-0f16-4b32-ba70-9241370c8ce8"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: "/sitecore/content/Verticals/Financial/Home/retirement-planning/Data/Questions 1/Question 2"
+BranchID: "bba2c8f4-b940-4820-bf71-1b089bc5f86a"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{1B3E2AF0-8A50-401D-B32C-5F3C293EFBCE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6de7c31e-4f29-48b3-b7e6-c5aea3447d38"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "How do I know if I am ready to retire?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: If you're not ready to retire, you don't have to. It's a personal choice. We'll help you figure out a retirement plan so you can make a clear decision when you know you are financially ready.

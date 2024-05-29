@@ -1,0 +1,17 @@
+﻿---
+ID: "54df39b5-4d04-492e-9e2c-de961c914209"
+Parent: "d0e2f5f1-e984-4ddd-9a32-be0d90674e6c"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/Verticals/Financial/Home/personal/borrowing/credit-cards/Data"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e51df86c-be3f-4112-afc1-8d6c79cdfd8e"

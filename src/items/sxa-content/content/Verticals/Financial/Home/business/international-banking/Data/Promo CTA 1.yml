@@ -1,0 +1,23 @@
+﻿---
+ID: "f3055577-bfdf-4cf6-a842-783bbfae5b1c"
+Parent: "00f89013-e296-4337-90f5-c7ecb090d52a"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: "/sitecore/content/Verticals/Financial/Home/business/international-banking/Data/Promo CTA 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Connecting you to worldwide opportunities
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0d876758-6b73-433f-a847-4b5bb66ddf26"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: <p>Unlock the power of global finance with our suite of international banking services, designed to meet your global ambitions.</p>
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{52ED4D9B-C67D-45F9-8B32-81CCB247C307}" alt="Lock and credit cards on a keyboard" height="" width="" hspace="" vspace="" />

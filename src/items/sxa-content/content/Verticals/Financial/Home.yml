@@ -4,6 +4,13 @@ Parent: "08d9417d-5071-46ff-896b-eb76b0790526"
 Template: "5282d418-6c18-46eb-85af-9116cde9e6eb"
 Path: /sitecore/content/Verticals/Financial/Home
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {5282D418-6C18-46EB-85AF-9116CDE9E6EB}
+    {1226C3C7-2D1F-48F5-87B4-C1DA459F05E5}
+    {14431DCE-508D-4D54-9D04-C22ABBDC8F83}
 - ID: "4a749557-242b-4372-8a20-b2db9d406301"
   Hint: __AutoThumbnails
   Value: 
@@ -83,7 +90,7 @@ SharedFields:
         <r
           uid="{7EBE6F29-1C6F-4138-8BF9-287ACF0CD530}"
           p:after="*[1=2]"
-          s:ds="local:/Data/App Promo"
+          s:ds="{7C52E43F-6B20-4165-86EA-108FD1D2436D}"
           s:id="{F9905F68-21E8-4C6F-8B89-56BB99020D31}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=21"
           s:ph="headless-main" />
@@ -126,7 +133,7 @@ Languages:
       Value: Financial
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4b4f97f3-1872-43bf-94ed-321afbad331c"
+      Value: "5e582784-695e-42ba-be16-893e490757df"
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
       Value: Financial

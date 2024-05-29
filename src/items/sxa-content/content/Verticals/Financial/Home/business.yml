@@ -18,19 +18,47 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{C879518E-FEF1-437F-BFF8-14AD82C82F72}"
+          uid="{FA3AF3E9-7260-4835-9970-36524246AD28}"
           p:before="*"
-          s:ds="local:/Data/Three Column CTA 2"
+          s:ds="local:/Data/Three Column CTA 1"
           s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7B939CBD3C-08FA-4188-B8D7-55EEF3F3E028%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=5"
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
         <r
-          uid="{E7E05F34-7C02-4AA9-9962-FF0C431B6694}"
-          p:after="*[1=2]"
-          s:ds="local:/Data/Text 1"
-          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
-          s:par="FieldNames=%7b28195CAE-07A4-40F2-98DA-609BDCD53B01%7d&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          uid="{E25AB7CC-356F-4A00-A1EB-CEEFBE5578BB}"
+          p:after="r[@uid='{FA3AF3E9-7260-4835-9970-36524246AD28}']"
+          s:ds="local:/Data/Promo CTA 1"
+          s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7B96542870-8A0D-48D0-A440-FA4F7B9B9625%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=6"
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{2F983DB6-9A36-4A3E-90B6-86E5BF533E37}"
+          p:after="r[@uid='{E25AB7CC-356F-4A00-A1EB-CEEFBE5578BB}']"
+          s:ds="local:/Data/Promo CTA 2"
+          s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B1DBCF754-45C2-461E-99B5-63E4E26F6BE2%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{63DF3333-CECD-4865-B2BA-A97063A9718E}"
+          p:after="r[@uid='{2F983DB6-9A36-4A3E-90B6-86E5BF533E37}']"
+          s:ds="local:/Data/Questions 1"
+          s:id="{75464A5E-CBB7-4F96-BBBC-104AFE57923A}"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7BAC2F465E-37DA-4902-A6E1-54D0D9A34A0D%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=7"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{668594D0-1879-467B-89BF-B7AF1689CDC8}"
+          p:after="r[@uid='{63DF3333-CECD-4865-B2BA-A97063A9718E}']"
+          s:ds="local:/Data/Tagline"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles=%7BAC2F465E-37DA-4902-A6E1-54D0D9A34A0D%7D%7C%7B4905CFE2-2F7A-461D-A946-69433A87D027%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+        <r
+          uid="{07924449-E37A-440B-B7D7-8F3C05F6398D}"
+          p:after="*[1=2]"
+          s:ds="{D5CE16D6-7E8C-405C-A87C-3295091B1118}"
+          s:id="{F9905F68-21E8-4C6F-8B89-56BB99020D31}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
+          s:ph="headless-main" />
       </d>
     </r>
 Languages:
@@ -45,25 +73,22 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
-    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
-      Hint: __Final Renderings
-      Value: 
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
       Hint: Title
       Value: Business
     - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
       Hint: Content
-      Value: There is only one perfect home. Yours.
+      Value: <p>Support for you and your business. Guarnteed.</p>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Business
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "123d9a8a-e406-4eb7-ab64-e9e2e4b92e32"
+      Value: "69f9a69e-73c9-4bf7-b564-17b1b1864357"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |
-        <image mediaid="{150A83BB-D038-4CEE-B893-C07B68BA1D8B}" />
+        <image mediaid="{0A2D0C59-7209-4BA8-977C-D2286C91AC4D}" alt="Store open sign in window" height="" width="" hspace="" vspace="" />
 - Language: "fr-CA"
   Versions:
   - Version: 1
