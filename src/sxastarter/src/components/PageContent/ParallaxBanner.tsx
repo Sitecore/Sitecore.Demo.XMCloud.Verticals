@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   Field,
+  Image,
   ImageField,
   RichTextField,
   Text,
@@ -29,6 +30,21 @@ export const Default = (props: ParallaxBannerProps) => {
   const { sitecoreContext } = useSitecoreContext();
   const isPageEditing = sitecoreContext.pageEditing;
 
+  const BannerContentBlock = (
+    <div className="parallax-banner-content-inner">
+      <h1 className="display-3 fw-bold text-center mb-3">
+        <Text field={props.fields.Title} />
+      </h1>
+      <div className="fs-5 text-center">
+        <RichText field={props.fields.Text} />
+
+        {(isPageEditing || props.fields?.Link?.value?.href) && (
+          <Link field={props.fields.Link} className="button button-main mt-3" />
+        )}
+      </div>
+    </div>
+  );
+
   const background: BannerLayer = {
     image: `${props.fields.BackgroundImage?.value?.src}`,
     translateY: [0, 50],
@@ -43,25 +59,7 @@ export const Default = (props: ParallaxBannerProps) => {
     scale: [1, 1.1, 'easeOutCubic'],
     shouldAlwaysCompleteAnimation: true,
     expanded: false,
-    children: (
-      <div
-        className="position-absolute d-flex flex-column align-items-center justify-content-center"
-        style={{ inset: 0, zIndex: 10 }}
-      >
-        <div style={{ maxWidth: '50%' }}>
-          <h1 className="display-3 fw-bold text-center mb-3">
-            <Text field={props.fields.Title} />
-          </h1>
-          <div className="fs-5 text-center">
-            <RichText field={props.fields.Text} />
-
-            {(isPageEditing || props.fields?.Link?.value?.href) && (
-              <Link field={props.fields.Link} className="button button-main mt-3" />
-            )}
-          </div>
-        </div>
-      </div>
-    ),
+    children: BannerContentBlock,
     className: 'parallax-banner-content',
   };
 
@@ -75,13 +73,23 @@ export const Default = (props: ParallaxBannerProps) => {
 
   return (
     <div
-      className={`component parallax-banner ${props.params.styles.trimEnd()}`}
+      className={`component parallax-banner ${
+        isPageEditing ? 'edit-mode' : ''
+      } ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
-      <ParallaxBanner
-        layers={[background, headline, foreground]}
-        className="parallax-banner-inner"
-      />
+      {isPageEditing ? (
+        <div className="parallax-banner-inner">
+          <Image field={props.fields.BackgroundImage} className="parallax-banner-background" />
+          <div className="parallax-banner-content">{BannerContentBlock}</div>
+          <Image field={props.fields.ForegroundImage} className="parallax-banner-foreground" />
+        </div>
+      ) : (
+        <ParallaxBanner
+          layers={[background, headline, foreground]}
+          className="parallax-banner-inner"
+        />
+      )}
     </div>
   );
 };
