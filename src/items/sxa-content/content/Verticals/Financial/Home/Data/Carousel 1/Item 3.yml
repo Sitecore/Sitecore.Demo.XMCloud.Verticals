@@ -17,11 +17,11 @@ Languages:
         <link text="Apply now" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D0E2F5F1-E984-4DDD-9A32-BE0D90674E6C}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ec7489c7-4c9f-4056-bfd1-f4e0344e65b2"
+      Value: "ed58ab91-0a53-4842-9ceb-c94ed761f137"
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
       Value: <p>Lorem ipsum dolor sit amet</p>
     - ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
       Hint: Image
       Value: |
-        <image mediaid="{2572F151-62BF-40FB-A1D9-C50BE3040BF7}" />
+        <image mediaid="{99617DE0-EAD5-448E-BC85-EAE51558631D}" />
