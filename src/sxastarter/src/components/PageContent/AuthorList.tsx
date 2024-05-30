@@ -44,7 +44,7 @@ const AuthorList = (props: AuthorListComponentProps): JSX.Element => {
 
   return (
     <div
-      className={`component component-spaced author-list ${props.params.styles.trimEnd()}`}
+      className={`component author-list ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container">
