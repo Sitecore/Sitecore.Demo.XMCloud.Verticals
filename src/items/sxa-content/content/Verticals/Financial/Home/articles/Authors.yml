@@ -21,7 +21,7 @@ SharedFields:
           uid="{049A0E7C-CBF3-482E-A979-9CB47F1C9B86}"
           s:ds="8c2d6765-91be-4bd8-a0b3-4f81256e75a6"
           s:id="{69E8A90F-59CA-4638-B53E-BDCE65835230}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B7B072563-1F10-4500-8963-F2FE013CF51A%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
       </d>
     </r>
@@ -38,4 +38,4 @@ Languages:
       Value: Authors
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b7fb7ea0-e1fe-4615-830b-76d8b4b2a82a"
+      Value: "11038523-1f24-4e3e-bcbe-eae986a22ee7"
