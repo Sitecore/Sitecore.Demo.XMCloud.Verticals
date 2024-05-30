@@ -9,6 +9,7 @@ import {
   withDatasourceCheck,
   RichTextField,
   RichText,
+  useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 import { useI18n } from 'next-localization';
@@ -17,6 +18,7 @@ interface Fields {
   Name: Field<string>;
   Photo: ImageField;
   Bio: RichTextField;
+  Position: Field<string>;
 }
 
 export type AuthorListItemProps = {
@@ -36,11 +38,13 @@ interface AuthorListComponentProps {
 const AuthorList = (props: AuthorListComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const authors = props.fields?.items?.filter((item) => item.name !== 'Data');
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
   const { t } = useI18n();
 
   return (
     <div
-      className={`component component-spaced author-list ${props.params.styles.trimEnd()}`}
+      className={`component author-list ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container">
@@ -56,10 +60,13 @@ const AuthorList = (props: AuthorListComponentProps): JSX.Element => {
                   <Image field={author.fields.Photo} />
                 </div>
                 <div className="col-lg-8">
-                  <h3 className="fs-4">
+                  <h3 className="fs-3 mb-0">
                     <Text field={author.fields.Name}></Text>
                   </h3>
-                  <div className="bio fs-5">
+                  <p className="position fs-5">
+                    <Text field={author.fields.Position} />
+                  </p>
+                  <div className={`bio fs-5 ${isPageEditing ? '' : 'clamped'}`}>
                     <RichText field={author.fields.Bio}></RichText>
                   </div>
                   <div className="d-flex flex-wrap gap-3 justify-content-between align-items-center">
