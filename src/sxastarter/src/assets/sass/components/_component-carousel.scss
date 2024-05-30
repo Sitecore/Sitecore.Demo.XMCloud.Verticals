@@ -76,11 +76,20 @@
   }
 
   .carousel-item {
-    max-height: 41em;
     bottom: unset;
     text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    .active {
+      display: flex;
+    }
 
     @include media-breakpoint-up(md) {
+      height: 41em;
+
       img {
         min-height: 25rem;
         /* stylelint-disable */
@@ -116,6 +125,7 @@
         display: flex;
         align-items: center;
         padding: 2rem 0;
+        top: 10px;
       }
 
       a {
