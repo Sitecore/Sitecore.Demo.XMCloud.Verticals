@@ -49,7 +49,7 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
                     <Text field={props.fields.Name} />
                   </h1>
                   <p className="author-position fs-4">
-                    <RichText field={props.fields.Position} />
+                    <Text field={props.fields.Position} />
                   </p>
                   <hr />
                   <div className="author-bio">
