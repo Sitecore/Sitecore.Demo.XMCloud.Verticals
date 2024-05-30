@@ -9,10 +9,10 @@ SharedFields:
   Value: Hero
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Medal.png
+  Value: apps/32x32/ipad.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/Verticals/Components/App Promo
+  Value: /sitecore/templates/Project/Verticals/Components/Hero
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -24,13 +24,13 @@ SharedFields:
   Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='App Promo']|query:$sharedSites/*[@@name='Data']/*[@@templatename='App Promo']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Hero']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Hero']"
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
   Value: 
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
-  Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
+  Value: IsAutoDatasourceRendering=true
 Languages:
 - Language: "de-DE"
   Fields:
@@ -53,7 +53,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8b9c8638-02fa-4bf2-aa8a-14ca368bef71"
+      Value: "18ac2477-d572-477c-add1-4f7d8ab2e0c2"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
