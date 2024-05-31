@@ -45,7 +45,7 @@ export const Default = (props: RichTextProps): JSX.Element => {
             <Image field={props.fields?.Image1} className="p-svg" />
             <Image field={props.fields?.Image2} className="dot-svg" />
           </div>
-          <div className="row row-cols-1 ps-3 row-cols-sm-2 ps-sm-0 row-cols-xl-4 row-gap-5 gx-5">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-xl-4 row-gap-5 gx-5">
             <div className="col">
               <div className="title">
                 <Text field={props.fields?.Title1} />
@@ -80,6 +80,7 @@ export const Default = (props: RichTextProps): JSX.Element => {
             </div>
           </div>
         </div>
+        <hr />
         <div className="footnote">
           <Text field={props.fields?.Copyright} />
           <div className="privacy-links">

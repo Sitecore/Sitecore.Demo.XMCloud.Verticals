@@ -2,26 +2,34 @@
 @import 'variables';
 
 footer {
+  background-color: var(--bg-footer);
+  color: var(--text-footer);
+  font-size: 1.5rem;
+
   @include respond-to(mobile-large) {
-    padding-top: 0;
+    padding: 0 $size-padding;
   }
 
-  .container-dark-background {
-    background-color: var(--bg-footer);
-  }
+  a,
+  .links a,
+  .privacy-links a {
+    color: var(--text-footer);
+    text-decoration: none;
+    opacity: 1;
+    transition: all 0.3s;
 
-  .indent-inner {
-    padding: 65px;
-
-    @include respond-to(mobile-large) {
-      padding: 40px 0;
+    &:hover {
+      opacity: 0.8;
     }
   }
 
   .content {
     display: flex;
-    padding-bottom: 3rem;
-    border-bottom: #f0f5f7 solid 2px;
+    margin: 2rem 0;
+
+    > .row {
+      width: 100%;
+    }
 
     .logo {
       display: block;
@@ -50,44 +58,35 @@ footer {
     }
 
     .title {
-      color: #fff;
-      font-size: 25px;
       font-weight: bold;
       margin-bottom: 1.2rem;
     }
+  }
 
-    .links a {
-      text-decoration: none;
-      color: #fff;
-      font-size: 25px;
-    }
+  hr {
+    border-top: var(--text-footer) solid 2px;
+    opacity: 0.75;
+    border-radius: var(--roundness);
   }
 
   .footnote {
-    font-size: 25px;
-    color: #fff;
     display: flex;
     justify-content: space-between;
     margin-top: 1.5rem;
-    padding-left: 0;
 
-    @include respond-to(mobile-horizontal) {
+    @include respond-to(mobile-large) {
       flex-direction: column;
-      padding-left: 1rem;
+      gap: 1rem;
     }
 
     .privacy-links {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      gap: 1rem;
 
-      @include respond-to(desktop) {
-        flex-direction: row;
-        gap: 1rem;
-      }
-
-      a {
-        color: #fff;
-        text-decoration: none;
+      @include respond-to(mobile-large) {
+        flex-direction: column;
+        gap: 0;
       }
     }
   }
