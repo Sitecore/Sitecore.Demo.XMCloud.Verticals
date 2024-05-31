@@ -12,7 +12,6 @@ import {
 
 interface Fields {
   Image1: ImageField;
-  Image2: ImageField;
   Title1: Field<string>;
   Text1: RichTextField;
   Title2: Field<string>;
@@ -42,8 +41,7 @@ export const Default = (props: RichTextProps): JSX.Element => {
       <div className="container">
         <div className="content">
           <div className="logo">
-            <Image field={props.fields?.Image1} className="p-svg" />
-            <Image field={props.fields?.Image2} className="dot-svg" />
+            <Image field={props.fields?.Image1} height={' '} className="img-fluid" />
           </div>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-xl-4 row-gap-5 gx-5">
             <div className="col">

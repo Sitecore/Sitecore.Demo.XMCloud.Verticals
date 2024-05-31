@@ -26,34 +26,17 @@ footer {
   .content {
     display: flex;
     margin: 2rem 0;
+    gap: 4rem;
 
     > .row {
       width: 100%;
     }
 
     .logo {
-      display: block;
-      margin-right: 4rem;
+      flex-basis: 20%;
 
       @include respond-to(mobile-large) {
         display: none;
-      }
-
-      .p-svg {
-        display: block;
-        filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
-          hue-rotate(288deg) brightness(102%) contrast(102%);
-        max-width: 13.625rem;
-        max-height: 11.375rem;
-      }
-
-      .dot-svg {
-        display: block;
-        margin-top: 1rem;
-        filter: brightness(0) saturate(100%) invert(28%) sepia(63%) saturate(4938%) hue-rotate(9deg)
-          brightness(106%) contrast(108%);
-        max-width: 5.25rem;
-        max-height: 5.25rem;
       }
     }
 

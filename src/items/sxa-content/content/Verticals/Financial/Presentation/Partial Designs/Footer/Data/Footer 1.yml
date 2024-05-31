@@ -10,12 +10,11 @@ Languages:
     Fields:
     - ID: "8cca5eed-fd92-4f75-b1e6-b0a70f40d5ad"
       Hint: Image2
-      Value: |
-        <image mediaid="{B9DE5E6B-8414-4A6D-91A3-868D14C0857D}" alt="" height="" width="" hspace="" vspace="" />
+      Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9c55a86d-7fb7-4122-bf76-02ffb920d753"
+      Value: "b1400187-2020-4a89-8600-bad0454c24bf"
     - ID: "edf38721-e3f4-4a5f-b94b-44b9749ef0fb"
       Hint: Image1
       Value: |
-        <image mediaid="{A5957956-20A2-4FCC-B203-388D7C696FA7}" alt="" height="" width="" hspace="" vspace="" />
+        <image mediaid="{1FC53620-6DA2-4341-98FD-4782C564070C}" />
