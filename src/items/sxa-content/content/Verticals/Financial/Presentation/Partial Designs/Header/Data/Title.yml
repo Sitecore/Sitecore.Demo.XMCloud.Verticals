@@ -17,11 +17,32 @@ Languages:
       Value: |
         <a href="/">
         <h1>
-        <span class="play">PLAY!</span><span class="finance">finance</span></h1>
+        <span class="play">
+        <?xml version="1.0" encoding="UTF-8" />
+        <svg id="p-sign" data-name="p-sign" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 20.42">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: currentColor;
+              }
+        
+              .cls-2 {
+                fill: #ff3c28;
+              }
+            </style>
+          </defs>
+          <g id="Layer_1-2" data-name="Layer 1">
+            <g>
+              <path id="Path_88" data-name="Path 88" class="cls-1" d="M8.57,0H2.53C1.23,0,.09,.99,0,2.29c-.09,1.35,.93,2.53,2.28,2.62,.06,0,.11,0,.17,0H7.88c1.38,0,1.91,.72,1.91,1.79s-.53,1.8-1.91,1.8H2.42C1.08,8.51,0,9.6,0,10.94c0,1.33,1.08,2.41,2.41,2.41h6.15c4.92,0,7.43-3.01,7.43-6.63C16,2.76,13.49,0,8.57,0"></path>
+              <rect class="cls-2" x="0" y="14.31" width="6.12" height="6.12" rx="3.06" ry="3.06"></rect>
+            </g>
+          </g>
+        </svg>
+        <span>LAY!</span></span><span class="finance">finance</span></h1>
         </a>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "00fb33a2-13e8-409e-ae2d-078e327f32a0"
+      Value: "721ca742-25d0-4d00-ad23-7a2417681a50"
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -31,8 +52,29 @@ Languages:
       Value: |
         <a href="/">
         <h1>
-        <span class="play">PLAY!</span><span class="finance">financier</span></h1>
+        <span class="play">
+        <?xml version="1.0" encoding="UTF-8" />
+        <svg id="p-sign" data-name="p-sign" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 20.42">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: currentColor;
+              }
+        
+              .cls-2 {
+                fill: #ff3c28;
+              }
+            </style>
+          </defs>
+          <g id="Layer_1-2" data-name="Layer 1">
+            <g>
+              <path id="Path_88" data-name="Path 88" class="cls-1" d="M8.57,0H2.53C1.23,0,.09,.99,0,2.29c-.09,1.35,.93,2.53,2.28,2.62,.06,0,.11,0,.17,0H7.88c1.38,0,1.91,.72,1.91,1.79s-.53,1.8-1.91,1.8H2.42C1.08,8.51,0,9.6,0,10.94c0,1.33,1.08,2.41,2.41,2.41h6.15c4.92,0,7.43-3.01,7.43-6.63C16,2.76,13.49,0,8.57,0"></path>
+              <rect class="cls-2" x="0" y="14.31" width="6.12" height="6.12" rx="3.06" ry="3.06"></rect>
+            </g>
+          </g>
+        </svg>
+        <span>LAY!</span></span><span class="finance">financier</span></h1>
         </a>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0e47bc13-1943-4b1d-9908-d777270128f6"
+      Value: "b60890d0-98fb-4112-996d-b78db5d5b5cc"
