@@ -91,11 +91,11 @@ Languages:
       Value: Personal
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "203e9df3-ee87-42b2-8d8c-8bcc02e7e9cc"
+      Value: "6d5d47b9-6dfe-432a-8c6f-fd61ce03fd07"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |
-        <image mediaid="{D5A59561-6EB1-4AAB-B8FE-7D426C08139B}" />
+        <image mediaid="{D5A59561-6EB1-4AAB-B8FE-7D426C08139B}" alt="house-key-calculator-with-dollar-bills" height="" width="" hspace="" vspace="" />
 - Language: "fr-CA"
   Versions:
   - Version: 1

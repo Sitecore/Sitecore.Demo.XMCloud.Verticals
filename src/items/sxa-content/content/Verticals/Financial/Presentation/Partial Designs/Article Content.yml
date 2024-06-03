@@ -26,10 +26,17 @@ SharedFields:
           s:ph="headless-main" />
         <r
           uid="{4E94E9C6-404D-4A6D-B2C9-8228624577AC}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{F59395FE-244D-4421-84E9-B681C40B8633}']"
           s:id="{613A1798-71DD-4A5C-A183-A3BAB92289C4}"
           s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="/headless-main/page-navigation-0-1" />
+        <r
+          uid="{7C24FE50-CDB6-4097-A13B-073CF26F0C51}"
+          p:after="*[1=2]"
+          s:ds="ee12ee55-11a8-495f-bcc5-9ac98583b175"
+          s:id="{35075000-760E-4FF3-BD1C-F2EEBA251DCB}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/page-content-0-1" />
       </d>
     </r>
 Languages:
@@ -42,4 +49,11 @@ Languages:
       Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "292e3c7c-004c-418a-881e-ebfdb76c5ae1"
+      Value: "b04e57c5-f3cd-4fb8-991c-7f9b180aa28c"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1945b30-0658-4a1b-a451-737e26152d58"

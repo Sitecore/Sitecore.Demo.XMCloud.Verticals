@@ -61,4 +61,8 @@ Languages:
       Value: Credit cards
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b6d29774-a6a3-4d15-a8e6-c86f35bd31e4"
+      Value: "c6774863-b118-4859-897a-d945c2b91bad"
+    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{D5A59561-6EB1-4AAB-B8FE-7D426C08139B}" alt="house-key-calculator-with-dollar-bills" height="" width="" hspace="" vspace="" />

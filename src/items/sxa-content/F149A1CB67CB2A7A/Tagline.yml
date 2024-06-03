@@ -1,0 +1,17 @@
+﻿---
+ID: "8f741f43-1693-44ea-80ba-ebc59e6310ae"
+Parent: "3a0df04e-2227-4dad-9b14-08d7a15f8450"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Verticals/Financial/Presentation/Page Branches/Personal Content Page/Content Page/$name/Data/Tagline
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>There's always something <em style="color: var(--bg-accent);">exciting to plan for.</em> That means&nbsp;<em style="color: var(--bg-accent);">more everyday banking to love.</em></h2>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f2d47d2-050a-467f-aaae-2ebfc57ac695"

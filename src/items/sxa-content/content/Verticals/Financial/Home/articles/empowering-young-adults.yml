@@ -10,6 +10,22 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{3B25B069-D8B8-4111-B742-30C488537605}"
+          p:after="*[1=2]"
+          s:ds="ff5d2bc7-d868-4161-8491-12d60299ce44"
+          s:id="{9D7DE58D-9DA4-43D8-8371-3C728A582ADC}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-article-content/article-meta-0-1" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:
@@ -19,6 +35,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
@@ -41,13 +60,13 @@ Languages:
         <em><strong>Are you ready to take control of your financial future? Join us at PLAY! Finance and embark on a journey toward financial empowerment today!</strong></em></p>
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
-      Value: "We understand that financial literacy is key to unlocking opportunities and achieving long-term goals. We've developed a comprehensive program designed specifically for young adults, providing them with the tools, resources, and knowledge they need to succeed in today's financial landscape."
+      Value: "Financial literacy is key to unlocking opportunities and achieving long-term goals. We've developed a comprehensive program designed specifically for young adults, providing them with the tools, resources, and knowledge they need to succeed."
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Empowering young adults
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1230b7d6-470a-4488-a2ca-0fbb8c4001bc"
+      Value: "855c818e-92b7-445c-b3d4-0585239234ea"
     - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
       Hint: BackgroundImage
       Value: |
@@ -58,4 +77,4 @@ Languages:
         <image mediaid="{9AA47A83-136E-4ABC-8088-1D181B2FB7E4}" alt="Grow finances" height="" width="" hspace="" vspace="" />
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
-      Value: "Empowering young adults: Taking control of your financial future with PLAY! Finance"
+      Value: "Empowering young adults: Control of your financial future"

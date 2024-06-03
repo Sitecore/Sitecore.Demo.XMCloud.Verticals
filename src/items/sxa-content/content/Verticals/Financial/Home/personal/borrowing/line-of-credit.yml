@@ -50,15 +50,22 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
       Hint: Title
-      Value: Line of credit
+      Value: 
     - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
       Hint: Content
-      Value: Access money on your terms.
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Line of credit
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0e565ded-8d72-42fe-a418-13532f4e1243"
+      Value: "5845f503-60c5-4356-9dd8-99a5e848b3ab"
+    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{D5A59561-6EB1-4AAB-B8FE-7D426C08139B}" alt="house-key-calculator-with-dollar-bills" height="" width="" hspace="" vspace="" />

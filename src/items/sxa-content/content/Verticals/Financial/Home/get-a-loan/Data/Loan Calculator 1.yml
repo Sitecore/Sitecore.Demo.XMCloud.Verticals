@@ -8,6 +8,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "2b5affa6-eba2-40df-82fb-76f12d38b66e"
       Hint: MaxTerm
       Value: 120
@@ -25,10 +28,10 @@ Languages:
       Value: 80000
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bd87661c-14c4-47b1-8604-f4177faafa71"
+      Value: "6db28d2f-5f05-49fb-a394-620f534d0d07"
     - ID: "9bb8d058-6016-458e-8f27-cc12d57e7939"
       Hint: Currency
-      Value: euro
+      Value: eur
     - ID: "b3aa7233-e4a9-4a10-9a00-8b4c48219a5a"
       Hint: MinAmount
       Value: 1000

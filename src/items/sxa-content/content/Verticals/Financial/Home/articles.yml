@@ -30,7 +30,7 @@ SharedFields:
         <r
           uid="{6A37C3CA-A2AD-42A3-8498-E946B373FEC3}"
           p:after="*[1=2]"
-          s:ds="ee12ee55-11a8-495f-bcc5-9ac98583b175"
+          s:ds="{EE12EE55-11A8-495F-BCC5-9AC98583B175}"
           s:id="{35075000-760E-4FF3-BD1C-F2EEBA251DCB}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="/headless-main/sxa-page-content/page-content-0-1" />
@@ -59,7 +59,7 @@ Languages:
       Value: Articles
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0f6cafb3-321f-481c-a8ae-6f669a128c87"
+      Value: "9993738a-fe8a-4fec-ba93-9cae5675e213"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |
