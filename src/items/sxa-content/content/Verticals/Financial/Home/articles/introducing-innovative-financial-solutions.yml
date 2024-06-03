@@ -10,6 +10,25 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1333C7A2-2A6C-4310-AE74-8D5DE936F8B3}">
+          <p:d />
+        </r>
+        <r
+          uid="{07792A39-73BA-430E-98D4-7FB0052363F9}"
+          s:ds="2cefb3b8-247f-41d6-85b3-7100029f91ff"
+          s:id="{9D7DE58D-9DA4-43D8-8371-3C728A582ADC}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-article-content/article-meta-0-1" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:
@@ -19,6 +38,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
@@ -51,7 +73,7 @@ Languages:
       Value: Introducing innovative financial solutions for modern consumers
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6d7c644a-cef6-438b-ae33-76076025077a"
+      Value: "23e91b42-3633-4307-a519-255ffe2e95d0"
     - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
       Hint: BackgroundImage
       Value: |

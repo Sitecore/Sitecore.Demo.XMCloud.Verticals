@@ -3,6 +3,26 @@ ID: "4a598abf-4d86-4eb2-9dfc-9a0f992c8284"
 Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
 Path: "/sitecore/content/Verticals/Financial/Home/articles/exploring-the-use-of-blockchain-technology"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1333C7A2-2A6C-4310-AE74-8D5DE936F8B3}">
+          <p:d />
+        </r>
+        <r
+          uid="{417F82FC-CEA8-48A6-90D5-DC041DE34768}"
+          s:ds="8d381f70-9d26-4aa5-8dcd-d847a9bc04ac"
+          s:id="{9D7DE58D-9DA4-43D8-8371-3C728A582ADC}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-article-content/article-meta-0-1" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:
@@ -12,6 +32,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
@@ -45,7 +68,7 @@ Languages:
       Value: Exploring the use of blockchain technology in banking
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f5f6b882-0eb5-4ee6-ba54-5d663929fb1e"
+      Value: "f068beee-d5c9-424d-84c7-1b6e7f7f335d"
     - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
       Hint: BackgroundImage
       Value: |

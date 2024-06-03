@@ -9,7 +9,7 @@ SharedFields:
   Value: "{367BA3F8-234E-4964-AD4F-63C46CD259A5}"
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Value: "{1226C3C7-2D1F-48F5-87B4-C1DA459F05E5}"
+  Value: 
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 700
@@ -131,11 +131,11 @@ Languages:
       Value: Get a loan
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d4e6771f-f6e6-4d0e-87c5-37cde0b08fcd"
+      Value: "92e3b486-74b8-4c61-a3e7-6c9adb08c567"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |
-        <image mediaid="{7ED35C53-B0C3-4508-8561-EDEC520BB63A}" />
+        <image mediaid="{7ED35C53-B0C3-4508-8561-EDEC520BB63A}" alt="top-view-passport-money-with-copy-space" height="" width="" hspace="" vspace="" />
 - Language: "fr-CA"
   Versions:
   - Version: 1

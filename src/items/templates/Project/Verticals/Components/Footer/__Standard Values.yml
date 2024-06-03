@@ -31,7 +31,7 @@ Languages:
       Value: "Why PLAY! finance"
     - ID: "4770eb87-8856-4251-b831-6c8522c39da1"
       Hint: Copyright
-      Value: "Copyright © 2014-2024 PLAY! finance"
+      Value: Copyright © Sitecore
     - ID: "4bf70960-7097-4f87-a67a-8a7e87d1cd01"
       Hint: Text4
       Value: |
@@ -48,13 +48,9 @@ Languages:
       Hint: Link2
       Value: |
         <link text="Term of Use" linktype="anchor" url="terms-of-use" anchor="terms-of-use" title="Term of Use" class="" />
-    - ID: "8cca5eed-fd92-4f75-b1e6-b0a70f40d5ad"
-      Hint: Image2
-      Value: |
-        <image mediaid="{B9DE5E6B-8414-4A6D-91A3-868D14C0857D}" alt="P logo" height="" width="" hspace="" vspace="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1a04c706-615e-4992-90fe-8031c4795235"
+      Value: "fbf2336b-cf31-484e-beae-6bbb75562ff6"
     - ID: "92612ddf-b3fd-4597-a655-de6da2eb553f"
       Hint: Text3
       Value: |

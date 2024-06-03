@@ -7,6 +7,9 @@ SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: 
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: 
 Languages:
 - Language: en
   Versions:
@@ -14,4 +17,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "59048516-bf29-4945-804a-9657ad71264e"
+      Value: "6cb450bc-50f0-4b68-8a4e-6971822ab2a9"

@@ -7,6 +7,25 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 600
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1333C7A2-2A6C-4310-AE74-8D5DE936F8B3}">
+          <p:d />
+        </r>
+        <r
+          uid="{061D1008-CB92-4D3E-BF5B-16CD37E496CE}"
+          s:ds="3f95924a-2a12-4e2f-aa5b-67de6e77b91c"
+          s:id="{9D7DE58D-9DA4-43D8-8371-3C728A582ADC}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-article-content/article-meta-0-1" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:
@@ -16,6 +35,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
@@ -49,7 +71,7 @@ Languages:
       Value: 5 tips for new retirees
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d3c0ced4-fa35-4bf5-8097-28c49eaf79c9"
+      Value: "e284319c-b664-42d8-8838-d9c54302e5e5"
     - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
       Hint: BackgroundImage
       Value: |

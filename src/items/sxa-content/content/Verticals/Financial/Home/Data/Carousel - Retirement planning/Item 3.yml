@@ -1,0 +1,27 @@
+﻿---
+ID: "01028d44-620c-4ea7-82bf-f6771250cd79"
+Parent: "0e22b5de-ee22-4f5d-b079-03c0acf6e4a7"
+Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+Path: "/sitecore/content/Verticals/Financial/Home/Data/Carousel - Retirement planning/Item 3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: Plan for peace of mind
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="Learn more" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C6FAF964-1F66-4A41-9726-58D0D20663CE}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "360243bc-8950-494d-a727-f23373fc4858"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>Learn about our comprehensive estate planning services, designed to protect your assets and provide for your loved ones.</p>
+    - ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+      Hint: Image
+      Value: |
+        <image mediaid="{49033FEE-BA64-45D6-B5C1-FA0DFE56A747}" alt="Kids walking and playing with woman" height="" width="" hspace="" vspace="" />

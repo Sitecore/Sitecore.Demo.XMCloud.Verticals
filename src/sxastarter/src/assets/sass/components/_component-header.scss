@@ -3,6 +3,10 @@
 .header {
   width: 100%;
   padding: 1.5rem 0;
+
+  @include respond-to(mobile-large) {
+    padding: 1.5rem $size-padding;
+  }
 }
 
 // PLAY! finance specific styles
@@ -28,9 +32,14 @@
     }
 
     .play {
+      display: flex;
       font-weight: bold;
       text-transform: uppercase;
       color: #255be3;
+
+      svg {
+        width: 1rem;
+      }
 
       .dark & {
         color: #fff;

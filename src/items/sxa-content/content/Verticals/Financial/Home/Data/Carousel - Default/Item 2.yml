@@ -1,0 +1,31 @@
+﻿---
+ID: "9420720d-1ad2-43db-a200-a248bf2510bb"
+Parent: "4d89565a-2f36-4ecd-bba2-cd0c8cf317c2"
+Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+Path: "/sitecore/content/Verticals/Financial/Home/Data/Carousel - Default/Item 2"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{321B71A6-169C-4A12-905A-0BF5F5CCD7E3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: Grow your wealth with confidence
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="Get started online" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{B6D8EF4D-8137-4081-B939-7058C1FD944A}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f96ad9c-c763-4a59-80ed-c9c0b6d43699"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>Wealth management made simple.</p>
+    - ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+      Hint: Image
+      Value: |
+        <image mediaid="{BEF556E2-9A4C-4587-80E7-2488C67D9403}" alt="Woman sitting on a rock outcrop and looking at the landscape" height="" width="" hspace="" vspace="" />

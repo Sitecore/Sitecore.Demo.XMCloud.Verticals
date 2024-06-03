@@ -1,0 +1,27 @@
+﻿---
+ID: "d100576d-3f7d-49eb-8545-ba8b87bd3329"
+Parent: "18590dd4-7238-4e57-a55b-ae255ca78133"
+Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+Path: "/sitecore/content/Verticals/Financial/Home/Data/Carousel - Business/Item 3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: Effective employee management
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="Learn more" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{092F1015-4CF0-4131-90F1-7E2020EA4B47}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57e8be8d-29a7-4dd7-b35b-4cf81fdcfd7a"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>Supercharge your workforce with our comprehensive employee management strategies.</p>
+    - ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+      Hint: Image
+      Value: |
+        <image mediaid="{9098673D-D42D-484E-B164-78545599F55E}" alt="Man sitting at table with coffee" height="" width="" hspace="" vspace="" />
