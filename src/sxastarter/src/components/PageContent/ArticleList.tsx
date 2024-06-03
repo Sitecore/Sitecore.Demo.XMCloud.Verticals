@@ -47,13 +47,17 @@ const getAllArticlesPageHref = (items: ArticleListItemProps[]) => {
 };
 
 export const Default = (props: ArticleListComponentProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params.NumberOfItems));
+  const id = props.params?.RenderingIdentifier;
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
   const { t } = useI18n();
+
+  if (!props.fields?.items) {
+    return <div className="container">Please select a datasource.</div>;
+  }
 
   return (
     <div
-      className={`component article-list ${props.params.styles.trimEnd()}`}
+      className={`component article-list ${props.params?.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container">
@@ -93,9 +97,13 @@ export const Default = (props: ArticleListComponentProps): JSX.Element => {
 };
 
 export const ThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params.NumberOfItems));
+  const id = props.params?.RenderingIdentifier;
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
   const { t } = useI18n();
+
+  if (!props.fields?.items) {
+    return <div className="container">Please select a datasource.</div>;
+  }
 
   return (
     <div
@@ -126,10 +134,14 @@ export const ThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
 };
 
 export const Simplified = (props: ArticleListComponentProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params.NumberOfItems));
+  const id = props.params?.RenderingIdentifier;
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
   const allArticlesPageHref = getAllArticlesPageHref(props.fields?.items);
   const { t } = useI18n();
+
+  if (!props.fields?.items) {
+    return <div className="container">Please select a datasource.</div>;
+  }
 
   return (
     <div
