@@ -26,7 +26,7 @@ Languages:
     - ID: "3b0a6484-9ce0-4386-b2b3-5792c0db7b72"
       Hint: Image3
       Value: |
-        <image mediaid="{2F831857-9B12-4901-BB71-21080A723266}" />
+        <image mediaid="{2F831857-9B12-4901-BB71-21080A723266}" alt="Investing options image" height="" width="" hspace="" vspace="" />
     - ID: "41910271-6970-45e7-8819-3d531826d4a6"
       Hint: Link5
       Value: |
@@ -34,10 +34,10 @@ Languages:
     - ID: "4301130a-505e-4a6d-ba47-f783d47a1750"
       Hint: Image2
       Value: |
-        <image mediaid="{3FE72BF3-5300-452C-BCAA-8FD38FD1D522}" />
+        <image mediaid="{3FE72BF3-5300-452C-BCAA-8FD38FD1D522}" alt="Mortgage image" height="" width="" hspace="" vspace="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "35fc8d87-d996-4ba5-bb61-df865ee89d95"
+      Value: "224867e7-3fea-43d7-baa7-201acbbe2b35"
     - ID: "8f49a654-7b7f-4c0b-b6df-d3ce2389c1bf"
       Hint: Text2
       Value: Mortgage
@@ -58,15 +58,15 @@ Languages:
     - ID: "c5d0b517-0ed6-4cd4-9354-8adf7a04bc7d"
       Hint: Image4
       Value: |
-        <image mediaid="{9718505E-A239-495C-B20A-701DECD54C65}" />
+        <image mediaid="{9718505E-A239-495C-B20A-701DECD54C65}" alt="Small businesses image" height="" width="" hspace="" vspace="" />
     - ID: "df3b6320-8a59-49d6-98a6-917ba4a400cf"
       Hint: Image5
       Value: |
-        <image mediaid="{DBEA34F0-D634-4A6B-A7ED-2CFE5AF909AA}" />
+        <image mediaid="{DBEA34F0-D634-4A6B-A7ED-2CFE5AF909AA}" alt="Credit card image" height="" width="" hspace="" vspace="" />
     - ID: "f5e90981-3210-4316-bcf5-f083fe639e66"
       Hint: Text4
       Value: Small Businesses
     - ID: "f762ad0b-e486-48ca-acb3-d8523551a990"
       Hint: Image1
       Value: |
-        <image mediaid="{08B36B47-DC43-4F6B-8CE1-95A195829509}" />
+        <image mediaid="{08B36B47-DC43-4F6B-8CE1-95A195829509}" alt="Personal loan image" height="" width="" hspace="" vspace="" />

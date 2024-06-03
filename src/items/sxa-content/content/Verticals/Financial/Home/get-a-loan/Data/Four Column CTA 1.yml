@@ -17,7 +17,7 @@ Languages:
     - ID: "23f621dd-d403-49df-93f6-391a1757feb3"
       Hint: Image4
       Value: |
-        <image mediaid="ef4c0417-cc75-4483-ba8e-1dbe32dd7487" />
+        <image mediaid="ef4c0417-cc75-4483-ba8e-1dbe32dd7487" alt="four-col-promo-4" height="" width="" hspace="" vspace="" />
     - ID: "256528b0-4d93-44a1-85c9-0cd544091a3f"
       Hint: Text4
       Value: 0700 11 333 / *2375
@@ -30,10 +30,10 @@ Languages:
     - ID: "84c2cd69-b897-4e4a-a336-66d3222fe1b5"
       Hint: Image1
       Value: |
-        <image mediaid="4986f57f-1293-4b48-86bb-1281b6a31573" />
+        <image mediaid="4986f57f-1293-4b48-86bb-1281b6a31573" alt="four-col-promo-1" height="" width="" hspace="" vspace="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d79b1d2f-6d6c-40c3-b436-8d1874ea9876"
+      Value: "5166048c-dd2d-4cf8-a888-46e66211a1d6"
     - ID: "8f23bb30-a050-47b3-bc66-6ca478213eef"
       Hint: Text3
       Value: For evaluation and recommendations
@@ -43,11 +43,11 @@ Languages:
     - ID: "954a7e15-cdad-4e9c-8949-ab0ee63200c6"
       Hint: Image3
       Value: |
-        <image mediaid="a66b93b7-7a89-47a4-a44f-492c4381b75e" />
+        <image mediaid="a66b93b7-7a89-47a4-a44f-492c4381b75e" alt="four-col-promo-3" height="" width="" hspace="" vspace="" />
     - ID: "a98fc4bc-b088-4296-aa32-fba35f964ebd"
       Hint: Image2
       Value: |
-        <image mediaid="032b60ed-5aa8-4da5-a142-c96693c88d17" />
+        <image mediaid="032b60ed-5aa8-4da5-a142-c96693c88d17" alt="four-col-promo-2" height="" width="" hspace="" vspace="" />
     - ID: "b1b9e108-7c50-4a04-8e7a-37f30c6a784c"
       Hint: Link3
       Value: |

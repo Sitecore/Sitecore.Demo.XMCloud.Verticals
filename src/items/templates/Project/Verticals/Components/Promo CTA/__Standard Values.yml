@@ -12,6 +12,20 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Lorem ipsum dolor sit amet
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link text="Details" linktype="external" url="https://example.com" anchor="" target="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7a0010cd-e0d3-4c4a-8ad4-4f7ee7a741d7"
+      Value: "3eebce27-b435-4300-821b-1506f67cc640"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="{FC78C30D-DE27-4D68-AEF8-A4F389FEEA4D}" alt="close-up-young-businesswoman" height="" width="" hspace="" vspace="" />

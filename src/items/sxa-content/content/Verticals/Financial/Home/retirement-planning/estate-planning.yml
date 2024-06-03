@@ -3,7 +3,6 @@ ID: "c6faf964-1f66-4a41-9726-58d0d20663ce"
 Parent: "524f5cd2-4fb9-437d-b733-cf5861b8ced3"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
 Path: "/sitecore/content/Verticals/Financial/Home/retirement-planning/estate-planning"
-BranchID: "f4216084-ae14-4cbb-adf1-22292083f63c"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
@@ -65,13 +64,13 @@ Languages:
       Value: Estate planning
     - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
       Hint: Content
-      Value: Take care of your estate, take care of family.
+      Value: Take care of your estate, take care of your family.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Estate planning
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d2c4f1a7-d95c-46b9-9f07-b7325225ae50"
+      Value: "5644aefe-4eb9-4c0a-8b42-3b554789b4c8"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |

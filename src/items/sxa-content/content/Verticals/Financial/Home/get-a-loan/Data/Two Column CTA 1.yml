@@ -8,20 +8,29 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "168fed07-0f41-44f5-a14e-f134e16b1477"
       Hint: Image1
       Value: |
-        <image mediaid="{A4CE3822-1BFC-4876-9353-0D43914FDDC9}" />
+        <image mediaid="{A4CE3822-1BFC-4876-9353-0D43914FDDC9}" alt="Woman fanning cash in front of her face" height="" width="" hspace="" vspace="" />
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: 
     - ID: "41c85ac6-5f19-48ac-9dfb-e81d5f1450f6"
       Hint: Image2
       Value: |
-        <image mediaid="{F64C8C16-8C71-44E1-A658-B3070574B89E}" />
+        <image mediaid="{F64C8C16-8C71-44E1-A658-B3070574B89E}" alt="Alarm clock surrounded by stacks of coins" height="" width="" hspace="" vspace="" />
     - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
       Hint: Title1
+      Value: 
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
       Value: 
     - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
       Hint: Title2
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "73fac625-6b8c-4beb-81f8-48c0d5d3023a"
+      Value: "802d4426-1545-4ce3-be2e-da6fb62ee2ec"
