@@ -3,7 +3,6 @@ ID: "2fa09ecc-e4f8-4a1e-aa8c-43768ec36b5b"
 Parent: "ed95dbf0-cd26-40c0-874d-7b6fb1b5c0ea"
 Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
 Path: /sitecore/content/Verticals/Financial/Presentation/Partial Designs/Footer
-BranchID: "8204a950-cbaa-4d06-878b-11ced5ddc1ad"
 SharedFields:
 - ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
   Hint: Signature
@@ -20,25 +19,11 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{69E63C40-81DE-4D6A-B486-189C88586C2C}"
-          p:before="*"
-          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
-          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7B61A8A0E2-C8E4-4FA0-9E23-BD36554990FF%7D%7C%7B389BD71B-A533-4564-9211-278A732DBF7E%7D%7C%7B3E97E683-A13E-473D-8FEC-1D5A879451FF%7D%7C%7BD2E55BB1-D577-4F9A-80DB-4C69F35BB8FA%7D%7C%7B7987B5D3-212C-49CA-8D6A-804AC1EC6788%7D%7C%7B1B1710C3-D073-4350-A268-7CD8FBF967FD%7D%7C%7B65196873-AD6D-4F77-A45F-B38E6DE2CE8E%7D%7C%7B876A0377-71AC-47C9-9DBC-4B14AC5B864B%7D%7C%7BE6A80581-38A7-4B3E-B983-0A1E28D6AB5B%7D%7C%7BCAAD2455-E1AE-4AE4-BB5C-693175ECA062%7D%7C%7BE3178530-E4A7-4BAB-BC21-31E09D879319%7D%7C%7B28814DB4-CB84-437B-BAA2-71114ABCA9A2%7D%7C%7B13931012-7FE6-4C03-A674-531C147D6A7E%7D%7C%7B69FE2779-17B9-4FA5-BD08-F44B1F1AFFAE%7D%7C%7BC4D7CB8E-BCB8-48E7-B8D8-E18DF859AF42%7D&amp;BackgroundImage&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1"
-          s:ph="headless-footer" />
-        <r
-          uid="{9A8BADB7-3A1B-4D67-A19F-DC0E337301B3}"
-          p:after="r[@uid='{69E63C40-81DE-4D6A-B486-189C88586C2C}']"
-          s:ds="local:/Data/Footer 2"
-          s:id="{771A3F27-6448-44AC-ADD0-E5DE311C6E3B}"
-          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=2"
-          s:ph="/headless-footer/container-1" />
-        <r
           uid="{29758C1F-8DAF-4D56-A212-EB734E2907AE}"
-          p:after="*[1=2]"
           s:ds="local:/Data/Footer 1"
           s:id="{771A3F27-6448-44AC-ADD0-E5DE311C6E3B}"
           s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=3"
-          s:ph="/headless-footer/container-1" />
+          s:ph="headless-footer" />
       </d>
     </r>
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
@@ -54,11 +39,11 @@ Languages:
       Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7e04a382-a188-4fb2-8183-137b0af3b4fa"
+      Value: "77f2797b-3c16-455f-9eb0-91b07f5b7ccb"
 - Language: "fr-CA"
   Versions:
   - Version: 1
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b01061de-3108-4b45-9797-b465c7c66b40"
+      Value: "987ed23d-dbd3-49a9-955d-5e722fd71040"
