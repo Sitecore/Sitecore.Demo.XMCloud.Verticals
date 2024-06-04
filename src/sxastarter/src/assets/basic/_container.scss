@@ -5,6 +5,7 @@
   font-family: var(--font-family);
   color: var(--text-body);
   background-color: var(--bg-body);
+  transition: 0.4s;
 }
 
 @media (width >= 1400px) {
