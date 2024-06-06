@@ -37,34 +37,36 @@
 
 // Services
 .site-services {
-  --text-body: #333;
+  --text-body: #391400;
   --text-body-inverted: #fff;
-  --text-colored: #034c81;
-  --text-footer: #fff;
+  --text-colored: #ef6d58;
+  --text-footer: #391400;
   --text-button: #fff;
-  --text-accent: #a82a39;
-  --bg-body: #fff;
-  --bg-footer: #333;
-  --bg-main: #f0f5f7;
-  --bg-color: #c5e4f3;
-  --bg-saturated: #034c81;
-  --bg-accent: #ff3c28;
-  --border-color: #f0f5f7;
+  --text-accent: #ef6d58;
+  --bg-body: #fdf0e9;
+  --bg-footer: #fdf0e9;
+  --bg-main: #fdf0e9;
+  --bg-color: #ef6d58;
+  --bg-saturated: #ff7145;
+  --bg-accent: #ff7145;
+  --border-color: #a99185;
+  --roundness: 0.375rem;
 
   .dark & {
     --text-body: #fff;
-    --text-body-inverted: #333;
-    --text-colored: #c5e4f3;
+    --text-body-inverted: #391400;
+    --text-colored: #ef6d58;
     --text-footer: #fff;
     --text-button: #fff;
-    --text-accent: #a82a39;
-    --bg-body: #031827;
-    --bg-footer: #333;
-    --bg-main: #034c81;
-    --bg-color: #034c81;
-    --bg-saturated: #034c81;
-    --bg-accent: #ff3c28;
-    --border-color: #034c81;
+    --text-accent: #ef6d58;
+    --bg-body: #29314f;
+    --bg-footer: #29314f;
+    --bg-main: #29314f;
+    --bg-color: #ef6d58;
+    --bg-saturated: #ff7145;
+    --bg-accent: #ff7145;
+    --border-color: #5d5f7f;
+    --roundness: 0.375rem;
   }
 }
 
