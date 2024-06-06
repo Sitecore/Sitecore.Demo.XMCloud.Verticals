@@ -1,0 +1,19 @@
+﻿---
+ID: "be3859ad-9237-4504-964c-ded70fa2b8b3"
+Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: /sitecore/content/Verticals/Services/Home/Insights/Insight Page
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Insight Page
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a9706dc-c0c2-4c41-8fb1-6302b8bbf4af"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: Insight Page
