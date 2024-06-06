@@ -1,0 +1,74 @@
+﻿---
+ID: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
+Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Path: /sitecore/content/Verticals/Services/Home/Insights/Authors
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{AAD350F5-9331-4D71-A942-E3643653C028}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{049A0E7C-CBF3-482E-A979-9CB47F1C9B86}"
+          s:ds="8c2d6765-91be-4bd8-a0b3-4f81256e75a6"
+          s:id="{69E8A90F-59CA-4638-B53E-BDCE65835230}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B7B072563-1F10-4500-8963-F2FE013CF51A%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Authors
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Meet our team of industry experts
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Authors
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed55d839-9841-4668-b486-5b5fecdce31c"
+    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" alt="Newspaper image" height="" width="" hspace="" vspace="" />
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Authors
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Meet our team of industry experts
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Authors
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "45473793-2cc3-4590-9d43-a5e5400b3bd8"
+    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" alt="Newspaper image" height="" width="" hspace="" vspace="" />

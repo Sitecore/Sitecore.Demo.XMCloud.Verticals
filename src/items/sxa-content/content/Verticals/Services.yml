@@ -6,7 +6,7 @@ Path: /sitecore/content/Verticals/Services
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Shop &#40;2&#41;.png
+  Value: apps/32x32/shop.png
 - ID: "1230d2cb-4948-4d43-8a3b-b39978f6f1b3"
   Hint: Modules
   Value: |
@@ -40,4 +40,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c7b77344-bf9a-4fdc-9fba-f7f0749b9ab9"
+      Value: "3e7b4f98-8694-41a2-be67-4327f14eb1f1"
