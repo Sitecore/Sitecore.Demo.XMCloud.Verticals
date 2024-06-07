@@ -20,8 +20,15 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{7F38ABAE-D763-4F80-BB3C-E50363A9C24E}"
+          uid="{1B94E475-D082-44E6-BE3E-7E4152257A20}"
           p:before="*"
+          s:ds="local:/Data/HeroBanner 1"
+          s:id="{0E8CC47E-32D6-4F55-A7BF-E713ABD06323}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B0568E9AE-B6BE-44FE-A9C4-ACDF340C661D%7D%7C%7BF50EB4F2-6C9A-4226-828C-C0F21D66F789%7D%7C%7BBA83D200-B0FE-46C0-A5C7-E5C369D2BDA9%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+          s:ph="headless-main" />
+        <r
+          uid="{7F38ABAE-D763-4F80-BB3C-E50363A9C24E}"
+          p:after="r[@uid='{1B94E475-D082-44E6-BE3E-7E4152257A20}']"
           s:ds="local:/Data/Test 1"
           s:id="{B7CDF75E-716A-4C59-B9B1-CD970AE0A4AE}"
           s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
@@ -35,10 +42,17 @@ SharedFields:
           s:ph="headless-main" />
         <r
           uid="{5FC48185-4532-4202-A803-1C2E7C4093AC}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{9169BF45-0077-452F-A400-6F1226709642}']"
           s:ds="local:/Data/Test 3"
           s:id="{B7CDF75E-716A-4C59-B9B1-CD970AE0A4AE}"
           s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="headless-main" />
+        <r
+          uid="{7FA92A7C-D9D4-411C-88C8-12FFB198805C}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Features 1"
+          s:id="{B7EFFFDB-2F0C-4C5E-A8BE-D9F8677F01DA}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
           s:ph="headless-main" />
       </d>
     </r>
@@ -58,7 +72,7 @@ Languages:
       Value: Services
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4031e80e-409c-4020-b6b7-daf60cb1ca66"
+      Value: "0bd5a340-5fc3-4d5c-a6dd-c21f4a76cb9f"
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
       Value: Home
