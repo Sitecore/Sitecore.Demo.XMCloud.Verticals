@@ -38,6 +38,7 @@
 // Services
 .site-services {
   --text-body: #391400;
+  --text-body: #391400;
   --text-body-inverted: #fff;
   --text-colored: #ef6d58;
   --text-footer: #391400;
@@ -54,6 +55,8 @@
 
   .dark & {
     --text-body: #fff;
+    --text-body-inverted: #391400;
+    --text-colored: #ef6d58;
     --text-body-inverted: #391400;
     --text-colored: #ef6d58;
     --text-footer: #fff;
