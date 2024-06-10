@@ -1,0 +1,36 @@
+﻿---
+ID: "abc9a47e-fccb-4907-a6a5-90ac6f848eb6"
+Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: /sitecore/content/Verticals/Services/Home/Data/Promo CTA 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Making Your Projects Look Awesome
+    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
+      Hint: Eyebrow
+      Value: How we work
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a981c59-7409-4f79-8050-edd6546ebf2c"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><p data-placeholder="[No text in field]">Technical skills, design, business understanding, ability to put themselves in the merchant's shoes.</p></div>
+    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+      Hint: Image
+      Value: |
+        <image mediaid="e74e0623-a9ff-4833-9968-14d55a05db5f" />
+    - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
+      Hint: Subtitle
+      Value: 
