@@ -1,12 +1,12 @@
 ﻿---
-ID: "8d381f70-9d26-4aa5-8dcd-d847a9bc04ac"
+ID: "2cefb3b8-247f-41d6-85b3-7100029f91ff"
 Parent: "8c2d6765-91be-4bd8-a0b3-4f81256e75a6"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Financial/Home/articles/Authors/Gabby Ross
+Path: /sitecore/content/Verticals/Financial/Home/authors/Patricia Ball
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 550
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -21,18 +21,21 @@ Languages:
         <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" alt="Author Paper" height="" width="" hspace="" vspace="" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Gabby Ross
+      Value: Patricia Ball
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Digital marketer
     - ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
       Hint: Photo
       Value: |
-        <image mediaid="{59BA5624-1CCB-4354-BF21-8FB682EC70A0}" alt="Gabby Bio Image" height="" width="" hspace="" vspace="" />
+        <image mediaid="{4859F21A-8F82-4ABC-AD20-F6CED8CF82AC}" alt="Patricia Bio Image" height="" width="" hspace="" vspace="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "60799068-1a9f-4b88-8855-a88a88ee27fe"
+      Value: "eb2cc770-f4e1-4628-ae56-0efc8ad396cd"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |
-        <div class="ck-content"><p>Gabby has a proven track record of success in product management and development. With a passion for innovation and a keen eye for market trends, she plays a pivotal role in bringing new products to market and enhancing existing offerings.</p></div>
+        <div class="ck-content"><p>Patricia is a seasoned digital marketer with a passion for driving results through innovative digital strategies. With a background in digital advertising, social media management, and content marketing, she excels at creating compelling campaigns that engage audiences and drive conversions.</p></div>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Gabby Ross
+      Value: Patricia Ball

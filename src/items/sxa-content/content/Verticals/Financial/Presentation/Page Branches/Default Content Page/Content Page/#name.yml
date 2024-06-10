@@ -4,6 +4,9 @@ Parent: "5914dab5-7831-494e-ac68-b9e3a207a42f"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
 Path: /sitecore/content/Verticals/Financial/Presentation/Page Branches/Default Content Page/Content Page/$name
 SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -51,7 +54,7 @@ Languages:
       Value: Lorem ipsum dolor sit amet.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f12fbb55-70c6-4baa-83bd-e66bdd1b5f03"
+      Value: "7e8e018b-0283-4587-90e0-39b3436e7b2b"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |
