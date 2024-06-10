@@ -9,18 +9,24 @@ import {
   Link,
   LinkField,
   useSitecoreContext,
+  Placeholder,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
 import useVisibility from 'src/hooks/useVisibility';
+import { ComponentProps } from 'lib/component-props';
+import { DottedAccent } from 'components/NonSitecore/DottedAccent';
 
 interface Fields {
+  Eyebrow: Field<string>;
   Title: Field<string>;
+  Subtitle: Field<string>;
   Text: RichTextField;
   Image: ImageField;
   Link: LinkField;
+  Link2: LinkField;
 }
 
-export type PromoCtaProps = {
+export type PromoCtaProps = ComponentProps & {
   params: { [key: string]: string };
   fields: Fields;
 };
@@ -40,24 +46,107 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
       <div className="container">
         <div className="row row-gap-4 main-content align-items-center">
           <div className="col-lg-5 text-center text-lg-start">
+            <h6 className="eyebrow-accent">
+              <Text field={props.fields.Eyebrow} />
+            </h6>
             <h1 className="display-6 fw-bold mb-3">
               <Text field={props.fields.Title} />
             </h1>
             <div className="fs-5">
-              <RichText field={props.fields.Text} />
+              <p>
+                <Text field={props.fields.Subtitle} />
+              </p>
+
+              <RichText field={props.fields.Text} className="text-content" />
+
+              <div className="row mt-2">
+                <Placeholder name="promo-cta" rendering={props.rendering} />
+              </div>
 
               {(isPageEditing || props.fields?.Link?.value?.href) && (
                 <Link field={props.fields.Link} className="button button-main mt-3" />
               )}
+              {(isPageEditing || props.fields?.Link2?.value?.href) && (
+                <Link field={props.fields.Link2} className="button button-simple mt-3 mx-4" />
+              )}
             </div>
           </div>
-          <div className="col-md-10 mx-auto col-lg-7 mx-lg-0 image-wrapper">
-            <Image
-              field={props.fields.Image}
-              className={`d-block mx-lg-auto img-fluid ${
-                !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
-              }`}
-            ></Image>
+          <div className="col-md-10 mx-auto col-lg-7 mx-lg-0">
+            <div className="image-wrapper">
+              <DottedAccent className="dotted-accent-top" />
+              <Image
+                field={props.fields.Image}
+                className={`d-block mx-lg-auto img-fluid ${
+                  !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
+                }`}
+              ></Image>
+              <DottedAccent className="dotted-accent-bottom" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const WithPlaceholderColumn = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
+  const [isVisible, domRef] = useVisibility();
+
+  return (
+    <div
+      className={`component promo-cta with-placeholder-column ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+      ref={domRef}
+    >
+      <div className="container">
+        <div className="row row-gap-4 main-content align-items-center">
+          <div className="col-lg-5 text-center text-lg-start">
+            <h6 className="eyebrow-accent">
+              <Text field={props.fields.Eyebrow} />
+            </h6>
+            <h1 className="fs-1 fw-bold mb-3">
+              <Text field={props.fields.Title} />
+            </h1>
+            <div className="fs-5">
+              <p>
+                <Text field={props.fields.Subtitle} />
+              </p>
+
+              <RichText field={props.fields.Text} className="text-content" />
+
+              {(isPageEditing || props.fields?.Link?.value?.href) && (
+                <Link field={props.fields.Link} className="button button-main mt-3" />
+              )}
+              {(isPageEditing || props.fields?.Link2?.value?.href) && (
+                <Link field={props.fields.Link2} className="button button-simple mt-3 mx-4" />
+              )}
+            </div>
+          </div>
+
+          <div className="col-md-12 mx-auto col-lg-7 mx-lg-0">
+            <div className="row align-items-center">
+              <div className="promo-cta-placeholder col-12 col-md-9">
+                <div className="promo-cta-placeholder-inner">
+                  <div className="row">
+                    <Placeholder name="promo-cta" rendering={props.rendering} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="image-wrapper d-none d-md-block col-md-8">
+                <DottedAccent className="dotted-accent-top" />
+                <Image
+                  field={props.fields.Image}
+                  className={`d-block mx-lg-auto img-fluid ${
+                    !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
+                  }`}
+                ></Image>
+                <DottedAccent className="dotted-accent-bottom" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

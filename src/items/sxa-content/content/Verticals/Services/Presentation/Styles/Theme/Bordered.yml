@@ -1,0 +1,22 @@
+﻿---
+ID: "ba83d200-b0fe-46c0-a5c7-e5c369d2bda9"
+Parent: "0660671b-a1eb-4149-9970-4ca0c5591d68"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/Verticals/Services/Presentation/Styles/Theme/Bordered
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: bordered
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Value: |
+    {0E8CC47E-32D6-4F55-A7BF-E713ABD06323}
+    {1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "55568a04-e1a6-40cb-8bfe-3419d960c024"

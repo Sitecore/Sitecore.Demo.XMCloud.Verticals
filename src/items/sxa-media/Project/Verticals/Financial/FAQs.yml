@@ -1,0 +1,13 @@
+﻿---
+ID: "cee245bb-7d42-49bb-aba9-14c7c9c5f833"
+Parent: "eee2c54e-1bc8-4b72-bb26-1ea80c093a30"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Verticals/Financial/FAQs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1dc218ae-c80c-4ade-a2af-6f0829dbef55"

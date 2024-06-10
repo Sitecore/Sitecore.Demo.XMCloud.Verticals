@@ -1,3 +1,13 @@
+.site-financial {
+  --promo-cta-img-ratio: 3/2;
+  --promo-cta-text-opacity: 1;
+}
+
+.site-services {
+  --promo-cta-img-ratio: 1/1;
+  --promo-cta-text-opacity: 0.65;
+}
+
 .promo-cta {
   background-color: var(--bg-main-alt);
   padding-top: $component-margin * 2;
@@ -8,14 +18,73 @@
     padding-right: $size-padding;
   }
 
+  &.with-dotted-accents {
+    .image-wrapper {
+      margin: 3.5rem;
+
+      .dotted-accent {
+        position: absolute;
+        z-index: 2;
+
+        &-top {
+          top: -70px;
+          left: -70px;
+        }
+
+        &-bottom {
+          bottom: -70px;
+          right: -70px;
+        }
+      }
+    }
+
+    &.reverse {
+      .dotted-accent {
+        &-top {
+          right: -70px;
+          left: unset;
+        }
+
+        &-bottom {
+          left: -70px;
+          right: unset;
+        }
+      }
+    }
+  }
+
+  &:not(.with-dotted-accents) {
+    .dotted-accent {
+      display: none;
+    }
+  }
+
+  &.bordered {
+    .image-wrapper img {
+      border-radius: 0;
+      border: 1px solid var(--border-color);
+    }
+  }
+
   .main-content {
     --bs-gutter-x: 8rem;
     --bs-gutter-y: 3rem;
   }
 
-  img {
-    border-radius: var(--roundness);
-    overflow: hidden;
+  .text-content {
+    opacity: var(--promo-cta-text-opacity);
+  }
+
+  .image-wrapper {
+    position: relative;
+
+    img {
+      aspect-ratio: var(--promo-cta-img-ratio);
+      width: 100%;
+      object-fit: cover;
+      border-radius: var(--roundness);
+      overflow: hidden;
+    }
   }
 
   &.no-background,
@@ -50,6 +119,34 @@
         rgba(255, 255, 255, 0.7) 100%
       );
       /* stylelint-enable */
+    }
+  }
+
+  &.with-placeholder-column {
+    .image-wrapper {
+      margin: 0;
+    }
+
+    .promo-cta-placeholder {
+      margin-right: -42%;
+      z-index: 3;
+
+      &-inner {
+        border: 1px solid var(--border-color);
+        background-color: var(--bg-body);
+        padding: 2rem 3rem;
+      }
+
+      .styled-list ol {
+        margin-bottom: 0;
+        font-weight: bold;
+        font-size: 1.125rem;
+      }
+    }
+
+    .dotted-accent {
+      left: -141px !important;
+      right: unset;
     }
   }
 }

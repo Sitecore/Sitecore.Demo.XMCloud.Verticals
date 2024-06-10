@@ -3,7 +3,6 @@ ID: "86d8240d-04db-4dae-b147-a1d5955932e5"
 Parent: "a67de36c-05bc-4262-8b34-211d1b14e55b"
 Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
 Path: /sitecore/content/Verticals/Services/Presentation/Available Renderings/Page Content
-BranchID: "209f458a-5f7c-4024-9bbb-c78ad6d21abc"
 SharedFields:
 - ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
   Hint: Renderings
@@ -24,6 +23,8 @@ SharedFields:
     {75464A5E-CBB7-4F96-BBBC-104AFE57923A}
     {B7CDF75E-716A-4C59-B9B1-CD970AE0A4AE}
     {1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}
+    {0E8CC47E-32D6-4F55-A7BF-E713ABD06323}
+    {B7EFFFDB-2F0C-4C5E-A8BE-D9F8677F01DA}
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{EDD5B21F-2BD2-4290-81A2-68428363D312}"
@@ -34,4 +35,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b01e98f6-2724-49a4-894b-83a1afa4f424"
+      Value: "de1a4fcd-0d6f-4c92-a674-a80074022544"

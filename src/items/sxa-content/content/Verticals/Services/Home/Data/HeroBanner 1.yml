@@ -1,0 +1,38 @@
+﻿---
+ID: "7fbcbbea-f771-4328-9a72-718579c73441"
+Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
+Template: "0089bcb3-0117-43f2-a760-0771d5ff7417"
+Path: /sitecore/content/Verticals/Services/Home/Data/HeroBanner 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e25a144-5899-4c7e-b0b8-d7209cd76d27"
+      Hint: Text
+      Value: "Play! Agency provides a full service range including technical skills, design, business understanding."
+    - ID: "27b909fd-63d0-4f13-b449-fa185536d493"
+      Hint: Tagline
+      Value: Modern Studio
+    - ID: "5485235d-569d-44d5-aa06-7df61f596638"
+      Hint: Cta1
+      Value: |
+        <link text="How we work" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FB70CB01-02FD-4E6C-A432-6BE3D537019D}" />
+    - ID: "5a8416e1-a058-47d2-96df-69d2a08e69fc"
+      Hint: Image
+      Value: |
+        <image mediaid="{39982BDF-A69B-4259-991A-EC572B2FA8BD}" />
+    - ID: "5c3d6a49-c5e9-4caa-809d-98184f118223"
+      Hint: Icon
+      Value: |
+        <image mediaid="{03F22709-A426-4DF2-8B93-C27C3FA48D43}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "94d526af-e0a8-4c85-b59e-e40d127188a8"
+    - ID: "dcd33f8a-fed4-4740-8729-e11d3c5eee64"
+      Hint: Cta2
+      Value: |
+        <link text="Contact Us" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FB70CB01-02FD-4E6C-A432-6BE3D537019D}" />
+    - ID: "e91adc46-b038-4092-bc72-afd5ec708db5"
+      Hint: Title
+      Value: We’re Here to Help Build Your Dream Project
