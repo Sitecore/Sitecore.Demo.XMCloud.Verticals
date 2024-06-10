@@ -34,9 +34,9 @@ export const Default = (props: FeaturesProps): JSX.Element => {
       <div className="container">
         <div className="info">
           <div className="eyebrow-accent">FEATURES</div>
-          <p className="tagline">
+          <div className="tagline">
             <RichText field={props.fields?.Text} />
-          </p>
+          </div>
           <div className="button button-main">
             <Link field={props.fields?.Link} />
           </div>
