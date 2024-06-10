@@ -1,0 +1,13 @@
+﻿---
+ID: "a9dcfaa0-07ec-4594-b8a1-3fcdde78c28a"
+Parent: "29b5f2ed-6d82-49f5-b4b7-4e89a39c8d8a"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Promo CTA/WithBackgroundImage
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ac1c565-8eb9-4313-b6b1-f72312606dc2"
