@@ -1,12 +1,12 @@
 ﻿---
-ID: "ff5d2bc7-d868-4161-8491-12d60299ce44"
+ID: "50f7c322-1c9f-4f58-a93b-2157be20bf50"
 Parent: "8c2d6765-91be-4bd8-a0b3-4f81256e75a6"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Financial/Home/articles/Authors/Alex Adams
+Path: /sitecore/content/Verticals/Financial/Home/authors/Josephine Baxter
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 700
+  Value: 100
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: 
@@ -24,21 +24,20 @@ Languages:
         <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" alt="Newspaper image" height="" width="" hspace="" vspace="" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Alex Adams
+      Value: Josephine Baxter
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
-      Value: Financial Advisor
+      Value: Investment Specialist
     - ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
       Hint: Photo
       Value: |
-        <image mediaid="{FE2821DD-786C-4E12-A89D-2A3FAAC2014E}" alt="Alex Bio Image" height="" width="" hspace="" vspace="" />
+        <image mediaid="{6135F03F-7CE3-45E4-BF8C-4119D75B6C75}" alt="Josephine Author Bio" height="" width="" hspace="" vspace="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d51f489a-5893-4a4e-bfe7-4911252263a8"
+      Value: "10c16f8c-dd00-46fe-8f89-0fccbe8124d4"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
-      Value: |
-        <div class="ck-content"><p>Alex is dedicated to helping our clients achieve their financial goals and aspirations. With a passion for personalized service and a deep understanding of wealth management strategies, he works closely with clients to develop financial plans that align with their unique needs and objectives.</p></div>
+      Value: <p>Josephine specializes in helping clients grow and protect their wealth through strategic investment planning. With a background in asset management and financial advisory services, she provides clients with personalized investment strategies and guidance to navigate today's complex financial markets.</p>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Alex Adams
+      Value: Josephine Baxter
