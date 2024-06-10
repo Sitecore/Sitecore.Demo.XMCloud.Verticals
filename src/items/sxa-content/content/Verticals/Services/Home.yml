@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "57f2e85d-d695-4e6c-8c89-947ce5443e2e"
 Parent: "a13c890b-43ea-45e2-8bad-a8838112b83d"
 Template: "5282d418-6c18-46eb-85af-9116cde9e6eb"
@@ -49,7 +49,7 @@ SharedFields:
           s:ph="headless-main" />
         <r
           uid="{7FA92A7C-D9D4-411C-88C8-12FFB198805C}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{5FC48185-4532-4202-A803-1C2E7C4093AC}']"
           s:ds="local:/Data/Features 1"
           s:id="{B7EFFFDB-2F0C-4C5E-A8BE-D9F8677F01DA}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
