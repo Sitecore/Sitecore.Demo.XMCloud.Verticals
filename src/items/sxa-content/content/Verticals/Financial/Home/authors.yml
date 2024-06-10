@@ -1,15 +1,18 @@
 ﻿---
 ID: "8c2d6765-91be-4bd8-a0b3-4f81256e75a6"
-Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
+Parent: "b2a38fb8-2e85-4d58-afe5-c12beccbee3a"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
-Path: /sitecore/content/Verticals/Financial/Home/articles/Authors
+Path: /sitecore/content/Verticals/Financial/Home/authors
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: "{AAD350F5-9331-4D71-A942-E3643653C028}"
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 150
+  Value: 650
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -27,6 +30,10 @@ SharedFields:
     </r>
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Authors
   Versions:
   - Version: 1
     Fields:
@@ -44,7 +51,7 @@ Languages:
       Value: Authors
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "45473793-2cc3-4590-9d43-a5e5400b3bd8"
+      Value: "7b894068-af67-4718-88c7-40011d6683f3"
     - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
       Hint: BackgroundImage
       Value: |
