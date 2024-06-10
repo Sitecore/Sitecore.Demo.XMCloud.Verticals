@@ -9,7 +9,9 @@ SharedFields:
   Value: bordered
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
-  Value: "{0E8CC47E-32D6-4F55-A7BF-E713ABD06323}"
+  Value: |
+    {0E8CC47E-32D6-4F55-A7BF-E713ABD06323}
+    {1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}
 Languages:
 - Language: en
   Versions:
@@ -17,4 +19,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "412cb30c-5d4f-489e-b1a0-f80254feed0c"
+      Value: "55568a04-e1a6-40cb-8bfe-3419d960c024"
