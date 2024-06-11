@@ -55,10 +55,6 @@
         &.left {
           border-radius: 0.375rem 0.375rem 0 0.375rem;
 
-          &.has-image-right {
-            border-top-right-radius: 0;
-          }
-
           @include respond-to(mobile-large) {
             border-radius: 0.375rem 0.375rem 0 0;
           }
