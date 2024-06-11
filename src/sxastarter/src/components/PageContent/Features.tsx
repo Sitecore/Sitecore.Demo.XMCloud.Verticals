@@ -17,7 +17,6 @@ interface Fields {
   Image1: ImageField;
   Title1: Field<string>;
   Text1: Field<string>;
-  Image2: ImageField;
   Title2: Field<string>;
   Text2: Field<string>;
 }
