@@ -30,6 +30,9 @@ export type FeaturesProps = {
 export const Default = (props: FeaturesProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
+  const hasImageRight =
+    props.fields?.Image2?.value && Object.keys(props.fields.Image2.value).length > 0;
+
   return (
     <div className={`component features ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
       <div className="container">
@@ -45,12 +48,10 @@ export const Default = (props: FeaturesProps): JSX.Element => {
           </div>
         </div>
         <div className="items">
-          <div className="item left">
-            {props.fields?.Image1?.value && Object.keys(props.fields.Image1.value).length > 0 && (
-              <div className="icon">
-                <Image field={props.fields?.Image1} />
-              </div>
-            )}
+          <div className={`item left ${hasImageRight ? 'with-image-right' : ''}`}>
+            <div className="icon">
+              <Image field={props.fields?.Image1} />
+            </div>
             <div className="title">
               <Text field={props.fields?.Title1} />
             </div>
@@ -59,7 +60,7 @@ export const Default = (props: FeaturesProps): JSX.Element => {
             </p>
           </div>
           <div className="item right">
-            {props.fields?.Image2?.value && Object.keys(props.fields.Image2.value).length > 0 && (
+            {hasImageRight && (
               <div className="icon">
                 <Image field={props.fields?.Image2} />
               </div>
