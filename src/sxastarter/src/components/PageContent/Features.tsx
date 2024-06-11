@@ -44,7 +44,7 @@ export const Default = (props: FeaturesProps): JSX.Element => {
             <Link field={props.fields?.Link} />
           </div>
         </div>
-        <div className="d-flex justify-content-around align-items-end">
+        <div className="items">
           <div className="item left">
             {props.fields?.Image1?.value && Object.keys(props.fields.Image1.value).length > 0 && (
               <div className="icon">
