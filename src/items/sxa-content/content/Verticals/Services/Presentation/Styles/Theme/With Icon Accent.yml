@@ -9,7 +9,9 @@ SharedFields:
   Value: "with-icon-accent"
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
-  Value: "{0E8CC47E-32D6-4F55-A7BF-E713ABD06323}"
+  Value: |
+    {0E8CC47E-32D6-4F55-A7BF-E713ABD06323}
+    {488B8AC0-0EF9-4F6F-8711-78BA182B2C4C}
 Languages:
 - Language: en
   Versions:
@@ -17,4 +19,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d54aeee4-411d-4ab5-afc3-328e77d5fc1b"
+      Value: "9f708787-ba09-4795-95cc-667418f3f42d"

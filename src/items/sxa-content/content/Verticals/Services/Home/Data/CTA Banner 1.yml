@@ -1,0 +1,26 @@
+﻿---
+ID: "67fca4a4-9320-4e19-815a-ec9a8a934763"
+Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
+Template: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+Path: /sitecore/content/Verticals/Services/Home/Data/CTA Banner 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6f94c5b4-e2b4-41eb-899f-9a29904b8e18"
+      Hint: Image
+      Value: |
+        <image mediaid="{A009945F-2E17-4EB5-9B8F-AD78493B4D28}" />
+    - ID: "72b19acc-d575-4ae4-a0cf-2182e0c64562"
+      Hint: Eyebrow
+      Value: Get Started
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e529bec-d837-4885-ae83-7476d2876ab6"
+    - ID: "b03c10d8-11a2-48ca-9822-3640768ed2b7"
+      Hint: Text
+      Value: 
+    - ID: "e62af488-48ce-4ae4-a2bb-37ad346981a4"
+      Hint: Title
+      Value: We Help Companies Move Faster

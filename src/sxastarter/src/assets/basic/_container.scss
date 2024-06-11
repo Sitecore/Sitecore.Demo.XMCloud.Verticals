@@ -20,6 +20,10 @@
   }
 }
 
+.container.container-widest {
+  max-width: 100%;
+}
+
 @media (width >= 1920px) {
   .container.container-widest {
     max-width: 1650px;
