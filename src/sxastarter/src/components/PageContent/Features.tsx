@@ -11,6 +11,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
+  Eyebrow: Field<string>;
   Text: RichTextField;
   Link: LinkField;
   Image1: ImageField;
@@ -33,7 +34,9 @@ export const Default = (props: FeaturesProps): JSX.Element => {
     <div className={`component features ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
       <div className="container">
         <div className="info">
-          <div className="eyebrow-accent">FEATURES</div>
+          <div className="eyebrow-accent">
+            <Text field={props.fields?.Eyebrow} />
+          </div>
           <p className="tagline">
             <RichText field={props.fields?.Text} />
           </p>
