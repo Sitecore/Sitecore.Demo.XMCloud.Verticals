@@ -1,0 +1,17 @@
+﻿---
+ID: "d82e3f49-bdb7-4051-9009-86653bee74d0"
+Parent: "03b99ac0-0572-49db-ae6d-3c7273c846e8"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Heading CTA/Default
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0d82208-cf97-4ac7-8170-2c7b20957c03"

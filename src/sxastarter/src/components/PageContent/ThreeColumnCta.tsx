@@ -104,3 +104,79 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
     </div>
   );
 };
+
+export const WithIcons = (props: ThreeColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
+
+  const Column = ({
+    image,
+    text,
+    subText,
+    link,
+    delay,
+  }: {
+    image: ImageField;
+    text: Field<string>;
+    subText: Field<string>;
+    link: LinkField;
+    delay?: number;
+  }) => {
+    const [isVisible, domRef] = useVisibility(delay);
+    return (
+      <div
+        className={`col-sm-12 col-lg-4 ${
+          !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
+        } `}
+        ref={domRef}
+      >
+        <Link field={link} className="wrapper-link">
+          <div className="content-wrapper">
+            <div className="image-wrapper">
+              <Image field={image} height={32} />
+            </div>
+            <h2>
+              <Text field={text} />
+            </h2>
+            <p>
+              <Text field={subText} />
+            </p>
+          </div>
+        </Link>
+      </div>
+    );
+  };
+
+  return (
+    <div
+      className={`component component-spaced three-column-cta with-icons ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="row gx-0">
+          <Column
+            image={props.fields.Image1}
+            text={props.fields.Text1}
+            subText={props.fields.SubText1}
+            link={props.fields.Link1}
+          />
+          <Column
+            image={props.fields.Image2}
+            text={props.fields.Text2}
+            subText={props.fields.SubText2}
+            link={props.fields.Link2}
+            delay={500}
+          />
+          <Column
+            image={props.fields.Image3}
+            text={props.fields.Text3}
+            subText={props.fields.SubText3}
+            link={props.fields.Link3}
+            delay={1000}
+          />
+        </div>
+      </div>
+    </div>
+  );
+};

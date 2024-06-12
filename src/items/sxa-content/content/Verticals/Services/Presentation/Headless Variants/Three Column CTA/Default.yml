@@ -1,0 +1,13 @@
+﻿---
+ID: "f8ed5ce8-13f2-4966-89a8-d8e4a10c19f6"
+Parent: "c126c4c8-8756-4516-be0a-105c87286e4f"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Three Column CTA/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "600d6ef5-33a1-40c6-b994-0f9f5721f064"
