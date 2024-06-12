@@ -1,3 +1,11 @@
+.site-financial {
+  --promo-cta-text-opacity: 1;
+}
+
+.site-services {
+  --promo-cta-text-opacity: 0.65;
+}
+
 .three-column-cta {
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
@@ -26,6 +34,7 @@
 
   p {
     margin-bottom: 1.5rem;
+    opacity: var(--promo-cta-text-opacity);
   }
 
   &.bordered {
@@ -82,6 +91,55 @@
         &:hover {
           filter: brightness(85%);
         }
+      }
+    }
+  }
+
+  &.with-icons {
+    .row {
+      border: 1px solid var(--border-color);
+      border-radius: var(--roundness);
+      gap: 0;
+
+      > div:nth-child(2) {
+        border-left: 1px solid var(--border-color);
+        border-right: 1px solid var(--border-color);
+
+        @include respond-to(mobile-large) {
+          border-left: none;
+          border-right: none;
+          border-top: 1px solid var(--border-color);
+          border-bottom: 1px solid var(--border-color);
+        }
+      }
+    }
+
+    .wrapper-link {
+      display: block;
+      padding: 3rem;
+
+      &:hover {
+        .image-wrapper img {
+          transform: scale(1.2);
+        }
+      }
+    }
+
+    .image-wrapper {
+      width: 5rem;
+      height: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--bg-saturated);
+      border-radius: 100%;
+      margin-bottom: 3rem;
+
+      img {
+        width: 2rem;
+        height: auto;
+        margin: 0;
+        transition: all 0.3s ease-in-out;
       }
     }
   }
