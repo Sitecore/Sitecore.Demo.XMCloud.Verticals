@@ -11,12 +11,12 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
+  Eyebrow: Field<string>;
   Text: RichTextField;
   Link: LinkField;
   Image1: ImageField;
   Title1: Field<string>;
   Text1: Field<string>;
-  Image2: ImageField;
   Title2: Field<string>;
   Text2: Field<string>;
 }
@@ -36,7 +36,9 @@ export const Default = (props: FeaturesProps): JSX.Element => {
     >
       <div className="container">
         <div className="info">
-          <div className="eyebrow-accent">FEATURES</div>
+          <div className="eyebrow-accent">
+            <Text field={props.fields?.Eyebrow} />
+          </div>
           <div className="tagline">
             <RichText field={props.fields?.Text} />
           </div>
@@ -44,13 +46,11 @@ export const Default = (props: FeaturesProps): JSX.Element => {
             <Link field={props.fields?.Link} />
           </div>
         </div>
-        <div className="d-flex justify-content-around align-items-end">
+        <div className="items">
           <div className="item left">
-            {props.fields?.Image1?.value && Object.keys(props.fields.Image1.value).length > 0 && (
-              <div className="icon">
-                <Image field={props.fields?.Image1} />
-              </div>
-            )}
+            <div className="icon">
+              <Image field={props.fields?.Image1} />
+            </div>
             <div className="title">
               <Text field={props.fields?.Title1} />
             </div>
@@ -59,11 +59,6 @@ export const Default = (props: FeaturesProps): JSX.Element => {
             </p>
           </div>
           <div className="item right">
-            {props.fields?.Image2?.value && Object.keys(props.fields.Image2.value).length > 0 && (
-              <div className="icon">
-                <Image field={props.fields?.Image2} />
-              </div>
-            )}
             <div className="title">
               <Text field={props.fields?.Title2} />
             </div>
