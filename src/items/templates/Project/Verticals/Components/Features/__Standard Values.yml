@@ -29,9 +29,12 @@ Languages:
       Hint: Image1
       Value: |
         <image mediaid="{F9AC5643-A093-4C1E-9630-C3FB850E924C}" alt="features_icon" height="" width="" hspace="" vspace="" />
+    - ID: "5d056c68-5c1a-4f1e-b5e1-55ff37357f95"
+      Hint: Eyebrow
+      Value: Features
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bbcab240-0155-4614-982e-ba7d8a1d5c18"
+      Value: "bfe4207c-f8c0-4abd-b65b-0829ff5afc2b"
     - ID: "c4e8a8a6-23ee-4204-a871-d7615b0ccd3e"
       Hint: Text2
       Value: Business understanding, ability to put themselves.

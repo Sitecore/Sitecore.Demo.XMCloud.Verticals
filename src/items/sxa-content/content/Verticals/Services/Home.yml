@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "57f2e85d-d695-4e6c-8c89-947ce5443e2e"
 Parent: "a13c890b-43ea-45e2-8bad-a8838112b83d"
 Template: "5282d418-6c18-46eb-85af-9116cde9e6eb"
@@ -73,7 +73,13 @@ SharedFields:
           p:after="r[@uid='{5371DB62-33CF-4AA9-AC4D-9D867A9D7CE7}']"
           s:ds="local:/Data/Promo CTA 2"
           s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7BDBE32EA5-0AA4-47BC-B73F-FE0DCAA95762%7D%7C%7BF50EB4F2-6C9A-4226-828C-C0F21D66F789%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+        <r
+          uid="{89F362F5-0B63-4D62-9880-1BBFF422E9D3}"
+          p:after="r[@uid='{54ECEAE2-291D-4AAF-91C5-CBB662CE0497}']"
+          s:ds="local:/Data/Features 1"
+          s:id="{B7EFFFDB-2F0C-4C5E-A8BE-D9F8677F01DA}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=19"
+          s:ph="headless-main" />
           s:ph="headless-main" />
         <r
           uid="{7FA92A7C-D9D4-411C-88C8-12FFB198805C}"
