@@ -4,9 +4,14 @@ Parent: "5e209b76-51b7-45f7-9cf9-ec04d7e8b2e3"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Verticals/Services/Presentation/Styles/Content/Image Right
 SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: 
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
-  Value: "{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+  Value: |
+    {1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}
+    {488B8AC0-0EF9-4F6F-8711-78BA182B2C4C}
 - ID: "95579875-484e-41f0-b9c2-804eafaf3ccc"
   Hint: IsVerifiedStyle
   Value: 1
@@ -17,7 +22,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4bd8356e-a4f7-4d5d-98da-ba3b18ad92be"
+      Value: "fc2aca3e-d3e7-4f7a-b279-f14d86fc38e9"
 - Language: "fr-CA"
   Versions:
   - Version: 1

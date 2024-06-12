@@ -9,7 +9,9 @@ SharedFields:
   Value: reverse
 - ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
   Hint: Allowed Renderings
-  Value: "{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
+  Value: |
+    {1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}
+    {488B8AC0-0EF9-4F6F-8711-78BA182B2C4C}
 - ID: "95579875-484e-41f0-b9c2-804eafaf3ccc"
   Hint: IsVerifiedStyle
   Value: 1
@@ -20,7 +22,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "be06609e-81a6-442e-bf21-01fba4f38ad0"
+      Value: "a7b966ca-5ea2-4ff3-a183-0b725bd7704d"
 - Language: "fr-CA"
   Versions:
   - Version: 1
