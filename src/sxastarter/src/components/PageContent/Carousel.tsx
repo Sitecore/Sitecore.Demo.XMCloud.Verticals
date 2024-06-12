@@ -22,6 +22,7 @@ interface Fields {
 }
 
 export type CarouselItemProps = {
+  id: string;
   fields: Fields;
 };
 
@@ -58,6 +59,7 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
             {!isPageEditing && item.fields?.Video?.value?.src ? (
               <video
                 className="object-fit-cover d-block w-100 h-100"
+                key={item.id}
                 autoPlay={true}
                 loop={true}
                 muted
