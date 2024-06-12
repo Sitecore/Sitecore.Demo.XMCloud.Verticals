@@ -1,0 +1,27 @@
+﻿---
+ID: "4cf7a8bc-7cae-4e25-83f2-03342e54d5ef"
+Parent: "ca6feb6e-0c99-4345-ac90-f20d99f8b73e"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Verticals/Components/Latest Articles/Data/Title
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 25
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc6c532e-cc34-4453-9e5d-ecf36e827ef6"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "50697e2a-11f2-4ce6-83e5-6b0960b4e99d"

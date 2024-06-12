@@ -1,0 +1,13 @@
+﻿---
+ID: "acac34d6-4600-4c96-a2ad-1074b9d8cb36"
+Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
+Template: "6e98510b-a6ac-4e70-a375-e1f0bc0b2e55"
+Path: /sitecore/content/Verticals/Services/Home/Data/Latest Articles 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0868c2b0-1ffe-48ef-a3bc-9b792aae142c"

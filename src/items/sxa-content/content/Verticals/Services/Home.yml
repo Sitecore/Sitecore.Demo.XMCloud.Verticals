@@ -63,9 +63,12 @@ SharedFields:
         <r
           uid="{7FA92A7C-D9D4-411C-88C8-12FFB198805C}"
           p:after="r[@uid='{E4735111-6FC0-49E4-B17A-1006F4AFBFCE}']"
-          s:ds="local:/Data/Features 1"
-          s:id="{B7EFFFDB-2F0C-4C5E-A8BE-D9F8677F01DA}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
+        <r
+          uid="{0F55B9B5-1652-44AA-A82B-821A2384E392}"
+          p:after="r[@uid='{44F6F2D7-76E1-4DB8-8EFC-C67F0AE5826F}']"
+          s:ds="local:/Data/Latest Articles 1"
+          s:id="{7FCB86C1-E967-4767-A164-43E745568ED9}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=21"
           s:ph="headless-main" />
         <r
           uid="{FCE63AC5-DFEB-45CE-8474-139CEA2A94C4}"
