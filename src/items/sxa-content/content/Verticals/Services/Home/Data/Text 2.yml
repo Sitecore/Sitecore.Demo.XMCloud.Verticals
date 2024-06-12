@@ -1,0 +1,20 @@
+﻿---
+ID: "133cd02d-6658-4bfc-9c28-168e88c381b5"
+Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Verticals/Services/Home/Data/Text 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><ol><li>Full service range including</li><li>Technical skills, design, business</li><li>Themselves in the merchant's</li></ol></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5e5a5b84-ecf5-4af0-b821-8e440e9cc2ea"

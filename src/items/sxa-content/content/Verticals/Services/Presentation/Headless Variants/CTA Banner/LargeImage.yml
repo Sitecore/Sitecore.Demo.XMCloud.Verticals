@@ -1,0 +1,13 @@
+﻿---
+ID: "d561ef06-567b-4170-b769-a67adac1fe2a"
+Parent: "96e6c089-71db-4cb0-942e-07a170da7187"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/CTA Banner/LargeImage
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb7fc73e-2a84-4296-ba3d-aaa47d8c34ff"

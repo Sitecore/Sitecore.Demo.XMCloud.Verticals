@@ -2,7 +2,7 @@ export const DottedAccent = ({ className }: { className?: string }): JSX.Element
   return (
     <div className={`dotted-accent ${className}`} style={{ opacity: 0.25 }}>
       <svg xmlns="http://www.w3.org/2000/svg" width="141" height="141" viewBox="0 0 141 141">
-        <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+        <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clipPath="url(#clip-path)">
           <g transform="translate(-5023 287)">
             <circle
               id="Ellipse_16"

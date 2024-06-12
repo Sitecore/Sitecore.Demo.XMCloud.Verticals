@@ -1,0 +1,22 @@
+﻿---
+ID: "6fab1930-d2b6-4408-9bf4-b6bc5ee9d98d"
+Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
+Template: "cad49c2a-bd85-44fd-852a-10c1a1c8fd72"
+Path: /sitecore/content/Verticals/Services/Home/Data/Quote 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "55b519f1-42a1-4733-b286-aaa5bca9b0bb"
+    - ID: "93414330-5cd6-467d-b28f-a39b14a40a89"
+      Hint: AuthorPosition
+      Value: Founder
+    - ID: "a386d33d-fd48-47b5-94c6-1db67b44a93c"
+      Hint: Quote
+      Value: Digital agency is a business you hire to outsource your digital marketing efforts
+    - ID: "a6fe216e-7eb0-4e8b-9ab9-355b3ffbf8c1"
+      Hint: AuthorName
+      Value: Ren Delan

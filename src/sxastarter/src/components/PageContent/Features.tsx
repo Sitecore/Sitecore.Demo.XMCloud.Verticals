@@ -30,15 +30,18 @@ export const Default = (props: FeaturesProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
   return (
-    <div className={`component features ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
+    <div
+      className={`component features component-spaced ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
       <div className="container">
         <div className="info">
           <div className="eyebrow-accent">
             <Text field={props.fields?.Eyebrow} />
           </div>
-          <p className="tagline">
+          <div className="tagline">
             <RichText field={props.fields?.Text} />
-          </p>
+          </div>
           <div className="button button-main">
             <Link field={props.fields?.Link} />
           </div>
