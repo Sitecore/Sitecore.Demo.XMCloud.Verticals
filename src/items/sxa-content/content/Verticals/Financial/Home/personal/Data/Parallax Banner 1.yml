@@ -3,6 +3,10 @@ ID: "91fe579b-6980-49c0-ba23-bc5c0d79aa48"
 Parent: "3064b748-c9ff-49c9-84f4-b97c856f794a"
 Template: "28b7f396-dc4a-4116-8c93-3b7909cbeb0e"
 Path: /sitecore/content/Verticals/Financial/Home/personal/Data/Parallax Banner 1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
 Languages:
 - Language: en
   Versions:
@@ -14,18 +18,18 @@ Languages:
     - ID: "1fbdde82-0dd2-46ad-a636-0d5e714dd086"
       Hint: ForegroundImage
       Value: |
-        <image mediaid="{719649FD-F937-4ADD-8E17-6915F6F67472}" />
+        <image mediaid="{719649FD-F937-4ADD-8E17-6915F6F67472}" alt="Plant on counter" height="" width="" hspace="" vspace="" />
     - ID: "5ba03d3f-ffbc-412e-80ff-6dd0fe312042"
       Hint: Link
       Value: |
         <link text="Learn more" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{0B45C71D-61AE-44F3-9F7D-6C88185F0B15}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7ecec054-3584-4c5c-bfa3-850b9fe3a9c1"
+      Value: "ed38fdbc-8f75-4472-a944-f107b0b9f762"
     - ID: "a54476a3-eb25-4a1a-a521-e702f1372b8f"
       Hint: BackgroundImage
       Value: |
-        <image mediaid="{EE13D176-D0CF-4B45-9F1D-93D1F797CF4D}" />
+        <image mediaid="{EE13D176-D0CF-4B45-9F1D-93D1F797CF4D}" alt="Background texture" height="" width="" hspace="" vspace="" />
     - ID: "f34c6976-7e76-490b-a91e-5977db4a2208"
       Hint: Title
       Value: "Grow your savings with us!"

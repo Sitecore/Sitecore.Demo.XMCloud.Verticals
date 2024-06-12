@@ -3,6 +3,10 @@ ID: "8d897ee7-99a7-4c0f-8ee7-4a4303ddde13"
 Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
 Template: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
 Path: /sitecore/content/Verticals/Financial/Home/Data/Documents List 1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1900
 Languages:
 - Language: en
   Versions:
@@ -10,4 +14,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "46272d7b-ec4e-4860-997c-f17152f775c6"
+      Value: "b755bbbf-40de-4adf-9265-87ea6a18a432"

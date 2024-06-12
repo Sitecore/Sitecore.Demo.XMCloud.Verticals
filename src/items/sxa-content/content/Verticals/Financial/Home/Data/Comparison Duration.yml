@@ -3,6 +3,10 @@ ID: "2fea0f23-2349-4552-b3c5-5934d715f8db"
 Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
 Template: "32f00428-21ac-4dc0-aa2b-f2e31ca3e97e"
 Path: /sitecore/content/Verticals/Financial/Home/Data/Comparison Duration
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1800
 Languages:
 - Language: en
   Versions:
@@ -25,7 +29,7 @@ Languages:
       Value: Duration
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a2ca4493-bb6c-4845-99b1-2b0263826896"
+      Value: "1f6ebf91-5332-47db-8b9a-444cbc66a568"
     - ID: "ef3b1e0a-490d-4340-8ebc-5612d6be5e74"
       Hint: Currency1
       Value: months

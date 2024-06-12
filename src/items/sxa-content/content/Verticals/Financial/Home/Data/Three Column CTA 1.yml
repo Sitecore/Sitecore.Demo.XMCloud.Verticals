@@ -3,6 +3,10 @@ ID: "aff2baaa-bc2c-4c1c-823e-c91f7b1f3e43"
 Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
 Template: "148d07ba-f923-4fb2-8907-0bd440d5db44"
 Path: /sitecore/content/Verticals/Financial/Home/Data/Three Column CTA 1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1300
 Languages:
 - Language: en
   Versions:
@@ -48,7 +52,7 @@ Languages:
         <link text="Details" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{0B45C71D-61AE-44F3-9F7D-6C88185F0B15}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40b36f47-d786-4853-954a-afd85c89e3b8"
+      Value: "9bf0fabd-5ca5-4ba6-bc35-a4d031cf00da"
     - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
       Hint: SubText3
       Value: Access your funds anywhere, anytime.

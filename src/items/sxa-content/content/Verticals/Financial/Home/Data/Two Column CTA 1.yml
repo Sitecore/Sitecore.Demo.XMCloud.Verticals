@@ -3,6 +3,10 @@ ID: "1cece0c1-837c-4c8b-8755-c979583218a3"
 Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
 Template: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
 Path: /sitecore/content/Verticals/Financial/Home/Data/Two Column CTA 1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1600
 Languages:
 - Language: en
   Versions:
@@ -38,7 +42,7 @@ Languages:
       Value: "See all the details with our self-service loan calculator."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bf2b1bd7-9678-4121-adfd-74995d2460d3"
+      Value: "56531613-4b18-4dc7-9337-6a6177724e1e"
     - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
       Hint: Text2
       Value: Find a loan duration that works for you with our loan calculator. 

@@ -3,6 +3,10 @@ ID: "8caa4c13-d255-4693-b787-99c2ca648ce4"
 Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
 Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
 Path: /sitecore/content/Verticals/Financial/Home/Data/Promo CTA 2
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1500
 Languages:
 - Language: en
   Versions:
@@ -20,7 +24,7 @@ Languages:
         <link linktype="internal" id="944b4714-233c-4bc7-8e24-604e758c0f85" anchor="" querystring="" target="" class="" text="Get started" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "74662de5-974b-4af9-b4e2-56e7c9029ef3"
+      Value: "95060d0a-c6b7-4dc8-a8ca-1dc7308e3bdd"
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: "As your finances grow, you will unlock more benefits and services from PLAY! Finance."

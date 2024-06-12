@@ -3,6 +3,10 @@ ID: "6b8e8ac0-4114-413b-b961-a86d53421b90"
 Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
 Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
 Path: /sitecore/content/Verticals/Financial/Home/Data/Promo CTA 1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1400
 Languages:
 - Language: en
   Versions:
@@ -20,7 +24,7 @@ Languages:
         <link linktype="internal" id="{FB9B938E-DF02-46E7-9354-613D29E0B4AC}" anchor="" querystring="" target="" class="" text="Read more" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8840d8e0-cee7-4f39-a2fc-84f956cab635"
+      Value: "aab61a81-b1b2-4c49-9f1c-abc2d4e8b728"
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: Actionable advice to help create equitable pathways for income growth.
