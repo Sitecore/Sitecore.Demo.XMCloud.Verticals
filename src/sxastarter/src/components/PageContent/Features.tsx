@@ -11,12 +11,12 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
+  Eyebrow: Field<string>;
   Text: RichTextField;
   Link: LinkField;
   Image1: ImageField;
   Title1: Field<string>;
   Text1: Field<string>;
-  Image2: ImageField;
   Title2: Field<string>;
   Text2: Field<string>;
 }
@@ -30,24 +30,27 @@ export const Default = (props: FeaturesProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
   return (
-    <div className={`component features ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
+    <div
+      className={`component features component-spaced ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
       <div className="container">
         <div className="info">
-          <div className="eyebrow-accent">FEATURES</div>
-          <p className="tagline">
+          <div className="eyebrow-accent">
+            <Text field={props.fields?.Eyebrow} />
+          </div>
+          <div className="tagline">
             <RichText field={props.fields?.Text} />
-          </p>
+          </div>
           <div className="button button-main">
             <Link field={props.fields?.Link} />
           </div>
         </div>
-        <div className="d-flex justify-content-around align-items-end">
+        <div className="items">
           <div className="item left">
-            {props.fields?.Image1?.value && Object.keys(props.fields.Image1.value).length > 0 && (
-              <div className="icon">
-                <Image field={props.fields?.Image1} />
-              </div>
-            )}
+            <div className="icon">
+              <Image field={props.fields?.Image1} />
+            </div>
             <div className="title">
               <Text field={props.fields?.Title1} />
             </div>
@@ -56,11 +59,6 @@ export const Default = (props: FeaturesProps): JSX.Element => {
             </p>
           </div>
           <div className="item right">
-            {props.fields?.Image2?.value && Object.keys(props.fields.Image2.value).length > 0 && (
-              <div className="icon">
-                <Image field={props.fields?.Image2} />
-              </div>
-            )}
             <div className="title">
               <Text field={props.fields?.Title2} />
             </div>
