@@ -25,9 +25,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "c0c39a4a-2a1a-4a32-8b38-39ce5912c9d0"
