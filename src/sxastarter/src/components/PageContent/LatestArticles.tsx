@@ -64,8 +64,6 @@ const Article = ({ image, category, title, date }: ArticleProps): JSX.Element =>
 export const Default = (props: LatestArticlesProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
-  console.log(props.fields.Date1);
-
   return (
     <div
       className={`component latest-articles ${props.params.styles.trimEnd()}`}
