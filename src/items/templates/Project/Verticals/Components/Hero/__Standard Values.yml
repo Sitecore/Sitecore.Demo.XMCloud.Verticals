@@ -3,15 +3,16 @@ ID: "1d0ff4c5-5f07-4666-9061-0210d0692984"
 Parent: "90d315e8-aa42-4b23-a7eb-4491396453f8"
 Template: "90d315e8-aa42-4b23-a7eb-4491396453f8"
 Path: /sitecore/templates/Project/Verticals/Components/Hero/__Standard Values
+SharedFields:
+- ID: "3ed91913-9018-4580-a112-9cb5b921fcca"
+  Hint: Image
+  Value: |
+    <image mediaid="{7ED35C53-B0C3-4508-8561-EDEC520BB63A}" alt="top-view-passport-money-with-copy-space" height="" width="" hspace="" vspace="" />
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "3ed91913-9018-4580-a112-9cb5b921fcca"
-      Hint: Image
-      Value: |
-        <image mediaid="{7ED35C53-B0C3-4508-8561-EDEC520BB63A}" alt="top-view-passport-money-with-copy-space" height="" width="" hspace="" vspace="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "098585dd-31d0-4f64-aed2-9deaef046038"

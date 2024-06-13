@@ -13,6 +13,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 650
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" alt="Newspaper image" height="" width="" hspace="" vspace="" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -52,7 +56,3 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "7b894068-af67-4718-88c7-40011d6683f3"
-    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
-      Hint: BackgroundImage
-      Value: |
-        <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" alt="Newspaper image" height="" width="" hspace="" vspace="" />

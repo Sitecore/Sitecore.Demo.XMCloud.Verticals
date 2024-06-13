@@ -7,6 +7,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <image mediaid="{FC78C30D-DE27-4D68-AEF8-A4F389FEEA4D}" alt="close-up-young-businesswoman" height="" width="" hspace="" vspace="" />
 Languages:
 - Language: en
   Versions:
@@ -32,10 +36,6 @@ Languages:
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
-      Hint: Image
-      Value: |
-        <image mediaid="{FC78C30D-DE27-4D68-AEF8-A4F389FEEA4D}" alt="close-up-young-businesswoman" height="" width="" hspace="" vspace="" />
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: Maecenas nec rhoncus risus.

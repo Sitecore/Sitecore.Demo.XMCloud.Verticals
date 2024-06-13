@@ -4,9 +4,21 @@ Parent: "148d07ba-f923-4fb2-8907-0bd440d5db44"
 Template: "148d07ba-f923-4fb2-8907-0bd440d5db44"
 Path: /sitecore/templates/Project/Verticals/Components/Three Column CTA/__Standard Values
 SharedFields:
+- ID: "39b3d592-0895-4f30-9c17-454b171f0b2e"
+  Hint: Image3
+  Value: |
+    <image mediaid="{CF40EE41-9D96-4764-9DCF-77684EE004AF}" alt="Woman looking at laptop" height="" width="" hspace="" vspace="" />
+- ID: "39fe4fb3-3794-4b9a-a584-ff877e93e33b"
+  Hint: Image2
+  Value: |
+    <image mediaid="{D3A0CC0B-EAAE-4A88-AD26-E5DC28DCDEBF}" alt="People in a meeting room with two people shaking hands" height="" width="" hspace="" vspace="" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
+- ID: "c511247c-fec1-4690-81d6-ce791da18d4a"
+  Hint: Image1
+  Value: |
+    <image mediaid="{A6E1E406-694C-41DB-8F9B-AE69C32CA47E}" alt="Woman smiling in front of an ATM" height="" width="" hspace="" vspace="" />
 Languages:
 - Language: en
   Versions:
@@ -26,14 +38,6 @@ Languages:
     - ID: "34f6d379-9a96-4cb8-839f-0d224a4f6db1"
       Hint: Text2
       Value: Lorem ipsum dolor
-    - ID: "39b3d592-0895-4f30-9c17-454b171f0b2e"
-      Hint: Image3
-      Value: |
-        <image mediaid="{CF40EE41-9D96-4764-9DCF-77684EE004AF}" alt="Woman looking at laptop" height="" width="" hspace="" vspace="" />
-    - ID: "39fe4fb3-3794-4b9a-a584-ff877e93e33b"
-      Hint: Image2
-      Value: |
-        <image mediaid="{D3A0CC0B-EAAE-4A88-AD26-E5DC28DCDEBF}" alt="People in a meeting room with two people shaking hands" height="" width="" hspace="" vspace="" />
     - ID: "4c50be2f-021e-4846-abb0-50feb2df5eed"
       Hint: SubText1
       Value: Lorem ipsum dolor sit amet consectetur adipiscing elit.
@@ -53,7 +57,3 @@ Languages:
     - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
       Hint: SubText3
       Value: Lorem ipsum dolor sit amet consectetur adipiscing elit.
-    - ID: "c511247c-fec1-4690-81d6-ce791da18d4a"
-      Hint: Image1
-      Value: |
-        <image mediaid="{A6E1E406-694C-41DB-8F9B-AE69C32CA47E}" alt="Woman smiling in front of an ATM" height="" width="" hspace="" vspace="" />
