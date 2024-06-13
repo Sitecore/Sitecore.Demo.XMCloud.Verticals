@@ -12,7 +12,7 @@ SharedFields:
   Value: 
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/users3.png
+  Value: DemoIcons/32x32/author_list.png
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -43,7 +43,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3164877f-e4bc-419b-acb2-93d272063cd3"
+      Value: "88b1c066-0c12-41ca-b69e-dc15beb0e1cf"
 - Language: "fr-CA"
   Versions:
   - Version: 1

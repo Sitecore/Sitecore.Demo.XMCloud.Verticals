@@ -9,7 +9,7 @@ SharedFields:
   Value: Footer
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: wordprocessing/32x32/footer.png
+  Value: DemoIcons/32x32/footer.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/Verticals/Components/Footer
@@ -18,7 +18,7 @@ SharedFields:
   Value: 0
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 0
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
@@ -56,7 +56,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "34f3c2ae-e3e3-4b0e-b65b-3290171cff46"
+      Value: "dd05abdb-c973-4837-b923-0ee9d1ed6db7"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

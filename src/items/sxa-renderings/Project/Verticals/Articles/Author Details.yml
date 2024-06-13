@@ -15,7 +15,7 @@ SharedFields:
     {936BBB4A-6772-4DB5-A0EA-FABEE542EBA9}
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: apps/32x32/account.png
+  Value: DemoIcons/32x32/author_details.png
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -46,7 +46,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "72d1e084-5480-440f-aa70-566c1628b0d2"
+      Value: "09d98f6d-5163-4a36-9267-79c775c74813"
 - Language: "fr-CA"
   Versions:
   - Version: 1
