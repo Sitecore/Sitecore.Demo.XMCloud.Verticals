@@ -4,6 +4,14 @@ Parent: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
 Template: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
 Path: /sitecore/templates/Project/Verticals/Components/Two Column CTA/__Standard Values
 SharedFields:
+- ID: "168fed07-0f41-44f5-a14e-f134e16b1477"
+  Hint: Image1
+  Value: |
+    <image mediaid="{A4CE3822-1BFC-4876-9353-0D43914FDDC9}" alt="two-col-cta-1" height="" width="" hspace="" vspace="" />
+- ID: "41c85ac6-5f19-48ac-9dfb-e81d5f1450f6"
+  Hint: Image2
+  Value: |
+    <image mediaid="{F64C8C16-8C71-44E1-A658-B3070574B89E}" alt="two-col-cta-2" height="" width="" hspace="" vspace="" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
@@ -12,18 +20,10 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "168fed07-0f41-44f5-a14e-f134e16b1477"
-      Hint: Image1
-      Value: |
-        <image mediaid="{A4CE3822-1BFC-4876-9353-0D43914FDDC9}" alt="two-col-cta-1" height="" width="" hspace="" vspace="" />
     - ID: "301fab64-5268-445d-8380-6b43861bb434"
       Hint: Link1
       Value: |
         <link text="Details" linktype="external" url="https://example.com" anchor="" target="" />
-    - ID: "41c85ac6-5f19-48ac-9dfb-e81d5f1450f6"
-      Hint: Image2
-      Value: |
-        <image mediaid="{F64C8C16-8C71-44E1-A658-B3070574B89E}" alt="two-col-cta-2" height="" width="" hspace="" vspace="" />
     - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
       Hint: Title1
       Value: Lorem ipsum dolor

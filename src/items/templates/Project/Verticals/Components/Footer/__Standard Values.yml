@@ -7,6 +7,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
+- ID: "edf38721-e3f4-4a5f-b94b-44b9749ef0fb"
+  Hint: Image1
+  Value: |
+    <image mediaid="{A5957956-20A2-4FCC-B203-388D7C696FA7}" alt="P logo" height="" width="" hspace="" vspace="" />
 Languages:
 - Language: en
   Versions:
@@ -98,10 +102,6 @@ Languages:
     - ID: "e71e7e6c-29a7-4a9a-a7f8-a4e29609cb64"
       Hint: Title2
       Value: Business Banking
-    - ID: "edf38721-e3f4-4a5f-b94b-44b9749ef0fb"
-      Hint: Image1
-      Value: |
-        <image mediaid="{A5957956-20A2-4FCC-B203-388D7C696FA7}" alt="P logo" height="" width="" hspace="" vspace="" />
     - ID: "ee146d7d-5c17-47f9-acf4-1583573db084"
       Hint: Title3
       Value: Rates

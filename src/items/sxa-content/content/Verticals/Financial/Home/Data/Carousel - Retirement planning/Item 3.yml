@@ -3,6 +3,11 @@ ID: "01028d44-620c-4ea7-82bf-f6771250cd79"
 Parent: "0e22b5de-ee22-4f5d-b079-03c0acf6e4a7"
 Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
 Path: "/sitecore/content/Verticals/Financial/Home/Data/Carousel - Retirement planning/Item 3"
+SharedFields:
+- ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+  Hint: Image
+  Value: |
+    <image mediaid="{49033FEE-BA64-45D6-B5C1-FA0DFE56A747}" alt="Kids walking and playing with woman" height="" width="" hspace="" vspace="" />
 Languages:
 - Language: en
   Versions:
@@ -21,7 +26,3 @@ Languages:
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
       Value: <p>Learn about our comprehensive estate planning services, designed to protect your assets and provide for your loved ones.</p>
-    - ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
-      Hint: Image
-      Value: |
-        <image mediaid="{49033FEE-BA64-45D6-B5C1-FA0DFE56A747}" alt="Kids walking and playing with woman" height="" width="" hspace="" vspace="" />

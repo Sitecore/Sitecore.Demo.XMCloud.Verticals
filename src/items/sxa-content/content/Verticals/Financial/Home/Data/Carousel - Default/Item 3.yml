@@ -3,6 +3,11 @@ ID: "b4112bf5-17e4-4b16-b4a8-8377083370bd"
 Parent: "4d89565a-2f36-4ecd-bba2-cd0c8cf317c2"
 Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
 Path: "/sitecore/content/Verticals/Financial/Home/Data/Carousel - Default/Item 3"
+SharedFields:
+- ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+  Hint: Image
+  Value: |
+    <image mediaid="{66A740F3-9B61-4856-8C35-0A92918607CF}" alt="Woman looking at credit card and mobile phone" height="" width="" hspace="" vspace="" />
 Languages:
 - Language: en
   Versions:
@@ -21,7 +26,3 @@ Languages:
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
       Value: <p>Make every borrowing decision count by prioritizing responsible practices and securing your financial future.</p>
-    - ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
-      Hint: Image
-      Value: |
-        <image mediaid="{66A740F3-9B61-4856-8C35-0A92918607CF}" alt="Woman looking at credit card and mobile phone" height="" width="" hspace="" vspace="" />

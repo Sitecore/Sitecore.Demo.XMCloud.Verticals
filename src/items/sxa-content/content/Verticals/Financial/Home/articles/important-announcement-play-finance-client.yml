@@ -4,6 +4,14 @@ Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
 Path: "/sitecore/content/Verticals/Financial/Home/articles/important-announcement-play-finance-client"
 SharedFields:
+- ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{10CB9C1E-EDEB-45AE-9598-EAD7CF3B3204}" alt="Blurred background image - fountain pen on notebook" height="" width="" hspace="" vspace="" />
+- ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{7C9ADD95-CF1D-4DB0-823F-C00E876B03ED}" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 700
@@ -69,14 +77,6 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "14d1eb41-a58f-4451-b490-491334cdf9a9"
-    - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
-      Hint: BackgroundImage
-      Value: |
-        <image mediaid="{10CB9C1E-EDEB-45AE-9598-EAD7CF3B3204}" alt="Blurred background image - fountain pen on notebook" height="" width="" hspace="" vspace="" />
-    - ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
-      Hint: Thumbnail
-      Value: |
-        <image mediaid="{7C9ADD95-CF1D-4DB0-823F-C00E876B03ED}" />
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: An important announcement for our clients

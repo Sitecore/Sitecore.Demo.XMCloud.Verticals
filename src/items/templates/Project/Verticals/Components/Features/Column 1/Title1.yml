@@ -9,7 +9,7 @@ SharedFields:
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 75
 Languages:
 - Language: en
   Versions:
@@ -17,7 +17,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "69fe0b3d-867f-422e-8b01-22922a8fc949"
+      Value: "d9006a66-5f59-460b-b8f4-25a6f008f128"
 - Language: "fr-CA"
   Versions:
   - Version: 1

@@ -3,6 +3,11 @@ ID: "d54bdd49-42af-4bdb-8fc1-1d26d6771506"
 Parent: "95c69d49-9918-4ffc-a301-69b4c868991e"
 Template: "947db8f8-dc76-453f-aca1-a27babfe633b"
 Path: /sitecore/content/Verticals/Services/Presentation/Partial Designs/Footer/Data/Footer 1
+SharedFields:
+- ID: "edf38721-e3f4-4a5f-b94b-44b9749ef0fb"
+  Hint: Image1
+  Value: |
+    <image mediaid="{03A4C5C6-A34F-4A6B-B8BC-6CDC2B2B5DEB}" />
 Languages:
 - Language: en
   Versions:
@@ -45,10 +50,6 @@ Languages:
     - ID: "e71e7e6c-29a7-4a9a-a7f8-a4e29609cb64"
       Hint: Title2
       Value: Service
-    - ID: "edf38721-e3f4-4a5f-b94b-44b9749ef0fb"
-      Hint: Image1
-      Value: |
-        <image mediaid="{03A4C5C6-A34F-4A6B-B8BC-6CDC2B2B5DEB}" />
     - ID: "ee146d7d-5c17-47f9-acf4-1583573db084"
       Hint: Title3
       Value: 
@@ -87,7 +88,3 @@ Languages:
     - ID: "e71e7e6c-29a7-4a9a-a7f8-a4e29609cb64"
       Hint: Title2
       Value: Banking services
-    - ID: "edf38721-e3f4-4a5f-b94b-44b9749ef0fb"
-      Hint: Image1
-      Value: |
-        <image mediaid="{1FC53620-6DA2-4341-98FD-4782C564070C}" />

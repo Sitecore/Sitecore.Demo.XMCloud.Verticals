@@ -7,6 +7,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{D5A59561-6EB1-4AAB-B8FE-7D426C08139B}" alt="house-key-calculator-with-dollar-bills" height="" width="" hspace="" vspace="" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -75,7 +79,3 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "afaa2761-b9c3-4416-a826-681573b7f5a8"
-    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
-      Hint: BackgroundImage
-      Value: |
-        <image mediaid="{D5A59561-6EB1-4AAB-B8FE-7D426C08139B}" alt="house-key-calculator-with-dollar-bills" height="" width="" hspace="" vspace="" />

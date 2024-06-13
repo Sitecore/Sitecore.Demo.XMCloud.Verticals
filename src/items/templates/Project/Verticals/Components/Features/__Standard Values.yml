@@ -7,6 +7,10 @@ SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Applications/32x32/transform.png
+- ID: "3ead9061-0aaf-4743-9278-1206162fe9ac"
+  Hint: Image1
+  Value: |
+    <image mediaid="{F9AC5643-A093-4C1E-9630-C3FB850E924C}" alt="features_icon" height="" width="" hspace="" vspace="" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
@@ -25,10 +29,6 @@ Languages:
       Hint: Link
       Value: |
         <link text="CONTACT US" linktype="anchor" url="contact-us" anchor="contact-us" title="CONTACT US" class="" />
-    - ID: "3ead9061-0aaf-4743-9278-1206162fe9ac"
-      Hint: Image1
-      Value: |
-        <image mediaid="{F9AC5643-A093-4C1E-9630-C3FB850E924C}" alt="features_icon" height="" width="" hspace="" vspace="" />
     - ID: "5d056c68-5c1a-4f1e-b5e1-55ff37357f95"
       Hint: Eyebrow
       Value: Features
