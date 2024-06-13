@@ -1,0 +1,42 @@
+﻿---
+ID: "23592312-2c5f-49ee-8517-2d9df508280b"
+Parent: "aac59603-dfd5-42ff-857d-8b8cc72edc54"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/Verticals/Services/Mockups/gift-orange"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/235923122C5F49EE85172D9DF508280B.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 32
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "3b474c6e-415f-4916-badf-03d3688ab71b"
+  Value: iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAFCSURBVFhH7VfBccIwELxjxnyhg9BJYIL/0AEV2JQQOjBuIHRAAfhBKgnpIO+YYTkZnIDHNpLlGfyQfhqt9lZ7snzH9GAcl28zgEMiHl+g2BPTyouS/e1WXVwxHNfF/w39DwEsSjHAyouTd7WmiyvjqRRwOVFvW2sQY8KEoQ6u6FjOWykgDXxl9WutANBntq6B8+LdNYX3jNUCQh+P7ofJurfelcZ6voB0OR0TSHLNQ5MT2WPxI6mbs9zgL7FhZE9oziA5PnDacq5NZXRAQDCVXPDAVHkbeADfrC4hTrRh5pc2SHU5suA9WtQ+xbpkNrjuCDD9GoovW9P9fw40Jcjtb7rfCXAOOAecA84B50CHHDAszWx+x6oa6sdJVon/OxD4kcykC9YbNgLoprG9q4ikH4xAmOnUh00EZHUg0SbvqtVRz0sv+nQqGMZiAAAAAElFTkSuQmCC
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 408
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 32 x 32
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 32
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: gift
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5fa2105e-bf1e-44a7-ac4a-13c1dae3c31e"

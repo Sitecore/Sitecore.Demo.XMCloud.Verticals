@@ -3,6 +3,10 @@ ID: "b2f566b8-603f-4c07-9541-e338eb46d0bb"
 Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
 Template: "3b41d9fc-0edf-48e1-966c-e260339ba815"
 Path: /sitecore/content/Verticals/Financial/Home/Data/Five Column CTA
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1200
 Languages:
 - Language: en
   Versions:
@@ -22,7 +26,7 @@ Languages:
         <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D0E2F5F1-E984-4DDD-9A32-BE0D90674E6C}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c398c846-1118-47d8-aecd-f7520fbe98b4"
+      Value: "3272da80-391d-4d42-ad36-251f8262891d"
     - ID: "8f49a654-7b7f-4c0b-b6df-d3ce2389c1bf"
       Hint: Text2
       Value: Line of Credit

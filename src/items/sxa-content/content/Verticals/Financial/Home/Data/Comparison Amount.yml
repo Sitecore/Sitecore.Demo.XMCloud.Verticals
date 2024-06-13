@@ -3,6 +3,10 @@ ID: "c6bc492a-9c45-406d-9403-3343f410f064"
 Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
 Template: "32f00428-21ac-4dc0-aa2b-f2e31ca3e97e"
 Path: /sitecore/content/Verticals/Financial/Home/Data/Comparison Amount
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1700
 Languages:
 - Language: en
   Versions:
@@ -22,7 +26,7 @@ Languages:
       Value: eur
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "815735fc-a6d2-4a2f-b140-cded12bee6ca"
+      Value: "4e98b883-c33c-4182-9b7b-2a0898f2cb61"
     - ID: "ef3b1e0a-490d-4340-8ebc-5612d6be5e74"
       Hint: Currency1
       Value: eur

@@ -1,0 +1,17 @@
+﻿---
+ID: "9e651427-a251-46ed-82ee-b044b487026f"
+Parent: "7a66a4de-85d6-4358-af3f-8c4b4aac7bd2"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Quote
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/quotation_mark2.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5fd2a2a-2cbe-46b3-a4ce-d59eed3e2dfb"

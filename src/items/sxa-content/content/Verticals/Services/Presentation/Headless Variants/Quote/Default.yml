@@ -1,0 +1,13 @@
+﻿---
+ID: "21a99d25-dad0-4dd0-888a-45e1b6473f30"
+Parent: "9e651427-a251-46ed-82ee-b044b487026f"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Quote/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7064af09-1f8b-4591-a3f5-3ddb60238adc"
