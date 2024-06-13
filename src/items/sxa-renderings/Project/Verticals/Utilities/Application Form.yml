@@ -9,7 +9,7 @@ SharedFields:
   Value: ApplicationForm
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/ListManagement.png
+  Value: DemoIcons/32x32/application.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/Verticals/Components/Application Form
@@ -56,7 +56,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ec202a4d-1b6c-4bcc-98de-b3e5b3132985"
+      Value: "74503e31-c22b-4b9e-9af8-55e74e61b40a"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

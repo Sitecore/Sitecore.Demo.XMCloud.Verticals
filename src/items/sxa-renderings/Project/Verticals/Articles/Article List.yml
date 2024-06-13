@@ -9,7 +9,7 @@ SharedFields:
   Value: ArticleList
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Cddisks.png
+  Value: DemoIcons/32x32/article_list.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: 
@@ -59,7 +59,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "58be9265-a803-499a-b67b-44eda386d255"
+      Value: "6f4d7c85-6943-43ca-8d0d-7d545d88c17d"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

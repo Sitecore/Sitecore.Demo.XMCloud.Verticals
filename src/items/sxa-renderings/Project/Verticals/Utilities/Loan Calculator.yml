@@ -9,7 +9,7 @@ SharedFields:
   Value: LoanCalculator
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: "Apps/32x32/Cash-Register.png"
+  Value: DemoIcons/32x32/loan_calculator.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/Verticals/Components/Loan Calculator
@@ -56,7 +56,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9af8e3a1-6036-4a72-9da1-ad2f53398de4"
+      Value: "b6eef160-b098-4628-b10f-746582c02d65"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
