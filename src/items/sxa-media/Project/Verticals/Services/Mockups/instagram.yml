@@ -1,0 +1,42 @@
+﻿---
+ID: "b5e0c7f5-5693-4875-b68f-70b99e7f34ef"
+Parent: "aac59603-dfd5-42ff-857d-8b8cc72edc54"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/Verticals/Services/Mockups/instagram
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/B5E0C7F556934875B68F70B99E7F34EF.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 16
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "df6bf3de-1ea4-4568-a9ae-8bfac3fb8ebf"
+  Value: iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAEJSURBVDhPtZONDYIwEIXtBDiCGygbuIEwgTgBbKBugBOIE4gb6AQ6Ck6A78PWkAaEmHjJo+Wu9+6nVzOxUtd1ou1aWAhTp/fWSv8PoTDGnLAZPnIutayEm3DtcXbqSJu5UIokNjbyUYpYCoh6RWfJbGZx1rqBoIko5+VAZDItdIYyQ8oQKgioKxfBbgQBQRIhs0ghqPWz9wmkpplEQ06y07yPyE7AbSeBdb57GYVtkiGCXM6pR3AQAak38ncC6v+9BJsiJHQcYfJ6mzj6GjtuIXODFCgCwzFa1EQyagaJNEeNcusGeA/vUbb1uscE69f3IDvO9OeirKOGwJKQCcAY9NTylN4954IzLzyNqAZlqKf8AAAAAElFTkSuQmCC
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 351
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 16 x 16
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 16
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: instagram
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "157b8c76-25c6-43bd-ba73-ffc5d5f37e20"

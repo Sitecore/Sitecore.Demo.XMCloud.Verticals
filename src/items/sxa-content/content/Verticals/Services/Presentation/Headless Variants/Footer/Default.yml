@@ -1,0 +1,13 @@
+﻿---
+ID: "d8fa70e7-002b-48d9-819b-6cf65676dc7f"
+Parent: "135b267a-a7b5-44c8-9549-7d1700f1399d"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Footer/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "86fbdddf-881a-498f-8c34-87ee87a30559"

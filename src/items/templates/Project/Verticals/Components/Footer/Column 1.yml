@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Components/Footer/Column 1
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 150
 Languages:
 - Language: en
   Versions:
@@ -14,4 +14,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "084e2069-e982-41e6-8b15-797c9fb6de9b"
+      Value: "3fdc179b-80c1-4475-8588-48fc95c6b7b5"

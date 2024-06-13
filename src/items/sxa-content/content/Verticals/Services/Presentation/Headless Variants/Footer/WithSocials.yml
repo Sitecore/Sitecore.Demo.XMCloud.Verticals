@@ -1,0 +1,13 @@
+﻿---
+ID: "bf881004-3576-4f12-8ec3-5c94c4d5f196"
+Parent: "135b267a-a7b5-44c8-9549-7d1700f1399d"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Footer/WithSocials
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "463f3302-e325-4547-ad5e-7e79f2f9f38b"
