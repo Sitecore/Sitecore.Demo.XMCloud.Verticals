@@ -73,7 +73,7 @@ SharedFields:
           p:after="r[@uid='{5371DB62-33CF-4AA9-AC4D-9D867A9D7CE7}']"
           s:ds="local:/Data/Stats Counter 1"
           s:id="{316889FA-FDD4-42A6-A034-201124FE54E8}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=23"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7BF50EB4F2-6C9A-4226-828C-C0F21D66F789%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=23"
           s:ph="headless-main" />
         <r
           uid="{54ECEAE2-291D-4AAF-91C5-CBB662CE0497}"
@@ -149,7 +149,7 @@ Languages:
       Value: Services
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c3ba665f-4cdc-45a5-bd03-db4f3e6cb757"
+      Value: "33446f72-e346-4598-85cb-0156f9353907"
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
       Value: Home

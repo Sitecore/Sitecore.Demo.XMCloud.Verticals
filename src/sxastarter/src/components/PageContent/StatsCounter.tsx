@@ -35,7 +35,7 @@ export const Default = (props: StatsCounterProps): JSX.Element => {
 
   return (
     <div
-      className={`component stats-counter component-spaced with-dotted-accents ${props.params.styles.trimEnd()}`}
+      className={`component stats-counter component-spaced ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="container container-wide-fluid">
