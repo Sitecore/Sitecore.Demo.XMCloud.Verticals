@@ -7,6 +7,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{ACD06DBF-C48E-47AE-9754-BB27AC58FB76}" alt="Grassy meadow with faded blur" height="" width="" hspace="" vspace="" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -71,7 +75,3 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "5644aefe-4eb9-4c0a-8b42-3b554789b4c8"
-    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
-      Hint: BackgroundImage
-      Value: |
-        <image mediaid="{ACD06DBF-C48E-47AE-9754-BB27AC58FB76}" alt="Grassy meadow with faded blur" height="" width="" hspace="" vspace="" />

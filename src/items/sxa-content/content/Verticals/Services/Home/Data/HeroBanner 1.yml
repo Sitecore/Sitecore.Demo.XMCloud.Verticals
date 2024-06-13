@@ -3,6 +3,11 @@ ID: "7fbcbbea-f771-4328-9a72-718579c73441"
 Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
 Template: "0089bcb3-0117-43f2-a760-0771d5ff7417"
 Path: /sitecore/content/Verticals/Services/Home/Data/HeroBanner 1
+SharedFields:
+- ID: "5a8416e1-a058-47d2-96df-69d2a08e69fc"
+  Hint: Image
+  Value: |
+    <image mediaid="{39982BDF-A69B-4259-991A-EC572B2FA8BD}" />
 Languages:
 - Language: en
   Versions:
@@ -18,10 +23,6 @@ Languages:
       Hint: Cta1
       Value: |
         <link text="How we work" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FB70CB01-02FD-4E6C-A432-6BE3D537019D}" />
-    - ID: "5a8416e1-a058-47d2-96df-69d2a08e69fc"
-      Hint: Image
-      Value: |
-        <image mediaid="{39982BDF-A69B-4259-991A-EC572B2FA8BD}" />
     - ID: "5c3d6a49-c5e9-4caa-809d-98184f118223"
       Hint: Icon
       Value: |

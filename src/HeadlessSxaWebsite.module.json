@@ -52,6 +52,10 @@
             {
                 "name": "added-site-theme-field-to-sxa",
                 "path": "/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/Theme"
+            },
+            {
+                "name": "demo-workflow",
+                "path": "/sitecore/system/Workflows/Demo Workflow"
             }
         ]
     }

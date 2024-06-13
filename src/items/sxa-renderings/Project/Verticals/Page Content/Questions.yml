@@ -9,7 +9,7 @@ SharedFields:
   Value: Questions
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Question mark.png
+  Value: DemoIcons/32x32/questions.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Branches/Project/Verticals/Questions
@@ -61,7 +61,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fcd16084-3336-4816-84c5-6658e3738be3"
+      Value: "44fa44a3-c23b-41bc-a7df-726b897b2e13"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

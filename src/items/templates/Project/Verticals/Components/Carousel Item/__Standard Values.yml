@@ -3,6 +3,11 @@ ID: "fc27e9d7-7ed3-4449-899f-79c00e4ace90"
 Parent: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
 Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
 Path: /sitecore/templates/Project/Verticals/Components/Carousel Item/__Standard Values
+SharedFields:
+- ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+  Hint: Image
+  Value: |
+    <image mediaid="{47275D2D-A05E-462B-BDDC-22AE9583A1D1}" alt="main promo" height="" width="" hspace="" vspace="" />
 Languages:
 - Language: en
   Versions:
@@ -21,7 +26,3 @@ Languages:
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
       Value: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    - ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
-      Hint: Image
-      Value: |
-        <image mediaid="{47275D2D-A05E-462B-BDDC-22AE9583A1D1}" alt="main promo" height="" width="" hspace="" vspace="" />

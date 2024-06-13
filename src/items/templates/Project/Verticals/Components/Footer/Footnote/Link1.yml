@@ -9,7 +9,7 @@ SharedFields:
   Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 150
 Languages:
 - Language: en
   Versions:
@@ -17,4 +17,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1c359ec6-6679-4bfe-9b91-6169a07e468c"
+      Value: "dd0d59fb-e188-451b-9e03-ece02db92703"

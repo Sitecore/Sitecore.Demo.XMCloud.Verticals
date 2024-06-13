@@ -10,6 +10,9 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500
+- ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
+  Hint: Shared
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -17,4 +20,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2db001ff-12f0-49f6-bc0d-d5f419ec6559"
+      Value: "4d11fd52-ef49-40cc-acb6-e90425faaeb1"

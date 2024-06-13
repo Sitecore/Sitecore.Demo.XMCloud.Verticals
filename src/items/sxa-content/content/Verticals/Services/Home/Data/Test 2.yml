@@ -4,6 +4,10 @@ Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
 Template: "90d315e8-aa42-4b23-a7eb-4491396453f8"
 Path: /sitecore/content/Verticals/Services/Home/Data/Test 2
 SharedFields:
+- ID: "3ed91913-9018-4580-a112-9cb5b921fcca"
+  Hint: Image
+  Value: |
+    <image mediaid="{B91F0B6C-8E56-4D67-96EA-4EA314582CC8}" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: "-200"
@@ -12,10 +16,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "3ed91913-9018-4580-a112-9cb5b921fcca"
-      Hint: Image
-      Value: |
-        <image mediaid="{B91F0B6C-8E56-4D67-96EA-4EA314582CC8}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "4771b165-6ff8-477c-978c-c004d0cfb37c"

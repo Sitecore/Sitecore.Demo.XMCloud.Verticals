@@ -3,6 +3,11 @@ ID: "abc9a47e-fccb-4907-a6a5-90ac6f848eb6"
 Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
 Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
 Path: /sitecore/content/Verticals/Services/Home/Data/Promo CTA 3
+SharedFields:
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <image mediaid="e74e0623-a9ff-4833-9968-14d55a05db5f" />
 Languages:
 - Language: en
   Versions:
@@ -27,10 +32,6 @@ Languages:
       Hint: Text
       Value: |
         <div class="ck-content"><p data-placeholder="[No text in field]">Technical skills, design, business understanding, ability to put themselves in the merchant's shoes.</p></div>
-    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
-      Hint: Image
-      Value: |
-        <image mediaid="e74e0623-a9ff-4833-9968-14d55a05db5f" />
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: 

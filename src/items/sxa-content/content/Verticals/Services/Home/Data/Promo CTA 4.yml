@@ -3,6 +3,11 @@ ID: "bfcc8490-5c3d-419d-b8d7-6a715a361b5a"
 Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
 Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
 Path: /sitecore/content/Verticals/Services/Home/Data/Promo CTA 4
+SharedFields:
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <image mediaid="7a18bb4c-bf36-4b41-b535-7341bfed3538" />
 Languages:
 - Language: en
   Versions:
@@ -29,10 +34,6 @@ Languages:
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: 
-    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
-      Hint: Image
-      Value: |
-        <image mediaid="7a18bb4c-bf36-4b41-b535-7341bfed3538" />
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: 

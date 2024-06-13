@@ -3,6 +3,11 @@ ID: "693069fb-f24b-442f-bf28-e602762099d9"
 Parent: "6a4de0f3-8048-427a-884b-da146da7f4e0"
 Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
 Path: /sitecore/content/Verticals/Financial/Home/personal/investing/Data/Promo CTA 1
+SharedFields:
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <image mediaid="{88C60C4B-F232-4697-8EB2-C39A6E6DB9D0}" alt="Person reading newspaper with investments on laptop screen" height="" width="" hspace="" vspace="" />
 Languages:
 - Language: en
   Versions:
@@ -14,16 +19,21 @@ Languages:
     - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
       Hint: Title
       Value: Grow your wealth with confidence
+    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
+      Hint: Eyebrow
+      Value: 
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: 
     - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
       Hint: Link
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0f37fbf1-90af-4945-8ce4-4c816dd7544c"
+      Value: "e27a3bd3-b909-48d1-b7ab-f4b11860cb45"
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: "<p>Take the first step towards a brighter financial future today with our online services or in-person experts.</p>"
-    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
-      Hint: Image
-      Value: |
-        <image mediaid="{88C60C4B-F232-4697-8EB2-C39A6E6DB9D0}" alt="Person reading newspaper with investments on laptop screen" height="" width="" hspace="" vspace="" />
+    - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
+      Hint: Subtitle
+      Value: 

@@ -1,0 +1,30 @@
+﻿---
+ID: "b253dd58-409d-4070-9ef2-f1bd4d4a1706"
+Parent: "c8ff2a20-aba6-409b-ad69-955cd5219d07"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Demo Workflow/Draft/__OnSave
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/16x16/submit.png
+- ID: "82a7c02f-9a55-4bfe-b494-d1713d4be9ff"
+  Hint: Suppress Comment
+  Value: 1
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pd|+workflowCommand:execute|pe|+workflowCommand:execute|
+- ID: "df36505e-a70a-4414-a9ae-ae26db86fe19"
+  Hint: Appearance Evaluator Type
+  Value: Sitecore.Workflows.HiddenCommandStateEvaluator, Sitecore.Kernel
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0c39a4a-2a1a-4a32-8b38-39ce5912c9d0"

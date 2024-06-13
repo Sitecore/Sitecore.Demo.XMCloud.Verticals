@@ -8,6 +8,10 @@ SharedFields:
   Hint: __Thumbnail
   Value: |
     <image mediaid="{70AFCB8F-E7CF-4C12-8C5B-37FE590E51B9}" />
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{0A2D0C59-7209-4BA8-977C-D2286C91AC4D}" alt="Store open sign in window" height="" width="" hspace="" vspace="" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -45,10 +49,6 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "e9e50ca2-0c59-4996-8a32-abf6cb6345be"
-    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
-      Hint: BackgroundImage
-      Value: |
-        <image mediaid="{0A2D0C59-7209-4BA8-977C-D2286C91AC4D}" alt="Store open sign in window" height="" width="" hspace="" vspace="" />
 - Language: "fr-CA"
   Versions:
   - Version: 1

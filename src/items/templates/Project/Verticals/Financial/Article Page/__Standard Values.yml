@@ -4,6 +4,14 @@ Parent: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
 Path: /sitecore/templates/Project/Verticals/Financial/Article Page/__Standard Values
 SharedFields:
+- ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{10CB9C1E-EDEB-45AE-9598-EAD7CF3B3204}" alt="Blurred background image - fountain pen on notebook" height="" width="" hspace="" vspace="" />
+- ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{32909CAB-5F82-4428-A428-DF531E7776DD}" alt="Market report" height="" width="" hspace="" vspace="" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
@@ -42,14 +50,6 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "5aedb979-9624-4351-902d-e0092c6bbdb9"
-    - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
-      Hint: BackgroundImage
-      Value: |
-        <image mediaid="{10CB9C1E-EDEB-45AE-9598-EAD7CF3B3204}" alt="Blurred background image - fountain pen on notebook" height="" width="" hspace="" vspace="" />
-    - ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
-      Hint: Thumbnail
-      Value: |
-        <image mediaid="{32909CAB-5F82-4428-A428-DF531E7776DD}" alt="Market report" height="" width="" hspace="" vspace="" />
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: $name
