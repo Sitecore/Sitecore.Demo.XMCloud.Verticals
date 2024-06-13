@@ -26,6 +26,10 @@ Languages:
         <a href="#rewards">Rewards</a></p>
         <p>
         <a href="#special-offers">Special Offers</a></p>
+    - ID: "33526cb5-70d7-401e-bb5c-fdd6c2c974c2"
+      Hint: SocialIcon2
+      Value: |
+        <image mediaid="{B5E0C7F5-5693-4875-B68F-70B99E7F34EF}" />
     - ID: "342fb66b-0e4b-419d-ba86-2355e33ee1bf"
       Hint: Title1
       Value: "Why PLAY! finance"
@@ -48,9 +52,13 @@ Languages:
       Hint: Link2
       Value: |
         <link text="Term of Use" linktype="anchor" url="terms-of-use" anchor="terms-of-use" title="Term of Use" class="" />
+    - ID: "7ce64d4f-9943-4db3-92f2-882703a73e83"
+      Hint: SocialLink2
+      Value: |
+        <link text="Instagram" linktype="external" url="https://instagram.com/" anchor="" target="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fbf2336b-cf31-484e-beae-6bbb75562ff6"
+      Value: "7ef666f6-92d0-4681-8d7f-af32d8501c3c"
     - ID: "92612ddf-b3fd-4597-a655-de6da2eb553f"
       Hint: Text3
       Value: |
@@ -61,6 +69,21 @@ Languages:
         <p> <a href="#mortgage">Mortgage</a></p>
         <p> <a href="#home-equity">Home Equity</a></p>
         <p> <a href="#lending">Lending</a></p>
+    - ID: "940de628-0ffa-4d7b-8ffb-187fe90c760a"
+      Hint: SocialIcon3
+      Value: |
+        <image mediaid="{D7668912-4C04-4881-8C8B-3EEDBC4277A6}" />
+    - ID: "9b41e129-1410-48d0-832e-d812d38fc892"
+      Hint: SocialLink3
+      Value: |
+        <link text="Twitter" linktype="external" url="https://www.x.com/" anchor="" target="" />
+    - ID: "9bab16e3-3b9d-425e-8adc-06c0838f7706"
+      Hint: SocialsTitle
+      Value: Share on
+    - ID: "af34efbc-ee7c-4106-8772-c851c58b7b56"
+      Hint: SocialLink1
+      Value: |
+        <link text="Facebook" linktype="external" url="https://www.facebook.com/" anchor="" target="" />
     - ID: "ca370d33-63e1-4e1b-986d-fe82ae23027c"
       Hint: Text2
       Value: |
@@ -68,6 +91,10 @@ Languages:
               <a href="#business-accounts">Small Business Accounts</a>
             </p>
         <p><a href="#commercial-accounts">Commercial Accounts</a></p>
+    - ID: "dcf0b02e-fa59-48c0-bc92-5bce6ddfde18"
+      Hint: SocialIcon1
+      Value: |
+        <image mediaid="{37E8F17D-5AA1-4AF4-9CB1-45C4F07BDD4C}" />
     - ID: "e71e7e6c-29a7-4a9a-a7f8-a4e29609cb64"
       Hint: Title2
       Value: Business Banking
