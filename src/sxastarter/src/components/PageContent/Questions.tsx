@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Field, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, RichText, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface QuestionFields {
   Question: Field<string>;
@@ -28,18 +28,20 @@ const Question = ({ item }: { item: QuestionItemProps }): JSX.Element => {
         <h3>
           <Text field={item.fields.Question} />
         </h3>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 512 512"
-          width={23}
-          fill="currentColor"
-        >
-          <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
-        </svg>
+        <span className="icon-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width={23}
+            fill="currentColor"
+          >
+            <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+          </svg>
+        </span>
       </button>
-      <p className={isExpanded ? 'd-block' : 'd-none'}>
-        <Text field={item.fields.Answer} />
-      </p>
+      <div className={`answer ${isExpanded ? 'd-block' : 'd-none'}`}>
+        <RichText field={item.fields.Answer} />
+      </div>
     </div>
   );
 };
@@ -69,6 +71,26 @@ export const Default = (props: QuestionsProps): JSX.Element => {
                 <Question key={item.url} item={item} />
               ))}
           </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const SingleColumn = (props: QuestionsProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const questions = props.fields?.items;
+
+  return (
+    <div
+      className={`component questions single-column ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="questions-wrapper">
+          {questions?.map((item) => (
+            <Question key={item.url} item={item} />
+          ))}
         </div>
       </div>
     </div>

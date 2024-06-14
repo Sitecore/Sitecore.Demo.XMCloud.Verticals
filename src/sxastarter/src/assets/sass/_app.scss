@@ -23,6 +23,10 @@ body {
   }
 }
 
+main {
+  overflow-x: hidden;
+}
+
 a {
   color: $text-basic;
   cursor: pointer;
