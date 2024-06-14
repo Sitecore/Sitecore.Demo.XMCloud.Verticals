@@ -1,5 +1,5 @@
 ﻿---
-ID: "7fcb86c1-e967-4767-a164-43e745568ed9"
+ID: "c1de9f1c-0b45-464a-9c59-c78e0bf8f769"
 Parent: "953917a3-f8d4-4264-902d-434209232782"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
 Path: /sitecore/layout/Renderings/Project/Verticals/Articles/Latest Articles
@@ -12,25 +12,34 @@ SharedFields:
   Value: applications/32x32/documents_new.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/Verticals/Components/Latest Articles
+  Value: 
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
-  Value: 0
+  Value: 1
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
   Value: 
+- ID: "a3411ff6-c978-40aa-b059-a49b9ca2209b"
+  Hint: Can select Page as a data source
+  Value: 1
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
+- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
+  Hint: Rendering Contents Resolver
+  Value: "{2F5C334E-5615-423C-8281-9FC180191302}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Latest Articles']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Latest Articles']"
+  Value: "query:$site/*"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 400
+- ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
+  Hint: AddFieldEditorButton
+  Value: 
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
-  Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
+  Value: 
 Languages:
 - Language: "de-DE"
   Fields:
@@ -44,19 +53,16 @@ Languages:
       Hint: __Revision
       Value: "a1819759-a311-410f-966e-e1ee723be5fd"
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
   Versions:
   - Version: 1
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bbf35d31-d6d8-4fa0-a807-91bd763692d4"
-- Language: "fr-CA"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "4d3e0a5d-eba4-4fff-98f3-daf10faea548"
+      Value: "9e7f890e-4fb0-457d-b952-cdd49fdd4ad2"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
