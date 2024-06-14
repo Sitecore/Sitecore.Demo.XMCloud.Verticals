@@ -3,6 +3,11 @@ ID: "f2ac3691-36ab-44bf-aa17-e2c1b20d6c1f"
 Parent: "0089bcb3-0117-43f2-a760-0771d5ff7417"
 Template: "0089bcb3-0117-43f2-a760-0771d5ff7417"
 Path: /sitecore/templates/Project/Verticals/Components/HeroBanner/__Standard Values
+SharedFields:
+- ID: "5a8416e1-a058-47d2-96df-69d2a08e69fc"
+  Hint: Image
+  Value: |
+    <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" />
 Languages:
 - Language: en
   Versions:
@@ -18,10 +23,6 @@ Languages:
       Hint: Cta1
       Value: |
         <link text="Details" linktype="external" url="https://example.com" anchor="" target="" />
-    - ID: "5a8416e1-a058-47d2-96df-69d2a08e69fc"
-      Hint: Image
-      Value: |
-        <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" />
     - ID: "5c3d6a49-c5e9-4caa-809d-98184f118223"
       Hint: Icon
       Value: |
@@ -47,10 +48,6 @@ Languages:
       Hint: Cta1
       Value: |
         <link text="Details" linktype="external" url="https://example.com" anchor="" target="" />
-    - ID: "5a8416e1-a058-47d2-96df-69d2a08e69fc"
-      Hint: Image
-      Value: |
-        <image mediaid="{7ED35C53-B0C3-4508-8561-EDEC520BB63A}" alt="top-view-passport-money-with-copy-space" height="" width="" hspace="" vspace="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "098585dd-31d0-4f64-aed2-9deaef046038"

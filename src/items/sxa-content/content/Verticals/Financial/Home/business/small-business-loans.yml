@@ -5,6 +5,10 @@ Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
 Path: "/sitecore/content/Verticals/Financial/Home/business/small-business-loans"
 BranchID: "e6952b59-41b9-4f19-a6a8-e995ea78df57"
 SharedFields:
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{0A2D0C59-7209-4BA8-977C-D2286C91AC4D}" alt="Store open sign in window" height="" width="" hspace="" vspace="" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -69,7 +73,3 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "6fc0ad2f-7356-44ca-83f1-15ea74a871e0"
-    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
-      Hint: BackgroundImage
-      Value: |
-        <image mediaid="{0A2D0C59-7209-4BA8-977C-D2286C91AC4D}" alt="Store open sign in window" height="" width="" hspace="" vspace="" />

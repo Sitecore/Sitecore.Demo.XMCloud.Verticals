@@ -10,22 +10,22 @@ SharedFields:
     {1226C3C7-2D1F-48F5-87B4-C1DA459F05E5}
     {F83CCEFD-FC41-4A60-9882-8F7EA5CF41A8}
     {14431DCE-508D-4D54-9D04-C22ABBDC8F83}
+- ID: "2404bb97-b42a-439a-be76-de66213cb281"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" />
+- ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
+  Hint: Photo
+  Value: |
+    <image mediaid="{62F6A36E-BFB0-432D-8502-B8E7E9F1E90A}" alt="Olly Bio Image" height="" width="" hspace="" vspace="" />
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "2404bb97-b42a-439a-be76-de66213cb281"
-      Hint: BackgroundImage
-      Value: |
-        <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" />
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
       Value: Product Specialist
-    - ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
-      Hint: Photo
-      Value: |
-        <image mediaid="{62F6A36E-BFB0-432D-8502-B8E7E9F1E90A}" alt="Olly Bio Image" height="" width="" hspace="" vspace="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "36023688-93e7-457b-8086-5f693e763567"

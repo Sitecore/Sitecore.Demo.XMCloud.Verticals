@@ -3,6 +3,11 @@ ID: "d100576d-3f7d-49eb-8545-ba8b87bd3329"
 Parent: "18590dd4-7238-4e57-a55b-ae255ca78133"
 Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
 Path: "/sitecore/content/Verticals/Financial/Home/Data/Carousel - Business/Item 3"
+SharedFields:
+- ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+  Hint: Image
+  Value: |
+    <image mediaid="{9098673D-D42D-484E-B164-78545599F55E}" alt="Man sitting at table with coffee" height="" width="" hspace="" vspace="" />
 Languages:
 - Language: en
   Versions:
@@ -21,7 +26,3 @@ Languages:
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
       Value: <p>Supercharge your workforce with our comprehensive employee management strategies.</p>
-    - ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
-      Hint: Image
-      Value: |
-        <image mediaid="{9098673D-D42D-484E-B164-78545599F55E}" alt="Man sitting at table with coffee" height="" width="" hspace="" vspace="" />

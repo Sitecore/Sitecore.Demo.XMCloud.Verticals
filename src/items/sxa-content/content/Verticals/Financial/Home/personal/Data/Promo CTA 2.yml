@@ -7,6 +7,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 275
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <image mediaid="88c8fc6e-bef7-47ab-a71d-fff9feeaf82b" />
 Languages:
 - Language: en
   Versions:
@@ -18,16 +22,21 @@ Languages:
     - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
       Hint: Title
       Value: Personalized banking solutions for modern needs
+    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
+      Hint: Eyebrow
+      Value: 
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: 
     - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
       Hint: Link
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5d9d1caf-acf1-4e77-b273-31ee0ad61c95"
+      Value: "c78f2df1-e80b-44d8-9c19-edae00ee20fa"
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: "<p>No more cookie-cutter banking experiences – we offer tailored services designed to fit your unique needs.</p>"
-    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
-      Hint: Image
-      Value: |
-        <image mediaid="88c8fc6e-bef7-47ab-a71d-fff9feeaf82b" />
+    - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
+      Hint: Subtitle
+      Value: 

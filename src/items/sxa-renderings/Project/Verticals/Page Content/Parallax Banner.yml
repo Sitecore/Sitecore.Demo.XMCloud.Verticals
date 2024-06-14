@@ -9,7 +9,7 @@ SharedFields:
   Value: ParallaxBanner
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: "Apps/32x32/Direction-1.png"
+  Value: DemoIcons/32x32/parallax_banner.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/Verticals/Components/Parallax Banner
@@ -43,7 +43,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9e84462d-6bfd-41d6-bc67-ce8d41f693b0"
+      Value: "e93486ce-2f2d-4ba4-b6f8-a05be49c85b7"
 - Language: "fr-CA"
   Versions:
   - Version: 1

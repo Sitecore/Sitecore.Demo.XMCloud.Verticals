@@ -3,6 +3,11 @@ ID: "dc18a348-8dd3-4fd0-88c9-0f4f98420cfe"
 Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
 Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
 Path: /sitecore/content/Verticals/Services/Home/Data/Promo CTA 1
+SharedFields:
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <image mediaid="{9B077B69-F94D-48CA-95FC-5E88B39D41A3}" />
 Languages:
 - Language: en
   Versions:
@@ -32,10 +37,6 @@ Languages:
       Hint: Text
       Value: |
         <div class="ck-content"><p>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.</p></div>
-    - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
-      Hint: Image
-      Value: |
-        <image mediaid="{9B077B69-F94D-48CA-95FC-5E88B39D41A3}" />
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: Provides a full service range

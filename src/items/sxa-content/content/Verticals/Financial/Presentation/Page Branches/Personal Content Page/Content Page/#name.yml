@@ -8,6 +8,10 @@ SharedFields:
   Hint: __Thumbnail
   Value: |
     <image mediaid="{6E98EAB7-1C05-43E1-AD32-63936EF4B57B}" />
+- ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{D5A59561-6EB1-4AAB-B8FE-7D426C08139B}" alt="Background image - House key and items on a table" height="" width="" hspace="" vspace="" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -45,10 +49,6 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "3290edaa-f2e0-41e6-b322-5418c022dc7f"
-    - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
-      Hint: BackgroundImage
-      Value: |
-        <image mediaid="{D5A59561-6EB1-4AAB-B8FE-7D426C08139B}" alt="Background image - House key and items on a table" height="" width="" hspace="" vspace="" />
 - Language: "fr-CA"
   Versions:
   - Version: 1

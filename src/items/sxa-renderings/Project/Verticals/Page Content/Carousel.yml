@@ -9,7 +9,7 @@ SharedFields:
   Value: Carousel
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Ball.png
+  Value: DemoIcons/32x32/carousel.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Branches/Project/Verticals/Carousel
@@ -61,7 +61,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dec9db0d-896f-4031-88da-1359365a166c"
+      Value: "3984c82d-5676-421b-9876-b95638e28b0c"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

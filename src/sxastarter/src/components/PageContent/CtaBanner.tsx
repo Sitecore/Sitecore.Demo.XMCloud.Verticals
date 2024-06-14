@@ -42,7 +42,7 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
       id={id ? id : undefined}
       ref={domRef}
     >
-      <div className="container container-widest">
+      <div className="container container-widest-fluid">
         <div className="container">
           <div className="row row-gap-4 main-content align-items-center">
             <div className="col-lg-6">
@@ -98,7 +98,7 @@ export const LargeImage = (props: CtaBannerProps): JSX.Element => {
       id={id ? id : undefined}
       ref={domRef}
     >
-      <div className="container container-widest">
+      <div className="container container-widest-fluid">
         <div className="row row-gap-4 main-content align-items-center">
           <div className="col-lg-6">
             <div className="content-column">
