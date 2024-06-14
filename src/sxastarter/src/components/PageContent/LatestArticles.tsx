@@ -1,45 +1,37 @@
 import React from 'react';
 import {
+  ComponentParams,
+  ComponentRendering,
   DateField,
   Field,
   Image,
   ImageField,
-  Link,
-  LinkField,
   Text,
+  withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import Link from 'next/link';
 
-interface Fields {
-  Eyebrow: Field<string>;
+interface ArticleFields {
+  Image: ImageField;
+  Category: Field<string>;
   Title: Field<string>;
-  Link: LinkField;
-  Image1: ImageField;
-  Category1: Field<string>;
-  Title1: Field<string>;
-  Date1: Field<string>;
-  Image2: ImageField;
-  Category2: Field<string>;
-  Title2: Field<string>;
-  Date2: Field<string>;
-  Image3: ImageField;
-  Category3: Field<string>;
-  Title3: Field<string>;
-  Date3: Field<string>;
+  Date: Field<string>;
 }
 
-export type LatestArticlesProps = {
-  params: { [key: string]: string };
-  fields: Fields;
-};
-
 type ArticleProps = {
-  image: ImageField;
-  category: Field<string>;
-  title: Field<string>;
-  date: Field<string>;
+  fields: ArticleFields;
+  id: string;
+  name: string;
+  displayName: string;
+  url: string;
 };
 
-const Article = ({ image, category, title, date }: ArticleProps): JSX.Element => (
+const Article = ({
+  Image: image,
+  Category: category,
+  Title: title,
+  Date: date,
+}: ArticleFields): JSX.Element => (
   <div className="item">
     <div className="item-image">
       <Image field={image} />
@@ -61,8 +53,20 @@ const Article = ({ image, category, title, date }: ArticleProps): JSX.Element =>
   </div>
 );
 
-export const Default = (props: LatestArticlesProps): JSX.Element => {
+export type LatestArticlesProps = {
+  rendering: ComponentRendering & { params: ComponentParams };
+  params: { [key: string]: string };
+  fields: {
+    items: ArticleProps[];
+  };
+};
+
+const LatestArticles = (props: LatestArticlesProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
+  const articles = props.fields?.items
+    ?.filter((item) => item.name !== 'Data' && item.name !== 'Authors')
+    ?.sort((a, b) => Date.parse(b.fields.Date.value) - Date.parse(a.fields.Date.value))
+    ?.slice(0, 3);
 
   return (
     <div
@@ -70,38 +74,27 @@ export const Default = (props: LatestArticlesProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="container">
-        <div className="eyebrow-accent">
-          <Text field={props.fields?.Eyebrow} />
-        </div>
+        <div className="eyebrow-accent">Our Blog</div>
         <div className="latest-articles-header">
-          <div className="title">
-            <Text field={props.fields?.Title} />
-          </div>
-          <div className="button button-main">
-            <Link field={props.fields?.Link} />
-          </div>
+          <div className="title">Latest Blog Articles</div>
+          <Link href="/insights" target="" className="button button-main">
+            Discover All
+          </Link>
         </div>
         <div className="items">
-          <Article
-            image={props.fields?.Image1}
-            category={props.fields?.Category1}
-            title={props.fields?.Title1}
-            date={props.fields?.Date1}
-          />
-          <Article
-            image={props.fields?.Image2}
-            category={props.fields?.Category2}
-            title={props.fields?.Title2}
-            date={props.fields?.Date2}
-          />
-          <Article
-            image={props.fields?.Image3}
-            category={props.fields?.Category3}
-            title={props.fields?.Title3}
-            date={props.fields?.Date3}
-          />
+          {articles?.map((item) => (
+            <Article
+              key={item.id}
+              Image={item.fields.Image}
+              Category={item.fields.Category}
+              Title={item.fields.Title}
+              Date={item.fields.Date}
+            />
+          ))}
         </div>
       </div>
     </div>
   );
 };
+
+export default withDatasourceCheck()<LatestArticlesProps>(LatestArticles);
