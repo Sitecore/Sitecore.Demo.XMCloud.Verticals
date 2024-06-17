@@ -4,7 +4,7 @@
     padding-right: $size-padding;
   }
 
-  .container-widest {
+  .container-widest-fluid {
     background-color: var(--bg-saturated);
     border-radius: var(--roundness);
     margin-top: 6.5rem;
@@ -124,7 +124,7 @@
   }
 
   &.with-large-image {
-    .container-widest {
+    .container-widest-fluid {
       margin-top: 8.5rem;
       margin-bottom: 8.5rem;
     }
