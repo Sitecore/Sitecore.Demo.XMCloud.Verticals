@@ -1,18 +1,18 @@
 ﻿---
-ID: '57f2e85d-d695-4e6c-8c89-947ce5443e2e'
-Parent: 'a13c890b-43ea-45e2-8bad-a8838112b83d'
-Template: '5282d418-6c18-46eb-85af-9116cde9e6eb'
+ID: "57f2e85d-d695-4e6c-8c89-947ce5443e2e"
+Parent: "a13c890b-43ea-45e2-8bad-a8838112b83d"
+Template: "5282d418-6c18-46eb-85af-9116cde9e6eb"
 Path: /sitecore/content/Verticals/Services/Home
-BranchID: '45cf9f42-b3ac-4412-aab9-f8441c7e448e'
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
-  - ID: '4a749557-242b-4372-8a20-b2db9d406301'
+  - ID: "4a749557-242b-4372-8a20-b2db9d406301"
     Hint: __AutoThumbnails
     Value:
-  - ID: 'c7c26117-dbb1-42b2-ab5e-f7223845cca3'
+  - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
     Hint: __Thumbnail
     Value: |
       <image mediaid="{C0EA0BCD-AD21-41A9-8F73-C7F8D0EC193C}" />
-  - ID: 'f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e'
+  - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
     Hint: __Renderings
     Value: |
       <r xmlns:p="p" xmlns:s="s"
@@ -168,23 +168,23 @@ SharedFields:
             s:ph="/headless-main/container-24/column-2-25" />
         </d>
       </r>
-  - ID: 'f6d8a61c-2f84-4401-bd24-52d2068172bc'
+  - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
     Hint: __Originator
-    Value: '{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}'
+    Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
 Languages:
   - Language: en
     Versions:
       - Version: 1
         Fields:
-          - ID: '001dd393-96c5-490b-924a-b0f25cd9efd8'
+          - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
             Hint: __Lock
             Value: <r />
-          - ID: '4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8'
+          - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
             Hint: NavigationTitle
             Value: Services
-          - ID: '8cdc337e-a112-42fb-bbb4-4143751e123f'
+          - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
             Hint: __Revision
-            Value: '5d86eabf-e142-4a6e-a0b4-196e27128ef5'
-          - ID: 'd77eab5a-d654-445f-b15c-d32283737e1f'
+            Value: "5d86eabf-e142-4a6e-a0b4-196e27128ef5"
+          - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
             Hint: Title
             Value: Home
