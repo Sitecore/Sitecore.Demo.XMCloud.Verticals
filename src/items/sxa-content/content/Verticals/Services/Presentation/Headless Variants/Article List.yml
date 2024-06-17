@@ -1,0 +1,13 @@
+﻿---
+ID: "b9e0669d-3d8f-43d0-b46e-b769f4a92b2c"
+Parent: "7a66a4de-85d6-4358-af3f-8c4b4aac7bd2"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Article List
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "915b82e9-35bf-40ff-b38d-b0b686c43287"
