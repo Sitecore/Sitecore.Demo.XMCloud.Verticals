@@ -1,0 +1,36 @@
+﻿---
+ID: "c3083200-3d1e-4e02-b833-eaecf9d4566b"
+Parent: "c9600458-668f-480a-9484-90799f72b6cc"
+Template: "419f8ffb-2713-4cec-86a7-7585a727fe25"
+Path: /sitecore/system/Workflows/Demo Copywriting Workflow/Copywriting Approval/Approve/Validation Action
+SharedFields:
+- ID: "202f2a2c-6274-467f-a9c8-3ec4585a3060"
+  Hint: Critical Error
+  Value: You cannot approve an item with validation errors.
+- ID: "281ab75c-db54-4471-9675-c01fb380fb62"
+  Hint: Error
+  Value: You cannot approve an item with validation errors.
+- ID: "322164dc-27ac-404e-b7dc-b74c13cdba1e"
+  Hint: Type
+  Value: Sitecore.Workflows.Simple.ValidatorsAction, Sitecore.Kernel
+- ID: "95fd25aa-742d-41d2-8d04-6406bba8c60d"
+  Hint: Max Result
+  Value: Warning
+- ID: "a50d7933-f230-4434-9538-29c802f0ce23"
+  Hint: Fatal Error
+  Value: You cannot approve an item with validation errors.
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d0bbc29-5974-4eaf-b769-a81a923d8874"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e900ca14-2235-44ea-b465-1b95dcaf6343"

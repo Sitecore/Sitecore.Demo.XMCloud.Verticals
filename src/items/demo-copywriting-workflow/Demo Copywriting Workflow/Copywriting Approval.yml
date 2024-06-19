@@ -1,0 +1,34 @@
+﻿---
+ID: "1b3d21a1-3e75-49d0-af21-c4b2de228760"
+Parent: "63cc4d0d-63f1-4bfb-bf63-7ec9d231afa8"
+Template: "4b7e2da9-de43-4c83-88c3-02f042031d04"
+Path: /sitecore/system/Workflows/Demo Copywriting Workflow/Copywriting Approval
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/document_ok.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{CB01F9FC-C187-46B3-AB0B-97A8468D8303}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 20
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pd|+workflowState:delete|+workflowState:write|pe|+workflowState:delete|+workflowState:write|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c1404ea-995c-48d0-8a1b-62065e2d1b08"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "439b7162-115c-4ac1-ae18-45aed821acc5"

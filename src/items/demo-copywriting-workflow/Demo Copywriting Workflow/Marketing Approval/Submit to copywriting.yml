@@ -1,0 +1,31 @@
+﻿---
+ID: "db0811cd-5df3-458e-94a1-c7f4968e2548"
+Parent: "3bc605de-bbed-4e1e-8a00-aaaf30e48caa"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Demo Copywriting Workflow/Marketing Approval/Submit to copywriting
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/16x16/submit.png
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{1B3D21A1-3E75-49D0-AF21-C4B2DE228760}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pd|+workflowCommand:execute|pe|+workflowCommand:execute|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6f991475-4791-464e-9aa9-a92cd946de57"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3fd871fa-7f0c-42cb-a115-3dd9690a7cb5"

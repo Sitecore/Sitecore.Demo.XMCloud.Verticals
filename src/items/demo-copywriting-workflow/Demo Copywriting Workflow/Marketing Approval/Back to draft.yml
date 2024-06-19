@@ -1,0 +1,31 @@
+﻿---
+ID: "81393042-88a7-4239-865b-769c9b660924"
+Parent: "3bc605de-bbed-4e1e-8a00-aaaf30e48caa"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Demo Copywriting Workflow/Marketing Approval/Back to draft
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/16x16/delete.png
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pe|+workflowCommand:execute|pd|+workflowCommand:execute|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "97602aca-a678-485d-9bc5-aba19c4c6b27"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9a7d7649-f489-4091-b621-1c3b1a237d1f"
