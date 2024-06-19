@@ -12,7 +12,7 @@ SharedFields:
   Value: 
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: wordprocessing/32x32/word_wrap_a.png
+  Value: Office/32x32/presentation_empty.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/Verticals/Components/CTA Banner
@@ -56,7 +56,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4a3ec998-fa0a-4a0e-95b8-93f36e11f1c9"
+      Value: "d7135754-e729-4d69-9f7a-4e357a687709"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

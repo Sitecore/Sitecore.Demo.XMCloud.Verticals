@@ -1,0 +1,17 @@
+﻿---
+ID: "d200a0f1-f30e-4da4-9f47-c55fb6e5b5dd"
+Parent: "79b7be4f-c105-40e4-9b17-2ad7ddcb235f"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/Verticals/Services/Presentation/Placeholder Settings/Partial Design/Article Content
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-article-content"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9ccbe2a-53ce-4844-88a6-95334eec16e6"

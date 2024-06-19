@@ -2,7 +2,7 @@
 ID: "1ea7f33a-4c3e-4b0f-9b96-f1ef89c2ad4c"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/Insights/Authors/Patricia Ball
+Path: /sitecore/content/Verticals/Services/Home/Authors/Patricia Ball
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage

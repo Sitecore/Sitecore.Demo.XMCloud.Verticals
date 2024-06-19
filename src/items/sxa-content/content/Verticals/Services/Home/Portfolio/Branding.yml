@@ -1,16 +1,19 @@
 ﻿---
 ID: "ade93220-c0bc-4ecf-9136-61ecbc588f1b"
 Parent: "ffea8ca4-cf8c-453a-9f7d-49d6e60eea5d"
-Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Template: "60fe154b-e0bc-4fa8-b87c-55ab54015a49"
 Path: /sitecore/content/Verticals/Services/Home/Portfolio/Branding
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "10c6bd9b-7e77-47aa-a1fb-0e2ae97f81d0"
+      Hint: Title
+      Value: Branding
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Design
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1ac27a65-387d-4633-adb3-12ef32cfd863"
+      Value: "a4644abd-5614-4be2-8e0f-301b79db0bc7"
