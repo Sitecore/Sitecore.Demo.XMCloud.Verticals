@@ -12,7 +12,7 @@ SharedFields:
   Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 50
 Languages:
 - Language: en
   Versions:
