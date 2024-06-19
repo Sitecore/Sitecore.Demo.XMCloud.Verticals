@@ -8,9 +8,12 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "10c6bd9b-7e77-47aa-a1fb-0e2ae97f81d0"
+      Hint: Title
+      Value: Branding
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Design
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "911a1a58-79b9-4bce-87f8-0eb5559abd39"
+      Value: "a4644abd-5614-4be2-8e0f-301b79db0bc7"
