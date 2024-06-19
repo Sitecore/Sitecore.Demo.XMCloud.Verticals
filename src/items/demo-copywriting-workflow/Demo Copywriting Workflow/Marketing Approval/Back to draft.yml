@@ -2,7 +2,7 @@
 ID: "81393042-88a7-4239-865b-769c9b660924"
 Parent: "3bc605de-bbed-4e1e-8a00-aaaf30e48caa"
 Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
-Path: /sitecore/system/Workflows/Demo Copywriting Workflow/Marketing Approval/Reject
+Path: /sitecore/system/Workflows/Demo Copywriting Workflow/Marketing Approval/Back to draft
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon

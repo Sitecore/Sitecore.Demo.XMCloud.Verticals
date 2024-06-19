@@ -2,7 +2,7 @@
 ID: "bd55bb70-8605-4b16-85f5-fe621b2fcd3f"
 Parent: "db0811cd-5df3-458e-94a1-c7f4968e2548"
 Template: "419f8ffb-2713-4cec-86a7-7585a727fe25"
-Path: /sitecore/system/Workflows/Demo Copywriting Workflow/Marketing Approval/Approve/Validation Action
+Path: /sitecore/system/Workflows/Demo Copywriting Workflow/Marketing Approval/Submit to copywriting/Validation Action
 SharedFields:
 - ID: "202f2a2c-6274-467f-a9c8-3ec4585a3060"
   Hint: Critical Error
