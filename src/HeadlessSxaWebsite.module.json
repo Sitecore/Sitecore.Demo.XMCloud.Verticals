@@ -56,6 +56,10 @@
             {
                 "name": "demo-workflow",
                 "path": "/sitecore/system/Workflows/Demo Workflow"
+            },
+            {
+                "name": "demo-copywriting-workflow",
+                "path": "/sitecore/system/Workflows/Demo Copywriting Workflow"
             }
         ]
     }
