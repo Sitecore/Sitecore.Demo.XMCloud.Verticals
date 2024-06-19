@@ -1,0 +1,59 @@
+﻿---
+ID: "713d5c31-0bf7-4dc1-a3df-5453e285181e"
+Parent: "342f5e05-35ed-4d92-997e-0ad1ad45e585"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/Verticals/Services/Presentation/Partial Designs/Article Content
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "article-content"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9140A734-31D0-4FF3-8921-84BEEDBA4B4E}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F59395FE-244D-4421-84E9-B681C40B8633}"
+          p:before="*"
+          s:id="{A7343C45-4438-441E-967E-C2CB350DDA75}"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{4E94E9C6-404D-4A6D-B2C9-8228624577AC}"
+          p:after="r[@uid='{F59395FE-244D-4421-84E9-B681C40B8633}']"
+          s:id="{613A1798-71DD-4A5C-A183-A3BAB92289C4}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/page-navigation-0-1" />
+        <r
+          uid="{7C24FE50-CDB6-4097-A13B-073CF26F0C51}"
+          p:after="*[1=2]"
+          s:ds="ee12ee55-11a8-495f-bcc5-9ac98583b175"
+          s:id="{35075000-760E-4FF3-BD1C-F2EEBA251DCB}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/page-content-0-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7634c4cd-eeae-4dd1-82ac-1988ceb4cd8a"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1945b30-0658-4a1b-a451-737e26152d58"

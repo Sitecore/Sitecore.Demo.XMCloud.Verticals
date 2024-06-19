@@ -1,7 +1,7 @@
 ﻿---
 ID: "ade93220-c0bc-4ecf-9136-61ecbc588f1b"
 Parent: "ffea8ca4-cf8c-453a-9f7d-49d6e60eea5d"
-Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Template: "60fe154b-e0bc-4fa8-b87c-55ab54015a49"
 Path: /sitecore/content/Verticals/Services/Home/Portfolio/Branding
 Languages:
 - Language: en
@@ -13,4 +13,4 @@ Languages:
       Value: Design
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1ac27a65-387d-4633-adb3-12ef32cfd863"
+      Value: "911a1a58-79b9-4bce-87f8-0eb5559abd39"
