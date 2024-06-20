@@ -18,6 +18,9 @@ SharedFields:
   Hint: Photo
   Value: |
     <image mediaid="{62F6A36E-BFB0-432D-8502-B8E7E9F1E90A}" alt="Olly Bio Image" height="" width="" hspace="" vspace="" />
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 Languages:
 - Language: en
   Versions:
@@ -28,7 +31,7 @@ Languages:
       Value: Product Specialist
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "36023688-93e7-457b-8086-5f693e763567"
+      Value: "95c2f9f3-c6df-42d6-a6ae-9e91c22bca56"
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
       Value: $name

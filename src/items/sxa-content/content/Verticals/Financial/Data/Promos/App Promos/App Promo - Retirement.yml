@@ -7,7 +7,7 @@ SharedFields:
 - ID: "23fec4a6-1e53-4d30-8bb4-1a08632f3545"
   Hint: Image
   Value: |
-    <image mediaid="{22277B76-BF4E-4F1C-90FF-EE0936D7DF63}" />
+    <image mediaid="{22277B76-BF4E-4F1C-90FF-EE0936D7DF63}" alt="Two hands holding mobile phone" height="" width="" hspace="" vspace="" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
@@ -35,4 +35,4 @@ Languages:
       Value: "Stick to your retirement plan with our easy-to-use mobile companion app"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ac5a9188-d4cf-49cb-b5e5-fb8ed5b6d887"
+      Value: "abf4fb28-9963-48c7-a2a9-30bb8b0c4fad"

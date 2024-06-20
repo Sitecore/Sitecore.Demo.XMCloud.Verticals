@@ -41,11 +41,19 @@ SharedFields:
                     uid="241C42921F804BDF9E7373544A79E9FB"
                     except="true"
                     itemid="{524F5CD2-4FB9-437D-B733-CF5861B8CED3}" />
-                  <condition
-                    id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
-                    uid="F4E576622445425E954ED733A3E407AB"
-                    except="true"
-                    itemid="{0B45C71D-61AE-44F3-9F7D-6C88185F0B15}" />
+                  <and
+                    uid="C8B8E46987DB4410967CC564F850B38B">
+                    <condition
+                      id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                      uid="F4E576622445425E954ED733A3E407AB"
+                      except="true"
+                      itemid="{0B45C71D-61AE-44F3-9F7D-6C88185F0B15}" />
+                    <condition
+                      id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                      uid="96B170E9A8424F21A2EE397E6B597E9E"
+                      except="true"
+                      itemid="{8C2D6765-91BE-4BD8-A0B3-4F81256E75A6}" />
+                  </and>
                 </and>
               </and>
             </and>
@@ -66,7 +74,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7a4dd215-4182-4f96-9a26-874bd1329747"
+      Value: "6f902cce-3957-418e-9d08-6bc4571eee35"
 - Language: "fr-CA"
   Versions:
   - Version: 1

@@ -4,6 +4,9 @@ Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
 Path: "/sitecore/content/Verticals/Financial/Home/articles/closing-the-wealth-gap"
 SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -45,7 +48,7 @@ Languages:
     Fields:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
-      Value: <r />
+      Value: 
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
@@ -66,6 +69,9 @@ Languages:
         <p><strong>Towards a More Equitable Future</strong></p>
         <p>Closing the wealth gap is not only a moral imperative but also an economic necessity for building a more just and sustainable society. By addressing systemic inequalities, empowering individuals and communities, and promoting diversity and inclusion, we can work together to create a future where everyone has the opportunity to thrive and prosper, regardless of their background or circumstances.</p>
         <p><em>Join us in our commitment to closing the wealth gap and building a more equitable world for generations to come.</em></p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: Explore the complexities of the wealth gap and discover actionable steps towards a more equitable future. Join us in the commitment to closing the gap and building a world where everyone has the opportunity to thrive.
@@ -74,7 +80,7 @@ Languages:
       Value: Bridging the wealth divide
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bd823ca8-8313-4063-83ad-e99bd299e90b"
+      Value: "d2a39bf9-0990-4fe2-a928-748b7938adba"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: Bridging the wealth divide

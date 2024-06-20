@@ -4,6 +4,9 @@ Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
 Path: "/sitecore/content/Verticals/Financial/Home/articles/beware-of-financial-online-scams"
 SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -50,7 +53,7 @@ Languages:
     Fields:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
-      Value: <r />
+      Value: 
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
@@ -79,6 +82,9 @@ Languages:
         <p>Protecting yourself from financial online scams requires awareness, skepticism, and proactive measures to safeguard your personal and financial information. By staying informed and exercising caution when conducting online transactions, you can reduce the risk of falling victim to scams and enjoy a safer online experience.
         </p>
         <p>Remember, if something seems suspicious or too good to be true, it probably is. Stay vigilant, trust your instincts, and always prioritize your financial security.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: Online financial scams pose a significant threat to individuals' financial security, requiring heightened awareness and caution. Stay vigilant against phishing attempts, investment schemes, and online shopping fraud to protect yourself online.
@@ -87,7 +93,7 @@ Languages:
       Value: Beware of financial online scams
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "712717d7-ee56-41c8-a40b-02da38b1528b"
+      Value: "9e176f7a-da0c-4b65-8b88-17318366a9c7"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Protect yourself: Beware of financial online scams"
