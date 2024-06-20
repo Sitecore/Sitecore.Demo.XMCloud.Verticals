@@ -1,0 +1,21 @@
+﻿---
+ID: "e041ce96-55dd-4c75-b80f-72cb733b29ee"
+Parent: "3b9d2672-f351-48f4-a297-cc8cb6660ed0"
+Template: "40472280-0a67-4c52-a06b-79e327af9f44"
+Path: /sitecore/content/Verticals/Services/Home/Data/Testimonials 1/Testimonial 1
+BranchID: "339f37e2-761b-48ba-aa19-bd7b082373e9"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EB49344B-3309-43C4-B20C-0AB50B520F13}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "89aa75c0-8a07-43ce-b0be-989877ace891"
+      Hint: Content
+      Value: They can provide your business with a variety of digital solutions to promote your product or service online and help you.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4acc44fb-1d37-44f1-be2e-a9a469ca6c84"

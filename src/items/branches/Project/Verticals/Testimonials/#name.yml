@@ -1,0 +1,13 @@
+﻿---
+ID: "391b4573-01f5-4e27-a6f0-6c8d3f4360a3"
+Parent: "339f37e2-761b-48ba-aa19-bd7b082373e9"
+Template: "91cd4de0-ed0b-457b-9936-a333e8a874a3"
+Path: /sitecore/templates/Branches/Project/Verticals/Testimonials/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d2bc2f05-d742-4f17-864d-c878fe59fc6e"

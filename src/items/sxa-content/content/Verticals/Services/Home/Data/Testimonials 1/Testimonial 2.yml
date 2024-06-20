@@ -1,0 +1,34 @@
+﻿---
+ID: "ba9800d3-6104-46ae-85ab-643f7aa818c5"
+Parent: "3b9d2672-f351-48f4-a297-cc8cb6660ed0"
+Template: "40472280-0a67-4c52-a06b-79e327af9f44"
+Path: /sitecore/content/Verticals/Services/Home/Data/Testimonials 1/Testimonial 2
+BranchID: "339f37e2-761b-48ba-aa19-bd7b082373e9"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{064D3705-FC71-4A58-924E-292CBD1B4F70}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "347076d0-eb36-489e-9452-b0d48ee2641a"
+      Hint: Rating
+      Value: 4
+    - ID: "68135ba0-9f86-45d8-8744-a22ed6f2e82f"
+      Hint: AuthorPosition
+      Value: Small Business Owner
+    - ID: "89aa75c0-8a07-43ce-b0be-989877ace891"
+      Hint: Content
+      Value: "PLAY! Services is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you. A digital agency is a business you hire to outsource your digital marketing efforts,"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a527a28a-312c-45ef-b0ca-725f5b368bd8"
+    - ID: "f89cca04-3f6d-4d2d-8dc2-10dcf0981d8b"
+      Hint: AuthorImage
+      Value: |
+        <image mediaid="{FE2821DD-786C-4E12-A89D-2A3FAAC2014E}" />
+    - ID: "f8bed196-3478-41ea-9487-254ee08b2e2e"
+      Hint: AuthorName
+      Value: Graham Griffiths
