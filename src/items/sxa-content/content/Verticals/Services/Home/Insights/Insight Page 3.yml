@@ -1,0 +1,24 @@
+﻿---
+ID: "ad178717-1c9f-4533-99dc-0af6a6bfc7df"
+Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: /sitecore/content/Verticals/Services/Home/Insights/Insight Page 3
+SharedFields:
+- ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{0C9FEEDF-6496-4651-8B67-8946B597BF5A}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Insight Page
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1b9743c-c7b5-4920-8e08-cd5db9ae9556"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: Your business with a variety of digital

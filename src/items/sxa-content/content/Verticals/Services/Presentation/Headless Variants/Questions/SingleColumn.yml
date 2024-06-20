@@ -1,0 +1,13 @@
+﻿---
+ID: "cf7d277f-bdfb-4638-966a-f55087ad110d"
+Parent: "a85ef936-c8c7-409e-b3f2-6ee5b4ca6996"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Questions/SingleColumn
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c957b114-363c-4e7c-bdf8-8af220bc3982"

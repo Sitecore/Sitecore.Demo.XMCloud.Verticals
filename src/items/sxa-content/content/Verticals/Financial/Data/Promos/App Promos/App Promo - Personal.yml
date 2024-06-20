@@ -7,7 +7,7 @@ SharedFields:
 - ID: "23fec4a6-1e53-4d30-8bb4-1a08632f3545"
   Hint: Image
   Value: |
-    <image mediaid="{63E17DDD-8E91-4AF6-8052-FF666914C5DF}" />
+    <image mediaid="{63E17DDD-8E91-4AF6-8052-FF666914C5DF}" alt="close-up-hand-holding-smartphone" height="" width="" hspace="" vspace="" />
 Languages:
 - Language: en
   Versions:
@@ -32,4 +32,4 @@ Languages:
       Value: Say hello to convenient banking with our mobile application
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c8bf7d32-0b59-4f1e-bc03-59e794f2c8c1"
+      Value: "4697bc62-b1d6-4131-8964-e2c6072b9d8a"

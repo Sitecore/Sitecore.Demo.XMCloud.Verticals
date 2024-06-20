@@ -13,7 +13,7 @@ export const Default = (): JSX.Element => {
   const availableLanguages = useMemo(
     () => [
       { code: 'en', label: 'English' },
-      { code: 'fr-CA', label: 'Canadian French' },
+      { code: 'fr-CA', label: 'Français' },
     ],
     []
   );

@@ -124,3 +124,33 @@ export const PageHeading = (props: HeadingCtaProps): JSX.Element => {
     </div>
   );
 };
+
+export const Centered = (props: HeadingCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
+
+  return (
+    <div
+      className={`component heading-cta ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="heading-content-wrapper mx-auto text-center">
+          <h6 className="eyebrow-accent">
+            <Text field={props.fields?.Eyebrow} />
+          </h6>
+          <h2 className="display-4 fw-bold">
+            <Text field={props.fields?.Heading} />
+          </h2>
+          <p>
+            <Text field={props.fields?.Text} />
+          </p>
+          {(isPageEditing || props.fields?.Link?.value?.href) && (
+            <Link field={props.fields.Link} className="button button-main" />
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};

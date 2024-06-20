@@ -99,7 +99,6 @@ export const Default = (props: ArticleListComponentProps): JSX.Element => {
 export const ThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
   const id = props.params?.RenderingIdentifier;
   const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
-  const { t } = useI18n();
 
   if (!props.fields?.items) {
     return <div className="container">Please select a datasource.</div>;
@@ -111,11 +110,6 @@ export const ThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="container">
-        <div className="row">
-          <div className="col">
-            <div className="title display-6">{t('More News') || 'More News'}</div>
-          </div>
-        </div>
         <div className="row row-gap-3">
           {newsItems?.map((item) => (
             <div className="col-lg-4" key={item.url}>

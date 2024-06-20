@@ -3,7 +3,6 @@ ID: "9b3a17ec-27f9-47ce-8093-1005dea22b26"
 Parent: "7a15fc85-ae68-4475-b13c-bafe4a9dcc2d"
 Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
 Path: /sitecore/content/Verticals/Basic/Presentation/Partial Designs/Header
-BranchID: "c755de9b-1e44-4c8f-b830-168212b57fe7"
 SharedFields:
 - ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
   Hint: Signature
@@ -44,4 +43,11 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f0e4d48f-d487-4905-99b3-d13e3fdd351a"
+      Value: "a59be42b-367a-4074-b4fb-f86e5b93e4be"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9556bc78-9b9d-4562-b716-22561bff4bae"

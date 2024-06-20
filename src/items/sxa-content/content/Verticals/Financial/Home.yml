@@ -13,6 +13,9 @@ SharedFields:
 - ID: "4a749557-242b-4372-8a20-b2db9d406301"
   Hint: __AutoThumbnails
   Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -237,7 +240,7 @@ SharedFields:
           p:after="r[@uid='{D54D53B4-1AA4-4998-9BDF-EB934C32CFB6}']"
           s:ds="local:/Data/Promo CTA 1"
           s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B96542870-8A0D-48D0-A440-FA4F7B9B9625%7D%7C%7B4FF833E4-92AD-41E4-97A4-D329284BC2B1%7D%7C%7BAC2F465E-37DA-4902-A6E1-54D0D9A34A0D%7D%7C%7B414E9E7F-1D7C-4BA2-8A8E-C472697DB054%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=25"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B96542870-8A0D-48D0-A440-FA4F7B9B9625%7D%7C%7BAC2F465E-37DA-4902-A6E1-54D0D9A34A0D%7D%7C%7B414E9E7F-1D7C-4BA2-8A8E-C472697DB054%7D%7C%7B4FF833E4-92AD-41E4-97A4-D329284BC2B1%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=25"
           s:ph="headless-main" />
         <r
           uid="{1A516B9B-CC7B-49C9-A8EB-5BE281A98612}"
@@ -287,12 +290,15 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Financial
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ad8421eb-bd2a-4abd-bd9d-22b58512df71"
+      Value: "ba438914-59bb-4d22-bb6b-9799b1441a44"
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
       Value: Financial

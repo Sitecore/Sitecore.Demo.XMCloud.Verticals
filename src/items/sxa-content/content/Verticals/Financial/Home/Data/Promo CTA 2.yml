@@ -31,10 +31,21 @@ Languages:
         <link linktype="internal" id="944b4714-233c-4bc7-8e24-604e758c0f85" anchor="" querystring="" target="" class="" text="Get started" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88d30cc5-22b8-4ee0-9993-46b4a958e89c"
+      Value: "69a68218-48bc-4b05-96fc-ea2250142172"
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: "As your finances grow, you will unlock more benefits and services from PLAY! Finance."
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: 
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link linktype="internal" id="944b4714-233c-4bc7-8e24-604e758c0f85" anchor="" querystring="" target="" class="" text="Débutez maintenant" title=""/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "99b606ac-088b-47de-9d82-b5016a4f08d2"

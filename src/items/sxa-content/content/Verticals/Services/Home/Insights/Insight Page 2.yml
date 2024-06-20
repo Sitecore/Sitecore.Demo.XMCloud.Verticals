@@ -1,0 +1,24 @@
+﻿---
+ID: "319812a4-6f5c-40f6-ad4f-f229d52ed418"
+Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: /sitecore/content/Verticals/Services/Home/Insights/Insight Page 2
+SharedFields:
+- ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{EDD9B7E5-8F44-49D4-AB6A-DD43AC6690C8}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Insight Page
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1249d37c-757d-43bb-8aaf-6b730bec23f6"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: Outsource your digital marketing efforts

@@ -9,7 +9,6 @@ import {
   Link,
   LinkField,
   useSitecoreContext,
-  Placeholder,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import useVisibility from 'src/hooks/useVisibility';
 import { ComponentProps } from 'lib/component-props';
@@ -42,7 +41,7 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
       id={id ? id : undefined}
       ref={domRef}
     >
-      <div className="container container-widest">
+      <div className="container container-widest-fluid">
         <div className="container">
           <div className="row row-gap-4 main-content align-items-center">
             <div className="col-lg-6">
@@ -56,10 +55,6 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
                 </h1>
                 <div className="fs-5">
                   <RichText field={props.fields.Text} className="text-content" />
-
-                  <div className="row mt-2">
-                    <Placeholder name="promo-cta" rendering={props.rendering} />
-                  </div>
 
                   {(isPageEditing || props.fields?.Link?.value?.href) && (
                     <Link field={props.fields.Link} className="button button-main mt-3" />
@@ -98,7 +93,7 @@ export const LargeImage = (props: CtaBannerProps): JSX.Element => {
       id={id ? id : undefined}
       ref={domRef}
     >
-      <div className="container container-widest">
+      <div className="container container-widest-fluid">
         <div className="row row-gap-4 main-content align-items-center">
           <div className="col-lg-6">
             <div className="content-column">
@@ -112,10 +107,6 @@ export const LargeImage = (props: CtaBannerProps): JSX.Element => {
                 </h1>
                 <div className="fs-5">
                   <RichText field={props.fields.Text} className="text-content" />
-
-                  <div className="row mt-2">
-                    <Placeholder name="promo-cta" rendering={props.rendering} />
-                  </div>
 
                   {(isPageEditing || props.fields?.Link?.value?.href) && (
                     <Link field={props.fields.Link} className="button button-main mt-3" />

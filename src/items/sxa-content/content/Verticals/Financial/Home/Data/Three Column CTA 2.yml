@@ -53,7 +53,14 @@ Languages:
         <link text="Contact Us" linktype="anchor" url="#" anchor="#" title="" class="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "55ecae25-9d6f-4d2d-9c71-41e905fafa44"
+      Value: "ebfdef80-d82c-414c-b0e1-ae0b131ccc65"
     - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
       Hint: SubText3
       Value: 
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "136bdcee-e3ca-4854-9bfa-5e420f76b08f"

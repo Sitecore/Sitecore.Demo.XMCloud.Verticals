@@ -1,15 +1,18 @@
 ﻿---
 ID: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
-Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
+Parent: "57f2e85d-d695-4e6c-8c89-947ce5443e2e"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
-Path: /sitecore/content/Verticals/Services/Home/Insights/Authors
+Path: /sitecore/content/Verticals/Services/Home/Authors
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: "{AAD350F5-9331-4D71-A942-E3643653C028}"
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 150
+  Value: 700
 - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
   Hint: BackgroundImage
   Value: |
@@ -48,7 +51,7 @@ Languages:
       Value: Authors
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ed55d839-9841-4668-b486-5b5fecdce31c"
+      Value: "9e005166-8db5-4732-a565-11a2718cbd14"
 - Language: "fr-CA"
   Versions:
   - Version: 1

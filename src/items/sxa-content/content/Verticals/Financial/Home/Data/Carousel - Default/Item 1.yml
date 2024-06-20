@@ -29,7 +29,7 @@ Languages:
         <link text="Explore everyday banking" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{406FD98C-50E4-4F30-90E4-6245498A2D10}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8e178763-b76e-464d-859c-2d35b7d5269f"
+      Value: "90a49fbc-a96c-47e5-bb34-d60de7d11c52"
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
       Value: <p>Get started online and access our suite of personalized financial services.</p>
@@ -43,10 +43,10 @@ Languages:
     - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
       Hint: Link
       Value: |
-        <link text="Details" linktype="external" url="http://www.sitecore.com" anchor="" target="" />
+        <link text="FR Explore everyday banking" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{406FD98C-50E4-4F30-90E4-6245498A2D10}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a5c124fd-5799-4ea6-9525-86473a656d56"
+      Value: "e521186c-8358-4e45-9183-2271032d76e9"
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
-      Value: "Prêt hypothécaire de PLAY! Finance."
+      Value: "<p>Prêt hypothécaire de PLAY! Finance.</p>"

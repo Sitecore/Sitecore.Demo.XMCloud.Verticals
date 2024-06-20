@@ -1,0 +1,36 @@
+﻿---
+ID: "63cc4d0d-63f1-4bfb-bf63-7ec9d231afa8"
+Parent: "05592656-56d7-4d85-aacf-30919ee494f9"
+Template: "1c0acc50-37be-4742-b43c-96a07a7410a5"
+Path: /sitecore/system/Workflows/Demo Copywriting Workflow
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{4B7E2DA9-DE43-4C83-88C3-02F042031D04}"
+- ID: "b5166b38-e4bf-4410-953c-2037f2bf6a56"
+  Hint: Initial state
+  Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "591f16da-4020-4ffd-9560-ef4996fc2a61"
+      Hint: Default Comment Dialog Height
+      Value: 250
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd67783d-c191-436c-a2b7-5050cc8aacf9"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "591f16da-4020-4ffd-9560-ef4996fc2a61"
+      Hint: Default Comment Dialog Height
+      Value: 250
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c633ced4-5191-4ef1-9943-ff5a055c0feb"

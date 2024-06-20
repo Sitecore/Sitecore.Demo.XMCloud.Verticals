@@ -4,6 +4,9 @@ Parent: "b2a38fb8-2e85-4d58-afe5-c12beccbee3a"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
 Path: "/sitecore/content/Verticals/Financial/Home/retirement-planning"
 SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 400
@@ -26,7 +29,7 @@ SharedFields:
           p:before="*"
           s:ds="local:/Data/Three Column CTA 1"
           s:id="{AD385021-CE2B-4FC1-89AA-207D408034A8}"
-          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles=%7C%7B939CBD3C-08FA-4188-B8D7-55EEF3F3E028%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=5"
+          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=5"
           s:ph="/headless-main/sxa-page-content/background-page-content-0-1" />
         <r
           uid="{E25AB7CC-356F-4A00-A1EB-CEEFBE5578BB}"
@@ -83,12 +86,15 @@ Languages:
     - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
       Hint: Content
       Value: <p>Plan today. Thrive tomorrow.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Retirement planning
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "070c906a-e140-497f-b65a-8e6fdf1fb18b"
+      Value: "b3be5b8a-0d83-4f71-b67a-e0f144f2a8cd"
 - Language: "fr-CA"
   Versions:
   - Version: 1
