@@ -1,0 +1,26 @@
+@import 'swiper/css';
+@import 'swiper/css/effect-coverflow';
+@import 'swiper/css/pagination';
+
+.site-services,
+.site-financial {
+  --swiper-pagination-bullet-size: 0.75rem;
+  --swiper-pagination-bullet-horizontal-gap: 0.5rem;
+  --swiper-pagination-color: var(--bg-saturated);
+  --swiper-pagination-bullet-inactive-color: var(--bg-body);
+  --swiper-pagination-bullet-inactive-border-color: var(--border-color);
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-theme-color: var(--bg-saturated);
+}
+
+.swiper-pagination {
+  position: static;
+
+  &-bullet {
+    border: 2px solid var(--swiper-pagination-bullet-inactive-border-color);
+
+    &.swiper-pagination-bullet-active {
+      border: 2px solid var(--swiper-pagination-color);
+    }
+  }
+}

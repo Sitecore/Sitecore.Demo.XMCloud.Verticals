@@ -1,0 +1,13 @@
+﻿---
+ID: "8095e904-8a02-4ae5-b7a6-aff4137eaff5"
+Parent: "03b99ac0-0572-49db-ae6d-3c7273c846e8"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Heading CTA/Centered
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9296f348-e7ca-4998-8e45-e717e439d9a5"
