@@ -4,6 +4,9 @@ Parent: "406fd98c-50e4-4f30-90e4-6245498a2d10"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
 Path: /sitecore/content/Verticals/Financial/Home/personal/investing
 SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 400
@@ -66,9 +69,12 @@ Languages:
     - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
       Hint: Content
       Value: Wealth management made simple.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Investing
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "371ce515-87f5-4931-81bd-e49311d84128"
+      Value: "cc9c8629-f1d9-407a-a75a-f3da933820f4"

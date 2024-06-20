@@ -10,6 +10,9 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: 
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 Languages:
 - Language: en
   Versions:
@@ -17,4 +20,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6cb450bc-50f0-4b68-8a4e-6971822ab2a9"
+      Value: "233dae5b-4375-4a5d-8c15-2c15e1e1fde7"

@@ -3,7 +3,6 @@ ID: "c0df6b65-dfe0-41e7-a3b4-f356d6e15b5c"
 Parent: "7d13b944-5d94-4747-a77e-5453cc52e973"
 Template: "4ad644a8-7cdb-4574-8df1-d01c3bb7b624"
 Path: /sitecore/content/Verticals/Basic/Home/About
-BranchID: "aa757cc9-f2da-4f78-a33d-9d382d5fcf92"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
@@ -48,3 +47,16 @@ Languages:
     - ID: "ca15ff2f-1966-4a91-81bf-bf2eba17c20c"
       Hint: Title
       Value: About
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: À notre sujet
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7479bd75-804f-4f74-ad45-0419d8f598b6"
+    - ID: "ca15ff2f-1966-4a91-81bf-bf2eba17c20c"
+      Hint: Title
+      Value: À notre sujet

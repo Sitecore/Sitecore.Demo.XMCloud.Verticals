@@ -4,6 +4,9 @@ Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
 Path: "/sitecore/content/Verticals/Financial/Home/articles/five-tips-for-new-retirees"
 SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -45,7 +48,7 @@ Languages:
     Fields:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
-      Value: <r />
+      Value: 
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
@@ -71,6 +74,9 @@ Languages:
         <p>Retirement is an exciting milestone that offers the opportunity to embrace new experiences and enjoy the fruits of your labor. By taking the time to plan and prepare for retirement, you can ensure a smooth transition and set yourself up for a fulfilling and financially secure future. Remember to stay informed, stay engaged, and make the most of every moment as you embark on this new chapter of your life.
         </p>
         <p><strong><em>Are you ready to start your retirement journey? Contact us today to learn more about how we can help you plan for a successful retirement.</em></strong></p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: Whether you're just starting to plan for retirement or have recently retired, here are some essential tips to help you navigate this transition with confidence and peace of mind.
@@ -79,7 +85,7 @@ Languages:
       Value: 5 tips for new retirees
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e284319c-b664-42d8-8838-d9c54302e5e5"
+      Value: "76300581-7eda-4a7d-a168-550d1ca80075"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Starting your retirement journey: 5 tips for new retirees"
