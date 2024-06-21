@@ -13,6 +13,8 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 import { useI18n } from 'next-localization';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
 
 interface Fields {
   Name: Field<string>;
@@ -35,7 +37,7 @@ interface AuthorListComponentProps {
   };
 }
 
-const AuthorList = (props: AuthorListComponentProps): JSX.Element => {
+const AuthorListDefault = (props: AuthorListComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const authors = props.fields?.items?.filter((item) => item.name !== 'Data');
   const { sitecoreContext } = useSitecoreContext();
@@ -85,4 +87,55 @@ const AuthorList = (props: AuthorListComponentProps): JSX.Element => {
   );
 };
 
-export default withDatasourceCheck()<AuthorListComponentProps>(AuthorList);
+const AuthorListSlider = (props: AuthorListComponentProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const authors = props.fields?.items?.filter((item) => item.name !== 'Data');
+
+  return (
+    <div
+      className={`component author-list author-list-slider ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <Swiper
+          spaceBetween={30}
+          slidesPerView={1}
+          slidesPerGroup={1}
+          breakpoints={{
+            768: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+            },
+            992: {
+              slidesPerView: 4,
+              slidesPerGroup: 4,
+            },
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          loop={authors.length > 4}
+          modules={[Navigation, Pagination]}
+        >
+          {authors?.map((author) => (
+            <SwiperSlide key={author.url}>
+              <Link href={author.url} className="wrapper-link">
+                <Image field={author.fields.Photo} />
+                <h3 className="fs-4 mt-4">
+                  <Text field={author.fields.Name}></Text>
+                </h3>
+                <p>
+                  <Text field={author.fields.Position} />
+                </p>
+              </Link>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </div>
+  );
+};
+
+export const Default = withDatasourceCheck()<AuthorListComponentProps>(AuthorListDefault);
+export const Slider = withDatasourceCheck()<AuthorListComponentProps>(AuthorListSlider);
