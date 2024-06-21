@@ -4,6 +4,7 @@
   color: var(--text-footer);
   background-color: var(--bg-footer);
   width: 100%;
+  transition: 0.4s;
 
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
