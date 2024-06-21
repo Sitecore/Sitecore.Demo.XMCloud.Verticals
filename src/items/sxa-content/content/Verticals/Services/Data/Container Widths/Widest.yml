@@ -1,0 +1,17 @@
+﻿---
+ID: "5d3779dc-1de8-4c5b-844f-e96f6cdc4197"
+Parent: "26c39185-c940-45f0-820c-74df69d4bc8f"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Verticals/Services/Data/Container Widths/Widest
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/fit_to_width.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38639d28-8838-41dd-9ddb-5ca5585d8c72"

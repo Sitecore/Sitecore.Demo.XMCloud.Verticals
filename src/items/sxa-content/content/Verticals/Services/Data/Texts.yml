@@ -3,6 +3,10 @@ ID: "a8374d6a-7f21-47b5-8983-8dc555942101"
 Parent: "869a7cfa-cfab-4bc5-b186-91fe1de44c84"
 Template: "b762d567-87f5-493c-bb48-0c455d834457"
 Path: /sitecore/content/Verticals/Services/Data/Texts
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
 Languages:
 - Language: en
   Versions:
@@ -10,4 +14,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dc38953c-5250-4247-888c-1fef71316b64"
+      Value: "77269fbc-8b77-4617-ae9e-c5685236a89b"

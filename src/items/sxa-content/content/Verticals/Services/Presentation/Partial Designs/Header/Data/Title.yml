@@ -15,8 +15,24 @@ Languages:
     - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
       Hint: Text
       Value: |
-        <a href="/"><h1>
-        PLAY!&nbsp;Services</h1></a>
+        <a href="/"><h1><?xml version="1.0" encoding="UTF-8" />
+        <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 110.75 117.02">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: #FF7145;
+              }
+            </style>
+          </defs>
+          <g id="Layer_1-2" data-name="Layer 1">
+            <g>
+              <path id="Path_100" data-name="Path 100" class="cls-1" d="M0,39V117.01H9.75V29.25L0,39Z"></path>
+              <path id="Path_101" data-name="Path 101" class="cls-1" d="M19.5,19.5V117.02h9.75V9.75l-9.75,9.76Z"></path>
+              <path class="cls-1" d="M71.74,0H39V117.01h9.75v-39h22.99c21.54,0,39.01-17.46,39.01-39.01S93.28,0,71.74,0Z"></path>
+            </g>
+          </g>
+        </svg>
+        <span class="play">PLAY!</span><span class="services">Services</span></h1></a>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0e96b96a-76b4-4cdf-a1d3-4a644b31f456"
+      Value: "de16f103-ac0c-4ed0-a368-5a297d2e38f3"

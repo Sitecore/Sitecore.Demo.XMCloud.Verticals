@@ -37,6 +37,10 @@
     opacity: var(--promo-cta-text-opacity);
   }
 
+  .button {
+    margin-top: auto;
+  }
+
   &.bordered {
     .content-wrapper {
       border-radius: var(--roundness);
@@ -55,10 +59,6 @@
 
     img {
       border-radius: 0;
-    }
-
-    .button {
-      margin-top: auto;
     }
   }
 
