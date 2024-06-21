@@ -1,0 +1,63 @@
+﻿---
+ID: "96327ba1-238d-4746-86da-4da54f3eedec"
+Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
+Template: "aad350f5-9331-4d71-a942-e3643653c028"
+Path: /sitecore/content/Verticals/Services/Home/Authors/Olly Damon
+SharedFields:
+- ID: "2404bb97-b42a-439a-be76-de66213cb281"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" alt="Author Paper" height="" width="" hspace="" vspace="" />
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Olly Damon
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Client Services Manager
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7d8cb451-5584-4754-bb61-3c3cb74a4eda"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Olly is dedicated to delivering exceptional service and support to our clients. With a focus on building strong client relationships and exceeding expectations, she leads our client services team in providing timely and responsive assistance to address client inquiries, resolve issues, and ensure satisfaction.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Olly Damon
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Olly Damon
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Client Services Manager
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1de781d8-cd07-4f36-8371-d12ee9617f19"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Olly is dedicated to delivering exceptional service and support to our clients. With a focus on building strong client relationships and exceeding expectations, she leads our client services team in providing timely and responsive assistance to address client inquiries, resolve issues, and ensure satisfaction.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Olly Damon

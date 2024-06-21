@@ -1,0 +1,13 @@
+﻿---
+ID: "e0a4ca56-8fd4-4018-964d-6ce73af2164b"
+Parent: "66aff2d9-d6ba-4c10-a049-9b4047c29fc8"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Author List/Slider
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a1a5de8-25a5-48c7-989a-faa1733fef24"
