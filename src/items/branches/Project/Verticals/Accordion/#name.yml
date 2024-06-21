@@ -1,0 +1,13 @@
+﻿---
+ID: "791f1709-21c8-4b2d-a073-3dfce91f0913"
+Parent: "6a2d74f1-393f-46a5-9913-a9af5fc5141e"
+Template: "9bc52f2f-feed-47dc-88ec-1946fa308af0"
+Path: /sitecore/templates/Branches/Project/Verticals/Accordion/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f988a2b9-fae3-4297-bf3b-92b1ec0d154d"

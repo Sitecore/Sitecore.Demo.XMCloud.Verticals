@@ -37,6 +37,8 @@
 
   ol {
     counter-reset: custom-counter;
+    font-weight: bold;
+    font-size: 1.125rem;
 
     li {
       counter-increment: custom-counter;
@@ -53,4 +55,12 @@
       }
     }
   }
+}
+
+.button-clear-appearance {
+  appearance: none;
+  border: none;
+  background-color: unset;
+  padding: 0;
+  text-align: left;
 }

@@ -1,0 +1,30 @@
+﻿---
+ID: "92447036-92b8-4376-a6dc-e31cb51c21f3"
+Parent: "791f1709-21c8-4b2d-a073-3dfce91f0913"
+Template: "02fc3e8b-a97f-4a7a-844b-3047e24432a0"
+Path: /sitecore/templates/Branches/Project/Verticals/Accordion/$name/Design
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4cea0fff-861b-4220-b782-13c4b4d87602"
+      Hint: Title
+      Value: Design
+    - ID: "60494f49-e98c-480e-a699-5765703e0497"
+      Hint: Content
+      Value: |
+        <h2>Agency is a business you hire to outsource your digital marketing efforts</h2>
+        <p>Business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+        <ul>
+            <li>Web Development</li>
+            <li>Brand Stratrgy</li>
+            <li>Art Direction</li>
+        </ul>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4843bdea-131f-4382-8d54-8c18da680199"
+    - ID: "b5316ca6-a961-499b-b65e-3d98d49a8f47"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0189E223-E85E-4FC2-B09A-4D936003F0C3}" />
