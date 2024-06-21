@@ -1,0 +1,20 @@
+﻿---
+ID: "49c1fea0-1b50-4bf3-aa6e-a40b48837c60"
+Parent: "a149c1d7-dfe6-4f6c-a187-9ae4b27ec16d"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Verticals/Services/Home/Services/Data/Text 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><h1>Play! Services is a business you hire to outsource your digital marketing efforts</h1></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fa05d924-e921-46de-97a5-2506d2d44e13"

@@ -1,6 +1,10 @@
 @import 'src/assets/sass/abstracts/vars';
 @import 'src/assets/sass/abstracts/mixins';
 
+.site-services {
+  --rich-text-p-opacity: 0.65;
+}
+
 .content,
 .rich-text {
   border: $rich-content-border;
@@ -8,6 +12,10 @@
 
   * {
     max-width: 100%;
+  }
+
+  p {
+    opacity: var(--rich-text-p-opacity);
   }
 
   @import 'src/assets/sass/base/richtext';
