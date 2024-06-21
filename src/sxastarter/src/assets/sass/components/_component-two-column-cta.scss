@@ -39,6 +39,10 @@
     padding-right: 1rem;
   }
 
+  .button {
+    margin-top: auto;
+  }
+
   &.colored {
     .content-wrapper {
       background-color: var(--bg-main);

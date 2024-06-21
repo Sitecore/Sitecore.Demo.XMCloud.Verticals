@@ -49,6 +49,10 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
     delay?: number;
   }) => {
     const [isVisible, domRef] = useVisibility(delay);
+    const buttonStyle = props.params?.ButtonStyle
+      ? `button-${props.params.ButtonStyle.toLowerCase()}`
+      : 'button-main';
+
     return (
       <div
         className={`col-sm-12 col-lg-6 ${
@@ -69,7 +73,7 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
             </p>
           )}
           {(isPageEditing || link?.value?.href) && (
-            <Link field={link} className="button button-main" />
+            <Link field={link} className={`button ${buttonStyle}`} />
           )}
           <Placeholder name={placeholder} rendering={props.rendering} />
         </div>
