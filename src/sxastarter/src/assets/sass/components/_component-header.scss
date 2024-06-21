@@ -2,19 +2,21 @@
 
 .header {
   width: 100%;
-  padding: 1.5rem 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 
   @include respond-to(mobile-large) {
     padding: 1.5rem $size-padding;
+  }
+
+  .rich-text,
+  .navigation {
+    padding: 0 !important;
   }
 }
 
 // PLAY! finance specific styles
 .site-financial .header {
-  .rich-text {
-    padding: 0 !important;
-  }
-
   h1 {
     font-size: 2rem !important;
     line-height: 1 !important;
@@ -49,6 +51,29 @@
     .finance {
       color: var(--bg-accent);
       font-weight: 300;
+    }
+  }
+}
+
+// PLAY! services specific styles
+.site-services .header {
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 1 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    svg {
+      width: 2.5rem;
+      margin-right: 1rem;
+    }
+
+    .services {
+      color: var(--text-accent);
+      font-weight: normal;
     }
   }
 }

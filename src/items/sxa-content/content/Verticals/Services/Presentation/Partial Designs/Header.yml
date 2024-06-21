@@ -22,13 +22,13 @@ SharedFields:
           uid="{EA7CE71D-6802-4C62-879A-B9CE687E1C77}"
           p:before="*"
           s:id="{5F765231-1DA9-467A-8B35-2171CCE313C1}"
-          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4&amp;ContainerWidth=Widest"
           s:ph="headless-header" />
         <r
           uid="{C494869C-A931-4F42-8BDF-ACA32462F2B3}"
           p:after="r[@uid='{EA7CE71D-6802-4C62-879A-B9CE687E1C77}']"
           s:id="{81317D3B-F929-426A-83EC-421982F8F1E6}"
-          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6&amp;ContainerWidth=Widest"
           s:ph="headless-header" />
         <r
           uid="{F0E320AC-2866-4B80-9F56-9E9F35675441}"
@@ -40,9 +40,8 @@ SharedFields:
         <r
           uid="{7C9E1BAD-A136-4711-9220-AB61F227F432}"
           p:after="r[@uid='{F0E320AC-2866-4B80-9F56-9E9F35675441}']"
-          s:ds=""
           s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B2B3D88AC-E26A-41D2-9548-D00058CE8E43%7D&amp;Styles=%7B22E82802-3286-4F6C-8F98-C2452D344A34%7D%7C%7B8585DB0B-FC0A-457E-81E6-3803210D0410%7D&amp;NavigationRoot=%7B57F2E85D-D695-4E6C-8C89-947CE5443E2E%7D&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot&amp;SerializerFieldNames&amp;RenderingIdentifier&amp;CSSStyles"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B2B3D88AC-E26A-41D2-9548-D00058CE8E43%7D&amp;Styles=%7B22E82802-3286-4F6C-8F98-C2452D344A34%7D%7C%7B8585DB0B-FC0A-457E-81E6-3803210D0410%7D%7C%7BA50A637F-20A0-4159-8F9B-22BED3279CB7%7D&amp;NavigationRoot=%7B57F2E85D-D695-4E6C-8C89-947CE5443E2E%7D&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot&amp;SerializerFieldNames&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="/headless-header/header-right-0-6" />
         <r
           uid="{D0291F80-D41E-4573-9ABD-E186694B5C04}"
@@ -66,13 +65,16 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "59008d12-b0a4-44a8-8694-b592fd0aee4a"
+      Value: "28257eeb-d985-4288-9bd0-8b13c93ca166"
 - Language: "fr-CA"
   Versions:
   - Version: 1
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8b4e44ac-e6ea-4cf5-8b48-16aa4e678724"
+      Value: "62441fbf-2037-4aa2-8a6a-b401f9f8179b"

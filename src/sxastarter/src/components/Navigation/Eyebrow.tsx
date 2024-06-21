@@ -7,7 +7,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
 
   return (
     <div className={`component eyebrow	${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
-      <div className="container">
+      <div className={`container container-${props.params?.ContainerWidth?.toLowerCase()}-fluid`}>
         <div className="row">
           <div className="col col-placeholder">
             <Placeholder name="eyebrow-left" rendering={props.rendering} />

@@ -7,7 +7,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
 
   return (
     <div className={`component header ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
-      <div className="container">
+      <div className={`container container-${props.params?.ContainerWidth?.toLowerCase()}-fluid`}>
         <div className="row align-items-center">
           <div className="col-auto">
             <Placeholder name="header-left" rendering={props.rendering} />
