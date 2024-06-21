@@ -1,0 +1,13 @@
+﻿---
+ID: "66aff2d9-d6ba-4c10-a049-9b4047c29fc8"
+Parent: "7a66a4de-85d6-4358-af3f-8c4b4aac7bd2"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Author List
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d14a0d54-8808-416f-90b3-c4828aafb4de"

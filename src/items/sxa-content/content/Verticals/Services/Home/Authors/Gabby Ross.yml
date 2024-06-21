@@ -1,0 +1,61 @@
+﻿---
+ID: "74c7a410-b75e-415b-99dc-da2c7a586b03"
+Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
+Template: "aad350f5-9331-4d71-a942-e3643653c028"
+Path: /sitecore/content/Verticals/Services/Home/Authors/Gabby Ross
+SharedFields:
+- ID: "2404bb97-b42a-439a-be76-de66213cb281"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" alt="Author Paper" height="" width="" hspace="" vspace="" />
+- ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
+  Hint: Photo
+  Value: |
+    <image mediaid="{59BA5624-1CCB-4354-BF21-8FB682EC70A0}" alt="Gabby Bio Image" height="" width="" hspace="" vspace="" />
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 550
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Gabby Ross
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ecac9f5-e641-439b-b3d2-e06fb4e3c30c"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Gabby has a proven track record of success in product management and development. With a passion for innovation and a keen eye for market trends, she plays a pivotal role in bringing new products to market and enhancing existing offerings.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Gabby Ross
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Gabby Ross
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "93174cbb-0f60-4352-b71c-204d0e90ef81"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Gabby has a proven track record of success in product management and development. With a passion for innovation and a keen eye for market trends, she plays a pivotal role in bringing new products to market and enhancing existing offerings.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Gabby Ross

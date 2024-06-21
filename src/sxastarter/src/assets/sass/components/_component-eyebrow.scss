@@ -4,6 +4,7 @@
   color: var(--text-footer);
   background-color: var(--bg-footer);
   width: 100%;
+  transition: 0.4s;
 
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
@@ -15,4 +16,8 @@
     justify-content: flex-end;
     gap: 2rem;
   }
+}
+
+.site-services .eyebrow .container {
+  border-bottom: 1px solid var(--border-color);
 }
