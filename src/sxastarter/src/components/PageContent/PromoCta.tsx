@@ -52,8 +52,8 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
             <h1 className="display-6 fw-bold mb-3">
               <Text field={props.fields.Title} />
             </h1>
-            <div className="fs-5">
-              <p>
+            <div className="promo-cta-text">
+              <p className="fs-5">
                 <Text field={props.fields.Subtitle} />
               </p>
 
@@ -110,8 +110,8 @@ export const WithPlaceholderColumn = (props: PromoCtaProps): JSX.Element => {
             <h1 className="fs-1 fw-bold mb-3">
               <Text field={props.fields.Title} />
             </h1>
-            <div className="fs-5">
-              <p>
+            <div className="promo-cta-text">
+              <p className="fs-5">
                 <Text field={props.fields.Subtitle} />
               </p>
 
