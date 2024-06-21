@@ -64,10 +64,10 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
               </div>
 
               {(isPageEditing || props.fields?.Link?.value?.href) && (
-                <Link field={props.fields.Link} className="button button-main mt-3" />
+                <Link field={props.fields.Link} className="button button-main mt-3 me-4" />
               )}
               {(isPageEditing || props.fields?.Link2?.value?.href) && (
-                <Link field={props.fields.Link2} className="button button-simple mt-3 mx-4" />
+                <Link field={props.fields.Link2} className="button button-simple mt-3 " />
               )}
             </div>
           </div>

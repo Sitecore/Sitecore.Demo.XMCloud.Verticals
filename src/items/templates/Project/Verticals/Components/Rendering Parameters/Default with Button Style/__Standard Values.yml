@@ -1,0 +1,23 @@
+﻿---
+ID: "560001f1-bf47-4d83-814c-d7052ee98d2d"
+Parent: "a94d823b-94ad-4a04-8238-3a5fd72c0e7c"
+Template: "a94d823b-94ad-4a04-8238-3a5fd72c0e7c"
+Path: /sitecore/templates/Project/Verticals/Components/Rendering Parameters/Default with Button Style/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a63ee51-2486-4796-98d1-df0c3a7e7286"
+    - ID: "f1270344-2875-47b5-a2cd-b768efe772b1"
+      Hint: ButtonStyle
+      Value: Main
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a6428413-5527-4df0-98bd-d5ef7efbe8ed"
