@@ -1,0 +1,20 @@
+﻿---
+ID: "a50a637f-20a0-4159-8f9b-22bed3279cb7"
+Parent: "bb580656-fc0c-44b5-b66c-d0fcea247106"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/Verticals/Services/Presentation/Styles/Navigation/Centered
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "navigation-centered"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Value: "{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0d27f04f-cf29-40de-bcf5-90cf91b0f582"
