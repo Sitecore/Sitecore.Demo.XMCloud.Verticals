@@ -1,0 +1,27 @@
+﻿---
+ID: "da98fd54-e21c-4d1c-8f2f-e316a4112cbd"
+Parent: "fd833ce1-61d3-4d9c-8c82-f0f3e427c9d8"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Verticals/Components/Rendering Parameters/Default with Container Width/Options/ContainerWidth
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "{26C39185-C940-45F0-820C-74DF69D4BC8F}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droplist
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Container Width
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d1d2444-d411-495d-922b-ee8ffae21f21"

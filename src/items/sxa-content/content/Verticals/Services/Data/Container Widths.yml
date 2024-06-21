@@ -1,0 +1,13 @@
+﻿---
+ID: "26c39185-c940-45f0-820c-74df69d4bc8f"
+Parent: "869a7cfa-cfab-4bc5-b186-91fe1de44c84"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Verticals/Services/Data/Container Widths
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "65b85ee3-b390-4e5a-804b-ec381f248062"

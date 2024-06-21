@@ -8,11 +8,13 @@
 
   .level0,
   .level1 {
-    > .navigation-title > a {
-      font-size: $navigation-font-basic;
+    &:not(.button) {
+      > .navigation-title > a {
+        font-size: $navigation-font-basic;
 
-      &:hover {
-        text-decoration: none;
+        &:hover {
+          text-decoration: none;
+        }
       }
     }
   }
@@ -35,6 +37,27 @@
 
   .submenu > ul {
     padding-left: 10px;
+  }
+
+  &.navigation-centered {
+    .component-content ul li.level1:not(.button) > .navigation-title > a {
+      font-weight: normal;
+    }
+
+    @media (width > 992px) {
+      > .menu-mobile-navigate-wrapper {
+        width: 100%;
+
+        > .component-content {
+          width: 100%;
+        }
+      }
+
+      li.level1.item0.first,
+      li.button {
+        margin-left: auto;
+      }
+    }
   }
 }
 

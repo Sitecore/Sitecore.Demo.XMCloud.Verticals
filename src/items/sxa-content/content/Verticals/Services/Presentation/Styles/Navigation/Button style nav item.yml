@@ -1,0 +1,24 @@
+﻿---
+ID: "ea6c974c-ad88-4193-8b91-8a0a6f9e9493"
+Parent: "bb580656-fc0c-44b5-b66c-d0fcea247106"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/Verticals/Services/Presentation/Styles/Navigation/Button style nav item
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "button button-main"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4ed14cf-2883-434e-9d75-ec2d59e64ca6"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "605f6bfa-3860-4a20-9d08-ec318b5d5f90"
