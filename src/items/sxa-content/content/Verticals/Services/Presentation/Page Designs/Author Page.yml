@@ -6,7 +6,7 @@ Path: /sitecore/content/Verticals/Services/Presentation/Page Designs/Author Page
 SharedFields:
 - ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
   Hint: PartialDesigns
-  Value: "{3DB7D8C4-D4EF-4AF1-BD48-A0F25C3D7872}|{BF933606-356C-4B49-B148-EB327C9BB898}|{2FA09ECC-E4F8-4A1E-AA8C-43768EC36B5B}"
+  Value: "{44D70A2A-58A8-42CA-A74F-C5B7D57819DC}|{BF933606-356C-4B49-B148-EB327C9BB898}|{D2E7E32D-98D4-46EA-B6DD-D96BE01C0BC3}"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -18,7 +18,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0f808741-1324-495b-9b2f-ae3884a82d12"
+      Value: "a0182fd1-b4d0-44f0-a7b8-3dd031a66a82"
 - Language: "fr-CA"
   Versions:
   - Version: 1
