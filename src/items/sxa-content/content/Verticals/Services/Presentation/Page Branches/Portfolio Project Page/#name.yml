@@ -1,0 +1,20 @@
+﻿---
+ID: "c6c7145c-a950-4d92-ab95-801283ed7498"
+Parent: "f0862449-caa7-4d77-8512-ff693aa11010"
+Template: "60fe154b-e0bc-4fa8-b87c-55ab54015a49"
+Path: /sitecore/content/Verticals/Services/Presentation/Page Branches/Portfolio Project Page/$name
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b6ca1465-1ffb-415e-98b8-4c58d7f807b9"

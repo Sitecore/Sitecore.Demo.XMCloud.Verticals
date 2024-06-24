@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Components/CTA Banner
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: WordProcessing/32x32/word_wrap_a.png
+  Value: office/32x32/presentation_empty.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
@@ -20,7 +20,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "26597656-0bb8-4574-8144-f6eb4d4b95b4"
+      Value: "94d5fa33-e686-4af3-a14d-1072c6edc081"
 - Language: "fr-CA"
   Versions:
   - Version: 1

@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Components/Comparison
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: applications/32x32/navigate_right.png
+  Value: DemoIcons/32x32/comparison.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
@@ -20,4 +20,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "22c4d872-f7fe-46d1-8509-e4f0fbe25943"
+      Value: "e58210f6-1b26-48ca-928a-be30731a38d5"

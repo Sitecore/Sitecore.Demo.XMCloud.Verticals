@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Components/App Promo
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Shop.png
+  Value: DemoIcons/32x32/app_promo.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
@@ -20,4 +20,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "823d19bd-3667-4361-83e4-7a60377addeb"
+      Value: "8967fc48-e4c9-4c45-9afc-73fb4f74e957"

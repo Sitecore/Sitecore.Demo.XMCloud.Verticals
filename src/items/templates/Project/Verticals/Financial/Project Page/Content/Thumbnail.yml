@@ -9,7 +9,7 @@ SharedFields:
   Value: Image
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 182
 - ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
   Hint: Shared
   Value: 1
@@ -20,7 +20,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fce31309-ca12-434b-984e-af7de296c000"
+      Value: "d97db8a4-8b7a-4cba-90b7-8530838d22c5"
 - Language: "fr-CA"
   Versions:
   - Version: 1
