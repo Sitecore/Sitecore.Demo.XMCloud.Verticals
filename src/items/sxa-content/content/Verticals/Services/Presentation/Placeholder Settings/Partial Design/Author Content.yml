@@ -1,0 +1,17 @@
+﻿---
+ID: "d1fa1b50-580f-48bc-afd9-79951edca3e3"
+Parent: "79b7be4f-c105-40e4-9b17-2ad7ddcb235f"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/Verticals/Services/Presentation/Placeholder Settings/Partial Design/Author Content
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-author-content"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a4621262-d664-4927-a8ed-d8efb9bb3a57"
