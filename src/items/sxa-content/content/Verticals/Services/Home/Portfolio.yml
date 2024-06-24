@@ -16,9 +16,17 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
           uid="{8E62B9A5-78B1-4C29-B99B-FEF711081BA0}"
+          p:before="*"
           s:ds="ffea8ca4-cf8c-453a-9f7d-49d6e60eea5d"
           s:id="{52733592-6F5D-4FB4-8003-9B8223C5BC76}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberOfItems&amp;FieldNames=%7B4708A14B-D480-42A6-8D58-C92690B48356%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{FA7EC910-EA9D-4CB8-9DC5-D912ABC53E66}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/CTA Banner 1"
+          s:id="{488B8AC0-0EF9-4F6F-8711-78BA182B2C4C}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B5976CD6A-9C09-428B-AE34-83DE5144C859%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="headless-main" />
       </d>
     </r>
@@ -30,9 +38,12 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Portfolio
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Portfolio
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2a1e598f-0a44-42b7-80bd-a6b688c2a8c8"
+      Value: "a0802494-334e-4ca5-a21d-653404d41f17"

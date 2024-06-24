@@ -1,11 +1,13 @@
 .site-financial {
   --promo-cta-img-ratio: 3/2;
   --promo-cta-text-opacity: 1;
+  --promo-cta-text-size: 1.25rem;
 }
 
 .site-services {
   --promo-cta-img-ratio: 1/1;
   --promo-cta-text-opacity: 0.65;
+  --promo-cta-text-size: 1rem;
 }
 
 .promo-cta {
@@ -75,6 +77,10 @@
     opacity: var(--promo-cta-text-opacity);
   }
 
+  .promo-cta-text {
+    font-size: var(--promo-cta-text-size);
+  }
+
   .image-wrapper {
     position: relative;
 
@@ -139,8 +145,6 @@
 
       .styled-list ol {
         margin-bottom: 0;
-        font-weight: bold;
-        font-size: 1.125rem;
       }
     }
 

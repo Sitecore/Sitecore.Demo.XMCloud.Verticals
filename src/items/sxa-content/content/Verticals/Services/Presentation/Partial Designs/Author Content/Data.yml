@@ -1,0 +1,20 @@
+﻿---
+ID: "a73ca7c1-7b12-4a99-a6aa-9acc3f0cca3c"
+Parent: "bf933606-356c-4b49-b148-eb327c9bb898"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/Verticals/Services/Presentation/Partial Designs/Author Content/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "841c85f5-8880-46bb-ade5-279edfd7c6e0"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "15e82c62-340e-406b-979a-57a989e592d5"

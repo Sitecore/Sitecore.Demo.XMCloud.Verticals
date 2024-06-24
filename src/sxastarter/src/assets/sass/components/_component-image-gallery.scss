@@ -1,0 +1,28 @@
+.image-gallery {
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem;
+
+    @include respond-to(mobile-large) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+  }
+
+  &-item {
+    aspect-ratio: 1/1;
+
+    &:first-child {
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,28 @@
+﻿---
+ID: "701d756d-253f-427d-ac57-4a505c5e9df5"
+Parent: "3a1307a3-86aa-45a3-9537-c6fa71569c24"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/content/Verticals/Services/Presentation/Page Designs/Author Page
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{44D70A2A-58A8-42CA-A74F-C5B7D57819DC}|{BF933606-356C-4B49-B148-EB327C9BB898}|{D2E7E32D-98D4-46EA-B6DD-D96BE01C0BC3}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{86397C8B-8014-42E7-B303-7D7A842416F0}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0182fd1-b4d0-44f0-a7b8-3dd031a66a82"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f336e2c9-5d97-434b-b89b-d82b29b26785"

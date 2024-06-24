@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Components/Five Column CTA
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Limit.png
+  Value: DemoIcons/32x32/5_columns.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
@@ -20,4 +20,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "66d72140-e3f0-48a2-881e-a4f98c16dec7"
+      Value: "a23e7fa9-d9b5-4376-a148-3dd1a9ae5146"

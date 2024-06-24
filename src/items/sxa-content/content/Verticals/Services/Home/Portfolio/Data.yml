@@ -1,0 +1,13 @@
+﻿---
+ID: "bbbcb9f4-b21c-4504-ae99-8d96ced193a4"
+Parent: "ffea8ca4-cf8c-453a-9f7d-49d6e60eea5d"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/Verticals/Services/Home/Portfolio/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e15d880-eac5-47d5-9527-ab43897878a9"

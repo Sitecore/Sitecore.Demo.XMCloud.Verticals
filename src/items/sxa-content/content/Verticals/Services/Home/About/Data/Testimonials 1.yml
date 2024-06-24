@@ -1,0 +1,18 @@
+﻿---
+ID: "699415ec-7124-40fe-b496-0bd026409e6c"
+Parent: "618ba500-170c-4609-8096-06637410671c"
+Template: "91cd4de0-ed0b-457b-9936-a333e8a874a3"
+Path: /sitecore/content/Verticals/Services/Home/About/Data/Testimonials 1
+BranchID: "339f37e2-761b-48ba-aa19-bd7b082373e9"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{391B4573-01F5-4E27-A6F0-6C8D3F4360A3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2271c56f-2a17-4adf-b011-5dcf15fa74c5"

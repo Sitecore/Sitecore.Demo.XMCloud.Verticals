@@ -15,7 +15,7 @@ SharedFields:
   Value: DemoIcons/32x32/author.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/Verticals/Financial/Author Page
+  Value: /sitecore/templates/Project/Verticals/Pages/Author Page
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -52,7 +52,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dccda270-6713-4642-ad6b-f6f800f2ac36"
+      Value: "06c7e817-b7e5-48c3-b622-78b642c93226"
 - Language: "fr-CA"
   Versions:
   - Version: 1

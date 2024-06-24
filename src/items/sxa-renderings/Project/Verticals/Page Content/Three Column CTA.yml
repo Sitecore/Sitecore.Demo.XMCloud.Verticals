@@ -21,7 +21,7 @@ SharedFields:
   Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
+  Value: "{A94D823B-94AD-4A04-8238-3A5FD72C0E7C}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: "query:$site/*[@@name='Data']/*[@@templatename='Three Column CTA']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Three Column CTA']"
@@ -53,7 +53,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b29bcec4-4754-4ab2-b021-34802442af6f"
+      Value: "3838cf3a-9643-4458-bfed-5f9d7f9c5026"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

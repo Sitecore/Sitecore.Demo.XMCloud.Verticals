@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Components/Features
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: applications/32x32/transform.png
+  Value: office/32x32/elements_branch.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
@@ -20,7 +20,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "89266d45-62cf-4880-9909-2b4eb48b7c32"
+      Value: "8fafb973-f2e2-4025-8e58-26ccd07fa463"
 - Language: "fr-CA"
   Versions:
   - Version: 1
