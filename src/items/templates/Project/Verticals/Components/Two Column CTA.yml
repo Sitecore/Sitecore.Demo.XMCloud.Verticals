@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Components/Two Column CTA
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: apps/32x32/portfolio.png
+  Value: DemoIcons/32x32/2_columns.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
@@ -20,4 +20,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b5e9416e-901a-4880-acb9-037715c0248b"
+      Value: "307192bb-ab66-4d1c-a106-78f6d2f0af3b"

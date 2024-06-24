@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Components/Footer
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: WordProcessing/32x32/footer.png
+  Value: DemoIcons/32x32/footer.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
@@ -20,4 +20,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "18a43701-420b-4f48-92e2-f8f3e9cb5c80"
+      Value: "02f7c209-fba8-4a9e-8c1b-2e8f3da25022"

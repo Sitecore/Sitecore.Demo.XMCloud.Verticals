@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Components/Hero
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/IPad.png
+  Value: DemoIcons/32x32/hero.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
@@ -20,7 +20,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "309c9dfe-155c-459d-a6e3-56437c702869"
+      Value: "5176a23c-a91d-4a2a-b0e2-4f2e6483c2c3"
 - Language: "fr-CA"
   Versions:
   - Version: 1

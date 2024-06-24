@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/Verticals/Components/Documents List
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: apps/32x32/Folder.png
+  Value: DemoIcons/32x32/documents.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
@@ -20,4 +20,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b7703f95-b5c5-4490-b3e6-04b49c6c0896"
+      Value: "5598e65c-4e14-4915-9765-0d2f60f996a6"

@@ -1,0 +1,22 @@
+﻿---
+ID: "68c96b26-3bb2-4648-ba44-ff14cafb9ce0"
+Parent: "bbbcb9f4-b21c-4504-ae99-8d96ced193a4"
+Template: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+Path: /sitecore/content/Verticals/Services/Home/Portfolio/Data/CTA Banner 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "72b19acc-d575-4ae4-a0cf-2182e0c64562"
+      Hint: Eyebrow
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "84ae49bb-4c23-4899-9de2-6faf00fb00c4"
+    - ID: "b03c10d8-11a2-48ca-9822-3640768ed2b7"
+      Hint: Text
+      Value: "<p>PLAY!Services is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>"
+    - ID: "e62af488-48ce-4ae4-a2bb-37ad346981a4"
+      Hint: Title
+      Value: We’ll Help You Build Your Dream Project
