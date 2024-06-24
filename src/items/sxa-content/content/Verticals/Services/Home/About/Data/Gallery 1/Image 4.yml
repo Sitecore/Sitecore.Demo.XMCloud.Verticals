@@ -1,0 +1,22 @@
+﻿---
+ID: "cfbec3d1-8117-45a1-9580-4aa7c4dc29fe"
+Parent: "ed8b29a3-db4b-45f0-b7c7-67df4492bfd1"
+Template: "d885df8c-b2d6-4007-b34b-2bbafb527304"
+Path: /sitecore/content/Verticals/Services/Home/About/Data/Gallery 1/Image 4
+BranchID: "373c596c-ef71-41be-9c6c-348ae3c40cf5"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A96D4565-E803-43DC-937C-469A1724AE94}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
+      Hint: Image
+      Value: |
+        <image mediaid="{4A120536-025E-42C8-8F24-8412246D7C26}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4dfc4dfb-d479-48cf-8925-e9d0475bce94"

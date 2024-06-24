@@ -1,0 +1,18 @@
+﻿---
+ID: "603299c2-1f31-4d43-a378-0d7f5925fff7"
+Parent: "699415ec-7124-40fe-b496-0bd026409e6c"
+Template: "40472280-0a67-4c52-a06b-79e327af9f44"
+Path: /sitecore/content/Verticals/Services/Home/About/Data/Testimonials 1/Testimonial 3
+BranchID: "339f37e2-761b-48ba-aa19-bd7b082373e9"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C7E01739-8AA3-499E-AE48-331F452E868A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "33e4f39c-cf08-47eb-94f1-191b5bab62be"

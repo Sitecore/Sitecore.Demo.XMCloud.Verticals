@@ -1,0 +1,18 @@
+﻿---
+ID: "b7b4e00a-ca54-44b8-b1c0-225a2aa562a6"
+Parent: "43e31ea7-b5c3-43b5-add6-9c4ab60ae909"
+Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
+Path: /sitecore/content/Verticals/Services/Home/About/Data/Questions 1/Question 2
+BranchID: "bba2c8f4-b940-4820-bf71-1b089bc5f86a"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{1B3E2AF0-8A50-401D-B32C-5F3C293EFBCE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "106992ac-4fb7-48c0-ac3f-2f8c8c9d2efe"

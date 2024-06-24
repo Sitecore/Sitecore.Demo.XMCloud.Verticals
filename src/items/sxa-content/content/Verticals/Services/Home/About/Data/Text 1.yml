@@ -1,0 +1,20 @@
+﻿---
+ID: "f7e5f792-532c-4f64-907d-7a45a5f0b7c3"
+Parent: "618ba500-170c-4609-8096-06637410671c"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Verticals/Services/Home/About/Data/Text 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><h1>An Experience Design Agency</h1></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e623b4fa-9d23-4be6-a134-6a735395aade"

@@ -1,0 +1,28 @@
+﻿---
+ID: "bd7b34f4-e85f-4a07-84d7-a71b4ef23a4d"
+Parent: "618ba500-170c-4609-8096-06637410671c"
+Template: "fa136527-6302-471d-83ab-e66fc72bda99"
+Path: /sitecore/content/Verticals/Services/Home/About/Data/Heading CTA 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ac61e51-c8cb-4a2a-a513-203d4a1fb5da"
+    - ID: "bbd90ce3-fdf4-425e-844b-63c5b3db8916"
+      Hint: Text
+      Value: 
+    - ID: "be9c7836-a932-4e3b-a4a0-c7d5aa869337"
+      Hint: Link
+      Value: 
+    - ID: "cef85d28-d6bc-4204-a2e4-8706c80d8a3c"
+      Hint: Heading
+      Value: Team of Designers and Developers
+    - ID: "ee323ed7-4732-4a64-a008-18df97dc0737"
+      Hint: Eyebrow
+      Value: Our team
