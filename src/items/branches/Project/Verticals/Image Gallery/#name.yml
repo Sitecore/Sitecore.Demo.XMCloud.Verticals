@@ -1,0 +1,13 @@
+﻿---
+ID: "55fa4ca5-8c6a-4050-8d75-ae650a15e9c3"
+Parent: "373c596c-ef71-41be-9c6c-348ae3c40cf5"
+Template: "bd5988c0-88ea-4e5d-8cba-a88755dd0fb8"
+Path: /sitecore/templates/Branches/Project/Verticals/Image Gallery/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba97ff60-0f64-4ce1-b240-5032b6ae1cb2"
