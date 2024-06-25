@@ -1,0 +1,13 @@
+﻿---
+ID: "9f173c62-9bac-4e41-b2ac-b7f6e517c982"
+Parent: "411dd665-5eb6-47ce-8e1d-6784fb6c9a54"
+Template: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+Path: /sitecore/content/Verticals/Services/Presentation/Partial Designs/Article Content/Data/CTA Banner 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cef821a3-6be5-421c-8997-f2939fef4cff"

@@ -12,10 +12,27 @@
 
   * {
     max-width: 100%;
+    line-height: 1.75;
   }
 
   p {
     opacity: var(--rich-text-p-opacity);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1em !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  ul li {
+    &::marker {
+      color: var(--text-accent);
+    }
   }
 
   @import 'src/assets/sass/base/richtext';
