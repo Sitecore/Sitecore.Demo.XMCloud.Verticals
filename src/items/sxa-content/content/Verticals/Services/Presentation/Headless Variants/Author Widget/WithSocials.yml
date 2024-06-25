@@ -1,0 +1,13 @@
+﻿---
+ID: "34f596ad-6a8a-4695-b313-4cf9a9bedfde"
+Parent: "a275119b-e0bc-413b-95d8-e1b4140651eb"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Author Widget/WithSocials
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cbac71c4-a5c1-48b3-9715-52d7387c2053"
