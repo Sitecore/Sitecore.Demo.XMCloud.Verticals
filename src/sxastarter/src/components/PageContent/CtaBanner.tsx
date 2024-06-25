@@ -37,7 +37,7 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
 
   return (
     <div
-      className={`component cta-banner component-spaced with-dotted-accents ${props.params.styles.trimEnd()}`}
+      className={`component cta-banner component-spaced ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
       ref={domRef}
     >

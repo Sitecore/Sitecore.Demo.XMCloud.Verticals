@@ -18,10 +18,25 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
+          uid="{E196A641-E8A8-410F-9F48-B0364EA7BB72}"
+          p:before="*"
+          s:ds="local:/Data/Heading CTA 1"
+          s:id="{89E1D547-7CD6-4EF0-9A27-1E99410797DD}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB51C9BF5-3DC7-48A9-8B7A-EB1890FD95E6%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
           uid="{3DC98636-C536-461E-B9F9-1D07AE903A1A}"
+          p:after="r[@uid='{E196A641-E8A8-410F-9F48-B0364EA7BB72}']"
           s:ds="d4713fc0-9904-4458-b6bd-938e362f489b"
           s:id="{52733592-6F5D-4FB4-8003-9B8223C5BC76}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberOfItems&amp;FieldNames=%7B4708A14B-D480-42A6-8D58-C92690B48356%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberOfItems&amp;FieldNames=%7BD5C11487-DB1D-471F-AA05-0C1DD612B9B0%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{592CC9E0-B091-4542-B121-44D005470D68}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/CTA Banner 1"
+          s:id="{488B8AC0-0EF9-4F6F-8711-78BA182B2C4C}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B5976CD6A-9C09-428B-AE34-83DE5144C859%7D&amp;Styles=%7C%7BF50EB4F2-6C9A-4226-828C-C0F21D66F789%7D%7C%7BBA83D200-B0FE-46C0-A5C7-E5C369D2BDA9%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
           s:ph="headless-main" />
       </d>
     </r>
@@ -41,4 +56,4 @@ Languages:
       Value: Blog
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40b8a35e-296d-4f62-8cca-9ca201e8276f"
+      Value: "f0236d98-7176-4d00-ad89-d3d806f49e16"

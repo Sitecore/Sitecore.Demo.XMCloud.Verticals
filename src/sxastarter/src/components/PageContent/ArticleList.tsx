@@ -182,3 +182,34 @@ export const Simplified = (props: ArticleListComponentProps): JSX.Element => {
     </div>
   );
 };
+
+export const Grid = (props: ArticleListComponentProps): JSX.Element => {
+  const id = props.params?.RenderingIdentifier;
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
+
+  if (!props.fields?.items) {
+    return <div className="container">Please select a datasource.</div>;
+  }
+
+  return (
+    <div
+      className={`component component-spaced article-list ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="article-list-grid">
+          {newsItems?.map((item) => (
+            <div className="article-grid-item" key={item.url}>
+              <Link href={item.url} className="wrapper-link">
+                <Image field={item.fields.Thumbnail} />
+                <h3 className="fs-4 mt-3">
+                  <Text field={item.fields.Title}></Text>
+                </h3>
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
