@@ -1,0 +1,13 @@
+﻿---
+ID: "d5c11487-db1d-471f-aa05-0c1dd612b9b0"
+Parent: "b9e0669d-3d8f-43d0-b46e-b769f4a92b2c"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Article List/Grid
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "68a0b235-916d-42c1-8bfd-eb0003a462c1"
