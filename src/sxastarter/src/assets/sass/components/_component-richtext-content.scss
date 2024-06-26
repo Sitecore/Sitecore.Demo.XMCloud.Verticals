@@ -1,7 +1,12 @@
 @import 'src/assets/sass/abstracts/vars';
 @import 'src/assets/sass/abstracts/mixins';
 
+.site-financial {
+  --rich-text-base-size: 1.25rem;
+}
+
 .site-services {
+  --rich-text-base-size: 1rem;
   --rich-text-p-opacity: 0.65;
 }
 
@@ -9,6 +14,7 @@
 .rich-text {
   border: $rich-content-border;
   overflow: hidden;
+  font-size: var(--rich-text-base-size);
 
   * {
     max-width: 100%;
