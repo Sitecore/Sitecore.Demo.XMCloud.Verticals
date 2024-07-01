@@ -1,0 +1,13 @@
+﻿---
+ID: "2e53fabc-1a21-4924-bd61-24aca2ede152"
+Parent: "b22996a5-5430-4592-a782-898f0743c43f"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/Verticals/Services/Presentation/Partial Designs/Project Content/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "137ee0f1-b15e-4d7a-8c56-4cbd4b4b1282"

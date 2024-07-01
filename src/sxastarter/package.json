@@ -44,6 +44,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scroll-parallax": "^3.4.5",
+    "react-share": "^5.1.0",
     "sass": "^1.52.3",
     "sass-alias": "^1.0.5",
     "swiper": "^11.1.4"

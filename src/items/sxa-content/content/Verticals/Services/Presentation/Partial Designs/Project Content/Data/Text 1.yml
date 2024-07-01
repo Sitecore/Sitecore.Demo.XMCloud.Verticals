@@ -1,0 +1,20 @@
+﻿---
+ID: "c430ad32-9b61-40ce-a03c-5dff2960bcff"
+Parent: "2e53fabc-1a21-4924-bd61-24aca2ede152"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Verticals/Services/Presentation/Partial Designs/Project Content/Data/Text 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><h3 data-placeholder="[No text in field]">Related Projects</h3></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ca7b1c6a-19e7-4198-a8c5-261ba7fde28b"

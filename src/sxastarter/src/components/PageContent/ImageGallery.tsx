@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { DottedAccent } from 'components/NonSitecore/DottedAccent';
 
 export type ImageItemProps = {
   fields: {
@@ -26,6 +27,7 @@ export const Default = (props: ImageGalleryProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="container">
+        <DottedAccent className="dotted-accent-top" />
         <div className="image-gallery-grid">
           {images?.map((image) => (
             <div className="image-gallery-item" key={image.url}>
@@ -33,6 +35,7 @@ export const Default = (props: ImageGalleryProps): JSX.Element => {
             </div>
           ))}
         </div>
+        <DottedAccent className="dotted-accent-bottom" />
       </div>
     </div>
   );

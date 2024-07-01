@@ -1,0 +1,17 @@
+﻿---
+ID: "b5dffe77-7b98-4e65-9b7f-4c6dcd9be3a3"
+Parent: "79b7be4f-c105-40e4-9b17-2ad7ddcb235f"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/Verticals/Services/Presentation/Placeholder Settings/Partial Design/Project Content
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-project-content"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f270637f-b7f1-4001-bd43-fa05cadf0894"
