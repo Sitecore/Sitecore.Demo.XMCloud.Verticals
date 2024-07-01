@@ -6,7 +6,7 @@ Path: /sitecore/content/Verticals/Services/Presentation/Page Designs/Project Pag
 SharedFields:
 - ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
   Hint: PartialDesigns
-  Value: "{44D70A2A-58A8-42CA-A74F-C5B7D57819DC}|{6F00DCCE-1A8F-4234-A08C-26CEA0618F68}|{D2E7E32D-98D4-46EA-B6DD-D96BE01C0BC3}"
+  Value: "44d70a2a-58a8-42ca-a74f-c5b7d57819dc|b22996a5-5430-4592-a782-898f0743c43f|d2e7e32d-98d4-46ea-b6dd-d96be01c0bc3"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -18,7 +18,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0fcc7875-58f4-42d2-a868-e6315090f036"
+      Value: "3461515c-245c-4b40-9ae9-ba4a21c435eb"
 - Language: "fr-CA"
   Versions:
   - Version: 1

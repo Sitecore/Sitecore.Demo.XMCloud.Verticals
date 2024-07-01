@@ -18,11 +18,15 @@
 
   * {
     max-width: 100%;
-    line-height: 1.75;
   }
 
   p {
     opacity: var(--rich-text-p-opacity);
+  }
+
+  p,
+  li {
+    line-height: 1.75;
   }
 
   h1,
@@ -33,6 +37,10 @@
   h6 {
     margin-top: 1em !important;
     margin-bottom: 0.5em !important;
+
+    &:first-child {
+      margin-top: 0 !important;
+    }
   }
 
   ul li {
