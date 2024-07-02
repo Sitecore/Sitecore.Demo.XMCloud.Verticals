@@ -66,6 +66,15 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: $name
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Spécialiste Produit
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "91889b80-7f8d-48e6-855b-775dfeb0373f"
+      Value: "22dc588e-68b4-4aa1-a19f-23a5a6282378"
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: $name

@@ -14,3 +14,13 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "2fefba2c-819e-4ad0-af30-83a867fee82d"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<p>Chez PLAY! financier, nous croyons que gérer vos finances devrait être aussi agréable qu'essentiel. Nous ne sommes pas simplement une banque; nous sommes votre partenaire financier, engagé à rendre l'expérience bancaire fluide et gratifiante.</p><h2>Notre Mission</h2><p>Notre mission est de permettre à nos clients d'atteindre leurs objectifs et leurs rêves financiers en offrant des solutions bancaires innovantes et un service personnalisé. Nous nous efforçons de créer une expérience bancaire simple, pratique et agréable, vous permettant de vous concentrer sur ce qui compte le plus - vivre votre meilleure vie.</p><h2>Qui Nous Sommes</h2><p>PLAY! Finance est une institution financière dynamique et tournée vers l'avenir, dédiée à réimaginer la banque pour le monde moderne. Nous combinons une technologie de pointe avec une touche humaine pour offrir des solutions financières personnalisées qui répondent aux besoins uniques de notre clientèle diversifiée.</p><h2>Ce Qui Nous Distingue</h2><p>Chez PLAY! Finance, nous comprenons qu'une solution unique ne convient pas à tous en matière de banque. C'est pourquoi nous offrons une large gamme de produits et services conçus pour répondre aux besoins des individus, des familles et des entreprises de toutes tailles. Que vous épargniez pour des vacances de rêve, achetiez votre première maison ou développiez votre entreprise, nous avons les outils et l'expertise pour vous aider à réussir.</p><h2>Notre Engagement Envers Vous</h2><p>Au cœur de PLAY! Finance se trouve un engagement à mettre nos clients en premier. Nous croyons en la transparence, l'intégrité et la responsabilité dans tout ce que nous faisons. Notre équipe de professionnels bancaires expérimentés est dédiée à fournir un service et des conseils exceptionnels à chaque étape, en veillant à ce que vous ayez le soutien nécessaire pour prendre des décisions financières éclairées.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d8cc21b-5931-4031-ab5c-3bad9031450a"
