@@ -39,14 +39,14 @@ Languages:
     Fields:
     - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
       Hint: Title
-      Value: Il n'y a qu'une seule maison parfaite. La vôtre.
+      Value: "Il n'y a qu'un seul avenir parfait - le vôtre"
     - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
       Hint: Link
       Value: |
-        <link text="FR Explore everyday banking" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{406FD98C-50E4-4F30-90E4-6245498A2D10}" />
+        <link text="Explorez la banque au quotidien" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{406FD98C-50E4-4F30-90E4-6245498A2D10}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e521186c-8358-4e45-9183-2271032d76e9"
+      Value: "f563fdb6-d2ba-4091-afd3-b23507dd1434"
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
-      Value: "<p>Prêt hypothécaire de PLAY! Finance.</p>"
+      Value: <p>Commencez en ligne et accédez à notre gamme de services financiers personnalisés.</p>

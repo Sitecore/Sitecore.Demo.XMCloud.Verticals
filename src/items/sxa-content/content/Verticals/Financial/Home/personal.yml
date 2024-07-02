@@ -96,18 +96,22 @@ Languages:
       Hint: __Revision
       Value: "22c49487-a7e5-4d4a-8886-8ee253f6b398"
 - Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Personnel
   Versions:
   - Version: 1
     Fields:
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
       Hint: Title
-      Value: Prêt hypothécaire pour l'achat de propriétés résidentielles.
+      Value: Personnel
     - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
       Hint: Content
-      Value: Il n'y a qu'une seule maison parfaite. La vôtre.
+      Value: <p>Il n’existe qu’un seul avenir parfait. Le vôtre.</p>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Finance pour vous
+      Value: Personnel
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "721ae9b9-b5c7-44d8-a18e-2af778a27c8a"
+      Value: "a9e71d12-dd52-460b-975b-185b520575ab"

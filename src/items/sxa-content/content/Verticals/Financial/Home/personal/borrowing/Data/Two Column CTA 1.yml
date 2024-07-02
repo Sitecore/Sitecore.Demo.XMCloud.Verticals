@@ -46,3 +46,30 @@ Languages:
     - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
       Hint: Text2
       Value: Gain access to funds whenever you need them with our versatile personal line of credit.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link text="Abonnez-vous" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D0E2F5F1-E984-4DDD-9A32-BE0D90674E6C}" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: Cartes de crédit
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link text="Faites votre demande" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C63FF335-ABDA-42B1-83FD-18E67881FAAA}" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: Ligne de crédit
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: Débloquez un monde de possibilités dès aujourd'hui avec nos offres de cartes de crédit premium.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3aad19c3-d77a-4b51-9f45-6bd6344e1297"
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: Accédez à des fonds quand vous en avez besoin avec notre ligne de crédit personnelle polyvalente.

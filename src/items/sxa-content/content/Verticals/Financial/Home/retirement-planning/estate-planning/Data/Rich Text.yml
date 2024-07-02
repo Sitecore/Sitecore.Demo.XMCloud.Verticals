@@ -22,3 +22,21 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "92e64dcb-25bb-4883-ba73-f10ae9d169d7"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Assurer votre héritage pour les générations futures</h2>
+        <p>La planification successorale est un élément vital de la planification financière qui consiste à organiser le transfert de vos actifs et de votre patrimoine à vos héritiers et bénéficiaires après votre décès.</p>
+        <p>L'un des principaux objectifs de la planification successorale est de garantir que vos actifs sont distribués selon vos souhaits et que vos proches sont pris en charge après votre départ. La planification successorale vous permet de désigner des bénéficiaires pour vos actifs, tels que les comptes bancaires, les comptes de retraite, les polices d'assurance-vie et les biens immobiliers.</p>
+        <h2>Planifier pour planifier</h2>
+        <p>La planification successorale vous permet de minimiser les droits de succession et les coûts de succession, permettant à une plus grande partie de vos actifs de passer à vos bénéficiaires plutôt que d'être consommée par les impôts et les frais juridiques.</p>
+        <p>La planification successorale offre l'opportunité d'établir des fiducies pour gérer et distribuer les actifs selon des instructions et des calendriers spécifiques, comme subvenir aux besoins des enfants mineurs ou des organisations caritatives. La planification successorale vous permet de désigner des tuteurs pour les enfants mineurs et de désigner des mandataires de soins de santé et des agents de procuration pour prendre des décisions médicales et financières en votre nom si vous devenez incapable.</p>
+        <p>Rester organisé et maintenir votre plan successoral à jour est essentiel pour garantir qu'il reflète fidèlement vos souhaits et circonstances actuels.</p>
+        <p>En fin de compte, la planification successorale ne consiste pas seulement à distribuer vos actifs ; il s'agit de créer un héritage durable et de fournir une tranquillité d'esprit pour vous-même et vos proches.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9db4ae32-66d1-499a-a321-e86b403b0748"

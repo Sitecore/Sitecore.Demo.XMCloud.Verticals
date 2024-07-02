@@ -22,3 +22,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: "Protecting your financial information is a top priority for us. We employ state-of-the-art security measures to safeguard your data and prevent unauthorized access. Additionally, we offer tips and guidance on how to recognize and avoid common scams and phishing attempts. Our online banking platform is equipped with encryption technology to ensure that your transactions are secure at all times."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd35cc6d-09a7-4f73-bddb-9c993d2c5c8a"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Comment puis-je me protéger contre le vol d'identité et la fraude en ligne ?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: La protection de vos informations financières est une priorité pour nous. Nous utilisons des mesures de sécurité de pointe pour protéger vos données et prévenir les accès non autorisés. De plus, nous offrons des conseils et des astuces pour reconnaître et éviter les escroqueries courantes et les tentatives de phishing. Notre plateforme de banque en ligne est équipée de technologies de cryptage pour garantir que vos transactions sont sécurisées en tout temps.

@@ -6,7 +6,7 @@ Path: "/sitecore/content/Verticals/Financial/Home/articles/introducing-innovativ
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
+  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -78,7 +78,7 @@ Languages:
         PLAY! Finance is a leading provider of innovative financial solutions, dedicated to empowering individuals to achieve financial wellness. Through advanced technology and personalized tools, PLAY! Finance is redefining the way consumers engage with their finances, making financial management accessible, engaging, and rewarding for all.</p>
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: "PLAY! Finance introduces a suite of innovative financial solutions, leveraging advanced technology and gamification to empower users to manage their finances in an engaging and rewarding manner."
@@ -87,7 +87,56 @@ Languages:
       Value: Introducing innovative financial solutions for modern consumers
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "48ea8c6f-6671-4615-81cf-13f4e4b6308d"
+      Value: "8b5212c3-0ef8-4601-a295-812ccdad3f86"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: Introducing innovative financial solutions for modern consumers
+- Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: On vous présente des solutions financières innovantes pour les consommateurs modernes
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>PLAY! Finance, un fournisseur leader de services financiers de pointe, est fier d'annoncer le lancement de sa dernière suite de produits conçus pour révolutionner la manière dont les consommateurs interagissent avec leurs finances.</p>
+        
+        <p>Avec un accent sur l'innovation et le design centré sur l'utilisateur, PLAY! Finance s'engage à donner aux individus les moyens de prendre le contrôle de leur avenir financier. Grâce à une combinaison de technologie avancée et de solutions personnalisées, l'entreprise vise à rendre la gestion des finances engageante et gratifiante pour tous.</p>
+        
+        <p style="margin-left: 40px;">"<strong><em>Chez PLAY! Finance, nous croyons que l'autonomisation financière devrait être accessible à tous.</em></strong>", a déclaré Allison Parker, CPO de PLAY! Finance. "<strong><em>Notre mission est de lever les barrières et de fournir aux individus les outils dont ils ont besoin pour atteindre leurs objectifs financiers, tout en appréciant le processus.</em></strong>"</p>
+        
+        <p>Les principales fonctionnalités des offres de PLAY! Finance incluent :</p>
+        <ul>
+            <li>
+            <p><strong>Outils de budgétisation interactifs :</strong> Permettre aux utilisateurs de créer des budgets personnalisés et de suivre leurs dépenses en temps réel grâce à des interfaces intuitives.</p>
+            </li>
+            <li>
+            <p><strong>Solutions d'épargne gamifiées :</strong> Utiliser des techniques de gamification pour rendre l'épargne d'argent amusante et gratifiante, encourageant des habitudes financières saines.</p>
+            </li>
+            <li>
+            <p><strong>Insights financiers alimentés par l'IA :</strong> Exploiter la puissance de l'intelligence artificielle pour fournir des recommandations et des insights personnalisés adaptés à la situation financière unique de chaque utilisateur.</p>
+            </li>
+            <li>
+            <p><strong>Engagement communautaire :</strong> Favoriser un sentiment de communauté grâce à des fonctionnalités sociales, permettant aux utilisateurs de se connecter avec des personnes partageant les mêmes idées et de partager leurs parcours financiers.</p>
+            </li>
+        </ul>
+        
+        <p>Que les utilisateurs cherchent à économiser pour des vacances de rêve, à constituer un fonds d'urgence ou simplement à mieux contrôler leurs finances, PLAY! Finance offre une suite complète de solutions pour répondre à leurs besoins.</p>
+        
+        <p><strong>À propos de PLAY! Finance</strong><br />
+        PLAY! Finance est un fournisseur leader de solutions financières innovantes, dédié à permettre aux individus d'atteindre le bien-être financier. Grâce à une technologie avancée et des outils personnalisés, PLAY! Finance redéfinit la façon dont les consommateurs interagissent avec leurs finances, rendant la gestion financière accessible, engageante et gratifiante pour tous.</p>
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "PLAY! Finance introduit une suite de solutions financières innovantes, utilisant la technologie avancée et la gamification pour permettre aux utilisateurs de gérer leurs finances de manière engageante et gratifiante."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: On vous présente des solutions financières innovantes pour les consommateurs modernes
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b222c986-27eb-4464-a3f1-f8be4d350f18"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: On vous présente des solutions financières innovantes pour les consommateurs modernes

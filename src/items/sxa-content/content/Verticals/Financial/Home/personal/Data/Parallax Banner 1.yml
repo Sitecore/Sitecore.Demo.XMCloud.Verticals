@@ -33,3 +33,28 @@ Languages:
     - ID: "f34c6976-7e76-490b-a91e-5977db4a2208"
       Hint: Title
       Value: "Grow your savings with us!"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "143cb4dc-b0b5-46ae-98b1-b16900ec79f6"
+      Hint: Text
+      Value: Que vous économisiez pour un événement majeur de la vie
+    - ID: "1fbdde82-0dd2-46ad-a636-0d5e714dd086"
+      Hint: ForegroundImage
+      Value: |
+        <image mediaid="{719649FD-F937-4ADD-8E17-6915F6F67472}" alt="Plante sur comptoir" height="" width="" hspace="" vspace="" />
+    - ID: "5ba03d3f-ffbc-412e-80ff-6dd0fe312042"
+      Hint: Link
+      Value: |
+        <link text="En savoir plus" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{0B45C71D-61AE-44F3-9F7D-6C88185F0B15}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3252332-8155-46c9-84ca-c87329cd6be6"
+    - ID: "a54476a3-eb25-4a1a-a521-e702f1372b8f"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{EE13D176-D0CF-4B45-9F1D-93D1F797CF4D}" alt="Background texture" height="" width="" hspace="" vspace="" />
+    - ID: "f34c6976-7e76-490b-a91e-5977db4a2208"
+      Hint: Title
+      Value: banque au quotidien
