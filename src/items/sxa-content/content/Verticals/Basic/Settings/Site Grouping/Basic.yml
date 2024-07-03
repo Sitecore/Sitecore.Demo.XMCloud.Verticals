@@ -15,7 +15,7 @@ SharedFields:
   Value: Basic
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: "basic.sxastarter.localhost|verticals-development-basic.vercel.app|verticals-staging-basic.vercel.app"
+  Value: "scm-xml-fr-test-v2-qfzvzcouvk6qfhpgul6nwg-basic.vercel.app"
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Basic
@@ -35,4 +35,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f649eb0a-3e69-4be3-b4e8-9fb20e640ade"
+      Value: "8f50fecd-2e7c-458d-a182-664678410790"

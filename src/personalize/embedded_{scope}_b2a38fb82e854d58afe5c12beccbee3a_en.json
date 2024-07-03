@@ -1,11 +1,11 @@
 {
-  "clientKey": "3509a0a2b7cc0542af1e697ea16dafe9",
-  "href": "https://api-us.boxever.com/v3/flowDefinitions/4a675e0e-3d90-47cf-87e9-7c0225d4fd40",
-  "ref": "4a675e0e-3d90-47cf-87e9-7c0225d4fd40",
+  "clientKey": "98fb257c57fd74ae8022f5e56ce81919",
+  "href": "https://api-us.boxever.com/v3/flowDefinitions/c845a305-b96f-4280-83d9-80f57379bd40",
+  "ref": "c845a305-b96f-4280-83d9-80f57379bd40",
   "name": "embedded_{scope}_b2a38fb82e854d58afe5c12beccbee3a_en",
-  "modifiedByRef": "auth0|639200ce784f29a69639bad0",
-  "modifiedAt": "2024-06-10T16:42:45.087Z",
-  "revision": 7,
+  "modifiedByRef": "jADJcMBbeLnQdK5U32Hrv5tAZJNWJHJ8@clients",
+  "modifiedAt": "2024-07-02T20:08:52.193Z",
+  "revision": 2,
   "archived": false,
   "friendlyId": "embedded_{scope}_b2a38fb82e854d58afe5c12beccbee3a_en",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,7 +20,7 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-06-10T16:42:45.115Z",
+    "modifiedAt": "2024-07-02T20:08:52.333Z",
     "splits": [
       {
         "template": "{\"variantId\": \"5e9637fd02a84b21b5f46c1466e26e17\"}",
@@ -119,15 +119,15 @@
   "variants": [],
   "transpiledVariants": [
     {
-      "ref": "8ee5565e-452b-4b72-a8aa-de220bee67f7",
-      "name": "Retirement Page View",
+      "ref": "2ea37277-7294-4bc7-ad64-340d7d133efe",
+      "name": "Business Page View",
       "tasks": [
         {
           "implementation": "templateRenderTask",
           "input": {
             "inputType": "templateRenderTaskInput",
             "type": "application/json",
-            "template": "{\"variantId\": \"692b13379ec547dbafba079ccc4927dd\"}"
+            "template": "{\"variantId\": \"c1a0eeadfde348ba8d485b52326c84ea\"}"
           }
         },
         {
@@ -140,7 +140,7 @@
                 "name": "Combined condition groups",
                 "description": "Combined templates within condition group for targeted experience",
                 "ruleData": {
-                  "expression": "(function () {\n    var visited = \"has\";\n    var pageName = \"retirement-planning\";\n    var pageValues = pageName.split(',');\n    var expectedType = \"WEB\";\n    var expectedStatus = \"OPEN\";\n    var pageMatch = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        loop:\n        for (var i = 0; i < guest.sessions.length; i++) {\n            if (guest.sessions[i]) {\n                if (\n                    guest.sessions[i].sessionType !== expectedType\n                    || guest.sessions[i].status !== expectedStatus\n                ) {\n                    continue loop;\n                } else if (\n                    guest.sessions[i].events\n                ) {\n                    for (var j = 0; j < guest.sessions[i].events.length; j++) {\n                        if (guest.sessions[i].events[j].arbitraryData) {\n                            if (guest.sessions[i].events[j].arbitraryData.page) {\n                                var viewedpage = guest.sessions[i].events[j].arbitraryData.page;\n                                for (var k = 0; k < pageValues.length; k++) {   \n                                    if (viewedpage === pageValues[k]) { \n                                        pageMatch = true;   \n                                        break loop; \n                                    }   \n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n    \n    return (visited === \"has\") && pageMatch || (visited === \"has not\") && !pageMatch;\n})();"
+                  "expression": "(function () {\n    var visited = \"has\";\n    var pageName = \"business\";\n    var pageValues = pageName.split(',');\n    var expectedType = \"WEB\";\n    var expectedStatus = \"OPEN\";\n    var pageMatch = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        loop:\n        for (var i = 0; i < guest.sessions.length; i++) {\n            if (guest.sessions[i]) {\n                if (\n                    guest.sessions[i].sessionType !== expectedType\n                    || guest.sessions[i].status !== expectedStatus\n                ) {\n                    continue loop;\n                } else if (\n                    guest.sessions[i].events\n                ) {\n                    for (var j = 0; j < guest.sessions[i].events.length; j++) {\n                        if (guest.sessions[i].events[j].arbitraryData) {\n                            if (guest.sessions[i].events[j].arbitraryData.page) {\n                                var viewedpage = guest.sessions[i].events[j].arbitraryData.page;\n                                for (var k = 0; k < pageValues.length; k++) {   \n                                    if (viewedpage === pageValues[k]) { \n                                        pageMatch = true;   \n                                        break loop; \n                                    }   \n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n    \n    return (visited === \"has\") && pageMatch || (visited === \"has not\") && !pageMatch;\n})();"
                 }
               }
             ]
@@ -155,7 +155,7 @@
     "startDate": "2024-06-10T16:38:13.665Z"
   },
   "revisions": {
-    "href": "https://api-us.boxever.com/v3/flowDefinitions/4a675e0e-3d90-47cf-87e9-7c0225d4fd40/revisions"
+    "href": "https://api-us.boxever.com/v3/flowDefinitions/c845a305-b96f-4280-83d9-80f57379bd40/revisions"
   },
   "sampleSizeConfig": {
     "baseValue": 0.15,

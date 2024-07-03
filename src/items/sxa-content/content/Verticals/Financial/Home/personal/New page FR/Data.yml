@@ -1,0 +1,18 @@
+﻿---
+ID: "3ff4c55f-16b5-4a9b-a1fa-7ce42b7a109f"
+Parent: "851bb05d-d75e-48c3-988f-1fe07d3a8a31"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/Verticals/Financial/Home/personal/New page FR/Data
+BranchID: "f1e90846-d2fc-4ef5-8970-891d0d88737f"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3A0DF04E-2227-4DAD-9B14-08D7A15F8450}"
+Languages:
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eb8fca60-020f-41bf-914f-2d00f70f3582"
