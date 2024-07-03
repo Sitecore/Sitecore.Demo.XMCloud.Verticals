@@ -22,3 +22,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: "You betcha! As an existing or new customer, you will have access to our tools and services for for both types of account. And even better - we make it easy to transfer funds between your personal and business accounts."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e74ef821-a9e0-4fb6-90f0-249a90fd4e6a"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Puis-je ouvrir à la fois un compte personnel et un compte professionnel ?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: "Absolument ! En tant que client existant ou nouveau, vous aurez accès à nos outils et services pour les deux types de comptes. Et encore mieux, nous facilitons le transfert de fonds entre vos comptes personnels et professionnels."

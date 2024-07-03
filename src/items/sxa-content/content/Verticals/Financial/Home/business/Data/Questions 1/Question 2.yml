@@ -22,3 +22,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: Unlike other banks that charge high fees for business accounts, you will enjoy no monthly fees, no minimum balance, and unlimited transactions. You will also have access to our tools and services tailored to small businesses.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e615912-6a2c-401a-85f1-9f9d253aa954"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Quels sont les avantages d'ouvrir une compte pour entreprises?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Contrairement aux autres banques qui facturent des frais élevés pour les comptes professionnels, vous bénéficierez de l'absence de frais mensuels, d'aucun solde minimum et de transactions illimitées. Vous aurez également accès à nos outils et services adaptés aux petites entreprises.

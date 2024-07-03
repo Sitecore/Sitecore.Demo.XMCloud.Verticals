@@ -1,0 +1,20 @@
+﻿---
+ID: "fab4b600-2232-4816-98ea-ec2965aa25fa"
+Parent: "411dd665-5eb6-47ce-8e1d-6784fb6c9a54"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Verticals/Services/Presentation/Partial Designs/Article Content/Data/Text 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><h3>Related Articles</h3></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4b55d5b2-0f6c-47d7-be07-d145600419df"

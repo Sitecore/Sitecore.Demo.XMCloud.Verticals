@@ -18,6 +18,9 @@ SharedFields:
   Hint: Photo
   Value: |
     <image mediaid="{62F6A36E-BFB0-432D-8502-B8E7E9F1E90A}" alt="Olly Bio Image" height="" width="" hspace="" vspace="" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
 - ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
   Hint: __Default workflow
   Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
@@ -26,19 +29,52 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "229e3024-997c-4fe7-9fcd-bfcc657da145"
+      Hint: SocialIcon3
+      Value: |
+        <image mediaid="{D7668912-4C04-4881-8C8B-3EEDBC4277A6}" />
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
       Value: Product Specialist
+    - ID: "612e1483-8de4-4fa8-adc5-1a0663b4788f"
+      Hint: SocialIcon1
+      Value: |
+        <image mediaid="{37E8F17D-5AA1-4AF4-9CB1-45C4F07BDD4C}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "95c2f9f3-c6df-42d6-a6ae-9e91c22bca56"
+      Value: "2659c20e-3903-4db9-964a-5c1cb15fbb75"
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
       Value: $name
+    - ID: "a5c03008-537d-481f-834d-e1e89d12c304"
+      Hint: SocialLink1
+      Value: |
+        <link linktype="external" url="http://www.facebook.com" anchor="" target="" />
+    - ID: "bdbbe5c9-d950-444c-90cd-a00674c10b0b"
+      Hint: SocialLink2
+      Value: |
+        <link linktype="external" url="http://www.instagram.com" anchor="" target="" />
+    - ID: "e2e9b7ce-f57c-4752-99e5-b0d56e3c8864"
+      Hint: SocialIcon2
+      Value: |
+        <image mediaid="{B5E0C7F5-5693-4875-B68F-70B99E7F34EF}" />
+    - ID: "f7c9be6b-b582-453b-a9f9-add8c74ac508"
+      Hint: SocialLink3
+      Value: |
+        <link linktype="external" url="http://www.twitter.com" anchor="" target="" />
 - Language: "fr-CA"
   Versions:
   - Version: 1
     Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: $name
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Spécialiste Produit
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "91889b80-7f8d-48e6-855b-775dfeb0373f"
+      Value: "22dc588e-68b4-4aa1-a19f-23a5a6282378"
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: $name

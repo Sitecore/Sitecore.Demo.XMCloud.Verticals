@@ -17,3 +17,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: "Eligibility requirements may vary depending on the type of loan you're interested in. Generally, factors such as credit score, income, employment status, and debt-to-income ratio are considered. Specific eligibility criteria will be outlined during the application process."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "839d41ae-5e9c-40e5-bf7b-0ba3ca13466b"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Quelles sont les conditions d'éligibilité pour obtenir un prêt ?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Les conditions d'éligibilité peuvent varier en fonction du type de prêt qui vous intéresse. En général, des facteurs tels que le score de crédit, les revenus, la situation professionnelle et le ratio d'endettement sont pris en compte. Les critères d'éligibilité spécifiques seront détaillés au cours du processus de demande.

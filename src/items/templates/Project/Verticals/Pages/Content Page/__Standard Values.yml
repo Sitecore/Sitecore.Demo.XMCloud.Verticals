@@ -18,6 +18,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: $name
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "233dae5b-4375-4a5d-8c15-2c15e1e1fde7"
+      Value: "0e4fea47-2da4-419b-a777-7cef5b32c7ff"

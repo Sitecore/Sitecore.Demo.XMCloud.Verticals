@@ -6,7 +6,7 @@ Path: "/sitecore/content/Verticals/Financial/Home/articles/introducing-mobile-fi
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
+  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -63,7 +63,7 @@ Languages:
         <p>Ready to take control of your finances and unlock your financial potential? Download the MOBILE! Finance app now and join thousands of satisfied users who are already experiencing the benefits of modern banking with PLAY! Finance.</p>
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: "We're thrilled to introduce MOBILE! Finance, a groundbreaking new finance app designed to revolutionize the way you bank and manage your finances."
@@ -72,7 +72,46 @@ Languages:
       Value: "Introducing MOBILE! Finance"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a5ff252e-9385-4c70-a671-71792ddc88ff"
+      Value: "350b1d42-5a9e-4181-b644-a219e246f7ae"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Introducing MOBILE! Finance: Your new financial companion app"
+- Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "On vous présente MOBILE! Finance"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p><strong>La puissance de MOBILE! Finance</strong></p>
+        <p>MOBILE! Finance est bien plus qu'une simple application financière&mdash;c'est votre compagnon financier ultime, offrant une suite complète de fonctionnalités et d'outils pour vous aider à prendre le contrôle de vos finances avec facilité et confiance. Que vous suiviez vos dépenses, économisiez pour un objectif ou planifiiez votre retraite, MOBILE! Finance a tout ce dont vous avez besoin pour réussir.</p>
+        <p><a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Ouvre dans une nouvelle fenêtre"><img src="-/media/FEAF65D3394846DAB95213780D61AADA.ashx?h=45&amp;w=149" alt="Télécharger MOBILE! Finance depuis l'App Store" style="height: 45px; width: 149px;" /></a>&nbsp;&nbsp;&nbsp;<a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Ouvre dans une nouvelle fenêtre"><img src="-/media/DCDCD7A8F8DA4110BA4FD19FEFFD1465.ashx?h=45&amp;w=151" alt="Google Play" style="height: 45px; width: 151px;" /></a></p>
+        <p><strong><br />
+        Fonctionnalités principales</strong></p>
+        <ul>
+            <li><strong><em>Budget personnalisé</em></strong> : Créez des budgets personnalisés adaptés à votre situation financière unique et suivez vos dépenses en temps réel.</li>
+            <li><strong><em>Épargne basée sur les objectifs</em></strong> : Fixez des objectifs d'épargne pour toutes vos aspirations financières, d'un voyage de rêve à un acompte sur une maison, et suivez vos progrès sans effort.</li>
+            <li><strong><em>Investissement intelligent</em></strong> : Accédez à une gamme d'options et d'outils d'investissement pour vous aider à accroître votre patrimoine et atteindre vos objectifs financiers à long terme.</li>
+            <li><strong><em>Gestion des factures</em></strong> : Ne manquez plus jamais un paiement de facture avec des rappels automatiques et des fonctionnalités de planification des paiements.</li>
+            <li><strong><em>Sécurité et confidentialité</em></strong> : Soyez assuré que vos informations financières sensibles sont protégées par des mesures de sécurité et des protocoles de cryptage de pointe.</li>
+        </ul>
+        <p><strong>Pourquoi choisir MOBILE! Finance?</strong></p>
+        <p>En tant que partie intégrante de la plateforme de banque en ligne de confiance, MOBILE! Finance offre une intégration transparente avec vos comptes bancaires existants, vous offrant une vue d'ensemble de vos finances en un seul endroit pratique. De plus, avec notre interface conviviale et notre design intuitif, gérer votre argent n'a jamais été aussi facile et agréable.</p>
+        <p><strong>Commencez dès aujourd'hui</strong></p>
+        <p>Prêt à prendre le contrôle de vos finances et à débloquer votre potentiel financier? Téléchargez dès maintenant l'application MOBILE! Finance et rejoignez des milliers d'utilisateurs satisfaits qui profitent déjà des avantages de la banque moderne avec PLAY! Finance.</p>
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "Nous sommes ravis de vous présenter MOBILE! Finance, une nouvelle application financière révolutionnaire conçue pour transformer votre façon de gérer vos finances et vos opérations bancaires."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "On vous présente MOBILE! Finance"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8b12913-9418-46bc-82bc-36e813da0373"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "On vous présente MOBILE! Finance : Votre nouvelle application de compagnon financier"

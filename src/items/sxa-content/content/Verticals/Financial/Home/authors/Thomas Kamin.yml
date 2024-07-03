@@ -48,3 +48,20 @@ Languages:
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
       Value: Thomas Kamin
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Directeur des investissements
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6abf83b7-a2db-4780-b29d-7e1682849339"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Avec plus de deux décennies d'expérience en finance et en comptabilité, Thomas dirige notre équipe d'investissement avec précision et expertise. Sa vision stratégique et ses compétences analytiques pointues guident nos processus de planification financière et de prise de décision, garantissant que PLAY! Finance reste financièrement solide et résilient dans le marché dynamique d'aujourd'hui.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Thomas Kamin

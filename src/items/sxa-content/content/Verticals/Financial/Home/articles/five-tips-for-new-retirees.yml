@@ -6,7 +6,7 @@ Path: "/sitecore/content/Verticals/Financial/Home/articles/five-tips-for-new-ret
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
+  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -76,7 +76,7 @@ Languages:
         <p><strong><em>Are you ready to start your retirement journey? Contact us today to learn more about how we can help you plan for a successful retirement.</em></strong></p>
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: Whether you're just starting to plan for retirement or have recently retired, here are some essential tips to help you navigate this transition with confidence and peace of mind.
@@ -85,7 +85,51 @@ Languages:
       Value: 5 tips for new retirees
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "76300581-7eda-4a7d-a168-550d1ca80075"
+      Value: "64e46c09-6a08-4f64-9254-bca2da71e206"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Starting your retirement journey: 5 tips for new retirees"
+- Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 5 conseils pour les nouveaux retraités
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>La retraite marque le début d'un nouveau chapitre de la vie&mdash;un chapitre rempli de liberté, d'opportunités et de nouvelles aventures. Alors que vous commencez ce voyage passionnant, il est important d'être préparé et équipé des connaissances et des ressources nécessaires pour tirer le meilleur parti de vos années de retraite.</p>
+        
+        <p><strong>1. Planification financière</strong></p>
+        <p>Une des premières étapes pour se préparer à la retraite est de créer un plan financier complet. Évaluez vos économies de retraite, vos investissements et vos sources de revenus, et déterminez un budget qui correspond à votre style de vie et à vos objectifs. Envisagez de consulter un conseiller financier pour vous assurer que votre plan de retraite est solide et durable à long terme.</p>
+        
+        <p><strong>2. Couverture des soins de santé</strong></p>
+        <p>Les coûts des soins de santé peuvent représenter une dépense importante à la retraite, il est donc essentiel de comprendre vos options de couverture. Si vous êtes éligible à Medicare, familiarisez-vous avec les différentes parties et options de couverture qui s'offrent à vous. Envisagez des plans d'assurance complémentaire pour combler les lacunes de la couverture et vous protéger contre les dépenses médicales imprévues.</p>
+        
+        <p><strong>3. Prestations de sécurité sociale</strong></p>
+        <p>Assurez-vous de comprendre le fonctionnement des prestations de sécurité sociale et le moment idéal pour commencer à les réclamer. Bien que vous puissiez commencer à recevoir des prestations dès l'âge de 62 ans, retarder votre retraite peut augmenter le montant de vos prestations mensuelles. Réfléchissez attentivement à votre situation financière et à vos objectifs de retraite avant de décider quand commencer à réclamer la sécurité sociale.</p>
+        
+        <p><strong>4. Ajustements de style de vie</strong></p>
+        <p>La retraite implique souvent des changements de style de vie importants, tant en termes de façon dont vous passez votre temps que de gestion de vos finances. Prenez le temps d'évaluer vos priorités, vos intérêts et vos objectifs pour la retraite, et ajustez votre style de vie en conséquence. Explorez de nouveaux passe-temps, des opportunités de voyage et des moyens de rester actif et engagé dans votre communauté.</p>
+        
+        <p><strong>5. Planification successorale</strong></p>
+        <p>La planification successorale est un aspect essentiel de la planification de la retraite que beaucoup de gens négligent. Passez en revue votre plan successoral, y compris votre testament, vos fiducies et vos procurations, pour vous assurer que vos souhaits sont documentés et que vos actifs sont protégés. Envisagez de mettre à jour vos bénéficiaires et de désigner quelqu'un pour prendre des décisions financières et médicales en votre nom si nécessaire.</p>
+        
+        <p><strong>Conclusion</strong></p>
+        <p>La retraite est une étape passionnante qui offre l'opportunité de vivre de nouvelles expériences et de profiter des fruits de votre travail. En prenant le temps de planifier et de vous préparer à la retraite, vous pouvez assurer une transition en douceur et vous préparer à un avenir épanouissant et financièrement sécurisé. N'oubliez pas de rester informé, de rester engagé et de tirer le meilleur parti de chaque moment alors que vous entamez ce nouveau chapitre de votre vie.</p>
+        
+        <p><strong><em>Êtes-vous prêt à commencer votre parcours de retraite ? Contactez-nous dès aujourd'hui pour en savoir plus sur la façon dont nous pouvons vous aider à planifier une retraite réussie.</em></strong></p>
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: Que vous commenciez tout juste à planifier votre retraite ou que vous veniez de prendre votre retraite, voici quelques conseils essentiels pour vous aider à naviguer cette transition avec confiance et tranquillité d'esprit.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 5 conseils pour les nouveaux retraités
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6fb5707b-a1ee-493b-a498-50be7054279d"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "Commencer votre parcours de retraite : 5 conseils pour les nouveaux retraités"

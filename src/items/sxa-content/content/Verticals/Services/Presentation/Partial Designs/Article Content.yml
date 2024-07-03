@@ -22,20 +22,34 @@ SharedFields:
           uid="{F59395FE-244D-4421-84E9-B681C40B8633}"
           p:before="*"
           s:id="{A7343C45-4438-441E-967E-C2CB350DDA75}"
-          s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1"
+          s:par="FieldNames=%7B7953C479-8BBE-4B89-8975-33EC03816408%7D&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1"
           s:ph="headless-main" />
         <r
-          uid="{4E94E9C6-404D-4A6D-B2C9-8228624577AC}"
+          uid="{60B3411F-0E13-4081-961C-625800E11120}"
           p:after="r[@uid='{F59395FE-244D-4421-84E9-B681C40B8633}']"
-          s:id="{613A1798-71DD-4A5C-A183-A3BAB92289C4}"
-          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
-          s:ph="/headless-main/page-navigation-0-1" />
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BAC2C499C-3D24-4AE9-B436-811F89D71989%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="/headless-main/background-page-content-0-1/container-3" />
         <r
-          uid="{7C24FE50-CDB6-4097-A13B-073CF26F0C51}"
+          uid="{372E9FD8-E5EC-4447-A758-8B8969DC808A}"
+          p:after="r[@uid='{60B3411F-0E13-4081-961C-625800E11120}']"
+          s:ds="d4713fc0-9904-4458-b6bd-938e362f489b"
+          s:id="{52733592-6F5D-4FB4-8003-9B8223C5BC76}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberOfItems&amp;FieldNames=%7B4708A14B-D480-42A6-8D58-C92690B48356%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/background-page-content-0-1/container-3" />
+        <r
+          uid="{FC73FDF7-ADB2-403B-A682-1E904F763FC3}"
+          p:after="r[@uid='{372E9FD8-E5EC-4447-A758-8B8969DC808A}']"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7C%7B2BBF52B7-A2C0-466F-9D7A-35B4CE3C79C1%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-main/background-page-content-0-1" />
+        <r
+          uid="{C2DCF68E-7310-4AAE-8979-D5C1DC5D4AD9}"
           p:after="*[1=2]"
-          s:ds="ee12ee55-11a8-495f-bcc5-9ac98583b175"
-          s:id="{35075000-760E-4FF3-BD1C-F2EEBA251DCB}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ds="local:/Data/CTA Banner 1"
+          s:id="{488B8AC0-0EF9-4F6F-8711-78BA182B2C4C}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B5976CD6A-9C09-428B-AE34-83DE5144C859%7D&amp;Styles=%7C%7BF50EB4F2-6C9A-4226-828C-C0F21D66F789%7D%7C%7BBA83D200-B0FE-46C0-A5C7-E5C369D2BDA9%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
           s:ph="/headless-main/page-content-0-1" />
       </d>
     </r>
@@ -49,11 +63,11 @@ Languages:
       Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7634c4cd-eeae-4dd1-82ac-1988ceb4cd8a"
+      Value: "64d49e92-d290-4814-8cf7-a9d253989032"
 - Language: "fr-CA"
   Versions:
   - Version: 1
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a1945b30-0658-4a1b-a451-737e26152d58"
+      Value: "4b6a4260-8b5a-473d-a9d6-6d6a39e75ba1"

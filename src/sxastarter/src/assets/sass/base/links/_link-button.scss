@@ -79,6 +79,8 @@
 .button-simple {
   padding: 0;
   border-radius: 0;
+  border: none;
+  background-color: unset;
   text-decoration: none;
   color: var(--button-simple-color);
   font-weight: var(--button-font-weight);

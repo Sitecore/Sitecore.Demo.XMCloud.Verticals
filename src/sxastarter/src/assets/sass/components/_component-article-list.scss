@@ -45,6 +45,44 @@
     object-fit: cover;
   }
 
+  &-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+
+    @include respond-to(mobile-large) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .article-grid-item {
+      img {
+        aspect-ratio: 3/2;
+        width: 100%;
+        height: auto;
+      }
+
+      &:nth-child(1),
+      &:nth-child(2) {
+        @media (width > 992px) {
+          grid-column: span 2;
+          margin-bottom: 3rem;
+        }
+
+        h3 {
+          @media (width > 992px) {
+            font-size: 2.5rem !important;
+          }
+        }
+
+        img {
+          @media (width > 992px) {
+            aspect-ratio: 9/4;
+          }
+        }
+      }
+    }
+  }
+
   &.no-background {
     .background {
       background: none !important;

@@ -41,3 +41,20 @@ Languages:
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
       Value: Olly Damon
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Responsable des services à la clientèle
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bea1791a-0da3-41d8-a355-960f275f4786"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Olly se consacre à offrir un service et un soutien exceptionnels à nos clients. Avec un accent mis sur la création de relations solides avec les clients et le dépassement des attentes, elle dirige notre équipe des services à la clientèle en fournissant une assistance rapide et réactive pour répondre aux demandes des clients, résoudre les problèmes et assurer leur satisfaction.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Olly Damon
