@@ -17,3 +17,26 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "2fefba2c-819e-4ad0-af30-83a867fee82d"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <p>Chez PLAY! Finance, nous croyons que gérer vos finances devrait être aussi agréable qu'essentiel. Nous ne sommes pas seulement une banque; nous sommes votre partenaire financier, engagé à rendre l'expérience bancaire fluide et gratifiante.</p>
+        
+        <h2>Notre mission</h2>
+        <p>Notre mission est de donner à nos clients les moyens d'atteindre leurs objectifs et leurs rêves financiers en offrant des solutions bancaires innovantes et un service personnalisé. Nous nous efforçons de créer une expérience bancaire simple, pratique et agréable, vous permettant de vous concentrer sur ce qui compte le plus : vivre votre meilleure vie.</p>
+        
+        <h2>Qui nous sommes</h2>
+        <p>PLAY! Finance est une institution financière dynamique et avant-gardiste dédiée à réinventer la banque pour le monde moderne. Nous combinons une technologie de pointe avec une touche humaine pour offrir des solutions financières adaptées aux besoins uniques de notre clientèle diversifiée.</p>
+        
+        <h2>Ce qui nous distingue</h2>
+        <p>Chez PLAY! Finance, nous comprenons qu'une approche unique ne convient pas à tous en matière de banque. C'est pourquoi nous proposons une large gamme de produits et de services conçus pour répondre aux besoins des individus, des familles et des entreprises de toutes tailles. Que vous épargniez pour des vacances de rêve, achetiez votre première maison ou développiez votre entreprise, nous avons les outils et l'expertise pour vous aider à réussir.</p>
+        
+        <h2>Notre engagement envers vous</h2>
+        <p>Au cœur de PLAY! Finance se trouve un engagement à mettre nos clients en premier. Nous croyons en la transparence, l'intégrité et la responsabilité dans tout ce que nous faisons. Notre équipe de professionnels bancaires expérimentés est dédiée à fournir un service et des conseils exceptionnels à chaque étape, vous assurant le soutien nécessaire pour prendre des décisions financières éclairées.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f06afd93-edb7-41eb-b5a9-5a0de53bb3cb"

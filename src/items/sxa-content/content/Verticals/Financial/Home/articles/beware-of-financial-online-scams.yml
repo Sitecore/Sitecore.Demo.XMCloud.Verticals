@@ -6,7 +6,7 @@ Path: "/sitecore/content/Verticals/Financial/Home/articles/beware-of-financial-o
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
+  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -84,7 +84,7 @@ Languages:
         <p>Remember, if something seems suspicious or too good to be true, it probably is. Stay vigilant, trust your instincts, and always prioritize your financial security.</p>
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: Online financial scams pose a significant threat to individuals' financial security, requiring heightened awareness and caution. Stay vigilant against phishing attempts, investment schemes, and online shopping fraud to protect yourself online.
@@ -93,7 +93,51 @@ Languages:
       Value: Beware of financial online scams
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9e176f7a-da0c-4b65-8b88-17318366a9c7"
+      Value: "9a8f4b11-df7d-405f-9baa-6d9e6196dca2"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Protect yourself: Beware of financial online scams"
+- Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Méfiez-vous des arnaques financières en ligne"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>Dans un monde de plus en plus numérique, la commodité des transactions financières en ligne s'accompagne d'un risque : la menace des escroqueries et des fraudes. À mesure que la technologie avance, les tactiques des cybercriminels évoluent également, rendant essentiel pour les individus de rester vigilants et informés afin de protéger leur argent durement gagné. Voici quelques arnaques financières en ligne courantes à connaître et des conseils pour éviter d'en être victime.</p>
+        
+        <p><strong>Arnaques par phishing</strong></p>
+        <p>Les arnaques par phishing impliquent des tentatives frauduleuses d'obtenir des informations sensibles, telles que des noms d'utilisateur, des mots de passe et des détails de carte de crédit, en se faisant passer pour des entités de confiance. Ces arnaques se présentent souvent sous la forme d'emails, de messages texte ou de sites web trompeurs qui semblent légitimes mais sont conçus pour inciter les individus à divulguer leurs informations personnelles.</p>
+        <p style="margin-left: 40px;"><strong>Conseil</strong> : Soyez prudent avec les emails ou messages non sollicités demandant des informations personnelles ou financières. Vérifiez la légitimité de l'expéditeur en contactant directement l'organisation via des canaux officiels, tels que leur site web ou leur service clientèle.</p>
+        
+        <p><strong>Arnaques d'investissement</strong></p>
+        <p>Les arnaques d'investissement promettent des rendements élevés avec peu ou pas de risque, ciblant souvent des individus cherchant à faire fructifier leur argent rapidement. Ces arnaques peuvent inclure des systèmes frauduleux tels que les systèmes de Ponzi, les pyramides ou des opportunités d'investissement factices promettant des rendements irréalistes ou des bénéfices garantis.</p>
+        <p style="margin-left: 40px;"><strong>Conseil</strong> : Faites preuve de prudence lorsque vous êtes approché par des opportunités d'investissement qui semblent trop belles pour être vraies. Effectuez des recherches approfondies et demandez conseil à des professionnels financiers réputés avant de prendre des décisions d'investissement.</p>
+        
+        <p><strong>Arnaques de shopping en ligne</strong></p>
+        <p>Les arnaques de shopping en ligne impliquent des sites web ou des vendeurs frauduleux qui proposent des produits contrefaits ou inexistants à des prix attractifs pour attirer les acheteurs sans méfiance. Ces arnaques peuvent conduire les individus à payer pour des biens qu'ils ne reçoivent jamais ou à recevoir des produits de qualité inférieure à ce qui était annoncé.</p>
+        <p style="margin-left: 40px;"><strong>Conseil</strong> : Achetez uniquement sur des sites web réputés et de confiance, et méfiez-vous des offres qui semblent trop belles pour être vraies. Recherchez des options de paiement sécurisées et lisez les avis d'autres clients avant de faire un achat.</p>
+        
+        <p><strong>Arnaques de romance</strong></p>
+        <p>Les arnaques de romance impliquent des individus se faisant passer pour des partenaires romantiques potentiels afin d'établir la confiance et de manipuler les victimes pour qu'elles leur envoient de l'argent ou des informations personnelles. Ces arnaques surviennent souvent sur les réseaux sociaux, les sites de rencontres ou les forums en ligne où les cybercriminels ciblent des personnes vulnérables à la recherche de compagnie.</p>
+        <p style="margin-left: 40px;"><strong>Conseil</strong> : Soyez prudent lorsque vous communiquez avec des individus en ligne, surtout s'ils demandent une aide financière ou divulguent des informations personnelles dès le début de la relation. Évitez de partager des informations sensibles avec des inconnus et envisagez de vérifier leur identité par d'autres moyens avant d'aller plus loin.</p>
+        
+        <p><strong>Conclusion</strong></p>
+        <p>Pour vous protéger des arnaques financières en ligne, il est nécessaire de rester informé, de faire preuve de scepticisme et de prendre des mesures proactives pour protéger vos informations personnelles et financières. En restant informé et en faisant preuve de prudence lors des transactions en ligne, vous pouvez réduire le risque de tomber victime de ces arnaques et profiter d'une expérience en ligne plus sécurisée.</p>
+        <p>Souvenez-vous, si quelque chose semble suspect ou trop beau pour être vrai, c'est probablement le cas. Restez vigilant, faites confiance à vos instincts et donnez toujours la priorité à votre sécurité financière.</p>
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: Les arnaques financières en ligne constituent une menace importante pour la sécurité financière des individus, nécessitant une vigilance accrue et de la prudence. Restez vigilant contre les tentatives de phishing, les stratagèmes d'investissement et les fraudes liées aux achats en ligne pour vous protéger.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Méfiez-vous des arnaques financières en ligne"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "db389083-8d65-42a1-bc41-f42bd4e0ca19"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "Protégez-vous : Méfiez-vous des arnaques financières en ligne"

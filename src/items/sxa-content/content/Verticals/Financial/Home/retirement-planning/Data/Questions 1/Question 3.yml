@@ -22,3 +22,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: You will have the opportunity to speak with a dedicated retirement specialist each year to ensure you're on track for a long and happy retirement.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7606c699-b9da-42dc-9b69-39faf7e96559"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "À quelle fréquence devrais-je évaluer mon plan de retraite ?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Vous aurez l'opportunité de parler avec un spécialiste de la retraite dédié chaque année pour vous assurer que vous êtes sur la bonne voie pour une retraite longue et heureuse.

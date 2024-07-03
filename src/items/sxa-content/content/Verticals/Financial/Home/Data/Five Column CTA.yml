@@ -45,18 +45,38 @@ Languages:
     - ID: "12ece9de-445a-42be-a483-9e8095ca3b8f"
       Hint: Text5
       Value: Cartes de crédit
+    - ID: "1d581533-1aa5-4679-9e2a-e7fe765218ba"
+      Hint: Link3
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{B6D8EF4D-8137-4081-B939-7058C1FD944A}" />
+    - ID: "2490d428-27e2-4daa-8337-4e34f37fc26b"
+      Hint: Link2
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C63FF335-ABDA-42B1-83FD-18E67881FAAA}" />
+    - ID: "41910271-6970-45e7-8819-3d531826d4a6"
+      Hint: Link5
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D0E2F5F1-E984-4DDD-9A32-BE0D90674E6C}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0d2ee683-7545-43f5-a53e-d857b2e288f9"
+      Value: "7de8fa0e-1482-4f02-8054-291c4927ec66"
     - ID: "8f49a654-7b7f-4c0b-b6df-d3ce2389c1bf"
       Hint: Text2
-      Value: Hypothèque
+      Value: Ligne de crédit
     - ID: "91d94aff-4137-4702-93f7-8db4eacde4d5"
       Hint: Text3
-      Value: Options d'investissement
+      Value: Options de placement
     - ID: "9ea34c36-7e22-4d12-b632-032361c3b17c"
       Hint: Text1
-      Value: Personal loanPrêt personnel
+      Value: Prêt personnel
+    - ID: "b867909f-d20c-4c76-b82f-778d25239cd1"
+      Hint: Link1
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D26AF0F1-5E54-41F0-B026-C96D4D2BEEA3}" />
+    - ID: "b8b8fa51-0c41-442e-8757-07b7a59d6d3f"
+      Hint: Link4
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{AF81673A-E745-40B2-8EA7-34E0589693A7}" />
     - ID: "f5e90981-3210-4316-bcf5-f083fe639e66"
       Hint: Text4
       Value: Petites entreprises

@@ -25,3 +25,19 @@ Languages:
         No problem! We do it all the time.
         
         To transfer an existing retirement plan, send a termination notice to us and your current provider. We'll coordinate the rest and keep you updated throughout the entire process.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54afdb50-85f3-4602-923d-e47ac867d8a9"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Quelle est la facilité de transférer depuis une organisation existante ?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: |
+        Aucun problème ! Nous le faisons tout le temps.
+        
+        Pour transférer un plan de retraite existant, envoyez-nous un avis de résiliation ainsi qu'à votre fournisseur actuel. Nous nous occuperons du reste et vous tiendrons informé tout au long du processus.

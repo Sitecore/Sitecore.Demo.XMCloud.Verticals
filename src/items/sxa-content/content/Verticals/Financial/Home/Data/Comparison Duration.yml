@@ -48,13 +48,13 @@ Languages:
       Value: 10
     - ID: "55199a29-334d-41c9-b133-7163c9e82a7c"
       Hint: Currency2
-      Value: years
+      Value: années
     - ID: "811c52c9-9a0d-4c2b-88c5-817193be5c7d"
       Hint: Title1
-      Value: Duration
+      Value: Durée
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "50c2b094-1f28-4dce-84b6-086fa4ad3119"
+      Value: "4c1b3ca5-2a9a-4214-8c57-a69c631c1c12"
     - ID: "ef3b1e0a-490d-4340-8ebc-5612d6be5e74"
       Hint: Currency1
-      Value: months
+      Value: mois

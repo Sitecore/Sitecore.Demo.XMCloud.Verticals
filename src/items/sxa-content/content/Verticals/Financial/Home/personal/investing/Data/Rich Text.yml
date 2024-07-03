@@ -25,3 +25,20 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "c2a2a557-e225-4688-b149-1939191b04b4"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Un point de vue clair</h2>
+        <p>La gestion de patrimoine va bien au-delà de simples conseils en investissement, car elle peut englober tous les aspects de la vie financière d'une personne. L'idée est que, plutôt que d'essayer d'intégrer des conseils et des produits variés de plusieurs professionnels, les individus à haute valeur nette bénéficient d'une approche holistique où un gestionnaire unique coordonne tous les services nécessaires pour gérer leur argent et planifier leurs besoins actuels et futurs, que ce soit pour eux-mêmes ou pour leur famille.</p>
+        <p>Bien que l'utilisation d'un gestionnaire de patrimoine soit basée sur la théorie selon laquelle il ou elle peut fournir des services dans tous les aspects du domaine financier, certains choisissent de se spécialiser dans des domaines particuliers. Cela peut être basé sur l'expertise du gestionnaire de patrimoine en question ou sur l'accent principal de l'entreprise au sein de laquelle il opère.</p>
+        <h2>Naviguer dans les eaux de la richesse</h2>
+        <p>Dans un paysage financier en constante évolution, l'art de l'investissement peut sembler intimidant. Cependant, avec les bonnes connaissances et les bons conseils, il peut devenir un outil puissant pour accumuler de la richesse et assurer votre avenir financier. Nous comprenons l'importance de prendre des décisions d'investissement éclairées, adaptées à vos objectifs uniques et à votre tolérance au risque.</p>
+        <p>Notre plateforme d'investissement offre une gamme diversifiée d'options, des actions et obligations traditionnelles aux investissements alternatifs et aux comptes de retraite. Que vous visiez à faire croître votre patrimoine à long terme, générer un revenu passif ou épargner pour la retraite, nos conseillers expérimentés sont là pour vous aider à naviguer dans les complexités du marché et à développer une stratégie d'investissement personnalisée qui correspond à vos objectifs.</p>
+        <p>Avec un accent sur la transparence, l'éducation et le service personnalisé, nous nous efforçons de permettre à nos clients de prendre des décisions d'investissement en toute confiance. Que vous soyez un investisseur chevronné ou que vous débutiez, nous nous engageons à fournir les ressources et le soutien dont vous avez besoin pour réussir dans votre parcours financier. Faites le premier pas vers un avenir meilleur et lancez-vous dans votre parcours d'investissement dès aujourd'hui.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c0e05af-2fe1-4877-9d4e-189c7e0c1f5e"

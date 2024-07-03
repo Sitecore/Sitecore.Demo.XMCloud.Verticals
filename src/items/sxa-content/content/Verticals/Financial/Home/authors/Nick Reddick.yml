@@ -45,3 +45,20 @@ Languages:
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
       Value: Nick Reddick
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Analyste financier senior
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d52c5ce6-4dc0-4a6a-b1d7-3b0713155cfd"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>En tant qu'analyste financier senior, Nick apporte une richesse de connaissances et une expertise analytique à notre équipe. Avec une expérience en banque d'investissement et en gestion de portefeuille, il se spécialise dans la modélisation financière et l'évaluation des risques, fournissant des informations précieuses qui influencent nos stratégies d'investissement et nos décisions commerciales.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Nick Reddick
