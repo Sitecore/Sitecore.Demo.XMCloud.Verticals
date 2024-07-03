@@ -10,6 +10,8 @@ interface Fields {
   MinAmount: Field<number>;
   MinTerm: Field<number>;
   TermName: Field<string>;
+  AmountLabel: Field<string>;
+  TermLabel: Field<string>;
 }
 
 export type LoanCalculatorProps = {
@@ -65,7 +67,9 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
       <div className="loan-calculator-input-group">
         <div className="row justify-content-between">
           <div className="col-auto">
-            <label htmlFor="loan-amount">Amount</label>
+            <label htmlFor="loan-amount">
+              <Text field={props.fields.AmountLabel} />
+            </label>
           </div>
           <div className="col-auto">
             <div className="loan-calculator-input-wrapper">
@@ -135,7 +139,9 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
       <div className="loan-calculator-input-group">
         <div className="row justify-content-between">
           <div className="col-auto">
-            <label htmlFor="loan-amount">Term of repayment</label>
+            <label htmlFor="loan-amount">
+              <Text field={props.fields.TermLabel} />
+            </label>
           </div>
           <div className="col-auto">
             <div className="loan-calculator-input-wrapper">
