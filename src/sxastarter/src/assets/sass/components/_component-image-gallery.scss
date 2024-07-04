@@ -1,4 +1,8 @@
 .image-gallery {
+  > .container {
+    position: relative;
+  }
+
   &-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -12,6 +16,8 @@
 
   &-item {
     aspect-ratio: 1/1;
+    border-radius: var(--roundness);
+    overflow: hidden;
 
     &:first-child {
       grid-row: span 2;
@@ -23,5 +29,32 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  &.with-dotted-accents {
+    .dotted-accent {
+      position: absolute;
+      z-index: 1;
+
+      @include respond-to(mobile-large) {
+        display: none;
+      }
+
+      &-top {
+        top: -4.5rem;
+        left: -4.5rem;
+      }
+
+      &-bottom {
+        bottom: -4.5rem;
+        left: -4.5rem;
+      }
+    }
+  }
+
+  &:not(.with-dotted-accents) {
+    .dotted-accent {
+      display: none;
+    }
   }
 }
