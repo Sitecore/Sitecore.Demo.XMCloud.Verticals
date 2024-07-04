@@ -60,8 +60,8 @@ export const Simple = (props: PromoCtaProps): JSX.Element => {
       className={`component quote simple ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
-      <div className="row">
-        <div className="col-auto">
+      <div className="row gx-0">
+        <div className="col-auto me-3">
           <Image field={props.fields.Image} className="author-image" />
         </div>
         <div className="col">
