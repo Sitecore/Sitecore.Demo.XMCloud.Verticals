@@ -18,3 +18,14 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "37b3c389-3ae2-40b4-80de-f7ec164ef1b0"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Comptes courants</h2><p> Parfois, une approche unique ne correspond pas à vos besoins spécifiques. C'est pourquoi, en matière de compte courant personnel, nous aimons le terme "options". Vous découvrirez l'option qui vous convient avec toutes les fonctionnalités nécessaires pour répondre à vos besoins bancaires. Pour tirer le meilleur parti de votre argent, des solutions intelligentes s'imposent. En plus d'une gamme complète d'avantages de compte courant, vous pouvez également être éligible à des récompenses d'intérêt mensuelles. </p><h2>Compte courant préféré</h2><p>Le compte courant préféré est doté de toutes les cloches et sifflets. Rechercher un taux compétitif ne devrait pas nécessiter des recherches interminables. En tant que l'un de nos clients les plus précieux, vous y serez éligible instantanément lorsque vous ouvrirez un compte courant préféré PLAY! Finance. Vous combinerez toutes les fonctionnalités intelligentes de notre compte courant régulier et bénéficierez d'avantages exclusifs tels que de meilleurs taux, des services accrus et un chargé de compte dédié. De plus, vous pouvez gagner un taux d'intérêt plus élevé en maintenant un solde plus élevé dans votre compte. C'est une relation gagnant-gagnant sur laquelle vous pouvez compter.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9db6a26-a6b9-4a86-9f4e-d75df1bd41f3"

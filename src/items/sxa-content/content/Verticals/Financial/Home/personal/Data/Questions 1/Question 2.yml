@@ -22,3 +22,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: "We offer a variety of accounts tailored to different financial needs, including savings accounts, checking accounts, money market accounts, and more. The best account for you depends on factors such as your short-term and long-term financial goals, your spending habits, and your preferences for accessibility and interest rates. Our team can help you find the account that aligns with your objectives."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a74f796e-85ad-4694-b653-770afef4448f"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Quels types de comptes offrez-vous, et lequel est le mieux adapté à mes objectifs financiers ?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Nous offrons une variété de comptes adaptés à différents besoins financiers, y compris des comptes d'épargne, des comptes courants, des comptes sur le marché monétaire, et plus encore. Le meilleur compte pour vous dépend de facteurs tels que vos objectifs financiers à court et à long terme, vos habitudes de dépense, et vos préférences en matière d'accessibilité et de taux d'intérêt. Notre équipe peut vous aider à trouver le compte qui correspond à vos objectifs.

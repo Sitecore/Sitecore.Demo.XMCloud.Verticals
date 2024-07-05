@@ -25,3 +25,24 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "5b49b16b-d0ff-4c83-a63b-8c01439a2a6c"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Construire un patrimoine à la retraite</h2>
+        <p>La retraite marque une étape importante de la vie, offrant l'opportunité de profiter des fruits de votre travail et de bâtir un patrimoine pour un avenir sûr et prospère.</p>
+        <p>Une stratégie clé pour bâtir un patrimoine à la retraite est de prioriser l'épargne et les investissements. En mettant de côté une partie de vos revenus et en investissant judicieusement, vous pouvez accroître votre patrimoine au fil du temps et créer un coussin financier pour les années à venir.</p>
+        <p>Diversifier votre portefeuille d'investissements est essentiel pour atténuer les risques et maximiser les rendements. Envisagez de répartir vos actifs sur une variété de véhicules d'investissement, tels que les actions, les obligations, l'immobilier et les comptes de retraite, pour obtenir un portefeuille équilibré et résilient.</p>
+        <h2>Stratégies pour la sécurité financière</h2>
+        <p>Profiter des comptes de retraite avantageux sur le plan fiscal, tels que les 401(k), les IRA et les Roth IRA, peut vous aider à épargner plus efficacement et à réduire votre charge fiscale à la retraite. Maximisez vos contributions à ces comptes et profitez des contributions de contrepartie de l'employeur chaque fois que possible.</p>
+        <p>Minimiser les dettes et vivre selon vos moyens est crucial pour bâtir un patrimoine à la retraite. Remboursez les dettes à intérêt élevé, telles que les soldes de cartes de crédit et les prêts personnels, le plus rapidement possible, et évitez de contracter de nouvelles dettes sauf en cas de nécessité absolue.</p>
+        <h2>Créer un style de vie épanouissant et significatif</h2>
+        <p>Envisagez d'explorer des sources de revenus alternatives et des opportunités entrepreneuriales pour compléter vos économies de retraite et générer des revenus supplémentaires. Que ce soit en créant une petite entreprise, en travaillant en freelance ou en investissant dans des propriétés locatives, diversifier vos sources de revenus peut offrir une sécurité financière et une flexibilité accrues à la retraite.</p>
+        <p>Rester informé des changements sur les marchés financiers, des tendances économiques et des stratégies de planification de la retraite est essentiel pour prendre des décisions d'investissement éclairées et s'adapter aux circonstances changeantes. Restez en contact avec des conseillers financiers et des ressources fiables pour être au courant des développements et des opportunités dans le monde financier.</p>
+        <p>Construire un patrimoine à la retraite nécessite de la discipline, de la patience et une perspective à long terme. En adoptant de bonnes habitudes financières, en diversifiant vos investissements et en restant proactif dans la gestion de vos finances, vous pouvez créer une base solide pour la sécurité financière et la prospérité à la retraite.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc394e8b-37e9-4578-814e-a9cb5ec85b80"

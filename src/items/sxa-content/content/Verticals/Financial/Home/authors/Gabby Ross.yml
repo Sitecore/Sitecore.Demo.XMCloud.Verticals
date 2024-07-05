@@ -42,3 +42,14 @@ Languages:
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
       Value: Gabby Ross
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e0ef554-c478-4fdc-8de4-80266d0fd6c6"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Gabby a fait ses preuves en gestion et développement de produits. Avec une passion pour l'innovation et un sens aigu des tendances du marché, elle joue un rôle central dans la mise sur le marché de nouveaux produits et l'amélioration des offres existantes.</p></div>

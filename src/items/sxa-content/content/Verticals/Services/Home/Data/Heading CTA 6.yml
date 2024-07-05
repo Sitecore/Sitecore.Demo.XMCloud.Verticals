@@ -1,0 +1,29 @@
+﻿---
+ID: "ef1e7f74-3c4d-4211-a353-c37fbcb59fa4"
+Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
+Template: "fa136527-6302-471d-83ab-e66fc72bda99"
+Path: /sitecore/content/Verticals/Services/Home/Data/Heading CTA 6
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "486c181c-ee55-4b98-b5b8-5de96cb09697"
+    - ID: "bbd90ce3-fdf4-425e-844b-63c5b3db8916"
+      Hint: Text
+      Value: 
+    - ID: "be9c7836-a932-4e3b-a4a0-c7d5aa869337"
+      Hint: Link
+      Value: |
+        <link linktype="internal" id="ffea8ca4-cf8c-453a-9f7d-49d6e60eea5d" anchor="" querystring="" target="" class="" text="Discover all" title=""/>
+    - ID: "cef85d28-d6bc-4204-a2e4-8706c80d8a3c"
+      Hint: Heading
+      Value: Latest Work
+    - ID: "ee323ed7-4732-4a64-a008-18df97dc0737"
+      Hint: Eyebrow
+      Value: Portfolio

@@ -308,10 +308,10 @@ Languages:
     Fields:
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Financier
+      Value: Financial
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b70d05ab-6470-4acf-87d0-4a0d561911f7"
+      Value: "8798f3d5-ea7d-47a5-8991-d4b44d188ee5"
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
-      Value: Financier
+      Value: Financial

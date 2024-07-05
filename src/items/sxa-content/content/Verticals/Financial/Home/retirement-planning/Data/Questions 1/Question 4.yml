@@ -22,3 +22,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: To kickstart your retirement planning journey, begin by evaluating your current financial status and start thinking about your retirement goals. Next, consult with  one of our advisors to create a personalized retirement plan tailored to your needs.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92b82a8c-86ad-4024-8a4e-91b1394f6eb0"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Comment puis-je commencer à planifier ma retraite ?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Pour démarrer votre parcours de planification de la retraite, commencez par évaluer votre situation financière actuelle et réfléchissez à vos objectifs de retraite. Ensuite, consultez l'un de nos conseillers pour créer un plan de retraite personnalisé adapté à vos besoins.

@@ -46,3 +46,30 @@ Languages:
     - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
       Hint: Text2
       Value: Find a loan duration that works for you with our loan calculator. 
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link linktype="internal" id="d26af0f1-5e54-41f0-b026-c96d4d2beea3" anchor="" querystring="" target="" class="" text="Obtenez un prêt" title=""/>
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: Découvrez notre calculatrice de prêt
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link linktype="internal" id="d26af0f1-5e54-41f0-b026-c96d4d2beea3" anchor="" querystring="" target="" class="" text="Obtenez un prêt" title=""/>
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: Options de paiement et échéancier flexibles
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: "Découvrez tous les détails avec notre calculatrice de prêt en libre-service."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd0a3f99-6dc9-45af-a642-753d1d6b9292"
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: Trouvez une durée de prêt qui vous convient avec notre calculatrice de prêt.

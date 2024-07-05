@@ -1,0 +1,25 @@
+﻿---
+ID: "4b42ea0d-bc18-483f-a95f-008ad2b0b20c"
+Parent: "87acaf9d-55d9-41b0-97f7-bc242d531048"
+Template: "fa136527-6302-471d-83ab-e66fc72bda99"
+Path: /sitecore/content/Verticals/Services/Home/Insights/Data/Heading CTA 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "14397de8-2a65-4899-9e05-dd7ff7a0f01b"
+    - ID: "be9c7836-a932-4e3b-a4a0-c7d5aa869337"
+      Hint: Link
+      Value: 
+    - ID: "cef85d28-d6bc-4204-a2e4-8706c80d8a3c"
+      Hint: Heading
+      Value: Insights
+    - ID: "ee323ed7-4732-4a64-a008-18df97dc0737"
+      Hint: Eyebrow
+      Value: Blog
