@@ -45,3 +45,20 @@ Languages:
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
       Value: Patricia Ball
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Responsable marketing digital
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0232d812-299c-4cbe-a6db-5210e8498c9c"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Patricia est une spécialiste expérimentée en marketing digital, passionnée par l'obtention de résultats grâce à des stratégies numériques innovantes. Avec une expérience en publicité numérique, en gestion des réseaux sociaux et en marketing de contenu, elle excelle dans la création de campagnes captivantes qui engagent les audiences et génèrent des conversions.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Patricia Ball

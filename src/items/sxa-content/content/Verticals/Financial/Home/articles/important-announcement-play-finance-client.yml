@@ -6,7 +6,7 @@ Path: "/sitecore/content/Verticals/Financial/Home/articles/important-announcemen
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
+  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -73,7 +73,7 @@ Languages:
         PLAY! Finance is a leading provider of innovative financial solutions, dedicated to empowering individuals to achieve financial wellness. Through advanced technology and personalized tools, PLAY! Finance is redefining the way consumers engage with their finances, making financial management accessible, engaging, and rewarding for all.</p>
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: "PLAY! Finance announces a series of enhancements and expansions aimed at optimizing the client experience and furthering financial empowerment."
@@ -82,7 +82,45 @@ Languages:
       Value: An important announcement for our clients
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5ae1a028-31a9-4939-b33f-0a197f56374d"
+      Value: "dc6076c6-d897-4ff8-8c3d-51b9d2f10094"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: An important announcement for our clients
+- Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Une annonce importante pour nos clients
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>PLAY! Finance, un fournisseur leader de services financiers de pointe, est heureux de partager une mise à jour excitante avec ses clients précieux.
+        <br />
+        <br />
+        Arthur Spannos, PDG de PLAY! Finance, a exprimé, "<strong><em>Nous sommes ravis d'annoncer une étape importante dans notre engagement continu à permettre à nos clients d'atteindre le bien-être financier.</em></strong>"
+        Les points forts de l'annonce incluent :</p>
+        <ul>
+            <li><strong>Expérience utilisateur améliorée :</strong> Introduction de nouvelles fonctionnalités et améliorations pour simplifier l'expérience utilisateur et rendre la gestion des finances encore plus intuitive et pratique.</li>
+            <li><strong>Offres de produits élargies :</strong> Introduction de nouveaux produits et services financiers pour répondre aux besoins évolutifs de nos clients et leur offrir encore plus de moyens d'atteindre leurs objectifs financiers.</li>
+            <li><strong>Concentration continue sur la sécurité :</strong> Maintien des normes les plus élevées en matière de sécurité et de confidentialité pour garantir que nos clients puissent nous faire confiance avec leurs informations financières sensibles.</li>
+            <li><strong>Engagement envers la satisfaction client :</strong> Redoublement d'efforts pour fournir un service client et un support exceptionnels, en veillant à ce que nos clients reçoivent l'assistance dont ils ont besoin, quand ils en ont besoin.</li>
+        </ul>
+        <p>"<strong><em>Nous sommes dédiés à la réussite de nos clients, et cette annonce représente notre engagement continu à offrir des solutions innovantes qui leur permettent de prendre le contrôle de leur avenir financier.</em></strong>", a ajouté Arthur Spannos.</p>
+        <p>Pour plus d'informations sur ces mises à jour passionnantes et comment elles bénéficieront aux clients de PLAY! Finance, visitez le site web de PLAY! Finance ou votre agence locale.</p>
+        <p><strong>À propos de PLAY! Finance</strong><br />
+        PLAY! Finance est un fournisseur leader de solutions financières innovantes, dédié à permettre aux individus d'atteindre le bien-être financier. Grâce à une technologie avancée et des outils personnalisés, PLAY! Finance redéfinit la façon dont les consommateurs interagissent avec leurs finances, rendant la gestion financière accessible, engageante et gratifiante pour tous.</p>
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "PLAY! Finance annonce une série d'améliorations et d'extensions visant à optimiser l'expérience client et à renforcer l'autonomisation financière."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Une annonce importante pour nos clients
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27fadf1c-dda9-4439-8e5d-dbb7d0a10e21"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: Une annonce importante pour nos clients

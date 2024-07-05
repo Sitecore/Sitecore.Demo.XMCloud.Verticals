@@ -14,3 +14,28 @@ Languages:
     - ID: "a68b430b-d594-4dc9-90f4-c8fed1aa4244"
       Hint: FullName
       Value: 
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "50b65341-d540-4ca7-b494-1371b72e7111"
+    - ID: "a68b430b-d594-4dc9-90f4-c8fed1aa4244"
+      Hint: FullName
+      Value: 
+    - ID: "d663bd4f-2e16-421d-84a8-6c54fa9ddc0e"
+      Hint: Title
+      Value: Appliquer
+    - ID: "de1ea50c-6bff-4b85-ab2f-c99e57326322"
+      Hint: Subtitle
+      Value: "Postulez en ligne pour un prêt à la consommation sans frais pour l'examen et l'approbation de la demande!"
+    - ID: "e8781b03-b723-42ee-b5c4-3acb1a639f39"
+      Hint: Footnote
+      Value: |
+        
+        En cliquant sur le bouton « Soumettre », vous acceptez les <a href="#terms-and-conditions">Conditions de traitement des données personnelles et de soumission de la demande en ligne</a>
+    - ID: "ef4297fb-1ef8-4b4e-ae14-2edb6069d9d8"
+      Hint: SubmitButton
+      Value: |
+        <link text="Soumettre" linktype="anchor" url="submit" anchor="submit" title="Submit button" class="" />

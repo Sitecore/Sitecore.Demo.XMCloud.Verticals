@@ -1,0 +1,13 @@
+﻿---
+ID: "a7e61151-a5f0-46be-8330-f220ca80532c"
+Parent: "af723d39-b5e1-4421-9ae7-916012d9149e"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Project List/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27375797-ecfd-463f-ad97-ddc8b4dffa3a"

@@ -1,0 +1,13 @@
+﻿---
+ID: "d86a2f0b-e2df-467d-8075-df056ed26af7"
+Parent: "af723d39-b5e1-4421-9ae7-916012d9149e"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Project List/Mosaic
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13811791-2aa8-4dc6-97f9-1377554c5c44"

@@ -71,12 +71,19 @@ Languages:
       Hint: __Revision
       Value: "9f91bc22-3fb1-4f15-83ef-9a21f1bdbae5"
 - Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Articles
   Versions:
   - Version: 1
     Fields:
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
       Hint: Title
-      Value: Vision
+      Value: Articles
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Restez à jour avec nos experts de l'industrie
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "01d49a6a-0d74-42f4-b8e2-b68d0ec78ab4"
+      Value: "c97a3e6f-6290-42a0-82f3-0dc8bb7f76f1"

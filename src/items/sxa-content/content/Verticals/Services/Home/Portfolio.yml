@@ -15,11 +15,18 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{8E62B9A5-78B1-4C29-B99B-FEF711081BA0}"
+          uid="{B96F2198-E7CF-4635-A7B8-A5A47211A1F3}"
           p:before="*"
+          s:ds="local:/Data/Heading CTA 1"
+          s:id="{89E1D547-7CD6-4EF0-9A27-1E99410797DD}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB51C9BF5-3DC7-48A9-8B7A-EB1890FD95E6%7D&amp;Styles=%7C%7BE86E740F-58D7-4151-9977-84B0382C458F%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="headless-main" />
+        <r
+          uid="{F12DDE9E-46C7-4160-A5BC-D205FC6BAA6C}"
+          p:after="r[@uid='{B96F2198-E7CF-4635-A7B8-A5A47211A1F3}']"
           s:ds="ffea8ca4-cf8c-453a-9f7d-49d6e60eea5d"
-          s:id="{52733592-6F5D-4FB4-8003-9B8223C5BC76}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberOfItems&amp;FieldNames=%7B4708A14B-D480-42A6-8D58-C92690B48356%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:id="{3F98B12E-9693-47D6-8507-18B054CCFB8E}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberOfItems&amp;FieldNames&amp;Styles=%7C%7BE86E740F-58D7-4151-9977-84B0382C458F%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3&amp;ShowFilters=1"
           s:ph="headless-main" />
         <r
           uid="{FA7EC910-EA9D-4CB8-9DC5-D912ABC53E66}"
@@ -46,4 +53,4 @@ Languages:
       Value: Portfolio
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a0802494-334e-4ca5-a21d-653404d41f17"
+      Value: "3cb6cd78-cd24-453b-87cd-454347f4c440"

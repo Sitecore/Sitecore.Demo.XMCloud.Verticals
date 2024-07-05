@@ -48,3 +48,20 @@ Languages:
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
       Value: Alex Adams
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Conseiller financier
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ac1484fd-6a95-410c-9bbd-e2d5f195cf1c"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        Conseiller financier<div class="ck-content"><p>Alex se consacre à aider nos clients à atteindre leurs objectifs et leurs aspirations financiers. Avec une passion pour le service personnalisé et une compréhension approfondie des stratégies de gestion de patrimoine, il travaille en étroite collaboration avec les clients pour développer des plans financiers adaptés à leurs besoins et objectifs uniques.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Alex Adams

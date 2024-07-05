@@ -7,6 +7,7 @@ import {
   Image,
   Text,
   RichTextField,
+  withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 import { useI18n } from 'next-localization';
@@ -46,14 +47,10 @@ const getAllArticlesPageHref = (items: ArticleListItemProps[]) => {
   return items?.find((item) => item.name === 'Data')?.url.replace(/\/Data$/, '') || '#';
 };
 
-export const Default = (props: ArticleListComponentProps): JSX.Element => {
+const ArticleListDefault = (props: ArticleListComponentProps): JSX.Element => {
   const id = props.params?.RenderingIdentifier;
   const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
   const { t } = useI18n();
-
-  if (!props.fields?.items) {
-    return <div className="container">Please select a datasource.</div>;
-  }
 
   return (
     <div
@@ -96,13 +93,9 @@ export const Default = (props: ArticleListComponentProps): JSX.Element => {
   );
 };
 
-export const ThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
+const ArticleListThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
   const id = props.params?.RenderingIdentifier;
   const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
-
-  if (!props.fields?.items) {
-    return <div className="container">Please select a datasource.</div>;
-  }
 
   return (
     <div
@@ -127,15 +120,11 @@ export const ThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
   );
 };
 
-export const Simplified = (props: ArticleListComponentProps): JSX.Element => {
+const ArticleListSimplified = (props: ArticleListComponentProps): JSX.Element => {
   const id = props.params?.RenderingIdentifier;
   const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
   const allArticlesPageHref = getAllArticlesPageHref(props.fields?.items);
   const { t } = useI18n();
-
-  if (!props.fields?.items) {
-    return <div className="container">Please select a datasource.</div>;
-  }
 
   return (
     <div
@@ -182,3 +171,35 @@ export const Simplified = (props: ArticleListComponentProps): JSX.Element => {
     </div>
   );
 };
+
+const ArticleListGrid = (props: ArticleListComponentProps): JSX.Element => {
+  const id = props.params?.RenderingIdentifier;
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
+
+  return (
+    <div
+      className={`component component-spaced article-list ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container container-wide">
+        <div className="article-list-grid">
+          {newsItems?.map((item) => (
+            <div className="article-grid-item" key={item.url}>
+              <Link href={item.url} className="wrapper-link">
+                <Image field={item.fields.Thumbnail} />
+                <h3 className="fs-4 mt-3">
+                  <Text field={item.fields.Title}></Text>
+                </h3>
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const Default = withDatasourceCheck()<ArticleListComponentProps>(ArticleListDefault);
+export const ThreeColumn = withDatasourceCheck()<ArticleListComponentProps>(ArticleListThreeColumn);
+export const Simplified = withDatasourceCheck()<ArticleListComponentProps>(ArticleListSimplified);
+export const Grid = withDatasourceCheck()<ArticleListComponentProps>(ArticleListGrid);

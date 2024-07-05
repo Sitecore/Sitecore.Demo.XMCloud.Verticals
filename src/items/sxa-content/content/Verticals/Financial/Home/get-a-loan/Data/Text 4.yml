@@ -17,3 +17,20 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "132070ec-162f-4f66-aadf-86b15de26e3e"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Conditions générales du calculateur de prêt</h2>
+        <p><strong>Déclaration de précision :</strong> Le calculateur de prêt fourni sur cette plateforme est à titre informatif uniquement et n'est pas destiné à servir de conseil financier. Bien que nous nous efforcions de fournir des calculs précis, les résultats générés par le calculateur peuvent varier en fonction des circonstances individuelles et d'autres facteurs. Les utilisateurs sont encouragés à consulter un conseiller financier ou un prêteur qualifié pour des conseils et une assistance personnalisés.</p>
+        <p><strong>Estimation seulement :</strong> Les chiffres générés par le calculateur de prêt sont des estimations basées sur les informations fournies par l'utilisateur. Les conditions réelles du prêt, les taux d'intérêt et les paiements mensuels peuvent varier en fonction de facteurs tels que la solvabilité, le montant du prêt, la durée du prêt et les conditions du marché. Les utilisateurs doivent obtenir des devis de prêt officiels auprès des prêteurs pour des informations précises et à jour.</p>
+        <p><strong>Utilisation des informations :</strong> En utilisant le calculateur de prêt, vous acceptez que toutes les informations fournies, y compris les montants de prêt, les taux d'intérêt et les conditions de remboursement, puissent être utilisées par nous à des fins d'analyse statistique, de recherche et de marketing. Cependant, vos informations personnelles ne seront pas partagées avec des tiers sans votre consentement.</p>
+        <p><strong>Aucune garantie :</strong> Les résultats générés par le calculateur de prêt ne sont pas contraignants et ne constituent pas une offre ou une approbation de prêt. L'approbation finale du prêt est soumise à l'examen de votre demande, de votre historique de crédit et d'autres facteurs pertinents par le prêteur. Nous ne garantissons pas l'approbation du prêt, les taux d'intérêt ou les conditions.</p>
+        <p><strong>Modification ou résiliation :</strong> Nous nous réservons le droit de modifier, suspendre ou résilier le service du calculateur de prêt à tout moment sans préavis. Nous pouvons également mettre à jour ces conditions générales de temps à autre sans préavis. Les utilisateurs sont responsables de consulter périodiquement les conditions générales pour tout changement.</p>
+        <p>En utilisant le calculateur de prêt, vous reconnaissez avoir lu, compris et accepté ces conditions générales dans leur intégralité. Si vous n'êtes pas d'accord avec une partie de ces conditions, vous devriez vous abstenir d'utiliser le calculateur de prêt.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92e5a03b-6013-4473-a2db-40e70a0ba821"

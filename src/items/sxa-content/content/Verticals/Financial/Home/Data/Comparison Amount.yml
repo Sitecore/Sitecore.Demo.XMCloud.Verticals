@@ -39,7 +39,16 @@ Languages:
       Value: 1000
     - ID: "22ea3b6c-7d16-47dc-b1d7-9e6686c6bd9b"
       Hint: Amount2
-      Value: 800000
+      Value: 80000
+    - ID: "55199a29-334d-41c9-b133-7163c9e82a7c"
+      Hint: Currency2
+      Value: eur
+    - ID: "811c52c9-9a0d-4c2b-88c5-817193be5c7d"
+      Hint: Title1
+      Value: Montant
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cccbe01b-8c43-4729-b896-f0f1856fa629"
+      Value: "6e22577b-ad8c-4014-9da1-feeb2c7db3c0"
+    - ID: "ef3b1e0a-490d-4340-8ebc-5612d6be5e74"
+      Hint: Currency1
+      Value: eur

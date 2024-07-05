@@ -143,15 +143,22 @@ Languages:
       Hint: __Revision
       Value: "5f3a9bbc-2e4e-4d1c-a0a6-9bfaf84a3505"
 - Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Obtenir un prêt
   Versions:
   - Version: 1
     Fields:
     - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
       Hint: Title
-      Value: Obtenir un prêt
+      Value: Prêt pour consommateurs en ligne
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: "Pour tous vos souhaits - nous avons la solution adaptée"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Obtenir un prêt
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1be72a6f-2e50-477b-9030-3783ce5fa188"
+      Value: "14605f5d-fd77-48b1-8dba-54a8ebab716c"
