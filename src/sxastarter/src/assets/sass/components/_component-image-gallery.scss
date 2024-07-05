@@ -1,4 +1,9 @@
 .image-gallery {
+  @include respond-to(mobile-large) {
+    padding-left: $size-padding;
+    padding-right: $size-padding;
+  }
+
   > .container {
     position: relative;
   }
