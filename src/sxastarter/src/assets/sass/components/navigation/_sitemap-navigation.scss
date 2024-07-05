@@ -17,7 +17,7 @@
 
   .level2 a {
     position: relative;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
     font-size: 1rem;
 
     &::before {
@@ -28,7 +28,7 @@
       position: absolute;
       content: $fa-var-share;
       top: 30%;
-      left: -8px;
+      left: 0;
     }
   }
 }
