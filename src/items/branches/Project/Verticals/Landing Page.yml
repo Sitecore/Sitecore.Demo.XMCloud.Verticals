@@ -1,0 +1,13 @@
+﻿---
+ID: "3458c2e1-2579-4f4d-b5a7-695336ed09d6"
+Parent: "59bd9637-5905-4521-bb6e-5bc75401ea18"
+Template: "35e75c72-4985-4e09-88c3-0eac6cd1e64f"
+Path: /sitecore/templates/Branches/Project/Verticals/Landing Page
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1b367f0d-c389-494e-97de-4f0d4207f23b"

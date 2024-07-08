@@ -1,0 +1,26 @@
+﻿---
+ID: "decab550-f5c3-4b5f-8152-8afee86efadd"
+Parent: "837c05b5-a895-4bcc-a552-730152a67493"
+Template: "0089bcb3-0117-43f2-a760-0771d5ff7417"
+Path: /sitecore/templates/Branches/Project/Verticals/Landing Page/$name/Data/HeroBanner 1
+SharedFields:
+- ID: "5a8416e1-a058-47d2-96df-69d2a08e69fc"
+  Hint: Image
+  Value: |
+    <image mediaid="e74e0623-a9ff-4833-9968-14d55a05db5f" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e25a144-5899-4c7e-b0b8-d7209cd76d27"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><p>Play! Agency provides a full service range including technical skills, design, business understanding.</p></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "081106b3-3be7-4351-9183-58bfb4d8533d"
+    - ID: "dcd33f8a-fed4-4740-8729-e11d3c5eee64"
+      Hint: Cta2
+      Value: |
+        <link linktype="external" url="https://example.com" text="More details"/>

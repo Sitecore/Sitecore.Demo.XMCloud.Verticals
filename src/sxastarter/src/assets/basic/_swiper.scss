@@ -16,6 +16,7 @@
 
 .swiper-pagination {
   position: static;
+  margin-top: 1rem;
 
   &-bullet {
     border: 2px solid var(--swiper-pagination-bullet-inactive-border-color);
