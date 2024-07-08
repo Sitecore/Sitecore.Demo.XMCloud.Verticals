@@ -31,6 +31,8 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "@segment/analytics-node": "^2.1.2",
+    "@segment/snippet": "^5.2.1",
     "@sitecore-cloudsdk/events": "^0.3.0",
     "@sitecore-feaas/clientside": "^0.5.17",
     "@sitecore-jss/sitecore-jss-nextjs": "~22.0.0",

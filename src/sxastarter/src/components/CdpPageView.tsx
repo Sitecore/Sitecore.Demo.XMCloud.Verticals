@@ -6,6 +6,7 @@ import {
 import { useEffect } from 'react';
 import config from 'temp/config';
 import { context } from 'lib/context';
+import analytics from '../analyticsInstance';
 
 /**
  * This is the CDP page view component.
@@ -47,6 +48,13 @@ const CdpPageView = (): JSX.Element => {
       scope
     );
     // there are cases where Events SDK will be absent which are expected to reject
+    analytics.track({
+      userId: '123',
+      event: 'Stock Purchased',
+      properties: {
+        Page: route.name,
+      },
+    });
     context
       .getSDK('Events')
       .then((Events) =>

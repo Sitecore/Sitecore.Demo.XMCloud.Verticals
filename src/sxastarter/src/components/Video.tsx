@@ -1,13 +1,13 @@
 import React from 'react';
-// DEMO TEAM CUSTOMIZATION - Removed Field and Text. Added RichTextField.
+
 import { ImageField, TextField, RichTextField } from '@sitecore-jss/sitecore-jss-nextjs';
-// END CUSTOMIZATION
+
 import dynamic from 'next/dynamic';
 const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 interface Fields {
   Image: ImageField;
   Link: TextField;
-  Caption: RichTextField; // DEMO TEAM CUSTOMIZATION - Change to RichTextField
+  Caption: RichTextField;
 }
 
 type VideoProps = {
