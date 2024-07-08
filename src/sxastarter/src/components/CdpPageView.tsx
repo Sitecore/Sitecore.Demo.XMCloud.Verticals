@@ -50,7 +50,7 @@ const CdpPageView = (): JSX.Element => {
     // there are cases where Events SDK will be absent which are expected to reject
     analytics.track({
       userId: '123',
-      event: 'Stock Purchased',
+      event: 'Page Viewed',
       properties: {
         Page: route.name,
       },
