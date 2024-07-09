@@ -23,7 +23,7 @@ export function CdpIdentityEvent(props: { identityParams: IdentityProps }) {
         language: identityParams.Language,
 
         identifiers: [
-          { provider: 'email', id: identityParams.Email ?? '' },
+          { provider: 'userId', id: identityParams.Email ?? '' },
           //{ provider: 'IdNumber', id: idNumber ?? '' },
         ],
       })
