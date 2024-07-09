@@ -1,0 +1,127 @@
+[
+  {
+    "libraryId": "generated",
+    "id": "EfQDdUxRmd",
+    "name": "Content",
+    "isDefault": false,
+    "orderIdx": "",
+    "createdAt": "2023-06-08T08:44:53.843Z",
+    "modifiedAt": "2023-06-08T08:44:53.843Z",
+    "components": [
+      {
+        "libraryId": "generated",
+        "id": "MCzUv9T7CV",
+        "collectionId": "EfQDdUxRmd",
+        "name": "Teaser",
+        "description": "",
+        "status": "published",
+        "versionCount": 2,
+        "stagedVersionCount": 2,
+        "embeddableVersionCount": 3,
+        "datasourceIds": [],
+        "createdAt": "2023-06-08T08:45:02.309Z",
+        "stagedAt": null,
+        "publishedAt": "2023-06-08T13:06:57.252Z",
+        "modifiedAt": "2023-06-08T13:06:57.252Z",
+        "modifiedBy": {
+          "id": "62f3ba1cba5df761961e5a78",
+          "name": "Sintija Potaicuka",
+          "email": "sintija.potaicuka@sitecore.com",
+          "picture": "https://s.gravatar.com/avatar/377f12a848dbd6e352920bce2685c063?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fsi.png",
+          "givenName": "Sintija",
+          "familyName": "Potaicuka"
+        },
+        "bundles": []
+      },
+      {
+        "libraryId": "generated",
+        "id": "bP5HBEel-b",
+        "collectionId": "EfQDdUxRmd",
+        "name": "Large teaser",
+        "description": "",
+        "status": "published",
+        "versionCount": 1,
+        "stagedVersionCount": 1,
+        "embeddableVersionCount": 2,
+        "datasourceIds": [],
+        "createdAt": "2023-06-08T09:12:34.113Z",
+        "stagedAt": null,
+        "publishedAt": "2023-06-08T13:06:24.758Z",
+        "modifiedAt": "2023-06-08T13:06:24.758Z",
+        "modifiedBy": {
+          "id": "62f3ba1cba5df761961e5a78",
+          "name": "Sintija Potaicuka",
+          "email": "sintija.potaicuka@sitecore.com",
+          "picture": "https://s.gravatar.com/avatar/377f12a848dbd6e352920bce2685c063?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fsi.png",
+          "givenName": "Sintija",
+          "familyName": "Potaicuka"
+        },
+        "bundles": []
+      }
+    ]
+  },
+  {
+    "libraryId": "generated",
+    "id": "ZvLugTjxGu",
+    "name": "Commerce",
+    "isDefault": false,
+    "orderIdx": "",
+    "createdAt": "2023-06-08T09:27:51.59Z",
+    "modifiedAt": "2023-06-08T09:27:51.59Z",
+    "components": [
+      {
+        "libraryId": "generated",
+        "id": "49QMhYO5HD",
+        "collectionId": "ZvLugTjxGu",
+        "name": "Product teaser list",
+        "description": "",
+        "status": "changed",
+        "versionCount": 2,
+        "stagedVersionCount": 2,
+        "embeddableVersionCount": 2,
+        "datasourceIds": [],
+        "createdAt": "2023-06-08T09:27:58.572Z",
+        "stagedAt": null,
+        "publishedAt": "2023-06-08T14:31:06.461Z",
+        "modifiedAt": "2024-07-08T14:03:13.29Z",
+        "modifiedBy": {},
+        "bundles": []
+      },
+      {
+        "libraryId": "generated",
+        "id": "bkpRNHFB2v",
+        "collectionId": "ZvLugTjxGu",
+        "name": "Two product teaser",
+        "description": "",
+        "status": "published",
+        "versionCount": 3,
+        "stagedVersionCount": 3,
+        "embeddableVersionCount": 4,
+        "datasourceIds": [],
+        "createdAt": "2023-06-08T11:36:57.759Z",
+        "stagedAt": "2023-06-08T14:27:31.971Z",
+        "publishedAt": "2023-06-08T14:27:31.972Z",
+        "modifiedAt": "2023-06-08T14:27:31.972Z",
+        "modifiedBy": {
+          "id": "62f3ba1cba5df761961e5a78",
+          "name": "Sintija Potaicuka",
+          "email": "sintija.potaicuka@sitecore.com",
+          "picture": "https://s.gravatar.com/avatar/377f12a848dbd6e352920bce2685c063?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fsi.png",
+          "givenName": "Sintija",
+          "familyName": "Potaicuka"
+        },
+        "bundles": []
+      }
+    ]
+  },
+  {
+    "libraryId": "generated",
+    "id": "default",
+    "name": "Default collection",
+    "isDefault": true,
+    "orderIdx": null,
+    "createdAt": "2023-06-28T12:45:53.685Z",
+    "modifiedAt": "2023-06-28T12:45:53.685Z",
+    "components": []
+  }
+]

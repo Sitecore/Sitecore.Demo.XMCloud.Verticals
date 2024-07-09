@@ -23,15 +23,9 @@ Languages:
     - ID: "6e34ac44-29b8-4e35-9d5f-a01d00d0dad9"
       Hint: TermName
       Value: mo.
-    - ID: "79f19c69-4e51-4e8c-a7b4-f0bf11ac3131"
-      Hint: AmountLabel
-      Value: Amount
     - ID: "7e3f75ea-27ac-4402-8dae-1773f8f49915"
       Hint: MaxAmount
       Value: 80000
-    - ID: "8b7d30b2-3cd7-48a7-88b0-4aa786bbd48c"
-      Hint: TermLabel
-      Value: Term of repayment
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "d146234d-e0cc-4d58-9537-b569245b2f2c"
