@@ -1,0 +1,13 @@
+﻿---
+ID: "ac1d3e04-3d63-45e6-91c6-fb369e82eef6"
+Parent: "b600b9fa-956e-4824-9e2d-f9c71c02aa52"
+Template: "6d166c16-d4cc-4ba9-b1e1-fe6378916533"
+Path: /sitecore/content/Verticals/Services/Home/Data/Contact Form 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9546351a-8139-443b-b703-d5ea67b51c3a"

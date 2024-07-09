@@ -133,7 +133,6 @@
       align-items: center;
       background-color: var(--bg-saturated);
       border-radius: 100%;
-      margin-bottom: 3rem;
 
       img {
         width: 2rem;
@@ -142,6 +141,25 @@
         border-radius: 0;
         transition: all 0.3s ease-in-out;
       }
+    }
+  }
+
+  &.with-icons-compact {
+    .wrapper-link {
+      padding: 2rem 3rem 1rem;
+    }
+
+    .image-wrapper {
+      width: 4rem;
+      height: 4rem;
+
+      img {
+        width: 1.5rem;
+      }
+    }
+
+    p {
+      opacity: 1;
     }
   }
 }

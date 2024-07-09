@@ -1,0 +1,17 @@
+﻿---
+ID: "b5b811c7-4bf5-4d7a-9f33-3998ea1f47f6"
+Parent: "837c05b5-a895-4bcc-a552-730152a67493"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/templates/Branches/Project/Verticals/Landing Page/$name/Data/Text 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><h1>An Experience Design Service</h1></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2448123c-e7bf-4232-8db6-c7cd237a43be"

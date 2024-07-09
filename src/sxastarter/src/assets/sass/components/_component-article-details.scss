@@ -39,8 +39,8 @@
 
 .simple-article-details {
   @include respond-to(mobile-large) {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    padding-left: $size-padding;
+    padding-right: $size-padding;
   }
 
   .article-title {

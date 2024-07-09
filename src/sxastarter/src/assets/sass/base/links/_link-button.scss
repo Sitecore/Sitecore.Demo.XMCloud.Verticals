@@ -32,12 +32,14 @@
   border-radius: var(--button-roundness);
   padding: var(--button-padding);
   transition: all 0.2s ease-in-out;
+  border-width: inherit;
 }
 
 .button-main {
   background-color: var(--button-main-bg-color);
   color: var(--button-main-color);
   text-transform: var(--button-text-transform);
+  border: none;
 
   a {
     color: var(--button-main-color);

@@ -44,10 +44,10 @@ export const Default = (props: HeroBannerProps): JSX.Element => {
         <div className="hero-row">
           <div className="content-column">
             <h6 className="eyebrow-accent">
-              <Text field={props.fields.Tagline} encode={false} />
+              <Text field={props.fields.Tagline} />
             </h6>
             <h1 className="display-2 fw-bold">
-              <Text field={props.fields.Title} encode={false} />
+              <Text field={props.fields.Title} />
             </h1>
 
             <div className="rich-content mb-4">
