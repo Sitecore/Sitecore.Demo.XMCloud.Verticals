@@ -1,10 +1,6 @@
 .page-background {
-  padding: 0;
-
-  .background-content-wrapper {
-    @include respond-to(mobile-large) {
-      padding: 0 $size-padding;
-    }
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
   }
 
   div {

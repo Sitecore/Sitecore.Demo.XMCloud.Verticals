@@ -27,7 +27,7 @@ $size-padding: 0.75rem;
   }
 }
 
-#content > .container-wrapper .column-splitter > div {
+#content > .container-wrapper > .container-default > .component-content > .row > div.component {
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
   }

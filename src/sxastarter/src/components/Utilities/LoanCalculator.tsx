@@ -1,5 +1,6 @@
 import React, { useState, useEffect, ReactNode } from 'react';
 import { Field, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { useI18n } from 'next-localization';
 
 interface Fields {
   BankFee: Field<number>;
@@ -32,6 +33,7 @@ const ResultLine = ({ left, right }: { left: ReactNode; right: ReactNode }) => {
 
 export const Default = (props: LoanCalculatorProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
+  const { t } = useI18n();
 
   const [loanAmount, setLoanAmount] = useState(
     Math.round((props.fields.MinAmount.value + props.fields.MaxAmount.value) / 2)
@@ -65,7 +67,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
       <div className="loan-calculator-input-group">
         <div className="row justify-content-between">
           <div className="col-auto">
-            <label htmlFor="loan-amount">Amount</label>
+            <label htmlFor="loan-amount">{t('Amount') || 'Amount'}</label>
           </div>
           <div className="col-auto">
             <div className="loan-calculator-input-wrapper">
@@ -135,7 +137,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
       <div className="loan-calculator-input-group">
         <div className="row justify-content-between">
           <div className="col-auto">
-            <label htmlFor="loan-amount">Term of repayment</label>
+            <label htmlFor="loan-amount">{t('Term of repayment') || 'Term of repayment'}</label>
           </div>
           <div className="col-auto">
             <div className="loan-calculator-input-wrapper">
@@ -205,7 +207,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
       <div className="loan-calculator-results">
         <div className="loan-calculator-monthly-payment">
           <ResultLine
-            left="Monthly payment"
+            left={t('Monthly payment') || 'Monthly payment'}
             right={
               <>
                 {monthlyPayment.toFixed(2)} <Text field={props.fields.Currency} />
@@ -214,7 +216,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
           />
         </div>
         <ResultLine
-          left="Interest rate"
+          left={t('Interest rate') || 'Interest rate'}
           right={
             <>
               <Text field={props.fields.InterestRate} />%
@@ -222,7 +224,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
           }
         />
         <ResultLine
-          left="Bank package fee"
+          left={t('Bank package fee') || 'Bank package fee'}
           right={
             <>
               <Text field={props.fields.BankFee} /> <Text field={props.fields.Currency} />
@@ -230,7 +232,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
           }
         />
         <ResultLine
-          left="Total interest"
+          left={t('Total interest') || 'Total interest'}
           right={
             <>
               {totalInterest.toFixed(2)} <Text field={props.fields.Currency} />
@@ -238,7 +240,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
           }
         />
         <ResultLine
-          left="Total debt"
+          left={t('Total debt') || 'Total debt'}
           right={
             <>
               {totalDebt.toFixed(2)} <Text field={props.fields.Currency} />

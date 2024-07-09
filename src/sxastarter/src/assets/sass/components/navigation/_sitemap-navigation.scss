@@ -4,9 +4,21 @@
 @import '../../../../../node_modules/font-awesome/scss/variables';
 
 .navigation.sitemap-navigation {
+  @include respond-to(mobile-large) {
+    padding-left: $size-padding;
+    padding-right: $size-padding;
+  }
+
+  line-height: 2;
+
+  li > ul {
+    margin-top: 0.5rem;
+  }
+
   .level2 a {
     position: relative;
-    padding-left: 10px;
+    padding-left: 1.5rem;
+    font-size: 1rem;
 
     &::before {
       @include font-size(1.4);
@@ -15,8 +27,8 @@
       transform: translateY(-50%) scale(1, -1);
       position: absolute;
       content: $fa-var-share;
-      top: 50%;
-      left: -8px;
+      top: 30%;
+      left: 0;
     }
   }
 }

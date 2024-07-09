@@ -36,7 +36,7 @@ export const Default = (props: AppPromoProps): JSX.Element => {
       <div className="container content-container">
         <div className="top-layout">
           <div className="title">
-            <Text field={props.fields.Title} encode={false} />
+            <Text field={props.fields.Title} />
           </div>
           <div className="subtitle">
             <RichText field={props.fields.Text} />

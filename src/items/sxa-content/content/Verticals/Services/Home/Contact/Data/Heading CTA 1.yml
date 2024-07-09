@@ -1,0 +1,28 @@
+﻿---
+ID: "0e2c110c-fae7-47ed-8b0c-13dbe870f206"
+Parent: "60586523-4935-46e4-ad3c-1802e336e9ee"
+Template: "fa136527-6302-471d-83ab-e66fc72bda99"
+Path: /sitecore/content/Verticals/Services/Home/Contact/Data/Heading CTA 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f5dcdb4-da62-4789-8916-a3cc734380a9"
+    - ID: "bbd90ce3-fdf4-425e-844b-63c5b3db8916"
+      Hint: Text
+      Value: "Play! Services provides a full service range including technical skills, design, business understanding."
+    - ID: "be9c7836-a932-4e3b-a4a0-c7d5aa869337"
+      Hint: Link
+      Value: 
+    - ID: "cef85d28-d6bc-4204-a2e4-8706c80d8a3c"
+      Hint: Heading
+      Value: Contact
+    - ID: "ee323ed7-4732-4a64-a008-18df97dc0737"
+      Hint: Eyebrow
+      Value: 
