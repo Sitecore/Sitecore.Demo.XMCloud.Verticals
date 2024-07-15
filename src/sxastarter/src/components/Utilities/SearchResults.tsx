@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
 import { WidgetsProvider } from '@sitecore-search/react';
 import SearchResultsStyledWidget from 'components/Search/SearchResultsWidget';

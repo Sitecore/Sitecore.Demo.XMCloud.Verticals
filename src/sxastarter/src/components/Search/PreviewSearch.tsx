@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import type { PreviewSearchInitialState, PreviewSearchWidgetQuery } from '@sitecore-search/react';
-import { useRouter } from 'next/navigation';
 
 import {
   FilterAnd,
@@ -10,8 +9,7 @@ import {
   usePreviewSearch,
   widget,
 } from '@sitecore-search/react';
-import Link from 'next/link';
-import { ChangeEvent, FormEvent, MouseEvent, useState } from 'react';
+import { ChangeEvent, FormEvent, useState } from 'react';
 
 type ArticleModel = {
   id: string;
@@ -29,7 +27,6 @@ interface Props {
 }
 
 export const PreviewSearch = ({ defaultItemsPerPage }: Props) => {
-  const router = useRouter();
   const [search, setSearch] = useState<string>('');
   const [isSearching, setIsSearching] = useState<boolean>();
   const sources = process.env.NEXT_PUBLIC_SEARCH_SOURCES;
@@ -37,9 +34,8 @@ export const PreviewSearch = ({ defaultItemsPerPage }: Props) => {
   PageController.getContext().setLocale({ country: 'au', language: 'en' });
 
   const {
-    widgetRef,
-    actions: { onItemClick, onKeyphraseChange },
-    queryResult: { isFetching, isLoading, data: { content: previewArticles = [] } = {} } = {},
+    actions: { onKeyphraseChange },
+    queryResult: { data: { content: previewArticles = [] } = {} } = {},
   } = usePreviewSearch<ArticleModel, InitialState>({
     query: (query: PreviewSearchWidgetQuery) => {
       query
@@ -51,8 +47,6 @@ export const PreviewSearch = ({ defaultItemsPerPage }: Props) => {
       itemsPerPage: defaultItemsPerPage,
     },
   });
-
-  const loading = isLoading || isFetching;
 
   function keypharaseChangeHandler(e: ChangeEvent<HTMLInputElement>): void {
     const keyphrase = e.target.value;
@@ -81,8 +75,7 @@ export const PreviewSearch = ({ defaultItemsPerPage }: Props) => {
   }
 
   function handleRedirect(article: ArticleModel): void {
-    alert('Not implemented yet');
-    //window.location.href = article.url;
+    window.location.href = article.url;
   }
 
   return (

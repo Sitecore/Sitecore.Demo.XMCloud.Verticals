@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import {
   FilterAnd,
   FilterEqual,
@@ -6,7 +5,6 @@ import {
   SearchResultsStoreState,
   SearchResultsWidgetQuery,
   useSearchResults,
-  useSearchResultsSelectedFacets,
   widget,
   WidgetDataType,
 } from '@sitecore-search/react';
@@ -37,26 +35,7 @@ const sources = process.env.NEXT_PUBLIC_SEARCH_SOURCES;
 export const SearchResultsWidget = (props: ArticleSearchResultsProps): JSX.Element => {
   const {
     widgetRef,
-    // actions: {
-    //   onResultsPerPageChange,
-    //   onPageNumberChange,
-    //   onItemClick,
-    //   onFilterClick,
-    //   onSortChange,
-    //   onFacetClick,
-    //   onClearFilters,
-    // },
-    state: { sortType, page, itemsPerPage },
-    queryResult: {
-      isLoading,
-      isFetching,
-      data: {
-        total_item: totalItems = 0,
-        sort: { choices: sortChoices = [] } = {},
-        facet: facets = [],
-        content: articles = [],
-      } = {},
-    },
+    queryResult: { isLoading, data: { content: articles = [] } = {} },
   } = useSearchResults<ArticleModel, InitialState>({
     query: (query: SearchResultsWidgetQuery) => {
       query
