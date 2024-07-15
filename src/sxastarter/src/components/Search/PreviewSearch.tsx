@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import type { PreviewSearchInitialState, PreviewSearchWidgetQuery } from '@sitecore-search/react';
+import { useRouter } from 'next/navigation';
+
 import {
   FilterAnd,
   FilterEqual,
@@ -27,6 +29,7 @@ interface Props {
 }
 
 export const PreviewSearch = ({ defaultItemsPerPage }: Props) => {
+  const router = useRouter();
   const [search, setSearch] = useState<string>('');
   const [isSearching, setIsSearching] = useState<boolean>();
   const sources = process.env.NEXT_PUBLIC_SEARCH_SOURCES;
@@ -72,11 +75,14 @@ export const PreviewSearch = ({ defaultItemsPerPage }: Props) => {
   };
 
   function handleSearchFormSubmit(e: FormEvent<HTMLFormElement>): void {
-    window.location.href = `/search?q=${search}`;
+    e.preventDefault();
+    window.location.href = `/en/search?q=${search}`;
+    //router.push(`/en/search?q=${search}`);
   }
 
   function handleRedirect(article: ArticleModel): void {
-    window.location.href = article.url;
+    alert('Not implemented yet');
+    //window.location.href = article.url;
   }
 
   return (

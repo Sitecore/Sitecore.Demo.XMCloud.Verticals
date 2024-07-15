@@ -1,0 +1,36 @@
+.search-results-container {
+  padding: 20px;
+
+  .result-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.5em;
+    }
+
+    p {
+      margin: 0 0 10px;
+      color: #666;
+    }
+
+    a {
+      color: #0070f3;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .no-results {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    font-size: 1.2em;
+  }
+}
