@@ -9,7 +9,7 @@ import {
   WidgetDataType,
 } from '@sitecore-search/react';
 import Link from 'next/link';
-
+import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 type ArticleModel = {
   id: string;
   type?: string;
@@ -33,6 +33,7 @@ type InitialState = SearchResultsInitialState<'itemsPerPage' | 'keyphrase' | 'pa
 const sources = process.env.NEXT_PUBLIC_SEARCH_SOURCES;
 
 export const SearchResultsWidget = (props: ArticleSearchResultsProps): JSX.Element => {
+  const { sitecoreContext } = useSitecoreContext();
   const {
     widgetRef,
     queryResult: { isLoading, data: { content: articles = [] } = {} },
@@ -61,7 +62,7 @@ export const SearchResultsWidget = (props: ArticleSearchResultsProps): JSX.Eleme
     if (result.url) window.location.href = result.url;
   }
 
-  if (!articles?.length)
+  if (sitecoreContext.pageEditing || !articles?.length)
     return (
       <div ref={widgetRef} className="search-results-container">
         <h1>Searching for {props.keyphrase}</h1>

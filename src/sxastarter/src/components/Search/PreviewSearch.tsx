@@ -1,5 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import type { PreviewSearchInitialState, PreviewSearchWidgetQuery } from '@sitecore-search/react';
+import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 
 import {
   FilterAnd,
@@ -18,8 +18,6 @@ type ArticleModel = {
   source_id?: string;
 };
 
-articles: Array<ArticleModel>;
-
 type InitialState = PreviewSearchInitialState<'itemsPerPage' | 'suggestionsList'>;
 
 interface Props {
@@ -30,8 +28,9 @@ export const PreviewSearch = ({ defaultItemsPerPage }: Props) => {
   const [search, setSearch] = useState<string>('');
   const [isSearching, setIsSearching] = useState<boolean>();
   const sources = process.env.NEXT_PUBLIC_SEARCH_SOURCES;
+  const { sitecoreContext } = useSitecoreContext();
 
-  PageController.getContext().setLocale({ country: 'au', language: 'en' });
+  PageController.getContext().setLocale({ country: 'au', language: 'en' }); //this should be handeled thgough a custom hook may be
 
   const {
     actions: { onKeyphraseChange },
@@ -49,11 +48,13 @@ export const PreviewSearch = ({ defaultItemsPerPage }: Props) => {
   });
 
   function keypharaseChangeHandler(e: ChangeEvent<HTMLInputElement>): void {
-    const keyphrase = e.target.value;
-    setIsSearching(true);
-    if (keyphrase.length === 0) setIsSearching(false);
-    setSearch(keyphrase);
-    onKeyphraseChange({ keyphrase: keyphrase });
+    if (!sitecoreContext.pageEditing) {
+      const keyphrase = e.target.value;
+      setIsSearching(true);
+      if (keyphrase.length === 0) setIsSearching(false);
+      setSearch(keyphrase);
+      onKeyphraseChange({ keyphrase: keyphrase });
+    }
   }
 
   const handleBlur = () => {
