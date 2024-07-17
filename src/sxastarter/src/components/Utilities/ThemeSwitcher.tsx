@@ -21,7 +21,12 @@ export const Default = (): JSX.Element => {
 
   return (
     <label className="theme-switcher">
+      <label htmlFor="theme-switcher" className="d-none">
+        Switch theme
+      </label>
       <input
+        name="theme-switcher"
+        id="theme-switcher"
         type="checkbox"
         checked={isSystemDark}
         onChange={() => setIsSystemDark(!isSystemDark)}
