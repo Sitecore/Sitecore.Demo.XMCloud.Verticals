@@ -23,9 +23,12 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Josephine Baxter
@@ -34,7 +37,7 @@ Languages:
       Value: Investment Specialist
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f8e393e3-57ff-46a7-b940-6b014bcbf03d"
+      Value: "2abdba7c-a6bc-4974-b5fb-d00ae05af784"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: <p>Josephine specializes in helping clients grow and protect their wealth through strategic investment planning. With a background in asset management and financial advisory services, she provides clients with personalized investment strategies and guidance to navigate today's complex financial markets.</p>
