@@ -2,7 +2,7 @@
 ID: "96327ba1-238d-4746-86da-4da54f3eedec"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/Authors/Olly Damon
+Path: /sitecore/content/Verticals/Services/Home/authors/Olly Damon
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage

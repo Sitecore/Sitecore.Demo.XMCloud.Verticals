@@ -2,7 +2,7 @@
 ID: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Parent: "57f2e85d-d695-4e6c-8c89-947ce5443e2e"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
-Path: /sitecore/content/Verticals/Services/Home/Authors
+Path: /sitecore/content/Verticals/Services/Home/authors
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
@@ -34,6 +34,10 @@ SharedFields:
     </r>
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Authors
   Versions:
   - Version: 1
     Fields:
@@ -51,7 +55,7 @@ Languages:
       Value: Authors
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9e005166-8db5-4732-a565-11a2718cbd14"
+      Value: "8077af42-1c7a-4de4-95f1-c71a6f798043"
 - Language: "fr-CA"
   Versions:
   - Version: 1

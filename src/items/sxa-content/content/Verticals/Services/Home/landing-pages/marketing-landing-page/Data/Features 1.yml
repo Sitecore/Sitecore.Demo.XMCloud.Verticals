@@ -1,0 +1,13 @@
+﻿---
+ID: "fcff8c1b-8626-409d-86fc-620a076227d5"
+Parent: "bad91f4f-9363-47b7-8963-bbffa11c9ce9"
+Template: "d3fdded9-44ae-4410-961c-3320cc82d638"
+Path: "/sitecore/content/Verticals/Services/Home/landing-pages/marketing-landing-page/Data/Features 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f18a9c78-8b6e-4ba5-b8b4-88a2b3c6ef1d"

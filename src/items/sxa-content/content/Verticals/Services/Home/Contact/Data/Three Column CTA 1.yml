@@ -2,7 +2,7 @@
 ID: "48bab351-f3fe-4446-95f0-d7402c4c5315"
 Parent: "60586523-4935-46e4-ad3c-1802e336e9ee"
 Template: "148d07ba-f923-4fb2-8907-0bd440d5db44"
-Path: /sitecore/content/Verticals/Services/Home/Contact/Data/Three Column CTA 1
+Path: /sitecore/content/Verticals/Services/Home/contact/Data/Three Column CTA 1
 SharedFields:
 - ID: "39b3d592-0895-4f30-9c17-454b171f0b2e"
   Hint: Image3

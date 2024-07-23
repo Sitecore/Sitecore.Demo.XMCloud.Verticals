@@ -2,7 +2,7 @@
 ID: "a9961429-a570-4e21-9a53-d1c8bf16cac4"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/Authors/Thomas Kamin
+Path: /sitecore/content/Verticals/Services/Home/authors/Thomas Kamin
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage

@@ -2,7 +2,7 @@
 ID: "74c7a410-b75e-415b-99dc-da2c7a586b03"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/Authors/Gabby Ross
+Path: /sitecore/content/Verticals/Services/Home/authors/Gabby Ross
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage
