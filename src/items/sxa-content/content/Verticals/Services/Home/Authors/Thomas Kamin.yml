@@ -2,7 +2,7 @@
 ID: "a9961429-a570-4e21-9a53-d1c8bf16cac4"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/Authors/Thomas Kamin
+Path: /sitecore/content/Verticals/Services/Home/authors/Thomas Kamin
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage
@@ -23,9 +23,12 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Thomas Kamin
@@ -34,7 +37,7 @@ Languages:
       Value: Chief Investment Officer
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "17335b31-05b9-471b-9b5c-5959240ed119"
+      Value: "d6556e09-ca9b-496c-a18f-58552b20e242"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |

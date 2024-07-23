@@ -2,7 +2,7 @@
 ID: "036fce7e-4b0b-4bc4-ba4c-243a516a976a"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/Authors/Alex Adams
+Path: /sitecore/content/Verticals/Services/Home/authors/Alex Adams
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage
@@ -23,9 +23,12 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Alex Adams
@@ -34,7 +37,7 @@ Languages:
       Value: Financial Advisor
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b418df32-3a19-4db4-91c7-c792e63acb95"
+      Value: "d9f2821e-a935-4597-adf7-efceddf299d8"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |

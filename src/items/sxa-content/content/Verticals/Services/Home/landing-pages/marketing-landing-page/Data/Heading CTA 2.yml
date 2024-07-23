@@ -1,0 +1,28 @@
+﻿---
+ID: "addebf98-1c5b-4228-ae2d-d92714565253"
+Parent: "bad91f4f-9363-47b7-8963-bbffa11c9ce9"
+Template: "fa136527-6302-471d-83ab-e66fc72bda99"
+Path: "/sitecore/content/Verticals/Services/Home/landing-pages/marketing-landing-page/Data/Heading CTA 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b874fa8e-3c8c-4769-9627-5a39e98603de"
+    - ID: "bbd90ce3-fdf4-425e-844b-63c5b3db8916"
+      Hint: Text
+      Value: "A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house."
+    - ID: "be9c7836-a932-4e3b-a4a0-c7d5aa869337"
+      Hint: Link
+      Value: 
+    - ID: "cef85d28-d6bc-4204-a2e4-8706c80d8a3c"
+      Hint: Heading
+      Value: Frequently asked questions
+    - ID: "ee323ed7-4732-4a64-a008-18df97dc0737"
+      Hint: Eyebrow
+      Value: FAQ

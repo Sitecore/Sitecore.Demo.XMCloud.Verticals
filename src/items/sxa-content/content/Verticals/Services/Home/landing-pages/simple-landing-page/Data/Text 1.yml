@@ -1,0 +1,22 @@
+﻿---
+ID: "306ecc80-b048-4293-b966-3d741eee2dfe"
+Parent: "d4fdcd3e-48d7-4531-91e4-62e94d9c28cf"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/Verticals/Services/Home/landing-pages/simple-landing-page/Data/Text 1"
+BranchID: "3458c2e1-2579-4f4d-b5a7-695336ed09d6"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B5B811C7-4BF5-4D7A-9F33-3998EA1F47F6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><h1>An Experience Design Service</h1></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "754278a3-0501-424f-abd0-eb795ed02aea"
