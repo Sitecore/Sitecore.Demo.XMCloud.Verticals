@@ -11,6 +11,20 @@ services:
     deploy:
       replicas: 0
 
+  # The solution build image is added here so it can be referenced as a build dependency
+  # for the images which use its output. Setting "replicas: 0" means docker compose will not
+  # include it in the running environment. See Dockerfile for more details.
+  solution:
+    # DEMO TEAM CUSTOMIZATION - demo subfolder, custom tag
+    image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
+    build:
+      context: .
+      args:
+        BUILD_CONFIGURATION: ${BUILD_CONFIGURATION}
+        BUILD_IMAGE: mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+    deploy:
+      replicas: 0
+
   rendering:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-rendering:${VERSION:-latest}
     build:
@@ -68,7 +82,11 @@ services:
       context: ./docker/build/cm
       args:
         PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xmcloud-cm:${SITECORE_VERSION}
+        # DEMO TEAM CUSTOMIZATION - demo subfolder, custom tag
+        SOLUTION_IMAGE: ${REGISTRY}${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
         TOOLS_IMAGE: ${TOOLS_IMAGE}:${SITECORE_VERSION}
+    depends_on:
+      - solution
     volumes:
       - ${LOCAL_DEPLOY_PATH}\platform:C:\deploy
       - ${LOCAL_DATA_PATH}\cm:C:\inetpub\wwwroot\App_Data\logs
