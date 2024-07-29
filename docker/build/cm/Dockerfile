@@ -16,3 +16,9 @@ COPY --from=tools C:\tools C:\tools
 # DEMO TEAM CUSTOMIZATION
 # Copy additional files to container
 COPY ./Data/ /inetpub/wwwroot/
+
+# Perform transforms
+RUN (Get-ChildItem -Path 'C:\\inetpub\\wwwroot\\xdts\\web*.xdt' -Recurse ) | `
+    ForEach-Object { & 'C:\\tools\\scripts\\Invoke-XdtTransform.ps1' -Path 'C:\\inetpub\\wwwroot\\web.config' -XdtPath $_.FullName `
+    -XdtDllPath 'C:\\tools\\bin\\Microsoft.Web.XmlTransform.dll'; };
+# END CUSTOMIZATION
