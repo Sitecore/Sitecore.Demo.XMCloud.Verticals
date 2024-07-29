@@ -2,7 +2,7 @@
 ID: "d4713fc0-9904-4458-b6bd-938e362f489b"
 Parent: "57f2e85d-d695-4e6c-8c89-947ce5443e2e"
 Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
-Path: /sitecore/content/Verticals/Services/Home/Insights
+Path: /sitecore/content/Verticals/Services/Home/insights
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
@@ -42,6 +42,10 @@ SharedFields:
     </r>
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Insights
   Versions:
   - Version: 1
     Fields:
@@ -53,7 +57,7 @@ Languages:
       Value: Insights
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Blog
+      Value: Insights
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f0236d98-7176-4d00-ad89-d3d806f49e16"
+      Value: "a7584e54-12e5-4266-b87f-f3a70da721c2"

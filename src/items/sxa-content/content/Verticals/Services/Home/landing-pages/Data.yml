@@ -1,0 +1,13 @@
+﻿---
+ID: "777c25a7-1a84-4bcf-ba57-70ba1dae15ba"
+Parent: "6abd44e0-5a6c-4050-a8a8-09c117ea6ddb"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/Verticals/Services/Home/landing-pages/Data"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe5718fd-082d-4f22-8fe1-f4b0595bf870"

@@ -1,0 +1,18 @@
+﻿---
+ID: "c86d29d2-93a6-4162-a805-086f8f1fb095"
+Parent: "44a6839c-8402-4d9e-9a18-506fcc4698aa"
+Template: "40472280-0a67-4c52-a06b-79e327af9f44"
+Path: "/sitecore/content/Verticals/Services/Home/landing-pages/marketing-landing-page/Data/Testimonials 1/Testimonial 4"
+BranchID: "339f37e2-761b-48ba-aa19-bd7b082373e9"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{934E13CF-31C7-4147-BE4A-6D1E945AA07A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6dc2de6e-1d27-4e2a-bde1-3df64224c01b"
