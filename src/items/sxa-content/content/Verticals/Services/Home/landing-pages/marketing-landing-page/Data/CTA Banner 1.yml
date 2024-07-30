@@ -1,0 +1,13 @@
+﻿---
+ID: "ac85c131-6967-4ad5-8ec6-6a92b1f81f1d"
+Parent: "bad91f4f-9363-47b7-8963-bbffa11c9ce9"
+Template: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+Path: "/sitecore/content/Verticals/Services/Home/landing-pages/marketing-landing-page/Data/CTA Banner 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96b3dff0-9f98-40ea-b918-344f2ceeb01e"
