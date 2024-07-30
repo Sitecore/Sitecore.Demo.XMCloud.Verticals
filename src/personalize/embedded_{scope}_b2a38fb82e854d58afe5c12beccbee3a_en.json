@@ -1,11 +1,11 @@
 {
-  "clientKey": "98fb257c57fd74ae8022f5e56ce81919",
-  "href": "https://api-us.boxever.com/v3/flowDefinitions/b72a4b0d-320c-4392-843b-0f62786c3d4b",
-  "ref": "b72a4b0d-320c-4392-843b-0f62786c3d4b",
+  "clientKey": "3509a0a2b7cc0542af1e697ea16dafe9",
+  "href": "https://api-us.boxever.com/v3/flowDefinitions/4a675e0e-3d90-47cf-87e9-7c0225d4fd40",
+  "ref": "4a675e0e-3d90-47cf-87e9-7c0225d4fd40",
   "name": "embedded_{scope}_b2a38fb82e854d58afe5c12beccbee3a_en",
-  "modifiedByRef": "jADJcMBbeLnQdK5U32Hrv5tAZJNWJHJ8@clients",
-  "modifiedAt": "2024-07-08T14:03:26.103Z",
-  "revision": 2,
+  "modifiedByRef": "auth0|639200ce784f29a69639bad0",
+  "modifiedAt": "2024-06-10T16:42:45.087Z",
+  "revision": 7,
   "archived": false,
   "friendlyId": "embedded_{scope}_b2a38fb82e854d58afe5c12beccbee3a_en",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,7 +20,7 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-07-08T14:03:26.251Z",
+    "modifiedAt": "2024-06-10T16:42:45.115Z",
     "splits": [
       {
         "template": "{\"variantId\": \"5e9637fd02a84b21b5f46c1466e26e17\"}",
@@ -119,8 +119,8 @@
   "variants": [],
   "transpiledVariants": [
     {
-      "ref": "fcb6258b-0764-41ca-a293-3af2d69cfb64",
-      "name": "Business Page View",
+      "ref": "8ee5565e-452b-4b72-a8aa-de220bee67f7",
+      "name": "Retirement Page View",
       "tasks": [
         {
           "implementation": "templateRenderTask",
@@ -155,7 +155,7 @@
     "startDate": "2024-06-10T16:38:13.665Z"
   },
   "revisions": {
-    "href": "https://api-us.boxever.com/v3/flowDefinitions/b72a4b0d-320c-4392-843b-0f62786c3d4b/revisions"
+    "href": "https://api-us.boxever.com/v3/flowDefinitions/4a675e0e-3d90-47cf-87e9-7c0225d4fd40/revisions"
   },
   "sampleSizeConfig": {
     "baseValue": 0.15,
