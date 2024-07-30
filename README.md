@@ -42,6 +42,8 @@ This will work only on Windows and deploy all Content Management roles and inter
 
    Open https://www.sxastarter.localhost with your browser to see the front-end of the website. Content Management UI will be available at https://xmcloudcm.localhost
 
+2.  Go to `/sitecore/system/Modules/Layout Service/Rendering Contents Resolvers/Datasource Item Children Resolver` and uncheck  the `Include Server URL in Media URLs` checkbox.
+
 ## Updating color palette
 
 Go to the `src\sxastarter\src\assets\sass\abstracts\vars` and update the colors in the `_colors.scss` file. Note, that each site has it's own color set for both light and dark theme.
