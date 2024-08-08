@@ -66,12 +66,9 @@ $hamburger-margin: 18px;
       }
 
       .dark & {
-        .button {
+        .button-nav-item a {
           background-color: var(--text-body);
-
-          a {
-            color: var(--bg-body);
-          }
+          color: var(--bg-body);
 
           &:hover {
             filter: brightness(85%);
