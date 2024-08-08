@@ -2,13 +2,18 @@
 @import 'src/assets/sass/abstracts/vars';
 
 .navigation {
+  .button-nav-item a {
+    @extend .button;
+    @extend .button-main;
+  }
+
   ul {
     padding-left: 0;
   }
 
   .level0,
   .level1 {
-    &:not(.button) {
+    &:not(.button-nav-item) {
       > .navigation-title > a {
         font-size: $navigation-font-basic;
 
@@ -40,7 +45,7 @@
   }
 
   &.navigation-centered {
-    .component-content ul li.level1:not(.button) > .navigation-title > a {
+    .component-content ul li.level1:not(.button-nav-item) > .navigation-title > a {
       font-weight: normal;
     }
 
@@ -54,7 +59,7 @@
       }
 
       li.level1.item0.first,
-      li.button {
+      li.button-nav-item {
         margin-left: auto;
       }
     }
