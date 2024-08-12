@@ -24,4 +24,29 @@
   .author-bio {
     font-size: 125%;
   }
+
+  &-simple {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    @include respond-to(mobile-large) {
+      margin-top: $component-margin;
+      padding-left: $size-padding;
+      padding-right: $size-padding;
+    }
+
+    .text-col {
+      max-width: 50rem;
+      margin-right: auto;
+    }
+
+    .img-col {
+      img {
+        border-radius: var(--roundness);
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+      }
+    }
+  }
 }
