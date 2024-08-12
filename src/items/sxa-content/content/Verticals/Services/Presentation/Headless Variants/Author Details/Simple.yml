@@ -1,0 +1,13 @@
+﻿---
+ID: "5faaa36d-77f3-4b48-91d0-1b76f6e24a92"
+Parent: "1f79dead-a422-4b15-a242-d55a20da91e9"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Author Details/Simple
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b2109086-0f0d-4095-93a4-df1d66f3b1fb"

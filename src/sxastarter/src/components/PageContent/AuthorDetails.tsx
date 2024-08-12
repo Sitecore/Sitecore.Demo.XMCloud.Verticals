@@ -68,3 +68,33 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
     </div>
   );
 };
+
+export const Simple = (props: PageBackgroundProps): JSX.Element => {
+  const id = props.params?.RenderingIdentifier;
+  return (
+    <div
+      className={`component author-details-simple col-12 ${props.params?.styles?.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container container-wide">
+        <div className="row g-5">
+          <div className="text-col col-lg-8">
+            <h6 className="eyebrow-accent">
+              <Text field={props.fields.Position} />
+            </h6>
+            <h1 className="display-2 fw-bold">
+              <Text field={props.fields.Name} />
+            </h1>
+
+            <div className="rich-content mb-4">
+              <RichText field={props.fields.Bio} />
+            </div>
+          </div>
+          <div className="img-col col-lg-4">
+            <Image field={props.fields.Photo} className="author-img img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

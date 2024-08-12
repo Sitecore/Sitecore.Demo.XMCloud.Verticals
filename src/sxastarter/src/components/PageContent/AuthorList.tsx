@@ -137,5 +137,47 @@ const AuthorListSlider = (props: AuthorListComponentProps): JSX.Element => {
   );
 };
 
+const AuthorListSimple = (props: AuthorListComponentProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const authors = props.fields?.items?.filter((item) => item.name !== 'Data');
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
+  const { t } = useI18n();
+
+  return (
+    <div
+      className={`component author-list author-list-simple ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="row gx-5 row-gap-5 justify-content-between justify-content-lg-start">
+          {authors?.map((author) => (
+            <div key={author.url} className="col-sm-5 col-lg-3">
+              <div>
+                <Image field={author.fields.Photo} />
+              </div>
+              <div>
+                <h3 className="fs-4 mt-4 mb-1">
+                  <Text field={author.fields.Name}></Text>
+                </h3>
+                <h4 className="position fw-normal mb-3">
+                  <Text field={author.fields.Position} />
+                </h4>
+                <div className={`bio ${isPageEditing ? '' : 'clamped'}`}>
+                  <RichText field={author.fields.Bio}></RichText>
+                </div>
+                <Link href={author.url} className="button button-simple">
+                  {t('Read more') || 'Read more'}
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export const Default = withDatasourceCheck()<AuthorListComponentProps>(AuthorListDefault);
 export const Slider = withDatasourceCheck()<AuthorListComponentProps>(AuthorListSlider);
+export const Simple = withDatasourceCheck()<AuthorListComponentProps>(AuthorListSimple);
