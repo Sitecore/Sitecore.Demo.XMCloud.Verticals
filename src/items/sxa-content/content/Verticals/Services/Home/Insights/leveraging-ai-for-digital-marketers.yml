@@ -1,12 +1,24 @@
 ﻿---
 ID: "175b6e27-30ea-4253-bb28-fd16206c66b7"
 Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
-Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Template: "e551c010-8085-470e-a178-32f936abdbbb"
 Path: "/sitecore/content/Verticals/Services/Home/insights/leveraging-ai-for-digital-marketers"
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1333C7A2-2A6C-4310-AE74-8D5DE936F8B3}"
+          s:ds="{036FCE7E-4B0B-4BC4-BA4C-243A516A976A}" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:
@@ -19,7 +31,16 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
-    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Leveraging AI for digital marketers
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3646dab7-faee-410e-b49f-092b5e849364"
+    - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |
         <p>Artificial intelligence (AI) is revolutionizing the digital marketing industry, providing agencies with powerful tools to enhance their strategies, optimize campaigns, and deliver exceptional results for clients. In this blog post, we'll explore how your digital agency can successfully leverage AI in 2024 to stay ahead of the competition and drive significant growth.</p>
@@ -86,18 +107,9 @@ Languages:
         
         <h2>Conclusion</h2>
         <p>AI will continue to transform the digital marketing landscape, offering unprecedented opportunities for efficiency, innovation, and growth. By leveraging AI to enhance customer insights, automate repetitive tasks, optimize ad campaigns, improve content strategy, and enhance customer experience, your digital agency can stay ahead of the competition and deliver exceptional results for clients. Embrace AI and unlock its potential to drive your agency's success in the ever-evolving digital world.</p>
-    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
-      Hint: __Workflow state
-      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
-    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+    - ID: "9756a066-a311-41b8-9613-477bfd471c23"
       Hint: Excerpt
       Value: Artificial intelligence is transforming the digital marketing landscape, offering unprecedented opportunities for efficiency and innovation. Learn how your organization can successfully harness AI to enhance strategies, optimize campaigns, and deliver exceptional results for customers.
-    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
-      Hint: NavigationTitle
-      Value: Leveraging AI for digital marketers
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "5d693344-dcb2-44f1-82a3-486812878a63"
-    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+    - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
       Hint: Title
       Value: Leveraging AI for digital marketers

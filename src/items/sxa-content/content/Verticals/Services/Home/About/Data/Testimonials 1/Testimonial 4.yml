@@ -3,7 +3,6 @@ ID: "6d92cb91-7104-4b9f-ab32-65761544e697"
 Parent: "699415ec-7124-40fe-b496-0bd026409e6c"
 Template: "40472280-0a67-4c52-a06b-79e327af9f44"
 Path: /sitecore/content/Verticals/Services/Home/about/Data/Testimonials 1/Testimonial 4
-BranchID: "339f37e2-761b-48ba-aa19-bd7b082373e9"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
@@ -13,6 +12,18 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "347076d0-eb36-489e-9452-b0d48ee2641a"
+      Hint: Rating
+      Value: 5
+    - ID: "68135ba0-9f86-45d8-8744-a22ed6f2e82f"
+      Hint: AuthorPosition
+      Value: Head of Digital Marketing at FinTech Solutions
+    - ID: "89aa75c0-8a07-43ce-b0be-989877ace891"
+      Hint: Content
+      Value: Our experience has been nothing short of fantastic. Their strategic insights and innovative solutions helped us launch a successful digital campaign that surpassed our goals. The level of dedication and expertise they brought to the table was impressive. We highly recommend them to anyone looking to elevate their digital presence and drive real results.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dd4e106d-75d2-4ba1-a738-b48dfba97532"
+      Value: "57605ec8-13e8-4876-bf38-5ff7d8d3fec4"
+    - ID: "f8bed196-3478-41ea-9487-254ee08b2e2e"
+      Hint: AuthorName
+      Value: James Thompson

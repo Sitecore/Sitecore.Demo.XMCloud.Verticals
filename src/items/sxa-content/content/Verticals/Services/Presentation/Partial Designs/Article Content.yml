@@ -34,9 +34,9 @@ SharedFields:
         <r
           uid="{372E9FD8-E5EC-4447-A758-8B8969DC808A}"
           p:after="r[@uid='{60B3411F-0E13-4081-961C-625800E11120}']"
-          s:ds="d4713fc0-9904-4458-b6bd-938e362f489b"
+          s:ds="{D4713FC0-9904-4458-B6BD-938E362F489B}"
           s:id="{52733592-6F5D-4FB4-8003-9B8223C5BC76}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberOfItems&amp;FieldNames=%7B4708A14B-D480-42A6-8D58-C92690B48356%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberOfItems=3&amp;FieldNames=%7B4708A14B-D480-42A6-8D58-C92690B48356%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
           s:ph="/headless-main/background-page-content-0-1/container-3" />
         <r
           uid="{FC73FDF7-ADB2-403B-A682-1E904F763FC3}"
@@ -63,11 +63,11 @@ Languages:
       Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "64d49e92-d290-4814-8cf7-a9d253989032"
+      Value: "1fc5238a-e949-4fec-b33a-72eba6232a55"
 - Language: "fr-CA"
   Versions:
   - Version: 1
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4b6a4260-8b5a-473d-a9d6-6d6a39e75ba1"
+      Value: "5210f5dc-8f8a-4543-bfaf-e496b739c64b"

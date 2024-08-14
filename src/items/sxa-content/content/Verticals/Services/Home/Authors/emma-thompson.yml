@@ -1,8 +1,8 @@
 ﻿---
-ID: "036fce7e-4b0b-4bc4-ba4c-243a516a976a"
+ID: "509a2ef1-02ab-43d3-b0c8-df48d7bf69e0"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/authors/Alex Adams
+Path: "/sitecore/content/Verticals/Services/Home/authors/emma-thompson"
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage
@@ -11,15 +11,19 @@ SharedFields:
 - ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
   Hint: Photo
   Value: |
-    <image mediaid="{FE2821DD-786C-4E12-A89D-2A3FAAC2014E}" alt="Alex Bio Image" height="" width="" hspace="" vspace="" />
+    <image mediaid="{6135F03F-7CE3-45E4-BF8C-4119D75B6C75}" alt="Josephine Author Bio" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 700
+  Value: 100
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Emma Thompson
   Versions:
   - Version: 1
     Fields:
@@ -31,20 +35,19 @@ Languages:
       Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Alex Adams
+      Value: Emma Thompson
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
-      Value: Financial Advisor
+      Value: Creative Director
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d9f2821e-a935-4597-adf7-efceddf299d8"
+      Value: "64d26ebe-f19f-4618-a033-b3ed0fc20c33"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
-      Value: |
-        <div class="ck-content"><p>Alex is dedicated to helping our clients achieve their financial goals and aspirations. With a passion for personalized service and a deep understanding of wealth management strategies, he works closely with clients to develop financial plans that align with their unique needs and objectives.</p></div>
+      Value: <p>Emma is a visionary creative director with over 12 years of experience in digital design and brand development. She leads the creative team with a focus on innovation and storytelling, ensuring that every project resonates with the client's brand identity and audience. Emma has a keen eye for detail and a passion for creating visually compelling and engaging digital experiences.</p>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Alex Adams
+      Value: Emma Thompson
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -54,17 +57,16 @@ Languages:
       Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Alex Adams
+      Value: Josephine Baxter
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
-      Value: Financial Advisor
+      Value: Investment Specialist
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8a0c7c2f-a98e-4de2-b3cd-807a51279960"
+      Value: "5c441fee-81b4-43ae-9c8b-a1d571313d4a"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
-      Value: |
-        <div class="ck-content"><p>Alex is dedicated to helping our clients achieve their financial goals and aspirations. With a passion for personalized service and a deep understanding of wealth management strategies, he works closely with clients to develop financial plans that align with their unique needs and objectives.</p></div>
+      Value: <p>Josephine specializes in helping clients grow and protect their wealth through strategic investment planning. With a background in asset management and financial advisory services, she provides clients with personalized investment strategies and guidance to navigate today's complex financial markets.</p>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Alex Adams
+      Value: Josephine Baxter

@@ -2,7 +2,7 @@
 ID: "508e24f3-17ca-42ea-88f6-0682d119d85f"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/authors/Nick Reddick
+Path: "/sitecore/content/Verticals/Services/Home/authors/jack-martinez"
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage
@@ -17,6 +17,10 @@ SharedFields:
   Value: 300
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Jack Martinez
   Versions:
   - Version: 1
     Fields:
@@ -25,20 +29,19 @@ Languages:
       Value: <r />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Nick Reddick
+      Value: Jack Martinez
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
-      Value: Senior Financial Analyst
+      Value: Head of Digital Strategy
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "804b78b7-772e-49ab-91ed-543b73c32d34"
+      Value: "7c35847b-2718-40d9-ae66-0b6b96eb5736"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
-      Value: |
-        <div class="ck-content"><p>As our senior financial analyst, Nick brings a wealth of knowledge and analytical prowess to our team. With a background in investment banking and portfolio management, he specializes in financial modeling and risk assessment, providing valuable insights that inform our investment strategies and business decisions.</p></div>
+      Value: <p>Jack is a strategic thinker with a knack for turning data into actionable insights. With a background in marketing analytics and over 10 years of experience, he develops and implements digital strategies that drive growth and engagement. Jack is dedicated to helping clients navigate the digital landscape and achieve their business goals.</p>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Nick Reddick
+      Value: Jack Martinez
 - Language: "fr-CA"
   Versions:
   - Version: 1

@@ -8,6 +8,19 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "34c7ca9b-6c24-4133-bd83-b453b838eb0b"
+      Hint: Link
+      Value: |
+        <link text="See our projects" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FFEA8CA4-CF8C-453A-9F7D-49D6E60EEA5D}" />
+    - ID: "72b19acc-d575-4ae4-a0cf-2182e0c64562"
+      Hint: Eyebrow
+      Value: Our work
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "088ba5a8-b0a3-400a-ae72-c0b5774fa3e4"
+      Value: "1d8ba0ef-b625-42fa-85b2-d074b53dfe64"
+    - ID: "b03c10d8-11a2-48ca-9822-3640768ed2b7"
+      Hint: Text
+      Value: <p>Discover how we've helped brands transform their digital presence through innovative strategies and creative solutions.</p>
+    - ID: "e62af488-48ce-4ae4-a2bb-37ad346981a4"
+      Hint: Title
+      Value: Explore our latest projects

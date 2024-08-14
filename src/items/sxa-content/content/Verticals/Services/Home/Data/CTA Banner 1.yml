@@ -8,6 +8,10 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "34c7ca9b-6c24-4133-bd83-b453b838eb0b"
+      Hint: Link
+      Value: |
+        <link text="Find out how" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{6805576D-DE6A-4145-A82C-64D6F080F1B6}" />
     - ID: "6f94c5b4-e2b4-41eb-899f-9a29904b8e18"
       Hint: Image
       Value: |
@@ -17,10 +21,10 @@ Languages:
       Value: Get Started
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9e529bec-d837-4885-ae83-7476d2876ab6"
+      Value: "c199292d-ba9b-47a4-925a-f8c06dd447f1"
     - ID: "b03c10d8-11a2-48ca-9822-3640768ed2b7"
       Hint: Text
       Value: 
     - ID: "e62af488-48ce-4ae4-a2bb-37ad346981a4"
       Hint: Title
-      Value: We Help Companies Move Faster
+      Value: We help organizations move faster

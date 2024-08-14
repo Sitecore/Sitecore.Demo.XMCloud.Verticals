@@ -3,7 +3,6 @@ ID: "9f96ef75-45ad-42e9-afc1-427c60c3c716"
 Parent: "2f452a17-cc57-4406-ae54-da7c206f7be3"
 Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
 Path: /sitecore/content/Verticals/Services/Home/contact/Data/Questions 1/Question 1
-BranchID: "bba2c8f4-b940-4820-bf71-1b089bc5f86a"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
@@ -15,4 +14,10 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4368c430-479f-4bcd-8e77-4783e54f9f1d"
+      Value: "fdac56a6-7e3f-4e0a-a06a-3aafacdebfbb"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "Can I schedule a consultation with your team?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: "<p>Absolutely! We offer free initial consultations to discuss your needs and explore how we can help. Please use the contact form to let us know your preferred date and time, and we'll do our best to accommodate your schedule.</p>"
