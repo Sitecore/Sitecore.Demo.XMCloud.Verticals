@@ -1,8 +1,8 @@
 ﻿---
-ID: "1ea7f33a-4c3e-4b0f-9b96-f1ef89c2ad4c"
+ID: "508e24f3-17ca-42ea-88f6-0682d119d85f"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/authors/Patricia Ball
+Path: "/sitecore/content/Verticals/Services/Home/authors/jack-martinez"
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage
@@ -11,12 +11,16 @@ SharedFields:
 - ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
   Hint: Photo
   Value: |
-    <image mediaid="{4859F21A-8F82-4ABC-AD20-F6CED8CF82AC}" alt="Patricia Bio Image" height="" width="" hspace="" vspace="" />
+    <image mediaid="{5DBF2EC2-8350-4239-947F-DDACC6C16E81}" alt="Bio headshot" height="" width="" hspace="" vspace="" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 500
+  Value: 300
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Jack Martinez
   Versions:
   - Version: 1
     Fields:
@@ -25,20 +29,19 @@ Languages:
       Value: <r />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Patricia Ball
+      Value: Jack Martinez
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
-      Value: Digital marketer
+      Value: Head of Digital Strategy
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7249ef95-c2ed-43af-8b85-87479e6c6059"
+      Value: "04b3d9f2-0edc-4ec6-bd7b-d5b11915dc72"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
-      Value: |
-        <div class="ck-content"><p>Patricia is a seasoned digital marketer with a passion for driving results through innovative digital strategies. With a background in digital advertising, social media management, and content marketing, she excels at creating compelling campaigns that engage audiences and drive conversions.</p></div>
+      Value: <p>Jack is a strategic thinker with a knack for turning data into actionable insights. With a background in marketing analytics and over 10 years of experience, he develops and implements digital strategies that drive growth and engagement. Jack is dedicated to helping clients navigate the digital landscape and achieve their business goals.</p>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Patricia Ball
+      Value: Jack Martinez
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -48,17 +51,17 @@ Languages:
       Value: <r />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Patricia Ball
+      Value: Nick Reddick
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
-      Value: Digital marketer
+      Value: Senior Financial Analyst
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eb2cc770-f4e1-4628-ae56-0efc8ad396cd"
+      Value: "c47d0125-2876-4825-8bfe-959444b3dd7b"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |
-        <div class="ck-content"><p>Patricia is a seasoned digital marketer with a passion for driving results through innovative digital strategies. With a background in digital advertising, social media management, and content marketing, she excels at creating compelling campaigns that engage audiences and drive conversions.</p></div>
+        <div class="ck-content"><p>As our senior financial analyst, Nick brings a wealth of knowledge and analytical prowess to our team. With a background in investment banking and portfolio management, he specializes in financial modeling and risk assessment, providing valuable insights that inform our investment strategies and business decisions.</p></div>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Patricia Ball
+      Value: Nick Reddick

@@ -8,6 +8,30 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "375bdefa-68a4-4da9-aaa9-fe47bb5fb441"
+      Hint: Value1
+      Value: 1000
+    - ID: "3d96d269-32ef-4ebb-b651-e7ec45497c93"
+      Hint: Caption1
+      Value: Combined years of experience
+    - ID: "56884586-c14f-4b35-83c8-e1c1650c7b36"
+      Hint: Value3
+      Value: 75
+    - ID: "5935d1eb-46d7-4a5f-936a-73d3235fe72a"
+      Hint: Symbol1
+      Value: +
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "37046b15-76cf-4a25-800f-4346470b3c9f"
+      Value: "b5152cf1-3c36-4c44-b026-de51ec89fc98"
+    - ID: "a5f0268c-d355-4872-9411-c869ad9a1267"
+      Hint: Caption3
+      Value: Agency members
+    - ID: "cc0eff80-a988-4cca-9dbc-5d0688781148"
+      Hint: Value2
+      Value: 500
+    - ID: "d12ed4b9-522e-42b3-b77c-ecd0e59e084f"
+      Hint: Symbol3
+      Value: +
+    - ID: "f3ee3553-9d93-4d8e-89e9-7a9050c97a5a"
+      Hint: Caption2
+      Value: Satisfied clients

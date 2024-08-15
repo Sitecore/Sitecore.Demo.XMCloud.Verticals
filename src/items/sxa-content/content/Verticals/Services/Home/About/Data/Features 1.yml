@@ -8,6 +8,25 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "07f9bc8b-d647-4c6f-a67f-dc3b813f93cc"
+      Hint: Text1
+      Value: Content is top dog, now and always.
+    - ID: "2ea267e1-7e99-40db-b919-2ab9ade0658c"
+      Hint: Link
+      Value: |
+        <link text="Get in touch" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{6805576D-DE6A-4145-A82C-64D6F080F1B6}" />
+    - ID: "5d056c68-5c1a-4f1e-b5e1-55ff37357f95"
+      Hint: Eyebrow
+      Value: SEO experts
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9b782158-234a-4432-9f31-a0d7a3cbe90a"
+      Value: "900a1f0e-7bd0-4148-81a6-cce4f46b17d8"
+    - ID: "c4e8a8a6-23ee-4204-a871-d7615b0ccd3e"
+      Hint: Text2
+      Value: No longer just a regulator requirement, accessibility is a SEO must have.
+    - ID: "e325f933-a74c-4ab8-a40e-a6298391e093"
+      Hint: Title1
+      Value: Content
+    - ID: "ea0498ea-e265-4f30-a26d-0650429f5f56"
+      Hint: Text
+      Value: The details matter for you and your customers.

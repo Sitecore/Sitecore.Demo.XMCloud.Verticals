@@ -1,21 +1,29 @@
 ﻿---
-ID: "96327ba1-238d-4746-86da-4da54f3eedec"
+ID: "74c7a410-b75e-415b-99dc-da2c7a586b03"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/authors/Olly Damon
+Path: "/sitecore/content/Verticals/Services/Home/authors/michael-oreilly"
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage
   Value: |
     <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" alt="Author Paper" height="" width="" hspace="" vspace="" />
+- ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
+  Hint: Photo
+  Value: |
+    <image mediaid="{1BC03DE2-E4AB-4EAB-AFB0-0E9784F0224E}" alt="Bio headshot" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 450
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Michael O'Reilly
   Versions:
   - Version: 1
     Fields:
@@ -27,20 +35,20 @@ Languages:
       Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Olly Damon
+      Value: Michael O'Reilly
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
-      Value: Client Services Manager
+      Value: SEO Specialist
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "07ba5bea-3221-450f-ba56-2e50653d44e4"
+      Value: "0780d7db-a7be-48b4-83ce-2498c8187c5f"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |
-        <div class="ck-content"><p>Olly is dedicated to delivering exceptional service and support to our clients. With a focus on building strong client relationships and exceeding expectations, she leads our client services team in providing timely and responsive assistance to address client inquiries, resolve issues, and ensure satisfaction.</p></div>
+        <div class="ck-content"><p>Michael is an SEO expert with a proven track record of improving search engine rankings and driving organic traffic. He is passionate about the ever-changing world of SEO and stays ahead of the latest trends and algorithm updates. Michael works closely with clients to optimize their digital presence and ensure their content reaches the right audience.</p></div>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Olly Damon
+      Value: Michael O'Reilly
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -50,17 +58,14 @@ Languages:
       Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Olly Damon
-    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
-      Hint: Position
-      Value: Client Services Manager
+      Value: Gabby Ross
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1de781d8-cd07-4f36-8371-d12ee9617f19"
+      Value: "93174cbb-0f60-4352-b71c-204d0e90ef81"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |
-        <div class="ck-content"><p>Olly is dedicated to delivering exceptional service and support to our clients. With a focus on building strong client relationships and exceeding expectations, she leads our client services team in providing timely and responsive assistance to address client inquiries, resolve issues, and ensure satisfaction.</p></div>
+        <div class="ck-content"><p>Gabby has a proven track record of success in product management and development. With a passion for innovation and a keen eye for market trends, she plays a pivotal role in bringing new products to market and enhancing existing offerings.</p></div>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Olly Damon
+      Value: Gabby Ross

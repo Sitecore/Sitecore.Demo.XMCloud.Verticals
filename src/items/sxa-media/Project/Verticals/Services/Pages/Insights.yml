@@ -1,0 +1,13 @@
+﻿---
+ID: "ee2a8cd4-b9a9-46cb-b309-fc350ccc3692"
+Parent: "da9d8c8c-a783-41b7-9f60-08ee4d583df2"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Verticals/Services/Pages/Insights
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e7a6491f-6931-44bf-8798-778478d7356f"

@@ -3,11 +3,13 @@ ID: "57f2e85d-d695-4e6c-8c89-947ce5443e2e"
 Parent: "a13c890b-43ea-45e2-8bad-a8838112b83d"
 Template: "5282d418-6c18-46eb-85af-9116cde9e6eb"
 Path: /sitecore/content/Verticals/Services/Home
-BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "4a749557-242b-4372-8a20-b2db9d406301"
   Hint: __AutoThumbnails
   Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -24,7 +26,7 @@ SharedFields:
           p:before="*"
           s:ds="local:/Data/Quote 1"
           s:id="{4B94B6D0-CA8E-4807-BB9A-4C3FBD21504C}"
-          s:par="FieldNames=%7B58EE26A1-1E77-4FB6-9EDB-1577B1FF05F1%7D&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=12"
+          s:par="FieldNames=%7B58EE26A1-1E77-4FB6-9EDB-1577B1FF05F1%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B7EBB6C9F-C1B0-4FB3-9B52-AEEC8055D6F4%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=12"
           s:ph="/headless-main/hero-banner-0-6" />
         <r
           uid="{108B0678-8676-4AF4-A4C7-F1B56F980F73}"
@@ -127,9 +129,9 @@ SharedFields:
         <r
           uid="{75675B98-72A4-4A02-9D5D-2779EBA983E5}"
           p:after="r[@uid='{52034691-76C4-4748-843F-D6F870E02B53}']"
-          s:ds="ffea8ca4-cf8c-453a-9f7d-49d6e60eea5d"
+          s:ds="{FFEA8CA4-CF8C-453A-9F7D-49D6E60EEA5D}"
           s:id="{3F98B12E-9693-47D6-8507-18B054CCFB8E}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberOfItems&amp;FieldNames=%7BD86A2F0B-E2DF-467D-8075-DF056ED26AF7%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=37"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberOfItems=4&amp;ShowFilters&amp;FieldNames=%7BD86A2F0B-E2DF-467D-8075-DF056ED26AF7%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=37"
           s:ph="headless-main" />
         <r
           uid="{E4735111-6FC0-49E4-B17A-1006F4AFBFCE}"
@@ -238,13 +240,16 @@ Languages:
     Fields:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
-      Value: <r />
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Services
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "243539bc-2627-40ee-a879-6e1af583ca7c"
+      Value: "1a50d9fa-4b1c-4550-9503-5927f4659a77"
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
-      Value: Home
+      Value: "PLAY! Services"

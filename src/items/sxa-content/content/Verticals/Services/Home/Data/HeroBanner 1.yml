@@ -15,10 +15,10 @@ Languages:
     Fields:
     - ID: "1e25a144-5899-4c7e-b0b8-d7209cd76d27"
       Hint: Text
-      Value: "Play! Agency provides a full service range including technical skills, design, business understanding."
+      Value: "Play! Services is a trusted digital partner for hundreds of organization around the world."
     - ID: "27b909fd-63d0-4f13-b449-fa185536d493"
       Hint: Tagline
-      Value: Modern Studio
+      Value: Modern solutions, satisfied clients
     - ID: "5485235d-569d-44d5-aa06-7df61f596638"
       Hint: Cta1
       Value: |
@@ -29,11 +29,11 @@ Languages:
         <image mediaid="{03F22709-A426-4DF2-8B93-C27C3FA48D43}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "94d526af-e0a8-4c85-b59e-e40d127188a8"
+      Value: "42ba3b01-92e2-43d4-bde0-620a02bd68d0"
     - ID: "dcd33f8a-fed4-4740-8729-e11d3c5eee64"
       Hint: Cta2
       Value: |
-        <link text="Contact Us" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FB70CB01-02FD-4E6C-A432-6BE3D537019D}" />
+        <link text="Contact Us" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{6805576D-DE6A-4145-A82C-64D6F080F1B6}" />
     - ID: "e91adc46-b038-4092-bc72-afd5ec708db5"
       Hint: Title
-      Value: We’re Here to Help Build Your Dream Project
+      Value: Let's build your dream project

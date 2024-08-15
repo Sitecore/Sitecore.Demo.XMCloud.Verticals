@@ -3,7 +3,6 @@ ID: "d8757a67-c77b-4a4a-acb9-bb60b6599122"
 Parent: "43e31ea7-b5c3-43b5-add6-9c4ab60ae909"
 Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
 Path: /sitecore/content/Verticals/Services/Home/about/Data/Questions 1/Question 3
-BranchID: "bba2c8f4-b940-4820-bf71-1b089bc5f86a"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
@@ -15,4 +14,10 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "92d736a2-f538-49f4-bf82-013ace0d537a"
+      Value: "ebfa6057-e146-4367-9970-ee522f8613b6"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "How do you approach a new project?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: <p>We start every project by getting to know our clients and understanding their goals, challenges, and target audience. This allows us to develop a tailored strategy that aligns with their vision. From there, we move into the design and development phase, ensuring that each element of the project reflects the client’s brand identity. We prioritize open communication and collaboration throughout the process to ensure a seamless and successful outcome.</p>

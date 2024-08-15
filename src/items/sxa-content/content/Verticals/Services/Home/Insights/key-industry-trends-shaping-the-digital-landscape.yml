@@ -1,16 +1,16 @@
 ﻿---
 ID: "be3859ad-9237-4504-964c-ded70fa2b8b3"
 Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
-Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Template: "e551c010-8085-470e-a178-32f936abdbbb"
 Path: "/sitecore/content/Verticals/Services/Home/insights/key-industry-trends-shaping-the-digital-landscape"
 SharedFields:
-- ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
+- ID: "0dbb463b-c1df-4459-a86b-bc89150dad6c"
   Hint: BackgroundImage
   Value: 
-- ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+- ID: "9344088a-f78e-4157-ab6e-2d5730f385ab"
   Hint: Thumbnail
   Value: |
-    <image mediaid="{8E29BED6-0475-4265-9F38-66360C2559CD}" />
+    <image mediaid="{99A78579-DE59-436E-95C3-CC7921226C5F}" alt="key-industry-trends-shaping-the-digital-landscape" height="" width="" hspace="" vspace="" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -20,6 +20,7 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
           uid="{1333C7A2-2A6C-4310-AE74-8D5DE936F8B3}"
+          s:ds="{508E24F3-17CA-42EA-88F6-0682D119D85F}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B34F596AD-6A8A-4695-B313-4CF9A9BEDFDE%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1" />
       </d>
     </r>
@@ -35,7 +36,13 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
-    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Key industry trends shaping the digital landscape
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d69ab7fd-fdec-4e70-b939-7ec50b1d0abb"
+    - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |
         <p>In the ever-evolving landscape of digital marketing, staying ahead of the curve is paramount for any digital agency. As we navigate through 2024, several key industry trends are emerging that are set to redefine the way we approach digital marketing. Here, we explore these trends and how digital agencies can leverage them to deliver exceptional value to their clients.</p>
@@ -77,15 +84,9 @@ Languages:
         
         <h2>Conclusion</h2>
         <p>The digital marketing landscape is in a constant state of flux, driven by technological advancements and changing consumer behaviors. By staying attuned to these trends and adapting accordingly, digital agencies can not only stay relevant but also drive significant growth for their clients. Embrace these trends, invest in the right tools and strategies, and get ready to navigate the exciting future of digital marketing.</p>
-    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+    - ID: "9756a066-a311-41b8-9613-477bfd471c23"
       Hint: Excerpt
       Value: "By keeping a pulse on emerging trends, your organization can position itself as a forward-thinking leader, ready to tackle the challenges and opportunities that lie ahead."
-    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
-      Hint: NavigationTitle
-      Value: Key industry trends shaping the digital landscape
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "983608eb-2820-40d4-ae5c-4f3babec9694"
-    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+    - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
       Hint: Title
       Value: Key industry trends shaping the digital landscape

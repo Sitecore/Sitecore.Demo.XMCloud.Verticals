@@ -1,8 +1,8 @@
 ﻿---
-ID: "74c7a410-b75e-415b-99dc-da2c7a586b03"
+ID: "96327ba1-238d-4746-86da-4da54f3eedec"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/authors/Gabby Ross
+Path: "/sitecore/content/Verticals/Services/Home/authors/sophia-lee"
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage
@@ -11,15 +11,19 @@ SharedFields:
 - ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
   Hint: Photo
   Value: |
-    <image mediaid="{59BA5624-1CCB-4354-BF21-8FB682EC70A0}" alt="Gabby Bio Image" height="" width="" hspace="" vspace="" />
+    <image mediaid="{9461F5F7-3D0C-4A78-BB0E-91A78D6273B4}" alt="Bio headshot" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 550
+  Value: 400
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Sophia Lee
   Versions:
   - Version: 1
     Fields:
@@ -31,17 +35,20 @@ Languages:
       Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Gabby Ross
+      Value: Sophia Lee
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Lead UX/UI Designer
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "174e1608-eea0-4ca5-ba8d-4e141130405e"
+      Value: "50219aa5-d032-4fd9-907e-a63104c1441e"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |
-        <div class="ck-content"><p>Gabby has a proven track record of success in product management and development. With a passion for innovation and a keen eye for market trends, she plays a pivotal role in bringing new products to market and enhancing existing offerings.</p></div>
+        <div class="ck-content"><p>Sophia is an expert in crafting intuitive and seamless user experiences. With a background in graphic design and a passion for user-centered design, she creates interfaces that are not only beautiful but also functional. Sophia believes that great design should be invisible, enhancing the user's journey through subtle and thoughtful interactions.</p></div>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Gabby Ross
+      Value: Sophia Lee
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -51,14 +58,17 @@ Languages:
       Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Gabby Ross
+      Value: Olly Damon
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: Client Services Manager
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "93174cbb-0f60-4352-b71c-204d0e90ef81"
+      Value: "1de781d8-cd07-4f36-8371-d12ee9617f19"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |
-        <div class="ck-content"><p>Gabby has a proven track record of success in product management and development. With a passion for innovation and a keen eye for market trends, she plays a pivotal role in bringing new products to market and enhancing existing offerings.</p></div>
+        <div class="ck-content"><p>Olly is dedicated to delivering exceptional service and support to our clients. With a focus on building strong client relationships and exceeding expectations, she leads our client services team in providing timely and responsive assistance to address client inquiries, resolve issues, and ensure satisfaction.</p></div>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Gabby Ross
+      Value: Olly Damon
