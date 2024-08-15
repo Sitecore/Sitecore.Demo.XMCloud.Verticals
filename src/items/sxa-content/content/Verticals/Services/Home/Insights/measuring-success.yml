@@ -1,12 +1,28 @@
 ﻿---
 ID: "6341b708-4e97-4af4-b4ea-497907f6e86e"
 Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
-Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Template: "e551c010-8085-470e-a178-32f936abdbbb"
 Path: "/sitecore/content/Verticals/Services/Home/insights/measuring-success"
 SharedFields:
+- ID: "9344088a-f78e-4157-ab6e-2d5730f385ab"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{48DA51CA-7557-4DCB-A04A-44C29BA96504}" alt="measuring-success" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1333C7A2-2A6C-4310-AE74-8D5DE936F8B3}"
+          s:ds="{036FCE7E-4B0B-4BC4-BA4C-243A516A976A}" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:
@@ -19,7 +35,16 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
-    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Measuring success: Tracking the effectiveness of social media marketing"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9aaa1363-c5c7-47ef-8211-bb3381e56845"
+    - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |
         <p>In the dynamic world of digital marketing, social media has become a powerful platform for reaching and engaging audiences. However, to truly understand the impact of your social media efforts, it’s essential to track and measure their effectiveness. For digital agencies, this means using the right metrics, tools, and strategies to evaluate performance and optimize campaigns. In this guide, we’ll explore how to effectively track the success of your social media marketing initiatives.</p>
@@ -92,18 +117,9 @@ Languages:
         <h2>Conclusion</h2>
         <p>Tracking the effectiveness of social media marketing is essential for digital agencies looking to maximize their impact and deliver value to clients. By defining clear objectives, identifying key metrics, utilizing analytics tools, monitoring and reporting regularly, and optimizing strategies based on data insights, you can ensure your social media campaigns achieve their full potential. Embrace these practices, and watch your social media efforts drive meaningful results.</p>
         
-    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
-      Hint: __Workflow state
-      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
-    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+    - ID: "9756a066-a311-41b8-9613-477bfd471c23"
       Hint: Excerpt
       Value: Effectively tracking the success of your social media marketing efforts is crucial for digital agencies. Discover key metrics, tools, and strategies to measure and enhance the impact of your social media campaigns in this detailed guide.
-    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
-      Hint: NavigationTitle
-      Value: "Measuring success: Tracking the effectiveness of social media marketing"
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "b73b66ea-e76c-460b-97cb-e1f7bf539daf"
-    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+    - ID: "afa77e48-1e92-44b7-ae46-db24b601e6d1"
       Hint: Title
       Value: "Measuring success: Tracking the effectiveness of social media marketing"

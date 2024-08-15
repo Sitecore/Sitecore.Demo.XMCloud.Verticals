@@ -10,18 +10,18 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8b751737-e77a-4656-ab27-241965a5e809"
+      Value: "140903a5-89ca-461a-8de3-80cb30247940"
     - ID: "93414330-5cd6-467d-b28f-a39b14a40a89"
       Hint: AuthorPosition
       Value: 
     - ID: "a386d33d-fd48-47b5-94c6-1db67b44a93c"
       Hint: Quote
       Value: |
-        "Put themselves in the merchant's shoes"
+        "I count on PLAY! Services as much as my own team."
     - ID: "a6fe216e-7eb0-4e8b-9ab9-355b3ffbf8c1"
       Hint: AuthorName
-      Value: Meta Inc
+      Value: Alys Daniels, CTO at Global Insurance Group
     - ID: "c84f94ae-a643-42a1-85f4-506ff34dcb52"
       Hint: Image
       Value: |
-        <image mediaid="{9039A674-FD06-4F75-B8F9-6BDFAF5E0FE1}" />
+        <image mediaid="{DAD120F3-169A-4C3C-84B2-E7D9D12F587F}" alt="Bio headshot" height="" width="" hspace="" vspace="" />

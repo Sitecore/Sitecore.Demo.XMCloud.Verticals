@@ -2,7 +2,7 @@
 ID: "509a2ef1-02ab-43d3-b0c8-df48d7bf69e0"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/authors/Josephine Baxter
+Path: "/sitecore/content/Verticals/Services/Home/authors/emma-thompson"
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage
@@ -11,7 +11,7 @@ SharedFields:
 - ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
   Hint: Photo
   Value: |
-    <image mediaid="{6135F03F-7CE3-45E4-BF8C-4119D75B6C75}" alt="Josephine Author Bio" height="" width="" hspace="" vspace="" />
+    <image mediaid="{D26B7818-DA56-481C-BC9E-C4F4E2719099}" alt="Bio headshot" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
@@ -20,6 +20,10 @@ SharedFields:
   Value: 100
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Emma Thompson
   Versions:
   - Version: 1
     Fields:
@@ -31,19 +35,19 @@ Languages:
       Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Josephine Baxter
+      Value: Emma Thompson
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
-      Value: Investment Specialist
+      Value: Creative Director
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2abdba7c-a6bc-4974-b5fb-d00ae05af784"
+      Value: "a4c539e2-377f-40cd-ae41-2034f032b879"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
-      Value: <p>Josephine specializes in helping clients grow and protect their wealth through strategic investment planning. With a background in asset management and financial advisory services, she provides clients with personalized investment strategies and guidance to navigate today's complex financial markets.</p>
+      Value: <p>Emma is a visionary creative director with over 12 years of experience in digital design and brand development. She leads the creative team with a focus on innovation and storytelling, ensuring that every project resonates with the client's brand identity and audience. Emma has a keen eye for detail and a passion for creating visually compelling and engaging digital experiences.</p>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Josephine Baxter
+      Value: Emma Thompson
 - Language: "fr-CA"
   Versions:
   - Version: 1

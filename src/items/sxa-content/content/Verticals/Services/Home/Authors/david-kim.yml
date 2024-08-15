@@ -1,8 +1,8 @@
 ﻿---
-ID: "508e24f3-17ca-42ea-88f6-0682d119d85f"
+ID: "1ea7f33a-4c3e-4b0f-9b96-f1ef89c2ad4c"
 Parent: "83beea4e-5e8d-4c88-9da0-b6e2b3b421e0"
 Template: "aad350f5-9331-4d71-a942-e3643653c028"
-Path: /sitecore/content/Verticals/Services/Home/authors/Nick Reddick
+Path: "/sitecore/content/Verticals/Services/Home/authors/david-kim"
 SharedFields:
 - ID: "2404bb97-b42a-439a-be76-de66213cb281"
   Hint: BackgroundImage
@@ -11,12 +11,16 @@ SharedFields:
 - ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
   Hint: Photo
   Value: |
-    <image mediaid="{7B90D0EB-5CC2-4B14-890D-4277BE776C3B}" alt="Nick Bio Image" height="" width="" hspace="" vspace="" />
+    <image mediaid="{34DAB229-645C-445F-81FC-AEE78D5132DF}" alt="Bio headshot" height="" width="" hspace="" vspace="" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 500
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: David Kim
   Versions:
   - Version: 1
     Fields:
@@ -25,20 +29,20 @@ Languages:
       Value: <r />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Nick Reddick
+      Value: David Kim
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
-      Value: Senior Financial Analyst
+      Value: Senior Content Strategist
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "804b78b7-772e-49ab-91ed-543b73c32d34"
+      Value: "3c460058-3be7-4bd6-9000-182a6a84f11c"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |
-        <div class="ck-content"><p>As our senior financial analyst, Nick brings a wealth of knowledge and analytical prowess to our team. With a background in investment banking and portfolio management, he specializes in financial modeling and risk assessment, providing valuable insights that inform our investment strategies and business decisions.</p></div>
+        <div class="ck-content"><p>David is a seasoned content strategist with a talent for storytelling and brand messaging. He works closely with clients to understand their voice and audience, crafting content that engages and informs. David has a background in journalism and a passion for creating content that resonates and drives action.</p></div>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Nick Reddick
+      Value: David Kim
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -48,17 +52,17 @@ Languages:
       Value: <r />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Nick Reddick
+      Value: Patricia Ball
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
-      Value: Senior Financial Analyst
+      Value: Digital marketer
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c47d0125-2876-4825-8bfe-959444b3dd7b"
+      Value: "eb2cc770-f4e1-4628-ae56-0efc8ad396cd"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |
-        <div class="ck-content"><p>As our senior financial analyst, Nick brings a wealth of knowledge and analytical prowess to our team. With a background in investment banking and portfolio management, he specializes in financial modeling and risk assessment, providing valuable insights that inform our investment strategies and business decisions.</p></div>
+        <div class="ck-content"><p>Patricia is a seasoned digital marketer with a passion for driving results through innovative digital strategies. With a background in digital advertising, social media management, and content marketing, she excels at creating compelling campaigns that engage audiences and drive conversions.</p></div>
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
-      Value: Nick Reddick
+      Value: Patricia Ball

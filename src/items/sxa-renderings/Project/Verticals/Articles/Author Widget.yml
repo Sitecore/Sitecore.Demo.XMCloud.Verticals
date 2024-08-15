@@ -30,7 +30,7 @@ SharedFields:
   Value: "{3DF775BF-3F56-446F-9D81-43DE64DA4DDA}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/Verticals/Financial/Home/authors
+  Value: "query:$site/Home/authors"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
@@ -52,7 +52,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "06c7e817-b7e5-48c3-b622-78b642c93226"
+      Value: "499adada-ee19-4be0-bf69-a4b01df0e573"
 - Language: "fr-CA"
   Versions:
   - Version: 1

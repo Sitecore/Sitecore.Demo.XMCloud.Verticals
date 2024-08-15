@@ -298,10 +298,10 @@ Languages:
       Value: Financial
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ba438914-59bb-4d22-bb6b-9799b1441a44"
+      Value: "0e0b4d2c-0f11-4702-9204-7c22e0a6cab5"
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
-      Value: Financial
+      Value: "PLAY! Financial"
 - Language: "fr-CA"
   Versions:
   - Version: 1

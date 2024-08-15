@@ -3,7 +3,6 @@ ID: "5d259e9e-9865-4645-95ec-9ef8fce0e12e"
 Parent: "2f452a17-cc57-4406-ae54-da7c206f7be3"
 Template: "2dc7a13e-6753-47ef-805a-1cde39012eec"
 Path: /sitecore/content/Verticals/Services/Home/contact/Data/Questions 1/Question 2
-BranchID: "bba2c8f4-b940-4820-bf71-1b089bc5f86a"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
@@ -15,4 +14,10 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "542990c6-d04b-42ec-a070-e2a5b44116a1"
+      Value: "477c1f78-c953-49f5-b6a1-b9156cb6721e"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "How long does it take to receive a response?"
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: <p>We aim to respond to all inquiries within 24 to 48 hours. During peak times, it may take a bit longer, but we strive to get back to you as quickly as possible.</p>

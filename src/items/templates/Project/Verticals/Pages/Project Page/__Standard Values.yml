@@ -13,7 +13,7 @@ SharedFields:
   Value: 300
 - ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
   Hint: __Default workflow
-  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -39,12 +39,12 @@ Languages:
       Value: $name
     - ID: "2d078f28-3700-4ab1-a5bd-24fcc36316c4"
       Hint: Category
-      Value: Discover the keys to financial literacy with expert insights on budgeting, saving, investing, and retirement planning. Uncover practical tips and strategies to take control of your finances and build a secure future for you and your family.
+      Value: Branding
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f4c5561f-48e6-4fcd-90b2-68467d12d28b"
+      Value: "840d257f-93d3-4303-9ff1-9530b96feac0"
     - ID: "c9ffb36d-8811-4406-b6e7-382a9cbda5e6"
-      Hint: Content
+      Hint: Problem
       Value: |
         <p><strong>Lorem Ipsum Finance</strong></p>
         <p>
@@ -52,6 +52,10 @@ Languages:
         <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin at mauris vel purus vestibulum consectetur. Nam efficitur lectus auctor, hendrerit ligula nec, pharetra ex.</p>
         <p>Suspendisse potenti. Sed ac arcu scelerisque, hendrerit risus eu, ultricies libero. Pellentesque ut magna eu elit fringilla viverra. Quisque ullamcorper orci a magna finibus, nec feugiat urna semper. Praesent blandit purus vel ligula finibus, nec fermentum dui ultrices. Nulla vitae justo a felis luctus dignissim. Aliquam eu tortor eget libero placerat semper.</p>
         <p>In consequat, libero sed viverra placerat, metus lectus accumsan velit, a suscipit elit dui sit amet justo. Fusce vitae purus vel justo aliquam hendrerit. Integer pretium mi vel ex convallis, vel dignissim ex finibus.</p>
+    - ID: "f9fc60e0-645c-4889-bc5e-ecca56535542"
+      Hint: Client
+      Value: |
+        <image mediaid="{BE5D7615-900B-467B-AD19-58A3907E43EE}" alt="Sample Logo" height="" width="" hspace="" vspace="" />
 - Language: "fr-CA"
   Versions:
   - Version: 1

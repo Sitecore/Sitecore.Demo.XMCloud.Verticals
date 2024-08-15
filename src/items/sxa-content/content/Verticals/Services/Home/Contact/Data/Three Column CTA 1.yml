@@ -27,10 +27,10 @@ Languages:
     - ID: "0a10d09c-166b-464e-99cb-4401b527f3f2"
       Hint: Link2
       Value: |
-        <link linktype="external" url="mailto:info@agency.com" text="info@agency.com" anchor=""/>
+        <link linktype="external" url="https://example.com" text="contact@example.com" anchor="" />
     - ID: "2731b4d6-b866-466a-9731-5161788d662b"
       Hint: SubText2
-      Value: info@agency.com
+      Value: contact@example.com
     - ID: "277e3acc-b359-4c11-88b9-4016574419dc"
       Hint: Link3
       Value: |
@@ -50,10 +50,10 @@ Languages:
     - ID: "63e1abec-67cb-4aea-ab72-8b5b60b69473"
       Hint: Link1
       Value: |
-        <link linktype="external" url="tel:0012345678900" text="+1 (234) 567-89-00" anchor=""/>
+        <link linktype="external" url="https://example.com" text="+1 (234) 567-89-00" anchor=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "93fbd628-ca97-45ec-84d2-a8a7aff2fe26"
+      Value: "58a0f523-d198-4587-9e1d-ef75d2622f62"
     - ID: "a3a36b2d-a20b-4344-9f1d-ad867cb99aa4"
       Hint: SubText3
       Value: 2247 Lunetta Street, TX 76301

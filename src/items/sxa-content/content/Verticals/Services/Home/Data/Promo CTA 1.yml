@@ -18,25 +18,25 @@ Languages:
       Value: <r />
     - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
       Hint: Title
-      Value: An Experience Design Agency
+      Value: "A full-service digital agency"
     - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
       Hint: Eyebrow
-      Value: 
+      Value: "Pleased to meet you!"
     - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
       Hint: Link2
       Value: |
-        <link text="Contact us" linktype="external" url="https://example.com" anchor="" target="" />
+        <link text="Contact us" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{6805576D-DE6A-4145-A82C-64D6F080F1B6}" />
     - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
       Hint: Link
       Value: |
         <link text="About us" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FB70CB01-02FD-4E6C-A432-6BE3D537019D}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "143f39f2-5791-4c49-9db2-44db9fc96864"
+      Value: "dae53286-ec3c-4d96-b143-c66b7bcc301a"
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
       Value: |
-        <div class="ck-content"><p>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.</p></div>
+        <div class="ck-content"><p>Our goal is to partner with your organization for mutual success and a trusted relationship.</p></div>
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
-      Value: Provides a full service range
+      Value: Experience across industry verticals

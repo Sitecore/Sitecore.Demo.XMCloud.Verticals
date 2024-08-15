@@ -8,6 +8,19 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "34c7ca9b-6c24-4133-bd83-b453b838eb0b"
+      Hint: Link
+      Value: |
+        <link text="Contact us" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{6805576D-DE6A-4145-A82C-64D6F080F1B6}" />
+    - ID: "72b19acc-d575-4ae4-a0cf-2182e0c64562"
+      Hint: Eyebrow
+      Value: "Like the project? Find out more!"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c7e2cb12-de5e-4c70-a1e9-98553b911a5f"
+      Value: "82ec0050-b8e1-4b44-ba25-694dd8fc290c"
+    - ID: "b03c10d8-11a2-48ca-9822-3640768ed2b7"
+      Hint: Text
+      Value: "<p>Our team is here to help! Whether you want to discuss a project, need support, or simply want to say hello, we're just a message away.</p>"
+    - ID: "e62af488-48ce-4ae4-a2bb-37ad346981a4"
+      Hint: Title
+      Value: Get in touch
