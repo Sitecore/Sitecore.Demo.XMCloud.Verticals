@@ -4,6 +4,10 @@ Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
 Template: "e551c010-8085-470e-a178-32f936abdbbb"
 Path: "/sitecore/content/Verticals/Services/Home/insights/career-growth-strategies-for-remote-workers"
 SharedFields:
+- ID: "9344088a-f78e-4157-ab6e-2d5730f385ab"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{106C2FB3-783B-40D6-BC81-670C4EEE8DED}" alt="career-growth-strategies-for-remote-workers" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
@@ -39,7 +43,7 @@ Languages:
       Value: Career growth strategies for remote workers
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "edf4cbcc-25bc-4e59-815a-9ce125725989"
+      Value: "4f4e7f4b-263d-4c2c-8e46-f5a1780edf92"
     - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |

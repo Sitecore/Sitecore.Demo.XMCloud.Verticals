@@ -4,6 +4,10 @@ Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
 Template: "e551c010-8085-470e-a178-32f936abdbbb"
 Path: "/sitecore/content/Verticals/Services/Home/insights/Maximizing-roi-with-digital-ads"
 SharedFields:
+- ID: "9344088a-f78e-4157-ab6e-2d5730f385ab"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{E61C43FB-1DE5-4FCB-B132-CA8475C14EB8}" alt="Maximizing-roi-with-digital-ads" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
@@ -39,7 +43,7 @@ Languages:
       Value: Maximizing ROI with Digital Ads
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e719b3a6-6b41-4551-82ba-6c90c4b471f8"
+      Value: "415cfcea-42e5-46e1-ad5f-ebd1d3973ca7"
     - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |

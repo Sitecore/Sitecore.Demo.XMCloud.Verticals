@@ -4,6 +4,10 @@ Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
 Template: "e551c010-8085-470e-a178-32f936abdbbb"
 Path: "/sitecore/content/Verticals/Services/Home/insights/achieving-work-life-balance"
 SharedFields:
+- ID: "9344088a-f78e-4157-ab6e-2d5730f385ab"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{B3C3B4DD-5342-4D8E-BB36-2AAFC420C05F}" alt="achieving-work-life-balance" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
@@ -39,7 +43,7 @@ Languages:
       Value: "Achieving work-life balance"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f9d05d14-dd6c-4948-8ffb-385211b93285"
+      Value: "09ab459f-e08b-43c5-8ca4-a6e74e3b5354"
     - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |

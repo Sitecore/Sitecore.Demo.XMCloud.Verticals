@@ -10,7 +10,7 @@ SharedFields:
 - ID: "9344088a-f78e-4157-ab6e-2d5730f385ab"
   Hint: Thumbnail
   Value: |
-    <image mediaid="{EDD9B7E5-8F44-49D4-AB6A-DD43AC6690C8}" />
+    <image mediaid="{2A092591-07A1-4C3E-9760-4C32EB157F0D}" alt="building-strong-client-relationships" height="" width="" hspace="" vspace="" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -40,7 +40,7 @@ Languages:
       Value: Building strong client relationships
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2bc13db7-dd3f-46cf-b603-0c4dfe9f22e3"
+      Value: "4ff670ff-ae3a-4834-8a33-68b905c9e7d7"
     - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |

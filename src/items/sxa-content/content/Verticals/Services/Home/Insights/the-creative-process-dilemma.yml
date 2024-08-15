@@ -7,7 +7,7 @@ SharedFields:
 - ID: "9344088a-f78e-4157-ab6e-2d5730f385ab"
   Hint: Thumbnail
   Value: |
-    <image mediaid="{0C9FEEDF-6496-4651-8B67-8946B597BF5A}" />
+    <image mediaid="{74E7039C-5561-4236-9B5F-33948EFA8B41}" alt="the-creative-process-dilemma" height="" width="" hspace="" vspace="" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -38,7 +38,7 @@ Languages:
       Value: The creative process dilemma
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a62b32ae-83ff-4e82-b0a5-428490505e17"
+      Value: "b9a0f5b7-df20-482f-b75d-8a512069b0b9"
     - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |

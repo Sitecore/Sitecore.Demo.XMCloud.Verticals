@@ -4,6 +4,10 @@ Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
 Template: "e551c010-8085-470e-a178-32f936abdbbb"
 Path: "/sitecore/content/Verticals/Services/Home/insights/leveraging-ai-for-digital-marketers"
 SharedFields:
+- ID: "9344088a-f78e-4157-ab6e-2d5730f385ab"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{BFAC7D29-D3E2-48F9-B57B-718035B79A44}" alt="leveraging-ai-for-digital-marketers" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
@@ -39,7 +43,7 @@ Languages:
       Value: Leveraging AI for digital marketers
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3646dab7-faee-410e-b49f-092b5e849364"
+      Value: "358ec487-05c9-43c1-9ca4-421deff6b26b"
     - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |

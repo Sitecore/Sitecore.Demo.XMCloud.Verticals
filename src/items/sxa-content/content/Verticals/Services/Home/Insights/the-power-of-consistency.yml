@@ -4,6 +4,10 @@ Parent: "d4713fc0-9904-4458-b6bd-938e362f489b"
 Template: "e551c010-8085-470e-a178-32f936abdbbb"
 Path: "/sitecore/content/Verticals/Services/Home/insights/the-power-of-consistency"
 SharedFields:
+- ID: "9344088a-f78e-4157-ab6e-2d5730f385ab"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{1F58A75E-CD57-4521-80BE-A4EC9E8E03C2}" alt="the-power-of-consistency" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
@@ -39,7 +43,7 @@ Languages:
       Value: The power of consistency
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e4b7f4b4-75e8-40fe-ab48-d1b5f7efa743"
+      Value: "359eb894-41c7-4e37-8d6c-a97d656ce36a"
     - ID: "95c8ce75-41ba-4036-9722-fd143984f630"
       Hint: Content
       Value: |
