@@ -11,7 +11,7 @@ SharedFields:
 - ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
   Hint: Photo
   Value: |
-    <image mediaid="{6135F03F-7CE3-45E4-BF8C-4119D75B6C75}" alt="Josephine Author Bio" height="" width="" hspace="" vspace="" />
+    <image mediaid="{D26B7818-DA56-481C-BC9E-C4F4E2719099}" alt="Bio headshot" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
@@ -41,7 +41,7 @@ Languages:
       Value: Creative Director
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "64d26ebe-f19f-4618-a033-b3ed0fc20c33"
+      Value: "a4c539e2-377f-40cd-ae41-2034f032b879"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: <p>Emma is a visionary creative director with over 12 years of experience in digital design and brand development. She leads the creative team with a focus on innovation and storytelling, ensuring that every project resonates with the client's brand identity and audience. Emma has a keen eye for detail and a passion for creating visually compelling and engaging digital experiences.</p>

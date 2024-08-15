@@ -23,11 +23,11 @@ Languages:
       Value: "From start to finish, PLAY! Services delivered outstanding results. They designed a stunning e-commerce site that perfectly reflects our brand and has greatly improved the user experience for our customers. Their team was responsive, professional, and truly invested in our success. Thanks to their efforts, our online sales have doubled in the past six months."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7a3a5f15-144b-4320-aef9-965312c2071a"
+      Value: "5a68cff2-1ebd-454f-ad8e-f7abda39818b"
     - ID: "f89cca04-3f6d-4d2d-8dc2-10dcf0981d8b"
       Hint: AuthorImage
       Value: |
-        <image mediaid="{FE2821DD-786C-4E12-A89D-2A3FAAC2014E}" />
+        <image mediaid="{FDEC27D4-8C12-4384-BF2B-45A9DCFF8C21}" alt="Bio headshot" height="" width="" hspace="" vspace="" />
     - ID: "f8bed196-3478-41ea-9487-254ee08b2e2e"
       Hint: AuthorName
       Value: Sarah Lee

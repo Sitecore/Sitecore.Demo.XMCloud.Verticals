@@ -8,6 +8,10 @@ SharedFields:
   Hint: BackgroundImage
   Value: |
     <image mediaid="{DC65B8CF-63A5-424E-A739-3B6345F75F92}" alt="Author Paper" height="" width="" hspace="" vspace="" />
+- ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
+  Hint: Photo
+  Value: |
+    <image mediaid="{9461F5F7-3D0C-4A78-BB0E-91A78D6273B4}" alt="Bio headshot" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
@@ -37,7 +41,7 @@ Languages:
       Value: Lead UX/UI Designer
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "723efdb0-dfb7-4e4a-a201-b9f7cd47b1bb"
+      Value: "50219aa5-d032-4fd9-907e-a63104c1441e"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |

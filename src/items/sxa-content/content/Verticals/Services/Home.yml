@@ -26,7 +26,7 @@ SharedFields:
           p:before="*"
           s:ds="local:/Data/Quote 1"
           s:id="{4B94B6D0-CA8E-4807-BB9A-4C3FBD21504C}"
-          s:par="FieldNames=%7B58EE26A1-1E77-4FB6-9EDB-1577B1FF05F1%7D&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=12"
+          s:par="FieldNames=%7B58EE26A1-1E77-4FB6-9EDB-1577B1FF05F1%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B7EBB6C9F-C1B0-4FB3-9B52-AEEC8055D6F4%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=12"
           s:ph="/headless-main/hero-banner-0-6" />
         <r
           uid="{108B0678-8676-4AF4-A4C7-F1B56F980F73}"

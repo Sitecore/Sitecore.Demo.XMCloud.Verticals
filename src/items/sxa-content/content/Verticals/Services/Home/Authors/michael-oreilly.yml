@@ -11,13 +11,13 @@ SharedFields:
 - ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
   Hint: Photo
   Value: |
-    <image mediaid="{59BA5624-1CCB-4354-BF21-8FB682EC70A0}" alt="Gabby Bio Image" height="" width="" hspace="" vspace="" />
+    <image mediaid="{1BC03DE2-E4AB-4EAB-AFB0-0E9784F0224E}" alt="Bio headshot" height="" width="" hspace="" vspace="" />
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 550
+  Value: 450
 Languages:
 - Language: en
   Fields:
@@ -41,7 +41,7 @@ Languages:
       Value: SEO Specialist
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2f5c84be-9967-4826-8d26-8d693b9e359c"
+      Value: "0780d7db-a7be-48b4-83ce-2498c8187c5f"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |

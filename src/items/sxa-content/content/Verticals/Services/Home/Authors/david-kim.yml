@@ -11,7 +11,7 @@ SharedFields:
 - ID: "6be59cd8-74bd-4c67-b611-e81e140679b4"
   Hint: Photo
   Value: |
-    <image mediaid="{4859F21A-8F82-4ABC-AD20-F6CED8CF82AC}" alt="Patricia Bio Image" height="" width="" hspace="" vspace="" />
+    <image mediaid="{34DAB229-645C-445F-81FC-AEE78D5132DF}" alt="Bio headshot" height="" width="" hspace="" vspace="" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500
@@ -35,7 +35,7 @@ Languages:
       Value: Senior Content Strategist
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fc462369-3bbb-44b0-a5b3-b8d479a20ab8"
+      Value: "3c460058-3be7-4bd6-9000-182a6a84f11c"
     - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
       Hint: Bio
       Value: |
