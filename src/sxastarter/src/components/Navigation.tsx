@@ -96,6 +96,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
           checked={isOpenMenu}
           onChange={() => handleToggleMenu()}
         />
+        {/* DEMO TEAM CUSTOMIZATION */}
         <div className="menu-humburger">
           <span></span>
           <span></span>
@@ -103,6 +104,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
         </div>
         <div className="component-content">
           <nav>
+            {/* DEMO TEAM CUSTOMIZATION */}
             <ul>{list}</ul>
           </nav>
         </div>
