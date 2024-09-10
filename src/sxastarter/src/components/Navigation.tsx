@@ -96,10 +96,16 @@ export const Default = (props: NavigationProps): JSX.Element => {
           checked={isOpenMenu}
           onChange={() => handleToggleMenu()}
         />
-        <div className="menu-humburger" />
+        {/* DEMO TEAM CUSTOMIZATION */}
+        <div className="menu-humburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <div className="component-content">
           <nav>
-            <ul className="clearfix">{list}</ul>
+            {/* DEMO TEAM CUSTOMIZATION */}
+            <ul>{list}</ul>
           </nav>
         </div>
       </label>
