@@ -28,7 +28,7 @@ SharedFields:
           uid="{C494869C-A931-4F42-8BDF-ACA32462F2B3}"
           p:after="r[@uid='{EA7CE71D-6802-4C62-879A-B9CE687E1C77}']"
           s:id="{81317D3B-F929-426A-83EC-421982F8F1E6}"
-          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6&amp;ContainerWidth=Widest"
+          s:par="GridParameters&amp;FieldNames=%7B63F62A14-A44E-47B1-96F4-D31373B4E661%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6&amp;ContainerWidth=Widest"
           s:ph="headless-header" />
         <r
           uid="{F0E320AC-2866-4B80-9F56-9E9F35675441}"
@@ -70,11 +70,11 @@ Languages:
       Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "28257eeb-d985-4288-9bd0-8b13c93ca166"
+      Value: "157161f2-8de3-459d-87ae-917d8f4bb60b"
 - Language: "fr-CA"
   Versions:
   - Version: 1
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "62441fbf-2037-4aa2-8a6a-b401f9f8179b"
+      Value: "02ec3d7a-5902-40a8-ab8f-60ea5b89ed1c"
