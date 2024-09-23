@@ -37,6 +37,16 @@
                 "scope": "descendantsOnly"
             },
             {
+                "name": "settings",
+                "path": "/sitecore/system/Settings/Project",
+                "scope": "descendantsOnly"
+            },
+            {
+                "name": "webhooks",
+                "path": "/sitecore/system/Webhooks",
+                "scope": "descendantsOnly"
+            },
+            {
                 "name": "cmp-config",
                 "path": "/sitecore/system/Modules/CMP/Config"
             },
