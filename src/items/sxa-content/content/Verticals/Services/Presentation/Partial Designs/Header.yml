@@ -26,6 +26,7 @@ SharedFields:
           s:ph="headless-header" />
         <r
           uid="{C494869C-A931-4F42-8BDF-ACA32462F2B3}"
+          s:ds="local:/Data/Header"
           p:after="r[@uid='{EA7CE71D-6802-4C62-879A-B9CE687E1C77}']"
           s:id="{81317D3B-F929-426A-83EC-421982F8F1E6}"
           s:par="GridParameters&amp;FieldNames=%7B63F62A14-A44E-47B1-96F4-D31373B4E661%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6&amp;ContainerWidth=Widest"
