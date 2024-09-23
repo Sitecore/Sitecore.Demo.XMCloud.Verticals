@@ -1,0 +1,13 @@
+﻿---
+ID: "288facfa-eae6-446e-8712-1f82f1ce6bd3"
+Parent: "019b3e65-b82b-49fa-8052-ce0a47994117"
+Template: "0da7aa52-0c24-4721-9b6c-f6d8d9faaaa0"
+Path: /sitecore/content/Verticals/Services/Presentation/Partial Designs/Header/Data/Header
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dacbc099-20fe-463e-8fac-576a54b64945"

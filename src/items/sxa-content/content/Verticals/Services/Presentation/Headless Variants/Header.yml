@@ -1,0 +1,13 @@
+﻿---
+ID: "e45ac558-e122-4db3-97fb-c192f0415bdf"
+Parent: "7a66a4de-85d6-4358-af3f-8c4b4aac7bd2"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Header
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d1e285fd-9db6-4b18-a215-98c2d9183ab9"
