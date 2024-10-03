@@ -52,7 +52,7 @@ Note, that each site has a special `site-*` class, this allows to apply custom C
 
 ## Connect your local host to Pages
 
-In addition to the offical documentation [https://doc.sitecore.com/xmc/en/developers/xm-cloud/connect-your-local-host-to-pages.html], some extra steps are required:
+In addition to the offical documentation https://doc.sitecore.com/xmc/en/developers/xm-cloud/connect-your-local-host-to-pages.html, some extra steps are required:
 
 1. Remove the following code from next.config.js:
 
