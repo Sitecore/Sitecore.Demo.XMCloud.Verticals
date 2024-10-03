@@ -49,3 +49,17 @@ This will work only on Windows and deploy all Content Management roles and inter
 Go to the `src\sxastarter\src\assets\sass\abstracts\vars` and update the colors in the `_colors.scss` file. Note, that each site has it's own color set for both light and dark theme.
 
 Note, that each site has a special `site-*` class, this allows to apply custom CSS the specific site(s).
+
+## Connect your local host to Pages
+
+In addition to the offical documentation [https://doc.sitecore.com/xmc/en/developers/xm-cloud/connect-your-local-host-to-pages.html], some extra steps are required:
+
+1. Remove the following code from next.config.js:
+
+   ```ps1
+   assetPrefix: publicUrl,
+   ```
+
+2. Make sure that the domain name you use, i.e. https://www.sxastarter.localhost/ is added to the SXA Site definition of the site you want to edit.
+
+3. If using a local Docker as a back-end, make sure the JSS Editing Secret is set to what Pages is using.
