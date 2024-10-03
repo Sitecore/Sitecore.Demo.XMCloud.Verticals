@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { GetServerSideProps } from 'next';
+import { GetStaticPaths, GetStaticProps } from 'next';
 import NotFound from 'src/NotFound';
 import Layout from 'src/Layout';
 import { SitecoreContext, ComponentPropsContext } from '@sitecore-jss/sitecore-jss-nextjs';
@@ -38,13 +38,19 @@ const SitecorePage = ({
   );
 };
 
-// This function gets called at request time on server-side.
-export const getServerSideProps: GetServerSideProps = async (context) => {
+export const getStaticProps: GetStaticProps = async (context) => {
   const props = await sitecorePagePropsFactory.create(context);
-
   return {
     props,
+    revalidate: 5, // In seconds
     notFound: props.notFound, // Returns custom 404 page with a status code of 404 when true
+  };
+};
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  return {
+    paths: [],
+    fallback: 'blocking',
   };
 };
 

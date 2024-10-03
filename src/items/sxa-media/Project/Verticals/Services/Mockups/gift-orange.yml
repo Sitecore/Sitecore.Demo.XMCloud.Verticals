@@ -1,7 +1,7 @@
 ﻿---
 ID: "23592312-2c5f-49ee-8517-2d9df508280b"
 Parent: "aac59603-dfd5-42ff-857d-8b8cc72edc54"
-Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Template: "309eb383-99b6-4722-9fab-58d8ae802d72"
 Path: "/sitecore/media library/Project/Verticals/Services/Mockups/gift-orange"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -12,17 +12,17 @@ SharedFields:
   Value: 32
 - ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
   Hint: Blob
-  BlobID: "3b474c6e-415f-4916-badf-03d3688ab71b"
-  Value: iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAFCSURBVFhH7VfBccIwELxjxnyhg9BJYIL/0AEV2JQQOjBuIHRAAfhBKgnpIO+YYTkZnIDHNpLlGfyQfhqt9lZ7snzH9GAcl28zgEMiHl+g2BPTyouS/e1WXVwxHNfF/w39DwEsSjHAyouTd7WmiyvjqRRwOVFvW2sQY8KEoQ6u6FjOWykgDXxl9WutANBntq6B8+LdNYX3jNUCQh+P7ofJurfelcZ6voB0OR0TSHLNQ5MT2WPxI6mbs9zgL7FhZE9oziA5PnDacq5NZXRAQDCVXPDAVHkbeADfrC4hTrRh5pc2SHU5suA9WtQ+xbpkNrjuCDD9GoovW9P9fw40Jcjtb7rfCXAOOAecA84B50CHHDAszWx+x6oa6sdJVon/OxD4kcykC9YbNgLoprG9q4ikH4xAmOnUh00EZHUg0SbvqtVRz0sv+nQqGMZiAAAAAElFTkSuQmCC
+  BlobID: "57c67669-40ea-4798-9ec4-8588170a02c1"
+  Value: UklGRkABAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSGwAAAABZ2AgbdvoqqBz8Eu4hEdE5Ht1GUS4qW1bje5a30NYCkqIhuiIBJyerTAdWS9UTRvR/wmQpBpPqvFkV4CrAGddgeQKJNYLaF5AYzFzlQsLo/eSls1/S/a7JaG2x5Qw/6HfvL10n5dK5WfO3glWUDggrgAAAFAGAJ0BKiAAIAA+kUCYSCWkIqEwGAgAsBIJbACdOUE7m3Dbt+gDMQPIA9wG8AfrN7AH6q9akA/L5zYAAP7bULMHQpPvsDHJyy1RP9MJmqMmMrzbVB//QL2HPBT/q6XmNJUm/Vy4DJx/tiObfVdst+Ks9+GtMhzViFY6XxX9zqdjcdwPYvrUIOqMfrRk7RHLQH4hrOk5BUyybfOneLZoFI2HXiVDP6CO4IaB/QAAAA==
 - ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
   Hint: Size
-  Value: 408
+  Value: 328
 - ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
   Hint: Mime Type
-  Value: image/png
+  Value: image/webp
 - ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
   Hint: Extension
-  Value: png
+  Value: webp
 - ID: "cb09946f-3218-4823-87d2-d5007c199a96"
   Hint: Dimensions
   Value: 32 x 32
@@ -39,4 +39,4 @@ Languages:
       Value: gift
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5fa2105e-bf1e-44a7-ac4a-13c1dae3c31e"
+      Value: "61df6ab8-a4fa-4118-89a2-695276141af1"
