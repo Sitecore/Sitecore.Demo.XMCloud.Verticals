@@ -4,15 +4,17 @@ A headless multi-site solution focused on XM Cloud content and site management c
 
 ✅ Multisite (3 sites out of the box, easy to add more)
 
-✅ Multilingual (2 languages)
+✅ Multilingual (en, fr-CA)
 
-✅ Light/Dark themes for each site
+✅ Light/Dark themes
 
 ✅ Single rendering host
 
 ✅ Custom variants / styles
 
-✅ Works great in Pages
+✅ Embedded Personalization
+
+✅ Works great in Pages!
 
 ![PLAY! Website Home Page](docs/images/launchpad.JPG)
 
