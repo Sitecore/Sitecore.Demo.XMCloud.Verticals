@@ -1,4 +1,4 @@
-# Vertical Demos on XM Cloud (preview)
+# Vertical Demos on XM Cloud
 
 A headless multi-site solution focused on XM Cloud content and site management capabilities. Includes easily customizable sample sites for select industries.
 
