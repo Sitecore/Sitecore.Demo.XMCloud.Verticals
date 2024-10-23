@@ -1,6 +1,20 @@
-# Vertical Demos on XM Cloud (preview)
+# Vertical Demos on XM Cloud
 
-A headless multi-site solution focused on XM Cloud content and site management capabilities. Includes easily customizable sample sites for select industries. The project is still under development, but we expect to release the first version soon.
+A headless multi-site solution focused on XM Cloud content and site management capabilities. Includes easily customizable sample sites for select industries.
+
+✅ Multisite (3 sites out of the box, easy to add more)
+
+✅ Multilingual (en, fr-CA)
+
+✅ Light/Dark themes
+
+✅ Single rendering host
+
+✅ Custom variants / styles
+
+✅ Embedded Personalization
+
+✅ Works great in Pages!
 
 ![PLAY! Website Home Page](docs/images/launchpad.JPG)
 
@@ -42,7 +56,7 @@ This will work only on Windows and deploy all Content Management roles and inter
 
    Open https://www.sxastarter.localhost with your browser to see the front-end of the website. Content Management UI will be available at https://xmcloudcm.localhost
 
-2.  Go to `/sitecore/system/Modules/Layout Service/Rendering Contents Resolvers/Datasource Item Children Resolver` and uncheck  the `Include Server URL in Media URLs` checkbox.
+2. Go to `/sitecore/system/Modules/Layout Service/Rendering Contents Resolvers/Datasource Item Children Resolver` and uncheck the `Include Server URL in Media URLs` checkbox.
 
 ## Updating color palette
 
