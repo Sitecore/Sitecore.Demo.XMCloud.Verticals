@@ -35,3 +35,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: Si vous n'êtes pas prêt à prendre votre retraite, vous n'êtes pas obligé de le faire. C'est un choix personnel. Nous vous aiderons à élaborer un plan de retraite afin que vous puissiez prendre une décision éclairée lorsque vous saurez que vous êtes financièrement prêt.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0cf5801-0b43-46b8-8c3c-659450fba0c6"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: 自分が引退する準備ができているかどうかを知るには？
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: 引退する準備ができていないのなら、引退する必要はない。 それは個人の選択だ。 経済的な準備が整ったときに明確な決断ができるよう、退職プランを考えるお手伝いをします。

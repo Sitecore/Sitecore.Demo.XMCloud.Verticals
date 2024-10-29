@@ -140,3 +140,56 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: On vous présente des solutions financières innovantes pour les consommateurs modernes
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 現代消費者のための革新的な金融ソリューションを紹介
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>PLAY! Financeは、最先端の金融サービスを提供するリーディングプロバイダーとして、消費者が自分の財務とどのように関わるかを革新する最新の製品スイートの発売を発表いたします。</p>
+        
+        <p>革新とユーザー中心のデザインに焦点を当て、PLAY! Financeは、個人が財務的な未来を自ら管理できるように支援することに尽力しています。先進技術と個別対応のソリューションを組み合わせ、すべての人にとって財務管理が魅力的で有意義な体験になることを目指しています。</p>
+        
+        <p style="margin-left: 40px;"><strong><em>「PLAY! Financeでは、財務的なエンパワーメントは誰にでもアクセスできるべきだと考えています。」</em></strong>と、CPOであるアリソン・パーカー氏は述べています。「<strong><em>私たちの使命は、バリアを取り除き、個人が目標を達成するために必要なツールを提供し、そのプロセスを楽しんでもらうことです。</em></strong>」</p>
+        
+        <p>PLAY! Financeの提供する主な機能には以下が含まれます:</p>
+        <ul>
+            <li>
+                <p><strong>インタラクティブな予算管理ツール:&nbsp;</strong>直感的なインターフェースを通じて、ユーザーが個別の予算を作成し、リアルタイムで支出を管理できるよう支援します。</p>
+            </li>
+            <li>
+                <p><strong>ゲーミフィケーションを取り入れた貯蓄ソリューション:&nbsp;</strong>貯蓄を楽しく有意義な体験に変え、健全な財務習慣を促進します。</p>
+            </li>
+            <li>
+                <p><strong>AIを活用した財務インサイト:&nbsp;</strong>人工知能の力を利用して、各ユーザーの状況に合わせた個別の推奨やインサイトを提供します。</p>
+            </li>
+            <li>
+                <p><strong>コミュニティのつながり:&nbsp;</strong>ソーシャル機能を通じて、ユーザーが共通の目標を持つ仲間とつながり、財務の旅を共有できる場を提供します。</p>
+            </li>
+        </ul>
+        
+        <p>ユーザーが夢の旅行のために貯蓄をしたい、緊急資金を構築したい、または単に財務をより良く管理したいと思っているかに関わらず、PLAY! Financeはそのニーズに応えるための包括的なソリューションを提供しています。</p>
+        
+        <p><strong>PLAY! Financeについて</strong><br />
+        PLAY! Financeは、革新的な金融ソリューションを提供するリーディングプロバイダーとして、個人が財務的な健康を達成できるよう支援しています。先端技術と個別対応のツールを通じて、PLAY! Financeは顧客が財務管理を身近に、魅力的に、そして有意義に感じられるよう再定義しています。</p>
+        
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: プレーする！ ファイナンスは、先進的なテクノロジーとゲーミフィケーションを活用し、ユーザーが魅力的でやりがいのある方法で家計を管理できるようにする、革新的な金融ソリューション・スイートを紹介する。
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 現代消費者のための革新的な金融ソリューションを紹介
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "45933a86-2d6a-4cfb-9f53-82189e6388be"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: 現代消費者のための革新的な金融ソリューションを紹介

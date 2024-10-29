@@ -35,3 +35,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: La protection de vos informations financières est une priorité pour nous. Nous utilisons des mesures de sécurité de pointe pour protéger vos données et prévenir les accès non autorisés. De plus, nous offrons des conseils et des astuces pour reconnaître et éviter les escroqueries courantes et les tentatives de phishing. Notre plateforme de banque en ligne est équipée de technologies de cryptage pour garantir que vos transactions sont sécurisées en tout temps.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ab26db1-6acb-410e-b908-516a075904eb"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: 個人情報の盗難やオンライン詐欺から身を守るには？
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: お客様の財務情報を保護することは、当社にとって最優先事項です。 お客様のデータを保護し、不正アクセスを防止するために、最先端のセキュリティ対策を採用しています。 さらに、一般的な詐欺やフィッシングを見分け、回避するためのヒントやガイダンスも提供しています。 当行のオンライン・バンキング・プラットフォームには暗号化技術が採用されており、お客様のお取引が常に安全であることを保証いたします。

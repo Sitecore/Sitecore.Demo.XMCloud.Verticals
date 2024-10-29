@@ -115,3 +115,45 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "On vous présente MOBILE! Finance : Votre nouvelle application de compagnon financier"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "MOBILE! Finance の紹介"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p><strong>MOBILE! Finance の紹介</strong></p>
+        <p>MOBILE! Finance は単なるアプリではありません &mdash; MOBILE! Finance はあなたの究極のファイナンシャル・コンパニオンであり、包括的な機能とツールを提供し、簡単かつ自信を持ってあなたの財政を管理するのに役立ちます。 支出の把握、目標に向けた貯蓄、退職後の生活設計など、MOBILE! Finance はあなたの家計をサポートします！ Financeは、あなたが成功するために必要なすべてを備えています。</p>
+        <p><a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Opens in new window"><img src="-/media/FEAF65D3394846DAB95213780D61AADA.ashx?h=45&amp;w=149" alt="Download MOBILE! Finance from the App Store" style="height: 45px; width: 149px;" /></a>&nbsp;&nbsp;&nbsp;<a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Opens in new window"><img src="-/media/DCDCD7A8F8DA4110BA4FD19FEFFD1465.ashx?h=45&amp;w=151" alt="Google Play" style="height: 45px; width: 151px;" /></a></p>
+        <p><strong><br />
+        主な特徴</strong></p>
+        <ul>
+            <li><strong><em>パーソナライズされた予算管理</em></strong>: 独自の財務状況に合わせてカスタマイズされた予算を作成し、リアルタイムで支出を追跡します。</li>
+            <li><strong><em>目標に基づく貯蓄</em></strong>: 夢の休暇からマイホームの頭金まで、あらゆる経済的な願望に対して貯蓄目標を設定し、進捗状況を簡単に追跡できます。</li>
+            <li><strong><em>賢い投資</em></strong>: お客様の資産を増やし、長期的な財務目標を達成するためのさまざまな投資オプションやツールをご利用いただけます。</li>
+            <li><strong><em>請求書管理</em></strong>: 自動請求リマインダーと支払いスケジュール機能で、請求書の支払いをもう逃しません。</li>
+            <li><strong><em>セキュリティとプライバシー</em></strong>: お客様の重要な財務情報は、最先端のセキュリティ対策と暗号化プロトコルで保護されていますのでご安心ください。</li>
+        </ul>
+        <p><strong>MOBILE! Finance を選ぶ理由</strong></p>
+        <p>信頼できるオンライン・バンキング・プラットフォームの一部として, MOBILE! Finance は、既存の銀行口座とのシームレスな統合を提供し、便利な1つの場所であなたの財政の全体的なビューを提供します。 さらに、ユーザーフレンドリーなインターフェースと直感的なデザインで、お金の管理がかつてないほど簡単で楽しいものになります。</p>
+        <p><strong>今日から始めよう</strong></p>
+        <p>家計を管理し、潜在能力を引き出す準備はできていますか？ MOBILE！ Financeアプリを今すぐダウンロードして、PLAYでモダン・バンキングのメリットを体験し、満足している何千人ものユーザーに加わりましょう！ ファイナンス。</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: MOBILEをご紹介できることを嬉しく思います！ Financeは、銀行取引と財務管理の方法に革命をもたらすように設計された、画期的な新しい財務アプリです。
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "MOBILE! Finance の紹介"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "79dc2968-1570-4c5e-8127-31dfffcfd4a0"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: MOBILEのご紹介！ ファイナンス 新しい財務コンパニオンアプリ

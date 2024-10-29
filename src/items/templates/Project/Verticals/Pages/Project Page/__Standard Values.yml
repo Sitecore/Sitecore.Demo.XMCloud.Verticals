@@ -42,7 +42,7 @@ Languages:
       Value: Branding
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "840d257f-93d3-4303-9ff1-9530b96feac0"
+      Value: "724ce031-cd1a-49c3-bd66-f12eab969347"
     - ID: "c9ffb36d-8811-4406-b6e7-382a9cbda5e6"
       Hint: Problem
       Value: |
@@ -62,4 +62,11 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e06ca838-d491-47f1-9e7b-4b579c25f20e"
+      Value: "b37d1d52-2014-432f-aa1a-3078d2d88560"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57515208-5e43-4b89-bfbb-32a9ef1ef3a6"

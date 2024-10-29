@@ -14,6 +14,7 @@ export const Default = (): JSX.Element => {
     () => [
       { code: 'en', label: 'English' },
       { code: 'fr-CA', label: 'Français' },
+      { code: 'ja-JP', label: '日本語' },
     ],
     []
   );

@@ -49,11 +49,18 @@ Languages:
       Value: <r />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b04e57c5-f3cd-4fb8-991c-7f9b180aa28c"
+      Value: "c6546662-aa76-429e-823a-e7720f4a1878"
 - Language: "fr-CA"
   Versions:
   - Version: 1
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a1945b30-0658-4a1b-a451-737e26152d58"
+      Value: "1c9690a0-e752-4fd2-89f0-7f8fc29e4cb5"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7ca77d8e-b8c1-4d6c-a76f-fe8c2fdcb3f6"

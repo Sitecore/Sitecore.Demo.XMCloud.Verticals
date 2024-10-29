@@ -58,7 +58,7 @@ Languages:
       Value: Lorem ipsum dolor sit amet.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "90938075-51a3-4626-8a06-c6b8e09c7f04"
+      Value: "5f505f32-13f5-4ad6-99bb-b41f0e7530a1"
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -68,4 +68,14 @@ Languages:
       Value: Lorem ipsum dolor sit amet.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aa68ee96-9c27-496b-961a-f16f6dc9da59"
+      Value: "0674a5ff-318c-4c65-8f10-b61667f0a1ae"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3d30539f-d403-496a-a512-ac885b1a2f8b"
+      Hint: Content
+      Value: Lorem ipsum dolor sit amet.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7082d462-8f1e-40ad-951e-4bb963d16f2b"

@@ -35,3 +35,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: "Absolument ! En tant que client existant ou nouveau, vous aurez accès à nos outils et services pour les deux types de comptes. Et encore mieux, nous facilitons le transfert de fonds entre vos comptes personnels et professionnels."
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bf65324c-101c-4b76-ac1c-33fbb0fff734"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: 個人口座とビジネス口座の両方を開設できますか？
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: もちろんです！ 既存のお客様も新規のお客様も、どちらのタイプのアカウントでも当社のツールやサービスをご利用いただけます。 さらに、個人口座とビジネス口座間の資金移動も簡単に行えます。

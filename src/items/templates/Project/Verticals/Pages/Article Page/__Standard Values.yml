@@ -52,7 +52,7 @@ Languages:
       Value: Discover the keys to financial literacy with expert insights on budgeting, saving, investing, and retirement planning. Uncover practical tips and strategies to take control of your finances and build a secure future for you and your family.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "68fb3b2f-9da3-4b79-ae2b-c36b78b98f5d"
+      Value: "26f2a87c-3dbb-4333-b4ac-a1aba9861762"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: $name
@@ -77,7 +77,14 @@ Languages:
       Value: $name
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "108f2a5e-e4b9-4f69-a8d8-34bcaeb4dec7"
+      Value: "9c1bc455-734e-43c5-a55c-ca34c8d1b3cd"
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: $name
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1b56314c-1b9b-4c25-a560-50fc84546885"

@@ -35,3 +35,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: Contrairement aux autres banques qui facturent des frais élevés pour les comptes professionnels, vous bénéficierez de l'absence de frais mensuels, d'aucun solde minimum et de transactions illimitées. Vous aurez également accès à nos outils et services adaptés aux petites entreprises.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1b8ec269-8db8-4b8a-bf24-d6e3c81c66de"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: ビジネス口座を開設するメリットは何ですか？
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: ビジネス口座に高額な手数料を課す他の銀行とは異なり、毎月の手数料は無料、最低残高もなく、取引回数も無制限です。 また、中小企業向けのツールやサービスもご利用いただけます。

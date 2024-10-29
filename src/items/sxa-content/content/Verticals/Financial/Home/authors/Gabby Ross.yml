@@ -46,6 +46,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Gabby Ross
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "9e0ef554-c478-4fdc-8de4-80266d0fd6c6"
@@ -53,3 +56,29 @@ Languages:
       Hint: Bio
       Value: |
         <div class="ck-content"><p>Gabby a fait ses preuves en gestion et développement de produits. Avec une passion pour l'innovation et un sens aigu des tendances du marché, elle joue un rôle central dans la mise sur le marché de nouveaux produits et l'amélioration des offres existantes.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Gabby Ross
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ギャビー・ロス
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: ギャビー・ロス
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d6a849f-c81e-4057-b749-447927d1cae7"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: <p>ギャビーには、製品管理と開発における実績がある。 イノベーションへの情熱と市場トレンドへの鋭い洞察力を持ち、新製品の市場投入や既存製品の強化において重要な役割を果たしている。</p>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: ギャビー・ロス

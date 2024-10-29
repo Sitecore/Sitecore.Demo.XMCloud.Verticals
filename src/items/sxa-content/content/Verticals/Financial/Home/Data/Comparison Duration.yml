@@ -58,3 +58,31 @@ Languages:
     - ID: "ef3b1e0a-490d-4340-8ebc-5612d6be5e74"
       Hint: Currency1
       Value: mois
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "139b10e3-2363-40f9-8351-59a724c1a135"
+      Hint: Amount1
+      Value: 12
+    - ID: "22ea3b6c-7d16-47dc-b1d7-9e6686c6bd9b"
+      Hint: Amount2
+      Value: 10
+    - ID: "55199a29-334d-41c9-b133-7163c9e82a7c"
+      Hint: Currency2
+      Value: 年
+    - ID: "620c2827-7248-4310-8de3-7c55ab40a5e3"
+      Hint: Subtitle1
+      Value: 最短
+    - ID: "811c52c9-9a0d-4c2b-88c5-817193be5c7d"
+      Hint: Title1
+      Value: 期間
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ecfe8b6-1d0d-4374-8001-ea36be6fea8f"
+    - ID: "bd2c7af4-8f8f-4518-8d5d-2c1006bce654"
+      Hint: Subtitle2
+      Value: 最長
+    - ID: "ef3b1e0a-490d-4340-8ebc-5612d6be5e74"
+      Hint: Currency1
+      Value: 月
