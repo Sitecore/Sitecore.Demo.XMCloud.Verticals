@@ -130,11 +130,19 @@ Languages:
     - ID: "4bf70960-7097-4f87-a67a-8a7e87d1cd01"
       Hint: Text4
       Value: |
-        <p><a href="/?utm_campaign=business">法人向けキャンペーン</a></p>
-        <p><a href="/?utm_campaign=retirement">年金運用キャンペーン</a></p>
+        <p><a href="/ja-JP?utm_campaign=business">法人向けキャンペーン</a></p>
+        <p><a href="/ja-JP?utm_campaign=retirement">年金運用キャンペーン</a></p>
+    - ID: "63ec28c9-bceb-4180-ba86-5a6b3c975d52"
+      Hint: Link1
+      Value: |
+        <link text="プライバシー" linktype="external" url="https://www.sitecore.com/legal/privacy-policy" anchor="" title="プライバシー" target="" />
+    - ID: "798d70ab-9044-4c10-8792-8879857b22ac"
+      Hint: Link2
+      Value: |
+        <link text="使用条件" linktype="external" url="https://www.sitecore.com/legal" anchor="" title="使用条件" target="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "86395791-275c-4dde-bca3-fa2a0d557c0a"
+      Value: "9b94d063-d1c0-45da-97ae-174414f046b4"
     - ID: "92612ddf-b3fd-4597-a655-de6da2eb553f"
       Hint: Text3
       Value: |
