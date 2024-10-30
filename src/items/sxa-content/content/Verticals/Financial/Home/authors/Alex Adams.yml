@@ -52,6 +52,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Alex Adams
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
       Value: Conseiller financier
@@ -65,3 +68,27 @@ Languages:
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
       Value: Alex Adams
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: アレックス・アダムス
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: アレックス・アダムス
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "79443836-37f9-4fc7-9eca-e6e2e1d7da9c"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>アレックスは、お客様の財務上の目標や希望を達成するための支援に専念しています。 個別サービスに対する情熱と資産管理戦略に対する深い理解を持ち、顧客と緊密に連携して、顧客固有のニーズと目的に沿ったファイナンシャル・プランを策定しています。</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: アレックス・アダムス

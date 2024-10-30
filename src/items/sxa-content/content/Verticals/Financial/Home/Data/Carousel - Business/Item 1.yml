@@ -50,3 +50,20 @@ Languages:
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
       Value: <p>Nous sommes là pour vous soutenir, vous et votre entreprise, avec des services faciles d'accès.</p>
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: ビジネスを始める
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="ビジネスサービス" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{AF81673A-E745-40B2-8EA7-34E0589693A7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d068b6da-b04d-4574-ad24-2dea84e1ea0e"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>私たちは、アクセスしやすいサービスで、あなたとあなたのビジネスをサポートします。</p>

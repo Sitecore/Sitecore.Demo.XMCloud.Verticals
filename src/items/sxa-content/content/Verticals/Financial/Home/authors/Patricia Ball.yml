@@ -49,6 +49,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Patricia Ball
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
       Value: Responsable marketing digital
@@ -62,3 +65,30 @@ Languages:
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
       Value: Patricia Ball
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: パトリシア・ボール
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: パトリシア・ボール
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: デジタルマーケター
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fbe23f3c-d39f-4eef-b756-236edcc4d7e1"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>パトリシアは、革新的なデジタル戦略で成果を上げることに情熱を注ぐベテランのデジタルマーケター。 デジタル広告、ソーシャルメディア管理、コンテンツマーケティングのバックグラウンドを持ち、オーディエンスを惹きつけ、コンバージョンを促進する魅力的なキャンペーン作りを得意とする。</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: パトリシア・ボール

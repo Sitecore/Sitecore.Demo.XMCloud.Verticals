@@ -50,3 +50,22 @@ Languages:
       Hint: Link1
       Value: |
         <link text="Formulaire de demande d'exercice d'un droit en vertu du Règlement général sur la protection des données" linktype="anchor" url="gdpr" anchor="gdpr" title="" class="" />
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "67fdca76-8a62-4424-a499-236787bd226c"
+      Hint: Subtitle2
+      Value: PDF ファイル
+    - ID: "742e047d-3a1f-4643-ae1e-c78847a8b700"
+      Hint: Subtitle1
+      Value: PDF ファイル
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a733d7e-efcb-49cc-aabc-985c8edd8682"
+    - ID: "926c0ca9-eaa5-468e-919e-de8c15876439"
+      Hint: Subtitle3
+      Value: PDF ファイル
+    - ID: "b2d03f41-06ad-4238-bcf2-7055674ea2a6"
+      Hint: Subtitle4
+      Value: PDF ファイル

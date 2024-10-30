@@ -30,3 +30,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: Les montants des prêts varient en fonction de facteurs tels que votre solvabilité, vos revenus et le type de prêt que vous demandez. Au cours du processus de demande, vous aurez l'occasion de préciser le montant dont vous avez besoin, et nous travaillerons avec vous pour déterminer le montant de prêt approprié.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27bc225a-d541-45d3-a55f-9cf75c95661b"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: いくら借りられますか？
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: 融資額は、あなたの信用度、収入、申請するローンの種類などの要因によって異なります。 お申し込みの過程で、必要な金額をご指定いただく機会があり、適切な融資額をお客様と一緒に決定します。
