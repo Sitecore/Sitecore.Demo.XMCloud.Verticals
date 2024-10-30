@@ -1,8 +1,8 @@
 ﻿---
 ID: "1cece0c1-837c-4c8b-8755-c979583218a3"
-Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
+Parent: "8237a426-6c6a-4564-ab35-a6066a050f2e"
 Template: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
-Path: /sitecore/content/Verticals/Financial/Home/Data/Two Column CTA 1
+Path: /sitecore/content/Verticals/Financial/Data/Promos/Two Column CTA/Two Column CTA 1
 SharedFields:
 - ID: "168fed07-0f41-44f5-a14e-f134e16b1477"
   Hint: Image1

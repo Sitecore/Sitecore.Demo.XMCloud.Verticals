@@ -1,8 +1,8 @@
 ﻿---
 ID: "b2f566b8-603f-4c07-9541-e338eb46d0bb"
-Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
+Parent: "8522d94a-3b27-4e87-baa6-511f9068177b"
 Template: "3b41d9fc-0edf-48e1-966c-e260339ba815"
-Path: /sitecore/content/Verticals/Financial/Home/Data/Five Column CTA
+Path: /sitecore/content/Verticals/Financial/Data/Promos/Five Column CTA/Available Services
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
