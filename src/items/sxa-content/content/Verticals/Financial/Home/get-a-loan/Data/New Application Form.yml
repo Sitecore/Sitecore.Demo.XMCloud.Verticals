@@ -39,3 +39,24 @@ Languages:
       Hint: SubmitButton
       Value: |
         <link text="Soumettre" linktype="anchor" url="submit" anchor="submit" title="Submit button" class="" />
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d5193ee-6481-468b-a6d2-2281ed5035c2"
+    - ID: "d663bd4f-2e16-421d-84a8-6c54fa9ddc0e"
+      Hint: Title
+      Value: 応募する
+    - ID: "de1ea50c-6bff-4b85-ab2f-c99e57326322"
+      Hint: Subtitle
+      Value: 消費者金融のオンライン申し込みは、審査と承認に手数料がかかりません！
+    - ID: "e8781b03-b723-42ee-b5c4-3acb1a639f39"
+      Hint: Footnote
+      Value: |
+        送信ボタンをクリックすると、以下の内容に同意したものとみなされます。 <a href="#terms-and-conditions">個人情報の取り扱いおよびオンライン申請について</a>
+    - ID: "ef4297fb-1ef8-4b4e-ae14-2edb6069d9d8"
+      Hint: SubmitButton
+      Value: |
+        <link text="送信" linktype="anchor" url="Submit" anchor="Submit" title="Submit button" class="" />

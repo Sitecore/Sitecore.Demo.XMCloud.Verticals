@@ -73,3 +73,30 @@ Languages:
     - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
       Hint: Text2
       Value: Accédez à des fonds quand vous en avez besoin avec notre ligne de crédit personnelle polyvalente.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "301fab64-5268-445d-8380-6b43861bb434"
+      Hint: Link1
+      Value: |
+        <link text="今すぐ登録" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D0E2F5F1-E984-4DDD-9A32-BE0D90674E6C}" />
+    - ID: "4e43fdc3-7a40-469c-a93a-231545ee01e9"
+      Hint: Title1
+      Value: クレジットカード
+    - ID: "53845417-9058-4342-90a9-50783ffd8c25"
+      Hint: Link2
+      Value: |
+        <link text="今すぐ申し込む" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C63FF335-ABDA-42B1-83FD-18E67881FAAA}" />
+    - ID: "56a3b6a6-bd8b-4d2e-a86d-f791169ebe7b"
+      Hint: Title2
+      Value: 信用枠
+    - ID: "5eacc805-137b-41d5-a43c-67d981abf6f9"
+      Hint: Text1
+      Value: プレミアム・クレジットカードで、今すぐ可能性の扉を開きましょう。
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "334b4229-2aaf-4ad4-afd8-b9f3f3e428a5"
+    - ID: "eeb59bf3-72d2-4e49-9a37-3902b7a236a9"
+      Hint: Text2
+      Value: 多目的にご利用いただける個人向け融資枠で、必要なときにいつでも資金をご利用いただけます。

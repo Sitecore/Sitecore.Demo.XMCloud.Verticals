@@ -124,3 +124,48 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: Une annonce importante pour nos clients
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: お客様へ重要なお知らせ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>PLAY! Financeは、最先端の金融サービスを提供するリーディングプロバイダーとして、価値ある顧客の皆様にエキサイティングな最新情報をお届けいたします。</p>
+        <br />
+        <p>PLAY! FinanceのCEOであるアーサー・スパノス氏は、「<strong><em>お客様が財務的な健康を達成するための支援に向けた取り組みの一環として、重要なマイルストーンを達成できたことに興奮しています。</em></strong>」と述べています。</p>
+        
+        <p>今回の発表の主要なハイライトは以下の通りです:</p>
+        <ul>
+            <li><strong>ユーザーエクスペリエンスの強化:</strong> 新機能や改善により、ユーザーがより直感的で便利に資産管理を行えるようにします。</li>
+            <li><strong>製品ラインアップの拡充:</strong> 顧客のニーズに応えるために、新しい金融商品やサービスを提供し、財務目標達成の選択肢をさらに広げます。</li>
+            <li><strong>セキュリティへの継続的な注力:</strong> 高いセキュリティとプライバシーの基準を維持し、顧客の機密財務情報を安全に取り扱います。</li>
+            <li><strong>顧客満足度へのコミットメント:</strong> 卓越したカスタマーサービスとサポートを提供し、必要なときに適切な支援を受けられるよう努めます。</li>
+        </ul>
+        
+        <p>さらにアーサー・スパノス氏は、「<strong><em>私たちはお客様の成功に尽力しており、この発表はお客様が財務的未来を管理できるよう革新的なソリューションを提供し続けることへのコミットメントを表しています。</em></strong>」と述べています。</p>
+        
+        <p>これらのエキサイティングなアップデートやPLAY! Financeのお客様へのメリットについて、詳細はPLAY! Financeのウェブサイトまたはお近くの支店をご覧ください。</p>
+        
+        <p><strong>PLAY! Financeについて</strong><br />
+        PLAY! Financeは、革新的な金融ソリューションを提供するリーディングプロバイダーとして、個人が財務的な健康を達成できるよう支援しています。先端技術と個別対応のツールを通じて、PLAY! Financeは顧客が財務管理を身近に、魅力的に、そして有意義に感じられるよう再定義しています。</p>
+        
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: プレーする！ ファイナンスは、顧客体験の最適化と金融エンパワーメントの促進を目的とした一連の機能強化と拡張を発表した。
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: お客様へ重要なお知らせ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8ecc24f5-6922-49c7-9cef-160bc19ed356"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: お客様へ重要なお知らせ

@@ -24,7 +24,7 @@ SharedFields:
   Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Four Column CTA']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Four Column CTA']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Promo Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Promo Folder']"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
@@ -56,7 +56,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "60f7563c-362e-4c31-ada8-5c42a1dce844"
+      Value: "7e356364-a90b-4712-a307-a9550cd3881b"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

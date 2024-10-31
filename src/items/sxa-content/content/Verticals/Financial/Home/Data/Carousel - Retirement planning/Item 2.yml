@@ -46,3 +46,20 @@ Languages:
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
       Value: <p>Gestion de patrimoine simplifiée.</p>
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: 自信を持って資産を増やす
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="オンラインで始める" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{1AFD250F-EE87-4708-BA49-7608D13BB81B}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abbee289-e447-47d3-911a-01c062d08126"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>資産管理をシンプルに。</p>

@@ -45,6 +45,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Olly Damon
     - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
       Hint: Position
       Value: Responsable des services à la clientèle
@@ -58,3 +61,29 @@ Languages:
     - ID: "996749ca-6a47-463d-a759-7db65676f179"
       Hint: Name
       Value: Olly Damon
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: オリー・デイモン
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{171CCFD4-8543-428E-9A9B-8E6557E63B6D}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: オリー・デイモン
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: クライアント・サービス・マネージャー
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ca0aba06-a94a-4f8e-a23a-4d6d1fefedca"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: <p>オリーはクライアントに卓越したサービスとサポートを提供することに専念している。 顧客との強固な関係を築き、期待を上回るサービスを提供することに重点を置き、顧客サービスチームを率いて、顧客からの問い合わせに対応し、問題を解決し、満足を確保するために、タイムリーで迅速な支援を提供しています。</p>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: オリー・デイモン

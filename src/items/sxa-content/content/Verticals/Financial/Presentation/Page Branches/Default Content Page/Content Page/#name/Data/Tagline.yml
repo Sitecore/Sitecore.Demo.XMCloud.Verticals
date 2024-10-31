@@ -26,3 +26,14 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "26a0c566-a9ef-4e7d-9ec7-3a3d959d4981"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>財政を管理し、<em style="color: var(--bg-accent);">人生を管理する。</em></h2>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e2f4f46b-639b-4c71-a8b3-23cc2118bed0"

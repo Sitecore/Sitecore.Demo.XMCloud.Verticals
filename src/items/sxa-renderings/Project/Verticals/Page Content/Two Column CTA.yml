@@ -29,7 +29,7 @@ SharedFields:
   Value: "{A94D823B-94AD-4A04-8238-3A5FD72C0E7C}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Two Column CTA']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Two Column CTA']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Promo Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Promo Folder']"
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
   Value: 
@@ -58,7 +58,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ab0bddd7-d1aa-4c24-bc78-1a6d6d7dc8e7"
+      Value: "5895549b-be6a-43df-80da-7fb355207f72"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

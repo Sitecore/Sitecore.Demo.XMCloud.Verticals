@@ -35,3 +35,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: Notre site web offre des outils de surveillance de crédit et des ressources éducatives pour vous aider à comprendre et améliorer votre score de crédit. Vous pouvez suivre les changements de votre score au fil du temps, recevoir des alertes sur d'éventuelles fraudes ou vols d'identité, et accéder à des conseils personnalisés pour augmenter votre solvabilité. Que vous cherchiez à bâtir un crédit à partir de zéro ou à augmenter votre score, nous sommes là pour vous soutenir à chaque étape.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a44e5614-d61c-4171-962b-9992e88e386f"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: クレジット・スコアを追跡し、向上させるために、どのようなツールやリソースを提供していますか？
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: 当ウェブサイトでは、クレジット・スコアの理解と向上に役立つクレジット・モニタリング・ツールや教育リソースへのアクセスを提供しています。 時間の経過に伴うスコアの変化を追跡したり、詐欺やなりすましの可能性に関するアラートを受信したり、信用力を高めるための個別のヒントにアクセスしたりすることができます。 ゼロから信用を築こうとしている方にも、スコアアップを目指している方にも、あらゆるステップでサポートいたします。

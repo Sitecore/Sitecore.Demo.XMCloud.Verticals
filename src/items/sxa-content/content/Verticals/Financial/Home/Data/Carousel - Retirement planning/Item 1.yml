@@ -50,3 +50,20 @@ Languages:
     - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
       Hint: Text
       Value: <p>Prenez soin de votre patrimoine, prenez soin de votre famille.</p>
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: 今日の計画、明日の繁栄
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="未来を守る" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{524F5CD2-4FB9-437D-B733-CF5861B8CED3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "754310d3-68ee-4f0c-9e43-84a732c247bb"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>財産を大切にし、家族を大切にする。</p>

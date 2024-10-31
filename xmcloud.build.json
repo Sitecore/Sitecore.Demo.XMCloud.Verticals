@@ -47,7 +47,8 @@
             "path": "/sitecore",
             "languages": [
               "en",
-              "fr-CA"
+              "fr-CA",
+              "ja-JP"
             ],
             "itemIds": [],
             "targets": ["Edge"],

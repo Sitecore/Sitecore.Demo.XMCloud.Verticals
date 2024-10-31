@@ -35,3 +35,16 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: Le compte personnel est un compte pour les opérations bancaires quotidiennes sans rapport avec votre entreprise. Le compte professionnel est conçu pour faciliter la gestion de vos finances d'entreprise à des fins de déclarations gouvernementales et fiscales, de comptabilité et de trésorerie.
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "42349ed5-e96c-4ebc-96ab-a9830508a829"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: ビジネスアカウントと個人アカウントはどう違うのですか？
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: パーソナル・アカウントは、ビジネスとは関係のない日常的なバンキング用のアカウントです。 ビジネスアカウントは、政府・税務報告、帳簿管理、キャッシュフローを目的としたビジネス財務管理を容易にするためのビジネスアカウントです。
