@@ -55,6 +55,7 @@ export const Default = (props: AppPromoProps): JSX.Element => {
               src={props.fields.Image.value?.src}
               alt={props.fields.Image.value?.alt as string}
               ref={parallaxImg.ref}
+              loading="lazy"
               className={`${isPageEditing ? 'd-none' : 'd-block'} mx-lg-auto img-fluid`}
               style={{ transformOrigin: 'bottom' }}
             ></img>
