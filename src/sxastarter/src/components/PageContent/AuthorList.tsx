@@ -4,12 +4,12 @@ import {
   ComponentRendering,
   Field,
   ImageField,
-  Image,
   Text,
   withDatasourceCheck,
   RichTextField,
   RichText,
   useSitecoreContext,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 import { useI18n } from 'next-localization';
@@ -59,7 +59,7 @@ const AuthorListDefault = (props: AuthorListComponentProps): JSX.Element => {
                 }`}
               >
                 <div className="col-lg-4">
-                  <Image field={author.fields.Photo} />
+                  <NextImage field={author.fields.Photo} width={400} height={300} />
                 </div>
                 <div className="col-lg-8">
                   <h3 className="fs-3 mb-0">
@@ -121,7 +121,7 @@ const AuthorListSlider = (props: AuthorListComponentProps): JSX.Element => {
           {authors?.map((author) => (
             <SwiperSlide key={author.url}>
               <Link href={author.url} className="wrapper-link">
-                <Image field={author.fields.Photo} />
+                <NextImage field={author.fields.Photo} width={300} height={300} />
                 <h3 className="fs-4 mt-4">
                   <Text field={author.fields.Name}></Text>
                 </h3>
@@ -154,7 +154,7 @@ const AuthorListSimple = (props: AuthorListComponentProps): JSX.Element => {
           {authors?.map((author) => (
             <div key={author.url} className="col-sm-5 col-lg-3">
               <div>
-                <Image field={author.fields.Photo} />
+                <NextImage field={author.fields.Photo} width={300} height={300} />
               </div>
               <div>
                 <h3 className="fs-4 mt-4 mb-1">

@@ -1,4 +1,4 @@
-import { ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ImageField, NextImage } from '@sitecore-jss/sitecore-jss-nextjs';
 
 export const IconAccent = ({
   image,
@@ -9,7 +9,7 @@ export const IconAccent = ({
 }): JSX.Element => {
   return (
     <div className={`icon-accent ${inverted ? 'inverted' : ''}`}>
-      <Image field={image} />
+      <NextImage field={image} width={32} height={32} />
     </div>
   );
 };

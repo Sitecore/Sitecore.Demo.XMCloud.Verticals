@@ -2,11 +2,11 @@ import React from 'react';
 import {
   Field,
   ImageField,
-  Image,
   RichTextField,
   Text,
   RichText,
   useSitecoreContext,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useParallax } from 'react-scroll-parallax';
 
@@ -45,10 +45,12 @@ export const Default = (props: AppPromoProps): JSX.Element => {
             </div>
           </div>
           <div className="col-md-10 mx-auto col-lg-6 image-wrapper">
-            <Image
+            <NextImage
               field={props.fields.Image}
               className={`${isPageEditing ? 'd-block' : 'd-none'} mx-lg-auto img-fluid`}
-            ></Image>
+              width={700}
+              height={700}
+            />
             <img
               src={props.fields.Image.value?.src}
               alt={props.fields.Image.value?.alt as string}

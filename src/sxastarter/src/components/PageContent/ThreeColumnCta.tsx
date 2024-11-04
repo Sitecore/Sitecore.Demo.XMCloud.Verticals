@@ -2,11 +2,11 @@ import React from 'react';
 import {
   Field,
   ImageField,
-  Image,
   Text,
   LinkField,
   Link,
   useSitecoreContext,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import useVisibility from 'src/hooks/useVisibility';
 
@@ -61,7 +61,7 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
         ref={domRef}
       >
         <div className="content-wrapper">
-          <Image field={image} height={' '} />
+          <NextImage field={image} width={400} height={400} />
           <h2>
             <Text field={text} />
           </h2>
@@ -138,7 +138,7 @@ export const WithIcons = (props: ThreeColumnCtaProps): JSX.Element => {
         <Link field={link} className="wrapper-link">
           <div className="content-wrapper">
             <div className="image-wrapper mb-5">
-              <Image field={image} height={32} />
+              <NextImage field={image} width={32} height={32} />
             </div>
             <h2>
               <Text field={text} />
@@ -215,7 +215,7 @@ export const WithIconsCompact = (props: ThreeColumnCtaProps): JSX.Element => {
           <div className="content-wrapper">
             <div className="d-flex align-items-center gap-3 mb-4">
               <div className="image-wrapper">
-                <Image field={image} height={32} />
+                <NextImage field={image} width={32} height={32} />
               </div>
               <h2 className="eyebrow-accent mb-0 mt-2">
                 <Text field={text} />

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Field, Image, ImageField, RichText, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, ImageField, NextImage, RichText, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface AccordionItemFields {
   Icon: ImageField;
@@ -30,7 +30,7 @@ const AccordionItem = ({ item }: { item: AccordionItemProps }): JSX.Element => {
         className={`button-clear-appearance ${isExpanded ? 'expanded' : ''}`}
       >
         <div className="icon-wrapper">
-          <Image field={item.fields.Icon} />
+          <NextImage field={item.fields.Icon} width={32} height={32} />
         </div>
         <h3 className="display-6 fw-bold mb-0">
           <Text field={item.fields.Title} />

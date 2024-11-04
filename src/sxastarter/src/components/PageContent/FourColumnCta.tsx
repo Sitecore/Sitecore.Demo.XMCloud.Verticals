@@ -3,10 +3,10 @@ import {
   Field,
   ImageField,
   LinkField,
-  Image,
   Text,
   Link,
   useSitecoreContext,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import useVisibility from 'src/hooks/useVisibility';
 
@@ -62,7 +62,7 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
       >
         <Link field={link}>
           <div className="content-wrapper">
-            <Image field={image} height={' '} />
+            <NextImage field={image} width={300} height={300} />
             <div className="text-wrapper">
               <h2>
                 <Text field={title} />

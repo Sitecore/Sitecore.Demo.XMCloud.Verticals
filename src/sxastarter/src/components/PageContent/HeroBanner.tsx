@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Field,
   ImageField,
-  Image,
   RichTextField,
   Text,
   RichText,
@@ -10,6 +9,7 @@ import {
   Link,
   LinkField,
   Placeholder,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { IconAccent } from 'components/NonSitecore/IconAccent';
@@ -69,7 +69,12 @@ export const Default = (props: HeroBannerProps): JSX.Element => {
           <div className="img-column">
             <div className="img-wrapper">
               <DottedAccent className="dotted-accent-top" />
-              <Image field={props.fields.Image} className="img-fluid"></Image>
+              <NextImage
+                field={props.fields.Image}
+                className="img-fluid"
+                width={700}
+                height={700}
+              />
               <DottedAccent className="dotted-accent-bottom" />
             </div>
           </div>

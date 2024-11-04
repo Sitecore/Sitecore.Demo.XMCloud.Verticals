@@ -1,4 +1,4 @@
-import { Image, ImageField, Placeholder } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ImageField, NextImage, Placeholder } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import React from 'react';
 
@@ -35,7 +35,7 @@ export const WithLogoImage = (props: WithImageProps): JSX.Element => {
       <div className={`container container-${props.params?.ContainerWidth?.toLowerCase()}-fluid`}>
         <div className="row align-items-center">
           <div className="col-auto">
-            <Image field={props.fields.LogoImage} />
+            <NextImage field={props.fields.LogoImage} width={200} height={50} />
           </div>
           <div className="col">
             <Placeholder name="header-right" rendering={props.rendering} />

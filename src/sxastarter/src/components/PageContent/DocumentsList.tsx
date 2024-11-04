@@ -2,11 +2,11 @@ import React from 'react';
 import {
   Field,
   ImageField,
-  Image,
   LinkField,
   Link,
   Text,
   useSitecoreContext,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import useVisibility from 'src/hooks/useVisibility';
 
@@ -54,7 +54,7 @@ export const Default = (props: DocumentsListProps): JSX.Element => {
         ref={domRef}
       >
         <div className="item">
-          <Image field={image} />
+          <NextImage field={image} width={30} height={40} />
           <div className="text-container">
             <Link field={link} />
             <span className="subtitle">

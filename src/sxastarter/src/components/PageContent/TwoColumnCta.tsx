@@ -3,11 +3,11 @@ import {
   Field,
   ImageField,
   LinkField,
-  Image,
   Text,
   Link,
   useSitecoreContext,
   Placeholder,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import useVisibility from 'src/hooks/useVisibility';
@@ -61,7 +61,7 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
         ref={domRef}
       >
         <div className="content-wrapper">
-          <Image field={image} height={' '} />
+          <NextImage field={image} width={800} height={800} />
           {(isPageEditing || title?.value) && (
             <h2>
               <Text field={title} />

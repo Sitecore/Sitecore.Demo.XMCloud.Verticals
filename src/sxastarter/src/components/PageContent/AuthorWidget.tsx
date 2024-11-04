@@ -2,13 +2,13 @@ import React from 'react';
 import {
   Field,
   ImageField,
-  Image,
   Text,
   withDatasourceCheck,
   ComponentParams,
   ComponentRendering,
   LinkField,
   Link,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -39,7 +39,7 @@ const AuthorWidgetDefault = (props: AuthorWidgetProps): JSX.Element => {
     >
       <div className="author-card row g-0">
         <div className="col-auto">
-          <Image field={props.fields.Photo} className="author-img" />
+          <NextImage field={props.fields.Photo} className="author-img" width={48} height={48} />
         </div>
         <div className="col">
           <h6 className="author-name">
@@ -64,7 +64,7 @@ const AuthorWidgetWithSocials = (props: AuthorWidgetProps): JSX.Element => {
     >
       <div className="author-card row g-0">
         <div className="col-auto">
-          <Image field={props.fields.Photo} className="author-img" />
+          <NextImage field={props.fields.Photo} className="author-img" width={80} height={80} />
         </div>
         <div className="col">
           <h6 className="author-name">
@@ -77,13 +77,13 @@ const AuthorWidgetWithSocials = (props: AuthorWidgetProps): JSX.Element => {
         <div className="col-12 col-md-auto">
           <div className="social-links">
             <Link field={props.fields?.SocialLink1}>
-              <Image field={props.fields?.SocialIcon1} />
+              <NextImage field={props.fields?.SocialIcon1} width={16} height={16} />
             </Link>
             <Link field={props.fields?.SocialLink2}>
-              <Image field={props.fields?.SocialIcon2} />
+              <NextImage field={props.fields?.SocialIcon2} width={16} height={16} />
             </Link>
             <Link field={props.fields?.SocialLink3}>
-              <Image field={props.fields?.SocialIcon3} />
+              <NextImage field={props.fields?.SocialIcon3} width={16} height={16} />
             </Link>
           </div>
         </div>
