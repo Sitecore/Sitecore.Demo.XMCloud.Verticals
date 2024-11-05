@@ -2,13 +2,13 @@ import React from 'react';
 import {
   Field,
   ImageField,
-  Image,
   RichTextField,
   Text,
   RichText,
   Link,
   LinkField,
   useSitecoreContext,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import useVisibility from 'src/hooks/useVisibility';
 import { ComponentProps } from 'lib/component-props';
@@ -65,12 +65,14 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
             <div className="col-md-10 mx-auto col-lg-6 mx-lg-0">
               <div className="image-wrapper">
                 <DottedAccent className="dotted-accent-top" />
-                <Image
+                <NextImage
                   field={props.fields.Image}
                   className={`d-block mx-lg-auto img-fluid ${
                     !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
                   }`}
-                ></Image>
+                  width={800}
+                  height={800}
+                />
                 <DottedAccent className="dotted-accent-bottom" />
               </div>
             </div>
@@ -118,12 +120,14 @@ export const LargeImage = (props: CtaBannerProps): JSX.Element => {
           <div className="col-md-10 mx-auto col-lg-6 mx-lg-0">
             <div className="image-wrapper">
               <DottedAccent className="dotted-accent-top" />
-              <Image
+              <NextImage
                 field={props.fields.Image}
                 className={`d-block mx-lg-auto img-fluid ${
                   !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
                 }`}
-              ></Image>
+                width={850}
+                height={850}
+              />
               <DottedAccent className="dotted-accent-bottom" />
             </div>
           </div>

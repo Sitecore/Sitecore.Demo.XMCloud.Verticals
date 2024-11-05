@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Field,
   ImageField,
-  Image,
   RichTextField,
   Text,
   RichText,
@@ -10,6 +9,7 @@ import {
   LinkField,
   useSitecoreContext,
   Placeholder,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
 import useVisibility from 'src/hooks/useVisibility';
@@ -74,12 +74,14 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
           <div className="col-md-10 mx-auto col-lg-7 mx-lg-0">
             <div className="image-wrapper">
               <DottedAccent className="dotted-accent-top" />
-              <Image
+              <NextImage
                 field={props.fields.Image}
                 className={`d-block mx-lg-auto img-fluid ${
                   !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
                 }`}
-              ></Image>
+                width={900}
+                height={900}
+              />
               <DottedAccent className="dotted-accent-bottom" />
             </div>
           </div>
@@ -138,12 +140,14 @@ export const WithPlaceholderColumn = (props: PromoCtaProps): JSX.Element => {
 
               <div className="image-wrapper d-none d-md-block col-md-8">
                 <DottedAccent className="dotted-accent-top" />
-                <Image
+                <NextImage
                   field={props.fields.Image}
                   className={`d-block mx-lg-auto img-fluid ${
                     !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
                   }`}
-                ></Image>
+                  width={900}
+                  height={900}
+                />
                 <DottedAccent className="dotted-accent-bottom" />
               </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Field, Image, ImageField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, ImageField, NextImage, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: Field<string>;
@@ -24,7 +24,12 @@ export const Default = (props: ContactFormProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="container container-widest-fluid">
-        <Image field={props.fields.BackgroundImage} className="img-fluid" />
+        <NextImage
+          field={props.fields.BackgroundImage}
+          className="img-fluid"
+          width={1920}
+          height={800}
+        />
         <div className="container">
           <div className="contact-form-inner">
             <form>

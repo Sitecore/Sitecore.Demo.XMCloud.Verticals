@@ -2,12 +2,12 @@ import React from 'react';
 import {
   Field,
   ImageField,
-  Image,
   LinkField,
   Link,
   Text,
   RichTextField,
   RichText,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -48,7 +48,12 @@ export const Default = (props: FooterProps): JSX.Element => {
       <div className="container">
         <div className="content">
           <div className="logo">
-            <Image field={props.fields?.Image1} height={' '} className="img-fluid" />
+            <NextImage
+              field={props.fields?.Image1}
+              width={200}
+              height={200}
+              className="img-fluid"
+            />
           </div>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-xl-4 row-gap-5 gx-5">
             <div className="col">
@@ -109,7 +114,12 @@ export const WithSocials = (props: FooterProps): JSX.Element => {
       <div className="container">
         <div className="content">
           <div className="logo">
-            <Image field={props.fields?.Image1} height={' '} className="img-fluid" />
+            <NextImage
+              field={props.fields?.Image1}
+              width={200}
+              height={200}
+              className="img-fluid"
+            />
           </div>
           <div className="row row-cols-1 row-cols-md-3 row-gap-5 gx-5">
             <div className="col">
@@ -134,13 +144,13 @@ export const WithSocials = (props: FooterProps): JSX.Element => {
               </div>
               <div className="links links-socials">
                 <Link field={props.fields?.SocialLink1}>
-                  <Image field={props.fields?.SocialIcon1} />
+                  <NextImage field={props.fields?.SocialIcon1} width={16} height={16} />
                 </Link>
                 <Link field={props.fields?.SocialLink2}>
-                  <Image field={props.fields?.SocialIcon2} />
+                  <NextImage field={props.fields?.SocialIcon2} width={16} height={16} />
                 </Link>
                 <Link field={props.fields?.SocialLink3}>
-                  <Image field={props.fields?.SocialIcon3} />
+                  <NextImage field={props.fields?.SocialIcon3} width={16} height={16} />
                 </Link>
               </div>
             </div>

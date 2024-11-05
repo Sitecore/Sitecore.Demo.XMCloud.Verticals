@@ -56,7 +56,8 @@ const nextConfig = {
         hostname: 'feaas*.blob.core.windows.net',
         port: '',
       },
-    ]
+    ],
+    dangerouslyAllowSVG: true,
   },
 
   async rewrites() {

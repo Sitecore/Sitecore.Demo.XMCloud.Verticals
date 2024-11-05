@@ -4,9 +4,9 @@ import {
   ImageField,
   Placeholder,
   Text,
-  Image,
   RichText,
   RichTextField,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
@@ -42,7 +42,12 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
             <div className="">
               <div className="row row-gap-4 gx-5">
                 <div className="col-12 col-lg-5">
-                  <Image field={props.fields.Photo} className="author-img" />
+                  <NextImage
+                    field={props.fields.Photo}
+                    className="author-img"
+                    width={500}
+                    height={500}
+                  />
                 </div>
                 <div className="col-12 col-lg-7">
                   <h1 className="author-name display-5 fw-bold">
@@ -91,7 +96,12 @@ export const Simple = (props: PageBackgroundProps): JSX.Element => {
             </div>
           </div>
           <div className="img-col col-lg-4">
-            <Image field={props.fields.Photo} className="author-img img-fluid" />
+            <NextImage
+              field={props.fields.Photo}
+              className="author-img img-fluid"
+              width={500}
+              height={500}
+            />
           </div>
         </div>
       </div>

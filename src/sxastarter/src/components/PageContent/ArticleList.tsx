@@ -4,10 +4,10 @@ import {
   ComponentRendering,
   Field,
   ImageField,
-  Image,
   Text,
   RichTextField,
   withDatasourceCheck,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 import { useI18n } from 'next-localization';
@@ -67,7 +67,7 @@ const ArticleListDefault = (props: ArticleListComponentProps): JSX.Element => {
                 }`}
               >
                 <div className="col-lg-4">
-                  <Image field={item.fields.Thumbnail} />
+                  <NextImage field={item.fields.Thumbnail} width={400} height={300} />
                 </div>
 
                 <div className="col-lg-8">
@@ -107,7 +107,7 @@ const ArticleListThreeColumn = (props: ArticleListComponentProps): JSX.Element =
           {newsItems?.map((item) => (
             <div className="col-lg-4" key={item.url}>
               <Link href={item.url} className="wrapper-link">
-                <Image field={item.fields.Thumbnail} />
+                <NextImage field={item.fields.Thumbnail} width={400} height={300} />
                 <h3 className="fs-4 mt-3">
                   <Text field={item.fields.Title}></Text>
                 </h3>
@@ -148,7 +148,7 @@ const ArticleListSimplified = (props: ArticleListComponentProps): JSX.Element =>
             <React.Fragment key={item.url}>
               <div className="row gx-5 row-gap-3 align-items-center">
                 <div className="col-lg-4">
-                  <Image field={item.fields.Thumbnail} />
+                  <NextImage field={item.fields.Thumbnail} width={400} height={300} />
                 </div>
 
                 <div className="col-lg-6">
@@ -186,7 +186,7 @@ const ArticleListGrid = (props: ArticleListComponentProps): JSX.Element => {
           {newsItems?.map((item) => (
             <div className="article-grid-item" key={item.url}>
               <Link href={item.url} className="wrapper-link">
-                <Image field={item.fields.Thumbnail} />
+                <NextImage field={item.fields.Thumbnail} width={800} height={400} />
                 <h3 className="fs-4 mt-3">
                   <Text field={item.fields.Title}></Text>
                 </h3>

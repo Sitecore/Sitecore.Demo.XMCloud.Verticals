@@ -4,9 +4,9 @@ import {
   ImageField,
   Placeholder,
   Text,
-  Image,
   RichText,
   RichTextField,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import {
@@ -60,7 +60,12 @@ export const Default = (props: ProjectDetailsProps): JSX.Element => {
           <div className="col-12 col-lg-6 d-flex flex-column align-items-end justify-content-end gap-3 mt-3">
             <div>
               <span className="eyebrow-accent me-2">{t('Client') || 'Client'}:</span>
-              <Image field={props.fields.Client} className="client-logo" />
+              <NextImage
+                field={props.fields.Client}
+                className="client-logo"
+                width={140}
+                height={60}
+              />
             </div>
             <div>
               <span className="eyebrow-accent me-2">{t('Category') || 'Category'}:</span>
@@ -71,7 +76,12 @@ export const Default = (props: ProjectDetailsProps): JSX.Element => {
       </div>
 
       <div className="container container-widest-fluid">
-        <Image field={props.fields.Thumbnail} className="project-img img-fluid" />
+        <NextImage
+          field={props.fields.Thumbnail}
+          className="project-img img-fluid"
+          width={1650}
+          height={750}
+        />
       </div>
       <div className="container">
         <div className="article-content">
