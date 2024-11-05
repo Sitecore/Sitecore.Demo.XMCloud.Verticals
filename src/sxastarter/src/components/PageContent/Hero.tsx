@@ -2,13 +2,13 @@ import React from 'react';
 import {
   Field,
   ImageField,
-  Image,
   RichTextField,
   Text,
   RichText,
   useSitecoreContext,
   Link,
   LinkField,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -31,7 +31,7 @@ export const Default = (props: AppPromoProps): JSX.Element => {
   return (
     <div className={`component hero ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
       <picture>
-        <Image field={props.fields.Image} className=""></Image>
+        <NextImage field={props.fields.Image} className="" width={1920} height={400}></NextImage>
       </picture>
       <div className="container content-container">
         <div className="top-layout">

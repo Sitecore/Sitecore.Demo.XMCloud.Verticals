@@ -1,8 +1,8 @@
 import React from 'react';
 import {
   Field,
-  Image,
   ImageField,
+  NextImage,
   Text,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
@@ -39,7 +39,7 @@ export const Default = (props: StatsCounterProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="container container-wide-fluid">
-        <Image field={props.fields?.Image1} className="image-left" />
+        <NextImage field={props.fields?.Image1} className="image-left" width={300} height={300} />
         <div className="container">
           <DottedAccent className="dotted-accent-top" />
           <div className="row gx-0">
@@ -97,7 +97,7 @@ export const Default = (props: StatsCounterProps): JSX.Element => {
           </div>
           <DottedAccent className="dotted-accent-bottom" />
         </div>
-        <Image field={props.fields?.Image2} className="image-right" />
+        <NextImage field={props.fields?.Image2} className="image-right" width={300} height={300} />
       </div>
     </div>
   );

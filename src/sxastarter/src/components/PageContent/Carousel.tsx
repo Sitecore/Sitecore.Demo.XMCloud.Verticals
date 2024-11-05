@@ -4,13 +4,13 @@ import {
   ComponentRendering,
   Field,
   ImageField,
-  Image,
   RichTextField,
   LinkField,
   Text,
   Link,
   RichText,
   useSitecoreContext,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -69,11 +69,12 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
                 <source src={item.fields.Video.value.src} type="video/webm" />
               </video>
             ) : (
-              <Image
+              <NextImage
                 field={item.fields.Image}
                 className="object-fit-cover d-block w-100 h-100"
-                height={' '}
-              ></Image>
+                width={1920}
+                height={800}
+              />
             )}
 
             <div className="side-content">

@@ -1,10 +1,10 @@
 import React from 'react';
 import {
   Field,
-  Image,
   ImageField,
   Link,
   LinkField,
+  NextImage,
   RichText,
   RichTextField,
   Text,
@@ -49,7 +49,7 @@ export const Default = (props: FeaturesProps): JSX.Element => {
         <div className="items">
           <div className="item left">
             <div className="icon">
-              <Image field={props.fields?.Image1} />
+              <NextImage field={props.fields?.Image1} width={32} height={32} />
             </div>
             <div className="title">
               <Text field={props.fields?.Title1} />

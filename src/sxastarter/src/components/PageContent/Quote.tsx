@@ -1,5 +1,5 @@
 import React from 'react';
-import { Field, ImageField, Image, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, ImageField, Text, NextImage } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 
 interface Fields {
@@ -62,7 +62,7 @@ export const Simple = (props: PromoCtaProps): JSX.Element => {
     >
       <div className="row gx-0">
         <div className="col-auto me-3">
-          <Image field={props.fields.Image} className="author-image" />
+          <NextImage field={props.fields.Image} className="author-image" width={48} height={48} />
         </div>
         <div className="col">
           <blockquote className="mb-0">

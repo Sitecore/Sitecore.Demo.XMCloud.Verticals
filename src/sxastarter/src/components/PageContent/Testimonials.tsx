@@ -1,8 +1,8 @@
 import React from 'react';
 import {
   Field,
-  Image,
   ImageField,
+  NextImage,
   Text,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
@@ -65,7 +65,12 @@ const Testimonial = ({ item }: { item: TestimonialItemProps }): JSX.Element => {
       </blockquote>
       <div className="row align-items-center">
         <div className="col-auto">
-          <Image field={item.fields.AuthorImage} className="author-image" />
+          <NextImage
+            field={item.fields.AuthorImage}
+            className="author-image"
+            width={100}
+            height={100}
+          />
         </div>
         <div className="col">
           <p className="author-name fs-4 fw-bold mb-1">

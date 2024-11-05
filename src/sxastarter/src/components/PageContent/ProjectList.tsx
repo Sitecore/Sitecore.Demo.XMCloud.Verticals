@@ -4,10 +4,10 @@ import {
   ComponentRendering,
   Field,
   ImageField,
-  Image,
   Text,
   RichTextField,
   withDatasourceCheck,
+  NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
@@ -99,7 +99,7 @@ const ProjectFilters = ({
 const ProjectGridItem = ({ item }: { item: ProjectListItemProps }) => (
   <div className="project-grid-item">
     <Link href={item.url} className="wrapper-link">
-      <Image field={item.fields.Thumbnail} />
+      <NextImage field={item.fields.Thumbnail} width={800} height={600} />
       <div className="project-grid-item-content">
         <span className="project-category">
           <Text field={item.fields.Category} />
