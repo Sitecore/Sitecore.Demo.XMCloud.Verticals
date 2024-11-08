@@ -1,0 +1,92 @@
+---
+  
+import ContentBlock from '../../src/components/ContentBlock.astro'
+import StyleguideFieldUsageAstroImage from '../../src/components/fields/Styleguide-FieldUsage-AstroImage.astro'
+import StyleguideFieldUsageCheckbox from '../../src/components/fields/Styleguide-FieldUsage-Checkbox.astro'
+import StyleguideFieldUsageContentList from '../../src/components/fields/Styleguide-FieldUsage-ContentList.astro'
+import StyleguideFieldUsageCustom from '../../src/components/fields/Styleguide-FieldUsage-Custom.astro'
+import StyleguideFieldUsageDate from '../../src/components/fields/Styleguide-FieldUsage-Date.astro'
+import StyleguideFieldUsageFile from '../../src/components/fields/Styleguide-FieldUsage-File.astro'
+import StyleguideFieldUsageImage from '../../src/components/fields/Styleguide-FieldUsage-Image.astro'
+import StyleguideFieldUsageItemLink from '../../src/components/fields/Styleguide-FieldUsage-ItemLink.astro'
+import StyleguideFieldUsageLink from '../../src/components/fields/Styleguide-FieldUsage-Link.astro'
+import StyleguideFieldUsageNumber from '../../src/components/fields/Styleguide-FieldUsage-Number.astro'
+import StyleguideFieldUsageRichText from '../../src/components/fields/Styleguide-FieldUsage-RichText.astro'
+import StyleguideFieldUsageText from '../../src/components/fields/Styleguide-FieldUsage-Text.astro'
+import GraphQLConnectedDemo from '../../src/components/graphql/GraphQL-ConnectedDemo.astro'
+import GraphQLIntegratedDemo from '../../src/components/graphql/GraphQL-IntegratedDemo.astro'
+import GraphQLLayout from '../../src/components/graphql/GraphQL-Layout.astro'
+import StyleguideAngularUsageSimple from '../../src/components/integrations/Styleguide-AngularUsage-Simple.astro'
+import StyleguideAngularUsageSitecorePlaceholder from '../../src/components/integrations/Styleguide-AngularUsage-Sitecore-Placeholder.astro'
+import StyleguideAngularUsageSitecore from '../../src/components/integrations/Styleguide-AngularUsage-Sitecore.astro'
+import StyleguideReactUsageSimple from '../../src/components/integrations/Styleguide-ReactUsage-Simple.astro'
+import StyleguideReactUsageSitecorePlaceholder from '../../src/components/integrations/Styleguide-ReactUsage-Sitecore-Placeholder.astro'
+import StyleguideReactUsageSitecore from '../../src/components/integrations/Styleguide-ReactUsage-Sitecore.astro'
+import StyleguideVueUsageSimple from '../../src/components/integrations/Styleguide-VueUsage-Simple.astro'
+import StyleguideVueUsageSitecorePlaceholder from '../../src/components/integrations/Styleguide-VueUsage-Sitecore-Placeholder.astro'
+import StyleguideVueUsageSitecore from '../../src/components/integrations/Styleguide-VueUsage-Sitecore.astro'
+import StyleguideComponentParams from '../../src/components/styleguide/Styleguide-ComponentParams.astro'
+import StyleguideCustomRouteType from '../../src/components/styleguide/Styleguide-CustomRouteType.astro'
+import StyleguideEditFrame from '../../src/components/styleguide/Styleguide-EditFrame.astro'
+import StyleguideLayoutReuse from '../../src/components/styleguide/Styleguide-Layout-Reuse.astro'
+import StyleguideLayoutTabsTab from '../../src/components/styleguide/Styleguide-Layout-Tabs-Tab.astro'
+import StyleguideLayoutTabs from '../../src/components/styleguide/Styleguide-Layout-Tabs.astro'
+import StyleguideLayout from '../../src/components/styleguide/Styleguide-Layout.astro'
+import StyleguideMultilingual from '../../src/components/styleguide/Styleguide-Multilingual.astro'
+import StyleguideReact from '../../src/components/styleguide/Styleguide-React.astro'
+import StyleguideRouteFields from '../../src/components/styleguide/Styleguide-RouteFields.astro'
+import StyleguideSection from '../../src/components/styleguide/Styleguide-Section.astro'
+import StyleguideSitecoreContext from '../../src/components/styleguide/Styleguide-SitecoreContext.astro'
+import StyleguideSpecimen from '../../src/components/styleguide/Styleguide-Specimen.astro'
+import StyleguideTracking from '../../src/components/styleguide/Styleguide-Tracking.astro'
+import Placeholder from '../../src/components/system/Placeholder.astro'
+
+export interface Props  {
+  name: string;
+  route: any;
+}
+---
+
+<>
+{Astro.props.name === 'ContentBlock' && <ContentBlock route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-AstroImage' && <StyleguideFieldUsageAstroImage route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-Checkbox' && <StyleguideFieldUsageCheckbox route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-ContentList' && <StyleguideFieldUsageContentList route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-Custom' && <StyleguideFieldUsageCustom route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-Date' && <StyleguideFieldUsageDate route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-File' && <StyleguideFieldUsageFile route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-Image' && <StyleguideFieldUsageImage route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-ItemLink' && <StyleguideFieldUsageItemLink route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-Link' && <StyleguideFieldUsageLink route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-Number' && <StyleguideFieldUsageNumber route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-RichText' && <StyleguideFieldUsageRichText route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-FieldUsage-Text' && <StyleguideFieldUsageText route={Astro.props.route}/>}
+{Astro.props.name === 'GraphQL-ConnectedDemo' && <GraphQLConnectedDemo route={Astro.props.route}/>}
+{Astro.props.name === 'GraphQL-IntegratedDemo' && <GraphQLIntegratedDemo route={Astro.props.route}/>}
+{Astro.props.name === 'GraphQL-Layout' && <GraphQLLayout route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-AngularUsage-Simple' && <StyleguideAngularUsageSimple route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-AngularUsage-Sitecore-Placeholder' && <StyleguideAngularUsageSitecorePlaceholder route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-AngularUsage-Sitecore' && <StyleguideAngularUsageSitecore route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-ReactUsage-Simple' && <StyleguideReactUsageSimple route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-ReactUsage-Sitecore-Placeholder' && <StyleguideReactUsageSitecorePlaceholder route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-ReactUsage-Sitecore' && <StyleguideReactUsageSitecore route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-VueUsage-Simple' && <StyleguideVueUsageSimple route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-VueUsage-Sitecore-Placeholder' && <StyleguideVueUsageSitecorePlaceholder route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-VueUsage-Sitecore' && <StyleguideVueUsageSitecore route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-ComponentParams' && <StyleguideComponentParams route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-CustomRouteType' && <StyleguideCustomRouteType route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-EditFrame' && <StyleguideEditFrame route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-Layout-Reuse' && <StyleguideLayoutReuse route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-Layout-Tabs-Tab' && <StyleguideLayoutTabsTab route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-Layout-Tabs' && <StyleguideLayoutTabs route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-Layout' && <StyleguideLayout route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-Multilingual' && <StyleguideMultilingual route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-React' && <StyleguideReact route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-RouteFields' && <StyleguideRouteFields route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-Section' && <StyleguideSection route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-SitecoreContext' && <StyleguideSitecoreContext route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-Specimen' && <StyleguideSpecimen route={Astro.props.route}/>}
+{Astro.props.name === 'Styleguide-Tracking' && <StyleguideTracking route={Astro.props.route}/>}
+{Astro.props.name === 'Placeholder' && <Placeholder route={Astro.props.route}/>}
+  {Astro.props.name === undefined && Astro.props.route.name === 'code' && <code {...Astro.props.route.attributes} set:html={Astro.props.route.contents}></code>}
+</>
