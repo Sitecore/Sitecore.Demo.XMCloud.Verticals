@@ -4,6 +4,10 @@ import '../styles/app.css';
 import type { LayoutServiceData, Field } from "@sitecore-jss/sitecore-jss/layout";
 import Placeholder from '../components/system/Placeholder.astro';
 import Navigation from './Navigation.astro';
+import config from '../temp/config';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
+const publicUrl = 'http://localhost:4321';
 
 export interface Props {
 	title: string;
@@ -12,28 +16,51 @@ export interface Props {
 
 interface RouteFields {
   [key: string]: unknown;
-  pageTitle: Field;
+  Title: Field;
 }
 
 const { route } = Astro.props.layoutData.sitecore;
 
+console.log(Astro.props.layoutData)
 const fields = route?.fields as RouteFields;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />		
-		<meta name="generator" content={Astro.generator} />
-		<!-- <title>{fields.pageTitle.value.toString() || 'Page'}</title> -->
-		<link rel="icon" href="/favicon.ico" />
+		<title>{fields.Title.value.toString() || 'Page'}</title>
+		<link rel="icon" href={`${publicUrl}/favicon.ico`} />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={'anonymous'} />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <meta name="description" content="A Verticals demo site."></meta>
+        <!-- {headLinks.map((headLink) => (
+          <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
+        ))} -->
 	</head>
 	<body>
-		<Navigation />
-		<div class="container">
-			<Placeholder name="jss-main" rendering={route}/>
-		</div>
-		
+		<ParallaxProvider>
+			<div>
+				<header>
+					<div id="header">
+						{route && <Placeholder name="headless-header" rendering={route} />}
+					</div>
+				</header>
+				<main>
+					<div id="content">
+						{route && <Placeholder name="headless-main" rendering={route} />}
+					</div>
+				</main>
+				<footer>
+					<div id="footer">
+						{route && <Placeholder name="headless-footer" rendering={route} />}
+					</div>
+				</footer>
+			</div>
+			<!-- <Navigation /> -->
+			<!-- <div class="container">
+				<Placeholder name="jss-main" rendering={route}/>
+			</div> -->
+		</ParallaxProvider>
 	</body>
 </html>

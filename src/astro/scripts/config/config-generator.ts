@@ -9,6 +9,7 @@ export interface JssConfig extends Record<string, string | undefined> {
   rootItemId?: string;
   defaultLanguage?: string;
   fetchWith?: string;
+  publicUrl?: string;
 }
 
 export interface IConfigPlugin {

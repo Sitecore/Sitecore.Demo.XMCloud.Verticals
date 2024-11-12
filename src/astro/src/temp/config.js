@@ -7,5 +7,6 @@ config.graphQLEndpoint = import.meta.env.GRAPH_QL_ENDPOINT || 'https://xmcloudcm
 config.rootItemId = import.meta.env.ROOT_ITEM_ID || '{08D9417D-5071-46FF-896B-EB76B0790526}';
 config.defaultLanguage = import.meta.env.DEFAULT_LANGUAGE || 'en';
 config.fetchWith = import.meta.env.FETCH_WITH || 'GraphQL';
+config.publicUrl = import.meta.env.PUBLIC_URL || 'undefined';
 config.jssAppName = import.meta.env.JSS_APP_NAME || 'Financial';
 export default config;

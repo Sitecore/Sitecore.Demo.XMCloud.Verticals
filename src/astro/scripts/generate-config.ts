@@ -13,7 +13,8 @@ const defaultConfig: JssConfig = {
   graphQLEndpoint: process.env.GRAPH_QL_ENDPOINT,  
   rootItemId: process.env.rootItemId,  
   defaultLanguage: process.env.DEFAULT_LANGUAGE,
-  fetchWith: process.env.FETCH_WITH
+  fetchWith: process.env.FETCH_WITH,
+  publicUrl: process.env.PUBLIC_URL,
 };
 
 generateConfig(defaultConfig);
