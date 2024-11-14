@@ -1,6 +1,7 @@
 ---
   
 import ContentBlock from '../../src/components/ContentBlock.astro'
+import PartialDesignDynamicPlaceholder from '../../src/components/PartialDesignDynamicPlaceholder.astro'
 import StyleguideFieldUsageAstroImage from '../../src/components/fields/Styleguide-FieldUsage-AstroImage.astro'
 import StyleguideFieldUsageCheckbox from '../../src/components/fields/Styleguide-FieldUsage-Checkbox.astro'
 import StyleguideFieldUsageContentList from '../../src/components/fields/Styleguide-FieldUsage-ContentList.astro'
@@ -25,6 +26,7 @@ import StyleguideReactUsageSitecore from '../../src/components/integrations/Styl
 import StyleguideVueUsageSimple from '../../src/components/integrations/Styleguide-VueUsage-Simple.astro'
 import StyleguideVueUsageSitecorePlaceholder from '../../src/components/integrations/Styleguide-VueUsage-Sitecore-Placeholder.astro'
 import StyleguideVueUsageSitecore from '../../src/components/integrations/Styleguide-VueUsage-Sitecore.astro'
+import Footer from '../../src/components/Navigation/Footer.astro'
 import StyleguideComponentParams from '../../src/components/styleguide/Styleguide-ComponentParams.astro'
 import StyleguideCustomRouteType from '../../src/components/styleguide/Styleguide-CustomRouteType.astro'
 import StyleguideEditFrame from '../../src/components/styleguide/Styleguide-EditFrame.astro'
@@ -49,6 +51,7 @@ export interface Props  {
 
 <>
 {Astro.props.name === 'ContentBlock' && <ContentBlock route={Astro.props.route}/>}
+{Astro.props.name === 'PartialDesignDynamicPlaceholder' && <PartialDesignDynamicPlaceholder route={Astro.props.route}/>}
 {Astro.props.name === 'Styleguide-FieldUsage-AstroImage' && <StyleguideFieldUsageAstroImage route={Astro.props.route}/>}
 {Astro.props.name === 'Styleguide-FieldUsage-Checkbox' && <StyleguideFieldUsageCheckbox route={Astro.props.route}/>}
 {Astro.props.name === 'Styleguide-FieldUsage-ContentList' && <StyleguideFieldUsageContentList route={Astro.props.route}/>}
@@ -73,6 +76,7 @@ export interface Props  {
 {Astro.props.name === 'Styleguide-VueUsage-Simple' && <StyleguideVueUsageSimple route={Astro.props.route}/>}
 {Astro.props.name === 'Styleguide-VueUsage-Sitecore-Placeholder' && <StyleguideVueUsageSitecorePlaceholder route={Astro.props.route}/>}
 {Astro.props.name === 'Styleguide-VueUsage-Sitecore' && <StyleguideVueUsageSitecore route={Astro.props.route}/>}
+{Astro.props.name === 'Footer' && <Footer route={Astro.props.route}/>}
 {Astro.props.name === 'Styleguide-ComponentParams' && <StyleguideComponentParams route={Astro.props.route}/>}
 {Astro.props.name === 'Styleguide-CustomRouteType' && <StyleguideCustomRouteType route={Astro.props.route}/>}
 {Astro.props.name === 'Styleguide-EditFrame' && <StyleguideEditFrame route={Astro.props.route}/>}

@@ -3,6 +3,7 @@ import react from '@astrojs/react';
 import vue from '@astrojs/vue';
 import node from '@astrojs/node';
 import angular from "@analogjs/astro-angular";
+import config from '/src/temp/config';
 
 const reactConfig = {
   babel: {
@@ -43,4 +44,7 @@ export default defineConfig({
   security: {
     checkOrigin: false,
   },
+  redirects: {
+    '/-/jssmedia/[...slug]': `${config.sitecoreApiHost}/-/jssmedia/[...slug]`
+  }
 });
