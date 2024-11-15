@@ -19,15 +19,21 @@ interface RouteFields {
   Title: Field;
 }
 
-const { route } = Astro.props.layoutData.sitecore;
+const { layoutData } = Astro.props;
 
-console.log(Astro.props.layoutData)
+const { route } = layoutData.sitecore;
 const fields = route?.fields as RouteFields;
+const isPageEditing = layoutData.sitecore.context.pageEditing;
+const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
+const theme = layoutData.sitecore.context.theme as string;
+const contextSiteClass = `site-${theme?.toLowerCase()}`;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
 		<title>{fields.Title.value.toString() || 'Page'}</title>
 		<link rel="icon" href={`${publicUrl}/favicon.ico`} />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,7 +46,7 @@ const fields = route?.fields as RouteFields;
 	</head>
 	<body>
 		<ParallaxProvider>
-			<div>
+			<div class={`${mainClassPageEditing} ${contextSiteClass} body`}>
 				<header>
 					<div id="header">
 						{route && <Placeholder name="headless-header" rendering={route} />}
