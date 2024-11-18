@@ -73,3 +73,5 @@ export const Default = (props: RichTextProps): JSX.Element => {
     </div>
   );
 };
+
+export default Default;

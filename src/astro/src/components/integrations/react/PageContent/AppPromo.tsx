@@ -5,9 +5,9 @@ import {
   Image,
   RichTextField,
   Text,
-  RichText,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { RichText } from '@sitecore-jss/sitecore-jss-react'
 import { useParallax } from 'react-scroll-parallax';
 
 interface Fields {
@@ -62,3 +62,5 @@ export const Default = (props: AppPromoProps): JSX.Element => {
     </div>
   );
 };
+
+export default Default;

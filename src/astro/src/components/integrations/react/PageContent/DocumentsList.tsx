@@ -107,3 +107,5 @@ export const Default = (props: DocumentsListProps): JSX.Element => {
     </div>
   );
 };
+
+export default Default;

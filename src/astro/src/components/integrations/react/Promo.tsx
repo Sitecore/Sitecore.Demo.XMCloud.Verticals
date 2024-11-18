@@ -1,12 +1,11 @@
 import React from 'react';
 import {
   NextImage as JssImage,
-  Link as JssLink,
-  RichText as JssRichText,
   ImageField,
   Field,
   LinkField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Link as JssLink, RichText as JssRichText } from '@sitecore-jss/sitecore-jss-react'
 
 interface Fields {
   PromoIcon: ImageField;
@@ -81,3 +80,5 @@ export const WithText = (props: PromoProps): JSX.Element => {
 
   return <PromoDefaultComponent {...props} />;
 };
+
+export default Default;
