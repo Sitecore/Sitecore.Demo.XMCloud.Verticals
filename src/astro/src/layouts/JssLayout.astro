@@ -2,12 +2,11 @@
 import '../assets/main.scss';
 
 import type { LayoutServiceData, Field } from "@sitecore-jss/sitecore-jss/layout";
-import Placeholder from '../components/system/Placeholder.astro';
-import Navigation from './Navigation.astro';
 import config from '../temp/config';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import ReactPlaceholder from '../components/integrations/react/ReactPlaceholder';
 
-const publicUrl = 'http://localhost:4321';
+const publicUrl = `https://${config.publicUrl}`;
 
 export interface Props {
 	title: string;
@@ -49,24 +48,20 @@ const contextSiteClass = `site-${theme?.toLowerCase()}`;
 			<div class={`${mainClassPageEditing} ${contextSiteClass} body`}>
 				<header>
 					<div id="header">
-						{route && <Placeholder name="headless-header" rendering={route} />}
+						{route && <ReactPlaceholder name="headless-header" rendering={route} layoutData={Astro.props.layoutData} />}
 					</div>
 				</header>
 				<main>
 					<div id="content">
-						{route && <Placeholder name="headless-main" rendering={route} />}
+						{route && <ReactPlaceholder name="headless-main" rendering={route} layoutData={Astro.props.layoutData} />}
 					</div>
 				</main>
 				<footer>
 					<div id="footer">
-						{route && <Placeholder name="headless-footer" rendering={route} />}
+						{route && <ReactPlaceholder name="headless-footer" rendering={route} layoutData={Astro.props.layoutData} />}
 					</div>
 				</footer>
 			</div>
-			<!-- <Navigation /> -->
-			<!-- <div class="container">
-				<Placeholder name="jss-main" rendering={route}/>
-			</div> -->
 		</ParallaxProvider>
 	</body>
 </html>

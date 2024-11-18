@@ -26,6 +26,14 @@
     // Until the majority of users are on TypeScript 5.0, we'll have to supress those deprecation errors
     "ignoreDeprecations": "5.0",
     // Allow JavaScript files to be imported
-    "allowJs": true
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "reactcomponents/*": ["src/components/integrations/react/*"],
+      "lib/*": ["src/lib/*"],
+      "temp/*": ["src/temp/*"]
+    },
   }
 }

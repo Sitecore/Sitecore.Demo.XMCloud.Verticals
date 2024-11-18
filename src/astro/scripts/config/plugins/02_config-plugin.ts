@@ -32,7 +32,8 @@ class ConfigPlugin implements IConfigPlugin {
       graphQLEndpoint: graphQLEndpoint,
       rootItemId: getValue("rootItemId"),
       defaultLanguage: getValue("defaultLanguage"),
-      fetchWith: getValue("fetchWith")
+      fetchWith: getValue("fetchWith"),
+      publicUrl: getValue("publicUrl")
     });
   }
 }

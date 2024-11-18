@@ -24,14 +24,14 @@ export class SitecorePagePropsFactory {
     language?: string
   ): Promise<any> {
 
-    let layout: LayoutServiceData = await this.layoutService.fetchLayoutData(path, language || config.defaultLanguage);   
-    let dictionary: DictionaryPhrases = null;//await this.dictionaryService.fetchDictionaryData(language || config.defaultLanguage);
+    let layout: LayoutServiceData = await this.layoutService.fetchLayoutData(path, language || config.defaultLanguage);
+    let dictionary: DictionaryPhrases = await this.dictionaryService.fetchDictionaryData(language || config.defaultLanguage);
 
     let props = {
       layoutData: layout,
-      dictionary: dictionary, 
+      dictionary: dictionary,
     };
-    
+
     return props;
   }
 }

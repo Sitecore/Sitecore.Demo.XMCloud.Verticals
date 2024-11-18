@@ -37,6 +37,11 @@ export default defineConfig({
     angular(angularConfig)
   ],
   output: 'server',
+  server: {
+		headers: {
+			"Access-Control-Allow-Origin": "*"
+		}
+	},
   adapter: node({
     mode: 'standalone',
   }),
@@ -45,6 +50,10 @@ export default defineConfig({
     checkOrigin: false,
   },
   redirects: {
-    '/-/jssmedia/[...slug]': `${config.sitecoreApiHost}/-/jssmedia/[...slug]`
+    '/-/jssmedia/[...slug]': `${config.sitecoreApiHost}/-/jssmedia/[...slug]`,
+    '/-/media/[...slug]': `${config.sitecoreApiHost}/-/media/[...slug]`
+  },
+  image: {
+    domains: [`${config.publicUrl}`]
   }
 });

@@ -1,12 +1,13 @@
 {
   "sitecore": {
-    "jssAppName": "Financial",
+    "jssAppName": "Services",
     "sitecoreApiKey": "{6D3F291E-66A5-4703-887A-D549AF83D859}",
     "sitecoreApiHost": "https://xmcloudcm.localhost",
-    "rootItemId": "{08D9417D-5071-46FF-896B-EB76B0790526}",
+    "rootItemId": "{A13C890B-43EA-45E2-8BAD-A8838112B83D}",
     "graphQLEndpoint": "",
     "graphQLEndpointPath": "/sitecore/api/graph/edge",
     "defaultLanguage": "en",
-    "fetchWith": "GraphQL"
+    "fetchWith": "GraphQL",
+    "publicUrl": "services.sxastarter.localhost"
   }
 }
