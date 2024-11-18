@@ -1,0 +1,102 @@
+---
+import {
+  Field,
+  ImageField,
+  LinkField,
+  RichTextField,
+} from "@sitecore-jss/sitecore-jss-react";
+import {
+  Image,
+  Link,
+  RichText,
+  Text,
+} from "@astro-sitecore-jss/astro-sitecore-jss";
+
+interface Fields {
+  Image1: ImageField;
+  Title1: Field<string>;
+  Text1: RichTextField;
+  Title2: Field<string>;
+  Text2: RichTextField;
+  Title3: Field<string>;
+  Text3: RichTextField;
+  Title4: Field<string>;
+  Text4: RichTextField;
+  Copyright: Field<string>;
+  Link1: LinkField;
+  Link2: LinkField;
+  SocialsTitle: Field<string>;
+  SocialLink1: LinkField;
+  SocialIcon1: ImageField;
+  SocialLink2: LinkField;
+  SocialIcon2: ImageField;
+  SocialLink3: LinkField;
+  SocialIcon3: ImageField;
+}
+
+export type FooterProps = {
+  params: { [key: string]: string };
+  fields: Fields;
+};
+
+const props: FooterProps = Astro.props.route;
+const id = props.params.RenderingIdentifier;
+
+//WORKAROUND
+props.params.styles = props.params.styles ?? props.params.GridParameters ?? '';
+---
+
+<div
+  class={`component component-spaced footer ${props.params.styles.trimEnd()}`} 
+  id={id ? id : undefined}
+>
+  <div class="container">
+    <div class="content">
+      <div class="logo">
+        <Image field={props.fields?.Image1} height={" "} class="img-fluid" />
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 row-gap-5 gx-5">
+        <div class="col">
+          <div class="title">
+            <Text field={props.fields?.Title1} />
+          </div>
+          <div class="links">
+            <RichText field={props.fields?.Text1} />
+          </div>
+        </div>
+        <div class="col">
+          <div class="title">
+            <Text field={props.fields?.Title2} />
+          </div>
+          <div class="links">
+            <RichText field={props.fields?.Text2} />
+          </div>
+        </div>
+        <div class="col">
+          <div class="title">
+            <Text field={props.fields?.Title3} />
+          </div>
+          <div class="links">
+            <RichText field={props.fields?.Text3} />
+          </div>
+        </div>
+        <div class="col">
+          <div class="title">
+            <Text field={props.fields?.Title4} />
+          </div>
+          <div class="links">
+            <RichText field={props.fields?.Text4} />
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="footnote">
+      <Text field={props.fields?.Copyright} />
+      <div class="privacy-links">
+        <Link field={props.fields?.Link1} />
+        <Link field={props.fields?.Link2} />
+      </div>
+    </div>
+  </div>
+</div>

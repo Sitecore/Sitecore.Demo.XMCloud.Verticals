@@ -1,0 +1,67 @@
+---
+import '../assets/main.scss';
+
+import type { LayoutServiceData, Field } from "@sitecore-jss/sitecore-jss/layout";
+import config from '../temp/config';
+import { ParallaxProvider } from 'react-scroll-parallax';
+import ReactPlaceholder from '../components/integrations/react/ReactPlaceholder';
+
+const publicUrl = `https://${config.publicUrl}`;
+
+export interface Props {
+	title: string;
+	layoutData: LayoutServiceData;
+}
+
+interface RouteFields {
+  [key: string]: unknown;
+  Title: Field;
+}
+
+const { layoutData } = Astro.props;
+
+const { route } = layoutData.sitecore;
+const fields = route?.fields as RouteFields;
+const isPageEditing = layoutData.sitecore.context.pageEditing;
+const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
+const theme = layoutData.sitecore.context.theme as string;
+const contextSiteClass = `site-${theme?.toLowerCase()}`;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>{fields.Title.value.toString() || 'Page'}</title>
+		<link rel="icon" href={`${publicUrl}/favicon.ico`} />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={'anonymous'} />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <meta name="description" content="A Verticals demo site."></meta>
+        <!-- {headLinks.map((headLink) => (
+          <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
+        ))} -->
+	</head>
+	<body>
+		<ParallaxProvider>
+			<div class={`${mainClassPageEditing} ${contextSiteClass} body`}>
+				<header>
+					<div id="header">
+						{route && <ReactPlaceholder name="headless-header" rendering={route} layoutData={Astro.props.layoutData} />}
+					</div>
+				</header>
+				<main>
+					<div id="content">
+						{route && <ReactPlaceholder name="headless-main" rendering={route} layoutData={Astro.props.layoutData} />}
+					</div>
+				</main>
+				<footer>
+					<div id="footer">
+						{route && <ReactPlaceholder name="headless-footer" rendering={route} layoutData={Astro.props.layoutData} />}
+					</div>
+				</footer>
+			</div>
+		</ParallaxProvider>
+	</body>
+</html>

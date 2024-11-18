@@ -1,0 +1,12 @@
+---
+import Placeholder from '../components/system/Placeholder.astro';
+import { ComponentRendering } from "@sitecore-jss/sitecore-jss/layout";
+
+// type DynamicPlaceholderProps = {
+//   rendering: ComponentRendering;
+// };
+
+const props : ComponentRendering = Astro.props.route;
+---
+
+<Placeholder name={props?.params?.sig || ''} rendering={props} />
