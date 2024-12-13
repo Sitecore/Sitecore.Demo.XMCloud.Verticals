@@ -6,6 +6,7 @@ import {
   LinkField,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import Head from 'next/head';
 
 interface Fields {
   Eyebrow: Field<string>;
@@ -95,33 +96,40 @@ export const PageHeading = (props: HeadingCtaProps): JSX.Element => {
   const isPageEditing = sitecoreContext.pageEditing;
 
   return (
-    <div
-      className={`component heading-cta ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
-      <div className="container container-wide">
-        <div className="row gx-5">
-          <div className="col">
-            <div className="heading-content-wrapper">
-              <h6 className="eyebrow-accent">
-                <Text field={props.fields?.Eyebrow} />
-              </h6>
-              <h1 className="display-1 fw-bold">
-                <Text field={props.fields?.Heading} />
-              </h1>
-              <p>
-                <Text field={props.fields?.Text} />
-              </p>
+    <>
+      <Head>
+        <meta property="og:description" content={props.fields?.Text.value} />
+        <meta property="og:name" content={props.fields?.Heading?.value} />
+        <meta property="og:type" content="page" />
+      </Head>
+      <div
+        className={`component heading-cta ${props.params.styles.trimEnd()}`}
+        id={id ? id : undefined}
+      >
+        <div className="container container-wide">
+          <div className="row gx-5">
+            <div className="col">
+              <div className="heading-content-wrapper">
+                <h6 className="eyebrow-accent">
+                  <Text field={props.fields?.Eyebrow} />
+                </h6>
+                <h1 className="display-1 fw-bold">
+                  <Text field={props.fields?.Heading} />
+                </h1>
+                <p>
+                  <Text field={props.fields?.Text} />
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="col-12 pt-lg-5 col-lg-auto">
-            {(isPageEditing || props.fields?.Link?.value?.href) && (
-              <Link field={props.fields.Link} className="button button-main" />
-            )}
+            <div className="col-12 pt-lg-5 col-lg-auto">
+              {(isPageEditing || props.fields?.Link?.value?.href) && (
+                <Link field={props.fields.Link} className="button button-main" />
+              )}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
