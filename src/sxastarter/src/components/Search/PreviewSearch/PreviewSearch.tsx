@@ -82,6 +82,9 @@ export const PreviewSearchComponent = ({
   if (sitecoreContext?.language == 'fr-CA') {
     PageController.getContext().setLocaleLanguage('fr');
     PageController.getContext().setLocaleCountry('ca');
+  } else if (sitecoreContext?.language == 'ja-JP') {
+    PageController.getContext().setLocaleLanguage('ja');
+    PageController.getContext().setLocaleCountry('jp');
   } else {
     PageController.getContext().setLocaleLanguage('en');
     PageController.getContext().setLocaleCountry('us');
