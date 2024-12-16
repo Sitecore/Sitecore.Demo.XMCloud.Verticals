@@ -39,6 +39,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={'anonymous'} />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <meta property="og:lang" content={layoutData?.sitecore?.context?.language} />
+        <meta property="og:site" content={layoutData?.sitecore?.context?.site?.name} />
         <meta name="description" content="A Verticals demo site."></meta>
         {headLinks.map((headLink) => (
           <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
