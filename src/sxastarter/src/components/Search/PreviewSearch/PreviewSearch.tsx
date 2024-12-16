@@ -10,10 +10,11 @@ import { ArticleCard, Presence, PreviewSearch } from '@sitecore-search/ui';
 import Spinner from '../components/Spinner/Spinner';
 
 const DEFAULT_IMG_URL = 'https://placehold.co/500x300?text=No%20Image';
-type ArticleModel = {
+export type ArticleModel = {
   id: string;
   name?: string;
   title?: string;
+  description?: string;
   image_url: string;
   url: string;
   source_id?: string;
@@ -81,6 +82,7 @@ export const PreviewSearchComponent = ({
         className="sitecore-preview-search-form"
       >
         <PreviewSearch.Input
+          id="search-input"
           onChange={keyphraseHandler}
           autoComplete="off"
           placeholder="Type to search..."
@@ -113,7 +115,7 @@ export const PreviewSearchComponent = ({
                         className="sitecore-preview-search-item"
                       >
                         <PreviewSearch.PreviewSearchItemLink
-                          href={article.url}
+                          href={new URL(article.url, window.location.origin).pathname}
                           onClick={() => {
                             // onItemClick is for tracking purposes
                             onItemClick({
