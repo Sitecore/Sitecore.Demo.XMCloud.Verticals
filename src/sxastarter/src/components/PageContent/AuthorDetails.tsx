@@ -29,7 +29,7 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
   return (
     <>
       <Head>
-        <meta property="og:description" content={props.fields?.Bio.value} />
+        <meta property="og:description" content={props.fields?.Bio?.value} />
         <meta property="og:name" content={props.fields?.Name?.value} />
         <meta property="og:title" content={props.fields?.Name?.value} />
         <meta property="og:image" content={props.fields?.Photo?.value?.src} />
