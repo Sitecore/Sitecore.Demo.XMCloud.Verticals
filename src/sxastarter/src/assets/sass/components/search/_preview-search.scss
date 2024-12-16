@@ -8,6 +8,7 @@
   text-align: left !important;
   color: var(--text-body);
   background: var(--bg-body);
+  border-width: 1px;
 
   &:focus {
     outline: 1px solid var(--sdc-palette-grey-800);
