@@ -4,11 +4,19 @@
 .sitecore-preview-search-input {
   width: 800px;
   box-sizing: border-box;
-  padding: var(--sdc-spacing-xs);
+  padding: .6rem 2rem .6rem 3rem;
+  text-align: left !important;
+  color: var(--text-body);
+  background: var(--bg-body);
+  border-width: 1px;
 
   &:focus {
     outline: 1px solid var(--sdc-palette-grey-800);
   }
+}
+
+.search-input-container-hidden {
+  display: none;
 }
 
 /* PreviewSearchContent */
@@ -107,7 +115,7 @@
 /* PreviewSearchItems */
 .sitecore-preview-search-items {
   flex: 3;
-  background: #fff;
+  background: var(--bg-body);
   overflow-y: auto;
   display: flex;
 
@@ -117,6 +125,7 @@
     list-style: none;
     margin: 0;
     padding: var(--sdc-spacing-s);
+    padding-top: 3rem;
     gap: var(--sdc-spacing-m);
   }
 }
@@ -139,7 +148,10 @@
   cursor: pointer;
   display: block;
   border: solid 1px transparent;
-  text-align: center;
+  
+  h2 {
+    text-align: center !important;
+  }
 
   &:focus-within {
     box-shadow: 2px 2px 4px var(--sdc-palette-grey-800);

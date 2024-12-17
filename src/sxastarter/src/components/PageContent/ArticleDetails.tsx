@@ -34,6 +34,7 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
       <Head>
         <meta property="og:description" content={props.fields?.Excerpt.value} />
         <meta property="og:name" content={props.fields?.Title?.value} />
+        <meta property="og:title" content={props.fields?.Title?.value} />
         <meta property="og:image" content={props.fields?.Thumbnail?.value?.src} />
         <meta property="og:type" content="article" />
       </Head>
@@ -95,6 +96,7 @@ export const Simple = (props: PageBackgroundProps): JSX.Element => {
       <Head>
         <meta property="og:description" content={props.fields?.Excerpt.value} />
         <meta property="og:name" content={props.fields?.Title?.value} />
+        <meta property="og:title" content={props.fields?.Title?.value} />
         <meta property="og:image" content={props.fields?.Thumbnail?.value?.src} />
         <meta property="og:type" content="article" />
       </Head>

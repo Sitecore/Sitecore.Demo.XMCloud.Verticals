@@ -29,6 +29,7 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
       <Head>
         <meta property="og:description" content={props.fields?.Content.value} />
         <meta property="og:name" content={props.fields?.Title?.value} />
+        <meta property="og:title" content={props.fields?.Title?.value} />
         <meta property="og:image" content={props.fields?.BackgroundImage?.value?.src} />
         <meta property="og:type" content="page" />
       </Head>

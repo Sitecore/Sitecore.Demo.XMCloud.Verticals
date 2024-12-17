@@ -4,16 +4,18 @@ import type { ChangeEvent } from 'react';
 import { useCallback } from 'react';
 
 import type { PreviewSearchInitialState } from '@sitecore-search/react';
-import { WidgetDataType, usePreviewSearch, widget } from '@sitecore-search/react';
+import { FilterEqual, WidgetDataType, usePreviewSearch, widget } from '@sitecore-search/react';
 import { ArticleCard, Presence, PreviewSearch } from '@sitecore-search/ui';
-
+import { PageController } from '@sitecore-search/react';
 import Spinner from '../components/Spinner/Spinner';
+import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 
 const DEFAULT_IMG_URL = 'https://placehold.co/500x300?text=No%20Image';
-type ArticleModel = {
+export type ArticleModel = {
   id: string;
   name?: string;
   title?: string;
+  description?: string;
   image_url: string;
   url: string;
   source_id?: string;
@@ -50,12 +52,18 @@ export const PreviewSearchComponent = ({
   itemRedirectionHandler,
   submitRedirectionHandler,
 }: PreviewSearchProps) => {
+  const { sitecoreContext } = useSitecoreContext();
+
   const {
     widgetRef,
     actions: { onItemClick, onKeyphraseChange },
     queryResult,
     queryResult: { isFetching, isLoading },
   } = usePreviewSearch<ArticleModel, InitialState>({
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    query: (query): any => {
+      query.getRequest().setSearchFilter(new FilterEqual('tags', sitecoreContext?.site?.name));
+    },
     state: {
       itemsPerPage: defaultItemsPerPage,
     },
@@ -70,6 +78,18 @@ export const PreviewSearchComponent = ({
     },
     [onKeyphraseChange]
   );
+
+  if (sitecoreContext?.language == 'fr-CA') {
+    PageController.getContext().setLocaleLanguage('fr');
+    PageController.getContext().setLocaleCountry('ca');
+  } else if (sitecoreContext?.language == 'ja-JP') {
+    PageController.getContext().setLocaleLanguage('ja');
+    PageController.getContext().setLocaleCountry('jp');
+  } else {
+    PageController.getContext().setLocaleLanguage('en');
+    PageController.getContext().setLocaleCountry('us');
+  }
+
   return (
     <PreviewSearch.Root>
       <form
@@ -81,6 +101,7 @@ export const PreviewSearchComponent = ({
         className="sitecore-preview-search-form"
       >
         <PreviewSearch.Input
+          id="search-input"
           onChange={keyphraseHandler}
           autoComplete="off"
           placeholder="Type to search..."
@@ -113,7 +134,7 @@ export const PreviewSearchComponent = ({
                         className="sitecore-preview-search-item"
                       >
                         <PreviewSearch.PreviewSearchItemLink
-                          href={article.url}
+                          href={new URL(article.url, window.location.origin).pathname}
                           onClick={() => {
                             // onItemClick is for tracking purposes
                             onItemClick({

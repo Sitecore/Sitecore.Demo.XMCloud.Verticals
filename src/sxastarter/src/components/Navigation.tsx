@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useRef, useState } from 'react';
 import {
   Link,
   LinkField,
@@ -6,6 +6,11 @@ import {
   TextField,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import PreviewSearchWidget, { ArticleModel } from './Search/PreviewSearch/PreviewSearch';
+import { isSearchSDKEnabled } from 'src/services/SearchSDKService';
+import PreviewSearchIcon from './Search/PreviewSearch/PreviewSearchIcon';
+import ClickOutside from './Search/ClickOutside';
+import { useRouter } from 'next/router';
 
 interface Fields {
   Id: string;
@@ -48,8 +53,37 @@ const getLinkField = (props: NavigationProps): LinkField => ({
 });
 
 export const Default = (props: NavigationProps): JSX.Element => {
+  const [isPreviewSearchOpen, setIsPreviewSearchOpen] = useState(false);
   const [isOpenMenu, openMenu] = useState(false);
   const { sitecoreContext } = useSitecoreContext();
+  const containerRef = useRef(null);
+  const router = useRouter();
+
+  const onSearchIconClick = useCallback(() => {
+    setIsPreviewSearchOpen((isPreviewSearchOpen) => {
+      return !isPreviewSearchOpen;
+    });
+
+    // Focus on element with ID search-input
+    setTimeout(() => {
+      const searchInput = document.getElementById('search-input');
+      if (searchInput) {
+        searchInput.focus();
+      }
+    }, 0);
+  }, []);
+
+  const onClose = useCallback(() => setIsPreviewSearchOpen(false), []);
+  ClickOutside([containerRef], onClose);
+
+  const onRedirect = useCallback(
+    (article: ArticleModel) => {
+      onClose();
+      router.push(new URL(article.url, window.location.origin).pathname);
+    },
+    [onClose, router]
+  );
+
   const styles =
     props.params != null
       ? `${props.params.GridParameters ?? ''} ${props.params.Styles ?? ''}`.trimEnd()
@@ -87,28 +121,52 @@ export const Default = (props: NavigationProps): JSX.Element => {
       />
     ));
 
+  if (isSearchSDKEnabled) {
+    list.push(
+      <li className="	d-none d-lg-block" key="search-icon">
+        <PreviewSearchIcon
+          className="search-play-icon"
+          onClick={onSearchIconClick}
+          keyphrase={''}
+        />
+      </li>
+    );
+  }
+
   return (
     <div className={`component navigation ${styles}`} id={id ? id : undefined}>
-      <label className="menu-mobile-navigate-wrapper">
-        <input
-          type="checkbox"
-          className="menu-mobile-navigate"
-          checked={isOpenMenu}
-          onChange={() => handleToggleMenu()}
-        />
-        {/* DEMO TEAM CUSTOMIZATION */}
-        <div className="menu-humburger">
-          <span></span>
-          <span></span>
-          <span></span>
+      {!isPreviewSearchOpen && (
+        <label className="menu-mobile-navigate-wrapper">
+          <input
+            type="checkbox"
+            className="menu-mobile-navigate"
+            checked={isOpenMenu}
+            onChange={() => handleToggleMenu()}
+          />
+          {/* DEMO TEAM CUSTOMIZATION */}
+          <div className="menu-humburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div className="component-content">
+            <nav>
+              {/* DEMO TEAM CUSTOMIZATION */}
+              <ul>{list}</ul>
+            </nav>
+          </div>
+        </label>
+      )}
+      {isSearchSDKEnabled && (
+        <div
+          ref={containerRef}
+          className={`search-input-container ${
+            !isPreviewSearchOpen ? 'search-input-container-hidden' : ''
+          }`}
+        >
+          <PreviewSearchWidget rfkId="rfkid_6" itemRedirectionHandler={onRedirect} />
         </div>
-        <div className="component-content">
-          <nav>
-            {/* DEMO TEAM CUSTOMIZATION */}
-            <ul>{list}</ul>
-          </nav>
-        </div>
-      </label>
+      )}
     </div>
   );
 };
