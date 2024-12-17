@@ -123,12 +123,13 @@ export const Default = (props: NavigationProps): JSX.Element => {
 
   if (isSearchSDKEnabled) {
     list.push(
-      <PreviewSearchIcon
-        className="search-play-icon"
-        key="search-icon"
-        onClick={onSearchIconClick}
-        keyphrase={''}
-      />
+      <li className="	d-none d-lg-block" key="search-icon">
+        <PreviewSearchIcon
+          className="search-play-icon"
+          onClick={onSearchIconClick}
+          keyphrase={''}
+        />
+      </li>
     );
   }
 
