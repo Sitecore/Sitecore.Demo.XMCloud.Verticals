@@ -5,6 +5,11 @@ import Bootstrap from 'src/Bootstrap';
 
 import 'assets/main.scss';
 
+// DEMO TEAM CUSTOMIZATION - Search SDK integration
+import { isSearchSDKEnabled, config as searchSDKConfig } from '../services/SearchSDKService';
+import { WidgetsProvider } from '@sitecore-search/react';
+// END CUSTOMIZATION
+
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;
 
@@ -17,7 +22,15 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
         // If your app is not multilingual, next-localization and references to it can be removed.
       */}
       <I18nProvider lngDict={dictionary} locale={pageProps.locale}>
-        <Component {...rest} />
+        {/* DEMO TEAM CUSTOMIZATION - Search SDK integration */}
+        {isSearchSDKEnabled ? (
+          <WidgetsProvider {...searchSDKConfig}>
+            <Component {...rest} />
+          </WidgetsProvider>
+        ) : (
+          <Component {...rest} />
+        )}
+        {/* END CUSTOMIZATION */}
       </I18nProvider>
     </>
   );
