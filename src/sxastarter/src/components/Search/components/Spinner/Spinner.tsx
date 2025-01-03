@@ -5,6 +5,7 @@ import { Presence } from '@sitecore-search/ui';
 const Spinner = () => {
   return (
     <div className="sitecore-loader-container">
+      <div className="sitecore-loader-background"></div>
       <Presence present={true}>
         <svg
           aria-busy={true}

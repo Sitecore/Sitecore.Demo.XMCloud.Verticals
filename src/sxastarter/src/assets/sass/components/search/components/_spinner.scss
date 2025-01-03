@@ -14,21 +14,27 @@
 .sitecore-loader-animation {
   animation: rotate-animation 2s linear infinite;
   display: block;
-  color: var(--sdc-palette-text-primary);
-  height: 50px;
-  margin: auto;
   width: 50px;
+  height: 50px;
+  margin: 20px auto;
 }
 
 /* LoaderContainer */
 .sitecore-loader-container {
-  align-items: center;
   display: flex;
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 100%;
-  background-color: white;
-  opacity: 0.5;
+  position: absolute !important;
+  min-height: 90px;
+  inset: 0;
   z-index: 100;
+
+  .sitecore-loader-background {
+    position: absolute;
+    inset: 0;
+    background-color: var(--bg-main);
+    opacity: 0.5;
+  }
+
+  svg {
+    opacity: 1;
+  }
 }

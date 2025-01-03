@@ -1,0 +1,13 @@
+﻿---
+ID: "c65bc960-96ce-4a5e-b60c-cccd25dee8b3"
+Parent: "6630c97b-f037-4f1f-87bc-907c43f167d1"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Project/Verticals/Search
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "892b27de-cada-4ee3-9da6-5f3eebf61f55"

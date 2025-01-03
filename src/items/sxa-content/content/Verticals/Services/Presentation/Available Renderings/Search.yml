@@ -1,0 +1,17 @@
+﻿---
+ID: "aa27ed2b-e5a3-4c79-9281-fc7ed15e52d1"
+Parent: "a67de36c-05bc-4262-8b34-211d1b14e55b"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/Verticals/Services/Presentation/Available Renderings/Search
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: "{5D9A6B7B-BF56-4D7A-99E1-689310E6B472}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "24d863d4-efc8-4e35-b6df-4b69a0406c54"

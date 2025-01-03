@@ -84,6 +84,14 @@ export const Default = (props: NavigationProps): JSX.Element => {
     [onClose, router]
   );
 
+  const onSubmitRedirect = useCallback(
+    (query: string) => {
+      onClose();
+      router.push(`/search?q=${query}`);
+    },
+    [onClose, router]
+  );
+
   const styles =
     props.params != null
       ? `${props.params.GridParameters ?? ''} ${props.params.Styles ?? ''}`.trimEnd()
@@ -164,7 +172,11 @@ export const Default = (props: NavigationProps): JSX.Element => {
             !isPreviewSearchOpen ? 'search-input-container-hidden' : ''
           }`}
         >
-          <PreviewSearchWidget rfkId="rfkid_6" itemRedirectionHandler={onRedirect} />
+          <PreviewSearchWidget
+            rfkId="rfkid_6"
+            itemRedirectionHandler={onRedirect}
+            submitRedirectionHandler={onSubmitRedirect}
+          />
         </div>
       )}
     </div>
