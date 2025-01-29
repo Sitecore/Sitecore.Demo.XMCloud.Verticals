@@ -2,6 +2,7 @@
     "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
     "namespace": "HeadlessSxaWebsite",
     "references": [ "InitItems" ],
+    "path": "nextjs-starter",
     "items": {
         "includes": [
             {

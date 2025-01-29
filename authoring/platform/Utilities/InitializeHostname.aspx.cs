@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace XmCloudSXAStarter.Utilities
+namespace XmCloudAuthoring.Utilities
 {
     public partial class InitializeHostname : System.Web.UI.Page
     {

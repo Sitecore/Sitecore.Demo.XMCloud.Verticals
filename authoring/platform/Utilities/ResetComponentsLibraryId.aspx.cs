@@ -1,7 +1,7 @@
 ﻿using System;
 using Spe.Core.Host;
 
-namespace XmCloudSXAStarter.Utilities
+namespace XmCloudAuthoring.Utilities
 {
 	public partial class ResetComponentsLibraryId : System.Web.UI.Page
 	{

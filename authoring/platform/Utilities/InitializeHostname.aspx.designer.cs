@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace XmCloudSXAStarter.Utilities
+namespace XmCloudAuthoring.Utilities
 {
 
 

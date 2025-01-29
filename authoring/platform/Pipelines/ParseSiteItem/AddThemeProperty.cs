@@ -2,7 +2,7 @@
 using Sitecore.XA.Foundation.Multisite.Pipelines.ParseSiteItem;
 using Sitecore.XA.Foundation.SitecoreExtensions.Extensions;
 
-namespace XmCloudSXAStarter.Pipelines.ParseSiteItem
+namespace XmCloudAuthoring.Pipelines.ParseSiteItem
 {
     public class AddThemeProperty : ParseSiteItemProcessorBase
     {

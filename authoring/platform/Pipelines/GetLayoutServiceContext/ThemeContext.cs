@@ -7,7 +7,7 @@ using Sitecore.LayoutService.ItemRendering.Pipelines.GetLayoutServiceContext;
 using Sitecore.Web;
 using Sitecore.XA.Foundation.Multisite;
 
-namespace XmCloudSXAStarter.Pipelines.GetLayoutServiceContext
+namespace XmCloudAuthoring.Pipelines.GetLayoutServiceContext
 {
     public class ThemeContext : IGetLayoutServiceContextProcessor
     {

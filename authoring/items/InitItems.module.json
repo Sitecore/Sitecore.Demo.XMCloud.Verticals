@@ -2,6 +2,7 @@
     "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
     "namespace": "InitItems",
     "items": {
+        "path": "nextjs-starter",
         "includes": [
             {
                 "name": "api-key",
