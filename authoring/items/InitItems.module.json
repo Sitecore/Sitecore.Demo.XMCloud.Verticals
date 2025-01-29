@@ -1,0 +1,25 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "InitItems",
+    "items": {
+        "path": "nextjs-starter",
+        "includes": [
+            {
+                "name": "api-key",
+                "path": "/sitecore/system/Settings/Services/API Keys/xmcloudpreview",
+                "scope": "singleItem"
+            },
+            {
+                "name": "languages",
+                "path": "/sitecore/system/Languages",
+                "scope": "descendantsOnly",
+                "rules": [
+                    {
+                        "path": "/en",
+                        "scope": "ignored"
+                    }
+                ]
+            }
+        ]
+    }
+}
