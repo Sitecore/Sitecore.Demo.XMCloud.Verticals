@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InitializeHostname.aspx.cs" Inherits="XmCloudAuthoring.Utilities.InitializeHostname" %>

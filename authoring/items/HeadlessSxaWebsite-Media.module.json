@@ -1,0 +1,16 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "HeadlessSxaWebsite-Media",
+    "references": [ "HeadlessSxaWebsite" ],
+    "path": "nextjs-starter",
+    "items": {
+        "includes": [
+            {
+                "name": "sxa-media",
+                "path": "/sitecore/media library/Project",
+                "scope": "descendantsOnly",
+                "allowedPushOperations": "CreateOnly"
+            }
+        ]
+    }
+}

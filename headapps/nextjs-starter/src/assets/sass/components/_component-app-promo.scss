@@ -1,0 +1,18 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.app-promo {
+  background-color: var(--bg-main);
+  padding-top: 3rem;
+
+  &.saturated {
+    background-color: var(--bg-saturated);
+    color: var(--text-on-saturated);
+  }
+
+  .image-wrapper {
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: auto;
+    overflow: hidden;
+  }
+}
