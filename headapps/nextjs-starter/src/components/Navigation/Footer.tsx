@@ -12,6 +12,7 @@ import {
 
 interface Fields {
   Image1: ImageField;
+  LogoText: RichTextField;
   Title1: Field<string>;
   Text1: RichTextField;
   Title2: Field<string>;
@@ -54,6 +55,7 @@ export const Default = (props: FooterProps): JSX.Element => {
               height={200}
               className="img-fluid"
             />
+            <RichText field={props.fields?.LogoText} />
           </div>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-xl-4 row-gap-5 gx-5">
             <div className="col">

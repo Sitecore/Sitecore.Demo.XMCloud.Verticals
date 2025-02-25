@@ -6,6 +6,10 @@
   --promo-cta-text-opacity: 0.65;
 }
 
+.site-powerful {
+  --three-column-cta-button-alignment: flex-end;
+}
+
 .three-column-cta {
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
@@ -39,6 +43,7 @@
 
   .button {
     margin-top: auto;
+    align-self: var(--three-column-cta-button-alignment);
   }
 
   &.bordered {

@@ -91,7 +91,7 @@ export const Default = (props: TestimonialsProps): JSX.Element => {
 
   return (
     <div
-      className={`component testimonials ${props.params.styles.trimEnd()}`}
+      className={`component testimonials testimonials-default ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
       <div className="">
@@ -125,6 +125,57 @@ export const Default = (props: TestimonialsProps): JSX.Element => {
           {testimonials?.map((item, i) => (
             <SwiperSlide key={`${item.url}${i}`}>
               <Testimonial key={item.url} item={item} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </div>
+  );
+};
+
+export const WithLogos = (props: TestimonialsProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const testimonials = props.fields?.items;
+
+  return (
+    <div
+      className={`component testimonials testimonials-with-brands ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="container my-5">
+        <Swiper
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: true,
+          }}
+          spaceBetween={0}
+          slidesPerView={1}
+          breakpoints={{
+            992: {
+              slidesPerView: 3,
+            },
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          centeredSlides={true}
+          loop={testimonials.length > 3}
+          grabCursor={true}
+          modules={[Autoplay, Pagination]}
+        >
+          {testimonials?.map((item, i) => (
+            <SwiperSlide key={`${item.url}${i}`}>
+              <div className="d-flex flex-column my-3">
+                <blockquote className="mb-4">
+                  <Text field={item.fields.Content} />
+                </blockquote>
+                <NextImage
+                  field={item.fields.AuthorImage}
+                  className="author-image mx-auto"
+                  width={100}
+                  height={100}
+                />
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

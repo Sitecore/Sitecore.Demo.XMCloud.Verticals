@@ -4,9 +4,11 @@
   --text-body-inverted: #fff;
   --text-colored: #034c81;
   --text-footer: #fff;
+  --text-eyebrow: #fff;
   --text-accent: #a82a39;
   --bg-body: #fff;
   --bg-footer: #333;
+  --bg-eyebrow: #333;
   --bg-main: #f0f5f7;
   --bg-main-alt: #f0f5f7;
   --bg-color: #c5e4f3;
@@ -21,9 +23,11 @@
     --text-body-inverted: #333;
     --text-colored: #c5e4f3;
     --text-footer: #fff;
+    --text-eyebrow: #fff;
     --text-accent: #a82a39;
     --bg-body: #031827;
     --bg-footer: #333;
+    --bg-eyebrow: #333;
     --bg-main: #034c81;
     --bg-main-alt: #031827;
     --bg-color: #034c81;
@@ -41,9 +45,11 @@
   --text-body-inverted: #fff;
   --text-colored: #ff7145;
   --text-footer: #391400;
+  --text-eyebrow: #391400;
   --text-accent: #ff7145;
   --bg-body: #fdf0e9;
   --bg-footer: #fdf0e9;
+  --bg-eyebrow: #fdf0e9;
   --bg-main: #fdf0e9;
   --bg-color: #ff7145;
   --bg-saturated: #ff7145;
@@ -57,9 +63,11 @@
     --text-body-inverted: #391400;
     --text-colored: #ff7145;
     --text-footer: #fff;
+    --text-eyebrow: #fff;
     --text-accent: #ff7145;
     --bg-body: #29314f;
     --bg-footer: #29314f;
+    --bg-eyebrow: #29314f;
     --bg-main: #29314f;
     --bg-color: #ff7145;
     --bg-saturated: #ff7145;
@@ -67,6 +75,51 @@
     --border-color: #5d5f7f;
     --hr-color: #fff;
     --roundness: 0.375rem;
+  }
+}
+
+// Powerful
+.site-powerful {
+  --text-body: #333;
+  --text-body-inverted: #fff;
+  --text-colored: #638557;
+  --text-footer: #333;
+  --text-eyebrow: #fff;
+  --text-accent: #4f5c82;
+  --text-on-saturated: #fff;
+  --bg-body: #fff;
+  --bg-footer: #fff;
+  --bg-eyebrow: #333;
+  --bg-main: #eaf3e7;
+  --bg-main-alt: #eaf3e7;
+  --bg-color: #d0dacc;
+  --bg-saturated: #638557;
+  --bg-accent: #4f5c82;
+  --border-color: #d0dacc;
+  --hr-color: #fff;
+  --bg-pattern: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150"><defs><style> .cls-1 { fill: none; } .cls-2 { fill: %23fff; opacity: .05; } </style></defs><g id="Layer_1-2" data-name="Layer 1"><g><path class="cls-1" d="M146.92,71.92C145.35,34.67,115.33,4.65,78.08,3.08c1.58,37.26,31.59,67.27,68.84,68.84Z"/><path class="cls-1" d="M128.63,75c-25.85-7.38-46.25-27.78-53.63-53.63-7.38,25.85-27.78,46.25-53.63,53.63,25.85,7.38,46.25,27.78,53.63,53.63,7.38-25.85,27.78-46.25,53.63-53.63Z"/><path class="cls-1" d="M3.08,78.08c1.58,37.26,31.59,67.27,68.84,68.84-1.58-37.26-31.59-67.27-68.84-68.84Z"/><path class="cls-1" d="M96.39,150h53.61v-53.61c-7.38,25.84-27.77,46.24-53.61,53.61Z"/><path class="cls-1" d="M78.08,146.92c37.26-1.58,67.27-31.59,68.84-68.84-37.26,1.58-67.27,31.59-68.84,68.84Z"/><path class="cls-1" d="M0,96.39v53.61H53.61C27.77,142.62,7.38,122.23,0,96.39Z"/><path class="cls-1" d="M150,53.61V0h-53.61c25.84,7.38,46.24,27.77,53.61,53.61Z"/><path class="cls-1" d="M71.92,3.08C34.67,4.65,4.65,34.67,3.08,71.92c37.26-1.58,67.27-31.59,68.84-68.84Z"/><path class="cls-1" d="M53.61,0H0V53.61C7.38,27.77,27.77,7.38,53.61,0Z"/><path class="cls-2" d="M150,96.39V53.61C142.62,27.77,122.23,7.38,96.39,0H53.61C27.77,7.38,7.38,27.77,0,53.61v42.77c7.38,25.84,27.77,46.24,53.61,53.61h42.77c25.84-7.38,46.24-27.77,53.61-53.61Zm-71.92,50.53c1.58-37.26,31.59-67.27,68.84-68.84-1.58,37.26-31.59,67.27-68.84,68.84Zm68.84-75c-37.26-1.58-67.27-31.59-68.84-68.84,37.26,1.58,67.27,31.59,68.84,68.84ZM71.92,3.08c-1.58,37.26-31.59,67.27-68.84,68.84C4.65,34.67,34.67,4.65,71.92,3.08ZM3.08,78.08c37.26,1.58,67.27,31.59,68.84,68.84C34.67,145.35,4.65,115.33,3.08,78.08Zm18.29-3.08c25.85-7.38,46.25-27.78,53.63-53.63,7.38,25.85,27.78,46.25,53.63,53.63-25.85,7.38-46.25,27.78-53.63,53.63-7.38-25.85-27.78-46.25-53.63-53.63Z"/></g></g></svg>');
+  --roundness: 0.5rem;
+
+  .dark & {
+    --text-body: #fff;
+    --text-body-inverted: #333;
+    --text-colored: #a5bb9d;
+    --text-footer: #fff;
+    --text-eyebrow: #fff;
+    --text-accent: #caceda;
+    --text-on-saturated: #fff;
+    --bg-body: #1c2518;
+    --bg-footer: #1c2518;
+    --bg-eyebrow: #0f0f0f;
+    --bg-main: #2e4028;
+    --bg-main-alt: #1c2518;
+    --bg-color: #638557;
+    --bg-saturated: #638557;
+    --bg-accent: #4f5c82;
+    --border-color: #638557;
+    --hr-color: #fff;
+    --bg-pattern: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150"><defs><style> .cls-1 { fill: none; } .cls-2 { fill: %23fff; opacity: .05; } </style></defs><g id="Layer_1-2" data-name="Layer 1"><g><path class="cls-1" d="M146.92,71.92C145.35,34.67,115.33,4.65,78.08,3.08c1.58,37.26,31.59,67.27,68.84,68.84Z"/><path class="cls-1" d="M128.63,75c-25.85-7.38-46.25-27.78-53.63-53.63-7.38,25.85-27.78,46.25-53.63,53.63,25.85,7.38,46.25,27.78,53.63,53.63,7.38-25.85,27.78-46.25,53.63-53.63Z"/><path class="cls-1" d="M3.08,78.08c1.58,37.26,31.59,67.27,68.84,68.84-1.58-37.26-31.59-67.27-68.84-68.84Z"/><path class="cls-1" d="M96.39,150h53.61v-53.61c-7.38,25.84-27.77,46.24-53.61,53.61Z"/><path class="cls-1" d="M78.08,146.92c37.26-1.58,67.27-31.59,68.84-68.84-37.26,1.58-67.27,31.59-68.84,68.84Z"/><path class="cls-1" d="M0,96.39v53.61H53.61C27.77,142.62,7.38,122.23,0,96.39Z"/><path class="cls-1" d="M150,53.61V0h-53.61c25.84,7.38,46.24,27.77,53.61,53.61Z"/><path class="cls-1" d="M71.92,3.08C34.67,4.65,4.65,34.67,3.08,71.92c37.26-1.58,67.27-31.59,68.84-68.84Z"/><path class="cls-1" d="M53.61,0H0V53.61C7.38,27.77,27.77,7.38,53.61,0Z"/><path class="cls-2" d="M150,96.39V53.61C142.62,27.77,122.23,7.38,96.39,0H53.61C27.77,7.38,7.38,27.77,0,53.61v42.77c7.38,25.84,27.77,46.24,53.61,53.61h42.77c25.84-7.38,46.24-27.77,53.61-53.61Zm-71.92,50.53c1.58-37.26,31.59-67.27,68.84-68.84-1.58,37.26-31.59,67.27-68.84,68.84Zm68.84-75c-37.26-1.58-67.27-31.59-68.84-68.84,37.26,1.58,67.27,31.59,68.84,68.84ZM71.92,3.08c-1.58,37.26-31.59,67.27-68.84,68.84C4.65,34.67,34.67,4.65,71.92,3.08ZM3.08,78.08c37.26,1.58,67.27,31.59,68.84,68.84C34.67,145.35,4.65,115.33,3.08,78.08Zm18.29-3.08c25.85-7.38,46.25-27.78,53.63-53.63,7.38,25.85,27.78,46.25,53.63,53.63-25.85,7.38-46.25,27.78-53.63,53.63-7.38-25.85-27.78-46.25-53.63-53.63Z"/></g></g></svg>');
+    --roundness: 0.5rem;
   }
 }
 

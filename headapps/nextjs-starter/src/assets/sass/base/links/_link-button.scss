@@ -24,6 +24,17 @@
   --button-text-transform: uppercase;
 }
 
+.site-powerful {
+  --button-main-color: #fff;
+  --button-main-bg-color: var(--bg-saturated);
+  --button-secondary-color: var(--text-colored);
+  --button-simple-color: var(--text-colored);
+  --button-padding: 10px 50px;
+  --button-roundness: 40px;
+  --button-font-weight: 500;
+  --button-font-size: 1.125rem;
+}
+
 .button {
   display: inline-block;
   text-decoration: none;

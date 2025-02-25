@@ -1,5 +1,9 @@
 @import 'src/assets/sass/abstracts/vars';
 
+.site-powerful {
+  --caption-opacity: 0.75;
+}
+
 .image {
   img {
     max-width: 100%;
@@ -16,5 +20,22 @@
     font-style: italic;
     font-size: $font-small;
     color: $image-caption-color;
+  }
+
+  &.icon-with-caption {
+    text-align: center;
+
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      margin-bottom: 0.5rem;
+    }
+
+    .image-caption {
+      font-size: 1rem;
+      font-style: normal;
+      opacity: var(--caption-opacity);
+    }
   }
 }

@@ -6,6 +6,12 @@
   font-weight: 500;
 }
 
+.pattern-background {
+  background-image: var(--bg-pattern);
+  background-size: 150px;
+  background-position: -125px -45px;
+}
+
 .styled-list {
   ul,
   ol {
@@ -54,6 +60,12 @@
         min-width: 1em;
       }
     }
+  }
+}
+
+.equalize-columns {
+  .column-splitter > div[class*=' col-'] > .row {
+    height: 100%;
   }
 }
 

@@ -76,3 +76,32 @@ export const Simple = (props: PromoCtaProps): JSX.Element => {
     </div>
   );
 };
+
+export const Large = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+
+  return (
+    <div
+      className={`component quote large ${props.params.styles.trimEnd()}`}
+      id={id ? id : undefined}
+    >
+      <div className="content-wrapper h-100 d-flex flex-column">
+        <NextImage
+          field={props.fields.Image}
+          className="author-image img-fluid"
+          width={500}
+          height={500}
+        />
+        <blockquote className="mb-3 pt-0 px-4 pt-4">
+          <Text field={props.fields.Quote} />
+        </blockquote>
+        <p className="author-name fw-bold fs-4 mt-auto mb-0 px-4">
+          <Text field={props.fields.AuthorName} />
+        </p>
+        <p className="author-position mb-0 px-4 pb-4">
+          <Text field={props.fields.AuthorPosition} />
+        </p>
+      </div>
+    </div>
+  );
+};

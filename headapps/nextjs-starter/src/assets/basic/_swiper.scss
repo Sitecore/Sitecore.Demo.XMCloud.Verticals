@@ -14,6 +14,16 @@
   --swiper-theme-color: var(--bg-saturated);
 }
 
+.site-powerful {
+  --swiper-pagination-bullet-size: 0.75rem;
+  --swiper-pagination-bullet-horizontal-gap: 0.5rem;
+  --swiper-pagination-color: var(--bg-saturated);
+  --swiper-pagination-bullet-inactive-color: var(--hr-color);
+  --swiper-pagination-bullet-inactive-border-color: var(--hr-color);
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-theme-color: var(--bg-saturated);
+}
+
 .swiper-pagination {
   position: static;
   margin-top: 1rem;
