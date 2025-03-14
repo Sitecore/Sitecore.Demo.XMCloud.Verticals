@@ -32,7 +32,7 @@ You can deploy the demo in just a few clicks at [Sitecore Demo Portal](https://p
 
 This is the easier way to get started, as long as you have access to XM Cloud. It does not require Docker and should work on any operating system supported by Node (Mac, Windows, Linux).
 
-1. Deploy the project to XM Cloud
+1. Deploy the project to XM Cloud.
 
 2. Download (from XM Cloud Deploy app / Developer Settings tab) and add the `.env.local` file to your app folder.
 
