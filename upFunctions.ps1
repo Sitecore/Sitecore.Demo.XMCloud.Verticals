@@ -18,7 +18,28 @@ function Validate-LicenseExpiry {
         }
     }
 
-    $licenseXmlPath = Join-Path $licenseFolder "license.xml"
+    # Validate $licenseFolder contains "license.xml" or not
+    if($licenseFolder -ne "" -and $licenseFolder.IndexOf("license.xml", [System.StringComparison]::CurrentCultureIgnoreCase) -eq -1 )
+    {
+        # If the license folder does not contain the license.xml file, then we will append the file name to the path
+        $licenseXmlPath = Join-Path $licenseFolder "license.xml"
+    }
+    else
+    {
+        # If the license folder contains the license.xml file, then we will use the path as is
+		$licenseXmlPath = $licenseFolder
+	}
+
+    # Validate the license.xml file exists or not
+    if ([System.IO.Path]::IsPathRooted($licenseXmlPath)) {
+        # this will throw an exception if the path can't be used
+        # for example Z:\whatever is accepted, ZZ:\whatever is not
+        $licenseXmlPath = ([System.IO.DirectoryInfo]$licenseXmlPath).FullName
+        Write-Host "licenseXmlPath:$licenseXmlPath" -ForegroundColor Green
+    }
+    else {
+        throw [System.ArgumentException]"Only fully-qualified paths are accepted."
+    }
 
     if (-not (Test-Path $licenseXmlPath)) {
         throw "license.xml file does not exist in the specified folder ($licenseXmlPath)."
