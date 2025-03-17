@@ -18,8 +18,18 @@ function Validate-LicenseExpiry {
         }
     }
 
-    $licenseXmlPath = Join-Path $licenseFolder "license.xml"
-
+    # Validate $licenseFolder contains "license.xml" or not
+    if($licenseFolder.IndexOf("license.xml", [System.StringComparison]::CurrentCultureIgnoreCase) -eq -1 )
+    {
+        # If the license folder does not contain the license.xml file, then we will append the file name to the path
+        $licenseXmlPath = Join-Path $licenseFolder "license.xml"
+    }
+    else
+    {
+        # If the license folder contains the license.xml file, then we will use the path as is
+		$licenseXmlPath = $licenseFolder
+	}
+ 
     if (-not (Test-Path $licenseXmlPath)) {
         throw "license.xml file does not exist in the specified folder ($licenseXmlPath)."
     }
