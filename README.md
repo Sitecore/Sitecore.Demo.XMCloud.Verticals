@@ -23,8 +23,21 @@ A headless multi-site solution focused on XM Cloud content and site management c
 This repository is a Sitecore DXP demo that is based on [sitecorelabs/xmcloud-foundation-head](https://github.com/sitecorelabs/xmcloud-foundation-head) repository and uses:
 
 - Sitecore XM Cloud
-- Sitecore JavaScript Services (JSS)
+- **Sitecore Content SDK** (sitecore-content-sdk)
 - Next.js
+
+## About Sitecore Content SDK
+
+This front-end codebase is built using the **Sitecore Content SDK** packages (`sitecore-content-sdk`) rather than the traditional Sitecore JSS SDK packages (`sitecore-jss-nextjs`). 
+
+The Sitecore Content SDK provides:
+- Modern, lightweight API for content delivery
+- Enhanced developer experience with improved TypeScript support
+- Optimized performance for headless scenarios
+- Simplified content querying and management
+
+For detailed information about the Sitecore Content SDK, please visit:
+[Sitecore Content SDK for XM Cloud Documentation](https://doc.sitecore.com/xmc/en/developers/content-sdk/sitecore-content-sdk-for-xm-cloud.html)
 
 You can deploy the demo in just a few clicks at [Sitecore Demo Portal](https://portal.sitecoredemo.com/), or use one of the quick starts below to run it locally.
 
@@ -79,3 +92,13 @@ In addition to the offical documentation https://doc.sitecore.com/xmc/en/develop
 2. Make sure that the domain name you use, i.e. https://www.sxastarter.localhost/ is added to the SXA Site definition of the site you want to edit.
 
 3. If using a local Docker as a back-end, make sure the JSS Editing Secret is set to what Pages is using.
+
+## SDK Migration Notes
+
+This project has been migrated from Sitecore JSS SDK to Sitecore Content SDK. Key differences include:
+- Enhanced content delivery APIs
+- Improved TypeScript definitions
+- Streamlined component development
+- Better performance optimization for headless scenarios
+
+For migration guidance and best practices, refer to the [Content SDK documentation](https://doc.sitecore.com/xmc/en/developers/content-sdk/migrate-jss-22-5-next-js-apps-to-content-sdk.html).
