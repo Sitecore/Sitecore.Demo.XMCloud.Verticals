@@ -1,11 +1,6 @@
 import React from 'react';
-import {
-  Field,
-  Text,
-  Link,
-  LinkField,
-  useSitecoreContext,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { JSX } from 'react';
+import { Field, Text, Link, LinkField, useSitecoreContext } from '@sitecore-content-sdk/nextjs';
 import Head from 'next/head';
 
 interface Fields {

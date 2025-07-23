@@ -1,6 +1,6 @@
-import { ImageField, NextImage, Placeholder } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ImageField, NextImage, Placeholder } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
-import React from 'react';
+import { JSX } from 'react';
 
 export const Default = (props: ComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;

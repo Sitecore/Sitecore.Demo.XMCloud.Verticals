@@ -1,9 +1,5 @@
-import {
-  ComponentParams,
-  ComponentRendering,
-  Placeholder,
-} from '@sitecore-jss/sitecore-jss-nextjs';
-import React from 'react';
+import { ComponentParams, ComponentRendering, Placeholder } from '@sitecore-content-sdk/nextjs';
+import React, { JSX } from 'react';
 
 interface ComponentProps {
   rendering: ComponentRendering & { params: ComponentParams };

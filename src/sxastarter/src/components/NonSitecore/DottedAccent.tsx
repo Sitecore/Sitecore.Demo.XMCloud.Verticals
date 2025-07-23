@@ -1,3 +1,4 @@
+import { JSX } from 'react';
 import { Parallax } from 'react-scroll-parallax';
 
 export const DottedAccent = ({ className }: { className?: string }): JSX.Element => {

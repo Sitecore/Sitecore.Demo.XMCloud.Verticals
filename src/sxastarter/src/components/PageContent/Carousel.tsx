@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { JSX } from 'react';
 import {
   ComponentParams,
   ComponentRendering,
@@ -11,7 +12,7 @@ import {
   RichText,
   useSitecoreContext,
   NextImage,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 
 interface Fields {
   Title: Field<string>;

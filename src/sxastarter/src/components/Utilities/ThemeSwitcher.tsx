@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { JSX } from 'react';
 
 export const Default = (): JSX.Element => {
   const [isSystemDark, setIsSystemDark] = useState(false);

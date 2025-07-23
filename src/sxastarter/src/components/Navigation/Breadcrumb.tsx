@@ -1,4 +1,4 @@
-import React from 'react';
+import { JSX } from 'react';
 import { ComponentProps } from 'lib/component-props';
 
 function formatBreadcrumb(text: string) {

@@ -1,5 +1,6 @@
+import { JSX } from 'react';
 import React, { useState, useEffect, ReactNode } from 'react';
-import { Field, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, Text } from '@sitecore-content-sdk/nextjs';
 import { useI18n } from 'next-localization';
 
 interface Fields {
@@ -111,9 +112,9 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                     loanAmount < props.fields.MinAmount.value
                       ? '0'
                       : loanAmount > props.fields.MaxAmount.value
-                      ? '100'
-                      : ((loanAmount - props.fields.MinAmount.value) * 100) /
-                        (props.fields.MaxAmount.value - props.fields.MinAmount.value)
+                        ? '100'
+                        : ((loanAmount - props.fields.MinAmount.value) * 100) /
+                          (props.fields.MaxAmount.value - props.fields.MinAmount.value)
                   }% 100%`,
                 }}
               />
@@ -181,9 +182,9 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                     loanTerm < props.fields.MinTerm.value
                       ? '0'
                       : loanTerm > props.fields.MaxTerm.value
-                      ? '100'
-                      : ((loanTerm - props.fields.MinTerm.value) * 100) /
-                        (props.fields.MaxTerm.value - props.fields.MinTerm.value)
+                        ? '100'
+                        : ((loanTerm - props.fields.MinTerm.value) * 100) /
+                          (props.fields.MaxTerm.value - props.fields.MinTerm.value)
                   }% 100%`,
                 }}
               />

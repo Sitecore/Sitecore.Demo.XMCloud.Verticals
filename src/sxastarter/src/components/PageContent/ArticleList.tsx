@@ -1,4 +1,5 @@
 import React from 'react';
+import { JSX } from 'react';
 import {
   ComponentParams,
   ComponentRendering,
@@ -8,7 +9,7 @@ import {
   RichTextField,
   withDatasourceCheck,
   NextImage,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import Link from 'next/link';
 import { useI18n } from 'next-localization';
 

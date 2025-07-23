@@ -1,5 +1,4 @@
 import {
-  EditMode,
   Field,
   ImageField,
   NextImage as JssImage,
@@ -7,8 +6,8 @@ import {
   LinkField,
   Text,
   useSitecoreContext,
-} from '@sitecore-jss/sitecore-jss-nextjs';
-import React, { CSSProperties } from 'react';
+} from '@sitecore-content-sdk/nextjs';
+import React, { CSSProperties, JSX } from 'react';
 
 interface Fields {
   Image: ImageField & { metadata?: { [key: string]: unknown } };
@@ -33,7 +32,6 @@ export const Banner = (props: ImageProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { sitecoreContext } = useSitecoreContext();
   const isPageEditing = sitecoreContext.pageEditing;
-  const isMetadataMode = sitecoreContext?.editMode === EditMode.Metadata;
   const classHeroBannerEmpty =
     isPageEditing && props.fields?.Image?.value?.class === 'scEmptyImage'
       ? 'hero-banner-empty'
@@ -41,20 +39,13 @@ export const Banner = (props: ImageProps): JSX.Element => {
   const backgroundStyle = (props?.fields?.Image?.value?.src && {
     backgroundImage: `url('${props.fields.Image.value.src}')`,
   }) as CSSProperties;
-  const modifyImageProps = !isMetadataMode
-    ? {
-        ...props.fields.Image,
-        editable: props?.fields?.Image?.editable
-          ?.replace(`width="${props?.fields?.Image?.value?.width}"`, 'width="100%"')
-          .replace(`height="${props?.fields?.Image?.value?.height}"`, 'height="100%"'),
-      }
-    : {
-        ...props.fields.Image,
-        value: {
-          ...props.fields.Image.value,
-          style: { width: '100%', height: '100%' },
-        },
-      };
+  const modifyImageProps = {
+    ...props.fields.Image,
+    value: {
+      ...props.fields.Image.value,
+      style: { width: '100%', height: '100%' },
+    },
+  };
 
   return (
     <div

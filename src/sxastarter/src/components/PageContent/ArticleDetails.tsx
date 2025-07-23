@@ -1,4 +1,4 @@
-import React from 'react';
+import { JSX } from 'react';
 import {
   Field,
   ImageField,
@@ -7,7 +7,7 @@ import {
   RichText,
   RichTextField,
   NextImage,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
 import Head from 'next/head';

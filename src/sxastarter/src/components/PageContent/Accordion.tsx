@@ -1,5 +1,6 @@
+import { JSX } from 'react';
 import React, { useState } from 'react';
-import { Field, ImageField, NextImage, RichText, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, ImageField, NextImage, RichText, Text } from '@sitecore-content-sdk/nextjs';
 
 interface AccordionItemFields {
   Icon: ImageField;

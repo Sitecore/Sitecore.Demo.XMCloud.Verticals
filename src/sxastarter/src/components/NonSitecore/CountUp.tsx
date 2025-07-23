@@ -1,3 +1,4 @@
+import { JSX } from 'react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 const easeOutExpo = (t: number) => {
@@ -5,7 +6,7 @@ const easeOutExpo = (t: number) => {
 };
 
 const useScrollTriggeredCountUp = (
-  ref: React.RefObject<HTMLElement>,
+  ref: React.RefObject<HTMLDivElement | null>,
   end: number,
   duration = 2000
 ) => {

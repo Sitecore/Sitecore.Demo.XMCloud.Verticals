@@ -1,4 +1,5 @@
 import React from 'react';
+import { JSX } from 'react';
 import {
   Field,
   ImageField,
@@ -10,7 +11,7 @@ import {
   useSitecoreContext,
   Placeholder,
   NextImage,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
 import useVisibility from 'src/hooks/useVisibility';
 import { ComponentProps } from 'lib/component-props';

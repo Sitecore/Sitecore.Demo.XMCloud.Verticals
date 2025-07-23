@@ -5,11 +5,10 @@
       "components/*": ["src/components/*"],
       "lib/*": ["src/lib/*"],
       "temp/*": ["src/temp/*"],
-      "assets/*": ["src/assets/*"],
-      "graphql-types": ["node_modules/@types/graphql-let/__generated__/__types__"],
-      "react": ["node_modules/@types/react"]
+      "assets/*": ["src/assets/*"]
     },
     "target": "es5",
+    "types": ["node"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,

@@ -1,4 +1,5 @@
-import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
+import { JSX } from 'react';
+import { useSitecoreContext } from '@sitecore-content-sdk/nextjs';
 import { useRouter } from 'next/router';
 import React, { useCallback, useMemo, useState } from 'react';
 

@@ -9,7 +9,7 @@ import {
   Link,
   LinkField,
   useSitecoreContext,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { BannerLayer, ParallaxBanner } from 'react-scroll-parallax';
 
 interface Fields {

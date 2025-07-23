@@ -1,4 +1,4 @@
-import React from 'react';
+import { JSX } from 'react';
 import {
   Field,
   ImageField,
@@ -7,7 +7,7 @@ import {
   RichText,
   useSitecoreContext,
   NextImage,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { useParallax } from 'react-scroll-parallax';
 
 interface Fields {

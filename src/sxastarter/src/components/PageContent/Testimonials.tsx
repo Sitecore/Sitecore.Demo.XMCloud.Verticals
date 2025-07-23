@@ -1,11 +1,12 @@
 import React from 'react';
+import { JSX } from 'react';
 import {
   Field,
   ImageField,
   NextImage,
   Text,
   useSitecoreContext,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 

@@ -2,10 +2,11 @@ import {
   CdpHelper,
   LayoutServicePageState,
   useSitecoreContext,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 import { useEffect } from 'react';
 import { pageView } from '@sitecore-cloudsdk/events/browser';
-import config from 'temp/config';
+import config from 'sitecore.config';
+import { JSX } from 'react';
 
 /**
  * This is the CDP page view component.
@@ -38,7 +39,7 @@ const CdpPageView = (): JSX.Element => {
     }
 
     const language = route.itemLanguage || config.defaultLanguage;
-    const scope = process.env.NEXT_PUBLIC_PERSONALIZE_SCOPE;
+    const scope = config.personalize?.scope;
 
     const pageVariantId = CdpHelper.getPageVariantId(
       route.itemId,

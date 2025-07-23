@@ -1,4 +1,5 @@
 import React from 'react';
+import { JSX } from 'react';
 import {
   Field,
   ImageField,
@@ -9,7 +10,7 @@ import {
   LinkField,
   Link,
   NextImage,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+} from '@sitecore-content-sdk/nextjs';
 
 interface Fields {
   Name: Field<string>;

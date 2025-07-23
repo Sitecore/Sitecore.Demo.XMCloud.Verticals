@@ -1,11 +1,5 @@
-import {
-  Link,
-  LinkField,
-  Text,
-  TextField,
-  useSitecoreContext,
-} from '@sitecore-jss/sitecore-jss-nextjs';
-import React from 'react';
+import { Link, LinkField, Text, TextField, useSitecoreContext } from '@sitecore-content-sdk/nextjs';
+import React, { JSX } from 'react';
 
 interface Fields {
   data: {
@@ -17,7 +11,6 @@ interface Fields {
       field: {
         jsonValue: {
           value: string;
-          editable?: string;
           metadata?: { [key: string]: unknown };
         };
       };
@@ -30,7 +23,6 @@ interface Fields {
       field: {
         jsonValue: {
           value: string;
-          editable?: string;
           metadata?: { [key: string]: unknown };
         };
       };
