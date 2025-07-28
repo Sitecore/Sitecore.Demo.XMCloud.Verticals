@@ -3,7 +3,7 @@
  */
 import React, { JSX } from 'react';
 import Head from 'next/head';
- /*
+/*
 import {
   Placeholder,
   LayoutServiceData,
@@ -24,7 +24,7 @@ interface LayoutProps {
   page: Page;
 }
 
-const Layout = ({ page  }: LayoutProps): JSX.Element => {
+const Layout = ({ page }: LayoutProps): JSX.Element => {
   const { layout, mode } = page;
   const { route } = layout.sitecore;
   //const fields = route?.fields as RouteFields;
