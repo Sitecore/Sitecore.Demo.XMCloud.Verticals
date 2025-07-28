@@ -6,7 +6,7 @@ import {
   RichTextField,
   Text,
   RichText,
-  useSitecoreContext,
+  useSitecore,
   Link,
   LinkField,
   Placeholder,
@@ -31,51 +31,43 @@ export type HeroBannerProps = ComponentProps & {
   fields: Fields;
 };
 
-export const Default = (props: HeroBannerProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Default = ({ params, fields, rendering }: HeroBannerProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   return (
-    <div
-      className={`component hero-banner ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component hero-banner ${styles}`} id={id ? id : undefined}>
       <div className="container container-wide">
         <div className="hero-row">
           <div className="content-column">
             <h6 className="eyebrow-accent">
-              <Text field={props.fields.Tagline} />
+              <Text field={fields.Tagline} />
             </h6>
             <h1 className="display-2 fw-bold">
-              <Text field={props.fields.Title} />
+              <Text field={fields.Title} />
             </h1>
 
             <div className="rich-content mb-4">
-              <RichText field={props.fields.Text} />
+              <RichText field={fields.Text} />
             </div>
             <div className="btn-array pt-3 pb-4">
-              {(isPageEditing || props.fields?.Cta1?.value?.href) && (
-                <Link field={props.fields.Cta1} className="button button-main" />
+              {(isPageEditing || fields?.Cta1?.value?.href) && (
+                <Link field={fields.Cta1} className="button button-main" />
               )}
-              {(isPageEditing || props.fields?.Cta2?.value?.href) && (
-                <Link field={props.fields.Cta2} className="button button-simple mx-4" />
+              {(isPageEditing || fields?.Cta2?.value?.href) && (
+                <Link field={fields.Cta2} className="button button-simple mx-4" />
               )}
             </div>
             <div className="row mt-2">
-              <Placeholder name="hero-banner" rendering={props.rendering} />
+              <Placeholder name="hero-banner" rendering={rendering} />
             </div>
-            <IconAccent image={props.fields.Icon} />
+            <IconAccent image={fields.Icon} />
           </div>
           <div className="img-column">
             <div className="img-wrapper">
               <DottedAccent className="dotted-accent-top" />
-              <NextImage
-                field={props.fields.Image}
-                className="img-fluid"
-                width={700}
-                height={700}
-              />
+              <NextImage field={fields.Image} className="img-fluid" width={700} height={700} />
               <DottedAccent className="dotted-accent-bottom" />
             </div>
           </div>

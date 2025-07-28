@@ -1,33 +1,31 @@
-import config from 'sitecore.config';
-import { SitecoreContext, ErrorPages, SitecorePageProps } from '@sitecore-content-sdk/nextjs';
+import { SitecoreProvider, SitecorePageProps, ErrorPage, Page } from '@sitecore-content-sdk/nextjs';
 import NotFound from 'src/NotFound';
 import Layout from 'src/Layout';
 import { GetStaticProps } from 'next';
 import scConfig from 'sitecore.config';
 import client from 'lib/sitecore-client';
-import components from 'lib/component-map';
+import components from '.sitecore/component-map';
 import { JSX } from 'react';
 
 const Custom404 = (props: SitecorePageProps): JSX.Element => {
-  if (!(props && props.layout)) {
+  if (!(props && props.page)) {
     return <NotFound />;
   }
 
   return (
-    <SitecoreContext api={scConfig.api} componentMap={components} layoutData={props.layout}>
-      <Layout layoutData={props.layout} />
-    </SitecoreContext>
+    <SitecoreProvider api={scConfig.api} componentMap={components} page={props.page}>
+      <Layout page={props.page} />
+    </SitecoreProvider>
   );
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  let resultErrorPages: ErrorPages | null = null;
-
-  if (!scConfig.disableStaticPaths) {
+  let page: Page | null = null;
+  if (scConfig.generateStaticPaths) {
     try {
-      resultErrorPages = await client.getErrorPages({
-        site: config.defaultSite,
-        locale: context.locale || context.defaultLocale || config.defaultLanguage,
+      page = await client.getErrorPage(ErrorPage.NotFound, {
+        site: scConfig.defaultSite,
+        locale: context.locale || context.defaultLocale || scConfig.defaultLanguage,
       });
     } catch (error) {
       console.log('Error occurred while fetching error pages');
@@ -37,7 +35,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   return {
     props: {
-      layout: resultErrorPages?.notFoundPage?.rendered || null,
+      page,
     },
   };
 };

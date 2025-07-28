@@ -30,24 +30,21 @@ export type AuthorWidgetProps = {
   fields: Fields;
 };
 
-const AuthorWidgetDefault = (props: AuthorWidgetProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+const AuthorWidgetDefault = ({ params, fields }: AuthorWidgetProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
 
   return (
-    <div
-      className={`component author-widget ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component author-widget ${styles}`} id={id ? id : undefined}>
       <div className="author-card row g-0">
         <div className="col-auto">
-          <NextImage field={props.fields.Photo} className="author-img" width={48} height={48} />
+          <NextImage field={fields.Photo} className="author-img" width={48} height={48} />
         </div>
         <div className="col">
           <h6 className="author-name">
-            <Text field={props.fields.Name} />
+            <Text field={fields.Name} />
           </h6>
           <p className="author-position">
-            <Text field={props.fields.Position} />
+            <Text field={fields.Position} />
           </p>
         </div>
       </div>
@@ -55,36 +52,33 @@ const AuthorWidgetDefault = (props: AuthorWidgetProps): JSX.Element => {
   );
 };
 
-const AuthorWidgetWithSocials = (props: AuthorWidgetProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+const AuthorWidgetWithSocials = ({ params, fields }: AuthorWidgetProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
 
   return (
-    <div
-      className={`component author-widget with-socials ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component author-widget with-socials ${styles}`} id={id ? id : undefined}>
       <div className="author-card row g-0">
         <div className="col-auto">
-          <NextImage field={props.fields.Photo} className="author-img" width={80} height={80} />
+          <NextImage field={fields.Photo} className="author-img" width={80} height={80} />
         </div>
         <div className="col">
           <h6 className="author-name">
-            <Text field={props.fields.Name} />
+            <Text field={fields.Name} />
           </h6>
           <p className="author-position">
-            <Text field={props.fields.Position} />
+            <Text field={fields.Position} />
           </p>
         </div>
         <div className="col-12 col-md-auto">
           <div className="social-links">
-            <Link field={props.fields?.SocialLink1}>
-              <NextImage field={props.fields?.SocialIcon1} width={16} height={16} />
+            <Link field={fields?.SocialLink1}>
+              <NextImage field={fields?.SocialIcon1} width={16} height={16} />
             </Link>
-            <Link field={props.fields?.SocialLink2}>
-              <NextImage field={props.fields?.SocialIcon2} width={16} height={16} />
+            <Link field={fields?.SocialLink2}>
+              <NextImage field={fields?.SocialIcon2} width={16} height={16} />
             </Link>
-            <Link field={props.fields?.SocialLink3}>
-              <NextImage field={props.fields?.SocialIcon3} width={16} height={16} />
+            <Link field={fields?.SocialLink3}>
+              <NextImage field={fields?.SocialIcon3} width={16} height={16} />
             </Link>
           </div>
         </div>

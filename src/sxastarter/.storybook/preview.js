@@ -2,7 +2,7 @@ import React from 'react';
 //import { SitecoreContext, LayoutServicePageState } from '@sitecore-jss/sitecore-jss-nextjs';
 import { SitecoreContext, LayoutServicePageState } from '@sitecore-content-sdk/nextjs';
 //import { componentBuilder } from '../src/temp/componentBuilder';
-import componentMap from 'lib/component-map';
+import componentMap from '.sitecore/component-map';
 import '../src/assets/main.scss';
 import { I18nProvider } from 'next-localization';
 

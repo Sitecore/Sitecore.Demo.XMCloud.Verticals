@@ -6,16 +6,16 @@ interface ComponentProps {
   params: ComponentParams;
 }
 
-export const Default = (props: ComponentProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+export const Default = ({ params, rendering }: ComponentProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
 
   return (
-    <div className={`component eyebrow	${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
-      <div className={`container container-${props.params?.ContainerWidth?.toLowerCase()}-fluid`}>
+    <div className={`component eyebrow	${styles}`} id={id ? id : undefined}>
+      <div className={`container container-${params?.ContainerWidth?.toLowerCase()}-fluid`}>
         <div className="row">
           <div className="col col-placeholder">
-            <Placeholder name="eyebrow-left" rendering={props.rendering} />
-            <Placeholder name="eyebrow-right" rendering={props.rendering} />
+            <Placeholder name="eyebrow-left" rendering={rendering} />
+            <Placeholder name="eyebrow-right" rendering={rendering} />
           </div>
         </div>
       </div>

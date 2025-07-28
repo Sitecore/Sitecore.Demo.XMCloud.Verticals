@@ -94,15 +94,12 @@ const ArticleListDefault = (props: ArticleListComponentProps): JSX.Element => {
   );
 };
 
-const ArticleListThreeColumn = (props: ArticleListComponentProps): JSX.Element => {
-  const id = props.params?.RenderingIdentifier;
-  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
+const ArticleListThreeColumn = ({ params, fields }: ArticleListComponentProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const newsItems = getNewsItems(fields?.items, parseInt(params?.NumberOfItems));
 
   return (
-    <div
-      className={`component component-spaced article-list ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component component-spaced article-list ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <div className="row row-gap-3">
           {newsItems?.map((item) => (
@@ -121,17 +118,14 @@ const ArticleListThreeColumn = (props: ArticleListComponentProps): JSX.Element =
   );
 };
 
-const ArticleListSimplified = (props: ArticleListComponentProps): JSX.Element => {
-  const id = props.params?.RenderingIdentifier;
-  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
-  const allArticlesPageHref = getAllArticlesPageHref(props.fields?.items);
+const ArticleListSimplified = ({ params, fields }: ArticleListComponentProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const newsItems = getNewsItems(fields?.items, parseInt(params?.NumberOfItems));
+  const allArticlesPageHref = getAllArticlesPageHref(fields?.items);
   const { t } = useI18n();
 
   return (
-    <div
-      className={`component component-spaced article-list ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component component-spaced article-list ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <div className="row align-items-center">
           <div className="col">
@@ -173,15 +167,12 @@ const ArticleListSimplified = (props: ArticleListComponentProps): JSX.Element =>
   );
 };
 
-const ArticleListGrid = (props: ArticleListComponentProps): JSX.Element => {
-  const id = props.params?.RenderingIdentifier;
-  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
+const ArticleListGrid = ({ params, fields }: ArticleListComponentProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const newsItems = getNewsItems(fields?.items, parseInt(params?.NumberOfItems));
 
   return (
-    <div
-      className={`component component-spaced article-list ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component component-spaced article-list ${styles}`} id={id ? id : undefined}>
       <div className="container container-wide">
         <div className="article-list-grid">
           {newsItems?.map((item) => (

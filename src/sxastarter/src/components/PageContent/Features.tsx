@@ -27,44 +27,41 @@ export type FeaturesProps = {
   fields: Fields;
 };
 
-export const Default = (props: FeaturesProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+export const Default = ({ params, fields }: FeaturesProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
 
   return (
-    <div
-      className={`component features component-spaced ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component features component-spaced ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <div className="info">
           <div className="eyebrow-accent">
-            <Text field={props.fields?.Eyebrow} />
+            <Text field={fields?.Eyebrow} />
           </div>
           <div className="tagline">
-            <RichText field={props.fields?.Text} />
+            <RichText field={fields?.Text} />
           </div>
           <div className="button button-main">
-            <Link field={props.fields?.Link} />
+            <Link field={fields?.Link} />
           </div>
         </div>
         <div className="items">
           <div className="item left">
             <div className="icon">
-              <NextImage field={props.fields?.Image1} width={32} height={32} />
+              <NextImage field={fields?.Image1} width={32} height={32} />
             </div>
             <div className="title">
-              <Text field={props.fields?.Title1} />
+              <Text field={fields?.Title1} />
             </div>
             <p className="subtitle">
-              <Text field={props.fields?.Text1} />
+              <Text field={fields?.Text1} />
             </p>
           </div>
           <div className="item right">
             <div className="title">
-              <Text field={props.fields?.Title2} />
+              <Text field={fields?.Title2} />
             </div>
             <p className="subtitle">
-              <Text field={props.fields?.Text2} />
+              <Text field={fields?.Text2} />
             </p>
           </div>
         </div>

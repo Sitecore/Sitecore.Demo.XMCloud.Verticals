@@ -6,7 +6,7 @@ import {
   LinkField,
   Text,
   Link,
-  useSitecoreContext,
+  useSitecore,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
 import useVisibility from 'src/hooks/useVisibility';
@@ -35,10 +35,10 @@ export type FourColumnCtaProps = {
   fields: Fields;
 };
 
-export const Default = (props: FourColumnCtaProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Default = ({ params, fields }: FourColumnCtaProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   const Column = ({
     image,
@@ -80,36 +80,36 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`component component-spaced four-column-cta ${props.params.styles.trimEnd()}`}
+      className={`component component-spaced four-column-cta ${styles}`}
       id={id ? id : undefined}
     >
       <div className="container">
         <div className="row">
           <Column
-            image={props.fields.Image1}
-            title={props.fields.Title1}
-            text={props.fields.Text1}
-            link={props.fields.Link1}
+            image={fields.Image1}
+            title={fields.Title1}
+            text={fields.Text1}
+            link={fields.Link1}
           />
           <Column
-            image={props.fields.Image2}
-            title={props.fields.Title2}
-            text={props.fields.Text2}
-            link={props.fields.Link2}
+            image={fields.Image2}
+            title={fields.Title2}
+            text={fields.Text2}
+            link={fields.Link2}
             delay={500}
           />
           <Column
-            image={props.fields.Image3}
-            title={props.fields.Title3}
-            text={props.fields.Text3}
-            link={props.fields.Link3}
+            image={fields.Image3}
+            title={fields.Title3}
+            text={fields.Text3}
+            link={fields.Link3}
             delay={1000}
           />
           <Column
-            image={props.fields.Image4}
-            title={props.fields.Title4}
-            text={props.fields.Text4}
-            link={props.fields.Link4}
+            image={fields.Image4}
+            title={fields.Title4}
+            text={fields.Text4}
+            link={fields.Link4}
             delay={1500}
           />
         </div>

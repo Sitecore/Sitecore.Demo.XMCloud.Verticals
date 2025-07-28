@@ -6,7 +6,7 @@ import {
   LinkField,
   Link,
   Text,
-  useSitecoreContext,
+  useSitecore,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
 import useVisibility from 'src/hooks/useVisibility';
@@ -32,10 +32,10 @@ export type DocumentsListProps = {
   fields: Fields;
 };
 
-export const Default = (props: DocumentsListProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Default = ({ params, fields }: DocumentsListProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   const DocumentItem = ({
     image,
@@ -68,38 +68,35 @@ export const Default = (props: DocumentsListProps): JSX.Element => {
   };
 
   return (
-    <div
-      className={`component component-spaced documents-list ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component component-spaced documents-list ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <div className="title display-6">
-          <Text field={props.fields?.Title1} />
+          <Text field={fields?.Title1} />
         </div>
         <div className="documents-container">
           <div className="row row-cols-1 row-cols-xl-2 gx-4 justify-content-center">
             <DocumentItem
-              image={props.fields?.Image1}
-              subtitle={props.fields?.Subtitle1}
-              link={props.fields?.Link1}
+              image={fields?.Image1}
+              subtitle={fields?.Subtitle1}
+              link={fields?.Link1}
               delay={0}
             />
             <DocumentItem
-              image={props.fields?.Image2}
-              subtitle={props.fields?.Subtitle2}
-              link={props.fields?.Link2}
+              image={fields?.Image2}
+              subtitle={fields?.Subtitle2}
+              link={fields?.Link2}
               delay={500}
             />
             <DocumentItem
-              image={props.fields?.Image3}
-              subtitle={props.fields?.Subtitle3}
-              link={props.fields?.Link3}
+              image={fields?.Image3}
+              subtitle={fields?.Subtitle3}
+              link={fields?.Link3}
               delay={1000}
             />
             <DocumentItem
-              image={props.fields?.Image4}
-              subtitle={props.fields?.Subtitle4}
-              link={props.fields?.Link4}
+              image={fields?.Image4}
+              subtitle={fields?.Subtitle4}
+              link={fields?.Link4}
               delay={1500}
             />
           </div>

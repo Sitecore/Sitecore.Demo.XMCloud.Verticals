@@ -32,39 +32,36 @@ const ResultLine = ({ left, right }: { left: ReactNode; right: ReactNode }) => {
   );
 };
 
-export const Default = (props: LoanCalculatorProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+export const Default = ({ params, fields }: LoanCalculatorProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
   const { t } = useI18n();
 
   const [loanAmount, setLoanAmount] = useState(
-    Math.round((props.fields.MinAmount.value + props.fields.MaxAmount.value) / 2)
+    Math.round((fields.MinAmount.value + fields.MaxAmount.value) / 2)
   );
   const [loanTerm, setLoanTerm] = useState(
-    Math.round((props.fields.MinTerm.value + props.fields.MaxTerm.value) / 2)
+    Math.round((fields.MinTerm.value + fields.MaxTerm.value) / 2)
   );
   const [monthlyPayment, setMonthlyPayment] = useState(0);
   const [totalDebt, setTotalDebt] = useState(0);
   const [totalInterest, setTotalInterest] = useState(0);
 
   useEffect(() => {
-    const monthlyInterestRate = props.fields.InterestRate.value / 100 / 12;
+    const monthlyInterestRate = fields.InterestRate.value / 100 / 12;
 
     const monthlyPaymentCalculation =
       (loanAmount * monthlyInterestRate) / (1 - Math.pow(1 + monthlyInterestRate, -loanTerm));
     setMonthlyPayment(monthlyPaymentCalculation);
 
-    const totalDebtCalculation = monthlyPaymentCalculation * loanTerm + props.fields.BankFee.value;
+    const totalDebtCalculation = monthlyPaymentCalculation * loanTerm + fields.BankFee.value;
     setTotalDebt(totalDebtCalculation);
 
-    const totalInterestCalculation = totalDebtCalculation - loanAmount - props.fields.BankFee.value;
+    const totalInterestCalculation = totalDebtCalculation - loanAmount - fields.BankFee.value;
     setTotalInterest(parseFloat(totalInterestCalculation.toFixed(2)));
-  }, [loanAmount, loanTerm, props.fields.InterestRate.value, props.fields.BankFee.value]);
+  }, [loanAmount, loanTerm, fields.InterestRate.value, fields.BankFee.value]);
 
   return (
-    <div
-      className={`component loan-calculator ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component loan-calculator ${styles}`} id={id ? id : undefined}>
       <div className="loan-calculator-input-group">
         <div className="row justify-content-between">
           <div className="col-auto">
@@ -85,13 +82,13 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                 type="number"
                 id="loan-amount"
                 name="loan-amount"
-                min={props.fields.MinAmount.value}
-                max={props.fields.MaxAmount.value}
+                min={fields.MinAmount.value}
+                max={fields.MaxAmount.value}
                 value={loanAmount}
                 onChange={(e) => setLoanAmount(parseInt(e.target.value))}
               />
               <span className="fw-bold">
-                <Text field={props.fields.Currency} />
+                <Text field={fields.Currency} />
               </span>
             </div>
           </div>
@@ -103,18 +100,18 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                 type="range"
                 id="loan-amount-range"
                 name="loan-amount-range"
-                min={props.fields.MinAmount.value}
-                max={props.fields.MaxAmount.value}
+                min={fields.MinAmount.value}
+                max={fields.MaxAmount.value}
                 value={loanAmount}
                 onChange={(e) => setLoanAmount(parseInt(e.target.value))}
                 style={{
                   backgroundSize: `${
-                    loanAmount < props.fields.MinAmount.value
+                    loanAmount < fields.MinAmount.value
                       ? '0'
-                      : loanAmount > props.fields.MaxAmount.value
+                      : loanAmount > fields.MaxAmount.value
                         ? '100'
-                        : ((loanAmount - props.fields.MinAmount.value) * 100) /
-                          (props.fields.MaxAmount.value - props.fields.MinAmount.value)
+                        : ((loanAmount - fields.MinAmount.value) * 100) /
+                          (fields.MaxAmount.value - fields.MinAmount.value)
                   }% 100%`,
                 }}
               />
@@ -124,12 +121,12 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
         <div className="row justify-content-between">
           <div className="col-auto">
             <span>
-              <Text field={props.fields.MinAmount} /> <Text field={props.fields.Currency} />
+              <Text field={fields.MinAmount} /> <Text field={fields.Currency} />
             </span>
           </div>
           <div className="col-auto">
             <span>
-              <Text field={props.fields.MaxAmount} /> <Text field={props.fields.Currency} />
+              <Text field={fields.MaxAmount} /> <Text field={fields.Currency} />
             </span>
           </div>
         </div>
@@ -155,13 +152,13 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                 type="number"
                 id="loan-term"
                 name="loan-term"
-                min={props.fields.MinTerm.value}
-                max={props.fields.MaxTerm.value}
+                min={fields.MinTerm.value}
+                max={fields.MaxTerm.value}
                 value={loanTerm}
                 onChange={(e) => setLoanTerm(parseInt(e.target.value))}
               />
               <span className="fw-bold">
-                <Text field={props.fields.TermName} />
+                <Text field={fields.TermName} />
               </span>
             </div>
           </div>
@@ -173,18 +170,18 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                 type="range"
                 id="loan-term-range"
                 name="loan-term-range"
-                min={props.fields.MinTerm.value}
-                max={props.fields.MaxTerm.value}
+                min={fields.MinTerm.value}
+                max={fields.MaxTerm.value}
                 value={loanTerm}
                 onChange={(e) => setLoanTerm(parseInt(e.target.value))}
                 style={{
                   backgroundSize: `${
-                    loanTerm < props.fields.MinTerm.value
+                    loanTerm < fields.MinTerm.value
                       ? '0'
-                      : loanTerm > props.fields.MaxTerm.value
+                      : loanTerm > fields.MaxTerm.value
                         ? '100'
-                        : ((loanTerm - props.fields.MinTerm.value) * 100) /
-                          (props.fields.MaxTerm.value - props.fields.MinTerm.value)
+                        : ((loanTerm - fields.MinTerm.value) * 100) /
+                          (fields.MaxTerm.value - fields.MinTerm.value)
                   }% 100%`,
                 }}
               />
@@ -194,12 +191,12 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
         <div className="row justify-content-between">
           <div className="col-auto">
             <span>
-              <Text field={props.fields.MinTerm} /> <Text field={props.fields.TermName} />
+              <Text field={fields.MinTerm} /> <Text field={fields.TermName} />
             </span>
           </div>
           <div className="col-auto">
             <span>
-              <Text field={props.fields.MaxTerm} /> <Text field={props.fields.TermName} />
+              <Text field={fields.MaxTerm} /> <Text field={fields.TermName} />
             </span>
           </div>
         </div>
@@ -211,7 +208,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
             left={t('Monthly payment') || 'Monthly payment'}
             right={
               <>
-                {monthlyPayment.toFixed(2)} <Text field={props.fields.Currency} />
+                {monthlyPayment.toFixed(2)} <Text field={fields.Currency} />
               </>
             }
           />
@@ -220,7 +217,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
           left={t('Interest rate') || 'Interest rate'}
           right={
             <>
-              <Text field={props.fields.InterestRate} />%
+              <Text field={fields.InterestRate} />%
             </>
           }
         />
@@ -228,7 +225,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
           left={t('Bank package fee') || 'Bank package fee'}
           right={
             <>
-              <Text field={props.fields.BankFee} /> <Text field={props.fields.Currency} />
+              <Text field={fields.BankFee} /> <Text field={fields.Currency} />
             </>
           }
         />
@@ -236,7 +233,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
           left={t('Total interest') || 'Total interest'}
           right={
             <>
-              {totalInterest.toFixed(2)} <Text field={props.fields.Currency} />
+              {totalInterest.toFixed(2)} <Text field={fields.Currency} />
             </>
           }
         />
@@ -244,7 +241,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
           left={t('Total debt') || 'Total debt'}
           right={
             <>
-              {totalDebt.toFixed(2)} <Text field={props.fields.Currency} />
+              {totalDebt.toFixed(2)} <Text field={fields.Currency} />
             </>
           }
         />

@@ -1,12 +1,6 @@
 import React from 'react';
 import { JSX } from 'react';
-import {
-  Field,
-  ImageField,
-  NextImage,
-  Text,
-  useSitecoreContext,
-} from '@sitecore-content-sdk/nextjs';
+import { Field, ImageField, NextImage, Text, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 
@@ -32,8 +26,8 @@ export type TestimonialsProps = {
 };
 
 const StarRating = ({ item }: { item: TestimonialItemProps }): JSX.Element => {
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   const rating = item.fields?.Rating.value;
   const ratingField = isPageEditing && <Text field={item.fields?.Rating} />;
@@ -86,15 +80,12 @@ const Testimonial = ({ item }: { item: TestimonialItemProps }): JSX.Element => {
   );
 };
 
-export const Default = (props: TestimonialsProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const testimonials = props.fields?.items;
+export const Default = ({ params, fields }: TestimonialsProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const testimonials = fields?.items;
 
   return (
-    <div
-      className={`component testimonials ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component testimonials ${styles}`} id={id ? id : undefined}>
       <div className="">
         <Swiper
           effect="coverflow"

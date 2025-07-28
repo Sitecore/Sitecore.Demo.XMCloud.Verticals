@@ -16,33 +16,25 @@ export type ContactFormProps = {
   fields: Fields;
 };
 
-export const Default = (props: ContactFormProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+export const Default = ({ params, fields }: ContactFormProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
 
   return (
-    <div
-      className={`component contact-form component-spaced ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component contact-form component-spaced ${styles}`} id={id ? id : undefined}>
       <div className="container container-widest-fluid">
-        <NextImage
-          field={props.fields.BackgroundImage}
-          className="img-fluid"
-          width={1920}
-          height={800}
-        />
+        <NextImage field={fields.BackgroundImage} className="img-fluid" width={1920} height={800} />
         <div className="container">
           <div className="contact-form-inner">
             <form>
               <h2 className="mb-4">
-                <Text field={props.fields?.Title} />
+                <Text field={fields?.Title} />
               </h2>
-              <input type="text" placeholder={props.fields.EmailLabel.value} />
-              <input type="text" placeholder={props.fields.SubjectLabel.value} />
-              <textarea placeholder={props.fields.MessageLabel.value} />
+              <input type="text" placeholder={fields.EmailLabel.value} />
+              <input type="text" placeholder={fields.SubjectLabel.value} />
+              <textarea placeholder={fields.MessageLabel.value} />
               <input
                 type="submit"
-                value={props.fields.ButtonLabel.value}
+                value={fields.ButtonLabel.value}
                 className="button button-main mt-3"
               />
             </form>

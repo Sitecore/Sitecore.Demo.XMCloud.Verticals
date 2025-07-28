@@ -6,7 +6,7 @@ import {
   RichTextField,
   Text,
   RichText,
-  useSitecoreContext,
+  useSitecore,
   Link,
   LinkField,
   NextImage,
@@ -24,29 +24,29 @@ export type AppPromoProps = {
   fields: Fields;
 };
 
-export const Default = (props: AppPromoProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Default = ({ params, fields }: AppPromoProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   return (
-    <div className={`component hero ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
+    <div className={`component hero ${styles}`} id={id ? id : undefined}>
       <picture>
-        <NextImage field={props.fields.Image} className="" width={1920} height={400}></NextImage>
+        <NextImage field={fields.Image} className="" width={1920} height={400}></NextImage>
       </picture>
       <div className="container content-container">
         <div className="top-layout">
           <div className="title">
-            <Text field={props.fields.Title} />
+            <Text field={fields.Title} />
           </div>
           <div className="subtitle">
-            <RichText field={props.fields.Text} />
+            <RichText field={fields.Text} />
           </div>
         </div>
         <div className="bottom-layout">
           <div className="btn-array">
-            {(isPageEditing || props.fields?.Link?.value?.href) && (
-              <Link field={props.fields.Link} className="button button-main mt-3" />
+            {(isPageEditing || fields?.Link?.value?.href) && (
+              <Link field={fields.Link} className="button button-main mt-3" />
             )}
           </div>
         </div>

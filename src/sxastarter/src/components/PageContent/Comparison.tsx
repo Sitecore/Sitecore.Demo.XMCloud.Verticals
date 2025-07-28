@@ -1,6 +1,6 @@
 import React from 'react';
 import { JSX } from 'react';
-import { Field, Text, useSitecoreContext } from '@sitecore-content-sdk/nextjs';
+import { Field, Text, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { CountUp } from 'components/NonSitecore/CountUp';
 
 interface Fields {
@@ -19,55 +19,52 @@ export type RichTextProps = {
   fields: Fields;
 };
 
-export const Default = (props: RichTextProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Default = ({ params, fields }: RichTextProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   return (
-    <div
-      className={`component comparison ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component comparison ${styles}`} id={id ? id : undefined}>
       <div className="title">
-        <Text field={props.fields?.Title1} />
+        <Text field={fields?.Title1} />
       </div>
       <div className="d-flex justify-content-around">
         <div className="item">
           <div className="value">
             <span className="amount">
               {isPageEditing ? (
-                <Text field={props.fields?.Amount1} />
+                <Text field={fields?.Amount1} />
               ) : (
-                <CountUp value={parseInt(props.fields?.Amount1.value)} />
+                <CountUp value={parseInt(fields?.Amount1.value)} />
               )}
             </span>{' '}
             <span className="currency">
-              <Text field={props.fields?.Currency1} />
+              <Text field={fields?.Currency1} />
             </span>
           </div>
           <span className="subtitle">
-            <Text field={props.fields?.Subtitle1} />
+            <Text field={fields?.Subtitle1} />
           </span>
         </div>
         <div className="operator">
-          <Text field={props.fields?.Value1} />
+          <Text field={fields?.Value1} />
         </div>
         <div className="item">
           <div className="value">
             <span className="amount">
               {isPageEditing ? (
-                <Text field={props.fields?.Amount2} />
+                <Text field={fields?.Amount2} />
               ) : (
-                <CountUp value={parseInt(props.fields?.Amount2.value)} />
+                <CountUp value={parseInt(fields?.Amount2.value)} />
               )}
             </span>{' '}
             <span className="currency">
-              <Text field={props.fields?.Currency2} />
+              <Text field={fields?.Currency2} />
             </span>
           </div>
           <span className="subtitle">
-            <Text field={props.fields?.Subtitle2} />
+            <Text field={fields?.Subtitle2} />
           </span>
         </div>
       </div>

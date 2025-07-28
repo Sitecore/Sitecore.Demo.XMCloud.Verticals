@@ -6,7 +6,7 @@ import {
   LinkField,
   Link,
   Text,
-  useSitecoreContext,
+  useSitecore,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
 import useVisibility from 'src/hooks/useVisibility';
@@ -34,10 +34,10 @@ export type FiveColumnCtaProps = {
   fields: Fields;
 };
 
-export const Default = (props: FiveColumnCtaProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Default = ({ params, fields }: FiveColumnCtaProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   const Column = ({
     image,
@@ -70,36 +70,16 @@ export const Default = (props: FiveColumnCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`component component-spaced five-column-cta ${props.params.styles.trimEnd()}`}
+      className={`component component-spaced five-column-cta ${styles}`}
       id={id ? id : undefined}
     >
       <div className="container">
         <div className="row row-cols-2 row-cols-sm-3 row-cols-lg-5 row-gap-3 gx-5 justify-content-center">
-          <Column image={props.fields.Image1} text={props.fields.Text1} link={props.fields.Link1} />
-          <Column
-            image={props.fields.Image2}
-            text={props.fields.Text2}
-            link={props.fields.Link2}
-            delay={500}
-          />
-          <Column
-            image={props.fields.Image3}
-            text={props.fields.Text3}
-            link={props.fields.Link3}
-            delay={1000}
-          />
-          <Column
-            image={props.fields.Image4}
-            text={props.fields.Text4}
-            link={props.fields.Link4}
-            delay={1500}
-          />
-          <Column
-            image={props.fields.Image5}
-            text={props.fields.Text5}
-            link={props.fields.Link5}
-            delay={2000}
-          />
+          <Column image={fields.Image1} text={fields.Text1} link={fields.Link1} />
+          <Column image={fields.Image2} text={fields.Text2} link={fields.Link2} delay={500} />
+          <Column image={fields.Image3} text={fields.Text3} link={fields.Link3} delay={1000} />
+          <Column image={fields.Image4} text={fields.Text4} link={fields.Link4} delay={1500} />
+          <Column image={fields.Image5} text={fields.Text5} link={fields.Link5} delay={2000} />
         </div>
       </div>
     </div>

@@ -3,32 +3,35 @@
  */
 import React, { JSX } from 'react';
 import Head from 'next/head';
+ /*
 import {
   Placeholder,
   LayoutServiceData,
   DesignLibrary,
   RenderingType,
-} from '@sitecore-content-sdk/nextjs';
+} from '@sitecore-content-sdk/nextjs'; */
+import { Placeholder, DesignLibrary, Page } from '@sitecore-content-sdk/nextjs';
 import scConfig from 'sitecore.config';
 import Scripts from 'src/Scripts';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import SitecoreStyles from 'src/components/SitecoreStyles';
+import SitecoreStyles from 'src/components/content-sdk/SitecoreStyles';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
 const publicUrl = scConfig.api.edge.edgeUrl || '';
 
 interface LayoutProps {
-  layoutData: LayoutServiceData;
+  page: Page;
 }
 
-const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
-  const { route } = layoutData.sitecore;
+const Layout = ({ page  }: LayoutProps): JSX.Element => {
+  const { layout, mode } = page;
+  const { route } = layout.sitecore;
   //const fields = route?.fields as RouteFields;
   const fields = route?.fields || {};
-  const isPageEditing = layoutData.sitecore.context.pageEditing;
+  const isPageEditing = mode.isEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
-  const theme = layoutData.sitecore.context.theme as string;
+  const theme = layout.sitecore.context.theme as string;
   const contextSiteClass = `site-${theme?.toLowerCase()}`;
   const getFirst200Words = (text: string) => {
     return text.split(' ').slice(0, 200).join(' ');
@@ -42,24 +45,24 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
   return (
     <>
       <Scripts />
-      <SitecoreStyles layoutData={layoutData} />
+      <SitecoreStyles layoutData={layout} />
       <Head>
         <title>{getFieldValue(fields?.Title) || 'Page'}</title>
         <link rel="icon" href={`${publicUrl}/favicon.ico`} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={'anonymous'} />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
-        <meta property="og:site" content={layoutData?.sitecore?.context?.site?.name} />
+        <meta property="og:site" content={layout?.sitecore?.context?.site?.name} />
         <meta name="description" content="A Verticals demo site."></meta>
         <meta
           name="application-details"
-          content={layoutData?.sitecore?.context?.site?.name}
-          data-siteName={layoutData?.sitecore?.context?.site?.name}
+          content={layout?.sitecore?.context?.site?.name}
+          data-siteName={layout?.sitecore?.context?.site?.name}
           data-itemId={route?.itemId}
           data-itemName={route?.name}
           data-itemTitle={getFieldValue(fields?.Title)}
           data-itemLanguage={route?.itemLanguage}
-          data-itemPath={layoutData?.sitecore?.context?.itemPath}
+          data-itemPath={layout?.sitecore?.context?.itemPath}
           data-itemContent={getFirst200Words(getFieldValue(fields?.Content))}
           data-itemTemplateId={route?.templateId}
           data-itemTemplateName={route?.templateName}
@@ -70,8 +73,8 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
       {/* root placeholder for the app, which we add components to using route data */}
       <ParallaxProvider>
         <div className={`${mainClassPageEditing} ${contextSiteClass} body`}>
-          {layoutData.sitecore.context.renderingType === RenderingType.Component ? (
-            <DesignLibrary {...layoutData} />
+          {mode.isDesignLibrary ? (
+            <DesignLibrary />
           ) : (
             <>
               <header>

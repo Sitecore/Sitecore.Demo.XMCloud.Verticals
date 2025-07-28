@@ -6,7 +6,7 @@ import {
   Text,
   LinkField,
   Link,
-  useSitecoreContext,
+  useSitecore,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
 import useVisibility from 'src/hooks/useVisibility';
@@ -31,10 +31,10 @@ export type ThreeColumnCtaProps = {
   fields: Fields;
 };
 
-export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Default = ({ params, fields }: ThreeColumnCtaProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   const Column = ({
     image,
@@ -50,8 +50,8 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
     delay?: number;
   }) => {
     const [isVisible, domRef] = useVisibility(delay);
-    const buttonStyle = props.params?.ButtonStyle
-      ? `button-${props.params.ButtonStyle.toLowerCase()}`
+    const buttonStyle = params?.ButtonStyle
+      ? `button-${params.ButtonStyle.toLowerCase()}`
       : 'button-main';
 
     return (
@@ -79,29 +79,29 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`component component-spaced three-column-cta ${props.params.styles.trimEnd()}`}
+      className={`component component-spaced three-column-cta ${styles}`}
       id={id ? id : undefined}
     >
       <div className="container">
         <div className="row">
           <Column
-            image={props.fields.Image1}
-            text={props.fields.Text1}
-            subText={props.fields.SubText1}
-            link={props.fields.Link1}
+            image={fields.Image1}
+            text={fields.Text1}
+            subText={fields.SubText1}
+            link={fields.Link1}
           />
           <Column
-            image={props.fields.Image2}
-            text={props.fields.Text2}
-            subText={props.fields.SubText2}
-            link={props.fields.Link2}
+            image={fields.Image2}
+            text={fields.Text2}
+            subText={fields.SubText2}
+            link={fields.Link2}
             delay={500}
           />
           <Column
-            image={props.fields.Image3}
-            text={props.fields.Text3}
-            subText={props.fields.SubText3}
-            link={props.fields.Link3}
+            image={fields.Image3}
+            text={fields.Text3}
+            subText={fields.SubText3}
+            link={fields.Link3}
             delay={1000}
           />
         </div>
@@ -110,10 +110,10 @@ export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
   );
 };
 
-export const WithIcons = (props: ThreeColumnCtaProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const WithIcons = ({ params, fields }: ThreeColumnCtaProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   const Column = ({
     image,
@@ -155,29 +155,29 @@ export const WithIcons = (props: ThreeColumnCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`component component-spaced three-column-cta with-icons ${props.params.styles.trimEnd()}`}
+      className={`component component-spaced three-column-cta with-icons ${styles}`}
       id={id ? id : undefined}
     >
       <div className="container">
         <div className="row gx-0">
           <Column
-            image={props.fields.Image1}
-            text={props.fields.Text1}
-            subText={props.fields.SubText1}
-            link={props.fields.Link1}
+            image={fields.Image1}
+            text={fields.Text1}
+            subText={fields.SubText1}
+            link={fields.Link1}
           />
           <Column
-            image={props.fields.Image2}
-            text={props.fields.Text2}
-            subText={props.fields.SubText2}
-            link={props.fields.Link2}
+            image={fields.Image2}
+            text={fields.Text2}
+            subText={fields.SubText2}
+            link={fields.Link2}
             delay={500}
           />
           <Column
-            image={props.fields.Image3}
-            text={props.fields.Text3}
-            subText={props.fields.SubText3}
-            link={props.fields.Link3}
+            image={fields.Image3}
+            text={fields.Text3}
+            subText={fields.SubText3}
+            link={fields.Link3}
             delay={1000}
           />
         </div>
@@ -186,10 +186,10 @@ export const WithIcons = (props: ThreeColumnCtaProps): JSX.Element => {
   );
 };
 
-export const WithIconsCompact = (props: ThreeColumnCtaProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const WithIconsCompact = ({ params, fields }: ThreeColumnCtaProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   const Column = ({
     image,
@@ -233,29 +233,29 @@ export const WithIconsCompact = (props: ThreeColumnCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`component component-spaced three-column-cta with-icons with-icons-compact ${props.params.styles.trimEnd()}`}
+      className={`component component-spaced three-column-cta with-icons with-icons-compact ${styles}`}
       id={id ? id : undefined}
     >
       <div className="container">
         <div className="row gx-0">
           <Column
-            image={props.fields.Image1}
-            text={props.fields.Text1}
-            subText={props.fields.SubText1}
-            link={props.fields.Link1}
+            image={fields.Image1}
+            text={fields.Text1}
+            subText={fields.SubText1}
+            link={fields.Link1}
           />
           <Column
-            image={props.fields.Image2}
-            text={props.fields.Text2}
-            subText={props.fields.SubText2}
-            link={props.fields.Link2}
+            image={fields.Image2}
+            text={fields.Text2}
+            subText={fields.SubText2}
+            link={fields.Link2}
             delay={500}
           />
           <Column
-            image={props.fields.Image3}
-            text={props.fields.Text3}
-            subText={props.fields.SubText3}
-            link={props.fields.Link3}
+            image={fields.Image3}
+            text={fields.Text3}
+            subText={fields.SubText3}
+            link={fields.Link3}
             delay={1000}
           />
         </div>

@@ -9,7 +9,7 @@ import {
   withDatasourceCheck,
   RichTextField,
   RichText,
-  useSitecoreContext,
+  useSitecore,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
 import Link from 'next/link';
@@ -38,18 +38,15 @@ interface AuthorListComponentProps {
   };
 }
 
-const AuthorListDefault = (props: AuthorListComponentProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const authors = props.fields?.items?.filter((item) => item.name !== 'Data');
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+const AuthorListDefault = ({ params, fields }: AuthorListComponentProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const authors = fields?.items?.filter((item) => item.name !== 'Data');
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
   const { t } = useI18n();
 
   return (
-    <div
-      className={`component author-list ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component author-list ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <div className="background p-3 p-sm-5">
           {authors?.map((author, i) => (
@@ -88,15 +85,12 @@ const AuthorListDefault = (props: AuthorListComponentProps): JSX.Element => {
   );
 };
 
-const AuthorListSlider = (props: AuthorListComponentProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const authors = props.fields?.items?.filter((item) => item.name !== 'Data');
+const AuthorListSlider = ({ params, fields }: AuthorListComponentProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const authors = fields?.items?.filter((item) => item.name !== 'Data');
 
   return (
-    <div
-      className={`component author-list author-list-slider ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component author-list author-list-slider ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <Swiper
           spaceBetween={30}
@@ -138,18 +132,15 @@ const AuthorListSlider = (props: AuthorListComponentProps): JSX.Element => {
   );
 };
 
-const AuthorListSimple = (props: AuthorListComponentProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const authors = props.fields?.items?.filter((item) => item.name !== 'Data');
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+const AuthorListSimple = ({ params, fields }: AuthorListComponentProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const authors = fields?.items?.filter((item) => item.name !== 'Data');
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
   const { t } = useI18n();
 
   return (
-    <div
-      className={`component author-list author-list-simple ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component author-list author-list-simple ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <div className="row gx-5 row-gap-5 justify-content-between justify-content-lg-start">
           {authors?.map((author) => (

@@ -10,7 +10,7 @@ import {
   Text,
   Link,
   RichText,
-  useSitecoreContext,
+  useSitecore,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
 
@@ -35,27 +35,24 @@ interface CarouselComponentProps {
   };
 }
 
-export const Default = (props: CarouselComponentProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+export const Default = ({ params, fields }: CarouselComponentProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
   const [index, setIndex] = useState(0);
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   const handleNext = () => {
-    setIndex((prevIndex) => (prevIndex < props.fields.items.length - 1 ? prevIndex + 1 : 0));
+    setIndex((prevIndex) => (prevIndex < fields.items.length - 1 ? prevIndex + 1 : 0));
   };
 
   const handlePrev = () => {
-    setIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : props.fields.items.length - 1));
+    setIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : fields.items.length - 1));
   };
 
   return (
-    <section
-      className={`component carousel ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <section className={`component carousel ${styles}`} id={id ? id : undefined}>
       <div className="carousel-inner">
-        {props.fields.items.map((item, i) => (
+        {fields.items.map((item, i) => (
           <div key={i} className={'carousel-item ' + (i == index ? 'active' : '')}>
             {!isPageEditing && item.fields?.Video?.value?.src ? (
               <video
@@ -95,7 +92,7 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
         ))}
       </div>
       <ol className="carousel-indicators">
-        {props.fields.items.map((_item, i) => (
+        {fields.items.map((_item, i) => (
           <li
             key={i}
             aria-label="Slide"

@@ -1,6 +1,6 @@
 import React from 'react';
 import { JSX } from 'react';
-import { Field, Text, Link, LinkField, useSitecoreContext } from '@sitecore-content-sdk/nextjs';
+import { Field, Text, Link, LinkField, useSitecore } from '@sitecore-content-sdk/nextjs';
 import Head from 'next/head';
 
 interface Fields {
@@ -15,34 +15,31 @@ export type HeadingCtaProps = {
   fields: Fields;
 };
 
-export const Default = (props: HeadingCtaProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Default = ({ params, fields }: HeadingCtaProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   return (
-    <div
-      className={`component heading-cta ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component heading-cta ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <div className="row gx-5">
           <div className="col">
             <div className="heading-content-wrapper">
               <h6 className="eyebrow-accent">
-                <Text field={props.fields?.Eyebrow} />
+                <Text field={fields?.Eyebrow} />
               </h6>
               <h2 className="display-4 fw-bold">
-                <Text field={props.fields?.Heading} />
+                <Text field={fields?.Heading} />
               </h2>
               <p>
-                <Text field={props.fields?.Text} />
+                <Text field={fields?.Text} />
               </p>
             </div>
           </div>
           <div className="col-12 pt-lg-5 col-lg-auto">
-            {(isPageEditing || props.fields?.Link?.value?.href) && (
-              <Link field={props.fields.Link} className="button button-main" />
+            {(isPageEditing || fields?.Link?.value?.href) && (
+              <Link field={fields.Link} className="button button-main" />
             )}
           </div>
         </div>
@@ -51,32 +48,29 @@ export const Default = (props: HeadingCtaProps): JSX.Element => {
   );
 };
 
-export const Compact = (props: HeadingCtaProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Compact = ({ params, fields }: HeadingCtaProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   return (
-    <div
-      className={`component heading-cta compact ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component heading-cta compact ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <div className="row">
           <div className="col">
             <div className="heading-content-wrapper">
               <h6 className="eyebrow-accent">
-                <Text field={props.fields?.Eyebrow} />
+                <Text field={fields?.Eyebrow} />
               </h6>
               <h2 className="display-6 fw-bold">
-                <Text field={props.fields?.Heading} />
+                <Text field={fields?.Heading} />
               </h2>
               <p>
-                <Text field={props.fields?.Text} />
+                <Text field={fields?.Text} />
               </p>
             </div>
-            {(isPageEditing || props.fields?.Link?.value?.href) && (
-              <Link field={props.fields.Link} className="button button-main" />
+            {(isPageEditing || fields?.Link?.value?.href) && (
+              <Link field={fields.Link} className="button button-main" />
             )}
           </div>
         </div>
@@ -85,41 +79,38 @@ export const Compact = (props: HeadingCtaProps): JSX.Element => {
   );
 };
 
-export const PageHeading = (props: HeadingCtaProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const PageHeading = ({ params, fields }: HeadingCtaProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   return (
     <>
       <Head>
-        <meta property="og:description" content={props.fields?.Text.value} />
-        <meta property="og:name" content={props.fields?.Heading?.value} />
-        <meta property="og:title" content={props.fields?.Heading?.value} />
+        <meta property="og:description" content={fields?.Text.value} />
+        <meta property="og:name" content={fields?.Heading?.value} />
+        <meta property="og:title" content={fields?.Heading?.value} />
         <meta property="og:type" content="page" />
       </Head>
-      <div
-        className={`component heading-cta ${props.params.styles.trimEnd()}`}
-        id={id ? id : undefined}
-      >
+      <div className={`component heading-cta ${styles}`} id={id ? id : undefined}>
         <div className="container container-wide">
           <div className="row gx-5">
             <div className="col">
               <div className="heading-content-wrapper">
                 <h6 className="eyebrow-accent">
-                  <Text field={props.fields?.Eyebrow} />
+                  <Text field={fields?.Eyebrow} />
                 </h6>
                 <h1 className="display-1 fw-bold">
-                  <Text field={props.fields?.Heading} />
+                  <Text field={fields?.Heading} />
                 </h1>
                 <p>
-                  <Text field={props.fields?.Text} />
+                  <Text field={fields?.Text} />
                 </p>
               </div>
             </div>
             <div className="col-12 pt-lg-5 col-lg-auto">
-              {(isPageEditing || props.fields?.Link?.value?.href) && (
-                <Link field={props.fields.Link} className="button button-main" />
+              {(isPageEditing || fields?.Link?.value?.href) && (
+                <Link field={fields.Link} className="button button-main" />
               )}
             </div>
           </div>
@@ -129,29 +120,26 @@ export const PageHeading = (props: HeadingCtaProps): JSX.Element => {
   );
 };
 
-export const Centered = (props: HeadingCtaProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Centered = ({ params, fields }: HeadingCtaProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   return (
-    <div
-      className={`component heading-cta ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component heading-cta ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <div className="heading-content-wrapper mx-auto text-center">
           <h6 className="eyebrow-accent">
-            <Text field={props.fields?.Eyebrow} />
+            <Text field={fields?.Eyebrow} />
           </h6>
           <h2 className="display-4 fw-bold">
-            <Text field={props.fields?.Heading} />
+            <Text field={fields?.Heading} />
           </h2>
           <p>
-            <Text field={props.fields?.Text} />
+            <Text field={fields?.Text} />
           </p>
-          {(isPageEditing || props.fields?.Link?.value?.href) && (
-            <Link field={props.fields.Link} className="button button-main" />
+          {(isPageEditing || fields?.Link?.value?.href) && (
+            <Link field={fields.Link} className="button button-main" />
           )}
         </div>
       </div>

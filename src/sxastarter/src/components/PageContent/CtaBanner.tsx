@@ -8,7 +8,7 @@ import {
   RichText,
   Link,
   LinkField,
-  useSitecoreContext,
+  useSitecore,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
 import useVisibility from 'src/hooks/useVisibility';
@@ -30,15 +30,14 @@ export type CtaBannerProps = ComponentProps & {
   fields: Fields;
 };
 
-export const Default = (props: CtaBannerProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Default = ({ params, fields }: CtaBannerProps): JSX.Element => {
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
   const [isVisible, domRef] = useVisibility();
-
+  const { styles, RenderingIdentifier: id } = params;
   return (
     <div
-      className={`component cta-banner component-spaced ${props.params.styles.trimEnd()}`}
+      className={`component cta-banner component-spaced ${styles}`}
       id={id ? id : undefined}
       ref={domRef}
     >
@@ -46,19 +45,19 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
         <div className="container">
           <div className="row row-gap-4 main-content align-items-center">
             <div className="col-lg-6">
-              <IconAccent image={props.fields.Icon} inverted />
+              <IconAccent image={fields.Icon} inverted />
               <div className="content-wrapper">
                 <h6 className="eyebrow-accent">
-                  <Text field={props.fields.Eyebrow} />
+                  <Text field={fields.Eyebrow} />
                 </h6>
                 <h1 className="display-4 fw-bold mb-3">
-                  <Text field={props.fields.Title} />
+                  <Text field={fields.Title} />
                 </h1>
                 <div className="fs-5">
-                  <RichText field={props.fields.Text} className="text-content" />
+                  <RichText field={fields.Text} className="text-content" />
 
-                  {(isPageEditing || props.fields?.Link?.value?.href) && (
-                    <Link field={props.fields.Link} className="button button-main mt-3" />
+                  {(isPageEditing || fields?.Link?.value?.href) && (
+                    <Link field={fields.Link} className="button button-main mt-3" />
                   )}
                 </div>
               </div>
@@ -67,7 +66,7 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
               <div className="image-wrapper">
                 <DottedAccent className="dotted-accent-top" />
                 <NextImage
-                  field={props.fields.Image}
+                  field={fields.Image}
                   className={`d-block mx-lg-auto img-fluid ${
                     !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
                   }`}
@@ -84,15 +83,14 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
   );
 };
 
-export const LargeImage = (props: CtaBannerProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const LargeImage = ({ params, fields }: CtaBannerProps): JSX.Element => {
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
   const [isVisible, domRef] = useVisibility();
-
+  const { styles, RenderingIdentifier: id } = params;
   return (
     <div
-      className={`component cta-banner component-spaced with-large-image with-dotted-accents ${props.params.styles.trimEnd()}`}
+      className={`component cta-banner component-spaced with-large-image with-dotted-accents ${styles}`}
       id={id ? id : undefined}
       ref={domRef}
     >
@@ -100,19 +98,19 @@ export const LargeImage = (props: CtaBannerProps): JSX.Element => {
         <div className="row row-gap-4 main-content align-items-center">
           <div className="col-lg-6">
             <div className="content-column">
-              <IconAccent image={props.fields.Icon} inverted />
+              <IconAccent image={fields.Icon} inverted />
               <div className="content-wrapper">
                 <h6 className="eyebrow-accent">
-                  <Text field={props.fields.Eyebrow} />
+                  <Text field={fields.Eyebrow} />
                 </h6>
                 <h1 className="display-4 fw-bold mb-3">
-                  <Text field={props.fields.Title} />
+                  <Text field={fields.Title} />
                 </h1>
                 <div className="fs-5">
-                  <RichText field={props.fields.Text} className="text-content" />
+                  <RichText field={fields.Text} className="text-content" />
 
-                  {(isPageEditing || props.fields?.Link?.value?.href) && (
-                    <Link field={props.fields.Link} className="button button-main mt-3" />
+                  {(isPageEditing || fields?.Link?.value?.href) && (
+                    <Link field={fields.Link} className="button button-main mt-3" />
                   )}
                 </div>
               </div>
@@ -122,7 +120,7 @@ export const LargeImage = (props: CtaBannerProps): JSX.Element => {
             <div className="image-wrapper">
               <DottedAccent className="dotted-accent-top" />
               <NextImage
-                field={props.fields.Image}
+                field={fields.Image}
                 className={`d-block mx-lg-auto img-fluid ${
                   !isPageEditing ? `fade-section ${isVisible ? 'is-visible' : ''}` : ''
                 }`}

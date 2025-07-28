@@ -50,15 +50,12 @@ const Question = ({ item }: { item: QuestionItemProps }): JSX.Element => {
   );
 };
 
-export const Default = (props: QuestionsProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const questions = props.fields?.items;
+export const Default = ({ params, fields }: QuestionsProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const questions = fields?.items;
 
   return (
-    <div
-      className={`component questions ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component questions ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-lg-6">
@@ -81,15 +78,12 @@ export const Default = (props: QuestionsProps): JSX.Element => {
   );
 };
 
-export const SingleColumn = (props: QuestionsProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const questions = props.fields?.items;
+export const SingleColumn = ({ params, fields }: QuestionsProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const questions = fields?.items;
 
   return (
-    <div
-      className={`component questions single-column ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component questions single-column ${styles}`} id={id ? id : undefined}>
       <div className="container">
         <div className="questions-wrapper">
           {questions?.map((item) => (

@@ -1,10 +1,10 @@
 import { JSX } from 'react';
-import { useSitecoreContext } from '@sitecore-content-sdk/nextjs';
+import { useSitecore } from '@sitecore-content-sdk/nextjs';
 import { useRouter } from 'next/router';
 import React, { useCallback, useMemo, useState } from 'react';
 
 export const Default = (): JSX.Element => {
-  const { sitecoreContext } = useSitecoreContext();
+  const { page } = useSitecore();
 
   const router = useRouter();
   const { pathname, asPath, query } = router;
@@ -45,7 +45,7 @@ export const Default = (): JSX.Element => {
       onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
     >
       <span className="selected-language">
-        {availableLanguages.find((lang) => lang.code === sitecoreContext.language)?.label}
+        {availableLanguages.find((lang) => lang.code === page.locale)?.label}
       </span>
       <svg
         xmlns="http://www.w3.org/2000/svg"

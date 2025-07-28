@@ -1,5 +1,5 @@
 import { JSX } from 'react';
-import { ImageField, Image, useSitecoreContext } from '@sitecore-content-sdk/nextjs';
+import { ImageField, Image, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { ParallaxBanner } from 'react-scroll-parallax';
 
 export type ParallaxImageProps = {
@@ -7,8 +7,8 @@ export type ParallaxImageProps = {
 };
 
 export const ParallaxBackgroundImage = (props: ParallaxImageProps): JSX.Element => {
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isDesignLibrary;
 
   return isPageEditing ? (
     <Image field={props.BackgroundImage} className="background-image"></Image>

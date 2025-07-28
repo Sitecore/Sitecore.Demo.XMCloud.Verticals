@@ -16,11 +16,11 @@ export type PromoCtaProps = ComponentProps & {
   fields: Fields;
 };
 
-export const Default = (props: PromoCtaProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+export const Default = ({ params, fields }: PromoCtaProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
 
   return (
-    <div className={`component quote ${props.params.styles.trimEnd()}`} id={id ? id : undefined}>
+    <div className={`component quote ${styles}`} id={id ? id : undefined}>
       <svg
         id="Layer_2"
         data-name="Layer 2"
@@ -42,36 +42,33 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
         </g>
       </svg>
       <blockquote className="fs-1 fw-bold">
-        <Text field={props.fields.Quote} />
+        <Text field={fields.Quote} />
       </blockquote>
       <p className="author-name fs-5 mb-1">
-        <Text field={props.fields.AuthorName} />
+        <Text field={fields.AuthorName} />
       </p>
       <p className="author-position">
-        <Text field={props.fields.AuthorPosition} />
+        <Text field={fields.AuthorPosition} />
       </p>
     </div>
   );
 };
 
-export const Simple = (props: PromoCtaProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+export const Simple = ({ params, fields }: PromoCtaProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
 
   return (
-    <div
-      className={`component quote simple ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component quote simple ${styles}`} id={id ? id : undefined}>
       <div className="row gx-0">
         <div className="col-auto me-3">
-          <NextImage field={props.fields.Image} className="author-image" width={48} height={48} />
+          <NextImage field={fields.Image} className="author-image" width={48} height={48} />
         </div>
         <div className="col">
           <blockquote className="mb-0">
-            <Text field={props.fields.Quote} />
+            <Text field={fields.Quote} />
           </blockquote>
           <p className="author-name mb-0">
-            <Text field={props.fields.AuthorName} />
+            <Text field={fields.AuthorName} />
           </p>
         </div>
       </div>

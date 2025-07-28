@@ -27,7 +27,7 @@ const nextConfig = {
   // can be served from the Next.js Image Optimization API
   // see https://nextjs.org/docs/app/api-reference/components/image#remotepatterns
   images: {
-        // Disable Next.js image optimization for local development
+    // Disable Next.js image optimization for local development
     unoptimized: process.env.DISABLE_IMAGE_OPTIMIZATION === 'true',
     // Define remote patterns for images
     remotePatterns: [
@@ -45,7 +45,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'feaas*.blob.core.windows.net',
         port: '',
-      },     
+      },
     ],
   },
 

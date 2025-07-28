@@ -25,46 +25,39 @@ export type ApplicationFormProps = {
   fields: Fields;
 };
 
-export const Default = (props: ApplicationFormProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+export const Default = ({ params, fields }: ApplicationFormProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
 
   return (
-    <div
-      className={`component application-form ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component application-form ${styles}`} id={id ? id : undefined}>
       <div className="application-form-inner">
         <div className="container">
           <div className="title">
-            <Text field={props.fields?.Title} />
+            <Text field={fields?.Title} />
           </div>
           <div className="subtitle">
-            <RichText field={props.fields?.Subtitle} />
+            <RichText field={fields?.Subtitle} />
           </div>
           <input
             className="input-field"
-            defaultValue={props.fields?.FullName?.value}
+            defaultValue={fields?.FullName?.value}
             placeholder="First and Last name"
           />
           <input
             className="input-field"
-            defaultValue={props.fields?.IDNumber?.value}
+            defaultValue={fields?.IDNumber?.value}
             placeholder="ID number"
           />
+          <input className="input-field" defaultValue={fields?.Email?.value} placeholder="Email" />
           <input
             className="input-field"
-            defaultValue={props.fields?.Email?.value}
-            placeholder="Email"
-          />
-          <input
-            className="input-field"
-            defaultValue={props.fields?.MobileNumber?.value}
+            defaultValue={fields?.MobileNumber?.value}
             placeholder="Mobile number"
           />
           <div className="footnote">
-            <RichText field={props.fields?.Footnote} />
+            <RichText field={fields?.Footnote} />
           </div>
-          <Link field={props.fields.SubmitButton} className="button button-main submit-button" />
+          <Link field={fields.SubmitButton} className="button button-main submit-button" />
         </div>
       </div>
     </div>

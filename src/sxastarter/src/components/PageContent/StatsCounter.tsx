@@ -1,12 +1,6 @@
 import React from 'react';
 import { JSX } from 'react';
-import {
-  Field,
-  ImageField,
-  NextImage,
-  Text,
-  useSitecoreContext,
-} from '@sitecore-content-sdk/nextjs';
+import { Field, ImageField, NextImage, Text, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { CountUp } from 'components/NonSitecore/CountUp';
 import { DottedAccent } from 'components/NonSitecore/DottedAccent';
 
@@ -29,18 +23,15 @@ export type StatsCounterProps = {
   fields: Fields;
 };
 
-export const Default = (props: StatsCounterProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { sitecoreContext } = useSitecoreContext();
-  const isPageEditing = sitecoreContext.pageEditing;
+export const Default = ({ params, fields }: StatsCounterProps): JSX.Element => {
+  const { styles, RenderingIdentifier: id } = params;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
 
   return (
-    <div
-      className={`component stats-counter component-spaced ${props.params.styles.trimEnd()}`}
-      id={id ? id : undefined}
-    >
+    <div className={`component stats-counter component-spaced ${styles}`} id={id ? id : undefined}>
       <div className="container container-wide-fluid">
-        <NextImage field={props.fields?.Image1} className="image-left" width={300} height={300} />
+        <NextImage field={fields?.Image1} className="image-left" width={300} height={300} />
         <div className="container">
           <DottedAccent className="dotted-accent-top" />
           <div className="row gx-0">
@@ -48,57 +39,57 @@ export const Default = (props: StatsCounterProps): JSX.Element => {
               <p className="display-6 fw-bold">
                 <span>
                   {isPageEditing ? (
-                    <Text field={props.fields?.Value1} />
+                    <Text field={fields?.Value1} />
                   ) : (
-                    <CountUp value={parseInt(props.fields?.Value1.value)} />
+                    <CountUp value={parseInt(fields?.Value1.value)} />
                   )}
                 </span>
                 <span>
-                  <Text field={props.fields?.Symbol1} />
+                  <Text field={fields?.Symbol1} />
                 </span>
               </p>
               <p className="fs-5 mb-0">
-                <Text field={props.fields?.Caption1} />
+                <Text field={fields?.Caption1} />
               </p>
             </div>
             <div className="col-lg-4">
               <p className="display-6 fw-bold">
                 <span>
                   {isPageEditing ? (
-                    <Text field={props.fields?.Value2} />
+                    <Text field={fields?.Value2} />
                   ) : (
-                    <CountUp value={parseInt(props.fields?.Value2.value)} />
+                    <CountUp value={parseInt(fields?.Value2.value)} />
                   )}
                 </span>
                 <span>
-                  <Text field={props.fields?.Symbol2} />
+                  <Text field={fields?.Symbol2} />
                 </span>
               </p>
               <p className="fs-5 mb-0">
-                <Text field={props.fields?.Caption2} />
+                <Text field={fields?.Caption2} />
               </p>
             </div>
             <div className="col-lg-4">
               <p className="display-6 fw-bold">
                 <span>
                   {isPageEditing ? (
-                    <Text field={props.fields?.Value3} />
+                    <Text field={fields?.Value3} />
                   ) : (
-                    <CountUp value={parseInt(props.fields?.Value3.value)} />
+                    <CountUp value={parseInt(fields?.Value3.value)} />
                   )}
                 </span>
                 <span>
-                  <Text field={props.fields?.Symbol3} />
+                  <Text field={fields?.Symbol3} />
                 </span>
               </p>
               <p className="fs-5 mb-0">
-                <Text field={props.fields?.Caption3} />
+                <Text field={fields?.Caption3} />
               </p>
             </div>
           </div>
           <DottedAccent className="dotted-accent-bottom" />
         </div>
-        <NextImage field={props.fields?.Image2} className="image-right" width={300} height={300} />
+        <NextImage field={fields?.Image2} className="image-right" width={300} height={300} />
       </div>
     </div>
   );
