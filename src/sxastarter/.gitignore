@@ -23,3 +23,6 @@
 
 # sitecore temp files
 .sitecore
+
+# But not these files...
+!\.sitecore\component-map.ts
